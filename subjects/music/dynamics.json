@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "fff.png",
+    "term": "fortississimo",
+    "meaning": "very very loud"
+  },
+  {
+    "symbol": "ff.png",
+    "term": "fortissimo",
+    "meaning": "very loud"
+  },
+  {
+    "symbol": "f.png",
+    "term": "forte",
+    "meaning": "loud"
+  },
+  {
+    "symbol": "mf.png",
+    "term": "mezzo forte",
+    "meaning": "quite loud"
+  },
+  {
+    "symbol": "mp.png",
+    "term": "mezzo piano",
+    "meaning": "quite soft"
+  },
+  {
+    "symbol": "p.png",
+    "term": "piano",
+    "meaning": "soft"
+  },
+  {
+    "symbol": "pp.png",
+    "term": "pianissimo",
+    "meaning": "very soft"
+  },
+  {
+    "symbol": "ppp.png",
+    "term": "pianississimo",
+    "meaning": "very very soft"
+  }
+]

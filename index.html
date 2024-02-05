@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revision Games</title>
+
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="h-100">
+  <section class="welcome d-flex flex-column h-100">
+    <h1 class="welcome_title pt-5 m-0 text-center"></h1>
+    <div class="flex-grow-1">
+      <div class="games d-flex p-5 w-100 h-100">
+        <button class="game btn text-white fs-1 bg-danger" style="flex-basis: 50%">Matchup</button>
+        <button class="game btn text-white fs-1 bg-warning" style="flex-basis: 50%">Quiz</button>
+      </div>
+      <div class="topics d-flex p-5 w-100 h-100">
+        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 33.3%">Dynamics</button>
+        <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 33.3%">Melody</button>
+        <button class="topic btn text-white fs-1 bg-info" style="flex-basis: 33.3%">Articulation</button>
+      </div>
+      <div class="subjects d-flex p-5 w-100 h-100">
+        <button class="subject btn text-white fs-1 bg-danger" style="flex-basis: 100%">Music</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="match-up d-none">
+    <div class="stopwatch position-absolute top-0 fs-2 mx-4 my-2">00:00</div>
+    <div class="position-absolute d-flex align-items-center justify-content-center h-100 w-100 top-0">
+      <div class="term py-2 px-4 fs-3 position-absolutetop-0"></div>
+    </div>
+    <div class="elements"></div>
+  </section>
+
+  <section class="quiz d-none">
+    <div class="stopwatch position-absolute top-0 fs-2 mx-4 my-2">00:00</div>
+
+  </section>
+
+  <script src="matchup.js"></script>
+  <script src="quiz.js"></script>
+
+  <script>
+    function start() {
+      const subjects = document.querySelectorAll('.subject');
+      const topics = document.querySelectorAll('.topic');
+      const games = document.querySelectorAll('.game');
+
+      const sparent = document.querySelector('.subjects');
+      const tparent = document.querySelector('.topics');
+      const gparent = document.querySelector('.games');
+
+      let title = document.querySelector('.welcome_title');
+
+      let subject_chosen = "";
+      let topic_chosen = "";
+      let game_chosen = "";
+
+      title.innerHTML = "Select a topic";
+
+      sparent.classList.add('d-none');
+      gparent.classList.add('d-none');
+
+      //subjects.forEach(function (subject) {
+      //  subject.addEventListener('click', function () {
+      //    subject_chosen = subject.innerHTML;
+      //    sparent.classList.add('d-none');
+      //    tparent.classList.remove('d-none');
+      //    title.innerHTML = "Select a topic";
+      //  });
+      //});
+      topics.forEach(function (topic) {
+        topic.addEventListener('click', function () {
+          topic_chosen = topic.innerHTML;
+          tparent.classList.add('d-none');
+          gparent.classList.remove('d-none');
+          title.innerHTML = "Select a game";
+        });
+      });
+      games.forEach(function (game) {
+        game.addEventListener('click', function () {
+          game_chosen = game.innerHTML;
+          gparent.classList.add('d-none');
+          title.classList.add('d-none');
+
+          if (game_chosen == "Matchup") {
+            document.querySelector(".match-up").classList.remove('d-none');
+            startStopwatch();
+            script('Music', topic_chosen);
+          } else if (game_chosen == "Quiz") {
+
+          }
+        });
+      });
+    }
+
+    start();
+  </script>
+
+</body>
+
+</html>

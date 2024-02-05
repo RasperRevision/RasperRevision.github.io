@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "staccato.png",
+    "term": "staccato",
+    "meaning": "detached"
+  },
+  {
+    "symbol": "legato.png",
+    "term": "legato",
+    "meaning": "smooth"
+  },
+  {
+    "symbol": "pizz.png",
+    "term": "pizzicato",
+    "meaning": "plucked"
+  },
+  {
+    "symbol": "arco.png",
+    "term": "arco",
+    "meaning": "with bow"
+  },
+  {
+    "symbol": "tremolo.png",
+    "term": "tremolo",
+    "meaning": "trembling"
+  },
+  {
+    "term": "vibrato",
+    "meaning": "wobbling"
+  },
+  {
+    "term": "tonguing",
+    "meaning": "technique used by brass and wind players"
+  },
+  {
+    "symbol": "sfz.png",
+    "term": "sforzato",
+    "meaning": "emphasis"
+  },
+  {
+    "symbol": "gliss.png",
+    "term": "glissando",
+    "meaning": "a slide between distant notes"
+  },
+  {
+    "symbol": "port.png",
+    "term": "portamento",
+    "meaning": "smooth slide between notes"
+  },
+  {
+    "symbol": "accent.png",
+    "term": "accent",
+    "meaning": "emphasis"
+  },
+  {
+    "symbol": "marcato.png",
+    "term": "marcato",
+    "meaning": "marked"
+  },
+  {
+    "symbol": "tenuto.png",
+    "term": "tenuto",
+    "meaning": "hold for full length"
+  }
+]
