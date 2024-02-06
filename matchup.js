@@ -33,12 +33,14 @@ function pad(value) {
 }
 
 function script(subject, topic) {
+  console.log("Test 1 passed");
   let sym_found = false;
   let mean_found = false;
 
   fetch('subjects/' + subject + '/' + topic + '.json')
     .then(response => response.json())
     .then(data => {
+      console.log("Test 2 passed");
       if (omit.length != data.length) {
         omit.sort(function (a, b) {
           return b - a;
@@ -52,7 +54,7 @@ function script(subject, topic) {
         stopStopwatch();
         document.querySelector('.term').innerHTML = pad(m) + ':' + pad(s);
       }
-
+      
       const randomIndex = Math.floor(Math.random() * data.length);
 
       let symbol = data[randomIndex].symbol;
@@ -62,6 +64,7 @@ function script(subject, topic) {
       document.querySelector('.term').innerHTML = term;
 
       data.forEach(item => {
+        console.log("Test 3 passed");
         if (item.symbol != null) {
           const sym = document.createElement('button');
           const sym_img = document.createElement('img');
