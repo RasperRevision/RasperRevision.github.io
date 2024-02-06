@@ -37,7 +37,7 @@ function script(subject, topic) {
   let sym_found = false;
   let mean_found = false;
 
-  fetch('subjects/' + subject + '/' + topic + '.json')
+  fetch('RasperRevision.github.io/subjects/' + subject + '/' + topic + '.json')
     .then(response => response.json())
     .then(data => {
       console.log("Test 2 passed");
