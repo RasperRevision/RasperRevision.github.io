@@ -42,14 +42,14 @@
   </section>
 
   <section class="quiz d-none">
-    <div class="key_term d-block text-center p-5">Forte</div>
+    <div class="key_term d-block text-center p-5"></div>
     <div class="d-flex">
-      <button class="btn" style="flex-basis: 50% !important;">Loud</button>
-      <button class="btn" style="flex-basis: 50% !important;">Soft</button>
+      <button class="btn opt1" style="flex-basis: 50% !important;"></button>
+      <button class="btn opt2" style="flex-basis: 50% !important;"></button>
     </div>
     <div class="d-flex">
-      <button class="btn" style="flex-basis: 50% !important;">Very Loud</button>
-      <button class="btn" style="flex-basis: 50% !important;">Quite Loud</button>
+      <button class="btn opt3" style="flex-basis: 50% !important;"></button>
+      <button class="btn opt4" style="flex-basis: 50% !important;"></button>
     </div>
   </section>
 
@@ -104,6 +104,8 @@
             script("Music", topic_chosen);
           } else if (game_chosen == "Quiz") {
             document.querySelector(".quiz").classList.remove('d-none');
+            startQuizStopwatch();
+            quiz("Music", topic_chosen);
           }
         });
       });
