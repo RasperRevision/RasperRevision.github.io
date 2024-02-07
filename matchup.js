@@ -53,6 +53,7 @@ function script(subject, topic) {
         document.querySelector('.elements').style.display = 'none';
         stopStopwatch();
         document.querySelector('.term').innerHTML = pad(m) + ':' + pad(s);
+        throw new Error('hello');
       }
       
       const randomIndex = Math.floor(Math.random() * data.length);
