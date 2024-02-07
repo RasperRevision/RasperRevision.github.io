@@ -20,7 +20,7 @@
     <div class="flex-grow-1">
       <div class="games d-flex p-5 w-100 h-100">
         <button class="game btn text-white fs-1 bg-danger" style="flex-basis: 50%">Matchup</button>
-        <button class="game btn text-white fs-1 bg-danger" style="flex-basis: 50%">Quiz</button>
+        <button class="game btn text-white fs-1 bg-success" style="flex-basis: 50%">Quiz (Work in progress)</button>
       </div>
       <div class="topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 33.3%">Dynamics</button>
@@ -102,7 +102,7 @@
             document.querySelector(".match-up").classList.remove('d-none');
             startStopwatch();
             script("Music", topic_chosen);
-          } else if (game_chosen == "Quiz") {
+          } else if (game_chosen == "Quiz (Work in progress)") {
             document.querySelector(".quiz").classList.remove('d-none');
             startQuizStopwatch();
             quiz("Music", topic_chosen);
