@@ -48,7 +48,7 @@ function shuffle(array) {
   return array;
 }
 
-function script(subject, topic) {
+function quiz(subject, topic) {
   console.log("Test 1 passed");
 
   fetch('/subjects/' + subject + '/' + topic + '.json')
