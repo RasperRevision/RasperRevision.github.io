@@ -1,8 +1,9 @@
-const sect = document.querySelector('.quiz');
 const option1 = document.querySelector('.opt1');
 const option2 = document.querySelector('.opt2');
 const option3 = document.querySelector('.opt3');
 const option4 = document.querySelector('.opt4');
+
+const section = document.querySelector('.quiz');
 
 let timer;
 let stopwatch = document.querySelector('.stopwatch');
@@ -55,7 +56,7 @@ function quiz(subject, topic) {
     .then(response => response.json())
     .then(data => {
       console.log("Test 2 passed");
-      
+
       let shuffled = shuffle(data);
 
       shuffled.forEach(item => {
@@ -71,11 +72,7 @@ function quiz(subject, topic) {
           option4.innerHTML = item.meaning;
         }
       });
-
-
-
-      });
-  })
-  .catch(error => console.error('Error fetching JSON', error));
+    })
+    .catch(error => console.error('Error fetching JSON', error));
 
 }

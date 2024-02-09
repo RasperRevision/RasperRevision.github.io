@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rasper Revision</title>
 
- <link href="RasperRevision.github.io/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="RasperRevision.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" //issue here
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script> 
+    crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet">
 </head>
 
@@ -20,7 +21,7 @@
     <div class="flex-grow-1">
       <div class="games d-flex p-5 w-100 h-100">
         <button class="game btn text-white fs-1 bg-danger" style="flex-basis: 50%">Matchup</button>
-        <button class="game btn text-white fs-1 bg-success" style="flex-basis: 50%">Quiz (Work in progress)</button>
+        <button class="game btn text-white fs-1 bg-success" style="flex-basis: 50%">Quiz</button>
       </div>
       <div class="topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 33.3%">Dynamics</button>
@@ -54,6 +55,7 @@
   </section>
 
   <script src="matchup.js"></script>
+  <script src="quiz.js"></script>
 
   <script>
     function start() {
@@ -102,7 +104,7 @@
             document.querySelector(".match-up").classList.remove('d-none');
             startStopwatch();
             script("Music", topic_chosen);
-          } else if (game_chosen == "Quiz (Work in progress)") {
+          } else if (game_chosen == "Quiz") {
             document.querySelector(".quiz").classList.remove('d-none');
             startQuizStopwatch();
             quiz("Music", topic_chosen);
