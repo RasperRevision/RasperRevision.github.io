@@ -5,30 +5,30 @@ const option4 = document.querySelector('.opt4');
 
 const section = document.querySelector('.quiz');
 
-let timer;
-let stopwatch = document.querySelector('.stopwatch');
-let s = 0;
-let m = 0;
-let formattedTime;
+let qtimer;
+let qstopwatch = document.querySelector('.quiz_stopwatch');
+let qs = 0;
+let qm = 0;
+let qFormattedTime;
 
 function startQuizStopwatch() {
-  timer = setInterval(updateStopwatch, 1000);
+  qtimer = setInterval(updateStopwatch, 1000);
 }
 
 function stopStopwatch() {
-  clearInterval(timer);
+  clearInterval(qtimer);
 }
 
 function updateStopwatch() {
-  s++;
+  qs++;
 
-  if (s === 60) {
-    s = 0;
-    m++;
+  if (qs === 60) {
+    qs = 0;
+    qm++;
   }
 
-  formattedTime = pad(m) + ':' + pad(s);
-  stopwatch.innerHTML = formattedTime;
+  qFormattedTime = pad(qm) + ':' + pad(qs);
+  stopwatch.innerHTML = qFormattedTime;
 }
 
 function pad(value) {
@@ -74,5 +74,4 @@ function quiz(subject, topic) {
       });
     })
     .catch(error => console.error('Error fetching JSON', error));
-
 }
