@@ -28,7 +28,7 @@ function updateStopwatch() {
   }
 
   qFormattedTime = pad(qm) + ':' + pad(qs);
-  stopwatch.innerHTML = qFormattedTime;
+  qstopwatch.innerHTML = qFormattedTime;
 }
 
 function pad(value) {
