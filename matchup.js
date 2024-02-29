@@ -3,20 +3,20 @@ const container = document.querySelector('.elements');
 const sect = document.querySelector('.match-up');
 
 let timer;
-let stopwatch = document.querySelector('.stopwatch');
+let matchupStopwatch = document.querySelector('.stopwatch');
 let s = 0;
 let m = 0;
 let formattedTime;
 
-function startStopwatch() {
-  timer = setInterval(updateStopwatch, 1000);
+function startMatchupStopwatch() {
+  timer = setInterval(updateMatchupStopwatch, 1000);
 }
 
-function stopStopwatch() {
+function stopMatchupStopwatch() {
   clearInterval(timer);
 }
 
-function updateStopwatch() {
+function updateMatchupStopwatch() {
   s++;
 
   if (s === 60) {
@@ -25,7 +25,7 @@ function updateStopwatch() {
   }
 
   formattedTime = pad(m) + ':' + pad(s);
-  stopwatch.innerHTML = formattedTime;
+  matchupStopwatch.innerHTML = formattedTime;
 }
 
 function pad(value) {
@@ -33,14 +33,12 @@ function pad(value) {
 }
 
 function script(subject, topic) {
-  console.log("Test 1 passed");
   let sym_found = false;
   let mean_found = false;
 
   fetch('/subjects/' + subject + '/' + topic + '.json')
     .then(response => response.json())
     .then(data => {
-      console.log("Test 2 passed");
       if (omit.length != data.length) {
         omit.sort(function (a, b) {
           return b - a;
@@ -51,12 +49,12 @@ function script(subject, topic) {
         })
       } else {
         document.querySelector('.elements').style.display = 'none';
-        stopStopwatch();
+        stopMatchupStopwatch();
         document.querySelector('.term').innerHTML = pad(m) + ':' + pad(s);
-        stopwatch.classList.add('d-none');
+        matchupStopwatch.classList.add('d-none');
         throw new Error('hello');
       }
-      
+
       const randomIndex = Math.floor(Math.random() * data.length);
 
       let symbol = data[randomIndex].symbol;
@@ -66,7 +64,6 @@ function script(subject, topic) {
       document.querySelector('.term').innerHTML = term;
 
       data.forEach(item => {
-        console.log("Test 3 passed");
         if (item.symbol != null) {
           const sym = document.createElement('button');
           const sym_img = document.createElement('img');

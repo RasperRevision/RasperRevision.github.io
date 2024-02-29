@@ -42,17 +42,20 @@
     <div class="elements"></div>
   </section>
 
-  <section class="quiz d-none">
+  <section class="quiz d-none w-100 h-100">
     <div class="quiz_stopwatch position-absolute top-0 fs-2 mx-4 my-2">00:00</div>
-    <div class="key_term d-block text-center p-5"></div>
-    <div class="d-flex">
-      <button class="btn opt1" style="flex-basis: 50% !important;"></button>
-      <button class="btn opt2" style="flex-basis: 50% !important;"></button>
+    <div class="quiz_content position-absolute left-0 right-0 w-100 top-0">
+      <div class="key_term d-block text-center p-5"></div>
+      <div class="d-flex">
+        <button class="btn opt1" style="flex-basis: 50% !important;"></button>
+        <button class="btn opt2" style="flex-basis: 50% !important;"></button>
+      </div>
+      <div class="d-flex">
+        <button class="btn opt3" style="flex-basis: 50% !important;"></button>
+        <button class="btn opt4" style="flex-basis: 50% !important;"></button>
+      </div>
     </div>
-    <div class="d-flex">
-      <button class="btn opt3" style="flex-basis: 50% !important;"></button>
-      <button class="btn opt4" style="flex-basis: 50% !important;"></button>
-    </div>
+
   </section>
 
   <script src="matchup.js"></script>
@@ -103,7 +106,7 @@
 
           if (game_chosen == "Matchup") {
             document.querySelector(".match-up").classList.remove('d-none');
-            startStopwatch();
+            startMatchupStopwatch();
             script("Music", topic_chosen);
           } else if (game_chosen == "Quiz") {
             document.querySelector(".quiz").classList.remove('d-none');
