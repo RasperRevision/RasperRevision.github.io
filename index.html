@@ -59,11 +59,23 @@
 
   </section>
 
-  <section class="position-absolute overlay_items top-0 bottom-0">
-    <button class="btn btn-link">
+  <div class="position-absolute top-0 end-0 mt-3 me-3">
+    <button class="btn btn-light" id="sidebarToggle">
       <i class="bi bi-list" style="font-size:2rem;color:black"></i>
+      <i class="bi bi-x d-none" style="font-size:2rem;color:black"></i>
     </button>
-  </section>
+  </div>
+
+  <div class="d-flex" id="wrapper">
+    <div class="bg-dark" id="sidebar">
+      <div class="sidebar-heading">Rasper Revision</div>
+      <div class="list-group list-group-flush">
+        <a href="/" class="list-group-item">Activities</a>
+        <a href="/about" class="list-group-item">About</a>
+        <a href="/contact" class="list-group-item">Contact</a>
+      </div>
+    </div>
+  </div>
 
   <script src="matchup.js"></script>
   <script src="quiz.js"></script>
@@ -86,17 +98,28 @@
 
       title.innerHTML = "Select a topic";
 
-      sparent.classList.add('d-none');
+      document.getElementById('sidebarToggle').addEventListener('click', function () {
+        document.getElementById('sidebar').classList.toggle('active');
+        if (document.querySelector('.bi-list').classList.contains('d-none')) {
+          document.querySelector('.bi-list').classList.remove('d-none');
+          document.querySelector('.bi-x').classList.add('d-none');
+        } else {
+          document.querySelector('.bi-x').classList.remove('d-none');
+          document.querySelector('.bi-list').classList.add('d-none');
+        }
+      });
+
+      tparent.classList.add('d-none');
       gparent.classList.add('d-none');
 
-      //subjects.forEach(function (subject) {
-      //  subject.addEventListener('click', function () {
-      //    subject_chosen = subject.innerHTML;
-      //    sparent.classList.add('d-none');
-      //    tparent.classList.remove('d-none');
-      //    title.innerHTML = "Select a topic";
-      //  });
-      //});
+      subjects.forEach(function (subject) {
+        subject.addEventListener('click', function () {
+          subject_chosen = subject.innerHTML;
+          sparent.classList.add('d-none');
+          tparent.classList.remove('d-none');
+          title.innerHTML = "Select a topic";
+        });
+      });
       topics.forEach(function (topic) {
         topic.addEventListener('click', function () {
           topic_chosen = topic.innerHTML;
@@ -114,11 +137,11 @@
           if (game_chosen == "Matchup") {
             document.querySelector(".match-up").classList.remove('d-none');
             startMatchupStopwatch();
-            script("Music", topic_chosen);
+            script(subject_chosen, topic_chosen);
           } else if (game_chosen == "Quiz") {
             document.querySelector(".quiz").classList.remove('d-none');
             startQuizStopwatch();
-            quiz("Music", topic_chosen);
+            quiz(subject_chosen, topic_chosen);
           }
         });
       });
