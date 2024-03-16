@@ -10,5 +10,209 @@
   {
     "term": "World Wide Web",
     "meaning": "An information system storing web pages and data, accessed using a web browser"
-  }
+  },
+    {
+        "term": "Wide Area Network",
+        "meaning": "A network using cables supplied by a third-party carrier such as BT, spanning a large geographic area"
+    },
+    {
+        "term": "IP address",
+        "meaning": "Four 8-bit numbers separated by dots, corresponding to a geographical location"
+    },
+    {
+        "term": "Packet switching",
+        "meaning": "The process of dividing data into packets, assigning them a header and routing them to the desination along the fastest available route."
+    },
+    {
+        "term": "Packet",
+        "meaning": "A 512 byte unit of data that is sent over a network"
+    },
+    {
+        "term": "Node",
+        "meaning": "A point on a network diagram"
+    },
+    {
+        "term": "Router",
+        "meaning": "A type of node that forwards data packets to where they need to go"
+    },
+    {
+        "term": "MAC address",
+        "meaning": "A unique identifier for a network interface card"
+    },
+    {
+        "term": "WLAN",
+        "meaning": "A local area network that uses radio waves to transmit data wirelessly"
+    },
+    {
+        "term": "Network Interface Card",
+        "meaning": "A device inside a computer that allows for a wired network connection"
+    },
+    {
+        "term": "Wireless Access Point",
+        "meaning": "A device that provides a radio signal for wireless devices to connect to"
+    },
+    {
+        "term": "Wireless NIC",
+        "meaning": "A type of NIC built into every networked device capable of connecting to a wireless network"
+    },
+    {
+        "term": "Local Area Network",
+        "meaning": "A type of network over a small geographical location using cables owned by a single organisation."
+    },
+    {
+        "term": "Network topology",
+        "meaning": "The arrangement of nodes on a network"
+    },
+    {
+        "term": "Bus topology",
+        "meaning": "A network topology where all nodes connect to one long cable, with a terminator at the start and end"
+    },
+    {
+        "term": "Star topology",
+        "meaning": "A network topology where all nodes are connected to a central hub"
+    },
+    {
+        "term": "Ethernet",
+        "meaning": "A family of standard networking protocols that governs the transfer of data on a wired network"
+    },
+    {
+        "term": "Frame",
+        "meaning": "A unit of data that is sent over a network using Ethernet protocols"
+    },
+    {
+        "term": "Copper cable",
+        "meaning": "An inexpensive cable using electrical signals to transmit data. Relatively slow"
+    },
+    {
+        "term": "Fiber optic cable",
+        "meaning": "A cable using light to transmit data. Very fast"
+    },
+    {
+        "term": "Personal Area Network",
+        "meaning": "A wireless network that connects computer devices near a person, usually using Bluetooth"
+    },
+    {
+        "term": "Network security",
+        "meaning": "The protection of data and systems from unauthorized access"
+    },
+    {
+        "term": "Encryption",
+        "meaning": "The process of converting data into ciphertext, so only those with the key can read it"
+    },
+    {
+        "term": "Plaintext",
+        "meaning": "The original data, before it has been encrypted"
+    },
+    {
+        "term": "Ciphertext",
+        "meaning": "The encrypted data"
+    },
+    {
+        "term": "Key",
+        "meaning": "A sequence of characters used to encrypt and decrypt data."
+    },
+    {
+        "term": "Private key",
+        "meaning": "A key that is used to decrypt data - must be given to the intended recipient"
+    },
+    {
+        "term": "Public key",
+        "meaning": "A key that is used to encrypt data in asymmetric encryption"
+    },
+    {
+        "term": "Wired Equivavalent Privacy",
+        "meaning": "A network security standard that can be cracked in seconds using today's technology. Insecure"
+    },
+    {
+        "term": "Wi-Fi Protected Access",
+        "meaning": "A network security standard that is more secure than WEP, but still insecure."
+    },
+    {
+        "term": "WPA2",
+        "meaning": "A network security standard that would take hundreds of years to crack with today's technology. Secure"
+    },
+    {
+        "term": "Strong encryption",
+        "meaning": "When the useful lifetime of the encrypted data is less than the time taken to break the code"
+    },
+    {
+        "term": "Weak encryption",
+        "meaning": "When the code may be broken in time to use the data but wouldn't be worth the effort"
+    },
+    {
+        "term": "Authentication",
+        "meaning": "The process of verifying that a user and the device they are using have access to the data on the network."
+    },
+    {
+        "term": "Firewall",
+        "meaning": "Separates a trusted network from an untrusted network - usually built into hardware"
+    },
+    {
+        "term": "Packet filter",
+        "meaning": "A filter that drops packets that don't meet filtering rules"
+    },
+    {
+        "term": "MAC address filtering",
+        "meaning": "A filter that can be configured on a wireless router to block access to certain MAC addresses"
+    },
+    {
+        "term": "Network Protocol",
+        "meaning": "A set of rules that govern how data is transferred over a network"
+    },
+    {
+        "term": "Hypertext Transfer Protocol",
+        "meaning:": "A network protocol that is used to process and receive web pages"
+    },
+    {
+        "term": "Hypertext Transfer Protocol Secure",
+        "meaning": "Similar to HTTP, but encrypts the data so an eavesdropper can not understand it"
+    },
+    {
+        "term": "File Transfer Protocol",
+        "meaning": "A protocol used for sending files to or from an FTP server"
+    },
+    {
+        "term": "Simple Mail Transfer Protocol",
+        "meaning": "A protocol used for sending emails to a mail server"
+    },
+    {
+        "term": "Post-Office Protocol",
+        "meaning": "A protocol for accessing emails that automatically downloads them to the user's computer and deletes them from the mail server"
+    },
+    {
+        "term": "Internet Message Access Protocol",
+        "meaning": "A protocol used for accessing emails that leaves them on the mail server, where the user can access it at any time, from any device"
+    },
+    {
+        "term": "Transmission Control Protocol",
+        "meaning": "A protocol that breaks up data sent over the Internet into packets"
+    },
+    {
+        "term": "Internet Protocol",
+        "meaning": "A protocol that routes packets from the source IP address to the destination IP address"
+    },
+    {
+        "term": "TCP/IP protocol stack",
+        "meaning": "A protocol stack that defines four layers that enable communication over the Internet"
+    },
+    {
+        "term": "Application layer",
+        "meaning": "The layer that defines the application protocols that are used to transfer data such as HTTP and SMTP"
+    },
+    {
+        "term": "Transport layer",
+        "meaning": "The layer that creates a connection between two computers, deciding on the number of packets in the communication, using protcols such as TCP and UDP"
+    },
+    {
+        "term": "Internet layer",
+        "meaning": "The layer that routes packets to the destination using the Internet Protocol"
+    },
+    {
+        "term": "Link layer",
+        "meaning": "The layer containing network hardware, including NICs, cables and Wi-Fi"
+    },
+    {
+        "term": "User Datagram Protocol",
+        "meaning": "A protocol that maintains an open stream of data between two computers, sending packets without checking if they are correct. Unreliable, but its speed is useful for gaming and streaming"
+    }
 ]
