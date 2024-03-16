@@ -66,7 +66,7 @@
     ]
   },
   {
-    "quote": "Look like the innocent flower, but be the serpent under it.",
+    "quote": "Look like the innocent flower, but be the serpent under't.",
     "themes": [
       "appearance v reality"
     ]
@@ -95,7 +95,8 @@
   {
     "quote": "I am afraid to think what I have done; look on't again I dare not.",
     "themes": [
-      "guilt"
+      "guilt",
+      "fear"
     ]
   },
   {

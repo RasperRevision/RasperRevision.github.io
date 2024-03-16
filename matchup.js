@@ -8,13 +8,9 @@ let s = 0;
 let m = 0;
 let formattedTime;
 
-function startMatchupStopwatch() {
-  timer = setInterval(updateMatchupStopwatch, 1000);
-}
+function startMatchupStopwatch() { timer = setInterval(updateMatchupStopwatch, 1000); }
 
-function stopMatchupStopwatch() {
-  clearInterval(timer);
-}
+function stopMatchupStopwatch() { clearInterval(timer); }
 
 function updateMatchupStopwatch() {
   s++;
@@ -28,9 +24,7 @@ function updateMatchupStopwatch() {
   matchupStopwatch.innerHTML = formattedTime;
 }
 
-function pad(value) {
-  return value < 10 ? '0' + value : value;
-}
+function pad(value) { return value < 10 ? '0' + value : value; }
 
 function script(subject, topic) {
   let sym_found = false;
@@ -40,13 +34,8 @@ function script(subject, topic) {
     .then(response => response.json())
     .then(data => {
       if (omit.length != data.length) {
-        omit.sort(function (a, b) {
-          return b - a;
-        });
-
-        omit.forEach(item => {
-          data.splice(item, 1);
-        })
+        omit.sort(function (a, b) { return b - a; });
+        omit.forEach(item => { data.splice(item, 1); })
       } else {
         document.querySelector('.elements').style.display = 'none';
         stopMatchupStopwatch();
@@ -79,14 +68,10 @@ function script(subject, topic) {
 
           sym.addEventListener('click', function () {
             if (mean_found && sym_text == symbol) {
-              while (container.firstChild) {
-                container.removeChild(container.firstChild);
-              }
+              while (container.firstChild) { container.removeChild(container.firstChild); }
               omit.push(randomIndex);
               script(subject, topic);
-            } else if (sym_text == symbol) {
-              sym_found = true;
-            }
+            } else if (sym_text == symbol) { sym_found = true; }
           })
 
           document.querySelector('.elements').appendChild(sym);
@@ -105,26 +90,20 @@ function script(subject, topic) {
 
         mean.addEventListener('click', function () {
           if (sym_found && mean.innerHTML == meaning) {
-            while (container.firstChild) {
-              container.removeChild(container.firstChild);
-            }
+            while (container.firstChild) { container.removeChild(container.firstChild); }
             omit.push(randomIndex);
             script(subject, topic);
           } else if (mean.innerHTML == meaning) {
             mean_found = true;
             if (item.symbol == null) {
-              while (container.firstChild) {
-                container.removeChild(container.firstChild);
-              }
+              while (container.firstChild) { container.removeChild(container.firstChild); }
               omit.push(randomIndex);
               script(subject, topic);
             }
           }
         })
-
         document.querySelector('.elements').appendChild(mean);
       });
     })
     .catch(error => console.error('Error fetching JSON', error));
-
 }
