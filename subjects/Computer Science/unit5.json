@@ -2,5 +2,13 @@
   {
     "term": "Computer network",
     "meaning": "Two or more computers connected for the purpose of communication"
+  },
+  {
+    "term": "Internet",
+    "meaning": "A group of interconnected networks"
+  },
+  {
+    "term": "World Wide Web",
+    "meaning": "An information system storing web pages and data, accessed using a web browser"
   }
 ]
