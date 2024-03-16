@@ -21,16 +21,25 @@
     <h1 class="welcome_title pt-5 m-0 text-center"></h1>
     <div class="flex-grow-1">
       <div class="games d-flex p-5 w-100 h-100">
-        <button class="game btn text-white fs-1 bg-danger" style="flex-basis: 50%">Matchup</button>
-        <button class="game btn text-white fs-1 bg-success" style="flex-basis: 50%">Quiz</button>
+        <button class="game btn text-white fs-1 bg-danger game-matchup" style="flex-basis: 100%">Matchup</button>
+        <button class="game btn text-white fs-1 bg-success game-quiz" style="flex-basis: 100%">Quiz</button>
+        <button class="game btn text-white fs-1 bg-info game-blank" style="flex-basis: 100%">Fill in the Blank</button>
       </div>
-      <div class="topics d-flex p-5 w-100 h-100">
-        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 33.3%">Dynamics</button>
-        <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 33.3%">Melody</button>
-        <button class="topic btn text-white fs-1 bg-info" style="flex-basis: 33.3%">Articulation</button>
+
+      <div class="music-topics d-flex p-5 w-100 h-100">
+        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Dynamics</button>
+        <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 100%">Melody</button>
+        <button class="topic btn text-white fs-1 bg-info" style="flex-basis: 100%">Articulation</button>
       </div>
+
+      <div class="english-lit-topics d-flex p-5 w-100 h-100">
+        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Macbeth quotes</button>
+        <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 100%">A Christmas Carol quotes</button>
+      </div>
+
       <div class="subjects d-flex p-5 w-100 h-100">
         <button class="subject btn text-white fs-1 bg-danger" style="flex-basis: 100%">Music</button>
+        <button class="subject btn text-white fs-1 bg-info" style="flex-basis: 100%">English Literature</button>
       </div>
     </div>
   </section>
@@ -86,9 +95,14 @@
       const topics = document.querySelectorAll('.topic');
       const games = document.querySelectorAll('.game');
 
-      const sparent = document.querySelector('.subjects');
-      const tparent = document.querySelector('.topics');
-      const gparent = document.querySelector('.games');
+      const subject_parent = document.querySelector('.subjects');
+      const music_topic_parent = document.querySelector('.music-topics');
+      const english_lit_topic_parent = document.querySelector('.english-lit-topics');
+      const game_parent = document.querySelector('.games');
+
+      const matchup_game = document.querySelector('.game-matchup');
+      const quiz_game = document.querySelector('.game-quiz');
+      const blank_game = document.querySelector('.game-blank');
 
       let title = document.querySelector('.welcome_title');
 
@@ -109,30 +123,47 @@
         }
       });
 
-      tparent.classList.add('d-none');
-      gparent.classList.add('d-none');
+      music_topic_parent.classList.add('d-none');
+      english_lit_topic_parent.classList.add('d-none');
+      game_parent.classList.add('d-none');
 
       subjects.forEach(function (subject) {
         subject.addEventListener('click', function () {
           subject_chosen = subject.innerHTML;
-          sparent.classList.add('d-none');
-          tparent.classList.remove('d-none');
+          subject_parent.classList.add('d-none');
           title.innerHTML = "Select a topic";
+          if (subject_chosen == "Music") {
+            music_topic_parent.classList.remove('d-none');
+          } else if (subject_chosen == "English Literature") {
+            english_lit_topic_parent.classList.remove('d-none');
+          }
         });
       });
       topics.forEach(function (topic) {
         topic.addEventListener('click', function () {
           topic_chosen = topic.innerHTML;
-          tparent.classList.add('d-none');
-          gparent.classList.remove('d-none');
           title.innerHTML = "Select a game";
+          game_parent.classList.remove('d-none');
+          if (subject_chosen == "Music") {
+            music_topic_parent.classList.add('d-none');
+          } else if (subject_chosen == "English Literature") {
+            english_lit_topic_parent.classList.add('d-none');
+            if (topic_chosen == "Macbeth quotes") {
+              matchup_game.classList.add('d-none');
+              quiz_game.classList.add('d-none');
+            } else if (topic_chosen == "A Christmas Carol quotes") {
+              matchup_game.classList.add('d-none');
+              quiz_game.classList.add('d-none');
+            }
+          }
         });
       });
       games.forEach(function (game) {
         game.addEventListener('click', function () {
           game_chosen = game.innerHTML;
-          gparent.classList.add('d-none');
+          game_parent.classList.add('d-none');
           title.classList.add('d-none');
+
 
           if (game_chosen == "Matchup") {
             document.querySelector(".match-up").classList.remove('d-none');
@@ -142,10 +173,16 @@
             document.querySelector(".quiz").classList.remove('d-none');
             startQuizStopwatch();
             quiz(subject_chosen, topic_chosen);
+          } else if (game_chosen == "Fill in the Blank") {
+            console.log("yes");
+            var jsonFile = (topic_chosen == "Macbeth quotes") ? 'macbeth.json' : 'christmas_carol.json';
+
+            window.location.href = '/matchup?json=' + encodeURIComponent(jsonFile);
           }
         });
       });
     }
+
 
     start();
   </script>

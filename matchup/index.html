@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Masking Game</title>
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body class="bg-light d-flex align-items-center justify-content-center p-0 m-0">
+  <div class="container w-100 bg-white">
+    <h3 class="mb-4">Complete the quotation</h3>
+    <div class="fw-bold" id="themes"></div>
+    <div class="fs-5 mb-4" id="quote"></div>
+
+    <input class="form-control p-2 mb-3" type="text" id="input" placeholder="Enter your guess" autocomplete="off">
+
+    <button class="btn btn-success" id="submit-btn">Submit</button>
+    <button class="btn btn-warning d-none" id="next-btn">Next</button>
+
+    <div class="my-2" id="result"></div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
+      function loadJSON(callback) {
+        var jsonFile = getParameterByName('json');
+        console.log('JSON file:', jsonFile);
+        var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', jsonFile, true);
+        xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == 200) {
+            callback(JSON.parse(xobj.responseText));
+          }
+        };
+        xobj.send(null);
+      }
+
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      const themesElement = document.getElementById("themes");
+      const quoteElement = document.getElementById("quote");
+      const inputElement = document.getElementById("input");
+      const submitButton = document.getElementById("submit-btn");
+      const nextButton = document.getElementById("next-btn");
+      const resultElement = document.getElementById("result");
+
+      let quotes;
+      let shuffledQuotes;
+      let currentQuoteIndex = 0;
+
+      function displayQuote() {
+        const quoteObj = shuffledQuotes[currentQuoteIndex];
+        const themesTitleCase = quoteObj.themes.map(theme => toTitleCase(theme));
+        themesElement.textContent = `${themesTitleCase.join(", ")}`;
+        quoteElement.textContent = maskQuote(quoteObj.quote);
+      }
+
+      function toTitleCase(str) {
+        return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+      }
+
+
+      function maskQuote(quote) {
+        return quote.replace(/\b\w+(?:['’]\w+)?|[^\s]/g, match => {
+          if (match.trim() === "") return match;
+          if (/[^a-zA-Z]/.test(match)) return match;
+          if (Math.random() < 0.4) return "_".repeat(match.length);
+          else return match;
+        });
+      }
+
+      function checkInput() {
+        const userGuess = inputElement.value.trim();
+        const actualQuote = shuffledQuotes[currentQuoteIndex].quote;
+        resultElement.textContent = (userGuess.toLowerCase() === actualQuote.toLowerCase()) ? "Correct" : "Incorrect! The correct quote is: " + actualQuote;
+        submitButton.classList.add('d-none');
+        nextButton.classList.remove('d-none');
+      }
+
+      function nextQuote() {
+        currentQuoteIndex++;
+        if (currentQuoteIndex >= shuffledQuotes.length) {
+          currentQuoteIndex = 0;
+          shuffledQuotes = shuffle([...quotes]);
+        }
+        inputElement.value = "";
+        resultElement.textContent = "";
+        submitButton.classList.remove('d-none');
+        nextButton.classList.add('d-none');
+        displayQuote();
+      }
+
+      submitButton.addEventListener("click", function () { checkInput(); });
+      nextButton.addEventListener("click", function () { nextQuote(); });
+
+      inputElement.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+          event.preventDefault();
+          checkInput();
+        }
+      });
+
+      loadJSON(function (response) {
+        quotes = response;
+        shuffledQuotes = shuffle([...quotes]);
+        console.log(shuffledQuotes);
+        displayQuote();
+      });
+    });
+
+  </script>
+</body>
+
+</html>
