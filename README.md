@@ -12,6 +12,6 @@ The following games are available:
 
 | Subject | Matchup | Quiz | Fill in the blank |
 | :---        |    :----:   |    :----:   |    :----:   |
-| Computer Science | ✓ | ✓ | X |
+| Computer Science | X | ✓ | X |
 | English Lit | X | X | ✓ |
 | Music | ✓ | ✓ | X |
