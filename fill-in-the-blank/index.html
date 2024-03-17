@@ -105,8 +105,8 @@
 
       function checkInput() {
         const userGuess = removePunctuation(inputElement.value.trim());
-        const actualQuote = removePunctuation(shuffledQuotes[currentQuoteIndex].quote);
-        resultElement.textContent = (userGuess.toLowerCase() === actualQuote.toLowerCase()) ? "Correct!" : "Incorrect. The correct quote is: " + actualQuote;
+        const actualQuote = shuffledQuotes[currentQuoteIndex].quote;
+        resultElement.textContent = (userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase())) ? "Correct!" : "Incorrect. The correct quote is: " + actualQuote;
         submitButton.classList.add('d-none');
         nextButton.classList.remove('d-none');
       }
