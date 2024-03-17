@@ -42,8 +42,7 @@
       function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-          results = regex.exec(url);
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
         if (!results) return null;
         if (!results[2]) return '';
         return decodeURIComponent(results[2].replace(/\+/g, " "));
@@ -56,9 +55,7 @@
         xobj.overrideMimeType("application/json");
         xobj.open('GET', jsonFile, true);
         xobj.onreadystatechange = function () {
-          if (xobj.readyState == 4 && xobj.status == 200) {
-            callback(JSON.parse(xobj.responseText));
-          }
+          if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
         };
         xobj.send(null);
       }
@@ -93,9 +90,8 @@
         return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
       }
 
-
       function maskQuote(quote) {
-        return quote.replace(/\b\w+(?:['’]\w+)?|[^\s]/g, match => {
+        return quote.replace(/\b\w+(?:[']\w+)?|[^\s]/g, match => {
           if (match.trim() === "") return match;
           if (/[^a-zA-Z]/.test(match)) return match;
           if (Math.random() < 0.4) return "_".repeat(match.length);
@@ -103,10 +99,14 @@
         });
       }
 
+      function removePunctuation(text) {
+        return text.replace(/[.,\/#!$%\^&\*;:{}=\-_~()]/g, "").replace(/\s{2,}/g, " ");
+      }
+
       function checkInput() {
-        const userGuess = inputElement.value.trim();
-        const actualQuote = shuffledQuotes[currentQuoteIndex].quote;
-        resultElement.textContent = (userGuess.toLowerCase() === actualQuote.toLowerCase()) ? "Correct" : "Incorrect! The correct quote is: " + actualQuote;
+        const userGuess = removePunctuation(inputElement.value.trim());
+        const actualQuote = removePunctuation(shuffledQuotes[currentQuoteIndex].quote);
+        resultElement.textContent = (userGuess.toLowerCase() === actualQuote.toLowerCase()) ? "Correct!" : "Incorrect. The correct quote is: " + actualQuote;
         submitButton.classList.add('d-none');
         nextButton.classList.remove('d-none');
       }
@@ -130,7 +130,8 @@
       inputElement.addEventListener("keypress", function (event) {
         if (event.key === "Enter") {
           event.preventDefault();
-          checkInput();
+          if (nextButton.classList.contains('d-none')) { checkInput(); }
+          else { nextQuote(); }
         }
       });
 
