@@ -106,6 +106,7 @@
         const userGuess = removePunctuation(inputElement.value.trim());
         const actualQuote = shuffledQuotes[currentQuoteIndex].quote;
         resultElement.textContent = (userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase())) ? "Correct!" : "Incorrect. The correct quote is: " + actualQuote;
+        resultElement.classList.add((userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase())) ? 'alert-success' : 'alert-danger');
         submitButton.classList.add('d-none');
         nextButton.classList.remove('d-none');
       }
