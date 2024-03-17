@@ -41,6 +41,10 @@
         <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 100%">A Christmas Carol quotes</button>
       </div>
 
+      <div class="german-topics d-flex p-5 w-100 h-100">
+        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Daily life, food and drink</button>
+      </div>
+
       <div class="subjects d-flex p-5 w-100 h-100">
         <div class="row">
           <button class="subject btn text-white fs-1 bg-warning" style="flex-basis: 100%">Computer Science</button>
@@ -109,6 +113,7 @@
       const music_topic_parent = document.querySelector('.music-topics');
       const english_lit_topic_parent = document.querySelector('.english-lit-topics');
       const compsci_topic_parent = document.querySelector('.compsci-topics');
+      const german_topic_parent = document.querySelector('.german-topics');
       const game_parent = document.querySelector('.games');
 
       const matchup_game = document.querySelector('.game-matchup');
@@ -151,6 +156,8 @@
             english_lit_topic_parent.classList.remove('d-none');
           } else if (subject_chosen == "Computer Science") {
             compsci_topic_parent.classList.remove('d-none');
+          } else if (subject_chosen == "German") {
+            german_topic_parent.classList.remove('d-none');
           }
         });
       });
@@ -177,6 +184,13 @@
               blank_game.classList.add('d-none');
               matchup_game.classList.add('d-none');
               topic_chosen = "unit5";
+            }
+          } else if (subject_chosen == "German") {
+            german_topic_parent.classList.add('d-none');
+            if (topic_chosen == "Daily life, food and drink") {
+              blank_game.classList.add('d-none');
+              matchup_game.classList.add('d-none');
+              topic_chosen = "daily-life-food-drink";
             }
           }
         });
