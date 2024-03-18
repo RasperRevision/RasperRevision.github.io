@@ -15,3 +15,4 @@ The following games are available:
 | Computer Science | X | ✓ | X |
 | English Lit | X | X | ✓ |
 | Music | ✓ | ✓ | X |
+| German | X | ✓ | X |
