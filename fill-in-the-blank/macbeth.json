@@ -1,6 +1,6 @@
 [
   {
-    "quote": "Fair is foul, and foul is fair",
+    "quote": "Fair is foul, and foul is fair: / Hover through the fog and filthy air.",
     "themes": [
       "supernatural",
       "paradox",
@@ -8,16 +8,28 @@
     ]
   },
   {
-    "quote": "Brave Macbeth - well he deserves that name",
+    "quote": "but all's too weak: For / brave Macbeth - well he deserves that name",
     "themes": [
       "bravery"
     ]
   },
   {
-    "quote": "unseamed him from the nave to th' chops",
+    "quote": "unseam'd him from the nave to the chaps",
     "themes": [
       "bravery",
       "violence"
+    ]
+  },
+  {
+    "quote": "What he hath lost noble Macbeth hath won.",
+    "themes": [
+      "ambition"
+    ]
+  },
+  {
+    "quote": "A drum, a drum! / Macbeth doth come.",
+    "themes": [
+      "supernatural"
     ]
   },
   {
@@ -26,6 +38,12 @@
       "supernatural",
       "paradox",
       "appearance v reality"
+    ]
+  },
+  {
+    "quote": "you should be women, and yet your beards / forbid me to interpret that you are so.",
+    "thenes": [
+      "supernatural"
     ]
   },
   {
