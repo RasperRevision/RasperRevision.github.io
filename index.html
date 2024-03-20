@@ -119,7 +119,7 @@
       const english_lit_topic_parent = document.querySelector('.english-lit-topics');
       const compsci_topic_parent = document.querySelector('.compsci-topics');
       const german_topic_parent = document.querySelector('.german-topics');
-      const history_topic_parent = document.querySelector('.german-topics');
+      const history_topic_parent = document.querySelector('.history-topics');
       const game_parent = document.querySelector('.games');
 
       const matchup_game = document.querySelector('.game-matchup');
@@ -216,7 +216,6 @@
           game_chosen = game.innerHTML;
           game_parent.classList.add('d-none');
           title.classList.add('d-none');
-
 
           if (game_chosen == "Matchup") {
             document.querySelector(".match-up").classList.remove('d-none');
