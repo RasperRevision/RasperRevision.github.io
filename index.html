@@ -31,6 +31,10 @@
         <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 100%">Melody</button>
         <button class="topic btn text-white fs-1 bg-info" style="flex-basis: 100%">Articulation</button>
       </div>
+      
+      <div class="history-topics d-flex p-5 w-100 h-100">
+        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Cold War</button>
+      </div>
 
       <div class="compsci-topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Unit 5</button>
@@ -49,6 +53,7 @@
         <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
           <button class="subject btn text-white fs-1 bg-warning" style="flex-basis: 100%">Computer Science</button>
           <button class="subject btn text-white fs-1 bg-info" style="flex-basis: 100%">English Literature</button>
+          <button class="subject btn text-white fs-1 bg-secondary" style="flex-basis: 100%">History</button>
         </div>
         <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
           <button class="subject btn text-white fs-1 bg-danger" style="flex-basis: 100%">Music</button>
@@ -114,6 +119,7 @@
       const english_lit_topic_parent = document.querySelector('.english-lit-topics');
       const compsci_topic_parent = document.querySelector('.compsci-topics');
       const german_topic_parent = document.querySelector('.german-topics');
+      const history_topic_parent = document.querySelector('.german-topics');
       const game_parent = document.querySelector('.games');
 
       const matchup_game = document.querySelector('.game-matchup');
@@ -142,6 +148,7 @@
       music_topic_parent.classList.add('d-none');
       english_lit_topic_parent.classList.add('d-none');
       german_topic_parent.classList.add('d-none');
+      history_topic_parent.classList.add('d-none');
       compsci_topic_parent.classList.add('d-none');
 
       game_parent.classList.add('d-none');
@@ -159,6 +166,8 @@
             compsci_topic_parent.classList.remove('d-none');
           } else if (subject_chosen == "German") {
             german_topic_parent.classList.remove('d-none');
+          } else if (subject_chosen == "History") {
+            history_topic_parent.classList.remove('d-none');
           }
         });
       });
@@ -192,6 +201,12 @@
               blank_game.classList.add('d-none');
               matchup_game.classList.add('d-none');
               topic_chosen = "daily-life-food-drink";
+            }
+          } else if (subject_chosen == "History") {
+            history_topic_parent.classList.add('d-none');
+            if (topic_chosen == "Cold war") {
+              blank_game.classList.add('d-none');
+              topic_chosen = "cold_war";
             }
           }
         });
