@@ -1,0 +1,58 @@
+[
+    {
+        "term": "Arithmetic Logic Unit",
+        "meaning": "A component of the CPU that performs arithmetic and logical operations"
+    },
+    {
+        "term": "AND",
+        "meaning": "A logic gate that returns true if both boolean values are true"
+    },
+    {
+        "term": "Application software",
+        "meaning": "Software designed to run user-oriented tasks"
+    },
+    {
+        "term": "Assembler",
+        "meaning": "A program that translates Assembly code into machine code"
+    },
+    {
+        "term": "Boolean expression",
+        "meaning": "An expression that evaluates to true or false"
+    },
+    {
+        "term": "Bus",
+        "meaning": "A system of wires that connect components of a computer"
+    },
+    {
+        "term": "Bytecode",
+        "meaning": "A low-level programming language that is used to create machine code"
+    },
+    {
+        "term": "Cache",
+        "meaning": "A small amount of memory that is used to store frequently used data"
+    },
+    {
+        "term": "Clock",
+        "meaning": "A device that measures the rate at which a computer can perform operations"
+    },
+    {
+        "term": "Clock speed",
+        "meaning": "The number of cycles per second that a computer can perform"
+    },
+    {
+        "term": "Cloud storage",
+        "meaning": "A service that stores data on a remote server"
+    },
+    {
+        "term": "Compiler",
+        "meaning": "A program that translates code into machine code by creating a separate file storing the executable machine code"
+    },
+    {
+        "term": "Control Unit",
+        "meaning": "A component of the CPU that directs the flow of data and instructions"
+    },
+    {
+        "term": "Core",
+        "meaning": "A duplicate processor used to increase processing speeds"
+    }
+]
