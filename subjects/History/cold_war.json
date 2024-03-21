@@ -1,96 +1,86 @@
 [
   {
-    "term": "salami tactics",
-    "meaning": "a concept invented by Mátyás Rákosi in which resistance would slowly be worn away by going after one part of it, similarly to slowly increasing the temperature upon a frog"
+    "term": "Salami tactics",
+    "meaning": "A concept invented by Mátyás Rákosi in which resistance would slowly be worn away by going after one part of it, similarly to slowly increasing the temperature upon a frog"
   },
   {
-    "term": "imre nagy"
-    "meaning":"the leader of communist hungary who tried to leave the warsaw pact, leading to the hungarian uprising"
-  },
-   {
-    "term": "Mátyás Rákosi"
-    "meaning":"the stalinist leader of communist hungary who was very unpopular amoungst the hungarian people"
+    "term": "Imre Nagy",
+    "meaning": "The leader of communist Hungary who tried to leave the Warsaw pact, leading to the Hungarian uprising"
   },
   {
-    "term": "vladamir lenin"
-    "meaning":"the 1st leader of the soviet union and the head of the russian revolution"
+    "term": "Mátyás Rákosi",
+    "meaning": "The Stalinist leader of communist Hungary who was very unpopular amongst the Hungarian people"
   },
   {
-    "term": "josef stalin"
-    "meaning":"a georgian man who lead the soviet union as the second and most famous leader"
+    "term": "Vladimir Lenin",
+    "meaning": "The 1st leader of the Soviet Union and the head of the Russian revolution"
   },
   {
-    "term": "eastern bloc"
-    "meaning":"communist satelite states in eastern europe controlled by the USSR"
+    "term": "Josef Stalin",
+    "meaning": "A Georgian man who lead the Soviet Union as the second and most famous leader"
   },
   {
-    "term": "walter ulbricht"
-    "meaning":"the 1st leader of east germany, who built a wall"
+    "term": "Eastern bloc",
+    "meaning": "Communist satellite states in eastern Europe controlled by the USSR"
   },
   {
-    "term": "mikail gorbachev"
-    "meaning":"the last leader of the soviet union and the one to divide it into democratic nations"
+    "term": "Walter Ulbricht",
+    "meaning": "The 1st leader of East Germany, who built a wall"
   },
   {
-    "term": "boris yeltsin"
-    "meaning":"the man who made communism illegal in russia"
+    "term": "Mikhail Gorbachev",
+    "meaning": "The last leader of the Soviet Union and the one to divide it into democratic nations"
   },
   {
-    "term": "tsar"
-    "meaning":"the russian emperor"
+    "term": "Boris Yeltsin",
+    "meaning": "The man who made communism illegal in Russia"
   },
   {
-    "term": "nikita kruschev"
-    "meaning":" the soviet leader who introduced destalinisation"
+    "term": "Tsar",
+    "meaning": "The Russian emperor"
   },
   {
-    "term": "berlin wall"
-    "meaning":" a wall dividing west berlin from the DDR"
+    "term": "Nikita Kruschev",
+    "meaning": "The Soviet leader who introduced destalinisation"
   },
   {
-    "term": "NATO"
-    "meaning":"a defensive alliance lead by the USA"
+    "term": "Berlin wall",
+    "meaning": "A wall dividing west Berlin from the DDR"
   },
   {
-    "term": "USSR"
-    "meaning":"a communist country comprised of semi-independent republics"
+    "term": "NATO",
+    "meaning": "A defensive alliance lead by the USA"
   },
   {
-    "term": "Warsaw Pact"
-    "meaning":"a military pact lead by the soviet union"
+    "term": "USSR",
+    "meaning": "A communist country comprised of semi-independent republics"
   },
   {
-    "term": "marshall aid"
-    "meaning":"a us plan to provide money to the devestated countries of europe to influence the countries to be pro-usa"
+    "term": "Warsaw Pact",
+    "meaning": "A military pact lead by the Soviet Union"
   },
   {
-    "term": "fidel castro"
-    "meaning":"leader of  the cuban revolution"
+    "term": "Marshall Aid",
+    "meaning": "A US plan to provide money to the devastated countries of Europe to influence the countries to be pro-USA"
   },
   {
-    "term": "Fulgencio Batista"
-    "meaning":"dictator of cuba, of whom was very unpopular, but pro-USA"
+    "term": "Fidel Castro",
+    "meaning": "Leader of  the Cuban revolution"
   },
   {
-    "term": "truman doctrine"
-    "meaning":"the idea that communism should be 'contained' by USA foreign policy"
+    "term": "Fulgencio Batista",
+    "meaning": "Dictator of Cuba, of whom was very unpopular, but pro-USA"
   },
   {
-    "term": "perestroika"
-    "meaning":"the process of restructuring the soviet union that involved democratisation"
+    "term": "Truman Doctrine",
+    "meaning": "The idea that communism should be 'contained' by USA foreign policy"
   },
   {
-    "term": "glasnost"
-    "meaning":"the process of openness, meaning freedom of press and more public openess relating to the government"
+    "term": "Perestroika",
+    "meaning": "The process of restructuring the Soviet Union that involved democratisation"
   },
   {
-    "term": ""
-    "meaning":""
-  },
-  {
-    "term": ""
-    "meaning":""
-  },
-  
-  
+    "term": "Glasnost",
+    "meaning": "The process of openness, meaning freedom of press and more public openness relating to the government"
+  }
 ]

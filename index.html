@@ -21,43 +21,51 @@
     <h1 class="welcome_title pt-5 m-0 text-center"></h1>
     <div class="flex-grow-1">
       <div class="games d-flex p-5 w-100 h-100">
-        <button class="game btn text-white fs-1 bg-danger game-matchup" style="flex-basis: 100%">Matchup</button>
-        <button class="game btn text-white fs-1 bg-success game-quiz" style="flex-basis: 100%">Quiz</button>
-        <button class="game btn text-white fs-1 bg-info game-blank" style="flex-basis: 100%">Fill in the Blank</button>
+        <button class="game btn text-white fs-1 bg-danger game-matchup">Matchup</button>
+        <button class="game btn text-white fs-1 bg-success game-quiz">Quiz</button>
+        <button class="game btn text-white fs-1 bg-info game-blank">Fill in the Blank</button>
       </div>
 
       <div class="music-topics d-flex p-5 w-100 h-100">
-        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Dynamics</button>
-        <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 100%">Melody</button>
-        <button class="topic btn text-white fs-1 bg-info" style="flex-basis: 100%">Articulation</button>
-      </div>
-      
-      <div class="history-topics d-flex p-5 w-100 h-100">
-        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Cold War</button>
+        <button class="topic btn text-white fs-1 bg-danger">Dynamics</button>
+        <button class="topic btn text-white fs-1 bg-warning">Melody</button>
+        <button class="topic btn text-white fs-1 bg-info">Articulation</button>
       </div>
 
-      <div class="compsci-topics d-flex p-5 w-100 h-100">
-        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Unit 5</button>
+      <div class="history-topics d-flex p-5 w-100 h-100">
+        <button class="topic btn text-white fs-1 bg-danger">Cold War</button>
+      </div>
+
+      <div class="compsci-topics d-flex flex-column p-5 w-100 h-100">
+        <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
+          <button class="topic btn text-white fs-1 bg-primary">Unit 1: Algorithms</button>
+          <button class="topic btn text-white fs-1 bg-warning">Unit 2: Programming</button>
+          <button class="topic btn text-white fs-1 bg-success">Unit 3: Data representation</button>
+        </div>
+        <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
+          <button class="topic btn text-white fs-1 bg-info">Unit 4: Computer systems</button>
+          <button class="topic btn text-white fs-1 bg-danger">Unit 5: Computer networks</button>
+        </div>
       </div>
 
       <div class="english-lit-topics d-flex p-5 w-100 h-100">
-        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Macbeth quotes</button>
-        <button class="topic btn text-white fs-1 bg-warning" style="flex-basis: 100%">A Christmas Carol quotes</button>
+        <button class="topic btn text-white fs-1 bg-danger">Macbeth quotes</button>
+        <button class="topic btn text-white fs-1 bg-warning">A Christmas Carol quotes</button>
       </div>
 
       <div class="german-topics d-flex p-5 w-100 h-100">
-        <button class="topic btn text-white fs-1 bg-danger" style="flex-basis: 100%">Daily life, food and drink</button>
+        <button class="topic btn text-white fs-1 bg-danger">Daily life, food and drink</button>
       </div>
 
       <div class="subjects d-flex flex-column p-5 w-100 h-100">
         <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
-          <button class="subject btn text-white fs-1 bg-warning" style="flex-basis: 100%">Computer Science</button>
-          <button class="subject btn text-white fs-1 bg-info" style="flex-basis: 100%">English Literature</button>
-          <button class="subject btn text-white fs-1 bg-secondary" style="flex-basis: 100%">History</button>
+          <button class="subject btn text-white fs-1 bg-warning">Computer Science</button>
+          <button class="subject btn text-white fs-1 bg-info">English Literature</button>
+          <button class="subject btn text-white fs-1 bg-primary">History</button>
         </div>
         <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
-          <button class="subject btn text-white fs-1 bg-danger" style="flex-basis: 100%">Music</button>
-          <button class="subject btn text-white fs-1 bg-success" style="flex-basis: 100%">German</button>
+          <button class="subject btn text-white fs-1 bg-danger">Music</button>
+          <button class="subject btn text-white fs-1 bg-success">German</button>
         </div>
       </div>
     </div>
@@ -190,7 +198,23 @@
             }
           } else if (subject_chosen == "Computer Science") {
             compsci_topic_parent.classList.add('d-none');
-            if (topic_chosen == "Unit 5") {
+            if (topic_chosen == "Unit 1: Algorithms") {
+              blank_game.classList.add('d-none');
+              matchup_game.classList.add('d-none');
+              topic_chosen = "unit1";
+            } else if (topic_chosen == "Unit 2: Programming") {
+              blank_game.classList.add('d-none');
+              matchup_game.classList.add('d-none');
+              topic_chosen = "unit2";
+            } else if (topic_chosen == "Unit 3: Data representation") {
+              blank_game.classList.add('d-none');
+              matchup_game.classList.add('d-none');
+              topic_chosen = "unit3";
+            } else if (topic_chosen == "Unit 4: Computer systems") {
+              blank_game.classList.add('d-none');
+              matchup_game.classList.add('d-none');
+              topic_chosen = "unit4";
+            } else if (topic_chosen == "Unit 5: Computer networks") {
               blank_game.classList.add('d-none');
               matchup_game.classList.add('d-none');
               topic_chosen = "unit5";
@@ -206,6 +230,7 @@
             history_topic_parent.classList.add('d-none');
             if (topic_chosen == "Cold War") {
               blank_game.classList.add('d-none');
+              matchup_game.classList.add('d-none');
               topic_chosen = "cold_war";
             }
           }

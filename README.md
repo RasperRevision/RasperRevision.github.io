@@ -6,6 +6,7 @@ We currently have activities for the following subjects (more to come in the fut
 - English Literature (AQA)
 - Music (OCR)
 - German (Edexcel)
+- History (Edexcel)
 
 ---
 
@@ -17,3 +18,4 @@ The following games are available:
 | English Lit | X | X | ✓ |
 | Music | ✓ | ✓ | X |
 | German | X | ✓ | X |
+| History| X | ✓ | X |
