@@ -1,0 +1,158 @@
+[
+    {
+        "term": "Analogue",
+        "meaning": ""
+    },
+    {
+        "term": "Analogue-to-Digital Converter (ADC)",
+        "meaning": "A device that converts an analogue signal into a digital signal"
+    },
+    {
+        "term": "ASCII",
+        "meaning": "A standard code for representing characters using 7-bit binary numbers"
+    },
+    {
+        "term": "Binary",
+        "meaning": "A base-2 number system used by computers"
+    },
+    {
+        "term": "Binary shift",
+        "meaning": "The process of shifting a binary number by a certain number of bits, to multiply it by 2 to the power of the number of bits it is shifted by."
+    },
+    {
+        "term": "Bit",
+        "meaning": "The smallest binary unit of data, which can be either 0 or 1"
+    },
+    {
+        "term": "Bit Depth",
+        "meaning": "The number of bits used to represent a single sample of audio or video"
+    },
+    {
+        "term": "Bit Rate",
+        "meaning": "The number of bits per second"
+    },
+    {
+        "term": "Bitmap",
+        "meaning": "A type of file that uses a grid of pixels to represent an image"
+    },
+    {
+        "term": "Byte",
+        "meaning": "A group of 8 bits"
+    },
+    {
+        "term": "Character set",
+        "meaning": "A set of characters that can be represented using binary"
+    },
+    {
+        "term": "Characters",
+        "meaning": "A single letter, number or symbol"
+    },
+    {
+        "term": "Colour depth",
+        "meaning": "The number of bits used to represent a single colour"
+    },
+    {
+        "term": "Compression",
+        "meaning": "The process of reducing the size of a file"
+    },
+    {
+        "term": "Decimal",
+        "meaning": "A base-10 number system used by humans, also known as denary"
+    },
+    {
+        "term": "Extended ASCII",
+        "meaning": "A standard code for representing characters using 8-bit binary numbers"
+    },
+    {
+        "term": "File size",
+        "meaning": "The amount of data that is stored in a file, usually measured in bytes"
+    },
+    {
+        "term": "Gigabyte (GB)",
+        "meaning": "A unit of storage equal to 1,000 megabytes (MB)"
+    },
+    {
+        "term": "Hexadecimal",
+        "meaning": "A base-16 number system used by humans to represent binary numbers in fewer characters"
+    },
+    {
+        "term": "Huffman coding",
+        "meaning": "A type of compression that uses a tree-like structure to represent the frequencies of characters in a string"
+    },
+    {
+        "term": "Huffman trees",
+        "meaning": "A type of tree used to represent the frequencies of characters in a string"
+    },
+    {
+        "term": "Kilobyte (kB)",
+        "meaning": "A unit of storage equal to 1,000 bytes (B)"
+    },
+    {
+        "term": "Lossless compression",
+        "meaning": "A type of compression that preserves the original data"
+    },
+    {
+        "term": "Lossy compression",
+        "meaning": "A type of compression that results in lower quality data"
+    },
+    {
+        "term": "Megabyte (MB)",
+        "meaning": "A unit of storage equal to 1,000 kilobytes (kB)"
+    },
+    {
+        "term": "Metadata",
+        "meaning": "Additional data linked to a file, such as the name of a file or the location of an image"
+    },
+    {
+        "term": "Nibble",
+        "meaning": "A group of 4 bits"
+    },
+    {
+        "term": "Overflow",
+        "meaning": "The condition where the number of bits used to represent a number exceeds the number of bits available"
+    },
+    {
+        "term": "Petabyte (PB)",
+        "meaning": "A unit of storage equal to 1,000 terabytes (TB)"
+    },
+    {
+        "term": "Pixel",
+        "meaning": "A single point on an image (picture element)"
+    },
+    {
+        "term": "Resolution",
+        "meaning": "The number of pixels in an image"
+    },
+    {
+        "term": "Run Length Encoding (RLE)",
+        "meaning": "A type of lossless compression that is used for files with lots of the same data value consecutively"
+    },
+    {
+        "term": "Sample size",
+        "meaning": "The number of bits used to represent a single sample of audio or video"
+    },
+    {
+        "term": "Sampling frequency",
+        "meaning": "The number of times a signal is sampled per second"
+    },
+    {
+        "term": "Sound Sample Rate",
+        "meaning": "The number of samples taken per second"
+    },
+    {
+        "term": "Terabyte (TB)",
+        "meaning": "A unit of storage equal to 1,000 gigabytes (GB)"
+    },
+    {
+        "term": "Uncompressed",
+        "meaning": "A file without compression"
+    },
+    {
+        "term": "Unicode",
+        "meaning": "A standard code for representing characters using 16-bit binary numbers"
+    },
+    {
+        "term": "Vector",
+        "meaning": "A type of file that uses a grid of points to represent an image"
+    }
+]
