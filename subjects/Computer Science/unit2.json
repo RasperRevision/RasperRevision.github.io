@@ -1,0 +1,210 @@
+[
+    {
+        "term": "Data type",
+        "meaning": "The category that a piece of data can be put into"
+    },
+    {
+        "term": "Integer",
+        "meaning": "A whole number"
+    },
+    {
+        "term": "Real",
+        "meaning": "A number with a decimal point"
+    },
+    {
+        "term": "Boolean",
+        "meaning": "A binary value which is either true or false"
+    },
+    {
+        "term": "Character",
+        "meaning": "A single letter, number, or symbol"
+    },
+    {
+        "term": "String",
+        "meaning": "A sequence of characters"
+    },
+    {
+        "term": "Variable",
+        "meaning": "A memory location storing data that can be changed"
+    },
+    {
+        "term": "Constant",
+        "meaning": "A value that cannot be changed"
+    },
+    {
+        "term": "Assignment",
+        "meaning": "The process of storing a value in a variable"
+    },
+    {
+        "term": "Iteration",
+        "meaning": "Repetition of a certain piece of code"
+    },
+    {
+        "term": "Selection",
+        "meaning": "A decision that determines which piece of code is run"
+    },
+    {
+        "term": "Subroutine",
+        "meaning": "A piece of code that can be reused throughout the program by calling it."
+    },
+    {
+        "term": "Procedure",
+        "meaning": "A subroutine that does not return a value"
+    },
+    {
+        "term": "Function",
+        "meaning": "A subroutine that returns a value"
+    },
+    {
+        "term": "Definite iteration",
+        "meaning": "A loop that repeats a certain number of times"
+    },
+    {
+        "term": "Indefinite iteration",
+        "meaning": "A loop that repeats until a certain condition is met"
+    },
+    {
+        "term": "Nested selection",
+        "meaning": "A selection inside another selection"
+    },
+    {
+        "term": "Nested iteration",
+        "meaning": "An iteration inside another iteration"
+    },
+    {
+        "term": "Arithmetic Operations",
+        "meaning": "The mathematical operations that can be performed on integer and real numbers"
+    },
+    {
+        "term": "Addition",
+        "meaning": "The process of adding two numbers together"
+    },
+    {
+        "term": "Subtraction",
+        "meaning": "The process of taking one number away from another"
+    },
+    {
+        "term": "Multiplication",
+        "meaning": "The process of multiplying two numbers together"
+    },
+    {
+        "term": "Real division",
+        "meaning": "The process of dividing one number by another to receive a value with a decimal point"
+    },
+    {
+        "term": "Integer division",
+        "meaning": "The process of dividing one number by another and rounding down to the nearest whole number"
+    },
+    {
+        "term": "Relational Operations",
+        "meaning": "Comparing the values of two numbers"
+    },
+    {
+        "term": "Equal to",
+        "meaning": "The process of checking if two numbers are equal"
+    },
+    {
+        "term": "Not equal to",
+        "meaning": "The process of checking if two numbers are not equal"
+    },
+    {
+        "term": "Less than",
+        "meaning": "The process of checking if one number is less than another"
+    },
+    {
+        "term": "Greater than",
+        "meaning": "The process of checking if one number is greater than another"
+    },
+    {
+        "term": "Less than or equal to",
+        "meaning": "The process of checking if one number is less than or equal to another"
+    },
+    {
+        "term": "Greater than or equal to",
+        "meaning": "The process of checking if one number is greater than or equal to another"
+    },
+    {
+        "term": "Boolean Operations",
+        "meaning": "The operations that can be performed on boolean values"
+    },
+    {
+        "term": "NOT",
+        "meaning": "Inverts a boolean value"
+    },
+    {
+        "term": "AND",
+        "meaning": "Returns true if both values are true"
+    },
+    {
+        "term": "OR",
+        "meaning": "Returns true if either value is true"
+    },
+    {
+        "term": "Data Structures",
+        "meaning": "A way of storing and organising data"
+    },
+    {
+        "term": "Array",
+        "meaning": "A data structure that stores data in a sequence"
+    },
+    {
+        "term": "Record",
+        "meaning": "A data structure that stores data in a key-value pair"
+    },
+    {
+        "term": "Length",
+        "meaning": "The number of items in a data structure"
+    },
+    {
+        "term": "Position",
+        "meaning": "The index of an item in a data structure"
+    },
+    {
+        "term": "Substring",
+        "meaning": "A section of a string"
+    },
+    {
+        "term": "Concatenation",
+        "meaning": "The process of joining two strings together"
+    },
+    {
+        "term": "Parameters",
+        "meaning": "The values that are passed into a subroutine"
+    },
+    {
+        "term": "Local variable",
+        "meaning": "A variable that is only accessible within a subroutine"
+    },
+    {
+        "term": "Global variable",
+        "meaning": "A variable that is accessible within and outside of a subroutine"
+    },
+    {
+        "term": "Validation",
+        "meaning": "A type of algorithm that checks if a value is valid"
+    },
+    {
+        "term": "Authentication",
+        "meaning": "The process of verifying the identity of a user"
+    },
+    {
+        "term": "Normal data",
+        "meaning": "Data that should not cause an error when the program is run"
+    },
+    {
+        "term": "Boundary data",
+        "meaning": "Data that is on the boundaries of the limits specified in the algorithm"
+    },
+    {
+        "term": "Erroneous data",
+        "meaning": "Data that should cause an error when the program is run"
+    },
+    {
+        "term": "Syntax error",
+        "meaning": "An error that occurs when the program uses invalid syntax that can not be understood by the compiler"
+    },
+    {
+        "term": "Logic error",
+        "meaning": "An error that does not stop the program from running, but yields an output that would not be expected"
+    }
+]
