@@ -1,5 +1,9 @@
+:root {
+  --bg: #332D2D;
+}
+
 body {
-  background-color: #332D2D !important;
+  background-color: var(--bg) !important;
 }
 
 .term {
@@ -45,7 +49,7 @@ body {
 .subject {
   border-radius: 0;
   border-width: 5px;
-  border-color: #332D2D !important;
+  border-color: var(--bg) !important;
   transition: border-width 300ms ease-in-out;
   flex-basis: 100%;
 }
