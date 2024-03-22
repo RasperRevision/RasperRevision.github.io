@@ -41,7 +41,7 @@
 .subject {
   border-radius: 0;
   border-width: 5px;
-  border-color: #21272c !important;
+  border-color: #212529 !important;
   transition: border-width 300ms ease-in-out;
   flex-basis: 100%;
 }
