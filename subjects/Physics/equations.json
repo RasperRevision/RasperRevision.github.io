@@ -1,92 +1,171 @@
 [
   {
-    "equation": "weight = mass * gravitational field strength",
-    "symbols": "W = mg"
+    "equation": "W=mg",
+    "parts": [
+      "weight",
+      "mass",
+      "gravitational field strength"
+    ]
   },
   {
-    "equation": "work done = force * distance",
-    "symbols": "W = Fs"
+    "equation": "W=Fs",
+    "parts": [
+      "work done",
+      "force",
+      "distance"
+    ]
   },
   {
-    "equation": "force applied to a spring = spring constant * extension",
-    "symbols": "F = ke"
+    "equation": "F=ke",
+    "parts": [
+      "force applied to a spring",
+      "spring constant",
+      "extension"
+    ]
   },
   {
-    "equation": "moment of a force = force * distance",
-    "symbols": "M = Fd"
+    "equation": "M=Fd",
+    "parts": [
+      "the moment of a force",
+      "force",
+      "distance"
+    ]
   },
   {
-    "equation": "pressure = force normal to a surface / area of the surface",
-    "symbols": "p = F/A"
+    "equation": "p=F/A",
+    "parts": [
+      "pressure",
+      "force",
+      "area"
+    ]
   },
   {
-    "equation": "distance travelled = speed * time",
-    "symbols": "s = vt"
+    "equation": "s=vt",
+    "parts": [
+      "distance travlled",
+      "speed",
+      "time"
+    ]
   },
   {
-      "equation": "acceleration = change in velocity / time",
-      "symbols": "a = Δv/t"
+    "equation": "a=∆v/t",
+    "parts": [
+      "acceleration",
+      "change in velocity",
+      "time"
+    ]
   },
-    {
-        "equation": "resultant force = mass * acceleration",
-        "symbols": "F = ma"
-    },
-    {
-        "equation": "momentum = mass * velocity",
-        "symbols": "p = mv"
-    },
-    {
-        "equation": "kinetic energy = 1/2 * mass * velocity^2",
-        "symbols": "E = 1/2mv^2"
-    },
-    {
-        "equation": "gravitational potential energy = mass * gravitational field strength * height",
-        "symbols": "E = mgh"
-    },
-    {
-        "equation": "power = energy / time",
-        "symbols": "P = E/t"
-    },
-    {
-        "equation": "power = work done / time",
-        "symbols": "P = W/t"
-    },
-    {
-        "equation": "efficiency = useful output energy / total input energy"
-    },
-    {
-        "equation": "efficiency = useful output power / total input power"
-    },
-    {
-        "equation": "wave speed = frequency * wavelength",
-        "symbols": "v = fλ""
-    },
-    {
-        "equation": "charge = current * time",
-        "symbols": "Q = It"
-    },
-    {
-        "equation": "potential difference = current * resistance",
-        "symbols": "V = IR"
-    },
-    {
-        "equation": "power = potential difference * current",
-        "symbols": "P = VI"
-    },
-    {
-        "equation": "power = current^2 * resistance",
-        "symbols": "P = I^2R"
-    },
-    {
-        "equation": "energy = power * time",
-        "symbols": "E = Pt"
-    },
-    {
-        "equation": "energy = charge * potential difference",
-        "symbols": "E = QV"
-    },
-    {
-        "equation": "density = mass / volume",
-        "symbols": "ρ = m/V"
-    }
+  {
+    "equation": "F=ma",
+    "parts": [
+      "the resultant force",
+      "mass",
+      "acceleration"
+    ]
+  },
+  {
+    "equation": "p=mv",
+    "parts": [
+      "momentum",
+      "mass",
+      "velocity"
+    ]
+  },
+  {
+    "equation": "Eₖ=0.5mv²",
+    "parts": [
+      "kinetic energy",
+      "nass",
+      "velocity"
+    ]
+  },
+  {
+    "equation": "Eₚ=mgh",
+    "parts": [
+      "gravitational potential energy",
+      "mass",
+      "gravitational field strength",
+      "height"
+    ]
+  },
+  {
+    "equation": "P=E/t",
+    "parts": [
+      "power",
+      "energy",
+      "time"
+    ]
+  },
+  {
+    "equation": "P=W/t",
+    "parts": [
+      "power",
+      "work done",
+      "time"
+    ]
+  },
+  {
+    "equation": "v=fλ",
+    "parts": [
+      "wave speed",
+      "frequency",
+      "wavelength"
+    ]
+  },
+  {
+    "equation": "Q=It",
+    "parts": [
+      "charge flow",
+      "current",
+      "time"
+    ]
+  },
+  {
+    "equation": "V=IR",
+    "parts": [
+      "potential difference",
+      "current",
+      "resistance"
+    ]
+  },
+  {
+    "equation": "P=IV",
+    "parts": [
+      "power",
+      "potential difference",
+      "current"
+    ]
+  },
+  {
+    "equation": "P=I²R",
+    "parts": [
+      "power",
+      "current",
+      "resistance"
+    ]
+  },
+  {
+    "equation": "E=Pt",
+    "parts": [
+      "energy",
+      "power",
+      "time"
+    ]
+  },
+  {
+    "equation": "E=QV",
+    "parts": [
+      "energy",
+      "charge",
+      "potential difference"
+    ]
+  },
+  {
+    "equation": "ρ=m/V",
+    "parts": [
+      "density",
+      "mass",
+      "volume"
+    ]
+  }
 ]
