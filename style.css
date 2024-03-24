@@ -51,3 +51,32 @@
 .subject:hover {
   border-width: 15px;
 }
+
+.bg-orange,
+.bg-orange:hover,
+.bg-orange:active,
+.bg-orange:focus {
+  background-color: rgb(255, 89, 0);
+}
+
+.bg-lime,
+.bg-lime:hover,
+.bg-lime:active,
+.bg-lime:focus {
+  background-color: rgb(83, 246, 34);
+}
+
+.bg-purple,
+.bg-purple:hover,
+.bg-purple:active,
+.bg-purple:focus,
+.bg-purple:enabled {
+  background-color: rgb(161, 4, 209);
+}
+
+.bg-turquoise,
+.bg-turquoise:hover,
+.bg-turquoise:active,
+.bg-turquoise:focus {
+  background-color: rgb(5, 202, 159);
+}
