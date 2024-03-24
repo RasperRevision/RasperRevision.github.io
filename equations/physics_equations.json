@@ -1,6 +1,6 @@
 [
   {
-    "equation": "W=mg",
+    "equation": "w=mg",
     "parts": [
       "weight",
       "mass",
@@ -26,13 +26,13 @@
   {
     "equation": "M=Fd",
     "parts": [
-      "the moment of a force",
+      "moment of the force",
       "force",
       "distance"
     ]
   },
   {
-    "equation": "p=F/A",
+    "equation": "p=F÷A",
     "parts": [
       "pressure",
       "force",
@@ -42,13 +42,13 @@
   {
     "equation": "s=vt",
     "parts": [
-      "distance travlled",
+      "displacement",
       "speed",
       "time"
     ]
   },
   {
-    "equation": "a=∆v/t",
+    "equation": "a=∆v÷t",
     "parts": [
       "acceleration",
       "change in velocity",
@@ -58,7 +58,7 @@
   {
     "equation": "F=ma",
     "parts": [
-      "the resultant force",
+      "resultant force",
       "mass",
       "acceleration"
     ]
@@ -72,10 +72,10 @@
     ]
   },
   {
-    "equation": "Eₖ=0.5mv²",
+    "equation": "Eₖ=½mv²",
     "parts": [
       "kinetic energy",
-      "nass",
+      "mass",
       "velocity"
     ]
   },
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "equation": "P=E/t",
+    "equation": "P=E÷t",
     "parts": [
       "power",
       "energy",
@@ -97,7 +97,7 @@
     ]
   },
   {
-    "equation": "P=W/t",
+    "equation": "P=W÷t",
     "parts": [
       "power",
       "work done",
@@ -161,7 +161,7 @@
     ]
   },
   {
-    "equation": "ρ=m/V",
+    "equation": "ρ=m÷v",
     "parts": [
       "density",
       "mass",

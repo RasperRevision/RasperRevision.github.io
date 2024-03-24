@@ -49,7 +49,6 @@
 
       function loadJSON(callback) {
         var jsonFile = getParameterByName('json');
-        console.log('JSON file:', jsonFile);
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
         xobj.open('GET', jsonFile, true);
