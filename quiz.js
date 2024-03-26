@@ -64,7 +64,14 @@ async function quiz(subject, topic) {
       await processItem(item);
     }
 
-    console.log("finished");
+    option1.classList.add('d-none');
+    option2.classList.add('d-none');
+    option3.classList.add('d-none');
+    option4.classList.add('d-none');
+
+    qstopwatch.classList.add('d-none');
+    document.querySelector('.key_term').innerHTML = qFormattedTime;
+    
   } catch (error) {
     console.error('Error fetching JSON', error);
   }
