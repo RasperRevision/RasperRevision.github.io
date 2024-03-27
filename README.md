@@ -7,15 +7,17 @@ We currently have activities for the following subjects (more to come in the fut
 - Music (OCR)
 - German (Edexcel)
 - History (Edexcel)
+- Physics (AQA)
 
 ---
 
 The following games are available:
 
-| Subject | Matchup | Quiz | Fill in the blank |
-| :---        |    :----:   |    :----:   |    :----:   |
-| Computer Science | X | ✓ | X |
-| English Lit | X | X | ✓ |
-| Music | ✓ | ✓ | X |
-| German | X | ✓ | X |
-| History| X | ✓ | X |
+| Subject | Matchup | Quiz | Fill in the blank | Equation game |
+| :---        |    :----:   |    :----:   |    :----:   |    :----:   |
+| Computer Science | X | ✓ | X | X |
+| English Lit | X | X | ✓ | X |
+| Music | ✓ | ✓ | X | X |
+| German | X | ✓ | X | X |
+| History| X | ✓ | X | X |
+| Physics | X | X | X | ✓ |
