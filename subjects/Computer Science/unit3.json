@@ -1,7 +1,7 @@
 [
     {
         "term": "Analogue",
-        "meaning": ""
+        "meaning": "Continuous data that can take any value within a specific range, and reflects real-world data such as light intensity, temperature and sound."
     },
     {
         "term": "Analogue-to-Digital Converter (ADC)",
