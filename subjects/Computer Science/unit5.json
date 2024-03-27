@@ -160,10 +160,6 @@
         "meaning": "A set of rules that govern how data is transferred over a network"
     },
     {
-        "term": "Hypertext Transfer Protocol",
-        "meaning:": "A network protocol that is used to process and receive web pages"
-    },
-    {
         "term": "Hypertext Transfer Protocol Secure",
         "meaning": "Similar to HTTP, but encrypts the data so an eavesdropper can not understand it"
     },
@@ -214,5 +210,9 @@
     {
         "term": "User Datagram Protocol",
         "meaning": "A protocol that maintains an open stream of data between two computers, sending packets without checking if they are correct. Unreliable, but its speed is useful for gaming and streaming"
+    },
+    {
+        "term": "Hypertext Transfer Protocol",
+        "meaning:": "A network protocol that is used to process and receive web pages"
     }
 ]
