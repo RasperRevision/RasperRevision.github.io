@@ -65,7 +65,6 @@ function script(subject, topic) {
           sym.style.position = 'absolute';
           sym.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
           sym.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
-
           sym.addEventListener('click', function () {
             if (mean_found && sym_text == symbol) {
               while (container.firstChild) { container.removeChild(container.firstChild); }
@@ -81,6 +80,8 @@ function script(subject, topic) {
 
         mean.textContent = item.meaning;
         mean.classList.add('btn');
+        mean.classList.add('text-white');
+
 
         mean.style.position = 'absolute';
         mean.style.fontSize = '20px';
