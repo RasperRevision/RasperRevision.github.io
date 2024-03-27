@@ -79,7 +79,6 @@ function script(subject, topic) {
         const mean = document.createElement('button');
 
         mean.textContent = item.meaning;
-        mean.classList.add('btn');
         mean.classList.add('text-white');
 
 
