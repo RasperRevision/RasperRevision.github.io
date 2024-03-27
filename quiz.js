@@ -70,7 +70,7 @@ async function quiz(subject, topic) {
     option4.classList.add('d-none');
 
     qstopwatch.classList.add('d-none');
-    document.querySelector('.key_term').innerHTML = qFormattedTime;
+    document.querySelector('.key_term').innerHTML = "Well done! You completed the quiz in " + qFormattedTime;
     
   } catch (error) {
     console.error('Error fetching JSON', error);
