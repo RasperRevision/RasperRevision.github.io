@@ -34,9 +34,7 @@ function updateStopwatch() {
   qstopwatch.innerHTML = qFormattedTime;
 }
 
-function pad(value) {
-  return value < 10 ? '0' + value : value;
-}
+function pad(value) { return value < 10 ? '0' + value : value; }
 
 function shuffle(array) {
   let currentIndex = array.length, randomIndex;
@@ -60,9 +58,7 @@ async function quiz(subject, topic) {
     const data = await response.json();
     let shuffled = shuffle(data);
 
-    for (const item of shuffled) {
-      await processItem(item);
-    }
+    for (const item of shuffled) { await processItem(item); }
 
     option1.classList.add('d-none');
     option2.classList.add('d-none');
@@ -72,9 +68,7 @@ async function quiz(subject, topic) {
     count = 0
     correct_num = 0
     for (let item of correct) {
-      if (item == answers[count]{
-        correct_num++;
-      }
+      if (item == answers[count]{ correct_num++; }
       count++;
     }
     
@@ -103,9 +97,7 @@ async function processItem(item) {
   document.querySelector('.key_term').innerHTML = item.term;
   let random_option = Math.floor(Math.random() * 4);
 
-  let meaning2 = await selectRandomMeaning();
-  let meaning3 = await selectRandomMeaning();
-  let meaning4 = await selectRandomMeaning();
+  let meaning2 = await selectRandomMeaning(), meaning3 = await selectRandomMeaning(), meaning4 = await selectRandomMeaning();
 
   if (random_option == 0) {
     option1.innerHTML = item.meaning;
@@ -129,9 +121,7 @@ async function processItem(item) {
     option4.innerHTML = item.meaning;
   }
 
-  return new Promise((resolve) => {
-    waitForButton(item, resolve);
-  });
+  return new Promise((resolve) => { waitForButton(item, resolve); });
 }
 
 
