@@ -5,17 +5,14 @@ const option4 = document.querySelector('.opt4');
 
 const section = document.querySelector('.quiz');
 
-let current_subject;
-let current_topic;
+let current_subject, current_topic;
 
 let qtimer;
 let qstopwatch = document.querySelector('.quiz_stopwatch');
-let qs = 0;
-let qm = 0;
+let qs = 0, qm = 0;
 let qFormattedTime;
 
-let answers = [];
-let correct = [];
+let answers = [], correct = [];
 
 function startQuizStopwatch() {
   qtimer = setInterval(updateStopwatch, 1000);
