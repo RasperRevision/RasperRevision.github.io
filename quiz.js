@@ -14,6 +14,9 @@ let qs = 0;
 let qm = 0;
 let qFormattedTime;
 
+let answers = [];
+let correct = [];
+
 function startQuizStopwatch() {
   qtimer = setInterval(updateStopwatch, 1000);
 }
@@ -69,8 +72,17 @@ async function quiz(subject, topic) {
     option3.classList.add('d-none');
     option4.classList.add('d-none');
 
+    count = 0
+    correct_num = 0
+    for (let item of correct) {
+      if (item == answers[count]{
+        correct_num++;
+      }
+      count++;
+    }
+    
     qstopwatch.classList.add('d-none');
-    document.querySelector('.key_term').innerHTML = "Well done! You completed the quiz in " + qFormattedTime;
+    document.querySelector('.key_term').innerHTML = qFormattedTime + "<br>Well done! You completed the quiz with a score of " + correct_num;
     
   } catch (error) {
     console.error('Error fetching JSON', error);
@@ -128,10 +140,8 @@ async function processItem(item) {
 
 function waitForButton(item, callback) {
   const handleClick = (event) => {
-    if (event.target.innerHTML === item.meaning) {
-      callback(event);
-      cleanup();
-    }
+    correct.push(item.meaning)
+    answers.push(event.target.innerHTML);
   };
 
   const cleanup = () => {
@@ -148,6 +158,3 @@ function waitForButton(item, callback) {
 
   return cleanup;
 }
-
-
-
