@@ -80,7 +80,8 @@ function script(subject, topic) {
 
         mean.textContent = item.meaning;
         mean.classList.add('text-white');
-
+        mean.classList.add('btn');
+        mean.classList.add('btn-dark');
 
         mean.style.position = 'absolute';
         mean.style.fontSize = '20px';
