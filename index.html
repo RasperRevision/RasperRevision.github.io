@@ -18,40 +18,40 @@
 
   <style type="text/scss">
     .icon-1, .icon-2, .icon-3 {
-      position: absolute;
-      right: 25%;
-      top: 25%;
-      width: 32px;
-      height: 3px;
-      background-color: black;
-      transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
-    }
-    
-    .icon-1 {
-        transform: translateY(-8px);
-        animation-delay: 100ms;
-    }
-
-    .icon-3 {
-      transform: translateY(8px);
-      animation-delay: 250ms;
-    }
-    
-  .hamburger-icon {
     position: absolute;
-    height: 60px;
-    width: 60px;
-    top: 10%;
-    left: 3%;
-    z-index: 1000;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: all 0.2s ease-in-out;
-    background: rgba(255,255,255,0.2);
-    // background: green;
-    // width: auto;
-    // height: 50px;
-    // overflow: hidden;
+    left: 25%;
+    top: 50%;
+    width: 32px;
+    height: 3px;
+    background-color: black;
+    transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
+}
+
+.icon-1 {
+  transform: translateY(-8px);
+  animation-delay: 100ms;
+}
+
+.icon-3 {
+  transform: translateY(8px);
+  animation-delay: 250ms;
+}
+
+.hamburger-icon {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: 10%;
+  left: 3%;
+  z-index: 1000;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  background: rgba(255,255,255,0.2);
+  // background: green;
+  // width: auto;
+  // height: 50px;
+  // overflow: hidden;
   &:hover {
     // .icon-1 {
     //   transform: rotate(40deg);
@@ -66,7 +66,8 @@
     box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
   }
 }
-    .icon-1.a {
+
+.icon-1.a {
   transform: rotate(40deg);
 }
 .icon-3.b {
@@ -93,6 +94,7 @@
     opacity: 1;
   }
 }
+
 
   </style>
 </head>
