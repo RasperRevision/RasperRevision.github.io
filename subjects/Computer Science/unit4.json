@@ -37,7 +37,7 @@
     },
     {
         "term": "Clock speed",
-        "meaning": "The number of cycles per second that a computer can perform"
+        "meaning": "The number of cycles per second that a computer can perform. Measured in Hertz (Hz)"
     },
     {
         "term": "Cloud storage",
