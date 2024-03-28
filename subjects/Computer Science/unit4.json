@@ -54,5 +54,53 @@
     {
         "term": "Core",
         "meaning": "A duplicate processor used to increase processing speeds"
+    },
+    {
+        "term": "Data bus",
+        "meaning": "The data bus carries data throughout the computer system"
+    },
+    {
+        "term": "Defragmentation",
+        "meaning": "The process of locating all the fragments of a file and putting them back together"
+    },
+    {
+        "term": "Embedded system",
+        "meaning": "A computer system with a dedicated purpose within a larger device"
+    },
+    {
+        "term": "Encryption software",
+        "meaning": "A type of software that encrypts data"
+    },
+    {
+        "term": "Fetch-Execute Cycle",
+        "meaning": "The cycle used by the processor to execute instructions"
+    },
+    {
+        "term": "Hard Disk Drive",
+        "meaning": "A type of non-volatile secondary storage using magnetic storage"
+    },
+    {
+        "term": "Hardware",
+        "meaning": "A physical part of a computer system"
+    },
+    {
+        "term": "Local Storage",
+        "meaning": "Files stored on the user's computer system"
+    },
+    {
+        "term": "Logic Circuit",
+        "meaning": "A type of circuit made up of logic gates"
+    },
+    {
+        "term": "Logic Gate",
+        "meaning": "A type of operator that takes one or two boolean inputs, applies logic to them, and returns a boolean output"
+    },
+    {
+        "term": "Main Memory",
+        "meaning": "The main storage region of a computer, consisting of RAM and ROM"
+    },
+    {
+        "term": "Non-Volatile",
+        "meaning": "Data that will not be deleted if power is lost"
     }
 ]
