@@ -237,7 +237,6 @@
           } else if (subject_chosen == "History") {
             history_topic_parent.classList.add('d-none');
             if (topic_chosen == "Cold War") {
-              blank_game.classList.add('d-none');
               matchup_game.classList.add('d-none');
               topic_chosen = "cold_war";
             }
@@ -268,7 +267,15 @@
             startQuizStopwatch();
             quiz(subject_chosen, topic_chosen);
           } else if (game_chosen == "Fill in the Blank") {
-            var jsonFile = (topic_chosen == "Macbeth quotes") ? 'macbeth.json' : 'christmas_carol.json';
+            var jsonFile;
+            if (topic_chosen == "Macbeth quotes") {
+              jsonFile = 'macbeth.json';
+            } else if (topic_chosen = "A Christmas Carol quotes") {
+              jsonFile = 'christmas_carol.json'
+            } else if (topic_chosen = "cold_war") {
+              jsonFile = 'coldwarquotes.json'
+            }
+            
             window.location.href = '/fill-in-the-blank?json=' + encodeURIComponent(jsonFile);
           }
         });
