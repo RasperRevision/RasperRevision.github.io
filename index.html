@@ -15,6 +15,86 @@
     crossorigin="anonymous" defer></script>
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style type="text/scss">
+    .icon-1, .icon-2, .icon-3 {
+      position: absolute;
+      right: 25%;
+      top: 25%;
+      width: 32px;
+      height: 3px;
+      background-color: black;
+      transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
+    }
+    
+    .icon-1 {
+        transform: translateY(-8px);
+        animation-delay: 100ms;
+    }
+
+    .icon-3 {
+      transform: translateY(8px);
+      animation-delay: 250ms;
+    }
+    
+  .hamburger-icon {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 10%;
+    left: 3%;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    background: rgba(255,255,255,0.2);
+    // background: green;
+    // width: auto;
+    // height: 50px;
+    // overflow: hidden;
+  &:hover {
+    // .icon-1 {
+    //   transform: rotate(40deg);
+    // }
+    // .icon-3 {
+    //   transform: rotate(-40deg);
+    // }
+    // .icon-2 {
+    //   opacity: 0;
+    // }
+    transform: scale(1.2);
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+  }
+}
+    .icon-1.a {
+  transform: rotate(40deg);
+}
+.icon-3.b {
+  transform: rotate(-40deg);
+}
+.icon-2.c {
+  opacity: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+@keyframes slideIn {
+  0% {
+    width: 0%;
+    // transform: scale(.3);
+    opacity: 0;
+  }
+  
+  100% {
+    width: 50%;
+    // transform:scale(1);
+    opacity: 1;
+  }
+}
+
+  </style>
 </head>
 
 <body class="h-100 bg-dark">
@@ -103,10 +183,12 @@
   </section>
 
   <div class="position-absolute top-0 end-0 mt-3 me-3">
-    <button class="btn btn-dark" id="sidebarToggle">
-      <i class="bi bi-list" style="font-size:2rem;color:rgb(255, 255, 255)"></i>
-      <i class="bi bi-x d-none" style="font-size:2rem;color:rgb(255, 255, 255)"></i>
-    </button>
+    <div class="hamburger-icon" id="icon">
+      <div class="icon-1" id="a"></div>
+      <div class="icon-2" id="b"></div>
+      <div class="icon-3" id="c"></div>
+      <div class="clear"></div>
+    </div>
   </div>
 
   <div class="d-flex" id="wrapper">
@@ -150,15 +232,8 @@
 
       title.innerHTML = "Rasper Revision";
 
-      document.getElementById('sidebarToggle').addEventListener('click', function () {
+      document.getElementById('icon').addEventListener('click', function () {
         document.getElementById('sidebar').classList.toggle('active');
-        if (document.querySelector('.bi-list').classList.contains('d-none')) {
-          document.querySelector('.bi-list').classList.remove('d-none');
-          document.querySelector('.bi-x').classList.add('d-none');
-        } else {
-          document.querySelector('.bi-x').classList.remove('d-none');
-          document.querySelector('.bi-list').classList.add('d-none');
-        }
       });
 
       music_topic_parent.classList.add('d-none');
