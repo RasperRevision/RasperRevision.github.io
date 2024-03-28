@@ -4,6 +4,7 @@ const option3 = document.querySelector('.opt3');
 const option4 = document.querySelector('.opt4');
 
 const section = document.querySelector('.quiz');
+const home = document.querySelector('.return');
 
 let current_subject;
 let current_topic;
@@ -13,6 +14,10 @@ let qstopwatch = document.querySelector('.quiz_stopwatch');
 let qs = 0;
 let qm = 0;
 let qFormattedTime;
+      
+home.addEventListener('click', function () {
+  location.reload();
+});
 
 function startQuizStopwatch() {
   qtimer = setInterval(updateStopwatch, 1000);
@@ -71,6 +76,8 @@ async function quiz(subject, topic) {
 
     qstopwatch.classList.add('d-none');
     document.querySelector('.key_term').innerHTML = "Well done! You completed the quiz in " + qFormattedTime;
+
+    home.classList.remove('d-none');
     
   } catch (error) {
     console.error('Error fetching JSON', error);
