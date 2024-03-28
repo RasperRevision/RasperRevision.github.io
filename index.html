@@ -5,97 +5,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rasper Revision</title>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous" defer></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <style type="text/scss">
-    .icon-1, .icon-2, .icon-3 {
-    position: absolute;
-    left: 25%;
-    top: 50%;
-    width: 32px;
-    height: 3px;
-    background-color: black;
-    transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
-}
+  <style>
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+      position: absolute;
+      left: 25%;
+      top: 50%;
+      width: 32px;
+      height: 3px;
+      background-color: rgb(230, 230, 230);
+      transition: all 400ms cubic-bezier(.84, .06, .52, 1.8);
+    }
 
-.icon-1 {
-  transform: translateY(-8px);
-  animation-delay: 100ms;
-}
+    .icon-1 {
+      transform: translateY(-8px);
+      transition-delay: 100ms;
+    }
 
-.icon-3 {
-  transform: translateY(8px);
-  animation-delay: 250ms;
-}
+    .icon-3 {
+      transform: translateY(8px);
+      transition-delay: 250ms;
+    }
 
-.hamburger-icon {
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: 10%;
-  left: 3%;
-  z-index: 1000;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: all 0.2s ease-in-out;
-  background: rgba(255,255,255,0.2);
-  // background: green;
-  // width: auto;
-  // height: 50px;
-  // overflow: hidden;
-  &:hover {
-    // .icon-1 {
-    //   transform: rotate(40deg);
-    // }
-    // .icon-3 {
-    //   transform: rotate(-40deg);
-    // }
-    // .icon-2 {
-    //   opacity: 0;
-    // }
-    transform: scale(1.2);
-    box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
-  }
-}
+    .hamburger-icon {
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      top: 40px;
+      right: 40px;
+      z-index: 1000;
+      cursor: pointer;
+      border-radius: 50%;
+      transform: scale(1.3);
+      transition: all 0.2s ease-in-out;
+      background: rgba(255, 255, 255, 0.1);
+    }
 
-.icon-1.a {
-  transform: rotate(40deg);
-}
-.icon-3.b {
-  transform: rotate(-40deg);
-}
-.icon-2.c {
-  opacity: 0;
-}
+    .hamburger-icon:hover {
+      transform: scale(1.4);
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    }
 
-.clear {
-  clear: both;
-}
+    .icon-1.a {
+      transform: rotate(40deg);
+    }
 
-@keyframes slideIn {
-  0% {
-    width: 0%;
-    // transform: scale(.3);
-    opacity: 0;
-  }
-  
-  100% {
-    width: 50%;
-    // transform:scale(1);
-    opacity: 1;
-  }
-}
+    .icon-3.b {
+      transform: rotate(-40deg);
+    }
 
+    .icon-2.c {
+      opacity: 0;
+    }
 
+    .clear {
+      clear: both;
+    }
+
+    @keyframes slideIn {
+      0% {
+        width: 0%;
+        opacity: 0;
+      }
+
+      100% {
+        width: 50%;
+        opacity: 1;
+      }
+    }
   </style>
 </head>
 
@@ -167,9 +156,9 @@
     <div class="elements text-white"></div>
   </section>
 
-  <section class="quiz d-none w-100 h-100">
+  <section class="quiz d-none w-100">
     <div class="quiz_stopwatch position-absolute top-0 fs-2 mx-4 my-2 text-white">00:00</div>
-    <div class="quiz_content position-absolute left-0 right-0 w-100 top-0">
+    <div class="quiz_content position-absolute left-0 right-0 w-100 bottom-50">
       <div class="key_term d-block text-center p-5 text-white fw-bold fs-4"></div>
       <button class="btn btn-danger return d-none mx-5 p-2 fs-6">Home</button>
       <div class="d-flex">
@@ -180,16 +169,17 @@
         <button class="btn opt3 text-white py-3 my-3" style="flex-basis: 100% !important;"></button>
         <button class="btn opt4 text-white py-3 my-3" style="flex-basis: 100% !important;"></button>
       </div>
+
     </div>
 
   </section>
 
-    <div class="hamburger-icon" id="icon">
-      <div class="icon-1" id="a"></div>
-      <div class="icon-2" id="b"></div>
-      <div class="icon-3" id="c"></div>
-      <div class="clear"></div>
-    </div>
+  <div class="hamburger-icon" id="icon">
+    <div class="icon-1" id="a"></div>
+    <div class="icon-2" id="b"></div>
+    <div class="icon-3" id="c"></div>
+    <div class="clear"></div>
+  </div>
 
   <div class="d-flex" id="wrapper">
     <div class="bg-black" id="sidebar">
@@ -219,6 +209,10 @@
       const physics_topic_parent = document.querySelector('.physics-topics');
       const game_parent = document.querySelector('.games');
 
+      const icon = document.getElementById("icon");
+      const icon1 = document.getElementById("a");
+      const icon2 = document.getElementById("b");
+      const icon3 = document.getElementById("c");
 
       const matchup_game = document.querySelector('.game-matchup');
       const quiz_game = document.querySelector('.game-quiz');
@@ -230,11 +224,15 @@
       let topic_chosen = "";
       let game_chosen = "";
 
-      title.innerHTML = "Rasper Revision";
 
-      document.getElementById('icon').addEventListener('click', function () {
+      icon.addEventListener('click', function () {
         document.getElementById('sidebar').classList.toggle('active');
+        icon1.classList.toggle('a');
+        icon2.classList.toggle('c');
+        icon3.classList.toggle('b');
       });
+
+      title.innerHTML = "Rasper Revision";
 
       music_topic_parent.classList.add('d-none');
       english_lit_topic_parent.classList.add('d-none');
@@ -353,7 +351,7 @@
             } else if (topic_chosen = "cold_war") {
               jsonFile = 'coldwarquotes.json';
             }
-            
+
             window.location.href = '/fill-in-the-blank?json=' + encodeURIComponent(jsonFile);
           }
         });
