@@ -1,6 +1,6 @@
 [
     {
-        "term": "Arithmetic Logic Unit",
+        "term": "Arithmetic Logic Unit (ALU)",
         "meaning": "A component of the CPU that performs arithmetic and logical operations"
     },
     {
@@ -48,7 +48,7 @@
         "meaning": "A program that translates code into machine code by creating a separate file storing the executable machine code"
     },
     {
-        "term": "Control Unit",
+        "term": "Control Unit (CU)",
         "meaning": "A component of the CPU that directs the flow of data and instructions"
     },
     {
@@ -76,7 +76,7 @@
         "meaning": "The cycle used by the processor to execute instructions"
     },
     {
-        "term": "Hard Disk Drive",
+        "term": "Hard Disk Drive (HDD)",
         "meaning": "A type of non-volatile secondary storage using magnetic storage"
     },
     {
@@ -102,5 +102,61 @@
     {
         "term": "Non-Volatile",
         "meaning": "Data that will not be deleted if power is lost"
+    },
+    {
+        "term": "NOT",
+        "meaning": "A logic gate that inverts a boolean value."
+    },
+    {
+        "term": "Operating System (OS)",
+        "meaning": "A special piece of software responsible for managing computer hardware, users and resources."
+    },
+    {
+        "term": "Optical storage",
+        "meaning": "A type of storage storing data on an optical disk."
+    },
+    {
+        "term": "OR",
+        "meaning": "A logic gate that returns true if one or both of the values are true."
+    },
+    {
+        "term": "Random Access Memory (RAM)",
+        "meaning": "A volatile memory location storing data currently in use"
+    },
+    {
+        "term": "Read Only Memory (ROM)",
+        "meaning": "A non-volatile memory location storing BIOS data. Cannot be written to."
+    },
+    {
+        "term": "Secondary Storage",
+        "meaning": "Storage locations that are not directly connected to the CPU. Non-volatile."
+    },
+    {
+        "term": "Software",
+        "meaning": "The programs stored and run on a computer system"
+    },
+    {
+        "term": "Solid State Drive (SSD)",
+        "meaning": "A type of storage hardware without moving parts"
+    },
+    {
+        "term": "System software",
+        "meaning": "Software that assists with the management and maintenance of a computer system"
+    },
+    {
+        "term": "Truth table",
+        "meaning": "A table showing the input and output of data through a logic gate or circuit"
+    },
+    {
+        "term": "User Interface (UI)",
+        "meaning": "The means of communication between a user and a computer"
+    },
+    {
+        "term": "Utility software",
+        "meaning": "Software that assists the OS to organise and maintain the computer system"
+    },
+    {
+        "term": "Volatile",
+        "meaning": "Temporary data that will be deleted if the power is lost"
     }
 ]
