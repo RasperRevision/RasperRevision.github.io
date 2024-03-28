@@ -90,6 +90,8 @@ function script(subject, topic) {
 
 
         mean.addEventListener('click', function () {
+          mean.classList.remove("btn-dark");
+          mean.classList.add("btn-info");
           if (sym_found && mean.innerHTML == meaning) {
             while (container.firstChild) { container.removeChild(container.firstChild); }
             omit.push(randomIndex);
