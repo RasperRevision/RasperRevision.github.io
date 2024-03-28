@@ -70,7 +70,7 @@ async function quiz(subject, topic) {
     option4.classList.add('d-none');
 
     qstopwatch.classList.add('d-none');
-    document.querySelector('.key_term').innerHTML = "Well done! You completed the quiz in " + qFormattedTime;
+    document.querySelector('.key_term').innerHTML = qFormattedTime;
     
   } catch (error) {
     console.error('Error fetching JSON', error);
@@ -132,30 +132,6 @@ function waitForButton(item, callback) {
       callback(event);
       cleanup();
     }
-  };
-
-  const cleanup = () => {
-    option1.removeEventListener('click', handleClick);
-    option2.removeEventListener('click', handleClick);
-    option3.removeEventListener('click', handleClick);
-    option4.removeEventListener('click', handleClick);
-  };
-
-  option1.addEventListener('click', handleClick);
-  option2.addEventListener('click', handleClick);
-  option3.addEventListener('click', handleClick);
-  option4.addEventListener('click', handleClick);
-
-  return cleanup;
-}
-  });
-}
-
-
-function waitForButton(item, callback) {
-  const handleClick = (event) => {
-    correct.push(item.meaning)
-    answers.push(event.target.innerHTML);
   };
 
   const cleanup = () => {
