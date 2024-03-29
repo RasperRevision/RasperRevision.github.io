@@ -23,17 +23,21 @@
 </head>
 
 <body class="bg-light d-flex align-items-center justify-content-center p-0 m-0">
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-            <a class="nav-link" href="/fill-in-the-blank/?json=macbeth.json">Macbeth</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/fill-in-the-blank/?json=christmas_carol.json">A Christmas Carol</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/fill-in-the-blank/?json=coldwarquotes.json">Cold War</a>
-        </li>
-    </ul>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="/fill-in-the-blank/?json=macbeth.json">Macbeth</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/fill-in-the-blank/?json=christmas_carol.json">A Christmas Carol</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/fill-in-the-blank/?json=coldwarquotes.json">Cold War</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <div class="container w-100 bg-white p-4">
         <h3 class="mb-4">Complete the quotation</h3>
@@ -49,6 +53,7 @@
     </div>
 
     <script>
+
     document.addEventListener("DOMContentLoaded", function () {
     function getParameterByName(name, url) {
         if (!url) url = window.location.href;
