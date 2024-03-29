@@ -122,6 +122,7 @@
 
   <script src="matchup.js"></script>
   <script src="quiz.js"></script>
+  <script src="sidebar.js"></script>
 
   <script>
     function start() {
@@ -138,11 +139,6 @@
       const physics_topic_parent = document.querySelector('.physics-topics');
       const game_parent = document.querySelector('.games');
 
-      const icon = document.getElementById("icon");
-      const icon1 = document.getElementById("a");
-      const icon2 = document.getElementById("b");
-      const icon3 = document.getElementById("c");
-
       const matchup_game = document.querySelector('.game-matchup');
       const quiz_game = document.querySelector('.game-quiz');
       const blank_game = document.querySelector('.game-blank');
@@ -152,14 +148,6 @@
       let subject_chosen = "";
       let topic_chosen = "";
       let game_chosen = "";
-
-
-      icon.addEventListener('click', function () {
-        document.getElementById('sidebar').classList.toggle('active');
-        icon1.classList.toggle('a');
-        icon2.classList.toggle('c');
-        icon3.classList.toggle('b');
-      });
 
       title.innerHTML = "Rasper Revision";
 
