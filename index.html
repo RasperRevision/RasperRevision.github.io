@@ -57,6 +57,10 @@
       <div class="german-topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger">Daily life, food and drink</button>
       </div>
+      
+      <div class="chemistry-topics d-flex p-5 w-100 h-100">
+        <button class="topic btn text-white fs-1 bg-danger">C1: Atomic structure</button>
+      </div>
 
       <div class="physics-topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger">Equations</button>
@@ -65,13 +69,14 @@
       <div class="subjects d-flex flex-column p-5 w-100 h-100">
         <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
           <button class="subject btn text-white fs-1 bg-warning border-dark">Computer Science</button>
-          <button class="subject btn text-white fs-1 bg-info">English Literature</button>
-          <button class="subject btn text-white fs-1 bg-primary">History</button>
+          <button class="subject btn text-white fs-1 bg-primary">English Literature</button>
+          <button class="subject btn text-white fs-1 bg-danger">History</button>
+          <button class="subject btn text-white fs-1 bg-turquoise">Chemistry</button>
         </div>
         <div class="d-flex w-100 flex-row" style="flex-basis: 100%">
           <button class="subject btn text-white fs-1 bg-purple">Music</button>
           <button class="subject btn text-white fs-1 bg-success">German</button>
-          <button class="subject btn text-white fs-1 bg-danger">Physics</button>
+          <button class="subject btn text-white fs-1 bg-info">Physics</button>
         </div>
       </div>
     </div>
@@ -131,12 +136,15 @@
       const games = document.querySelectorAll('.game');
 
       const subject_parent = document.querySelector('.subjects');
+      
       const music_topic_parent = document.querySelector('.music-topics');
       const english_lit_topic_parent = document.querySelector('.english-lit-topics');
       const compsci_topic_parent = document.querySelector('.compsci-topics');
       const german_topic_parent = document.querySelector('.german-topics');
       const history_topic_parent = document.querySelector('.history-topics');
       const physics_topic_parent = document.querySelector('.physics-topics');
+      const chemistry_topic_parent = document.querySelector('.chemistry-topics');
+      
       const game_parent = document.querySelector('.games');
 
       const matchup_game = document.querySelector('.game-matchup');
@@ -157,6 +165,7 @@
       history_topic_parent.classList.add('d-none');
       physics_topic_parent.classList.add('d-none');
       compsci_topic_parent.classList.add('d-none');
+      chemistry_topic_parent.classList.add('d-none');
 
       game_parent.classList.add('d-none');
 
@@ -177,6 +186,8 @@
             history_topic_parent.classList.remove('d-none');
           } else if (subject_chosen == "Physics") {
             physics_topic_parent.classList.remove('d-none');
+          } else if (subject_chosen == "Chemistry") {
+            chemistry_topic_parent.classList.remove('d-none');
           }
         });
       });
@@ -241,6 +252,13 @@
               matchup_game.classList.add('d-none');
               quiz_game.classList.add('d-none');
               window.location.href = '/equations?json=' + encodeURIComponent("physics_equations.json");
+            }
+          } else if (subject_chosen == "Chemistry") {
+            chemistry_topic_parent.classList.add('d-none');
+            if (topic_chosen == "C1: Atomic structure") {
+              matchup_game.classList.add('d-none');
+              blank_game.classList.add('d-none');
+              topic_chosen = "c1";
             }
           }
         });
