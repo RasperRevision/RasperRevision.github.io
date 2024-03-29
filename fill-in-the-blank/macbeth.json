@@ -41,20 +41,68 @@
     ]
   },
   {
-    "quote": "you should be women, and yet your beards / forbid me to interpret that you are so.",
+    "quote": "you should be women / And yet your beards forbid me to interpret / That you are so.",
     "thenes": [
       "supernatural"
     ]
   },
   {
-    "quote": "All hail, Macbeth, that shalt be king hereafter!",
+    "quote": "All hail Macbeth, that shalt be king hereafter!",
     "themes": [
       "ambition",
       "kingship"
     ]
   },
   {
-    "quote": "There's no art / To find the mind's construction in the face",
+    "quote": "Lesser than Macbeth, and greater. Not so happy, yet much happier.",
+    "themes": [
+      "paradox"
+    ]
+  },
+  {
+    "quote": "Thou shalt get kings, though thou be none.",
+    "themes": [
+      "ambition",
+      "kingship"
+    ]
+  },
+  {
+    "quote": "What, can the devil speak true?",
+    "themes": [
+      "prophecy",
+      "supernatural"
+    ]
+  },
+  {
+    "quote": "Two truths are told, / As happy prologues to the swelling act / Of the imperial theme.",
+    "themes": [
+      "metatheatrical"
+    ]
+  },
+  {
+    "quote": "This supernatural soliciting / Cannot be ill, cannot be good.",
+    "themes": [
+      "ambition",
+      "supernatural"
+    ]
+  },
+  {
+    "quote": "Look how our partner's rapt.",
+    "themes": [
+      "supernatural",
+      "ambition"
+    ]
+  },
+  {
+    "quote": "If chance will have my king, why chance may crown me / Without my stir.",
+    "themes": [
+      "prophecy",
+      "kingship",
+      "ambition"
+    ]
+  },
+  {
+    "quote": "There's no art / To find the mind's construction in the face.",
     "themes": [
       "appearance v reality",
       "trust",
@@ -62,7 +110,14 @@
     ]
   },
   {
-    "quote": "Stars, hide your fires; let not light see my black and deep desires",
+    "quote": "I have begun to plant thee and will labour / To make thee full of growing",
+    "themes": [
+      "ambition",
+      "growth"
+    ]
+  },
+  {
+    "quote": "Stars, hide your fires / Let not light see my black and deep desires",
     "themes": [
       "ambition",
       "betrayal",
@@ -70,17 +125,32 @@
     ]
   },
   {
-    "quote": "Yet do I fear thy nature; it is too full o' the milk of human kindness.",
+    "quote": "yet do I fear thy nature, / It is too full o'th'milk of human kindness / To catch the nearest way",
     "themes": [
       "gender roles",
       "ambition"
     ]
   },
   {
-    "quote": "Come, you spirits that tend on mortal thoughts, unsex me here.",
+    "quote": "Come, you spirits / That tend on mortal thoughts, unsex me here / And fill me from the crown to the toe topfull / Of direst cruelty",
     "themes": [
       "gender roles",
-      "power"
+      "power",
+      "cruelty"
+    ]
+  },
+  {
+    "quote": "Come, thick night, / And pall thee in the dunnest smoke of hell",
+    "themes": [
+      "darkness",
+      "supernatural",
+      "ambition"
+    ]
+  },
+  {
+    "quote": "To beguile the time / Look like the time, bear welcome in your eye, / Your hand, your tongue",
+    "themes": [
+      "appearance v reality"
     ]
   },
   {
@@ -90,10 +160,8 @@
     ]
   },
   {
-    "quote": "Come, thick night, and pall thee in the dunnest smoke of hell",
+    "quote": "If it were done when 'tis done, then 'twere well / It were done quickly",
     "themes": [
-      "darkness",
-      "supernatural",
       "ambition"
     ]
   },
