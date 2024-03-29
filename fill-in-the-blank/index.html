@@ -10,15 +10,26 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <style>
-    body {
-      height: 100vh;
-    }
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            position: relative; /* Added */
+        }
 
-    .container {
-      max-width: 600px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+        .nav-pills {
+            position: absolute; /* Added */
+            top: 0; /* Added */
+            left: 50%; /* Added */
+            transform: translateX(-50%); /* Added */
+        }
+
+        .container {
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px; /* Added */
+        }
   </style>
 </head>
 
