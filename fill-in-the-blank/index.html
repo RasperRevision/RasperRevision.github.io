@@ -26,6 +26,75 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+    
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+      position: absolute;
+      left: 25%;
+      top: 50%;
+      width: 32px;
+      height: 3px;
+      background-color: rgb(230, 230, 230);
+      transition: all 400ms cubic-bezier(.84, .06, .52, 1.8);
+    }
+
+    .icon-1 {
+      transform: translateY(-8px);
+      transition-delay: 100ms;
+    }
+
+    .icon-3 {
+      transform: translateY(8px);
+      transition-delay: 250ms;
+    }
+
+    .hamburger-icon {
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      top: 30px;
+      right: 30px;
+      z-index: 1000;
+      cursor: pointer;
+      border-radius: 50%;
+      transform: scale(1.3);
+      transition: all 0.2s ease-in-out;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .hamburger-icon:hover {
+      transform: scale(1.4);
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon-1.a {
+      transform: rotate(40deg);
+    }
+
+    .icon-3.b {
+      transform: rotate(-40deg);
+    }
+
+    .icon-2.c {
+      opacity: 0;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    @keyframes slideIn {
+      0% {
+        width: 0%;
+        opacity: 0;
+      }
+
+      100% {
+        width: 50%;
+        opacity: 1;
+      }
+    }
   </style>
 </head>
 
@@ -54,8 +123,35 @@
 
     <div class="my-2" id="result"></div>
   </div>
+  <div class="hamburger-icon" id="icon">
+    <div class="icon-1" id="a"></div>
+    <div class="icon-2" id="b"></div>
+    <div class="icon-3" id="c"></div>
+    <div class="clear"></div>
+  </div>
+  
+ <div class="d-flex" id="wrapper">
+    <div class="bg-black" id="sidebar">
+      <div class="sidebar-heading">Rasper Revision</div>
+      <div class="list-group list-group-flush">
+        <a href="/" class="list-group-item">Activities</a>
+        <a href="/about" class="list-group-item">About</a>
+      </div>
+    </div>
+  </div>
 
   <script>
+    const icon = document.getElementById("icon");
+    const icon1 = document.getElementById("a");
+    const icon2 = document.getElementById("b");
+    const icon3 = document.getElementById("c");
+    
+     icon.addEventListener('click', function () {
+        document.getElementById('sidebar').classList.toggle('active');
+        icon1.classList.toggle('a');
+        icon2.classList.toggle('c');
+        icon3.classList.toggle('b');
+      });
 
     document.addEventListener("DOMContentLoaded", function () {
     function getParameterByName(name, url) {
