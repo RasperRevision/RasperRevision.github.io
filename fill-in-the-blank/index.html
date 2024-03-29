@@ -24,6 +24,17 @@
 
 <body class="bg-light d-flex align-items-center justify-content-center p-0 m-0">
   <div class="container w-100 bg-white p-4">
+    <ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link" href="/fill-in-the-blank/?json=macbeth.json">Macbeth</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/fill-in-the-blank/?json=christmas_carol.json">A Christmas Carol</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/fill-in-the-blank/?json=coldwarquotes.json">Cold War</a>
+  </li>
+</ul>
     <h3 class="mb-4">Complete the quotation</h3>
     <div class="fw-bold" id="themes"></div>
     <div class="fs-5 mb-4" id="quote"></div>
@@ -38,109 +49,118 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      function getParameterByName(name, url) {
+    function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
         var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
         if (!results) return null;
         if (!results[2]) return '';
         return decodeURIComponent(results[2].replace(/\+/g, " "));
-      }
+    }
 
-      function loadJSON(callback) {
+    function loadJSON(callback) {
         var jsonFile = getParameterByName('json');
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
         xobj.open('GET', jsonFile, true);
         xobj.onreadystatechange = function () {
-          if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
+            if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
         };
         xobj.send(null);
-      }
+    }
 
-      function shuffle(array) {
+    function shuffle(array) {
         for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
         }
         return array;
-      }
+    }
 
-      const themesElement = document.getElementById("themes");
-      const quoteElement = document.getElementById("quote");
-      const inputElement = document.getElementById("input");
-      const submitButton = document.getElementById("submit-btn");
-      const nextButton = document.getElementById("next-btn");
-      const resultElement = document.getElementById("result");
+    const themesElement = document.getElementById("themes");
+    const quoteElement = document.getElementById("quote");
+    const inputElement = document.getElementById("input");
+    const submitButton = document.getElementById("submit-btn");
+    const nextButton = document.getElementById("next-btn");
+    const resultElement = document.getElementById("result");
+    const pills = document.querySelectorAll('.nav-link');
 
-      let quotes;
-      let shuffledQuotes;
-      let currentQuoteIndex = 0;
+    let quotes;
+    let shuffledQuotes;
+    let currentQuoteIndex = 0;
 
-      function displayQuote() {
+    function displayQuote() {
         const quoteObj = shuffledQuotes[currentQuoteIndex];
         const themesTitleCase = quoteObj.themes.map(theme => toTitleCase(theme));
         themesElement.textContent = `${themesTitleCase.join(", ")}`;
         quoteElement.textContent = maskQuote(quoteObj.quote);
-      }
+    }
 
-      function toTitleCase(str) {
+    function toTitleCase(str) {
         return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-      }
+    }
 
-      function maskQuote(quote) {
+    function maskQuote(quote) {
         return quote.replace(/\b\w+(?:[']\w+)?|[^\s]/g, match => {
-          if (match.trim() === "") return match;
-          if (/[^a-zA-Z]/.test(match)) return match;
-          if (Math.random() < 0.4) return "_".repeat(match.length);
-          else return match;
+            if (match.trim() === "") return match;
+            if (/[^a-zA-Z]/.test(match)) return match;
+            if (Math.random() < 0.4) return "_".repeat(match.length);
+            else return match;
         });
-      }
+    }
 
-      function removePunctuation(text) {
+    function removePunctuation(text) {
         return text.replace(/[.,\/#!$%\^&\*;:{}=\-_~()]/g, "").replace(/\s{2,}/g, " ");
-      }
+    }
 
-      function checkInput() {
+    function checkInput() {
         const userGuess = removePunctuation(inputElement.value.trim());
         const actualQuote = shuffledQuotes[currentQuoteIndex].quote;
         resultElement.textContent = (userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase())) ? "Correct!" : "Incorrect. The correct quote is: " + actualQuote;
         resultElement.classList.add((userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase())) ? 'alert-success' : 'alert-danger');
         submitButton.classList.add('d-none');
         nextButton.classList.remove('d-none');
-      }
+    }
 
-      function nextQuote() {
+    function nextQuote() {
         currentQuoteIndex++;
         if (currentQuoteIndex >= shuffledQuotes.length) {
-          currentQuoteIndex = 0;
-          shuffledQuotes = shuffle([...quotes]);
+            currentQuoteIndex = 0;
+            shuffledQuotes = shuffle([...quotes]);
         }
         inputElement.value = "";
         resultElement.textContent = "";
         submitButton.classList.remove('d-none');
         nextButton.classList.add('d-none');
         displayQuote();
-      }
+    }
 
-      submitButton.addEventListener("click", function () { checkInput(); });
-      nextButton.addEventListener("click", function () { nextQuote(); });
+    submitButton.addEventListener("click", function () { checkInput(); });
+    nextButton.addEventListener("click", function () { nextQuote(); });
 
-      inputElement.addEventListener("keypress", function (event) {
+    inputElement.addEventListener("keypress", function (event) {
         if (event.key === "Enter") {
-          event.preventDefault();
-          if (nextButton.classList.contains('d-none')) { checkInput(); }
-          else { nextQuote(); }
+            event.preventDefault();
+            if (nextButton.classList.contains('d-none')) { checkInput(); }
+            else { nextQuote(); }
         }
-      });
+    });
 
-      loadJSON(function (response) {
+    loadJSON(function (response) {
         quotes = response;
         shuffledQuotes = shuffle([...quotes]);
         console.log(shuffledQuotes);
         displayQuote();
-      });
+
+        // Add .active class to the corresponding pill
+        const jsonFileName = getParameterByName('json');
+        pills.forEach(pill => {
+            if (pill.getAttribute('href').includes(jsonFileName)) {
+                pill.classList.add('active');
+            }
+        });
     });
+});
 
   </script>
 </body>
