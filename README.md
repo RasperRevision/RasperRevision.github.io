@@ -21,3 +21,4 @@ The following games are available:
 | German | X | ✓ | X | X |
 | History| X | ✓ | X | X |
 | Physics | X | X | X | ✓ |
+| Chemistry | X | ✓ | X | X |
