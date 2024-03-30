@@ -142,6 +142,7 @@ function script(subject, topic) {
 
       mean.style.position = 'absolute';
       mean.style.fontSize = '20px';
+      mean.style.textShadow = '1px 1px 10px black';
       mean.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
       mean.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
 
