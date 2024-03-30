@@ -5,6 +5,15 @@
   background: rgb(78, 87, 97);
 }
 
+.link-body-emphasis:hover {
+  color: #efefef !important;
+  background-color: rgb(59, 59, 59) !important;
+}
+
+.link-body-emphasis:focus {
+  color: #efefef !important;
+}
+
 #sidebar {
   position: fixed;
   top: 0;
