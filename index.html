@@ -57,7 +57,7 @@
       <div class="german-topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger">Daily life, food and drink</button>
       </div>
-      
+
       <div class="chemistry-topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger">C1: Atomic structure</button>
       </div>
@@ -82,14 +82,6 @@
     </div>
   </section>
 
-  <section class="match-up d-none">
-    <div class="stopwatch position-absolute top-0 fs-2 mx-4 my-2 text-white">00:00</div>
-    <div class="position-absolute d-flex align-items-center justify-content-center h-100 w-100 top-0">
-      <div class="term py-2 px-4 fs-3 position-absolute top-0"></div>
-    </div>
-    <div class="elements text-white"></div>
-  </section>
-
   <section class="quiz d-none w-100">
     <div class="quiz_stopwatch position-absolute top-0 fs-2 mx-4 my-2 text-white">00:00</div>
     <div class="quiz_content position-absolute left-0 right-0 w-100 bottom-50">
@@ -103,9 +95,7 @@
         <button class="btn opt3 text-white py-3 my-3" style="flex-basis: 100% !important;"></button>
         <button class="btn opt4 text-white py-3 my-3" style="flex-basis: 100% !important;"></button>
       </div>
-
     </div>
-
   </section>
 
   <div class="hamburger-icon" id="icon">
@@ -125,7 +115,6 @@
     </div>
   </div>
 
-  <script src="matchup.js"></script>
   <script src="quiz.js"></script>
   <script src="sidebar.js"></script>
 
@@ -136,7 +125,7 @@
       const games = document.querySelectorAll('.game');
 
       const subject_parent = document.querySelector('.subjects');
-      
+
       const music_topic_parent = document.querySelector('.music-topics');
       const english_lit_topic_parent = document.querySelector('.english-lit-topics');
       const compsci_topic_parent = document.querySelector('.compsci-topics');
@@ -144,7 +133,7 @@
       const history_topic_parent = document.querySelector('.history-topics');
       const physics_topic_parent = document.querySelector('.physics-topics');
       const chemistry_topic_parent = document.querySelector('.chemistry-topics');
-      
+
       const game_parent = document.querySelector('.games');
 
       const matchup_game = document.querySelector('.game-matchup');
@@ -270,9 +259,7 @@
           title.classList.add('d-none');
 
           if (game_chosen == "Matchup") {
-            document.querySelector(".match-up").classList.remove('d-none');
-            startMatchupStopwatch();
-            script(subject_chosen, topic_chosen);
+            location.href = '/matchup/?json=' + topic_chosen + '.json';
           } else if (game_chosen == "Quiz") {
             document.querySelector(".quiz").classList.remove('d-none');
             startQuizStopwatch();
