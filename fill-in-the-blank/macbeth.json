@@ -166,16 +166,33 @@
     ]
   },
   {
-    "quote": "I have no spur to prick the sides of my intent, but only vaulting ambition, which o'erleaps itself and falls on the other.",
+    "quote": "I have no spur / To prick the sides of my intent, but only / Vaulting ambition, which o'erleaps itself / And falls on th'other",
     "themes": [
       "ambition"
     ]
   },
   {
-    "quote": "Is this a dagger which I see before me",
+    "quote": "When you durst do it, then you were a man. / And to be more than what you were, you would / Be so much more the man.",
     "themes": [
-      "guilt",
+      "gender roles"
+    ]
+  },
+  {
+    "quote": "But screw your courage to the sticking-place, / And we'll not fail.",
+    "themes": [
+      "bravery"
+    ]
+  },
+  {
+    "quote": "Is this a dagger which I see before me, / The handle toward my hand ?",
+    "themes": [
       "supernatural"
+    ]
+  },
+  {
+    "quote": "A dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain?",
+    "themes": [
+      "hallucination"
     ]
   },
   {
