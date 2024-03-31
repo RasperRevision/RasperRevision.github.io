@@ -1,0 +1,86 @@
+[
+  {
+    "term": "pitch",
+    "meaning": "high/low"
+  },
+  {
+    "term": "interval",
+    "meaning": "distance between notes"
+  },
+  {
+    "term": "motif",
+    "meaning": "a melodic fragment"
+  },
+  {
+    "term": "range",
+    "meaning": "distance between highest and lowest notes"
+  },
+  {
+    "term": "phrase",
+    "meaning": "a longer melodic idea"
+  },
+  {
+    "term": "riff",
+    "meaning": "memorable melodic idea"
+  },
+  {
+    "term": "step",
+    "meaning": "movement between adjacent notes"
+  },
+  {
+    "term": "skip",
+    "meaning": "two steps"
+  },
+  {
+    "term": "leap",
+    "meaning": "any interval larger than a skip"
+  },
+  {
+    "term": "scalic",
+    "meaning": "a melody using notes in scale order"
+  },
+  {
+    "term": "chromatic",
+    "meaning": "movement that includes non-diatonic notes"
+  },
+  {
+    "term": "passing note",
+    "meaning": "notes that link chord tones"
+  },
+  {
+    "term": "scale/mode",
+    "meaning": "a group of notes that a melody is based on"
+  },
+  {
+    "term": "repetition",
+    "meaning": "to repeat a melodic idea"
+  },
+  {
+    "term": "sequence",
+    "meaning": "repetition starting on a different note"
+  },
+  {
+    "term": "imitation",
+    "meaning": "repetition in a different instrument"
+  },
+  {
+    "term": "variation",
+    "meaning": "a modified melodic idea"
+  },
+  {
+    "term": "ostinato",
+    "meaning": "constant repetition of a melodic idea"
+  },
+  {
+    "term": "inversion",
+    "meaning": "upside down"
+  },
+  {
+    "term": "retrograde",
+    "meaning": "backwards"
+  },
+  {
+    "term": "countermelody",
+    "meaning": "a melody that accompanies the main one"
+  }
+]

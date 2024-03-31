@@ -4,39 +4,41 @@ const option3 = document.querySelector('.opt3');
 const option4 = document.querySelector('.opt4');
 
 const section = document.querySelector('.quiz');
-const home = document.querySelector('.return');
+const home = document.querySelector('.home');
+const restart = document.querySelector('.restart');
+const term_element = document.querySelector('.key_term');
+const pills = document.querySelectorAll('.dropdown-item');
 
-let current_subject;
-let current_topic;
+let current_file;
 
-let qtimer;
-let qstopwatch = document.querySelector('.quiz_stopwatch');
-let qs = 0;
-let qm = 0;
-let qFormattedTime;
-      
+let timer;
+let stopwatch = document.querySelector('.stopwatch');
+let s = 0;
+let m = 0;
+let formattedTime;
+
 home.addEventListener('click', function () {
   location.reload();
 });
 
-function startQuizStopwatch() {
-  qtimer = setInterval(updateStopwatch, 1000);
+function startStopwatch() {
+  timer = setInterval(updateStopwatch, 1000);
 }
 
 function stopStopwatch() {
-  clearInterval(qtimer);
+  clearInterval(timer);
 }
 
 function updateStopwatch() {
-  qs++;
+  s++;
 
-  if (qs === 60) {
-    qs = 0;
-    qm++;
+  if (s === 60) {
+    s = 0;
+    m++;
   }
 
-  qFormattedTime = pad(qm) + ':' + pad(qs);
-  qstopwatch.innerHTML = qFormattedTime;
+  formattedTime = pad(m) + ':' + pad(s);
+  stopwatch.innerHTML = formattedTime;
 }
 
 function pad(value) {
@@ -44,24 +46,45 @@ function pad(value) {
 }
 
 function shuffle(array) {
-  let currentIndex = array.length, randomIndex;
-  while (currentIndex > 0) {
-
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
   }
-
   return array;
 }
 
-async function quiz(subject, topic) {
-  current_subject = subject;
-  current_topic = topic;
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+function loadJSON(callback) {
+  var jsonFile = getParameterByName('json');
+
+  if (!jsonFile) {
+    console.error("JSON file name not provided in URL.");
+    return;
+  }
+
+  var jsonUrl = '/subjects/Music/' + jsonFile;
+
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open('GET', jsonUrl, true);
+  xobj.onreadystatechange = function () {
+    if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
+  };
+  xobj.send(null);
+}
+
+async function quiz(file) {
+  current_file = file;
   try {
-    const response = await fetch('/subjects/' + subject + '/' + topic + '.json');
+    const response = await fetch(file);
     const data = await response.json();
     let shuffled = shuffle(data);
 
@@ -69,16 +92,25 @@ async function quiz(subject, topic) {
       await processItem(item);
     }
 
+    stopwatch.classList.add('d-none');
     option1.classList.add('d-none');
     option2.classList.add('d-none');
     option3.classList.add('d-none');
     option4.classList.add('d-none');
 
-    qstopwatch.classList.add('d-none');
-    document.querySelector('.key_term').innerHTML = "Well done! You completed the quiz in " + qFormattedTime;
+    home.addEventListener('click', function () {
+      location.href = '/';
+    });
+    restart.addEventListener('click', function () {
+      location.reload();
+    });
 
-    home.classList.remove('d-none');
-    
+    term_element.classList.remove('fw-bold');
+    term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
+    term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
+
+    document.querySelector('.finish').classList.remove('d-none');
+
   } catch (error) {
     console.error('Error fetching JSON', error);
   }
@@ -86,7 +118,7 @@ async function quiz(subject, topic) {
 
 async function selectRandomMeaning() {
   try {
-    const response = await fetch('/subjects/' + current_subject + '/' + current_topic + '.json');
+    const response = await fetch(current_file);
     const data = await response.json();
     let randomIndex = Math.floor(Math.random() * data.length);
     return data[randomIndex].meaning;
@@ -156,4 +188,20 @@ function waitForButton(item, callback) {
   return cleanup;
 }
 
+const jsonFileName = getParameterByName('json');
 
+if (jsonFileName != null) {
+  pills.forEach(pill => {
+    if (pill.getAttribute('href').includes(jsonFileName)) {
+      pill.classList.add('active');
+      const dropdownMenu = pill.closest('.dropdown-menu');
+      if (dropdownMenu) {
+        const dropdownToggle = dropdownMenu.parentElement.querySelector('.dropdown-toggle');
+        dropdownToggle.classList.add('active');
+      }
+    }
+  });
+
+  quiz(jsonFileName);
+  startStopwatch();
+}
