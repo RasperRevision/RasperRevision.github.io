@@ -18,6 +18,44 @@ sidebarHeading.textContent = "Rasper Revision";
 var ulElement = document.createElement("ul");
 ulElement.classList.add("list-group", "list-group-flush");
 
+var listGroup = document.createElement("li");
+listGroup.classList.add("mb-1");
+
+var buttonElement = document.createElement("button");
+buttonElement.classList.add("btn-toggle", "d-block", "w-100", "rounded", "border-0", "collapsed", "text-light", "list-group-item", "text-start");
+buttonElement.setAttribute("data-bs-toggle", "collapse");
+buttonElement.setAttribute("data-bs-target", "#activities-collapse");
+buttonElement.textContent = "Activities";
+
+var collapseDiv = document.createElement("div");
+collapseDiv.classList.add("collapse");
+collapseDiv.id = "activities-collapse";
+
+var innerUlElement = document.createElement("ul");
+innerUlElement.classList.add("btn-toggle-nav", "list-unstyled", "fw-normal", "pb-1", "small", "ms-4");
+
+var innerListItems = [
+    {text: "Home", href: "/"},
+    {text: "Quiz", href: "/quiz/"},
+    {text: "Matchup", href: "/matchup/"},
+    {text: "Fill in the blank", href: "/fill-in-the-blank/"}
+];
+
+innerListItems.forEach(function(item) {
+  var innerLiElement = document.createElement("li");
+  var innerAnchorElement = document.createElement("a");
+  innerAnchorElement.textContent = item.text;
+  innerAnchorElement.href = item.href;
+  innerAnchorElement.classList.add("link-body-emphasis", "d-inline-flex", "text-decoration-none", "rounded", "text-light", "p-1", "px-2");
+  innerLiElement.appendChild(innerAnchorElement);
+  innerUlElement.appendChild(innerLiElement);
+});
+
+collapseDiv.appendChild(innerUlElement);
+
+listGroup.appendChild(buttonElement);
+firstListItem.appendChild(collapseDiv);
+
 var listItems = [
       {text: "About", href: "/about"},
       {text: "Create", href: "/create"},
@@ -37,7 +75,7 @@ listItems.forEach(function(item) {
 sidebarDiv.appendChild(sidebarHeading);
 sidebarDiv.appendChild(ulElement);
 
- wrapperDiv.appendChild(sidebarDiv);
+wrapperDiv.appendChild(sidebarDiv);
 
 document.body.appendChild(wrapperDiv);
 
