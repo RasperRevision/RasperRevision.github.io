@@ -15,8 +15,10 @@ function sendFeedback() {
 
   emailjs.send('service_3ff5xym', 'template_jv9m0fn', templateParams)
     .then(function (response) {
+      document.getElementById('success').classList.remove('d-none');
       console.log('SUCCESS!', response.status, response.text);
     }, function (error) {
+      document.getElementById('failure').classList.remove('d-none');
       console.log('FAILED...', error);
     });
 
