@@ -8,6 +8,7 @@ We currently have activities for the following subjects (more to come in the fut
 - German (Edexcel)
 - History (Edexcel)
 - Physics (AQA)
+- Chemistry (AQA)
 
 ---
 
