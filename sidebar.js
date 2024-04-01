@@ -6,7 +6,7 @@ const sidebar = document.createElement('div');
 
 sidebar.classList.add('d-flex');
 sidebar.id = 'wrapper';
-sidebar.createTextNode(`<div class="bg-darker" id="sidebar">
+const content = document.createTextNode(`<div class="bg-darker" id="sidebar">
       <div class="sidebar-heading">
         Rasper Revision
       </div>
@@ -44,6 +44,7 @@ sidebar.createTextNode(`<div class="bg-darker" id="sidebar">
         <a href="/contact/" class="list-group-item">Contact us</a>
       </ul>
     </div>`);
+sidebar.appendChild(content);
 document.body.appendChild(sidebar);
 
 icon.addEventListener('click', function () {
