@@ -183,3 +183,12 @@
   background-color: rgb(40, 38, 44);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
+
+.link-offset-1 {
+  text-underline-offset: 0.1rem !important;
+  transition: text-underline-offset 100ms ease-in-out;
+}
+
+.link-offset-1:hover {
+  text-underline-offset: 0.15rem !important;
+}
