@@ -70,6 +70,7 @@
 
       <div class="chemistry-topics d-flex p-5 w-100 h-100">
         <button class="topic btn text-white fs-1 bg-danger">C1: Atomic structure</button>
+        <button class="topic btn text-white fs-1 bg-danger">C2: Structure and bonding</button>
       </div>
 
       <div class="physics-topics d-flex p-5 w-100 h-100">
@@ -273,6 +274,10 @@
               matchup_game.classList.add('d-none');
               blank_game.classList.add('d-none');
               topic_chosen = "c1";
+            } else if (topic_chosen == "C2: Structure and bonding") {
+              matchup_game.classList.add('d-none');
+              blank_game.classList.add('d-none');
+              topic_chosen = "c2";
             }
           }
         });
