@@ -92,8 +92,7 @@
 .bg-purple,
 .bg-purple:hover,
 .bg-purple:active,
-.bg-purple:focus,
-.bg-purple:enabled {
+.bg-purple:focus {
   background-color: rgb(161, 4, 209);
 }
 
@@ -102,6 +101,10 @@
 .bg-turquoise:active,
 .bg-turquoise:focus {
   background-color: rgb(5, 202, 159);
+}
+
+.bg-darker {
+  background-color: rgb(23, 26, 30) !important;
 }
 
 .icon-1,
