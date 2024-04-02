@@ -1,7 +1,21 @@
-const icon = document.getElementById("icon");
-const icon1 = document.getElementById("a");
-const icon2 = document.getElementById("b");
-const icon3 = document.getElementById("c");
+var icon = document.createElement('div')
+var icon1 = document.createElement('div');
+var icon2 = document.createElement('div');
+var icon3 = document.createElement('div');
+
+icon.id = "icon";
+icon.classList.add('hamburger-icon');
+icon1.id = "a";
+icon1.classList.add('icon-1');
+icon2.id = "b";
+icon2.classList.add('icon-2');
+icon3.id = "c";
+icon3.classList.add('icon-3');
+
+icon.appendChild(icon1);
+icon.appendChild(icon2);
+icon.appendChild(icon3);
+document.body.appendChild(icon);
 
 var wrapperDiv = document.createElement("div");
 wrapperDiv.classList.add("d-flex");
@@ -35,13 +49,13 @@ var innerUlElement = document.createElement("ul");
 innerUlElement.classList.add("btn-toggle-nav", "list-unstyled", "fw-normal", "pb-1", "small", "ms-4");
 
 var innerListItems = [
-  {text: "Home", href: "/"},
-  {text: "Quiz", href: "/quiz/"},
-  {text: "Matchup", href: "/matchup/"},
-  {text: "Fill in the blank", href: "/fill-in-the-blank/"}
+  { text: "Home", href: "/" },
+  { text: "Quiz", href: "/quiz/" },
+  { text: "Matchup", href: "/matchup/" },
+  { text: "Fill in the blank", href: "/fill-in-the-blank/" }
 ];
 
-innerListItems.forEach(function(item) {
+innerListItems.forEach(function (item) {
   var innerLiElement = document.createElement("li");
   var innerAnchorElement = document.createElement("a");
   innerAnchorElement.textContent = item.text;
@@ -59,12 +73,12 @@ firstListItem.appendChild(collapseDiv);
 ulElement.appendChild(firstListItem);
 
 var listItems = [
-  {text: "About", href: "/about"},
-  {text: "Create", href: "/create"},
-  {text: "Contact us", href: "/contact/"}
+  { text: "About", href: "/about" },
+  { text: "Create", href: "/create" },
+  { text: "Contact us", href: "/contact/" }
 ];
 
-listItems.forEach(function(item) {
+listItems.forEach(function (item) {
   var liElement = document.createElement("li");
   var anchorElement = document.createElement("a");
   anchorElement.textContent = item.text;
