@@ -54,7 +54,7 @@ innerListItems.forEach(function(item) {
 collapseDiv.appendChild(innerUlElement);
 
 listGroup.appendChild(buttonElement);
-firstListItem.appendChild(collapseDiv);
+listGroup.appendChild(collapseDiv);
 
 var listItems = [
       {text: "About", href: "/about"},
