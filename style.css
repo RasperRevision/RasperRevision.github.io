@@ -12,6 +12,22 @@
   font-style: normal;
 }
 
+.rbtn {
+  border: none;
+  text-shadow: rgba(0, 0, 0, 0.4) 2px 2px 20px !important;
+  color: white;
+  font-size: 2.2rem;
+  flex-basis: 100%;
+  padding: 0;
+  filter: none;
+  transition: all 300ms ease-in-out;
+}
+
+.rbtn:hover {
+  margin: 10px;
+  filter: brightness(90%);
+}
+
 .term {
   border: rgb(55, 64, 68) !important;
   border-width: 5px !important;
@@ -32,9 +48,10 @@
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -250px;
-  width: 250px;
-  background-color: #343a40;
+  left: -30vw;
+  width: 30vw;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(20px);
   padding-top: 3.5rem;
   transition: all 0.3s;
 }
@@ -59,52 +76,48 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.game,
-.topic,
-.subject {
-  border-radius: 0;
-  border-width: 5px;
-  border-color: #212529 !important;
-  transition: border-width 300ms ease-in-out;
-  flex-basis: 100%;
-}
-
-.game:hover,
-.topic:hover,
-.subject:hover {
-  border-width: 15px;
-}
-
-.bg-orange,
-.bg-orange:hover,
-.bg-orange:active,
-.bg-orange:focus {
+.orange {
   background-color: rgb(255, 89, 0);
 }
 
-.bg-lime,
-.bg-lime:hover,
-.bg-lime:active,
-.bg-lime:focus {
-  background-color: rgb(83, 246, 34);
+.lime {
+  background: linear-gradient(35deg, rgb(101, 163, 25), rgb(183, 255, 3));
 }
 
-.bg-purple,
-.bg-purple:hover,
-.bg-purple:active,
-.bg-purple:focus {
-  background-color: rgb(161, 4, 209);
+.purple {
+  background: linear-gradient(35deg, rgb(121, 32, 88), rgb(121, 41, 241));
 }
 
-.bg-turquoise,
-.bg-turquoise:hover,
-.bg-turquoise:active,
-.bg-turquoise:focus {
-  background-color: rgb(5, 202, 159);
+.turquoise {
+  background: linear-gradient(35deg, rgb(32, 108, 121), rgb(28, 248, 175));
 }
 
 .bg-darker {
   background-color: rgb(23, 26, 30) !important;
+}
+
+.bkg-dark {
+  background: linear-gradient(35deg, rgb(17, 19, 21), rgb(47, 50, 54));
+}
+
+.warning {
+  background: linear-gradient(35deg, rgb(222, 130, 0), rgb(255, 255, 0));
+}
+
+.primary {
+  background: linear-gradient(35deg, rgb(0, 115, 255), rgb(103, 167, 244));
+}
+
+.danger {
+  background: linear-gradient(35deg, rgb(230, 15, 0), rgb(225, 79, 96));
+}
+
+.success {
+  background: linear-gradient(35deg, rgb(15, 110, 11), rgb(39, 218, 19));
+}
+
+.info {
+  background: linear-gradient(35deg, rgb(21, 103, 216), rgb(86, 255, 221));
 }
 
 .icon-1,

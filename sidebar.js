@@ -22,7 +22,6 @@ wrapperDiv.classList.add("d-flex");
 wrapperDiv.id = "wrapper";
 
 var sidebarDiv = document.createElement("div");
-sidebarDiv.classList.add("bg-darker");
 sidebarDiv.id = "sidebar";
 
 var sidebarHeading = document.createElement("div");
