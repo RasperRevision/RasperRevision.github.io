@@ -49,13 +49,12 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="germanDropdown" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
+        <button class="btn nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           German
-        </a>
-        <div class="dropdown-menu" aria-labelledby="germanDropdown">
-          <a class="dropdown-item" href="/quiz/?json=daily-life-food-drink.json">Daily life, food and drink</a>
-        </div>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/quiz/?json=daily-life-food-drink.json">Daily life, food and drink</a></li>
+        </ul>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="computerScienceDropdown" role="button" data-toggle="dropdown"
@@ -113,9 +112,6 @@
 
   <script src="/quiz/quiz.js"></script>
   <script src="/sidebar.js"></script>
-
-  <!-- OTHER BOOTSTRAP SCRIPT -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
