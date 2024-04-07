@@ -1,18 +1,55 @@
-@font-face {
-  font-family: 'Semibold';
-  src: url('/assets/FontsFree-Net-Acumin-Pro-Semibold.ttf') format('ttf');
-  font-weight: 600;
-  font-style: normal;
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  color: white !important;
 }
 
-@font-face {
-  font-family: 'Condensed';
-  src: url('/assets/acumin-pro-condensed-semibold.otf') format('oft');
-  font-weight: 600;
-  font-style: normal;
+body {
+  background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.invis {
+  display: none !important;
+}
+
+.h100 {
+  height: 100%;
 }
 
 .rbtn {
+  margin-inline: 0.5rem;
+  padding-block: 8px;
+  padding-inline: 11px;
+  border: none;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 6px;
+  transition: filter 150ms ease-in-out;
+  border-radius: 5px;
+}
+
+.rbtn:hover {
+  filter: brightness(0.9);
+}
+
+.welcome_title {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.home_btn {
   border: none;
   text-shadow: rgba(0, 0, 0, 0.4) 2px 2px 20px !important;
   color: white;
@@ -23,9 +60,30 @@
   transition: all 300ms ease-in-out;
 }
 
-.rbtn:hover {
+.home_btn:hover {
   margin: 10px;
   filter: brightness(90%);
+}
+
+.home_btn_row {
+  display: flex;
+  height: 100%;
+}
+
+.opt {
+  border: none;
+  margin: 15px;
+  padding: 25px;
+  background: rgb(39, 45, 53);
+  transition: background 150ms ease-in-out;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.opt:hover {
+  background: rgb(47, 54, 63);
+  text-shadow: black 2px 2px 10px;
 }
 
 .term {
@@ -33,6 +91,17 @@
   border-width: 5px !important;
   border-style: solid !important;
   background: rgb(78, 87, 97);
+}
+
+.key_term {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.quiz_content {
+  margin-top: 25vh;
 }
 
 .link-body-emphasis:hover {
@@ -77,7 +146,7 @@
 }
 
 .orange {
-  background-color: rgb(255, 89, 0);
+  background: linear-gradient(35deg, rgb(255, 106, 0), rgb(248, 212, 82));
 }
 
 .lime {
@@ -94,10 +163,6 @@
 
 .bg-darker {
   background-color: rgb(23, 26, 30) !important;
-}
-
-.bkg-dark {
-  background: linear-gradient(35deg, rgb(17, 19, 21), rgb(47, 50, 54));
 }
 
 .warning {

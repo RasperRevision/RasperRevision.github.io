@@ -62,24 +62,6 @@ function getParameterByName(name, url) {
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function loadJSON(callback) {
-  var jsonFile = getParameterByName('json');
-
-  if (!jsonFile) {
-    console.error("JSON file name not provided in URL.");
-    return;
-  }
-
-  var jsonUrl = '/subjects/Music/' + jsonFile;
-
-  var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open('GET', jsonUrl, true);
-  xobj.onreadystatechange = function () {
-    if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
-  };
-  xobj.send(null);
-}
 
 async function quiz(file) {
   current_file = file;
@@ -87,30 +69,21 @@ async function quiz(file) {
     const response = await fetch(file);
     const data = await response.json();
     let shuffled = shuffle(data);
-
-    for (const item of shuffled) {
-      await processItem(item);
-    }
-
-    stopwatch.classList.add('d-none');
-    option1.classList.add('d-none');
-    option2.classList.add('d-none');
-    option3.classList.add('d-none');
-    option4.classList.add('d-none');
-
+    for (const item of shuffled) { await processItem(item); }
+    stopwatch.classList.add('invis');
+    option1.classList.add('invis');
+    option2.classList.add('invis');
+    option3.classList.add('invis');
+    option4.classList.add('invis');
     home.addEventListener('click', function () {
       location.href = '/';
     });
     restart.addEventListener('click', function () {
       location.reload();
     });
-
-    term_element.classList.remove('fw-bold');
     term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
     term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
-
-    document.querySelector('.finish').classList.remove('d-none');
-
+    document.querySelector('.finish').classList.remove('invis');
   } catch (error) {
     console.error('Error fetching JSON', error);
   }

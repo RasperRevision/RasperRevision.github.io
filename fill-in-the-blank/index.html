@@ -39,7 +39,7 @@
   </style>
 </head>
 
-<body class="bg-dark d-flex align-items-center justify-content-center p-0 m-0 position-relative">
+<body class="flex align-items-center justify-content-center">
   <ul class="nav nav-pills position-absolute top-0 p-2 m-3">
     <li class="nav-item">
       <a class="nav-link" href="/fill-in-the-blank/?json=macbeth.json">Macbeth</a>
@@ -53,16 +53,17 @@
   </ul>
 
   <div class="container w-100 bg-light p-4">
-    <h3 class="mb-4">Complete the quotation</h3>
-    <div class="fw-bold" id="themes"></div>
-    <div class="fs-5 mb-4" id="quote"></div>
+    <h3 class="mb-4" style="color: black !important">Complete the quotation</h3>
+    <div class="fw-bold" id="themes" style="color: black !important"></div>
+    <div class="fs-5 mb-4" id="quote" style="color: black !important"></div>
 
-    <input class="form-control p-2 mb-3" type="text" id="input" placeholder="Enter your guess" autocomplete="off">
+    <input class="form-control p-2 mb-3" type="text" id="input" placeholder="Enter your guess" autocomplete="off"
+      style="color: black !important">
 
-    <button class="btn btn-success" id="submit-btn">Submit</button>
-    <button class="btn btn-warning d-none" id="next-btn">Next</button>
+    <button class="rbtn primary" id="submit-btn">Submit</button>
+    <button class="rbtn warning invis" id="next-btn">Next</button>
 
-    <div class="my-2" id="result"></div>
+    <div class="my-2" id="result" style="color: black !important"></div>
   </div>
 
 
@@ -139,8 +140,8 @@
         const actualQuote = shuffledQuotes[currentQuoteIndex].quote;
         resultElement.textContent = (userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase())) ? "Correct!" : "Incorrect. The correct quote is: " + actualQuote;
         resultElement.classList.add((userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase())) ? 'alert-success' : 'alert-danger');
-        submitButton.classList.add('d-none');
-        nextButton.classList.remove('d-none');
+        submitButton.classList.add('invis');
+        nextButton.classList.remove('invis');
       }
 
       function nextQuote() {
@@ -151,8 +152,8 @@
         }
         inputElement.value = "";
         resultElement.textContent = "";
-        submitButton.classList.remove('d-none');
-        nextButton.classList.add('d-none');
+        submitButton.classList.remove('invis');
+        nextButton.classList.add('invis');
         displayQuote();
       }
 
@@ -162,7 +163,7 @@
       inputElement.addEventListener("keypress", function (event) {
         if (event.key === "Enter") {
           event.preventDefault();
-          if (nextButton.classList.contains('d-none')) { checkInput(); }
+          if (nextButton.classList.contains('invis')) { checkInput(); }
           else { nextQuote(); }
         }
       });
