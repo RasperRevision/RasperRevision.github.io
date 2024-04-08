@@ -23,6 +23,7 @@ wrapperDiv.id = "wrapper";
 
 var sidebarDiv = document.createElement("div");
 sidebarDiv.id = "sidebar";
+sidebarDiv.style.zIndex = 1000;
 
 var sidebarHeading = document.createElement("div");
 sidebarHeading.classList.add("sidebar-heading");
@@ -59,7 +60,7 @@ innerListItems.forEach(function (item) {
   var innerAnchorElement = document.createElement("a");
   innerAnchorElement.textContent = item.text;
   innerAnchorElement.href = item.href;
-  innerAnchorElement.classList.add("link-body-emphasis", "d-inline-flex", "text-decoration-none", "rounded", "text-light", "p-1", "px-2");
+  innerAnchorElement.classList.add("nav_activity_link", "link-light", "text-decoration-none", "rounded", "p-1", "px-2", "me-5");
   innerLiElement.appendChild(innerAnchorElement);
   innerUlElement.appendChild(innerLiElement);
 });

@@ -34,7 +34,7 @@
     .container {
       max-width: 600px;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     }
   </style>
 </head>
@@ -42,28 +42,28 @@
 <body class="flex align-items-center justify-content-center">
   <ul class="nav nav-pills position-absolute top-0 p-2 m-3">
     <li class="nav-item">
-      <a class="nav-link" href="/fill-in-the-blank/?json=macbeth.json">Macbeth</a>
+      <a class="nav-link text-white" href="/fill-in-the-blank/?json=macbeth.json">Macbeth</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/fill-in-the-blank/?json=christmas_carol.json">A Christmas Carol</a>
+      <a class="nav-link text-white" href="/fill-in-the-blank/?json=christmas_carol.json">A Christmas Carol</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/fill-in-the-blank/?json=coldwarquotes.json">Cold War</a>
+      <a class="nav-link text-white" href="/fill-in-the-blank/?json=coldwarquotes.json">Cold War</a>
     </li>
   </ul>
 
   <div class="container w-100 bg-light p-4">
-    <h3 class="mb-4" style="color: black !important">Complete the quotation</h3>
-    <div class="fw-bold" id="themes" style="color: black !important"></div>
-    <div class="fs-5 mb-4" id="quote" style="color: black !important"></div>
+    <h3 class="mb-4" style="color: black">Complete the quotation</h3>
+    <div class="fw-bold" id="themes" style="color: black"></div>
+    <div class="fs-5 mb-4" id="quote" style="color: black"></div>
 
     <input class="form-control p-2 mb-3" type="text" id="input" placeholder="Enter your guess" autocomplete="off"
-      style="color: black !important">
+      style="color: black">
 
     <button class="rbtn primary" id="submit-btn">Submit</button>
     <button class="rbtn warning invis" id="next-btn">Next</button>
 
-    <div class="my-2" id="result" style="color: black !important"></div>
+    <div class="my-2" id="result" style="color: black"></div>
   </div>
 
 

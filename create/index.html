@@ -48,12 +48,12 @@
       </div>
       <div class="list-group-item bg-light">
         <div class="input-group mb-2">
-          <span class="input-group-text" style="color: black !important;">Term</span>
-          <input type="text" class="form-control" style="color: black !important;">
+          <span class="input-group-text">Term</span>
+          <input type="text" class="form-control">
         </div>
         <div class="input-group my-3">
-          <span class="input-group-text" style="color: black !important;">Definition</span>
-          <textarea class="form-control" style="color: black !important;"></textarea>
+          <span class="input-group-text">Definition</span>
+          <textarea class="form-control"></textarea>
         </div>
         <button class="btn btn-danger delete-item">
           <i class="bi bi-trash3-fill"></i> Delete
@@ -61,12 +61,12 @@
       </div>
       <div class="list-group-item bg-light">
         <div class="input-group mb-2">
-          <span class="input-group-text" style="color: black !important;">Term</span>
-          <input type="text" class="form-control" style="color: black !important;">
+          <span class="input-group-text">Term</span>
+          <input type="text" class="form-control">
         </div>
         <div class="input-group my-3">
-          <span class="input-group-text" style="color: black !important;">Definition</span>
-          <textarea class="form-control" style="color: black !important;"></textarea>
+          <span class="input-group-text">Definition</span>
+          <textarea class="form-control"></textarea>
         </div>
         <button class="btn btn-danger delete-item">
           <i class="bi bi-trash3-fill"></i> Delete
@@ -75,12 +75,12 @@
 
       <div class="list-group-item bg-light">
         <div class="input-group mb-2">
-          <span class="input-group-text" style="color: black !important;">Term</span>
-          <input type="text" class="form-control" style="color: black !important;">
+          <span class="input-group-text">Term</span>
+          <input type="text" class="form-control">
         </div>
         <div class="input-group my-3">
-          <span class="input-group-text" style="color: black !important;">Definition</span>
-          <textarea class="form-control" style="color: black !important;"></textarea>
+          <span class="input-group-text">Definition</span>
+          <textarea class="form-control"></textarea>
         </div>
         <button class="btn btn-danger delete-item">
           <i class="bi bi-trash3-fill"></i> Delete
@@ -167,12 +167,12 @@
       listItem.classList.add('list-group-item', 'bg-light');
       listItem.innerHTML = `
         <div class="input-group mb-2">
-          <span class="input-group-text" style="color: black !important;">Term</span>
-          <input type="text" class="form-control" style="color: black !important;">
+          <span class="input-group-text">Term</span>
+          <input type="text" class="form-control">
         </div>
         <div class="input-group my-3">
-          <span class="input-group-text" style="color: black !important;">Definition</span>
-          <textarea class="form-control" style="color: black !important;"></textarea>
+          <span class="input-group-text">Definition</span>
+          <textarea class="form-control"></textarea>
         </div>
         <button class="btn btn-danger delete-item">
           <i class="bi bi-trash3-fill"></i> Delete
@@ -180,7 +180,10 @@
       `;
       const listGroup = document.querySelector('.list-group');
       listGroup.insertBefore(listItem, listGroup.lastElementChild);
-      updateDeleteButtonState();
+      const deleteButtons = document.querySelectorAll('.delete-item');
+      deleteButtons.forEach(function (button) {
+        button.disabled = deleteButtons.length <= 1;
+      });
       inputs = document.querySelectorAll('.form-control');
       inputs.forEach(function (input) {
         input.addEventListener('input', removeEmptyBorder);
@@ -190,16 +193,12 @@
     document.addEventListener('click', function (event) {
       if (event.target && event.target.classList.contains('delete-item')) {
         event.target.closest('.list-group-item').remove();
-        updateDeleteButtonState();
+        const deleteButtons = document.querySelectorAll('.delete-item');
+        deleteButtons.forEach(function (button) {
+          button.disabled = deleteButtons.length <= 1;
+        });
       }
     });
-
-    function updateDeleteButtonState() {
-      const deleteButtons = document.querySelectorAll('.delete-item');
-      deleteButtons.forEach(function (button) {
-        button.disabled = deleteButtons.length <= 1;
-      });
-    }
 
     function removeEmptyBorder() {
       inputs.forEach(function (item) {

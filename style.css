@@ -2,7 +2,7 @@
 ::after,
 ::before {
   box-sizing: border-box;
-  color: white !important;
+  color: white;
 }
 
 body {
@@ -41,6 +41,12 @@ body {
 
 .rbtn:hover {
   filter: brightness(0.9);
+}
+
+.activity_head {
+  height: 120px;
+  padding-top: 35px;
+  background-color: rgba(19, 20, 22, 0.5);
 }
 
 .welcome_title {
@@ -95,22 +101,23 @@ body {
 
 .key_term {
   font-size: 2rem;
-  color: white;
   margin-bottom: 30px;
   text-align: center;
+  backdrop-filter: brightness(1.05);
+  padding-block: 20px;
 }
 
 .quiz_content {
   margin-top: 25vh;
 }
 
-.link-body-emphasis:hover {
+.nav_activity_link {
+  display: block;
   color: #efefef !important;
-  background-color: rgb(59, 59, 59) !important;
 }
 
-.link-body-emphasis:focus {
-  color: #efefef !important;
+.nav_activity_link:hover {
+  background-color: rgba(255, 255, 255, 0.051) !important;
 }
 
 #sidebar {
@@ -119,7 +126,7 @@ body {
   bottom: 0;
   left: -30vw;
   width: 30vw;
-  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
   backdrop-filter: blur(20px);
   padding-top: 3.5rem;
   transition: all 0.3s;
@@ -142,7 +149,7 @@ body {
 }
 
 #sidebar .list-group-item:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(180, 180, 180, 0.1);
 }
 
 .orange {
@@ -258,7 +265,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
-  background-color: rgb(40, 38, 44);
+  background-color: rgb(38, 40, 44);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
