@@ -20,6 +20,6 @@ The following games are available:
 | English Lit | X | X | ✓ | X |
 | Music | ✓ | ✓ | X | X |
 | German | X | ✓ | X | X |
-| History| X | ✓ | X | X |
+| History| X | ✓ | ✓ | X |
 | Physics | X | X | X | ✓ |
 | Chemistry | X | ✓ | X | X |
