@@ -34,7 +34,7 @@ body {
   padding-inline: 11px;
   border: none;
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 6px;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 8px;
   transition: filter 150ms ease-in-out;
   border-radius: 5px;
 }
