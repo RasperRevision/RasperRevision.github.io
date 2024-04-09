@@ -7,7 +7,7 @@
 
 body {
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
-  min-height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
