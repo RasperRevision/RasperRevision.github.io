@@ -62,5 +62,81 @@
     {
         "meaning": "brussels sprouts",
         "term": "der Rosenkohl"
+    },
+    {
+        "meaning": "butter",
+        "term": "die Butter"
+    },
+    {
+        "meaning": "cabbage",
+        "term": "der Kohl"
+    },
+    {
+        "meaning": "café",
+        "term": "das Café"
+    },
+    {
+        "meaning": "cake",
+        "term": "der Kuchen"
+    },
+    {
+        "meaning": "can",
+        "term": "die Dose"
+    },
+    {
+        "meaning": "carrot",
+        "term": "die Karotte"
+    },
+    {
+        "meaning": "cauliflower",
+        "term": "der Blumenkohl"
+    },
+    {
+        "term": "der Champagner",
+        "meaning": "champagne"
+    },
+    {
+        "term": "der Käse",
+        "meaning": "cheese"
+    },
+    {
+        "term": "die Kirsche",
+        "meaning": "cherry"
+    },
+    {
+        "term": "das Hähnchen",
+        "meaning": "chicken"
+    },
+    {
+        "term": "die Pommes (frites)",
+        "meaning": "chips"
+    },
+    {
+        "term": "die Schokolade",
+        "meaning": "chocolate"
+    },
+    {
+        "term": "die Auswahl",
+        "meaning": "choice, selection"
+    },
+    {
+        "term": "das Kotelett",
+        "meaning": "chop (e.g. pork/lamb)"
+    },
+    {
+        "term": "der Apfelmost",
+        "meaning": "cider"
+    },
+    {
+        "term": "geschlossen",
+        "meaning": "closed"
+    },
+    {
+        "term": "der Kakao",
+        "meaning": "cocoa"
+    },
+    {
+        "term": "der Kaffee",
+        "meaning": "coffee"
     }
 ]
