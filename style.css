@@ -7,7 +7,11 @@
 
 body {
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
-  height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .flex {
@@ -190,6 +194,10 @@ body {
 
 .info {
   background: linear-gradient(35deg, rgb(21, 103, 216), rgb(86, 255, 221));
+}
+
+.dark {
+  background: linear-gradient(35deg, rgba(41, 49, 58, 0.508), rgba(44, 50, 63, 0.338));
 }
 
 .icon-1,
