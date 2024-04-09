@@ -1,0 +1,50 @@
+[
+  {
+    "term": "Eukaryotic cell",
+    "meaning": "Any cell that contains a nucleus storing genetic information. Found in plants and animals, and much larger than prokaryotic cells. Usually between 10 and 100 µm in diameter"
+  },
+  {
+    "term": "Prokaryotic cell",
+    "meaning": "A small type of cell without a nucleus - genetic material is a DNA loop, which may have one or two rings of DNA known as plasmids. Usually between 0.1 and 5.0 µm in diameter"
+  },
+  {
+    "term": "Nucleus",
+    "meaning": "An organelle found in eukaryotic cells that contains genetic material."
+  },
+  {
+    "term": "Cytoplasm",
+    "meaning": "A fluid-like substance found in cells"
+  },
+  {
+    "term": "Cell membrane",
+    "meaning": "The partially permeable membrane that controls what enters and leaves a cell"
+  },
+  {
+    "term": "Mitochondrion",
+    "meaning": "An organelle where respiration occurs"
+  },
+  {
+    "term": "Ribosome",
+    "meaning": "An organelle responsible for protein synthesis"
+  },
+  {
+    "term": "Chloroplast",
+    "meaning": "An organelle found in plant cells that is responsible for photosynthesis"
+  },
+  {
+    "term": "Vacuole",
+    "meaning": "An organelle found in plant cells that stores cell sap"
+  },
+  {
+    "term": "Cell wall",
+    "meaning": "The outer layer of plant and algal cells responsible for strengthening the cell. Made of cellulose"
+  },
+  {
+    "term": "Specialised cell",
+    "meaning": "A cell that has adapted to carry out a particular function"
+  },
+  {
+    "term": "Organelle",
+    "meaning": "A sub-cellular structure specialised to carry out a particular function"
+  }
+]
