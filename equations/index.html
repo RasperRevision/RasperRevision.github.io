@@ -99,6 +99,9 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+      
       function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
