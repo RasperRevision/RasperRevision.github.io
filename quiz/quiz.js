@@ -17,6 +17,8 @@ let s = 0;
 let m = 0;
 let formattedTime;
 
+let answerFound = false;
+
 home.addEventListener('click', function () {
   location.reload();
 });
@@ -141,8 +143,24 @@ async function processItem(item) {
 function waitForButton(item, callback) {
   const handleClick = (event) => {
     if (event.target.innerHTML === item.meaning) {
-      callback(event);
-      cleanup();
+      // Correct answer
+      answerFound = true;
+      event.target.style.background = 'green';
+      setTimeout(function () {
+        callback(event);
+        cleanup();
+        event.target.style.background = 'rgb(39, 45, 53)';
+        answerFound = false;
+      }, 1000);
+    } else {
+      // Incorrect answer
+      if (!answerFound) {
+        event.target.style.background = 'red';
+        setTimeout(function () {
+          event.target.style.background = 'rgb(39, 45, 53)';
+          answerFound = false;
+        }, 1000);
+      }
     }
   };
 
