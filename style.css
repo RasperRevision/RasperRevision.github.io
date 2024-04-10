@@ -88,20 +88,11 @@ body {
   transition: background 150ms ease-in-out;
   font-size: 1.3rem;
   border-radius: 15px;
-  color: white;
 }
 
 .opt:hover {
   background: rgb(47, 54, 63);
   text-shadow: black 2px 2px 10px;
-}
-
-.correct_opt {
-  background-color: green !important;
-}
-
-.incorrect_opt {
-  background-color: red !important;
 }
 
 .term {
