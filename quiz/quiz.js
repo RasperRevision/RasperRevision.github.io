@@ -140,18 +140,18 @@ function waitForButton(item, callback) {
   const handleClick = (event) => {
     if (event.target.innerHTML === item.meaning) {
       answerFound = true;
-      event.target.classList.add('correct_opt');
+      event.target.style.background = 'green';
       setTimeout(function () {
         callback(event);
         cleanup();
-        event.target.classList.remove('correct_opt');
+        event.target.style.background = 'rgb(39, 45, 53)';
         answerFound = false;
       }, 1000);
     } else {
       if (!answerFound) {
-      event.target.classList.add('incorrect_opt');
+      event.target.style.background = 'red';
         setTimeout(function () {
-          event.target.classList.remove('incorrect_opt');
+        event.target.style.background = 'rgb(39, 45, 53)';
           answerFound = false;
         }, 1000);
       }
