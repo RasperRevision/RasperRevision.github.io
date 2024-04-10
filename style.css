@@ -97,11 +97,11 @@ body {
 }
 
 .correct_opt {
-  background: green !important;
+  background-color: green !important;
 }
 
 .incorrect_opt {
-  background: red !important;
+  background-color: red !important;
 }
 
 .term {
