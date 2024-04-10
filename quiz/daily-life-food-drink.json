@@ -155,14 +155,14 @@
   },
   {
     "german": "die Karotte",
-    "english": "carrot (1)",
+    "english": "carrot",
     "part of speech": "noun",
     "plural and inflected": "die Karotten",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
   },
   {
     "german": "die Mohrr\u00c3\u00bcbe",
-    "english": "carrot (2)",
+    "english": "carrot",
     "part of speech": "noun",
     "plural and inflected": "die Mohrr\u00c3\u00bcben",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
@@ -238,7 +238,7 @@
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
   },
   {
-    "german": "(montags) geschlossen",
+    "german": "(Montags) geschlossen",
     "english": "closed (on Mondays)",
     "part of speech": "adjective",
     "plural and inflected": "",
@@ -274,14 +274,14 @@
   },
   {
     "german": "der Rahm",
-    "english": "cream (Swiss German)",
+    "english": "cream",
     "part of speech": "noun",
     "plural and inflected": "",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
   },
   {
     "german": "die Sahne",
-    "english": "cream (most of Germany)",
+    "english": "cream",
     "part of speech": "noun",
     "plural and inflected": "",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
@@ -463,14 +463,14 @@
   },
   {
     "german": "der Fruchtsaft",
-    "english": "fruit juice (1)",
+    "english": "fruit juice",
     "part of speech": "noun",
     "plural and inflected": "die Fruchts\u00c3\u00a4fte",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
   },
   {
     "german": "der Obstsaft",
-    "english": "fruit juice (2)",
+    "english": "fruit juice",
     "part of speech": "noun",
     "plural and inflected": "die Obsts\u00c3\u00a4fte",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
@@ -498,14 +498,14 @@
   },
   {
     "german": "die Grapefruit",
-    "english": "grapefruit (1)",
+    "english": "grapefruit",
     "part of speech": "noun",
     "plural and inflected": "die Grapefruits",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
   },
   {
     "german": "die Pampelmuse",
-    "english": "grapefruit (2)",
+    "english": "grapefruit",
     "part of speech": "noun",
     "plural and inflected": "die Pampelmusen",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
@@ -1037,14 +1037,14 @@
   },
   {
     "german": "gesalzen",
-    "english": "salty (1)",
+    "english": "salty",
     "part of speech": "adjective",
     "plural and inflected": "",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
   },
   {
     "german": "salzig",
-    "english": "salty (2)",
+    "english": "salty",
     "part of speech": "adjective",
     "plural and inflected": "",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
@@ -1198,14 +1198,14 @@
   },
   {
     "german": "die Tischdecke",
-    "english": "tablecloth (1)",
+    "english": "tablecloth",
     "part of speech": "noun",
     "plural and inflected": "die Tischdecken",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
   },
   {
     "german": "das Tischtuch",
-    "english": "tablecloth (2)",
+    "english": "tablecloth",
     "part of speech": "noun",
     "plural and inflected": "die Tischt\u00c3\u00bccher",
     "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
@@ -1506,14 +1506,14 @@
   },
   {
     "german": "der Lauch",
-    "english": "leek (1)",
+    "english": "leek",
     "part of speech": "noun",
     "plural and inflected": "die Lauche",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
   },
   {
     "german": "der Porree",
-    "english": "leek (2)",
+    "english": "leek",
     "part of speech": "noun",
     "plural and inflected": "die Porrees",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
@@ -1583,28 +1583,28 @@
   },
   {
     "german": "die teilentrahmte Milch",
-    "english": "skimmed milk (1)",
+    "english": "skimmed milk",
     "part of speech": "noun",
     "plural and inflected": "die teilentrahmte Milchen",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
   },
   {
     "german": "die fettarme Milch",
-    "english": "skimmed milk (2)",
+    "english": "skimmed milk",
     "part of speech": "noun",
     "plural and inflected": "die fettarme Milchen",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
   },
   {
     "german": "die entrahmte Milch",
-    "english": "semi-skimmed milk (1)",
+    "english": "semi-skimmed milk",
     "part of speech": "noun",
     "plural and inflected": "die entrahmten Milche",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
   },
   {
     "german": "die Magermilch",
-    "english": "semi-skimmed milk (2)",
+    "english": "semi-skimmed milk",
     "part of speech": "noun",
     "plural and inflected": "die Magermilch",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
@@ -1618,14 +1618,14 @@
   },
   {
     "german": "w\u00c3\u00bcrzig",
-    "english": "spicy (1)",
+    "english": "spicy",
     "part of speech": "adjective",
     "plural and inflected": "",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
   },
   {
     "german": "pikant",
-    "english": "spicy (2)",
+    "english": "spicy",
     "part of speech": "adjective",
     "plural and inflected": "",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
@@ -1667,14 +1667,14 @@
   },
   {
     "german": "der Truthahn",
-    "english": "turkey (m)",
+    "english": "turkey",
     "part of speech": "noun",
     "plural and inflected": "die Truth\u00c3\u00a4hne",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
   },
   {
     "german": "die Pute",
-    "english": "turkey (f)",
+    "english": "turkey",
     "part of speech": "noun",
     "plural and inflected": "die Puten",
     "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
