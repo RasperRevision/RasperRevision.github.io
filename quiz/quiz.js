@@ -77,12 +77,8 @@ async function quiz(file) {
     option2.classList.add('invis');
     option3.classList.add('invis');
     option4.classList.add('invis');
-    home.addEventListener('click', function () {
-      location.href = '/';
-    });
-    restart.addEventListener('click', function () {
-      location.reload();
-    });
+    home.addEventListener('click', function () { location.href = '/'; });
+    restart.addEventListener('click', function () { location.reload(); });
     term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
     term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
     document.querySelector('.finish').classList.remove('invis');
@@ -143,21 +139,19 @@ async function processItem(item) {
 function waitForButton(item, callback) {
   const handleClick = (event) => {
     if (event.target.innerHTML === item.meaning) {
-      // Correct answer
       answerFound = true;
-      event.target.style.background = 'green';
+      event.target.classList.add('correct');
       setTimeout(function () {
         callback(event);
         cleanup();
-        event.target.style.background = 'rgb(39, 45, 53)';
+        event.target.classList.remove('correct');
         answerFound = false;
       }, 1000);
     } else {
-      // Incorrect answer
       if (!answerFound) {
-        event.target.style.background = 'red';
+      event.target.classList.add('incorrect');
         setTimeout(function () {
-          event.target.style.background = 'rgb(39, 45, 53)';
+          event.target.classList.remove('incorrect');
           answerFound = false;
         }, 1000);
       }
