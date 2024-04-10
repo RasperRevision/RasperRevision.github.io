@@ -72,6 +72,7 @@ async function quiz(file) {
     const data = await response.json();
     let shuffled = shuffle(data);
     for (const item of shuffled) { await processItem(item); }
+    // end of quiz
     stopwatch.classList.add('invis');
     option1.classList.add('invis');
     option2.classList.add('invis');
@@ -99,40 +100,88 @@ async function selectRandomMeaning() {
   }
 }
 
+async function selectRandomEnglish() {
+  try {
+    const response = await fetch(current_file);
+    const data = await response.json();
+    let randomIndex = Math.floor(Math.random() * data.length);
+    return data[randomIndex].english;
+  } catch (error) {
+    console.error('Error fetching JSON', error);
+    return null;
+  }
+}
+
 
 async function processItem(item) {
-  document.querySelector('.key_term').innerHTML = item.term;
-  let random_option = Math.floor(Math.random() * 4);
+  if (item.term != null) {
+    document.querySelector('.key_term').innerHTML = item.term;
+    let random_option = Math.floor(Math.random() * 4);
 
-  let meaning2 = await selectRandomMeaning();
-  let meaning3 = await selectRandomMeaning();
-  let meaning4 = await selectRandomMeaning();
+    let meaning2 = await selectRandomMeaning();
+    let meaning3 = await selectRandomMeaning();
+    let meaning4 = await selectRandomMeaning();
 
-  if (random_option == 0) {
-    option1.innerHTML = item.meaning;
-    option2.innerHTML = meaning2;
-    option3.innerHTML = meaning3;
-    option4.innerHTML = meaning4;
-  } else if (random_option == 1) {
-    option1.innerHTML = meaning2;
-    option2.innerHTML = item.meaning;
-    option3.innerHTML = meaning3;
-    option4.innerHTML = meaning4;
-  } else if (random_option == 2) {
-    option1.innerHTML = meaning2;
-    option2.innerHTML = meaning3;
-    option3.innerHTML = item.meaning;
-    option4.innerHTML = meaning4;
+    if (random_option == 0) {
+      option1.innerHTML = item.meaning;
+      option2.innerHTML = meaning2;
+      option3.innerHTML = meaning3;
+      option4.innerHTML = meaning4;
+    } else if (random_option == 1) {
+      option1.innerHTML = meaning2;
+      option2.innerHTML = item.meaning;
+      option3.innerHTML = meaning3;
+      option4.innerHTML = meaning4;
+    } else if (random_option == 2) {
+      option1.innerHTML = meaning2;
+      option2.innerHTML = meaning3;
+      option3.innerHTML = item.meaning;
+      option4.innerHTML = meaning4;
+    } else {
+      option1.innerHTML = meaning2;
+      option2.innerHTML = meaning3;
+      option3.innerHTML = meaning4;
+      option4.innerHTML = item.meaning;
+    }
+
+    return new Promise((resolve) => {
+      waitForButton(item, resolve);
+    });
   } else {
-    option1.innerHTML = meaning2;
-    option2.innerHTML = meaning3;
-    option3.innerHTML = meaning4;
-    option4.innerHTML = item.meaning;
+    document.querySelector('.key_term').innerHTML = item.german;
+    let random_option = Math.floor(Math.random() * 4);
+
+    let meaning2 = await selectRandomEnglish();
+    let meaning3 = await selectRandomEnglish();
+    let meaning4 = await selectRandomEnglish();
+
+    if (random_option == 0) {
+      option1.innerHTML = item.english;
+      option2.innerHTML = meaning2;
+      option3.innerHTML = meaning3;
+      option4.innerHTML = meaning4;
+    } else if (random_option == 1) {
+      option1.innerHTML = meaning2;
+      option2.innerHTML = item.english;
+      option3.innerHTML = meaning3;
+      option4.innerHTML = meaning4;
+    } else if (random_option == 2) {
+      option1.innerHTML = meaning2;
+      option2.innerHTML = meaning3;
+      option3.innerHTML = item.english;
+      option4.innerHTML = meaning4;
+    } else {
+      option1.innerHTML = meaning2;
+      option2.innerHTML = meaning3;
+      option3.innerHTML = meaning4;
+      option4.innerHTML = item.english;
+    }
+
+    return new Promise((resolve) => {
+      waitForGermanButton(item, resolve);
+    });
   }
 
-  return new Promise((resolve) => {
-    waitForButton(item, resolve);
-  });
 }
 
 
@@ -149,7 +198,44 @@ function waitForButton(item, callback) {
       }, 1000);
     } else {
       if (!answerFound) {
-      event.target.style.background = 'red';
+        event.target.style.background = 'red';
+        setTimeout(function () {
+          event.target.style.background = 'rgb(39, 45, 53)';
+          answerFound = false;
+        }, 1000);
+      }
+    }
+  };
+
+  const cleanup = () => {
+    option1.removeEventListener('click', handleClick);
+    option2.removeEventListener('click', handleClick);
+    option3.removeEventListener('click', handleClick);
+    option4.removeEventListener('click', handleClick);
+  };
+
+  option1.addEventListener('click', handleClick);
+  option2.addEventListener('click', handleClick);
+  option3.addEventListener('click', handleClick);
+  option4.addEventListener('click', handleClick);
+
+  return cleanup;
+}
+
+function waitForGermanButton(item, callback) {
+  const handleClick = (event) => {
+    if (event.target.innerHTML === item.english) {
+      answerFound = true;
+      event.target.style.background = 'green';
+      setTimeout(function () {
+        callback(event);
+        cleanup();
+        event.target.style.background = 'rgb(39, 45, 53)';
+        answerFound = false;
+      }, 1000);
+    } else {
+      if (!answerFound) {
+        event.target.style.background = 'red';
         setTimeout(function () {
           event.target.style.background = 'rgb(39, 45, 53)';
           answerFound = false;

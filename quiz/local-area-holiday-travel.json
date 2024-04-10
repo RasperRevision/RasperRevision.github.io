@@ -1,0 +1,2529 @@
+[
+  {
+    "german": "im Ausland",
+    "english": "abroad",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Unterkunft",
+    "english": "accommodation",
+    "part of speech": "noun",
+    "plural and inflected": "die Unterk\u00c3\u00bcnfte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Eintrittsgeld",
+    "english": "admission fee",
+    "part of speech": "noun",
+    "plural and inflected": "die Eintrittsgelder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Eintrittskarte",
+    "english": "admission ticket",
+    "part of speech": "noun",
+    "plural and inflected": "die Eintrittskarten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der/die Erwachsene",
+    "english": "adult, grown-up",
+    "part of speech": "noun",
+    "plural and inflected": "die Erwachsenen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Werbung",
+    "english": "advertisement",
+    "part of speech": "noun",
+    "plural and inflected": "die Werbungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Flughafen",
+    "english": "airport",
+    "part of speech": "noun",
+    "plural and inflected": "die Flugh\u00c3\u00a4fen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Termin",
+    "english": "appointment",
+    "part of speech": "noun",
+    "plural and inflected": "die Termine",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Ankunft",
+    "english": "arrival",
+    "part of speech": "noun",
+    "plural and inflected": "die Ank\u00c3\u00bcnfte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Kunstgalerie",
+    "english": "art gallery",
+    "part of speech": "noun",
+    "plural and inflected": "die Kunstgalerien",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die B\u00c3\u00a4ckerei",
+    "english": "bakery",
+    "part of speech": "noun",
+    "plural and inflected": "die L\u00c3\u00a4nder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Balkon",
+    "english": "balcony",
+    "part of speech": "noun",
+    "plural and inflected": "die Balkons",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Bank",
+    "english": "bank",
+    "part of speech": "noun",
+    "plural and inflected": "die B\u00c3\u00a4nke",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Untergeschoss",
+    "english": "basement",
+    "part of speech": "noun",
+    "plural and inflected": "die Untergeschosse",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Bad",
+    "english": "bath",
+    "part of speech": "noun",
+    "plural and inflected": "die B\u00c3\u00a4der",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Badetuch",
+    "english": "bath towel",
+    "part of speech": "noun",
+    "plural and inflected": "die Badet\u00c3\u00bccher",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Badezimmer",
+    "english": "bathroom",
+    "part of speech": "noun",
+    "plural and inflected": "die Badezimmer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Strand",
+    "english": "beach",
+    "part of speech": "noun",
+    "plural and inflected": "die Str\u00c3\u00a4nde",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Bett",
+    "english": "bed",
+    "part of speech": "noun",
+    "plural and inflected": "die Betten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Pension",
+    "english": "bed and breakfast",
+    "part of speech": "noun",
+    "plural and inflected": "die Pensionen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Bettw\u00c3\u00a4sche",
+    "english": "bed linen",
+    "part of speech": "noun",
+    "plural and inflected": "die Bettw\u00c3\u00a4schen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Sitzbank",
+    "english": "bench",
+    "part of speech": "noun",
+    "plural and inflected": "die Sitzb\u00c3\u00a4nke",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Liegeplatz",
+    "english": "berth, bunk (boat)",
+    "part of speech": "noun",
+    "plural and inflected": "die Liegepl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Schlafwagenplatz",
+    "english": "berth, bunk (train)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schlafwagenpl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Fahrrad",
+    "english": "bicycle",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrr\u00c3\u00a4der",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fahrradverleih",
+    "english": "bike hire",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrradverleihe",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Boot",
+    "english": "boat",
+    "part of speech": "noun",
+    "plural and inflected": "die Boote",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Buchhandlung",
+    "english": "bookshop",
+    "part of speech": "noun",
+    "plural and inflected": "die Buchhandlungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Bowling",
+    "english": "bowling alley",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Marke",
+    "english": "brand, make",
+    "part of speech": "noun",
+    "plural and inflected": "die Marken",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Br\u00cf\u2039cke",
+    "english": "bridge",
+    "part of speech": "noun",
+    "plural and inflected": "die Br\u00cf\u2039cken",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Brosch\u00cf\u2039re",
+    "english": "brochure, leaflet",
+    "part of speech": "noun",
+    "plural and inflected": "die Brosch\u00cf\u2039ren",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Geb\u00c3\u00a4ude",
+    "english": "building",
+    "part of speech": "noun",
+    "plural and inflected": "die Geb\u00c3\u00a4ude",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Bus",
+    "english": "bus",
+    "part of speech": "noun",
+    "plural and inflected": "die Busse",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Gesch\u00c3\u00a4ft",
+    "english": "business, shop",
+    "part of speech": "noun",
+    "plural and inflected": "die Gesch\u00c3\u00a4fte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Busbahnhof",
+    "english": "bus station (lots of bus stops)",
+    "part of speech": "nounn",
+    "plural and inflected": "die Busbahnh\u00c3\u00b6fe",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Bushaltestelle",
+    "english": "bus stop",
+    "part of speech": "noun",
+    "plural and inflected": "die Bushaltestellen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Metzgerei",
+    "english": "butcher's",
+    "part of speech": "noun",
+    "plural and inflected": "die Metzgereien",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Caf\u00c3\u00a9",
+    "english": "caf\u00c3\u00a9",
+    "part of speech": "noun",
+    "plural and inflected": "die Caf\u00c3\u00a9s",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Campingplatz",
+    "english": "campsite",
+    "part of speech": "noun",
+    "plural and inflected": "die Campingpl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Hauptstadt",
+    "english": "capital city",
+    "part of speech": "noun",
+    "plural and inflected": "die Hauptst\u00c3\u00a4dte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Auto",
+    "english": "car",
+    "part of speech": "noun",
+    "plural and inflected": "die Autos",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Autovermietung",
+    "english": "car hire",
+    "part of speech": "noun",
+    "plural and inflected": "die Autovermietungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Wohnwagen",
+    "english": "caravan",
+    "part of speech": "noun",
+    "plural and inflected": "die Wohnwagen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Parkplatz",
+    "english": "car park",
+    "part of speech": "noun",
+    "plural and inflected": "die Parkpl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Schloss",
+    "english": "castle",
+    "part of speech": "noun",
+    "plural and inflected": "die Schl\u00c3\u00b6sser",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Dom",
+    "english": "cathedral",
+    "part of speech": "noun",
+    "plural and inflected": "die Dome",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Kirche",
+    "english": "church",
+    "part of speech": "noun",
+    "plural and inflected": "die Kirchen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Kino",
+    "english": "cinema",
+    "part of speech": "noun",
+    "plural and inflected": "die Kinos",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Gro\u00c3\u0178stadt",
+    "english": "city",
+    "part of speech": "noun",
+    "plural and inflected": "die Gro\u00c3\u0178st\u00c3\u00a4dte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "geschlossen",
+    "english": "closed",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Reisebus",
+    "english": "coach",
+    "part of speech": "noun",
+    "plural and inflected": "die Reisebusse",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die K\u00cf\u2039ste",
+    "english": "coast",
+    "part of speech": "noun",
+    "plural and inflected": "die K\u00cf\u2039sten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Abteil",
+    "english": "compartment",
+    "part of speech": "noun",
+    "plural and inflected": "die Abteile",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Konzert",
+    "english": "concert",
+    "part of speech": "noun",
+    "plural and inflected": "die Konzerte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Anschluss",
+    "english": "connection (transport)",
+    "part of speech": "noun",
+    "plural and inflected": "die Anschl\u00c3\u00bcsse",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Ecke",
+    "english": "corner",
+    "part of speech": "noun",
+    "plural and inflected": "die Ecken",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Land",
+    "english": "country",
+    "part of speech": "noun",
+    "plural and inflected": "die L\u00c3\u00a4nder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Kreuzung",
+    "english": "crossroads",
+    "part of speech": "noun",
+    "plural and inflected": "die Kreuzungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fahrradweg",
+    "english": "cycle path",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrradwege",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Versp\u00c3\u00a4tung",
+    "english": "delay",
+    "part of speech": "noun",
+    "plural and inflected": "die Versp\u00c3\u00a4tungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Kaufhaus",
+    "english": "department store",
+    "part of speech": "noun",
+    "plural and inflected": "die Kaufh\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Abfahrt",
+    "english": "departure",
+    "part of speech": "noun",
+    "plural and inflected": "die Abfahrten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Diesel",
+    "english": "diesel",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "direkt",
+    "english": "direct",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Richtung",
+    "english": "direction",
+    "part of speech": "noun",
+    "plural and inflected": "die Richtungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Disco/Disko",
+    "english": "disco",
+    "part of speech": "noun",
+    "plural and inflected": "die DIscos; die Diskos",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Stadtviertel",
+    "english": "district",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadtviertel",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Umleitung",
+    "english": "diversion",
+    "part of speech": "noun",
+    "plural and inflected": "die Umleitungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Doppelzimmer",
+    "english": "double room",
+    "part of speech": "noun",
+    "plural and inflected": "die Doppelzimmer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Trinkwasser",
+    "english": "drinking water",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fahrer",
+    "english": "driver",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der F\u00cf\u2039hrerschein",
+    "english": "driving licence",
+    "part of speech": "noun",
+    "plural and inflected": "die F\u00cf\u2039hrerscheine",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die M\u00cf\u2039lltonne",
+    "english": "dustbin",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "Guten Aufenthalt!",
+    "english": "enjoy your stay!",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Unterhaltungsm\u00c3\u00b6glichkeiten",
+    "english": "entertainment",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Eingang",
+    "english": "entrance",
+    "part of speech": "noun",
+    "plural and inflected": "die Eing\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Eintritt",
+    "english": "entry, admission",
+    "part of speech": "noun",
+    "plural and inflected": "die Eintritte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Ausflug",
+    "english": "excursion",
+    "part of speech": "noun",
+    "plural and inflected": "die Ausfl\u00c3\u00bcge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Ausstellung",
+    "english": "exhibition",
+    "part of speech": "noun",
+    "plural and inflected": "die Ausstellungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Ausgang",
+    "english": "exit",
+    "part of speech": "noun",
+    "plural and inflected": "die Ausg\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Fabrik",
+    "english": "factory",
+    "part of speech": "noun",
+    "plural and inflected": "die Fabrike",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Bauernhof",
+    "english": "farm",
+    "part of speech": "noun",
+    "plural and inflected": "die Bauernh\u00c3\u00b6fe",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die F\u00c3\u00a4hre",
+    "english": "ferry",
+    "part of speech": "noun",
+    "plural and inflected": "die F\u00c3\u00a4hren",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Feld",
+    "english": "field",
+    "part of speech": "noun",
+    "plural and inflected": "die Felder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "flach",
+    "english": "flat",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Stock",
+    "english": "floor (of building)",
+    "part of speech": "noun",
+    "plural and inflected": "die St\u00c3\u00b6cke",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Etage",
+    "english": "floor (storey of building)",
+    "part of speech": "noun",
+    "plural and inflected": "die Etagen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "verboten",
+    "english": "forbidden (to)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Ausl\u00c3\u00a4nder",
+    "english": "foreigner",
+    "part of speech": "noun",
+    "plural and inflected": "die Ausl\u00c3\u00a4nder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Formular",
+    "english": "form",
+    "part of speech": "noun",
+    "plural and inflected": "die Formulare",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "frei",
+    "english": "free (liberty)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Vollpension",
+    "english": "full board (hotel)",
+    "part of speech": "noun",
+    "plural and inflected": "die Vollpensione",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Aufenthaltsraum",
+    "english": "games room",
+    "part of speech": "noun",
+    "plural and inflected": "die Aufenthaltsr\u00c3\u00a4ume",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Werkstatt",
+    "english": "garage",
+    "part of speech": "noun",
+    "plural and inflected": "die Werkst\u00c3\u00a4tten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Obst- und Gem\u00c3\u00bcseh\u00c3\u00a4ndler",
+    "english": "greengrocer",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Lebensmittelgesch\u00c3\u00a4ft",
+    "english": "grocer\u00e2\u20ac\u2122s shop",
+    "part of speech": "noun",
+    "plural and inflected": "die Lebensmittelgesch\u00c3\u00a4fte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Erdgeschoss",
+    "english": "ground floor",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Gast",
+    "english": "guest",
+    "part of speech": "noun",
+    "plural and inflected": "die G\u00c3\u00a4ste",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Halbpension",
+    "english": "half board (hotel)",
+    "part of speech": "noun",
+    "plural and inflected": "die Halbpensione",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Heizung",
+    "english": "heating",
+    "part of speech": "noun",
+    "plural and inflected": "die Heizungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der H\u00cf\u2039gel",
+    "english": "hill",
+    "part of speech": "noun",
+    "plural and inflected": "die H\u00cf\u2039gel",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "historisch",
+    "english": "historic",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Fest",
+    "english": "holiday, celebration",
+    "part of speech": "noun",
+    "plural and inflected": "die Feste",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Krankenhaus",
+    "english": "hospital",
+    "part of speech": "noun",
+    "plural and inflected": "die Krankenh\u00c3\u00a4use",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Hotel",
+    "english": "hotel",
+    "part of speech": "noun",
+    "plural and inflected": "die Hotels",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Hotelverzeichnis",
+    "english": "hotel list",
+    "part of speech": "noun",
+    "plural and inflected": "die Hotelverzeichnisse",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Eishalle",
+    "english": "ice rink",
+    "part of speech": "noun",
+    "plural and inflected": "die Eishallen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Personalausweis",
+    "english": "identity card",
+    "part of speech": "noun",
+    "plural and inflected": "die Personalausweise",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "im Voraus",
+    "english": "in advance",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "im Freien",
+    "english": "in the open air",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "inbegriffen",
+    "english": "included",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "inklusiv",
+    "english": "inclusive (of)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Hallenbad",
+    "english": "indoor swimming pool",
+    "part of speech": "noun",
+    "plural and inflected": "die Hallenb\u00c3\u00a4der",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "industriell",
+    "english": "industrial",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Industrie",
+    "english": "industry",
+    "part of speech": "noun",
+    "plural and inflected": "die Industrien",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Informationsb\u00cf\u2039ro",
+    "english": "information office",
+    "part of speech": "noun",
+    "plural and inflected": "die Informationsb\u00cf\u2039ros",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Einwohner",
+    "english": "inhabitant",
+    "part of speech": "noun",
+    "plural and inflected": "die Einwohner",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Insel",
+    "english": "island",
+    "part of speech": "noun",
+    "plural and inflected": "die Inseln",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Fahrt",
+    "english": "journey (the way to destination)",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Reise",
+    "english": "journey (entire trip)",
+    "part of speech": "noun",
+    "plural and inflected": "die Reisen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Schl\u00cf\u2039ssel",
+    "english": "key",
+    "part of speech": "noun",
+    "plural and inflected": "die Schl\u00cf\u2039ssel",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der See",
+    "english": "lake",
+    "part of speech": "noun",
+    "plural and inflected": "die Seen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Landschaft",
+    "english": "landscape",
+    "part of speech": "noun",
+    "plural and inflected": "die Landschaften",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Waschsalon",
+    "english": "launderette",
+    "part of speech": "noun",
+    "plural and inflected": "die Waschsalons",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Gep\u00c3\u00a4ckaufbewahrung",
+    "english": "left luggage",
+    "part of speech": "noun",
+    "plural and inflected": "die Gep\u00c3\u00a4ckaufbewahrungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Schlie\u00c3\u0178fach",
+    "english": "left luggage locker",
+    "part of speech": "noun",
+    "plural and inflected": "die Schlie\u00c3\u0178f\u00c3\u00a4cher",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Freizeitzentrum",
+    "english": "leisure centre",
+    "part of speech": "noun",
+    "plural and inflected": "die Freizeitzentren",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Bibliothek",
+    "english": "library",
+    "part of speech": "noun",
+    "plural and inflected": "die Bibliotheken",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Aufzug",
+    "english": "lift (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Aufz\u00c3\u00bcge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fahrstuhl",
+    "english": "lift (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrst\u00c3\u00bchle",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Linie",
+    "english": "line",
+    "part of speech": "noun",
+    "plural and inflected": "die Linien",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Lastwagen",
+    "english": "lorry",
+    "part of speech": "noun",
+    "plural and inflected": "die Lastwagen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Gep\u00c3\u00a4ck",
+    "english": "luggage",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Bundesstra\u00c3\u0178e",
+    "english": "main road",
+    "part of speech": "noun",
+    "plural and inflected": "die Bundesstra\u00c3\u0178en",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Hauptbahnhof",
+    "english": "main station",
+    "part of speech": "noun",
+    "plural and inflected": "die Hauptbahnh\u00c3\u00b6fe",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Landkarte",
+    "english": "map",
+    "part of speech": "noun",
+    "plural and inflected": "die Landkarten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Stadtplan",
+    "english": "map (of town)",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadtpl\u00c3\u00a4ne",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Markt",
+    "english": "market",
+    "part of speech": "noun",
+    "plural and inflected": "die M\u00c3\u00a4rkte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Marktplatz",
+    "english": "marketplace",
+    "part of speech": "noun",
+    "plural and inflected": "die Marktpl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Verkehrsmittel",
+    "english": "means of transport",
+    "part of speech": "noun",
+    "plural and inflected": "die Verkehrsmittel",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Medien",
+    "english": "media",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Meter",
+    "english": "meter",
+    "part of speech": "noun",
+    "plural and inflected": "die Meter",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Treffpunkt",
+    "english": "meeting place",
+    "part of speech": "noun",
+    "plural and inflected": "die Treffpunkte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Denkmal",
+    "english": "monument",
+    "part of speech": "noun",
+    "plural and inflected": "die Denkmale",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Mofa",
+    "english": "moped",
+    "part of speech": "noun",
+    "plural and inflected": "die Mofas",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Motorrad",
+    "english": "motorbike",
+    "part of speech": "noun",
+    "plural and inflected": "die Motorr\u00c3\u00a4der",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Autobahn",
+    "english": "motorway",
+    "part of speech": "noun",
+    "plural and inflected": "die Autobahnen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Berg",
+    "english": "mountain",
+    "part of speech": "noun",
+    "plural and inflected": "die Berge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Museum",
+    "english": "museum",
+    "part of speech": "noun",
+    "plural and inflected": "die Museen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Natur",
+    "english": "nature",
+    "part of speech": "noun",
+    "plural and inflected": "die Naturen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Zeitung",
+    "english": "newspaper",
+    "part of speech": "noun",
+    "plural and inflected": "die Zeitungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Zeitungskiosk",
+    "english": "newspaper stall",
+    "part of speech": "noun",
+    "plural and inflected": "die Zeitungskioske",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Nachtlokal",
+    "english": "nightclub (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Nachtlokale",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Nachtklub",
+    "english": "nightclub (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Nachtklubs",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Nachtleben",
+    "english": "nightlife",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "besetzt",
+    "english": "occupied",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das B\u00cf\u2039ro",
+    "english": "office",
+    "part of speech": "noun",
+    "plural and inflected": "die B\u00cf\u2039ros",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "zu Fu\u00c3\u0178",
+    "english": "on foot",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Einbahnstra\u00c3\u0178e",
+    "english": "one-way street",
+    "part of speech": "noun",
+    "plural and inflected": "die Einbahnstra\u00c3\u0178en",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "ge\u00c3\u00b6ffnet",
+    "english": "open(ed)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die \u00c3\u2013ffnungszeiten",
+    "english": "opening times",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "drau\u00c3\u0178en",
+    "english": "outside",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Stadtrand",
+    "english": "outskirts (of town/city)",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadtr\u00c3\u00a4nder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Besitzer",
+    "english": "owner",
+    "part of speech": "noun",
+    "plural and inflected": "die Besitzer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Palast",
+    "english": "palace",
+    "part of speech": "noun",
+    "plural and inflected": "die Pal\u00c3\u00a4ste",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Park",
+    "english": "park",
+    "part of speech": "noun",
+    "plural and inflected": "die Parks",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Stadtteil",
+    "english": "part of town (unofficial)",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadtteile",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Passagier",
+    "english": "passenger",
+    "part of speech": "noun",
+    "plural and inflected": "die Passagiere",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Passkontrolle",
+    "english": "passport control",
+    "part of speech": "noun",
+    "plural and inflected": "die Passkontrollen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der B\u00cf\u2039rgersteig",
+    "english": "pavement",
+    "part of speech": "noun",
+    "plural and inflected": "die B\u00cf\u2039rgersteige",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fu\u00c3\u0178g\u00c3\u00a4nger",
+    "english": "pedestrian",
+    "part of speech": "noun",
+    "plural and inflected": "die Fu\u00c3\u0178g\u00c3\u00a4nger",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Fu\u00c3\u0178g\u00c3\u00a4ngerzone",
+    "english": "pedestrian area",
+    "part of speech": "noun",
+    "plural and inflected": "die Fu\u00c3\u0178g\u00c3\u00a4ngerzonen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fu\u00c3\u0178g\u00c3\u00a4nger\u00cf\u2039bergang",
+    "english": "pedestrian crossing",
+    "part of speech": "noun",
+    "plural and inflected": "die Fu\u00c3\u0178g\u00c3\u00a4nger\u00cf\u2039berg\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Benzin",
+    "english": "petrol",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Tankstelle",
+    "english": "petrol station",
+    "part of speech": "noun",
+    "plural and inflected": "die Tankstellen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Apotheke",
+    "english": "pharmacy",
+    "part of speech": "noun",
+    "plural and inflected": "die Apotheken",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "malerisch",
+    "english": "picturesque",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Kopfkissen",
+    "english": "pillow",
+    "part of speech": "noun",
+    "plural and inflected": "die Kopfkissen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Ort",
+    "english": "place",
+    "part of speech": "noun",
+    "plural and inflected": "die Orte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Flugzeug",
+    "english": "plane",
+    "part of speech": "noun",
+    "plural and inflected": "die Flugzeuge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Bahnsteig",
+    "english": "platform (train station)",
+    "part of speech": "noun",
+    "plural and inflected": "die Bahnsteige",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Spielplatz",
+    "english": "playground",
+    "part of speech": "noun",
+    "plural and inflected": "die Spielpl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Polizei",
+    "english": "police",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Polizeiwache",
+    "english": "police station",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Polizist",
+    "english": "policeman",
+    "part of speech": "noun",
+    "plural and inflected": "die Polizisten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Polizistin",
+    "english": "policewoman",
+    "part of speech": "noun",
+    "plural and inflected": "die Polizistinnen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Hafen",
+    "english": "port",
+    "part of speech": "noun",
+    "plural and inflected": "die H\u00c3\u00a4fen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Post",
+    "english": "post",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Postamt",
+    "english": "post office",
+    "part of speech": "noun",
+    "plural and inflected": "die Post\u00c3\u00a4mter",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Postkarte",
+    "english": "postcard",
+    "part of speech": "noun",
+    "plural and inflected": "die Postkarten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Poster",
+    "english": "poster",
+    "part of speech": "noun",
+    "plural and inflected": "die Poster",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Presse",
+    "english": "press",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Preisliste",
+    "english": "price list",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Vorfahrt",
+    "english": "right of way",
+    "part of speech": "noun",
+    "plural and inflected": "die Vorfahrten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Problem",
+    "english": "problem",
+    "part of speech": "noun",
+    "plural and inflected": "die Probleme",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Kneipe",
+    "english": "pub (only for drinking)",
+    "part of speech": "noun",
+    "plural and inflected": "die Kneipen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Lokal",
+    "english": "pub (also for eating)",
+    "part of speech": "noun",
+    "plural and inflected": "die Lokale",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Feiertag",
+    "english": "public holiday",
+    "part of speech": "noun",
+    "plural and inflected": "die Feiertage",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "\u00c3\u00b6ffentlich",
+    "english": "public",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Bahnhof",
+    "english": "railway station",
+    "part of speech": "noun",
+    "plural and inflected": "die Bahnh\u00c3\u00b6fe",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Empfang",
+    "english": "reception (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Empf\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Rezeption",
+    "english": "reception (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Rezeptionen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Empfangschef",
+    "english": "receptionist (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Empfangschefs",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Empfangsdame",
+    "english": "receptionist (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Empfangsdamen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Erm\u00c3\u00a4\u00c3\u0178igung",
+    "english": "reduction",
+    "part of speech": "noun",
+    "plural and inflected": "die Erm\u00c3\u00a4\u00c3\u0178igungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Gegend",
+    "english": "region",
+    "part of speech": "noun",
+    "plural and inflected": "die Gegenden",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Miete",
+    "english": "rent",
+    "part of speech": "noun",
+    "plural and inflected": "die Mieten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Reservierung",
+    "english": "reservation",
+    "part of speech": "noun",
+    "plural and inflected": "die Reservierungen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die R\u00cf\u2039ckfahrkarte",
+    "english": "return ticket (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die R\u00cf\u2039ckfahrkarten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "hin und zur\u00cf\u2039ck",
+    "english": "return ticket (2)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fluss",
+    "english": "river",
+    "part of speech": "noun",
+    "plural and inflected": "die Fl\u00c3\u00bcsse",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Stra\u00c3\u0178e",
+    "english": "road",
+    "part of speech": "noun",
+    "plural and inflected": "die Stra\u00c3\u0178en",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Stra\u00c3\u0178enkarte",
+    "english": "road map",
+    "part of speech": "noun",
+    "plural and inflected": "die Stra\u00c3\u0178enkarten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Zimmer",
+    "english": "room",
+    "part of speech": "noun",
+    "plural and inflected": "die Zimmer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Route",
+    "english": "route",
+    "part of speech": "noun",
+    "plural and inflected": "die Routen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Abfalleimer",
+    "english": "rubbish bin",
+    "part of speech": "noun",
+    "plural and inflected": "die Abfalleimer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Meer",
+    "english": "sea (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Meere",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die See",
+    "english": "sea (2)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der (Sitz)platz",
+    "english": "seat (on a train, plane etc)",
+    "part of speech": "noun",
+    "plural and inflected": "die Pl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Tankstelle",
+    "english": "service station",
+    "part of speech": "noun",
+    "plural and inflected": "die Tankstellen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Betttuch",
+    "english": "sheet",
+    "part of speech": "noun",
+    "plural and inflected": "die Bettt\u00c3\u00bccher",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Laden",
+    "english": "shop (small)",
+    "part of speech": "noun",
+    "plural and inflected": "die L\u00c3\u00a4den",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Einkaufszentrum",
+    "english": "shopping centre",
+    "part of speech": "noun",
+    "plural and inflected": "die Einkaufszentren",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Dusche",
+    "english": "shower",
+    "part of speech": "noun",
+    "plural and inflected": "die Duschen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Sehensw\u00c3\u00bcrdigkeit",
+    "english": "sight, landmark",
+    "part of speech": "noun",
+    "plural and inflected": "die Sehensw\u00c3\u00bcrdigkeiten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Schild",
+    "english": "sign",
+    "part of speech": "noun",
+    "plural and inflected": "die Schilder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Einzelzimmer",
+    "english": "single room",
+    "part of speech": "noun",
+    "plural and inflected": "die Einzelzimmer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Einzelfahrkarte",
+    "english": "single ticket (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Einzelfahrkarten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "einfach",
+    "english": "single ticket (2)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Schlafsack",
+    "english": "sleeping bag",
+    "part of speech": "noun",
+    "plural and inflected": "die Schlafs\u00c3\u00a4cke",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Schlafwagen",
+    "english": "sleeping car (on train)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schlafwagen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Schnellimbiss",
+    "english": "snack bar",
+    "part of speech": "noun",
+    "plural and inflected": "die Schnellimbisse",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Seife",
+    "english": "soap",
+    "part of speech": "noun",
+    "plural and inflected": "die Seifen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Andenken",
+    "english": "souvenir",
+    "part of speech": "noun",
+    "plural and inflected": "die Andenken",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Sportzentrum",
+    "english": "sports centre",
+    "part of speech": "noun",
+    "plural and inflected": "die Sportzentren",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Platz",
+    "english": "(town) square",
+    "part of speech": "noun",
+    "plural and inflected": "die Pl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Stadion",
+    "english": "stadium",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadien",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Treppe",
+    "english": "staircase",
+    "part of speech": "noun",
+    "plural and inflected": "die Treppen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "geradeaus",
+    "english": "straight ahead",
+    "part of speech": "adverb",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Vorort",
+    "english": "suburb",
+    "part of speech": "noun",
+    "plural and inflected": "die Vororte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Koffer",
+    "english": "suitcase",
+    "part of speech": "noun",
+    "plural and inflected": "die Koffer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Supermarkt",
+    "english": "supermarket",
+    "part of speech": "noun",
+    "plural and inflected": "die Superm\u00c3\u00a4rkte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Schwimmbad",
+    "english": "swimming pool",
+    "part of speech": "noun",
+    "plural and inflected": "die Schwimmb\u00c3\u00a4der",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Taxi",
+    "english": "taxi",
+    "part of speech": "noun",
+    "plural and inflected": "die Taxis",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Fernsehen",
+    "english": "television",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fernsehapparat",
+    "english": "television set",
+    "part of speech": "noun",
+    "plural and inflected": "die Fernsehapparate",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Tennisplatz",
+    "english": "tennis court",
+    "part of speech": "noun",
+    "plural and inflected": "die Tennispl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Zelt",
+    "english": "tent",
+    "part of speech": "noun",
+    "plural and inflected": "die Zelte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Theater",
+    "english": "theater",
+    "part of speech": "noun",
+    "plural and inflected": "die Theater",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Freizeitpark",
+    "english": "theme park",
+    "part of speech": "noun",
+    "plural and inflected": "die Freizeitparks",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die (Fahr)karte",
+    "english": "ticket",
+    "part of speech": "noun",
+    "plural and inflected": "die (Fahr)karten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Kontrolleur",
+    "english": "ticket inspector",
+    "part of speech": "noun",
+    "plural and inflected": "die Kontrolleure",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der (Fahrkarten)schalter",
+    "english": "ticket office",
+    "part of speech": "noun",
+    "plural and inflected": "die (Fahrkarten)schalter",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Kasse",
+    "english": "till",
+    "part of speech": "noun",
+    "plural and inflected": "die Kassen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Fahrplan",
+    "english": "timetable",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrpl\u00c3\u00a4ne",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "sich befinden",
+    "english": "to be located",
+    "part of speech": "verb",
+    "plural and inflected": "befand sich; hat sich befunden",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "zelten",
+    "english": "to camp (in a tent)",
+    "part of speech": "verb",
+    "plural and inflected": "zeltete; hat gezeltet",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "wechseln",
+    "english": "to change",
+    "part of speech": "verb",
+    "plural and inflected": "wechselte; hat gewechselt",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "umsteigen",
+    "english": "to change (train etc)",
+    "part of speech": "verb",
+    "plural and inflected": "stieg um; ist umgesteigen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "\u00cf\u2039berqueren",
+    "english": "to cross",
+    "part of speech": "verb",
+    "plural and inflected": "\u00cf\u2039berquerte; hat \u00cf\u2039berquert",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "folgen",
+    "english": "to follow",
+    "part of speech": "verb",
+    "plural and inflected": "folgte; ist gefolgt",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "funktionieren",
+    "english": "to function",
+    "part of speech": "verb",
+    "plural and inflected": "funktionierte; hat funktioniert",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "einsteigen",
+    "english": "to get on (vehicle)",
+    "part of speech": "verb",
+    "plural and inflected": "stieg ein; ist eingestiegen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "aussteigen",
+    "english": "to get off (vehicle)",
+    "part of speech": "verb",
+    "plural and inflected": "stieg aus; ist ausgestiegen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "mieten",
+    "english": "to hire, to rent",
+    "part of speech": "verb",
+    "plural and inflected": "mietete; hat gemietet",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "verpassen",
+    "english": "to miss (a scheduled thing)",
+    "part of speech": "verb",
+    "plural and inflected": "verpasste; hat verpasst",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "packen",
+    "english": "to pack",
+    "part of speech": "verb",
+    "plural and inflected": "packte; hat gepackt",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "auspacken",
+    "english": "to unpack",
+    "part of speech": "verb",
+    "plural and inflected": "packte aus; hat ausgepackt",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "parken",
+    "english": "to park",
+    "part of speech": "verb",
+    "plural and inflected": "parkte; hat geparkt",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "abfliegen",
+    "english": "to take off (plane)",
+    "part of speech": "verb",
+    "plural and inflected": "flog ab; abgeflogen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "entwerten",
+    "english": "to validate (ticket)",
+    "part of speech": "verb",
+    "plural and inflected": "entwertete; hat entwertet",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Toilette",
+    "english": "toilet",
+    "part of speech": "noun",
+    "plural and inflected": "die Toiletten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Toilettenpapier",
+    "english": "toilet paper",
+    "part of speech": "noun",
+    "plural and inflected": "die Toilettenpapiere",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Zahnb\u00cf\u2039rste",
+    "english": "toothbrush",
+    "part of speech": "noun",
+    "plural and inflected": "die Zahnb\u00cf\u2039rsten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Zahnpasta",
+    "english": "toothpaste",
+    "part of speech": "noun",
+    "plural and inflected": "die Zahnpasten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Tour",
+    "english": "tour",
+    "part of speech": "noun",
+    "plural and inflected": "die Tours",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Rundfahrt",
+    "english": "tour (on transport)",
+    "part of speech": "noun",
+    "plural and inflected": "die Rundfahrten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Rundgang",
+    "english": "tour (walking)",
+    "part of speech": "noun",
+    "plural and inflected": "die Rundg\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Tourist",
+    "english": "tourist",
+    "part of speech": "noun",
+    "plural and inflected": "die Touristen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Verkehrsamt",
+    "english": "tourist office",
+    "part of speech": "noun",
+    "plural and inflected": "die Verkehrs\u00c3\u00a4mter",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Turm",
+    "english": "tower",
+    "part of speech": "noun",
+    "plural and inflected": "die T\u00c3\u00bcrme",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Hochhaus",
+    "english": "tower block",
+    "part of speech": "noun",
+    "plural and inflected": "die Hochh\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Stadt",
+    "english": "town",
+    "part of speech": "noun",
+    "plural and inflected": "die St\u00c3\u00a4dte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Innenstadt",
+    "english": "town centre (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Innenst\u00c3\u00a4dte",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Stadtmitte",
+    "english": "town centre (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadtmitten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Stadtzentrum",
+    "english": "town centre (3)",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadtzentren",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Rathaus",
+    "english": "town hall",
+    "part of speech": "noun",
+    "plural and inflected": "die Rath\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Gleis",
+    "english": "track, platform",
+    "part of speech": "noun",
+    "plural and inflected": "die Gleise",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Verkehr",
+    "english": "traffic",
+    "part of speech": "noun",
+    "plural and inflected": "die Verkehre",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Stau",
+    "english": "traffic jam",
+    "part of speech": "noun",
+    "plural and inflected": "die Staus",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Ampel",
+    "english": "traffic light",
+    "part of speech": "noun",
+    "plural and inflected": "die Ampeln",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Zug",
+    "english": "train",
+    "part of speech": "noun",
+    "plural and inflected": "die Z\u00c3\u00bcge",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Wagen",
+    "english": "train carriage",
+    "part of speech": "noun",
+    "plural and inflected": "die Wagen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Stra\u00c3\u0178enbahn",
+    "english": "tram",
+    "part of speech": "noun",
+    "plural and inflected": "die Stra\u00c3\u0178enbahnen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Zweibettzimmer",
+    "english": "twin room",
+    "part of speech": "noun",
+    "plural and inflected": "die Zweibettzimmer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die U-Bahn",
+    "english": "underground (railway)",
+    "part of speech": "noun",
+    "plural and inflected": "die U-Bahnen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die U-Bahnstation",
+    "english": "underground station",
+    "part of speech": "noun",
+    "plural and inflected": "die U-Bahnstationen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Aussicht",
+    "english": "view",
+    "part of speech": "noun",
+    "plural and inflected": "die Aussichten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Dorf",
+    "english": "village",
+    "part of speech": "noun",
+    "plural and inflected": "die D\u00c3\u00b6rfer",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Besuch",
+    "english": "visit",
+    "part of speech": "noun",
+    "plural and inflected": "die Besuche",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Wartesaal",
+    "english": "waiting room",
+    "part of speech": "noun",
+    "plural and inflected": "die Wartes\u00c3\u00a4le",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Kleiderschrank",
+    "english": "wardrobe",
+    "part of speech": "noun",
+    "plural and inflected": "die Kleiderschr\u00c3\u00a4nke",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Waschbecken",
+    "english": "wash basin",
+    "part of speech": "noun",
+    "plural and inflected": "die Waschbecken",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Weg",
+    "english": "way",
+    "part of speech": "noun",
+    "plural and inflected": "die Wege",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "willkommen",
+    "english": "welcome",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "sehenswert",
+    "english": "well worth seeing",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Fenster",
+    "english": "window",
+    "part of speech": "noun",
+    "plural and inflected": "die Fenster",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "das Schaufenster",
+    "english": "(shop) window",
+    "part of speech": "noun",
+    "plural and inflected": "die Schaufenster",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "mit Blick auf",
+    "english": "with a view of",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Wald",
+    "english": "wood, forest",
+    "part of speech": "noun",
+    "plural and inflected": "die W\u00c3\u00a4lder",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Jugendherberge",
+    "english": "youth hostel",
+    "part of speech": "noun",
+    "plural and inflected": "die Jugendherbergen",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Tiergarten",
+    "english": "zoo (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Tierg\u00c3\u00a4rten",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Zoo",
+    "english": "zoo (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Zoos",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "die Klimaanlage",
+    "english": "air conditioning",
+    "part of speech": "noun",
+    "plural and inflected": "die Klimaanlagen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "das Geldautomat",
+    "english": "ATM",
+    "part of speech": "noun",
+    "plural and inflected": "die Geldautomaten",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Fahrradvermietung",
+    "english": "bike hire",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrradvermietungen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Kanal",
+    "english": "canal",
+    "part of speech": "noun",
+    "plural and inflected": "die Kan\u00c3\u00a4le",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Zoll",
+    "english": "customs",
+    "part of speech": "noun",
+    "plural and inflected": "die Z\u00c3\u00b6lle",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Rabatt",
+    "english": "discount",
+    "part of speech": "noun",
+    "plural and inflected": "die Rabatte",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Reinigung",
+    "english": "dry cleaning",
+    "part of speech": "noun",
+    "plural and inflected": "die Reinigungen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Notausgang",
+    "english": "emergency exit",
+    "part of speech": "noun",
+    "plural and inflected": "die Notausg\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Veranstaltung",
+    "english": "event",
+    "part of speech": "noun",
+    "plural and inflected": "die Veranstaltungen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "das Erlebnis",
+    "english": "experience",
+    "part of speech": "noun",
+    "plural and inflected": "die Erlebnisse",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "das Feuerwerk",
+    "english": "firework",
+    "part of speech": "noun",
+    "plural and inflected": "die Feuerwerke",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Flohmarkt",
+    "english": "flea market",
+    "part of speech": "noun",
+    "plural and inflected": "die Flohm\u00c3\u00a4rkte",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Brunnen",
+    "english": "fountain",
+    "part of speech": "noun",
+    "plural and inflected": "die Brunnen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Lastwagen",
+    "english": "lorry",
+    "part of speech": "noun",
+    "plural and inflected": "die Lastwagen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Hubschrauber",
+    "english": "helicopter",
+    "part of speech": "noun",
+    "plural and inflected": "die Hubschrauber",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Gastfreundschaft",
+    "english": "hospitality",
+    "part of speech": "noun",
+    "plural and inflected": "die Gastfreundschaften",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Bahn\u00cf\u2039bergang",
+    "english": "level crossing",
+    "part of speech": "noun",
+    "plural and inflected": "die Bahn\u00c3\u00bcberg\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "das Denkmal",
+    "english": "monument",
+    "part of speech": "noun",
+    "plural and inflected": "die Denkmale",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Erinnerung",
+    "english": "memory",
+    "part of speech": "noun",
+    "plural and inflected": "die Erinnerungen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "das Autobahnkreuz",
+    "english": "motorway junction",
+    "part of speech": "noun",
+    "plural and inflected": "die Autobahnkreuze",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Rastst\u00c3\u00a4tte",
+    "english": "motorway services",
+    "part of speech": "noun",
+    "plural and inflected": "die Rastst\u00c3\u00a4tten",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der L\u00c3\u00a4rm",
+    "english": "noise",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "Parken verboten",
+    "english": "no parking",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Pauschalreise",
+    "english": "package holiday",
+    "part of speech": "noun",
+    "plural and inflected": "die Pauschalreisen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Gr\u00cf\u2039nanlage",
+    "english": "park",
+    "part of speech": "noun",
+    "plural and inflected": "die Gr\u00cf\u2039nanlagen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Umzug",
+    "english": "procession",
+    "part of speech": "noun",
+    "plural and inflected": "die Umz\u00c3\u00bcge",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Anmeldung",
+    "english": "registration",
+    "part of speech": "noun",
+    "plural and inflected": "die Anmeldungen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Sto\u00c3\u0178zeit",
+    "english": "rush hour",
+    "part of speech": "noun",
+    "plural and inflected": "die Sto\u00c3\u0178zeiten",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Sparkasse",
+    "english": "savings bank",
+    "part of speech": "noun",
+    "plural and inflected": "die Sparkassen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Badeort",
+    "english": "seaside resort",
+    "part of speech": "noun",
+    "plural and inflected": "die Badeorte",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Sicherheitsgurt",
+    "english": "seatbelt",
+    "part of speech": "noun",
+    "plural and inflected": "die Sicherheitsgurten",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Skiurlaub",
+    "english": "ski holiday",
+    "part of speech": "noun",
+    "plural and inflected": "die Skiurlaube",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Geschwindigkeit",
+    "english": "speed",
+    "part of speech": "noun",
+    "plural and inflected": "die Geschwindigkeiten",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Geschwindigkeitsbegrenzung",
+    "english": "speed limit",
+    "part of speech": "noun",
+    "plural and inflected": "die Geschwindigkeitsbegrenzungen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Aufenthalt",
+    "english": "stay",
+    "part of speech": "noun",
+    "plural and inflected": "die Aufenthalte",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Umgebung",
+    "english": "surroundings",
+    "part of speech": "noun",
+    "plural and inflected": "die Umgebungen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "unterbringen",
+    "english": "to accommodate",
+    "part of speech": "verb",
+    "plural and inflected": "brachte unter; untergebracht",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "an Bord gehen",
+    "english": "to board (plane, boat etc)",
+    "part of speech": "verb",
+    "plural and inflected": "ging an Bord; ist an Bord gegangen",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "bremsen",
+    "english": "to brake",
+    "part of speech": "verb",
+    "plural and inflected": "bremste; hat gebremst",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "best\u00c3\u00a4tigen",
+    "english": "to confirm",
+    "part of speech": "verb",
+    "plural and inflected": "best\u00c3\u00a4tigte; hat best\u00c3\u00a4tigt",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "\u00cf\u2039berholen",
+    "english": "to overtake",
+    "part of speech": "verb",
+    "plural and inflected": "\u00cf\u2039berholte; hat \u00cf\u2039berholt",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "\u00c3\u00bcberfahren",
+    "english": "to run over",
+    "part of speech": "verb",
+    "plural and inflected": "\u00c3\u00bcberfuhr; hat \u00c3\u00bcberfahren",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "\u00c3\u00bcbernachten",
+    "english": "to stay (overnight)",
+    "part of speech": "verb",
+    "plural and inflected": "\u00c3\u00bcbernachtete; \u00c3\u00bcbernachtet",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "stattfinden",
+    "english": "to take place",
+    "part of speech": "verb",
+    "plural and inflected": "fand statt; hat stattgefunden",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "die Maut",
+    "english": "toll",
+    "part of speech": "noun",
+    "plural and inflected": "die Mauten",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "das Fahrzeug",
+    "english": "vehicle",
+    "part of speech": "noun",
+    "plural and inflected": "die Fahrzeuge",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  },
+  {
+    "german": "der Winterurlaub",
+    "english": "winter holiday",
+    "part of speech": "noun",
+    "plural and inflected": "die Winterurlaube",
+    "level": "GCSE_German_(Pearson_2022)::30_Local_area,_holiday_and_travel_(H)"
+  }
+]

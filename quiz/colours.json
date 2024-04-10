@@ -1,0 +1,93 @@
+[
+  {
+    "german": "die Farbe",
+    "english": "colour",
+    "part of speech": "noun",
+    "plural and inflected": "die Farben",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "schwarz",
+    "english": "black",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "blau",
+    "english": "blue",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "braun",
+    "english": "brown",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "dunkel",
+    "english": "dark",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "gr\u00c3\u00bcn",
+    "english": "green",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "grau",
+    "english": "grey",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "hell",
+    "english": "bright",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "rosa",
+    "english": "pink",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "rot",
+    "english": "red",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "lila",
+    "english": "violet, purple",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "wei\u00c3\u0178",
+    "english": "white",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  },
+  {
+    "german": "gelb",
+    "english": "yellow",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::05_Colours"
+  }
+]

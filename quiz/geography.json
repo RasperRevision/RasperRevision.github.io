@@ -1,0 +1,716 @@
+[
+  {
+    "german": "Afrika",
+    "english": "Africa",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Asien",
+    "english": "Asia",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Australien",
+    "english": "Australia",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Europa",
+    "english": "Europe",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Nordamerika",
+    "english": "North America",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "S\u00c3\u00bcdamerika",
+    "english": "South America",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "\u00c3\u2013sterreich",
+    "english": "Austria",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Belgien",
+    "english": "Belgium",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "D\u00c3\u00a4nemark",
+    "english": "Denmark",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "England",
+    "english": "England",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Frankreich",
+    "english": "France",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Deutschland",
+    "english": "Germany",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Gro\u00c3\u0178britannien",
+    "english": "Great Britain",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Griechenland",
+    "english": "Greece",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Holland",
+    "english": "Holland",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Indien",
+    "english": "India",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Irland",
+    "english": "Ireland",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Italien",
+    "english": "Italy",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Niederlande",
+    "english": "the Netherlands",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Pakistan",
+    "english": "Pakistan",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Polen",
+    "english": "Poland",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Russland",
+    "english": "Russia",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Schottland",
+    "english": "Scotland",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Spanien",
+    "english": "Spain",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Schweiz",
+    "english": "Switzerland",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die T\u00c3\u00bcrkei",
+    "english": "Turkey",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Vereinigten Staaten",
+    "english": "United States (full name)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die USA",
+    "english": "United States (acronym)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Wales",
+    "english": "Wales",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Amerikaner",
+    "english": "American (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Amerikaner",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Amerikanerin",
+    "english": "American (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Amerikanerinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "amerikanisch",
+    "english": "American (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der \u00c3\u2013sterreicher",
+    "english": "Austrian (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die \u00c3\u2013sterreicher",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die \u00c3\u2013sterreicherin",
+    "english": "Austrian (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die \u00c3\u2013sterreicherinner",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "\u00c3\u00b6sterreichisch",
+    "english": "Austrian (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Belgier",
+    "english": "Belgian (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Belgier",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Belgierin",
+    "english": "Belgian (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Belgierinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "belgisch",
+    "english": "Belgian (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Brite",
+    "english": "Brit (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Briten",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Britin",
+    "english": "Brit (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Britinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "britisch",
+    "english": "British",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der D\u00c3\u00a4ne",
+    "english": "Dane (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die D\u00c3\u00a4nen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die D\u00c3\u00a4nin",
+    "english": "Dane (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die D\u00c3\u00a4ninnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "d\u00c3\u00a4nisch",
+    "english": "Danish",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Holl\u00c3\u00a4nder",
+    "english": "Dutchman",
+    "part of speech": "noun",
+    "plural and inflected": "die Holl\u00c3\u00a4nder",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Holl\u00c3\u00a4nderin",
+    "english": "Dutchwoman",
+    "part of speech": "noun",
+    "plural and inflected": "die Holl\u00c3\u00a4nderinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "holl\u00c3\u00a4ndisch",
+    "english": "Dutch",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Engl\u00c3\u00a4nder",
+    "english": "Englishman",
+    "part of speech": "noun",
+    "plural and inflected": "die Engl\u00c3\u00a4nder",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Engl\u00c3\u00a4nderin",
+    "english": "Englishwoman",
+    "part of speech": "noun",
+    "plural and inflected": "die Engl\u00c3\u00a4nderinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "englisch",
+    "english": "English",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Europ\u00c3\u00a4er",
+    "english": "European (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Europ\u00c3\u00a4er",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Europ\u00c3\u00a4erin",
+    "english": "European (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Europ\u00c3\u00a4erinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "europ\u00c3\u00a4isch",
+    "english": "European (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Franzose",
+    "english": "Frenchman",
+    "part of speech": "noun",
+    "plural and inflected": "die Franzosen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Franz\u00c3\u00b6sin",
+    "english": "Frenchwoman",
+    "part of speech": "noun",
+    "plural and inflected": "die Franz\u00c3\u00b6sinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "franz\u00c3\u00b6sisch",
+    "english": "French",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Deutsche",
+    "english": "German (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Deutschen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Deutsche",
+    "english": "German (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Deutschen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "deutsch",
+    "english": "German (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Grieche",
+    "english": "Greek (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Griechen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Griechin",
+    "english": "Greek (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Griechinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "griechisch",
+    "english": "Greek (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Inder",
+    "english": "Indian (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Inder",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Indin",
+    "english": "Indian (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Indinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "indisch",
+    "english": "Indian (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Ire",
+    "english": "Irishman",
+    "part of speech": "noun",
+    "plural and inflected": "die Iren",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Irin",
+    "english": "Irishwoman",
+    "part of speech": "noun",
+    "plural and inflected": "die Irinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "irisch",
+    "english": "Irish",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Italiener",
+    "english": "Italian (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Italiener",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Italienerin",
+    "english": "Italian (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Italienerinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "italienisch",
+    "english": "Italian (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der/die Pakistani",
+    "english": "Pakistani (n)",
+    "part of speech": "noun",
+    "plural and inflected": "die Pakistanis",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "pakistanisch",
+    "english": "Pakistani (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Russe",
+    "english": "Russian (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Russen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Russin",
+    "english": "Russian (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Russinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "russisch",
+    "english": "Russian (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Schotte",
+    "english": "Scotsman",
+    "part of speech": "noun",
+    "plural and inflected": "die Schotten",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Schottin",
+    "english": "Scotswoman",
+    "part of speech": "noun",
+    "plural and inflected": "die Schottinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "schottisch",
+    "english": "Scottish",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Spanier",
+    "english": "Spaniard (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Spanier",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Spanierin",
+    "english": "Spaniard (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Spanierinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "spanisch",
+    "english": "Spanish",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Schweizer",
+    "english": "Swiss (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schweizer",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Schweizerin",
+    "english": "Swiss (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schweizerinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "schweizerisch",
+    "english": "Swiss (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der T\u00cf\u2039rke",
+    "english": "Turk (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die T\u00cf\u2039rken",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die T\u00cf\u2039rkin",
+    "english": "Turk (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die T\u00cf\u2039rkinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "t\u00c3\u00bcrkisch",
+    "english": "Turkish",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Waliser",
+    "english": "Welshman",
+    "part of speech": "noun",
+    "plural and inflected": "die Waliser",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Waliserin",
+    "english": "Welshwoman",
+    "part of speech": "noun",
+    "plural and inflected": "die Waliserinnen",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "walisisch",
+    "english": "Welsh",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Bayern",
+    "english": "Bavaria",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "K\u00c3\u00b6ln",
+    "english": "Cologne",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Bodensee",
+    "english": "Lake Constance",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "M\u00c3\u00bcnchen",
+    "english": "Munich",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Alpen",
+    "english": "the Alps",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Schwarzwald",
+    "english": "the Black Forest",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Eurotunnel",
+    "english": "the Channel Tunnel",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "die Donau",
+    "english": "the Danube",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der \u00c3\u201ermelkanal",
+    "english": "the English Channel",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "der Rhein",
+    "english": "the Rhine",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  },
+  {
+    "german": "Wien",
+    "english": "Vienna",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::15_Geography"
+  }
+]

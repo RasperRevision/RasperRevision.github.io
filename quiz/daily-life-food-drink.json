@@ -1,142 +1,1696 @@
 [
-    {
-        "meaning": "appetite",
-        "term": "der Appetit"
-    },
-    {
-        "meaning": "apple",
-        "term": "der Apfel"
-    },
-    {
-        "meaning": "apricot",
-        "term": "die Aprikose"
-    },
-    {
-        "meaning": "banana",
-        "term": "die Banane"
-    },
-    {
-        "meaning": "bean",
-        "term": "die Bohne"
-    },
-    {
-        "meaning": "beef",
-        "term": "das Rindfleisch"
-    },
-    {
-        "meaning": "beer",
-        "term": "das Bier"
-    },
-    {
-        "meaning": "bill",
-        "term": "die Rechnung"
-    },
-    {
-        "meaning": "biscuit",
-        "term": "der Keks"
-    },
-    {
-        "meaning": "blackcurrant",
-        "term": "die Johannisbeere"
-    },
-    {
-        "meaning": "boiled sausage",
-        "term": "die Bockwurst"
-    },
-    {
-        "meaning": "bottle",
-        "term": "die Flasche"
-    },
-    {
-        "meaning": "bowl",
-        "term": "die Schüssel"
-    },
-    {
-        "meaning": "bread",
-        "term": "das Brot"
-    },
-    {
-        "meaning": "breakfast",
-        "term": "das Frühstück"
-    },
-    {
-        "meaning": "brussels sprouts",
-        "term": "der Rosenkohl"
-    },
-    {
-        "meaning": "butter",
-        "term": "die Butter"
-    },
-    {
-        "meaning": "cabbage",
-        "term": "der Kohl"
-    },
-    {
-        "meaning": "café",
-        "term": "das Café"
-    },
-    {
-        "meaning": "cake",
-        "term": "der Kuchen"
-    },
-    {
-        "meaning": "can",
-        "term": "die Dose"
-    },
-    {
-        "meaning": "carrot",
-        "term": "die Karotte"
-    },
-    {
-        "meaning": "cauliflower",
-        "term": "der Blumenkohl"
-    },
-    {
-        "term": "der Champagner",
-        "meaning": "champagne"
-    },
-    {
-        "term": "der Käse",
-        "meaning": "cheese"
-    },
-    {
-        "term": "die Kirsche",
-        "meaning": "cherry"
-    },
-    {
-        "term": "das Hähnchen",
-        "meaning": "chicken"
-    },
-    {
-        "term": "die Pommes (frites)",
-        "meaning": "chips"
-    },
-    {
-        "term": "die Schokolade",
-        "meaning": "chocolate"
-    },
-    {
-        "term": "die Auswahl",
-        "meaning": "choice, selection"
-    },
-    {
-        "term": "das Kotelett",
-        "meaning": "chop (e.g. pork/lamb)"
-    },
-    {
-        "term": "der Apfelmost",
-        "meaning": "cider"
-    },
-    {
-        "term": "geschlossen",
-        "meaning": "closed"
-    },
-    {
-        "term": "der Kakao",
-        "meaning": "cocoa"
-    },
-    {
-        "term": "der Kaffee",
-        "meaning": "coffee"
-    }
+  {
+    "german": "der Appetit",
+    "english": "appetite",
+    "part of speech": "noun",
+    "plural and inflected": "die Appetite",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Apfel",
+    "english": "apple",
+    "part of speech": "noun",
+    "plural and inflected": "die \u00c3\u201epfel",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Aprikose",
+    "english": "apricot",
+    "part of speech": "noun",
+    "plural and inflected": "die Aprikosen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Banane",
+    "english": "banana",
+    "part of speech": "noun",
+    "plural and inflected": "die Bananen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Bohne",
+    "english": "bean",
+    "part of speech": "noun",
+    "plural and inflected": "die Bohnen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Rindfleisch",
+    "english": "beef",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Bier",
+    "english": "beer",
+    "part of speech": "noun",
+    "plural and inflected": "die Biere",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Rechnung",
+    "english": "bill",
+    "part of speech": "noun",
+    "plural and inflected": "die Rechnungen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Keks",
+    "english": "biscuit",
+    "part of speech": "noun",
+    "plural and inflected": "die Kekse",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Johannisbeere",
+    "english": "blackcurrant",
+    "part of speech": "noun",
+    "plural and inflected": "die Johannisbeeren",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Bockwurst",
+    "english": "boiled sausage",
+    "part of speech": "noun",
+    "plural and inflected": "die Bockw\u00c3\u00bcrste",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Flasche",
+    "english": "bottle",
+    "part of speech": "noun",
+    "plural and inflected": "die Flaschen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Sch\u00c3\u00bcssel",
+    "english": "bowl",
+    "part of speech": "noun",
+    "plural and inflected": "die Sch\u00c3\u00bcsseln",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Brot",
+    "english": "bread",
+    "part of speech": "noun",
+    "plural and inflected": "die Brote",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Br\u00c3\u00b6tchen",
+    "english": "bread roll",
+    "part of speech": "noun",
+    "plural and inflected": "die Br\u00c3\u00b6tchen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Fr\u00c3\u00bchst\u00c3\u00bcck",
+    "english": "breakfast",
+    "part of speech": "noun",
+    "plural and inflected": "die Fr\u00c3\u00bchst\u00c3\u00bccke",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Rosenkohl",
+    "english": "brussel sprouts",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Butter",
+    "english": "butter",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Kohl",
+    "english": "cabbage",
+    "part of speech": "noun",
+    "plural and inflected": "die Kohle",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Caf\u00c3\u00a9",
+    "english": "caf\u00c3\u00a9",
+    "part of speech": "noun",
+    "plural and inflected": "die Caf\u00c3\u00a9s",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Kuchen",
+    "english": "cake",
+    "part of speech": "noun",
+    "plural and inflected": "die Kuchen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Dose",
+    "english": "can, tin",
+    "part of speech": "noun",
+    "plural and inflected": "die Dosen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Karotte",
+    "english": "carrot (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Karotten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Mohrr\u00c3\u00bcbe",
+    "english": "carrot (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Mohrr\u00c3\u00bcben",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Blumenkohl",
+    "english": "cauliflower",
+    "part of speech": "noun",
+    "plural and inflected": "no plural",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Champagner",
+    "english": "champagne",
+    "part of speech": "noun",
+    "plural and inflected": "die Champagner",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der K\u00c3\u00a4se",
+    "english": "cheese",
+    "part of speech": "noun",
+    "plural and inflected": "die K\u00c3\u00a4se",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Kirsche",
+    "english": "cherry",
+    "part of speech": "noun",
+    "plural and inflected": "die Kirschen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das H\u00c3\u00a4hnchen",
+    "english": "chicken",
+    "part of speech": "noun",
+    "plural and inflected": "die H\u00c3\u00a4hnchen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Pommes (frites)",
+    "english": "chips",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Schokolade",
+    "english": "chocolate",
+    "part of speech": "noun",
+    "plural and inflected": "die Schokoladen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Auswahl",
+    "english": "choice, selection",
+    "part of speech": "noun",
+    "plural and inflected": "die Auswahlen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Kotelett",
+    "english": "chop (e.g. pork/lamb)",
+    "part of speech": "noun",
+    "plural and inflected": "die Kotelette",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Apfelmost",
+    "english": "cider",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "(montags) geschlossen",
+    "english": "closed (on Mondays)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Kakao",
+    "english": "cocoa",
+    "part of speech": "noun",
+    "plural and inflected": "die Kakaos",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Kaffee",
+    "english": "coffee",
+    "part of speech": "noun",
+    "plural and inflected": "die Kaffees",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Aufschnitt",
+    "english": "cold sliced meat selection",
+    "part of speech": "noun",
+    "plural and inflected": "die Aufschnitte",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "gekocht",
+    "english": "cooked, boiled",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Rahm",
+    "english": "cream (Swiss German)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Sahne",
+    "english": "cream (most of Germany)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die (Kartoffel)chips",
+    "english": "crisps",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Gurke",
+    "english": "cucumber",
+    "part of speech": "noun",
+    "plural and inflected": "die Gurken",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Tasse",
+    "english": "cup",
+    "part of speech": "noun",
+    "plural and inflected": "die Tassen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Kunde",
+    "english": "customer",
+    "part of speech": "noun",
+    "plural and inflected": "die Kunden",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "k\u00c3\u00b6stlich",
+    "english": "delicious",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Nachspeise",
+    "english": "dessert (formal)",
+    "part of speech": "noun",
+    "plural and inflected": "die Nachspeisen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Nachtisch",
+    "english": "dessert (informal)",
+    "part of speech": "noun",
+    "plural and inflected": "die Nachtische",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Esszimmer",
+    "english": "dining room",
+    "part of speech": "noun",
+    "plural and inflected": "die Esszimmer",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Sekt",
+    "english": "sparkling wine",
+    "part of speech": "noun",
+    "plural and inflected": "die Sekte",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Speisesaal",
+    "english": "dining hall",
+    "part of speech": "noun",
+    "plural and inflected": "die Speises\u00c3\u00a4le",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Abendbrot",
+    "english": "dinner (northern Germany)",
+    "part of speech": "noun",
+    "plural and inflected": "die Abendbrote",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Abendessen",
+    "english": "dinner (southern Germany)",
+    "part of speech": "noun",
+    "plural and inflected": "die Abendessen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Tagesgericht",
+    "english": "dish of the day",
+    "part of speech": "noun",
+    "plural and inflected": "die Tagesgerichten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der D\u00c3\u00b6ner Kebab",
+    "english": "doner kebab",
+    "part of speech": "",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Krapfen",
+    "english": "doughnut",
+    "part of speech": "noun",
+    "plural and inflected": "die Krapfen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Getr\u00c3\u00a4nk",
+    "english": "drink",
+    "part of speech": "noun",
+    "plural and inflected": "die Getr\u00c3\u00a4nke",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Ei",
+    "english": "egg",
+    "part of speech": "noun",
+    "plural and inflected": "die Eier",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "Guten Appetit!",
+    "english": "enjoy your meal!",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Schnitzel",
+    "english": "escalope (veal/pork usually in breadcrumbs)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schnitzel",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Euro",
+    "english": "euro",
+    "part of speech": "noun",
+    "plural and inflected": "die Euros",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Fisch",
+    "english": "fish",
+    "part of speech": "noun",
+    "plural and inflected": "die Fische",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Essen",
+    "english": "food",
+    "part of speech": "noun",
+    "plural and inflected": "die Essen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Gabel",
+    "english": "fork",
+    "part of speech": "noun",
+    "plural and inflected": "die Gabeln",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Obst",
+    "english": "fruit",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Obsttorte",
+    "english": "fruit pie",
+    "part of speech": "noun",
+    "plural and inflected": "die Obsttorten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Fruchtsaft",
+    "english": "fruit juice (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Fruchts\u00c3\u00a4fte",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Obstsaft",
+    "english": "fruit juice (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Obsts\u00c3\u00a4fte",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "voll",
+    "english": "full (eaten too much)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "satt",
+    "english": "full (satisfied)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Glas",
+    "english": "glass, jar",
+    "part of speech": "noun",
+    "plural and inflected": "die Gl\u00c3\u00a4ser",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Grapefruit",
+    "english": "grapefruit (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Grapefruits",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Pampelmuse",
+    "english": "grapefruit (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Pampelmusen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Traube",
+    "english": "grape (table)",
+    "part of speech": "noun",
+    "plural and inflected": "die Trauben",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Weintraube",
+    "english": "grape (wine)",
+    "part of speech": "noun",
+    "plural and inflected": "die Weintrauben",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Hamburger",
+    "english": "hamburger",
+    "part of speech": "noun",
+    "plural and inflected": "die Hamburger",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Frikadelle",
+    "english": "hamburger, meatball",
+    "part of speech": "noun",
+    "plural and inflected": "die Frikadellen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die hei\u00c3\u0178e Schokolade",
+    "english": "hot chocolate",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Eis",
+    "english": "ice",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Eisdiele",
+    "english": "ice cream parlour",
+    "part of speech": "noun",
+    "plural and inflected": "die Eisdielen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Wirtshaus",
+    "english": "inn (more like a tavern)",
+    "part of speech": "noun",
+    "plural and inflected": "die Wirtsh\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Gasthaus",
+    "english": "inn (no accommodation)",
+    "part of speech": "noun",
+    "plural and inflected": "die Gasth\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Gasthof",
+    "english": "inn (with accommodation)",
+    "part of speech": "noun",
+    "plural and inflected": "die Gasth\u00c3\u00b6fe",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Marmelade",
+    "english": "jam",
+    "part of speech": "noun",
+    "plural and inflected": "die Marmeladen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Saft",
+    "english": "juice",
+    "part of speech": "noun",
+    "plural and inflected": "die S\u00c3\u00a4fte",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Kebab",
+    "english": "kebab",
+    "part of speech": "noun",
+    "plural and inflected": "die Kebabs",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das (oder der) Ketchup",
+    "english": "ketchup",
+    "part of speech": "noun",
+    "plural and inflected": "die Ketchups",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Messer",
+    "english": "knife",
+    "part of speech": "noun",
+    "plural and inflected": "die Messer",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Lammfleisch",
+    "english": "lamb",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Zitrone",
+    "english": "lemon",
+    "part of speech": "noun",
+    "plural and inflected": "die Zitronen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Salat",
+    "english": "lettuce, salad",
+    "part of speech": "noun",
+    "plural and inflected": "die Salate",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Leberwurst",
+    "english": "liver sausage",
+    "part of speech": "noun",
+    "plural and inflected": "die Leberw\u00c3\u00bcrste",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Mittagessen",
+    "english": "lunch",
+    "part of speech": "noun",
+    "plural and inflected": "die Mittagsessen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Hauptgericht",
+    "english": "main course",
+    "part of speech": "noun",
+    "plural and inflected": "die Hauptgerichte",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Margarine",
+    "english": "margarine",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Mahlzeit",
+    "english": "meal",
+    "part of speech": "noun",
+    "plural and inflected": "die Mahlzeiten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Fleisch",
+    "english": "meat",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Fleischb\u00c3\u00a4llchen",
+    "english": "meatball",
+    "part of speech": "noun",
+    "plural and inflected": "die Fleischb\u00c3\u00a4llchen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Melone",
+    "english": "melon",
+    "part of speech": "noun",
+    "plural and inflected": "die Melonen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Speisekarte",
+    "english": "menu",
+    "part of speech": "noun",
+    "plural and inflected": "die Speisekarten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Men\u00c3\u00bc",
+    "english": "meal, set meal (not a menu, but these can be put on a menu!)",
+    "part of speech": "noun",
+    "plural and inflected": "die Men\u00c3\u00bcs",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Milch",
+    "english": "milk",
+    "part of speech": "noun",
+    "plural and inflected": "die Milche",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Hackfleisch",
+    "english": "mince",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das (Mineral)wasser",
+    "english": "(mineral) water",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "gemischt",
+    "english": "mixed",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Geld",
+    "english": "money",
+    "part of speech": "noun",
+    "plural and inflected": "die Gelder",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Pilz",
+    "english": "mushroom",
+    "part of speech": "noun",
+    "plural and inflected": "die Pilze",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Senf",
+    "english": "mustard",
+    "part of speech": "noun",
+    "plural and inflected": "die Senfe",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Serviette",
+    "english": "napkin",
+    "part of speech": "noun",
+    "plural and inflected": "die Servietten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das \u00c3\u2013l",
+    "english": "oil",
+    "part of speech": "noun",
+    "plural and inflected": "die \u00c3\u2013le",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Omelett",
+    "english": "omelette",
+    "part of speech": "noun",
+    "plural and inflected": "die Omelette",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Zwiebel",
+    "english": "onion",
+    "part of speech": "noun",
+    "plural and inflected": "die Zwiebeln",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das belegtes Brot",
+    "english": "open sandwich",
+    "part of speech": "noun",
+    "plural and inflected": "die belegten Brote",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Apfelsine",
+    "english": "orange (north of Speyer line)",
+    "part of speech": "noun",
+    "plural and inflected": "die Apfelsinen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Orange",
+    "english": "orange (south of Speyer line)",
+    "part of speech": "noun",
+    "plural and inflected": "die Orangen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Packung",
+    "english": "packet",
+    "part of speech": "noun",
+    "plural and inflected": "die Packungen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Nudeln",
+    "english": "pasta, noodles",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Teigwaren",
+    "english": "pasta",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Geb\u00c3\u00a4ck",
+    "english": "pastries",
+    "part of speech": "noun",
+    "plural and inflected": "die Geb\u00c3\u00a4cke",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Erbse",
+    "english": "pea",
+    "part of speech": "noun",
+    "plural and inflected": "die Erbsen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Pfirsich",
+    "english": "peach",
+    "part of speech": "noun",
+    "plural and inflected": "die Pfirsiche",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Birne",
+    "english": "pear",
+    "part of speech": "noun",
+    "plural and inflected": "die Birnen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Pfeffer",
+    "english": "black pepper",
+    "part of speech": "noun",
+    "plural and inflected": "die Pfeffer",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Paprika",
+    "english": "pepper (vegetable)",
+    "part of speech": "noun",
+    "plural and inflected": "die Paprika",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Sauerkraut",
+    "english": "pickled cabbage, sauerkraut",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Butterbrot",
+    "english": "piece of bread with butter",
+    "part of speech": "noun",
+    "plural and inflected": "die Butterbrote",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Ananas",
+    "english": "pineapple",
+    "part of speech": "noun",
+    "plural and inflected": "die Ananas(se)",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Pizza",
+    "english": "pizza",
+    "part of speech": "noun",
+    "plural and inflected": "die Pizzas",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Pizzeria",
+    "english": "pizzeria, pizza restaurant",
+    "part of speech": "noun",
+    "plural and inflected": "die Pizzerias",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Platte",
+    "english": "plate, disc",
+    "part of speech": "noun",
+    "plural and inflected": "die Platten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Pflaume",
+    "english": "plum",
+    "part of speech": "noun",
+    "plural and inflected": "die Pflaumen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Schweinefleisch",
+    "english": "pork",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Portion",
+    "english": "portion",
+    "part of speech": "noun",
+    "plural and inflected": "die Portionen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Kanne",
+    "english": "pot",
+    "part of speech": "noun",
+    "plural and inflected": "die Kannen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das K\u00c3\u00a4nnchen",
+    "english": "pot (dim.)",
+    "part of speech": "noun",
+    "plural and inflected": "die K\u00c3\u00a4nnchen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Kartoffel",
+    "english": "potato",
+    "part of speech": "noun",
+    "plural and inflected": "die Kartoffeln",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Salzkartoffel",
+    "english": "potato (boiled)",
+    "part of speech": "noun",
+    "plural and inflected": "die Salzkartoffeln",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Rettich",
+    "english": "radish",
+    "part of speech": "noun",
+    "plural and inflected": "die Rettiche",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Himbeere",
+    "english": "raspberry",
+    "part of speech": "noun",
+    "plural and inflected": "die Himbeeren",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Fertiggericht",
+    "english": "ready meal",
+    "part of speech": "noun",
+    "plural and inflected": "die Fertiggerichten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Rotkohl",
+    "english": "red cabbage",
+    "part of speech": "noun",
+    "plural and inflected": "die Rotkohle",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Erfrischungen",
+    "english": "refreshments",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Ruhetag",
+    "english": "rest day, day off",
+    "part of speech": "noun",
+    "plural and inflected": "die Ruhetage",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Restaurant",
+    "english": "restaurant",
+    "part of speech": "noun",
+    "plural and inflected": "die Restaurants",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Reis",
+    "english": "rice",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Braten",
+    "english": "roast (meat)",
+    "part of speech": "noun",
+    "plural and inflected": "die Braten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Salatso\u00c3\u0178e",
+    "english": "salad dressing",
+    "part of speech": "noun",
+    "plural and inflected": "die Salatso\u00c3\u0178en",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Salz",
+    "english": "salt",
+    "part of speech": "noun",
+    "plural and inflected": "die Salze",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "gesalzen",
+    "english": "salty (1)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "salzig",
+    "english": "salty (2)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Sandwich",
+    "english": "sandwich",
+    "part of speech": "noun",
+    "plural and inflected": "die Sandwiche",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Wurst",
+    "english": "sausage",
+    "part of speech": "noun",
+    "plural and inflected": "die W\u00c3\u00bcrste",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Currywurst",
+    "english": "sausage (in curry sauce)",
+    "part of speech": "noun",
+    "plural and inflected": "die Curryw\u00c3\u00bcrste",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Selbstbedienung",
+    "english": "self-service",
+    "part of speech": "noun",
+    "plural and inflected": "die Selbstbedienungen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Bedienung",
+    "english": "service",
+    "part of speech": "noun",
+    "plural and inflected": "die Bedienungen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Eink\u00c3\u00a4ufe",
+    "english": "shopping",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Scheibe",
+    "english": "slice",
+    "part of speech": "noun",
+    "plural and inflected": "die Scheiben",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das St\u00c3\u00bcck",
+    "english": "slice, piece",
+    "part of speech": "noun",
+    "plural and inflected": "die St\u00c3\u00bccke",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Imbiss",
+    "english": "snack",
+    "part of speech": "noun",
+    "plural and inflected": "die Imbisse",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Imbissstube",
+    "english": "snack bar",
+    "part of speech": "noun",
+    "plural and inflected": "die Imbissstuben",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Imbissstand",
+    "english": "snack stand",
+    "part of speech": "noun",
+    "plural and inflected": "die Imbissst\u00c3\u00a4nde",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Suppe",
+    "english": "soup",
+    "part of speech": "noun",
+    "plural and inflected": "die Suppen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Spaghetti",
+    "english": "spaghetti",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Spezialit\u00c3\u00a4t",
+    "english": "speciality",
+    "part of speech": "noun",
+    "plural and inflected": "die Spezialit\u00c3\u00a4ten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der L\u00c3\u00b6ffel",
+    "english": "spoon",
+    "part of speech": "noun",
+    "plural and inflected": "die  L\u00c3\u00b6ffel",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Vorspeise",
+    "english": "starter",
+    "part of speech": "noun",
+    "plural and inflected": "die Vorspeisen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Steak",
+    "english": "steak",
+    "part of speech": "noun",
+    "plural and inflected": "die Steaks",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Erdbeere",
+    "english": "strawberry",
+    "part of speech": "noun",
+    "plural and inflected": "die Erdbeeren",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Zucker",
+    "english": "sugar",
+    "part of speech": "noun",
+    "plural and inflected": "die Zucker",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "s\u00c3\u00bc\u00c3\u0178",
+    "english": "sweet",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Tisch",
+    "english": "table",
+    "part of speech": "noun",
+    "plural and inflected": "die Tische",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Tischdecke",
+    "english": "tablecloth (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Tischdecken",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Tischtuch",
+    "english": "tablecloth (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Tischt\u00c3\u00bccher",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Torte",
+    "english": "tart",
+    "part of speech": "noun",
+    "plural and inflected": "die Torten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "lecker",
+    "english": "tasty",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Tee",
+    "english": "tea",
+    "part of speech": "noun",
+    "plural and inflected": "die Tees",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Teel\u00c3\u00b6ffel",
+    "english": "teaspoon",
+    "part of speech": "noun",
+    "plural and inflected": "die Teel\u00c3\u00b6ffel",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Trinkgeld",
+    "english": "tip (money)",
+    "part of speech": "noun",
+    "plural and inflected": "die Trinkgelder",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "fragen",
+    "english": "to ask",
+    "part of speech": "verb",
+    "plural and inflected": "fragte; hat gefragt",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "bitten",
+    "english": "to ask (for), to request",
+    "part of speech": "verb",
+    "plural and inflected": "bat; hat gebeten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "trinken",
+    "english": "to drink",
+    "part of speech": "verb",
+    "plural and inflected": "trank; hat getrunken",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "essen",
+    "english": "to eat",
+    "part of speech": "verb",
+    "plural and inflected": "a\u00c3\u0178; hat gegessen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "bestellen",
+    "english": "to order (sth.)",
+    "part of speech": "verb",
+    "plural and inflected": "bestellte; hat bestellt",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "bezahlen",
+    "english": "to pay",
+    "part of speech": "verb",
+    "plural and inflected": "bezahlte; hat bezahlt",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "bedienen",
+    "english": "to serve",
+    "part of speech": "verb",
+    "plural and inflected": "bediente; hat bedient",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Tomate",
+    "english": "tomato",
+    "part of speech": "noun",
+    "plural and inflected": "die Tomaten",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Thunfisch",
+    "english": "tuna",
+    "part of speech": "noun",
+    "plural and inflected": "die Thunfische",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Vanille",
+    "english": "vanilla",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Gem\u00c3\u00bcse",
+    "english": "vegetable",
+    "part of speech": "noun",
+    "plural and inflected": "die Gem\u00c3\u00bcse",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Vegetarier",
+    "english": "vegetarian (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Vegetarier",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Vegetarierin",
+    "english": "vegetarian (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Vegetarierinnen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "vegetarisch",
+    "english": "vegetarian (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Essig",
+    "english": "vinegar",
+    "part of speech": "noun",
+    "plural and inflected": "die Essige",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Kellner",
+    "english": "waiter",
+    "part of speech": "noun",
+    "plural and inflected": "die Kellner",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "die Kellnerin",
+    "english": "waitress",
+    "part of speech": "noun",
+    "plural and inflected": "die Kellnerinnen",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "das Wasser",
+    "english": "water",
+    "part of speech": "noun",
+    "plural and inflected": "no plural",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der Wein",
+    "english": "wine",
+    "part of speech": "noun",
+    "plural and inflected": "die Weine",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "der (oder das) Joghurt",
+    "english": "yoghurt",
+    "part of speech": "noun",
+    "plural and inflected": "die Joghurte",
+    "level": "GCSE_German_(Pearson_2022)::19_Daily_life,_food_and_drink_(F)"
+  },
+  {
+    "german": "appetitlich",
+    "english": "appetising",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Artischocke",
+    "english": "artichoke",
+    "part of speech": "noun",
+    "plural and inflected": "die Artischocken",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "das Bier vom Fass",
+    "english": "beer (draught)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "bitter",
+    "english": "bitter",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "das (hart) gekochte Ei",
+    "english": "(hard) boiled egg",
+    "part of speech": "noun",
+    "plural and inflected": "die gekochten Eier",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "gekocht",
+    "english": "cooked, boiled",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Zucchini",
+    "english": "courgette",
+    "part of speech": "noun",
+    "plural and inflected": "die Zucchinis",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Aperitif",
+    "english": "drink before meal",
+    "part of speech": "noun",
+    "plural and inflected": "die Aperitife",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Ente",
+    "english": "duck",
+    "part of speech": "noun",
+    "plural and inflected": "die Enten",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "das Spiegelei",
+    "english": "fried egg",
+    "part of speech": "noun",
+    "plural and inflected": "die Spiegeleier",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Fr\u00c3\u00bcchtetee",
+    "english": "fruit tea",
+    "part of speech": "noun",
+    "plural and inflected": "die Fr\u00c3\u00bcchtetees",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Vollmilch",
+    "english": "full-fat, whole milk",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Knoblauch",
+    "english": "garlic",
+    "part of speech": "noun",
+    "plural and inflected": "die Knoblauche",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Gans",
+    "english": "goose",
+    "part of speech": "noun",
+    "plural and inflected": "die G\u00c3\u00a4nse",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Kr\u00c3\u00a4utertee",
+    "english": "herbal tea",
+    "part of speech": "noun",
+    "plural and inflected": "die Kr\u00c3\u00a4utertees",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "hausgemacht",
+    "english": "home made",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Honig",
+    "english": "honey",
+    "part of speech": "noun",
+    "plural and inflected": "die Honige",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Lauch",
+    "english": "leek (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Lauche",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Porree",
+    "english": "leek (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Porrees",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "halb durch",
+    "english": "medium (steak)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Bio-Lebensmittel",
+    "english": "organic food",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Pistazie",
+    "english": "pistachio",
+    "part of speech": "noun",
+    "plural and inflected": "die Pistazien",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "blutig",
+    "english": "rare (steak)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "roh",
+    "english": "raw",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Lachs",
+    "english": "salmon",
+    "part of speech": "noun",
+    "plural and inflected": "die Lachse",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Untertasse",
+    "english": "saucer",
+    "part of speech": "noun",
+    "plural and inflected": "die Untertassen",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "das R\u00c3\u00bchrei",
+    "english": "scrambled egg",
+    "part of speech": "noun",
+    "plural and inflected": "die R\u00c3\u00bchreier",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Meeresfr\u00c3\u00bcchte",
+    "english": "sea food",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die teilentrahmte Milch",
+    "english": "skimmed milk (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die teilentrahmte Milchen",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die fettarme Milch",
+    "english": "skimmed milk (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die fettarme Milchen",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die entrahmte Milch",
+    "english": "semi-skimmed milk (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die entrahmten Milche",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Magermilch",
+    "english": "semi-skimmed milk (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Magermilch",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "ger\u00c3\u00a4uchert",
+    "english": "smoked",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "w\u00c3\u00bcrzig",
+    "english": "spicy (1)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "pikant",
+    "english": "spicy (2)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Spinat",
+    "english": "spinach",
+    "part of speech": "noun",
+    "plural and inflected": "die Spinate",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "ged\u00c3\u00a4mpft",
+    "english": "steamed (solely by steam)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "ged\u00c3\u00bcnstet",
+    "english": "steamed (cooked in its juices)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "das Tablett",
+    "english": "tray",
+    "part of speech": "noun",
+    "plural and inflected": "die Tabletts",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Forelle",
+    "english": "trout",
+    "part of speech": "noun",
+    "plural and inflected": "die Forellen",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "der Truthahn",
+    "english": "turkey (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Truth\u00c3\u00a4hne",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "die Pute",
+    "english": "turkey (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Puten",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "das Kalbfleisch",
+    "english": "veal",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  },
+  {
+    "german": "durch",
+    "english": "through, well done (steak)",
+    "part of speech": "adverb, adjective, preposition",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::20_Daily_life,_food_and_drink_(H)"
+  }
 ]
