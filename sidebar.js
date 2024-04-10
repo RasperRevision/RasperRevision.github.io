@@ -1,4 +1,4 @@
-var icon = document.createElement('div')
+var icon = document.createElement('div');
 var icon1 = document.createElement('div');
 var icon2 = document.createElement('div');
 var icon3 = document.createElement('div');
@@ -33,10 +33,9 @@ var ulElement = document.createElement("ul");
 ulElement.classList.add("list-group", "list-group-flush");
 
 var firstListItem = document.createElement("li");
-firstListItem.classList.add("mb-1");
 
 var buttonElement = document.createElement("button");
-buttonElement.classList.add("btn-toggle", "d-block", "w-100", "rounded", "border-0", "collapsed", "text-light", "list-group-item", "text-start");
+buttonElement.classList.add("btn-toggle", "d-block", "w-100", "border-0", "collapsed", "text-light", "list-group-item", "text-start");
 buttonElement.setAttribute("data-bs-toggle", "collapse");
 buttonElement.setAttribute("data-bs-target", "#activities-collapse");
 buttonElement.textContent = "Activities";
@@ -52,7 +51,8 @@ var innerListItems = [
   { text: "Home", href: "/" },
   { text: "Quiz", href: "/quiz/" },
   { text: "Matchup", href: "/matchup/" },
-  { text: "Fill in the blank", href: "/fill-in-the-blank/" }
+  { text: "Fill in the blank", href: "/fill-in-the-blank/" },
+  { text: "Equations", href: "/equations/?json=physics_equations.json" }
 ];
 
 innerListItems.forEach(function (item) {
@@ -66,10 +66,8 @@ innerListItems.forEach(function (item) {
 });
 
 collapseDiv.appendChild(innerUlElement);
-
 firstListItem.appendChild(buttonElement);
 firstListItem.appendChild(collapseDiv);
-
 ulElement.appendChild(firstListItem);
 
 var listItems = [

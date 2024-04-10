@@ -1,6 +1,11 @@
 [
   {
-    "equation": "w=mg",
+    "equations": [
+      "w=mg",
+      "w=gm",
+      "g=w÷m",
+      "m=w÷g"
+    ],
     "parts": [
       "weight",
       "mass",
@@ -8,7 +13,12 @@
     ]
   },
   {
-    "equation": "W=Fs",
+    "equations": [
+      "W=Fs",
+      "W=sF",
+      "s=W÷F",
+      "F=W÷s"
+    ],
     "parts": [
       "work done",
       "force",
@@ -16,7 +26,12 @@
     ]
   },
   {
-    "equation": "F=ke",
+    "equations": [
+      "F=ke",
+      "F=ek",
+      "e=F÷k",
+      "k=F÷e"
+    ],
     "parts": [
       "force applied to a spring",
       "spring constant",
@@ -24,7 +39,12 @@
     ]
   },
   {
-    "equation": "M=Fd",
+    "equations": [
+      "M=Fd",
+      "M=dF",
+      "d=M÷F",
+      "F=M÷d"
+    ],
     "parts": [
       "moment of the force",
       "force",
@@ -32,7 +52,12 @@
     ]
   },
   {
-    "equation": "P=F÷A",
+    "equations": [
+      "P=F÷A",
+      "F=PA",
+      "F=AP",
+      "A=F÷P"
+    ],
     "parts": [
       "pressure",
       "force",
@@ -40,7 +65,12 @@
     ]
   },
   {
-    "equation": "s=vt",
+    "equations": [
+      "s=vt",
+      "s=tv",
+      "t=s÷v",
+      "v=s÷t"
+    ],
     "parts": [
       "displacement",
       "speed",
@@ -48,7 +78,12 @@
     ]
   },
   {
-    "equation": "a=∆v÷t",
+    "equations": [
+      "a=∆v÷t",
+      "∆v=ta",
+      "∆v=at",
+      "t=∆v÷a"
+    ],
     "parts": [
       "acceleration",
       "change in velocity",
@@ -56,7 +91,12 @@
     ]
   },
   {
-    "equation": "F=ma",
+    "equations": [
+      "F=ma",
+      "F=am",
+      "a=F÷m",
+      "m=F÷a"
+    ],
     "parts": [
       "resultant force",
       "mass",
@@ -64,7 +104,12 @@
     ]
   },
   {
-    "equation": "p=mv",
+    "equations": [
+      "p=mv",
+      "p=vm",
+      "m=p÷v",
+      "v=p÷m"
+    ],
     "parts": [
       "momentum",
       "mass",
@@ -72,7 +117,14 @@
     ]
   },
   {
-    "equation": "Eₖ=½mv²",
+    "equations": [
+      "Eₖ=½mv²",
+      "Eₖ=½v²m",
+      "Eₖ=m½v²",
+      "Eₖ=mv²½",
+      "Eₖ=v²m½",
+      "Eₖ=v²½m"
+    ],
     "parts": [
       "kinetic energy",
       "mass",
@@ -80,7 +132,14 @@
     ]
   },
   {
-    "equation": "Eₚ=mgh",
+    "equations": [
+      "Eₚ=mgh",
+      "Eₚ=mhg",
+      "Eₚ=hgm",
+      "Eₚ=hmg",
+      "Eₚ=ghm",
+      "Eₚ=gmh"
+    ],
     "parts": [
       "gravitational potential energy",
       "mass",
@@ -89,7 +148,12 @@
     ]
   },
   {
-    "equation": "P=E÷t",
+    "equations": [
+      "P=E÷t",
+      "E=Pt",
+      "E=tP",
+      "t=E÷P"
+    ],
     "parts": [
       "power",
       "energy",
@@ -97,7 +161,12 @@
     ]
   },
   {
-    "equation": "P=W÷t",
+    "equations": [
+      "P=W÷t",
+      "W=Pt",
+      "W=tP",
+      "t=W÷P"
+    ],
     "parts": [
       "power",
       "work done",
@@ -105,7 +174,12 @@
     ]
   },
   {
-    "equation": "v=fλ",
+    "equations": [
+      "v=fλ",
+      "v=λf",
+      "λ=v÷f",
+      "f=v÷λ"
+    ],
     "parts": [
       "wave speed",
       "frequency",
@@ -113,7 +187,12 @@
     ]
   },
   {
-    "equation": "Q=It",
+    "equations": [
+      "Q=It",
+      "I=Q÷t",
+      "t=Q÷I",
+      "Q=tI"
+    ],
     "parts": [
       "charge flow",
       "current",
@@ -121,7 +200,12 @@
     ]
   },
   {
-    "equation": "V=IR",
+    "equations": [
+      "V=IR",
+      "V=RI",
+      "R=V÷I",
+      "I=V÷R"
+    ],
     "parts": [
       "potential difference",
       "current",
@@ -129,7 +213,12 @@
     ]
   },
   {
-    "equation": "P=IV",
+    "equations": [
+      "P=IV",
+      "P=VI",
+      "V=P÷I",
+      "I=P÷V"
+    ],
     "parts": [
       "power",
       "potential difference",
@@ -137,7 +226,11 @@
     ]
   },
   {
-    "equation": "P=I²R",
+    "equations": [
+      "P=I²R",
+      "P=RI²",
+      "R=P÷I²"
+    ],
     "parts": [
       "power",
       "current",
@@ -145,15 +238,12 @@
     ]
   },
   {
-    "equation": "E=Pt",
-    "parts": [
-      "energy",
-      "power",
-      "time"
-    ]
-  },
-  {
-    "equation": "E=QV",
+    "equations": [
+      "E=QV",
+      "E=VQ",
+      "Q=E÷V",
+      "V=E÷Q"
+    ],
     "parts": [
       "energy",
       "charge",
@@ -161,7 +251,12 @@
     ]
   },
   {
-    "equation": "ρ=m÷v",
+    "equations": [
+      "ρ=m÷v",
+      "m=vρ",
+      "m=ρv",
+      "v=m÷ρ"
+    ],
     "parts": [
       "density",
       "mass",
