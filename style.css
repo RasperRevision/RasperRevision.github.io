@@ -96,6 +96,14 @@ body {
   text-shadow: black 2px 2px 10px;
 }
 
+.correct_opt {
+  background: green !important;
+}
+
+.incorrect_opt {
+  background: red !important;
+}
+
 .term {
   border: rgb(55, 64, 68) !important;
   border-width: 5px !important;
