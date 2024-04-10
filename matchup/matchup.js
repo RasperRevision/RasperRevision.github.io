@@ -53,7 +53,7 @@ function loadJSON(callback) {
     return;
   }
 
-  var jsonUrl = '/subjects/Music/' + jsonFile;
+  var jsonUrl = jsonFile + '.json';
 
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
@@ -64,7 +64,7 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
-function script(subject, topic) {
+function script() {
   let sym_found = false;
   let mean_found = false;
   let data;
@@ -114,7 +114,7 @@ function script(subject, topic) {
         const sym = document.createElement('button');
         const sym_img = document.createElement('img');
         const sym_text = item.symbol;
-        sym_img.src = '/subjects/' + subject + '/imgs/' + item.symbol;
+        sym_img.src = 'imgs/' + item.symbol;
         sym_img.style.height = '60px';
         sym.appendChild(sym_img);
         sym.classList.add('btn');
@@ -126,7 +126,7 @@ function script(subject, topic) {
           if (mean_found && sym_text == symbol) {
             while (container.firstChild) { container.removeChild(container.firstChild); }
             omit.push(randomIndex);
-            script(subject, topic);
+            script();
           } else if (sym_text == symbol) { sym_found = true; }
         })
 
@@ -148,17 +148,20 @@ function script(subject, topic) {
 
 
       mean.addEventListener('click', function () {
+        container.childNodes.forEach(function (child) {
+          child.classList.remove("btn-info");
+        });
         mean.classList.add("btn-info");
         if (sym_found && mean.innerHTML == meaning) {
           while (container.firstChild) { container.removeChild(container.firstChild); }
           omit.push(randomIndex);
-          script(subject, topic);
+          script();
         } else if (mean.innerHTML == meaning) {
           mean_found = true;
           if (item.symbol == null) {
             while (container.firstChild) { container.removeChild(container.firstChild); }
             omit.push(randomIndex);
-            script(subject, topic);
+            script();
           }
         }
       })
@@ -177,6 +180,6 @@ if (jsonFileName != null) {
     }
   });
 
-  script("Music", jsonFileName.replace('.json', ''));
+  script();
   startStopwatch();
 }

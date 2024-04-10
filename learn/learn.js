@@ -34,7 +34,9 @@ function showMainContent(json) {
     const anchorLink = document.createElement('a');
     anchorLink.textContent = page.title;
     anchorLink.href = '#' + page.title.toLowerCase().replace(/\s+/g, '-');
-    anchorLink.classList.add('nav-link');
+    anchorLink.classList.add('link-light');
+    anchorLink.classList.add('d-block');
+    anchorLink.classList.add('m-1');
     navbar.appendChild(anchorLink);
 
     const section = document.createElement('section');
