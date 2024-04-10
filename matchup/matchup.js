@@ -10,91 +10,24 @@ let s = 0;
 let m = 0;
 let formattedTime;
 
-// Grid parameters
-const gridSize = 100;
-const gridMargin = 200; // Margin around the grid
-let grid;
+function startStopwatch() { timer = setInterval(updateStopwatch, 1000); }
 
-// Initialize the grid
-function initializeGrid() {
-  const numCols = Math.ceil((window.innerWidth - 2 * gridMargin) / gridSize);
-  const numRows = Math.ceil((window.innerHeight - 2 * gridMargin) / gridSize);
-
-  grid = Array.from({ length: numRows }, () => Array.from({ length: numCols }, () => []));
-}
-
-// Place an element in the grid
-function placeElementInGrid(elem, gridX, gridY) {
-  grid[gridY][gridX].push(elem);
-}
-
-// Check if the position is valid in terms of grid cells
-function isPositionValidInGrid(gridX, gridY) {
-  const neighbors = getNeighbors(gridX, gridY);
-
-  for (const neighbor of neighbors) {
-    if (grid[neighbor.y] && grid[neighbor.y][neighbor.x].length > 0) {
-      return false;
-    }
-  }
-
-  return true;
-}
-
-// Get neighboring grid cells
-function getNeighbors(gridX, gridY) {
-  const neighbors = [];
-
-  for (let y = gridY - 1; y <= gridY + 1; y++) {
-    for (let x = gridX - 1; x <= gridX + 1; x++) {
-      if (x >= 0 && y >= 0 && x < grid[0].length && y < grid.length) {
-        neighbors.push({ x, y });
-      }
-    }
-  }
-
-  return neighbors;
-}
-
-// Get random position within the window
-function getRandomGridPosition() {
-  const gridX = Math.floor(Math.random() * grid[0].length);
-  const gridY = Math.floor(Math.random() * grid.length);
-  return { gridX, gridY };
-}
-
-// Place element randomly in grid cells
-function placeElementRandomly(elem) {
-  let position;
-  do {
-    position = getRandomGridPosition();
-  } while (!isPositionValidInGrid(position.gridX, position.gridY));
-
-  placeElementInGrid(elem, position.gridX, position.gridY);
-  elem.style.left = (position.gridX * gridSize + gridMargin) + 'px';
-  elem.style.top = (position.gridY * gridSize + gridMargin) + 'px';
-}
-
-// Start the stopwatch
-function startStopwatch() {
-  timer = setInterval(function () {
-    s++;
-    if (s === 60) {
-      s = 0;
-      m++;
-    }
-    formattedTime = pad(m) + ':' + pad(s);
-    stopwatch.innerHTML = formattedTime;
-  }, 1000);
-}
-
-// Stop the stopwatch
 function stopStopwatch() { clearInterval(timer); }
 
-// Pad a value with leading zeros if necessary
+function updateStopwatch() {
+  s++;
+
+  if (s === 60) {
+    s = 0;
+    m++;
+  }
+
+  formattedTime = pad(m) + ':' + pad(s);
+  stopwatch.innerHTML = formattedTime;
+}
+
 function pad(value) { return value < 10 ? '0' + value : value; }
 
-// Get a query parameter from the URL
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
@@ -104,7 +37,6 @@ function getParameterByName(name, url) {
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-// Shuffle an array
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -113,7 +45,6 @@ function shuffle(array) {
   return array;
 }
 
-// Load JSON data
 function loadJSON(callback) {
   var jsonFile = getParameterByName('json');
 
@@ -133,7 +64,6 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
-// Main script
 function script() {
   let sym_found = false;
   let mean_found = false;
@@ -146,7 +76,6 @@ function script() {
       omit.sort(function (a, b) { return b - a; });
       omit.forEach(item => { data.splice(item, 1); })
     } else {
-      // end of game
       container.style.display = 'none';
       stopStopwatch();
       term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
@@ -182,49 +111,52 @@ function script() {
 
     data.forEach(item => {
       if (item.symbol != null) {
-        const element_symbol = document.createElement('button');
-        const symbol_img = document.createElement('img');
-        const symbol_text = item.symbol;
-        symbol_img.src = 'imgs/' + item.symbol;
-        symbol_img.style.height = '60px';
-        element_symbol.appendChild(symbol_img);
-        element_symbol.classList.add('btn');
+        const sym = document.createElement('button');
+        const sym_img = document.createElement('img');
+        const sym_text = item.symbol;
+        sym_img.src = 'imgs/' + item.symbol;
+        sym_img.style.height = '60px';
+        sym.appendChild(sym_img);
+        sym.classList.add('btn');
 
-        element_symbol.style.position = 'absolute';
-        element_symbol.addEventListener('click', function () {
-          if (mean_found && symbol_text == symbol) {
+        sym.style.position = 'absolute';
+        sym.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
+        sym.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
+        sym.addEventListener('click', function () {
+          if (mean_found && sym_text == symbol) {
             while (container.firstChild) { container.removeChild(container.firstChild); }
             omit.push(randomIndex);
             script();
-          } else if (symbol_text == symbol) { sym_found = true; }
-        });
-        placeElementRandomly(element_symbol);
-        container.appendChild(element_symbol);
+          } else if (sym_text == symbol) { sym_found = true; }
+        })
 
-        document.querySelector('.elements').appendChild(element_symbol);
+        document.querySelector('.elements').appendChild(sym);
       }
 
-      const element_definition = document.createElement('button');
+      const mean = document.createElement('button');
 
-      element_definition.textContent = item.meaning;
-      element_definition.classList.add('text-white');
-      element_definition.classList.add('btn');
-      element_definition.classList.add('text-light');
+      mean.textContent = item.meaning;
+      mean.classList.add('text-white');
+      mean.classList.add('btn');
+      mean.classList.add('text-light');
 
-      element_definition.style.position = 'absolute';
-      element_definition.style.fontSize = '20px';
-      element_definition.style.textShadow = '1px 1px 10px black';
+      mean.style.position = 'absolute';
+      mean.style.fontSize = '20px';
+      mean.style.textShadow = '1px 1px 10px black';
+      mean.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
+      mean.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
 
-      element_definition.addEventListener('click', function () {
+
+      mean.addEventListener('click', function () {
         container.childNodes.forEach(function (child) {
           child.classList.remove("btn-info");
         });
-        element_definition.classList.add("btn-info");
-        if (sym_found && element_definition.innerHTML == meaning) {
+        mean.classList.add("btn-info");
+        if (sym_found && mean.innerHTML == meaning) {
           while (container.firstChild) { container.removeChild(container.firstChild); }
           omit.push(randomIndex);
           script();
-        } else if (element_definition.innerHTML == meaning) {
+        } else if (mean.innerHTML == meaning) {
           mean_found = true;
           if (item.symbol == null) {
             while (container.firstChild) { container.removeChild(container.firstChild); }
@@ -232,14 +164,13 @@ function script() {
             script();
           }
         }
-      });
-      placeElementRandomly(element_definition);
-      container.appendChild(element_definition);
+      })
+      document.querySelector('.elements').appendChild(mean);
     });
   });
 }
 
-// Check if JSON file parameter is provided in the URL
+
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
@@ -249,7 +180,6 @@ if (jsonFileName != null) {
     }
   });
 
-  initializeGrid(); // Initialize the grid
-  script(); // Run the script
-  startStopwatch(); // Start the stopwatch
+  script();
+  startStopwatch();
 }
