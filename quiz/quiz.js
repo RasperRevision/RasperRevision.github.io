@@ -140,18 +140,18 @@ function waitForButton(item, callback) {
   const handleClick = (event) => {
     if (event.target.innerHTML === item.meaning) {
       answerFound = true;
-      event.target.classList.add('correct');
+      event.target.classList.add('correct_opt');
       setTimeout(function () {
         callback(event);
         cleanup();
-        event.target.classList.remove('correct');
+        event.target.classList.remove('correct_opt');
         answerFound = false;
       }, 1000);
     } else {
       if (!answerFound) {
-      event.target.classList.add('incorrect');
+      event.target.classList.add('incorrect_opt');
         setTimeout(function () {
-          event.target.classList.remove('incorrect');
+          event.target.classList.remove('incorrect_opt');
           answerFound = false;
         }, 1000);
       }
