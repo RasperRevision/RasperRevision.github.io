@@ -151,7 +151,7 @@ function waitForButton(item, callback) {
       if (!answerFound) {
       event.target.style.background = 'red';
         setTimeout(function () {
-        event.target.style.background = 'rgb(39, 45, 53)';
+          event.target.style.background = 'rgb(39, 45, 53)';
           answerFound = false;
         }, 1000);
       }
