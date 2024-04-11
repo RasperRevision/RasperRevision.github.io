@@ -61,6 +61,10 @@
         <button class="topic home_btn danger">Macbeth quotes</button>
         <button class="topic home_btn warning">A Christmas Carol quotes</button>
       </div>
+      
+      <div class="biology-topics home_btn_row invis" style="padding: 50px;">
+        <button class="topic home_btn lime">B1: Cell biology</button>
+      </div>
 
       <div class="german-topics invis h-100">
         <button class="scroll-right"> > </button>
@@ -127,6 +131,7 @@
           <button class="subject home_btn purple">Music</button>
           <button class="subject home_btn warning">German</button>
           <button class="subject home_btn lime">Physics</button>
+          <button class="subject home_btn info">Biology</button>
         </div>
       </div>
     </div>
@@ -149,6 +154,7 @@
       const history_topic_parent = document.querySelector('.history-topics');
       const physics_topic_parent = document.querySelector('.physics-topics');
       const chemistry_topic_parent = document.querySelector('.chemistry-topics');
+      const biology_topic_parent = document.querySelector('.biology-topics');
 
       const game_parent = document.querySelector('.games');
 
@@ -202,6 +208,8 @@
             physics_topic_parent.classList.remove('invis');
           } else if (subject_chosen == "Chemistry") {
             chemistry_topic_parent.classList.remove('invis');
+          } else if (subject_chosen == "Biology") {
+            biology_topic_parent.classList.remove('invis');
           }
         });
       });
@@ -311,6 +319,13 @@
               matchup_game.classList.add('invis');
               blank_game.classList.add('invis');
               topic_chosen = "c2";
+            }
+          } else if (subject_chosen == "Biology") {
+            biology_topic_parent.classList.add('invis');
+            if (topic_chosen == "B1: Cell biology") {
+              matchup_game.classList.add('invis');
+              blank_game.classList.add('invis');
+              topic_chosen = "b1";
             }
           }
         });
