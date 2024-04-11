@@ -305,1266 +305,1259 @@
     "english": "Easter",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Ostermontag",
     "english": "Easter Monday",
     "part of speech": "noun",
     "plural and inflected": "die Ostermontage",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Unterhaltung",
     "english": "entertainment",
     "part of speech": "noun",
     "plural and inflected": "die Unterhaltungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Ausr\u00c3\u00bcstung",
+    "german": "die Ausrüstung",
     "english": "equipment",
     "part of speech": "noun",
-    "plural and inflected": "die Ausr\u00c3\u00bcstungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Ausrüstungen",
+    "level": "Cultural_life"
   },
   {
     "german": "der Extremsport",
     "english": "extreme sports",
     "part of speech": "noun",
     "plural and inflected": "die Extremsporte",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Fan",
     "english": "fan",
     "part of speech": "noun",
     "plural and inflected": "die Fans",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Fantasyfilm",
     "english": "fantasy film",
     "part of speech": "noun",
     "plural and inflected": "die Fantasyfilme",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Fl\u00c3\u00b6te",
+    "german": "die Flöte",
     "english": "flute",
     "part of speech": "noun",
-    "plural and inflected": "die Fl\u00c3\u00b6ten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Flöten",
+    "level": "Cultural_life"
   },
   {
     "german": "die Volksmusik",
     "english": "folk music",
     "part of speech": "noun",
-    "plural and inflected": "no plural",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "",
+    "level": "Cultural_life"
   },
   {
-    "german": "der Fu\u00c3\u0178ball",
+    "german": "der Fußball",
     "english": "football",
     "part of speech": "noun",
-    "plural and inflected": "die Fu\u00c3\u0178b\u00c3\u00a4lle",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Fußbälle",
+    "level": "Cultural_life"
   },
   {
     "german": "die Freizeit",
     "english": "free time",
     "part of speech": "noun",
     "plural and inflected": "die Freizeiten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Freizeitbesch\u00c3\u00a4ftigung",
+    "german": "die Freizeitbeschäftigung",
     "english": "free time activity",
     "part of speech": "noun",
-    "plural and inflected": "die Freizeitbesch\u00c3\u00a4ftigungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Freizeitbeschäftigungen",
+    "level": "Cultural_life"
   },
   {
     "german": "das Spiel",
     "english": "game",
     "part of speech": "noun",
     "plural and inflected": "die Spiele",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Spielkonsole",
     "english": "games console",
     "part of speech": "noun",
     "plural and inflected": "die Spielkonsolen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "das Tor (schie\u00c3\u0178en)",
-    "english": "(to score the) goal",
-    "part of speech": "noun",
-    "plural and inflected": "die Tore",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "german": "ein Tor schießen",
+    "english": "to score a goal",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "Cultural_life"
   },
   {
     "german": "der Karfreitag",
     "english": "Good Friday",
     "part of speech": "noun",
     "plural and inflected": "die Karfreitage",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Gitarre",
     "english": "guitar",
     "part of speech": "noun",
     "plural and inflected": "die Gitarren",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Turnen",
-    "english": "gymnastics (old fashioned term for sports in general)",
+    "english": "gymnastics",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Gymnastik",
-    "english": "gymnastics (modern term)",
+    "english": "gymnastics",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Halle",
     "english": "hall",
     "part of speech": "noun",
     "plural and inflected": "die Hallen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Handball",
     "english": "handball",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "herzlichen Gl\u00c3\u00bcckwunsch zum Geburtstag!",
+    "german": "herzlichen Glückwunsch zum Geburtstag!",
     "english": "happy birthday!",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "Frohes Neues Jahr!",
-    "english": "happy new year! (1)",
+    "english": "happy new year!",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "Prosit Neujahr!",
-    "english": "happy new year! (2)",
+    "english": "happy new year!",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "Guten Rutsch!",
-    "english": "happy new year! (referring to the transition)",
+    "english": "happy new year! (referring to the transition into the new year)",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Hobby",
     "english": "hobby",
     "part of speech": "noun",
     "plural and inflected": "die Hobbys",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Hockey",
     "english": "hockey",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Horrorfilm",
     "english": "horror film",
     "part of speech": "noun",
     "plural and inflected": "die Horrorfilme",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "reiten",
-    "english": "to ride (a horse)",
+    "english": "to ride",
     "part of speech": "verb",
     "plural and inflected": "ritt; ist/hat geritten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Schlittschuhlaufen",
     "english": "ice skating",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Judo",
     "english": "judo",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Karate",
     "english": "karate",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Tastatur",
     "english": "(computer) keyboard",
     "part of speech": "noun",
     "plural and inflected": "die Tastaturen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Keyboard",
-    "english": "(piano) keyboard",
+    "english": "keyboard (instrument)",
     "part of speech": "noun",
     "plural and inflected": "die Keyboards",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Fastenzeit",
     "english": "Lent",
     "part of speech": "noun",
     "plural and inflected": "die Fastenzeiten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Leben",
     "english": "life",
     "part of speech": "noun",
     "plural and inflected": "die Leben",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Zeitschrift",
     "english": "magazine",
     "part of speech": "noun",
     "plural and inflected": "die Zeitschriften",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Ehe",
     "english": "marriage",
     "part of speech": "noun",
     "plural and inflected": "die Ehen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die (asiatische) Kampfsportarten",
     "english": "martial arts",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "mittelgro\u00c3\u0178",
+    "german": "mittelgroß",
     "english": "medium (size)",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Handy",
     "english": "mobile phone",
     "part of speech": "noun",
     "plural and inflected": "die Handys",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Muttertag",
     "english": "mother's day",
     "part of speech": "noun",
     "plural and inflected": "die Muttertage",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Mountainbike",
     "english": "mountain bike",
     "part of speech": "noun",
     "plural and inflected": "die Mountainbikes",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Bergsteigen",
     "english": "mountaineering",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die MP3-Datei",
     "english": "MP3 file",
     "part of speech": "noun",
     "plural and inflected": "die MP3-Dateien",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Musik",
     "english": "music",
     "part of speech": "noun",
     "plural and inflected": "die Musiken",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Neujahr",
     "english": "New Year",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Silvester",
     "english": "New Year's Eve",
     "part of speech": "noun",
-    "plural and inflected": "die Sylvester",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Silvester",
+    "level": "Cultural_life"
   },
   {
     "german": "die Nachricht",
     "english": "news",
     "part of speech": "noun",
     "plural and inflected": "die Nachrichten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Nachtklub",
-    "english": "nightclub (1)",
+    "english": "nightclub",
     "part of speech": "noun",
     "plural and inflected": "die Nachtklubs",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Nachtlokal",
-    "english": "nightclub (2)",
+    "english": "nightclub",
     "part of speech": "noun",
     "plural and inflected": "die Nachtlokale",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Orchester",
     "english": "orchestra",
     "part of speech": "noun",
     "plural and inflected": "die Orchester",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Fallschirmspringen",
     "english": "parachuting",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Gleitschirmfliegen",
     "english": "paragliding",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Party",
     "english": "party",
     "part of speech": "noun",
     "plural and inflected": "die Partys",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Auff\u00c3\u00bchrung",
+    "german": "die Aufführung",
     "english": "performance",
     "part of speech": "noun",
-    "plural and inflected": "die Auff\u00c3\u00bchrungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Aufführungen",
+    "level": "Cultural_life"
   },
   {
     "german": "die Vorstellung",
     "english": "performance, introduction",
     "part of speech": "noun",
     "plural and inflected": "die Vorstellungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Klavier",
     "english": "piano",
     "part of speech": "noun",
     "plural and inflected": "die Klaviere",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Schauspiel",
-    "english": "play (1)",
+    "english": "play",
     "part of speech": "noun",
     "plural and inflected": "die Schauspiele",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "das Theaterst\u00c3\u00bcck",
-    "english": "play (2)",
+    "german": "das Theaterstück",
+    "english": "play",
     "part of speech": "noun",
-    "plural and inflected": "die Theaterst\u00c3\u00bccke",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Theaterstücke",
+    "level": "Cultural_life"
   },
   {
     "german": "der Spieler",
     "english": "player",
     "part of speech": "noun",
     "plural and inflected": "die Spieler",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "das Vergn\u00c3\u00bcgen",
+    "german": "das Vergnügen",
     "english": "pleasure",
     "part of speech": "noun",
-    "plural and inflected": "die Vergn\u00c3\u00bcgen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Vergnügen",
+    "level": "Cultural_life"
   },
   {
     "german": "das Taschengeld",
     "english": "pocket money",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Popmusik",
     "english": "pop music",
     "part of speech": "noun",
     "plural and inflected": "die Popmusiken",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Postleitzahl",
     "english": "postcode",
     "part of speech": "noun",
     "plural and inflected": "die Postleitzahlen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Sendung",
     "english": "programme (TV)",
     "part of speech": "noun",
     "plural and inflected": "die Sendungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Quizsendung",
     "english": "quiz show",
     "part of speech": "noun",
     "plural and inflected": "die Quizsendungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das (Pferd)rennen",
     "english": "(horse) racing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Rap",
     "english": "rap",
     "part of speech": "noun",
     "plural and inflected": "die Raps",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Rapmusik",
     "english": "rap music",
     "part of speech": "noun",
     "plural and inflected": "die Rapmusiken",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Lesen",
     "english": "reading",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Blockfl\u00c3\u00b6te",
+    "german": "die Blockflöte",
     "english": "recorder",
     "part of speech": "noun",
-    "plural and inflected": "die Blockfl\u00c3\u00b6ten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Blockflöten",
+    "level": "Cultural_life"
   },
   {
     "german": "der Schiedsrichter",
     "english": "referee",
     "part of speech": "noun",
     "plural and inflected": "die Schiedsrichter",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Rockmusik",
     "english": "rock music",
     "part of speech": "noun",
     "plural and inflected": "die Rockmusiken",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Inlineskaten",
     "english": "rollerblading",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "romantisch",
     "english": "romantic",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Liebesfilm",
     "english": "romantic film",
     "part of speech": "noun",
     "plural and inflected": "die Liebesfilme",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Rugby",
     "english": "rugby",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Segeln",
     "english": "sailing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Saxofon",
     "english": "saxophone",
     "part of speech": "noun",
     "plural and inflected": "die Saxofone",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Science-Fiction-Film",
     "english": "science fiction film",
     "part of speech": "noun",
     "plural and inflected": "die Science-Fiction-Filme",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Serie",
     "english": "series",
     "part of speech": "noun",
     "plural and inflected": "die Serien",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Schau",
     "english": "show, exhibition",
     "part of speech": "noun",
     "plural and inflected": "die Schauen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Show",
     "english": "show, glitz",
     "part of speech": "noun",
     "plural and inflected": "die Shows",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "der S\u00c3\u00a4nger",
+    "german": "der Sänger",
     "english": "singer (m)",
     "part of speech": "noun",
-    "plural and inflected": "die S\u00c3\u00a4nger",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Sänger",
+    "level": "Cultural_life"
   },
   {
-    "german": "die S\u00c3\u00a4ngerin",
+    "german": "die Sängerin",
     "english": "singer (f)",
     "part of speech": "noun",
-    "plural and inflected": "die S\u00c3\u00a4ngerinnen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Sängerinnen",
+    "level": "Cultural_life"
   },
   {
     "german": "das Skateboarden",
     "english": "skateboarding",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Skifahren",
     "english": "skiing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Seifenoper",
     "english": "soap opera",
     "part of speech": "noun",
     "plural and inflected": "die Seifenopern",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Lied",
     "english": "song",
     "part of speech": "noun",
     "plural and inflected": "die Lieder",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Sport",
     "english": "sport",
     "part of speech": "noun",
     "plural and inflected": "die Sporte",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Sportplatz",
     "english": "sports ground",
     "part of speech": "noun",
-    "plural and inflected": "die Sportpl\u00c3\u00a4tze",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Sportplätze",
+    "level": "Cultural_life"
   },
   {
     "german": "sportlich",
     "english": "sporty",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Agentenroman",
-    "english": "spy novel (1)",
+    "english": "spy novel",
     "part of speech": "noun",
     "plural and inflected": "die Agentenromane",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Spionageroman",
-    "english": "spy novel (2)",
+    "english": "spy novel",
     "part of speech": "noun",
     "plural and inflected": "die Spionageromane",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Squash",
     "english": "squash",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die B\u00c3\u00bchne",
+    "german": "die Bühne",
     "english": "stage",
     "part of speech": "noun",
-    "plural and inflected": "die B\u00c3\u00bchnen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Bühnen",
+    "level": "Cultural_life"
   },
   {
     "german": "glatt",
     "english": "straight (hair)",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Surfen",
     "english": "surfing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Schwimmen",
     "english": "swimming",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Tischtennis",
     "english": "table tennis",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die T\u00c3\u00a4towierung",
+    "german": "die Tätowierung",
     "english": "tattoo",
     "part of speech": "noun",
-    "plural and inflected": "die T\u00c3\u00a4towierungen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Tätowierungen",
+    "level": "Cultural_life"
   },
   {
     "german": "die Mannschaft",
     "english": "team",
     "part of speech": "noun",
     "plural and inflected": "die Mannschaften",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Tennis",
     "english": "tennis",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "d\u00c3\u00bcnn",
+    "german": "dünn",
     "english": "thin",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "(mit dem Hund) spazieren gehen",
     "english": "to go on a walk (with the dog)",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Spielzeug",
     "english": "toy",
     "part of speech": "noun",
     "plural and inflected": "die Spielzeuge",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Jogginganzug",
-    "english": "tracksuit (1)",
+    "english": "tracksuit",
     "part of speech": "noun",
-    "plural and inflected": "die Jogginganz\u00c3\u00bcge",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Jogginganzüge",
+    "level": "Cultural_life"
   },
   {
     "german": "der Trainingsanzug",
-    "english": "tracksuit (2)",
+    "english": "tracksuit",
     "part of speech": "noun",
-    "plural and inflected": "die Trainingsanz\u00c3\u00bcge",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Trainingsanzüge",
+    "level": "Cultural_life"
   },
   {
     "german": "das Trampolinspringen",
     "english": "trampolining",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Trompete",
     "english": "trumpet",
     "part of speech": "noun",
     "plural and inflected": "die Trompeten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Fernsehkanal",
     "english": "TV channel",
     "part of speech": "noun",
-    "plural and inflected": "die Fernsehkan\u00c3\u00a4le",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "plural and inflected": "die Fernsehkanäle",
+    "level": "Cultural_life"
   },
   {
     "german": "der (Fernseh)sender",
     "english": "TV station",
     "part of speech": "noun",
     "plural and inflected": "die (Fernseh)sender",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "der Dreik\u00c3\u00b6nigsfest",
+    "german": "der Dreikönigsfest",
     "english": "twelfth night, Epiphany",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Geige",
     "english": "violin",
     "part of speech": "noun",
     "plural and inflected": "die Geigen",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Volleyball",
     "english": "volleyball",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Wasserski",
     "english": "waterskiing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Hochzeit",
     "english": "wedding",
     "part of speech": "noun",
     "plural and inflected": "die Hochzeiten",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Ehering",
     "english": "wedding ring",
     "part of speech": "noun",
     "plural and inflected": "die Eheringe",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Western(film)",
     "english": "western (film)",
     "part of speech": "noun",
     "plural and inflected": "die Western(filme)",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Windsurfen",
     "english": "windsurfing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Jugendklub",
     "english": "youth club",
     "part of speech": "noun",
     "plural and inflected": "die Jugendklubs",
-    "level": "GCSE_German_(Pearson_2022)::25_Cultural_life_(F)"
+    "level": "Cultural_life"
   },
   {
-    "german": "das Bogenschie\u00c3\u0178en",
+    "german": "das Bogenschießen",
     "english": "archery",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Leichtathletikmeisterschaft",
     "english": "athletics championship",
     "part of speech": "noun",
     "plural and inflected": "die Leichtathletikmeisterschaften",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Publikum",
     "english": "audience",
     "part of speech": "noun",
-    "plural and inflected": "no plural",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "plural and inflected": "",
+    "level": "Cultural_life"
   },
   {
     "german": "das Brettspiel",
     "english": "board game",
     "part of speech": "noun",
     "plural and inflected": "die Brettspiele",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Kabelfernsehen",
     "english": "cable TV",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Camcorder",
     "english": "camcorder",
     "part of speech": "noun",
     "plural and inflected": "die Camcorder",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Umkleideraum",
     "english": "changing room",
     "part of speech": "noun",
-    "plural and inflected": "die Umkleider\u00c3\u00a4ume",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "plural and inflected": "die Umkleideräume",
+    "level": "Cultural_life"
   },
   {
     "german": "das Computerspiel",
     "english": "computer game",
     "part of speech": "noun",
     "plural and inflected": "die Computerspiele",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Krimi",
     "english": "crime thriller",
     "part of speech": "noun",
     "plural and inflected": "die Krimis",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Heimwerken",
-    "english": "DIY (1)",
+    "english": "DIY",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Selbstbau",
-    "english": "DIY (2)",
+    "english": "DIY",
     "part of speech": "noun",
     "plural and inflected": "die Selbstbauten",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Fernsehdrama",
     "english": "drama (TV)",
     "part of speech": "noun",
     "plural and inflected": "die Fernsehdramen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "synchronisiert",
     "english": "dubbed",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Ohrh\u00c3\u00b6rer",
+    "german": "die Ohrhörer",
     "english": "earphones",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Verlobung",
     "english": "engagement",
     "part of speech": "noun",
     "plural and inflected": "die Verlobungen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Fechten",
     "english": "fencing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Angelrute",
     "english": "fishing rod",
     "part of speech": "noun",
     "plural and inflected": "die Angelruten",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Umkleidekabine",
     "english": "fitting room",
     "part of speech": "noun",
     "plural and inflected": "die Umkleidekabinen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Halbzeit(pause)",
     "english": "halftime",
     "part of speech": "noun",
     "plural and inflected": "die Halbzeiten, die Halbzeitpausen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Kopfh\u00c3\u00b6rer",
+    "german": "die Kopfhörer",
     "english": "headphones",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Wissen",
     "english": "knowledge",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Liga",
-    "english": "league (sports)",
+    "english": "league",
     "part of speech": "noun",
     "plural and inflected": "die Ligen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
-    "german": "der Zuh\u00c3\u00b6rer",
+    "german": "der Zuhörer",
     "english": "listener, audience member",
     "part of speech": "noun",
-    "plural and inflected": "die Zuh\u00c3\u00b6rer",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "plural and inflected": "die Zuhörer",
+    "level": "Cultural_life"
   },
   {
     "german": "die Melodie",
     "english": "melody",
     "part of speech": "noun",
     "plural and inflected": "die Melodien",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die musikalische Kom\u00c3\u00b6die",
+    "german": "die musikalische Komödie",
     "english": "musical comedy",
     "part of speech": "noun",
-    "plural and inflected": "die musikalische Kom\u00c3\u00b6dien",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "plural and inflected": "die musikalische Komödien",
+    "level": "Cultural_life"
   },
   {
     "german": "die Originalfassung",
     "english": "original version",
     "part of speech": "noun",
     "plural and inflected": "die Originalfassungen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Fernbedienung",
     "english": "remote control",
     "part of speech": "noun",
     "plural and inflected": "die Fernbedienungen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Rudern",
     "english": "rowing",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Segelboot",
     "english": "sailing boat",
     "part of speech": "noun",
     "plural and inflected": "die Segelboote",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Satellitenfernsehen",
     "english": "satellite TV",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Sporttauchen",
     "english": "scuba diving",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
-    "german": "die Fernsehkom\u00c3\u00b6die",
+    "german": "die Fernsehkomödie",
     "english": "sitcom",
     "part of speech": "noun",
-    "plural and inflected": "die Fernsehkom\u00c3\u00b6dien",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "plural and inflected": "die Fernsehkomödien",
+    "level": "Cultural_life"
   },
   {
-    "german": "die Sportausr\u00c3\u00bcstung",
+    "german": "die Sportausrüstung",
     "english": "sports equipment",
     "part of speech": "noun",
-    "plural and inflected": "die Sportausr\u00c3\u00bcstungen",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "plural and inflected": "die Sportausrüstungen",
+    "level": "Cultural_life"
   },
   {
     "german": "die Untertitel",
     "english": "subtitles",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "das Turnier",
     "english": "tournament",
     "part of speech": "noun",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Videorecorder",
     "english": "video camera",
     "part of speech": "noun",
     "plural and inflected": "die VIdeorecorder",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "der Zuschauer",
     "english": "viewer, spectator",
     "part of speech": "noun",
     "plural and inflected": "die Zuschauer",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "die Hochzeitsfeier",
     "english": "wedding ceremony",
     "part of speech": "noun",
     "plural and inflected": "die Hochzeitsfeiern",
-    "level": "GCSE_German_(Pearson_2022)::26_Cultural_life_(H)"
+    "level": "Cultural_life"
   },
   {
     "german": "Mitglied sein",
-    "english": "to be a member (of)",
+    "english": "to be a member",
     "part of speech": "verb",
     "plural and inflected": "war Mitglied; hat Mitglied gewesen",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "gratulieren",
     "english": "to congratulate",
     "part of speech": "verb",
     "plural and inflected": "gratulierte; hat gratuliert",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "tanzen",
     "english": "to dance",
     "part of speech": "verb",
     "plural and inflected": "tanzte; hat getanzt",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "turnen",
     "english": "to do gymnastics",
     "part of speech": "verb",
     "plural and inflected": "turnte; hat geturnt",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "trainieren",
     "english": "to exercise, to train",
     "part of speech": "verb",
     "plural and inflected": "trainierte; hat trainiert",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "angeln",
     "english": "to fish",
     "part of speech": "verb",
     "plural and inflected": "angelte; hat geangelt",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "kegeln gehen",
     "english": "to go bowling",
     "part of speech": "verb",
     "plural and inflected": "ging; ist gegangen",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "Skateboard fahren",
     "english": "to go skateboarding",
     "part of speech": "verb",
     "plural and inflected": "fuhr Skateboard; ist Skateboard gefahren",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "wandern",
     "english": "to hike",
     "part of speech": "verb",
     "plural and inflected": "wanderte; ist gewandert",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "heiraten",
     "english": "to marry",
     "part of speech": "verb",
     "plural and inflected": "heiratete; hat geheiratet",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "Sport treiben",
     "english": "to play sports",
     "part of speech": "verb",
     "plural and inflected": "trieb Sport; hat Sport getrieben",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
-    "german": "\u00c3\u00bcben",
+    "german": "üben",
     "english": "to practise",
     "part of speech": "verb",
-    "plural and inflected": "\u00c3\u00bcbte; hat ge\u00c3\u00bcbt",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "plural and inflected": "übte; hat geübt",
+    "level": "Cultural_life"
   },
   {
     "german": "Rollschuh laufen",
     "english": "to rollerskate",
     "part of speech": "verb",
     "plural and inflected": "lief Rollschuh; ist Rollschuh gelaufen",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "segeln",
     "english": "to sail",
     "part of speech": "verb",
     "plural and inflected": "segelte; ist gesegelt",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
-    "german": "ein Tor schie\u00c3\u0178en",
-    "english": "to score a goal",
-    "part of speech": "verb",
-    "plural and inflected": "schoss ein Tor; hat ein Tor geschossen",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
-  },
-  {
-    "german": "schie\u00c3\u0178en",
+    "german": "schießen",
     "english": "to shoot",
     "part of speech": "verb",
     "plural and inflected": "schoss; hat geschossen",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "bummeln",
     "english": "to stroll, to wander",
     "part of speech": "verb",
     "plural and inflected": "bummelte; ist gebummelt",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "schwimmen",
     "english": "to swim",
     "part of speech": "verb",
     "plural and inflected": "schwamm; ist geschwommen",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "teilnehmen",
     "english": "to take part",
     "part of speech": "verb",
     "plural and inflected": "nahm teil; hat teilgenommen",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "besuchen",
     "english": "to visit, to attend",
     "part of speech": "verb",
     "plural and inflected": "besuchte; hat besucht",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   },
   {
     "german": "spazieren",
     "english": "to (go on a) walk",
     "part of speech": "verb",
     "plural and inflected": "spazierte; ist spaziert",
-    "level": "GCSE_German_(Pearson_2022)::27_Verbs_associated_with_cultural_life"
+    "level": "Cultural_life"
   }
 ]
