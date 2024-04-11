@@ -73,6 +73,7 @@ ulElement.appendChild(firstListItem);
 var listItems = [
   { text: "About", href: "/about" },
   { text: "Create", href: "/create" },
+  { text: "License", href: "https://github.com/RasperRevision/RasperRevision.github.io/blob/main/LICENSE" },
   { text: "Contact us", href: "/contact/" }
 ];
 
