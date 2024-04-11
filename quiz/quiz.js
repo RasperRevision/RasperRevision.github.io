@@ -24,23 +24,21 @@ home.addEventListener('click', function () {
 });
 
 function startStopwatch() {
-  timer = setInterval(updateStopwatch, 1000);
+  timer = setInterval(function () {
+    s++;
+
+    if (s === 60) {
+      s = 0;
+      m++;
+    }
+  
+    formattedTime = pad(m) + ':' + pad(s);
+    stopwatch.innerHTML = formattedTime;
+  }, 1000);
 }
 
 function stopStopwatch() {
   clearInterval(timer);
-}
-
-function updateStopwatch() {
-  s++;
-
-  if (s === 60) {
-    s = 0;
-    m++;
-  }
-
-  formattedTime = pad(m) + ':' + pad(s);
-  stopwatch.innerHTML = formattedTime;
 }
 
 function pad(value) {
@@ -63,7 +61,6 @@ function getParameterByName(name, url) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-
 
 async function quiz(file) {
   current_file = file;

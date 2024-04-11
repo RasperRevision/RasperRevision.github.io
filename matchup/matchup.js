@@ -1,4 +1,3 @@
-let omit = [];
 const container = document.querySelector('.elements');
 const sect = document.querySelector('.match-up');
 const stopwatch = document.querySelector('.stopwatch');
@@ -10,11 +9,11 @@ let s = 0;
 let m = 0;
 let formattedTime;
 
-function startStopwatch() { timer = setInterval(updateStopwatch, 1000); }
+let definition_found = false;
+let symbol_found = false;
+let has_symbols;
 
-function stopStopwatch() { clearInterval(timer); }
-
-function updateStopwatch() {
+function startStopwatch() { timer = setInterval(function () {
   s++;
 
   if (s === 60) {
@@ -24,9 +23,19 @@ function updateStopwatch() {
 
   formattedTime = pad(m) + ':' + pad(s);
   stopwatch.innerHTML = formattedTime;
-}
+}, 1000); }
+
+function stopStopwatch() { clearInterval(timer); }
 
 function pad(value) { return value < 10 ? '0' + value : value; }
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
@@ -35,14 +44,6 @@ function getParameterByName(name, url) {
   if (!results) return null;
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
 }
 
 function loadJSON(callback) {
@@ -64,112 +65,152 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
-function script() {
-  let sym_found = false;
-  let mean_found = false;
-  let data;
+async function processItem(data, current_item) {
+  term_element.innerHTML = current_item.term;
+  symbol_found = false;
+  definition_found = false;
+  console.log('next item')
+  data.forEach(item => {
+    if (item.symbol != null) {
+      const symbol = document.createElement('button');
+      const symbol_img = document.createElement('img');
 
-  loadJSON(function (response) {
-    data = response;
+      symbol.setAttribute('data-img-path', item.symbol);
+      symbol_img.src = 'imgs/' + item.symbol;
+      symbol_img.style.height = '60px';
+      symbol.appendChild(symbol_img);
+      symbol.classList.add('btn', 'symbol');
 
-    if (data.length != omit.length) {
-      omit.sort(function (a, b) { return b - a; });
-      omit.forEach(item => { data.splice(item, 1); })
-    } else {
-      container.style.display = 'none';
-      stopStopwatch();
-      term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
-      term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
-      stopwatch.classList.add('d-none');
-      const home = document.createElement('button');
-      home.innerHTML = 'Home';
-      home.classList.add('btn');
-      home.classList.add('btn-primary');
-      home.classList.add('ms-4');
-      home.addEventListener('click', function () {
-        location.href = '/';
-      });
-      const restart = document.createElement('button');
-      restart.innerHTML = 'Restart';
-      restart.classList.add('btn');
-      restart.classList.add('btn-warning');
-      restart.addEventListener('click', function () {
-        location.reload();
-      });
-      term_element.appendChild(restart);
-      term_element.appendChild(home);
-      return;
+      symbol.style.position = 'absolute';
+      symbol.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
+      symbol.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
+
+      document.querySelector('.elements').appendChild(symbol);
     }
 
-    const randomIndex = Math.floor(Math.random() * data.length);
+    const definition = document.createElement('button');
 
-    let symbol = data[randomIndex].symbol;
-    let term = data[randomIndex].term;
-    let meaning = data[randomIndex].meaning;
+    definition.textContent = item.meaning;
+    definition.classList.add('btn', 'definition', 'text-light');
+    definition.style.position = 'absolute';
+    definition.style.fontSize = '20px';
+    definition.style.textShadow = '1px 1px 10px black';
+    definition.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
+    definition.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
 
-    document.querySelector('.term').innerHTML = term;
+    document.querySelector('.elements').appendChild(definition);
+  });
 
-    data.forEach(item => {
-      if (item.symbol != null) {
-        const sym = document.createElement('button');
-        const sym_img = document.createElement('img');
-        const sym_text = item.symbol;
-        sym_img.src = 'imgs/' + item.symbol;
-        sym_img.style.height = '60px';
-        sym.appendChild(sym_img);
-        sym.classList.add('btn');
-
-        sym.style.position = 'absolute';
-        sym.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
-        sym.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
-        sym.addEventListener('click', function () {
-          if (mean_found && sym_text == symbol) {
-            while (container.firstChild) { container.removeChild(container.firstChild); }
-            omit.push(randomIndex);
-            script();
-          } else if (sym_text == symbol) { sym_found = true; }
-        })
-
-        document.querySelector('.elements').appendChild(sym);
-      }
-
-      const mean = document.createElement('button');
-
-      mean.textContent = item.meaning;
-      mean.classList.add('text-white');
-      mean.classList.add('btn');
-      mean.classList.add('text-light');
-
-      mean.style.position = 'absolute';
-      mean.style.fontSize = '20px';
-      mean.style.textShadow = '1px 1px 10px black';
-      mean.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
-      mean.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
-
-
-      mean.addEventListener('click', function () {
-        container.childNodes.forEach(function (child) {
-          child.classList.remove("btn-info");
-        });
-        mean.classList.add("btn-info");
-        if (sym_found && mean.innerHTML == meaning) {
-          while (container.firstChild) { container.removeChild(container.firstChild); }
-          omit.push(randomIndex);
-          script();
-        } else if (mean.innerHTML == meaning) {
-          mean_found = true;
-          if (item.symbol == null) {
-            while (container.firstChild) { container.removeChild(container.firstChild); }
-            omit.push(randomIndex);
-            script();
-          }
-        }
-      })
-      document.querySelector('.elements').appendChild(mean);
-    });
+  return new Promise((resolve) => {
+    waitForButton(current_item, resolve);
   });
 }
 
+function waitForButton(current_item, callback) {
+  const handleImgClick = (event) => {
+    let symbol_button;
+    if (event.target.classList.contains('btn')) {
+      symbol_button = event.target;
+    } else {
+      symbol_button = event.target.parentElement;
+    }
+    const symbol_text = symbol_button.getAttribute("data-img-path");
+    console.log(symbol_text);
+    console.log(current_item.symbol);
+    if (definition_found && symbol_text == current_item.symbol) {
+      console.log("definition is found and symbol is correct");
+      while (container.firstChild) { container.removeChild(container.firstChild); }
+      callback(event);
+      cleanup();
+    } else if (symbol_text == current_item.symbol) { 
+      console.log("symbol is correct");
+      symbol_found = true;
+    }
+  }
+
+  const handleTextClick = (event) => {
+    console.log("text button pressed");
+    container.childNodes.forEach(function (child) {
+      child.classList.remove("btn-info");
+    });
+    event.target.classList.add("btn-info");
+    if (symbol_found && event.target.innerHTML == current_item.meaning) {
+      while (container.firstChild) { container.removeChild(container.firstChild); }
+      callback(event);
+      cleanup();
+    } else if (event.target.innerHTML == current_item.meaning) {
+      definition_found = true;
+      if (!has_symbols) {
+        while (container.firstChild) { 
+          container.removeChild(container.firstChild); 
+          callback(event);
+          cleanup();
+        }
+      }
+    }
+  }
+
+  const cleanup = () => {
+    if (has_symbols) {
+      document.querySelectorAll('.symbol').forEach((symbol_element) => {
+        symbol_element.removeEventListener('click', handleImgClick);
+      });
+    }
+    document.querySelectorAll('.definition').forEach((definition_element) => {
+      definition_element.removeEventListener('click', handleTextClick);
+    });
+  }
+  
+  if (has_symbols) {
+    document.querySelectorAll('.symbol').forEach((symbol_element) => {
+      symbol_element.addEventListener('click', handleImgClick);
+    });
+  }
+  document.querySelectorAll('.definition').forEach((definition_element) => {
+    definition_element.addEventListener('click', handleTextClick);
+  });
+
+  return cleanup;
+}
+
+async function matchup() {
+  loadJSON(async function (response) {
+    response = shuffle(response);
+
+    has_symbols = response[0].symbol == null ? false : true;
+
+    let count = 1;
+    for (const item of response) { 
+      console.log(count);
+      await processItem(response, item);
+      count++;
+    }
+
+    container.style.display = 'none';
+    stopStopwatch();
+    term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
+    term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
+    stopwatch.classList.add('d-none');
+    const home = document.createElement('button');
+    home.innerHTML = 'Home';
+    home.classList.add('btn');
+    home.classList.add('btn-primary');
+    home.classList.add('ms-4');
+    home.addEventListener('click', function () {
+      location.href = '/';
+    });
+    const restart = document.createElement('button');
+    restart.innerHTML = 'Restart';
+    restart.classList.add('btn');
+    restart.classList.add('btn-warning');
+    restart.addEventListener('click', function () {
+      location.reload();
+    });
+    term_element.appendChild(restart);
+    term_element.appendChild(home);
+    return;
+  });
+}
 
 const jsonFileName = getParameterByName('json');
 
@@ -180,6 +221,6 @@ if (jsonFileName != null) {
     }
   });
 
-  script();
+  matchup();
   startStopwatch();
 }
