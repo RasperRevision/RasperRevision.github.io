@@ -283,6 +283,8 @@
               topic_chosen = "times-days-months-seasons";
             } else if (topic_chosen == "Useful words and phrases") {
               topic_chosen = "useful-words-and-expressions";
+            } else {
+              topic_chosen = topic_chosen.toLowerCase();
             }
           } else if (subject_chosen == "History") {
             history_topic_parent.classList.add('invis');
