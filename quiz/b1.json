@@ -50,5 +50,53 @@
   {
     "term": "Differentiation",
     "meaning": "The process where an unspecialised stem cell gains individual characteristics and functions"
+  },
+  {
+    "term": "Chromosome",
+    "meaning": "A type of DNA structure found in the nucleus of a cell. Usually found in pairs"
+  },
+  {
+    "term": "Gene",
+    "meaning": "A section of a chromosome containing the code for the production of a particular protein"
+  },
+  {
+    "term": "Stem cell",
+    "meaning": "An undifferentiated cell capable of creating specialised cells of the same type."
+  },
+  {
+    "term": "Embryonic stem cell",
+    "meaning": "A type of stem cell found in embryos which is capable of differentiating into almost all kinds of cell found in the human body"
+  },
+  {
+    "term": "Adult stem cell",
+    "meaning": "A type of stem cell found in adults which is capable of differentiating into many kinds of cell found in the human body"
+  },
+  {
+    "term": "Meristem",
+    "meaning": "A region of unspecialised cells in a plant capable of mitosis at any point throughout the plant's life"
+  },
+  {
+    "term": "Mitosis",
+    "meaning": "The process of cell divison where a single cell produces two genetically identical 'daughter' cells"
+  },
+  {
+    "term": "Therapeutic cloning",
+    "meaning": "A process where an embryo is produced which has the same genes as a patient. Its stem cells will not be rejected by the body"
+  },
+  {
+    "term": "Cell cycle",
+    "meaning": "The series of stages which a cell goes through as it grows and divides"
+  },
+  {
+    "term": "Diffusion",
+    "meaning": "The process by which particles of a substance in solution, or of a gas, spread out in a way which results in a net movement from high concentration to low concentration"
+  },
+  {
+    "term": "Osmosis",
+    "meaning": "The process by which water molecules diffuse through a partially permeable membrane from a dilute solution to a concentrated one"
+  },
+  {
+    "term": "Active transport",
+    "meaning": "The process by which substances move through a partially permeable membrane against the concentration gradient, using energy from respiration"
   }
 ]
