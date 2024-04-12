@@ -9,6 +9,7 @@ We currently have activities for the following subjects (more to come in the fut
 - History (Edexcel)
 - Physics (AQA)
 - Chemistry (AQA)
+- Biology (AQA)
 
 ---
 
@@ -23,3 +24,4 @@ The following games are available:
 | History| X | ✓ | ✓ | X |
 | Physics | X | X | X | ✓ |
 | Chemistry | X | ✓ | X | X |
+| Biology | X | ✓ | X | X |
