@@ -98,6 +98,7 @@ wrapperDiv.appendChild(sidebarDiv);
 document.body.appendChild(wrapperDiv);
 
 icon.addEventListener('click', function () {
+  buttonElement.click();
   sidebarDiv.classList.toggle('active');
   icon1.classList.toggle('a');
   icon2.classList.toggle('c');
