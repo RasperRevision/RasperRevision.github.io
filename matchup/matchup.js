@@ -5,25 +5,26 @@ const pills = document.querySelectorAll('.nav-link');
 const term_element = document.querySelector('.term');
 
 let timer;
-let s = 0;
-let m = 0;
+let s = 0, m = 0;
 let formattedTime;
 
 let definition_found = false;
 let symbol_found = false;
 let has_symbols;
 
-function startStopwatch() { timer = setInterval(function () {
-  s++;
+function startStopwatch() {
+    timer = setInterval(function () {
+    s++;
 
-  if (s === 60) {
-    s = 0;
-    m++;
-  }
+    if (s === 60) {
+      s = 0;
+      m++;
+    }
 
-  formattedTime = pad(m) + ':' + pad(s);
-  stopwatch.innerHTML = formattedTime;
-}, 1000); }
+    formattedTime = pad(m) + ':' + pad(s);
+    stopwatch.innerHTML = formattedTime;
+  }, 1000); 
+}
 
 function stopStopwatch() { clearInterval(timer); }
 
@@ -65,11 +66,34 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
+function pickRandomItems(array) {
+    if (array.length <= 10) {
+        return array;
+    }
+    
+    let randomItems = [];
+    let indexes = [];
+
+    while (indexes.length < 10) {
+        let randomIndex = Math.floor(Math.random() * array.length);
+        if (!indexes.includes(randomIndex)) {
+            indexes.push(randomIndex);
+        }
+    }
+
+    indexes.forEach(index => {
+        randomItems.push(array[index]);
+    });
+
+    return randomItems;
+}
+
 async function processItem(data, current_item) {
   term_element.innerHTML = current_item.term;
   symbol_found = false;
   definition_found = false;
-  console.log('next item')
+  console.log('next item');
+  data = pickRandomItems(data);
   data.forEach(item => {
     if (item.symbol != null) {
       const symbol = document.createElement('button');
