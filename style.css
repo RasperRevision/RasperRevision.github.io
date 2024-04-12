@@ -54,9 +54,10 @@ body {
 }
 
 .welcome_title {
-  text-align: center;
-  padding-top: 50px;
-  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 64px;
 }
 
 .home_btn {
@@ -325,4 +326,41 @@ body {
 
 .link-offset-1:hover {
   text-underline-offset: 0.15rem !important;
+}
+
+@media screen and (min-width: 576px) {
+  .side-logo {
+    width: 125px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .side-logo {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .side-logo {
+    width: 175px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .side-logo {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .side-logo {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  #sidebar {
+    left: -20vw;
+    width: 20vw;
+  }
 }

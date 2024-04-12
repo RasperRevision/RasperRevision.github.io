@@ -25,9 +25,12 @@ var sidebarDiv = document.createElement("div");
 sidebarDiv.id = "sidebar";
 sidebarDiv.style.zIndex = 1000;
 
-var sidebarHeading = document.createElement("div");
-sidebarHeading.classList.add("sidebar-heading");
-sidebarHeading.textContent = "Rasper Revision";
+var logoWrapper = document.createElement("div");
+logoWrapper.classList.add('d-flex', 'justify-content-center', 'mb-5');
+
+var sidebarLogo = document.createElement("img");
+sidebarLogo.classList.add('side-logo');
+sidebarLogo.src = "/assets/regular_logo.png";
 
 var ulElement = document.createElement("ul");
 ulElement.classList.add("list-group", "list-group-flush");
@@ -86,7 +89,8 @@ listItems.forEach(function (item) {
   ulElement.appendChild(liElement);
 });
 
-sidebarDiv.appendChild(sidebarHeading);
+sidebarDiv.appendChild(logoWrapper);
+logoWrapper.appendChild(sidebarLogo);
 sidebarDiv.appendChild(ulElement);
 
 wrapperDiv.appendChild(sidebarDiv);

@@ -89,6 +89,7 @@ function pickRandomItems(array, correct) {
         randomItems.pop();
         randomItems.push(correct);
     }
+    
     console.log(array, randomItems);
     return randomItems;
 }
@@ -98,6 +99,8 @@ async function processItem(data, current_item) {
   symbol_found = false;
   definition_found = false;
   data = pickRandomItems(data, current_item);
+  let count = 0;
+  const nums = shuffle([9, 18, 27, 36, 45, 54, 63, 72, 81, 90]);
   data.forEach(item => {
     if (item.symbol != null) {
       const symbol = document.createElement('button');
@@ -111,7 +114,7 @@ async function processItem(data, current_item) {
 
       symbol.style.position = 'absolute';
       symbol.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
-      symbol.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
+      symbol.style.top = nums[count] + '%';
 
       document.querySelector('.elements').appendChild(symbol);
     }
@@ -124,9 +127,10 @@ async function processItem(data, current_item) {
     definition.style.fontSize = '20px';
     definition.style.textShadow = '1px 1px 10px black';
     definition.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
-    definition.style.top = (Math.random() * (window.innerHeight - 500) + 250) + 'px';
+    definition.style.bottom= nums[count] + '%';
 
     document.querySelector('.elements').appendChild(definition);
+    count++;
   });
 
   return new Promise((resolve) => {
