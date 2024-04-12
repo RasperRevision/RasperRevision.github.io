@@ -66,7 +66,7 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
-function pickRandomItems(array) {
+function pickRandomItems(array, correct) {
     if (array.length <= 10) {
         return array;
     }
@@ -85,6 +85,11 @@ function pickRandomItems(array) {
         randomItems.push(array[index]);
     });
 
+    if (!randomItems.contains(correct) {
+        randomItems.pop();
+        randomItems.push(correct);
+    }
+
     return randomItems;
 }
 
@@ -93,7 +98,7 @@ async function processItem(data, current_item) {
   symbol_found = false;
   definition_found = false;
   console.log('next item');
-  data = pickRandomItems(data);
+  data = pickRandomItems(data, current_item);
   data.forEach(item => {
     if (item.symbol != null) {
       const symbol = document.createElement('button');
