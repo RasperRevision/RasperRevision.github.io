@@ -36,9 +36,7 @@
       </div>
 
       <div class="music-topics home_btn_row invis" style="padding: 50px;">
-        <button class="topic home_btn danger">Dynamics</button>
-        <button class="topic home_btn warning">Melody</button>
-        <button class="topic home_btn info">Articulation</button>
+        <button class="topic home_btn danger">Describing Music</button>
       </div>
 
       <div class="history-topics home_btn_row invis" style="padding: 50px;">
@@ -223,6 +221,9 @@
           if (subject_chosen == "Music") {
             music_topic_parent.classList.add('invis');
             blank_game.classList.add('invis');
+            if (topic_chosen == "Describing Music") {
+              topic_chosen = "describing_music"
+            }
           } else if (subject_chosen == "English Literature") {
             english_lit_topic_parent.classList.add('invis');
             if (topic_chosen == "Macbeth quotes") {

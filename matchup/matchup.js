@@ -1,7 +1,7 @@
 const container = document.querySelector('.elements');
 const sect = document.querySelector('.match-up');
 const stopwatch = document.querySelector('.stopwatch');
-const pills = document.querySelectorAll('.nav-link');
+const pills = document.querySelectorAll('.dropdown-item');
 const term_element = document.querySelector('.term');
 
 let timer;
@@ -85,11 +85,11 @@ function pickRandomItems(array, correct) {
         randomItems.push(array[index]);
     });
 
-    if (!randomItems.contains(correct)) {
+    if (!randomItems.includes(correct)) {
         randomItems.pop();
         randomItems.push(correct);
     }
-
+    console.log(array, randomItems);
     return randomItems;
 }
 
@@ -97,7 +97,6 @@ async function processItem(data, current_item) {
   term_element.innerHTML = current_item.term;
   symbol_found = false;
   definition_found = false;
-  console.log('next item');
   data = pickRandomItems(data, current_item);
   data.forEach(item => {
     if (item.symbol != null) {
@@ -144,21 +143,16 @@ function waitForButton(current_item, callback) {
       symbol_button = event.target.parentElement;
     }
     const symbol_text = symbol_button.getAttribute("data-img-path");
-    console.log(symbol_text);
-    console.log(current_item.symbol);
     if (definition_found && symbol_text == current_item.symbol) {
-      console.log("definition is found and symbol is correct");
       while (container.firstChild) { container.removeChild(container.firstChild); }
       callback(event);
       cleanup();
     } else if (symbol_text == current_item.symbol) { 
-      console.log("symbol is correct");
       symbol_found = true;
     }
   }
 
   const handleTextClick = (event) => {
-    console.log("text button pressed");
     container.childNodes.forEach(function (child) {
       child.classList.remove("btn-info");
     });
@@ -247,6 +241,11 @@ if (jsonFileName != null) {
   pills.forEach(pill => {
     if (pill.getAttribute('href').includes(jsonFileName)) {
       pill.classList.add('active');
+      const dropdownMenu = pill.closest('.dropdown-menu');
+      if (dropdownMenu) {
+        const dropdownToggle = dropdownMenu.parentElement.querySelector('.dropdown-toggle');
+        dropdownToggle.classList.add('active');
+      }
     }
   });
 

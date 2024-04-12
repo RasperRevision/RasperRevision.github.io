@@ -1,5 +1,89 @@
 [
   {
+    "term": "staccato",
+    "meaning": "detached"
+  },
+  {
+    "term": "legato",
+    "meaning": "smooth"
+  },
+  {
+    "term": "pizzicato",
+    "meaning": "plucked"
+  },
+  {
+    "term": "arco",
+    "meaning": "with bow"
+  },
+  {
+    "term": "tremolo",
+    "meaning": "trembling"
+  },
+  {
+    "term": "vibrato",
+    "meaning": "wobbling"
+  },
+  {
+    "term": "tonguing",
+    "meaning": "technique used by brass and wind players"
+  },
+  {
+    "term": "sforzato",
+    "meaning": "emphasis"
+  },
+  {
+    "term": "glissando",
+    "meaning": "a slide between distant notes"
+  },
+  {
+    "term": "portamento",
+    "meaning": "smooth slide between notes"
+  },
+  {
+    "term": "accent",
+    "meaning": "emphasis"
+  },
+  {
+    "term": "marcato",
+    "meaning": "marked"
+  },
+  {
+    "term": "tenuto",
+    "meaning": "hold for full length"
+  },
+  {
+    "term": "fortississimo",
+    "meaning": "very very loud"
+  },
+  {
+    "term": "fortissimo",
+    "meaning": "very loud"
+  },
+  {
+    "term": "forte",
+    "meaning": "loud"
+  },
+  {
+    "term": "mezzo forte",
+    "meaning": "quite loud"
+  },
+  {
+    "term": "mezzo piano",
+    "meaning": "quite soft"
+  },
+  {
+    "term": "piano",
+    "meaning": "soft"
+  },
+  {
+    "term": "pianissimo",
+    "meaning": "very soft"
+  },
+  {
+    "term": "pianississimo",
+    "meaning": "very very soft"
+  },
+  {
     "term": "pitch",
     "meaning": "high/low"
   },
