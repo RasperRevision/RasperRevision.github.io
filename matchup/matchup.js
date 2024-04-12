@@ -85,7 +85,7 @@ function pickRandomItems(array, correct) {
         randomItems.push(array[index]);
     });
 
-    if (!randomItems.contains(correct) {
+    if (!randomItems.contains(correct)) {
         randomItems.pop();
         randomItems.push(correct);
     }
