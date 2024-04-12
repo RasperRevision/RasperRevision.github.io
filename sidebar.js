@@ -104,5 +104,5 @@ icon.addEventListener('click', function () {
   icon3.classList.toggle('b');
   setTimeout(function () {
     buttonElement.click();
-  }, 100);
+  }, 200);
 });
