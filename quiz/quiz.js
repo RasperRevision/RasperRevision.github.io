@@ -63,9 +63,9 @@ function getParameterByName(name, url) {
 }
 
 async function quiz(file) {
-  current_file = file;
+  current_file = file + '.json';
   try {
-    const response = await fetch(file);
+    const response = await fetch(current_file);
     const data = await response.json();
     let shuffled = shuffle(data);
     for (const item of shuffled) { await processItem(item); }
