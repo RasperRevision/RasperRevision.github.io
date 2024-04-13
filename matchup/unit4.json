@@ -1,0 +1,162 @@
+[
+    {
+        "term": "Arithmetic Logic Unit (ALU)",
+        "meaning": "A component of the CPU that performs arithmetic and logical operations"
+    },
+    {
+        "term": "AND",
+        "meaning": "A logic gate that returns true if both boolean values are true"
+    },
+    {
+        "term": "Application software",
+        "meaning": "Software designed to run user-oriented tasks"
+    },
+    {
+        "term": "Assembler",
+        "meaning": "A program that translates Assembly code into machine code"
+    },
+    {
+        "term": "Boolean expression",
+        "meaning": "An expression that evaluates to true or false"
+    },
+    {
+        "term": "Bus",
+        "meaning": "A system of wires that connect components of a computer"
+    },
+    {
+        "term": "Bytecode",
+        "meaning": "A low-level programming language that is used to create machine code"
+    },
+    {
+        "term": "Cache",
+        "meaning": "A small amount of memory that is used to store frequently used data"
+    },
+    {
+        "term": "Clock",
+        "meaning": "A device that measures the rate at which a computer can perform operations"
+    },
+    {
+        "term": "Clock speed",
+        "meaning": "The number of cycles per second that a computer can perform. Measured in Hertz (Hz)"
+    },
+    {
+        "term": "Cloud storage",
+        "meaning": "A service that stores data on a remote server"
+    },
+    {
+        "term": "Compiler",
+        "meaning": "A program that translates code into machine code by creating a separate file storing the executable machine code"
+    },
+    {
+        "term": "Control Unit (CU)",
+        "meaning": "A component of the CPU that directs the flow of data and instructions"
+    },
+    {
+        "term": "Core",
+        "meaning": "A duplicate processor used to increase processing speeds"
+    },
+    {
+        "term": "Data bus",
+        "meaning": "The bus that carries data throughout the computer system"
+    },
+    {
+        "term": "Defragmentation",
+        "meaning": "The process of locating all the fragments of a file and putting them back together"
+    },
+    {
+        "term": "Embedded system",
+        "meaning": "A computer system with a dedicated purpose within a larger device"
+    },
+    {
+        "term": "Encryption software",
+        "meaning": "A type of software that encrypts data"
+    },
+    {
+        "term": "Fetch-Execute Cycle",
+        "meaning": "The cycle used by the processor to execute instructions"
+    },
+    {
+        "term": "Hard Disk Drive (HDD)",
+        "meaning": "A type of non-volatile secondary storage using magnetic storage"
+    },
+    {
+        "term": "Hardware",
+        "meaning": "A physical part of a computer system"
+    },
+    {
+        "term": "Local Storage",
+        "meaning": "Files stored on the user's computer system"
+    },
+    {
+        "term": "Logic Circuit",
+        "meaning": "A type of circuit made up of logic gates"
+    },
+    {
+        "term": "Logic Gate",
+        "meaning": "A type of operator that takes one or two boolean inputs, applies logic to them, and returns a boolean output"
+    },
+    {
+        "term": "Main Memory",
+        "meaning": "The main storage region of a computer, consisting of RAM and ROM"
+    },
+    {
+        "term": "Non-Volatile",
+        "meaning": "Data that will not be deleted if power is lost"
+    },
+    {
+        "term": "NOT",
+        "meaning": "A logic gate that inverts a boolean value."
+    },
+    {
+        "term": "Operating System (OS)",
+        "meaning": "A special piece of software responsible for managing computer hardware, users and resources."
+    },
+    {
+        "term": "Optical storage",
+        "meaning": "A type of storage storing data on an optical disk."
+    },
+    {
+        "term": "OR",
+        "meaning": "A logic gate that returns true if one or both of the values are true."
+    },
+    {
+        "term": "Random Access Memory (RAM)",
+        "meaning": "A volatile memory location storing data currently in use"
+    },
+    {
+        "term": "Read Only Memory (ROM)",
+        "meaning": "A non-volatile memory location storing BIOS data. Cannot be written to."
+    },
+    {
+        "term": "Secondary Storage",
+        "meaning": "Storage locations that are not directly connected to the CPU. Non-volatile."
+    },
+    {
+        "term": "Software",
+        "meaning": "The programs stored and run on a computer system"
+    },
+    {
+        "term": "Solid State Drive (SSD)",
+        "meaning": "A type of storage hardware without moving parts"
+    },
+    {
+        "term": "System software",
+        "meaning": "Software that assists with the management and maintenance of a computer system"
+    },
+    {
+        "term": "Truth table",
+        "meaning": "A table showing the input and output of data through a logic gate or circuit"
+    },
+    {
+        "term": "User Interface (UI)",
+        "meaning": "The means of communication between a user and a computer"
+    },
+    {
+        "term": "Utility software",
+        "meaning": "Software that assists the OS to organise and maintain the computer system"
+    },
+    {
+        "term": "Volatile",
+        "meaning": "Temporary data that will be deleted if the power is lost"
+    }
+]

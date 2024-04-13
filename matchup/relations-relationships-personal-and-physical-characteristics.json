@@ -1,0 +1,2053 @@
+[
+  {
+    "german": "der/die Jugendliche",
+    "english": "adolescent",
+    "part of speech": "noun",
+    "plural and inflected": "die Jugendliche",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die Erwachsene",
+    "english": "adult, grown-up",
+    "part of speech": "noun",
+    "plural and inflected": "die Erwachsenen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "abenteuerlich",
+    "english": "adventurous (of a situation)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unternehmungslustig",
+    "english": "adventurous (of a person)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Alter",
+    "english": "age",
+    "part of speech": "noun",
+    "plural and inflected": "die Alter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "allein",
+    "english": "alone",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Sessel",
+    "english": "armchair",
+    "part of speech": "noun",
+    "plural and inflected": "die Sessel",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "zu Hause",
+    "english": "at home",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Tante",
+    "english": "aunt",
+    "part of speech": "noun",
+    "plural and inflected": "die Tanten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Baby",
+    "english": "baby",
+    "part of speech": "noun",
+    "plural and inflected": "die Babys",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Glatze",
+    "english": "bald head",
+    "part of speech": "noun",
+    "plural and inflected": "die Glatzen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Badezimmer",
+    "english": "bathroom",
+    "part of speech": "noun",
+    "plural and inflected": "die Badezimmer",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Bart",
+    "english": "beard",
+    "part of speech": "noun",
+    "plural and inflected": "die B\u00c3\u00a4rte",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sch\u00c3\u00b6n",
+    "english": "beautiful",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Schlafzimmer",
+    "english": "bedroom",
+    "part of speech": "noun",
+    "plural and inflected": "die Schlafzimmer",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Geburt",
+    "english": "birth",
+    "part of speech": "noun",
+    "plural and inflected": "die Geburten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Geburtsdatum",
+    "english": "birth date, date of birth",
+    "part of speech": "noun",
+    "plural and inflected": "die Geburtsdaten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Geburtstag",
+    "english": "birthday",
+    "part of speech": "noun",
+    "plural and inflected": "die Geburtstage",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Geburtsort",
+    "english": "birthplace",
+    "part of speech": "noun",
+    "plural and inflected": "die Geburtsorte",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Wohnblock",
+    "english": "block of flats",
+    "part of speech": "noun",
+    "plural and inflected": "die Wohnbl\u00c3\u00b6cke",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "geboren",
+    "english": "born",
+    "part of speech": "",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "rechthaberisch",
+    "english": "bossy",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Piercing",
+    "english": "body piercing",
+    "part of speech": "noun",
+    "plural and inflected": "die Piercings",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Junge",
+    "english": "boy",
+    "part of speech": "noun",
+    "plural and inflected": "die Jungs",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Knabe",
+    "english": "boy (swiss german)",
+    "part of speech": "noun",
+    "plural and inflected": "die Knaben",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Schwager",
+    "english": "brother-in-law",
+    "part of speech": "noun",
+    "plural and inflected": "die Schw\u00c3\u00a4ger",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Katze",
+    "english": "cat",
+    "part of speech": "noun",
+    "plural and inflected": "die Katzen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Feier",
+    "english": "celebration, holiday",
+    "part of speech": "noun",
+    "plural and inflected": "die Feiern",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die Prominente",
+    "english": "celebrity",
+    "part of speech": "noun",
+    "plural and inflected": "die Prominente",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Stuhl",
+    "english": "chair, stool",
+    "part of speech": "noun",
+    "plural and inflected": "die St\u00c3\u00bchle",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Charakter",
+    "english": "character",
+    "part of speech": "noun",
+    "plural and inflected": "die Charaktere",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "charmant",
+    "english": "charming",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "gespr\u00c3\u00a4chig",
+    "english": "chatty (1)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "schwatzhaft",
+    "english": "chatty (2)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Kind",
+    "english": "child",
+    "part of speech": "noun",
+    "plural and inflected": "die Kinder",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "klug",
+    "english": "clever",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Kleidung",
+    "english": "clothes",
+    "part of speech": "noun",
+    "plural and inflected": "die Kleidungen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "gem\u00c3\u00bctlich",
+    "english": "comfortable (feeling)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "bequem",
+    "english": "comfortable (of an object)",
+    "part of speech": "adjective, adverb",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Cousin",
+    "english": "cousin (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Cousins",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Cousine",
+    "english": "cousin (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Cousinen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "lockig",
+    "english": "curly (hair)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Papa",
+    "english": "dad (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Papas",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Vati",
+    "english": "dad (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Vatis",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Tochter",
+    "english": "daughter",
+    "part of speech": "noun",
+    "plural and inflected": "die T\u00c3\u00b6chter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "tot",
+    "english": "dead",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Esszimmer",
+    "english": "dining room",
+    "part of speech": "noun",
+    "plural and inflected": "die Esszimmer",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "geschieden",
+    "english": "divorced",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Hund",
+    "english": "dog",
+    "part of speech": "noun",
+    "plural and inflected": "die Hunde",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "verlobt",
+    "english": "engaged",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Auge",
+    "english": "eye",
+    "part of speech": "noun",
+    "plural and inflected": "die Augen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Gesicht",
+    "english": "face",
+    "part of speech": "noun",
+    "plural and inflected": "die Gesichter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sich verlieben",
+    "english": "to fall in love",
+    "part of speech": "verb",
+    "plural and inflected": "verliebte sich; hat sich verliebt",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Familie",
+    "english": "family",
+    "part of speech": "noun",
+    "plural and inflected": "die Familien",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ber\u00c3\u00bchmt",
+    "english": "famous",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "bekannt",
+    "english": "well known",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Vater",
+    "english": "father",
+    "part of speech": "noun",
+    "plural and inflected": "die V\u00c3\u00a4ter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Gef\u00c3\u00bchl",
+    "english": "feeling",
+    "part of speech": "noun",
+    "plural and inflected": "die Gef\u00c3\u00bchle",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Vorname",
+    "english": "first name",
+    "part of speech": "noun",
+    "plural and inflected": "die Vornamen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Wohnung",
+    "english": "flat, apartment",
+    "part of speech": "noun",
+    "plural and inflected": "die Wohnungen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der (fester) Freund",
+    "english": "(boy)friend (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Freunde",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die (feste) Freundin",
+    "english": "(girl)friend (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Freundinnen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "freundlich",
+    "english": "friendly",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Freundschaft",
+    "english": "friendship",
+    "part of speech": "noun",
+    "plural and inflected": "die Freundschaften",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die M\u00c3\u00b6bel",
+    "english": "furniture",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Garten",
+    "english": "garden",
+    "part of speech": "noun",
+    "plural and inflected": "die G\u00c3\u00a4rten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Garage",
+    "english": "garage",
+    "part of speech": "noun",
+    "plural and inflected": "die Garagen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das M\u00c3\u00a4dchen",
+    "english": "girl",
+    "part of speech": "noun",
+    "plural and inflected": "die M\u00c3\u00a4dchen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Brille",
+    "english": "glasses",
+    "part of speech": "noun",
+    "plural and inflected": "die Brillen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Goldfisch",
+    "english": "goldfish",
+    "part of speech": "noun",
+    "plural and inflected": "die Goldfische",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Opa",
+    "english": "grandad",
+    "part of speech": "noun",
+    "plural and inflected": "die Opas",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Enkelkind",
+    "english": "grandchild",
+    "part of speech": "noun",
+    "plural and inflected": "die Enkelkinder",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Enkelin",
+    "english": "granddaughter",
+    "part of speech": "noun",
+    "plural and inflected": "die Enkelinnen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Gro\u00c3\u0178vater",
+    "english": "grandfather",
+    "part of speech": "noun",
+    "plural and inflected": "die Gro\u00c3\u0178v\u00c3\u00a4ter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Oma",
+    "english": "grandma",
+    "part of speech": "noun",
+    "plural and inflected": "die Omas",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Gro\u00c3\u0178mutter",
+    "english": "grandmother",
+    "part of speech": "noun",
+    "plural and inflected": "die Gro\u00c3\u0178m\u00c3\u00bctter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Gro\u00c3\u0178eltern",
+    "english": "grandparents",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Enkel",
+    "english": "grandson",
+    "part of speech": "noun",
+    "plural and inflected": "die Enkel",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Meerschweinchen",
+    "english": "guinea pig",
+    "part of speech": "noun",
+    "plural and inflected": "die Meerschweinchen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Typ",
+    "english": "guy (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Typen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Kerl",
+    "english": "guy (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Kerle",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Haar",
+    "english": "hair",
+    "part of speech": "noun",
+    "plural and inflected": "die Haare",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "halb-",
+    "english": "half-",
+    "part of speech": "adverb",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Halbschwester",
+    "english": "half-sister",
+    "part of speech": "noun",
+    "plural and inflected": "die Halbschwestern",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Hamster",
+    "english": "hamster",
+    "part of speech": "noun",
+    "plural and inflected": "die Hamster",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "zu Hause",
+    "english": "(at) home",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ehrlich",
+    "english": "honest",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Haus",
+    "english": "house",
+    "part of speech": "noun",
+    "plural and inflected": "die H\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Mensch",
+    "english": "human",
+    "part of speech": "noun",
+    "plural and inflected": "die Menschen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "humorlos",
+    "english": "humourless",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Ehemann",
+    "english": "husband",
+    "part of speech": "noun",
+    "plural and inflected": "die Ehem\u00c3\u00a4nner",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ideal",
+    "english": "ideal",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "guter/schlechter Laune sein",
+    "english": "in a good/bad mood",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "intelligent",
+    "english": "intelligent",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Einladung",
+    "english": "invitation",
+    "part of speech": "noun",
+    "plural and inflected": "die Einladungen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Kuss",
+    "english": "kiss",
+    "part of speech": "noun",
+    "plural and inflected": "die K\u00c3\u00bcsse",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "k\u00c3\u00bcssen",
+    "english": "to kiss",
+    "part of speech": "verb",
+    "plural and inflected": "k\u00c3\u00bcsste; hat gek\u00c3\u00bcsst",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die K\u00c3\u00bcche",
+    "english": "kitchen",
+    "part of speech": "noun",
+    "plural and inflected": "die K\u00c3\u00bcchen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "faul",
+    "english": "lazy",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Leben",
+    "english": "life",
+    "part of speech": "noun",
+    "plural and inflected": "die Leben",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "lebendig",
+    "english": "lively",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Wohnzimmer",
+    "english": "living room, lounge",
+    "part of speech": "noun",
+    "plural and inflected": "die Wohnzimmer",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Dachboden",
+    "english": "loft, attic",
+    "part of speech": "noun",
+    "plural and inflected": "die Dachb\u00c3\u00b6den",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Mann",
+    "english": "man",
+    "part of speech": "noun",
+    "plural and inflected": "die M\u00c3\u00a4nner",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "verheiraten",
+    "english": "to marry",
+    "part of speech": "verb",
+    "plural and inflected": "verheiratete; hat verheiratet",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "gemein",
+    "english": "mean, nasty",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Familienmitglied",
+    "english": "member of the family",
+    "part of speech": "noun",
+    "plural and inflected": "die Familienmitglieder",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Laune",
+    "english": "mood (feeling)",
+    "part of speech": "noun",
+    "plural and inflected": "die Launen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Stimmung",
+    "english": "mood (atmosphere)",
+    "part of speech": "noun",
+    "plural and inflected": "die Stimmungen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Mutter",
+    "english": "mother",
+    "part of speech": "noun",
+    "plural and inflected": "die M\u00c3\u00bctter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Schnurrbart",
+    "english": "moustache (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schnurrb\u00c3\u00a4rte",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Oberlippenbart",
+    "english": "moustache (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Oberlippenb\u00c3\u00a4rte",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Mund",
+    "english": "mouth",
+    "part of speech": "noun",
+    "plural and inflected": "die M\u00c3\u00bcnder",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "multikulturell",
+    "english": "multicultural",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "multikulti",
+    "english": "multicultural (abbr)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Mama",
+    "english": "mum",
+    "part of speech": "noun",
+    "plural and inflected": "die Mamas",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Mutti",
+    "english": "mum",
+    "part of speech": "noun",
+    "plural and inflected": "die Muttis",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unartig",
+    "english": "naughty",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Nachbar",
+    "english": "neighbour (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Nachbarn",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Nachbarin",
+    "english": "neighbour (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Nachbarinnen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Neffe",
+    "english": "nephew",
+    "part of speech": "noun",
+    "plural and inflected": "die Neffen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "nett",
+    "english": "nice (polite)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "lieb",
+    "english": "nice (kind)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sympatisch",
+    "english": "nice (likeable)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Spitzname",
+    "english": "nickname (negative)",
+    "part of speech": "noun",
+    "plural and inflected": "die Spitznamen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Kosename",
+    "english": "nickname (positive)",
+    "part of speech": "noun",
+    "plural and inflected": "die Kosenamen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Nichte",
+    "english": "niece",
+    "part of speech": "noun",
+    "plural and inflected": "die Nichten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "keinen Sinn f\u00c3\u00bcr Humor haben",
+    "english": "no sense of humour",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "normal",
+    "english": "normal",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "alt",
+    "english": "old (age)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "altmodisch",
+    "english": "old fashioned",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "\u00c3\u00a4lter",
+    "english": "older",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die \u00d3\u2019lteste",
+    "english": "oldest (sibling)",
+    "part of speech": "noun",
+    "plural and inflected": "die \u00d3\u2019ltesten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Einzelkind",
+    "english": "only child",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "optimistisch",
+    "english": "optimistic",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Eltern",
+    "english": "parents",
+    "part of speech": "noun",
+    "plural and inflected": "no singular",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Party",
+    "english": "party",
+    "part of speech": "noun",
+    "plural and inflected": "die Partys",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Brieffreund",
+    "english": "pen friend (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Brieffreunde",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Brieffreundin",
+    "english": "pen friend (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Brieffreundinnen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Leute",
+    "english": "people",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Person",
+    "english": "person",
+    "part of speech": "noun",
+    "plural and inflected": "die Personen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Pers\u00c3\u00b6nlichkeit",
+    "english": "personality",
+    "part of speech": "noun",
+    "plural and inflected": "die Pers\u00c3\u00b6nlichkeiten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "pessimistisch",
+    "english": "pessimistic",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Haustier",
+    "english": "pet",
+    "part of speech": "noun",
+    "plural and inflected": "die Haustiere",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Bild",
+    "english": "picture",
+    "part of speech": "noun",
+    "plural and inflected": "die Bilder",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Wohnort",
+    "english": "place of residence",
+    "part of speech": "noun",
+    "plural and inflected": "die Wohnorte",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Postleitzahl",
+    "english": "postcode",
+    "part of speech": "noun",
+    "plural and inflected": "die Postleitzahlen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Geschenk",
+    "english": "present, gift",
+    "part of speech": "noun",
+    "plural and inflected": "die Geschenke",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "h\u00c3\u00bcbsch",
+    "english": "pretty",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Kaninchen",
+    "english": "rabbit",
+    "part of speech": "noun",
+    "plural and inflected": "die Kaninchen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "vern\u00c3\u00bcnftig",
+    "english": "reasonable",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Beziehung",
+    "english": "relationship",
+    "part of speech": "noun",
+    "plural and inflected": "die Beziehungen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Religion",
+    "english": "religion",
+    "part of speech": "noun",
+    "plural and inflected": "die Religionen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "selbst",
+    "english": "self",
+    "part of speech": "pronoun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "egoistisch",
+    "english": "selfish (1)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "selbsts\u00c3\u00bcchtig",
+    "english": "selfish (2)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Doppelhaus",
+    "english": "semi-detached house",
+    "part of speech": "noun",
+    "plural and inflected": "die Doppelh\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "getrennt",
+    "english": "separate",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ernst",
+    "english": "serious",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sch\u00c3\u00bcchtern",
+    "english": "shy",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Geschwister",
+    "english": "siblings",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ledig",
+    "english": "single",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Schw\u00c3\u00a4gerin",
+    "english": "sister-in-law",
+    "part of speech": "noun",
+    "plural and inflected": "die Schw\u00c3\u00a4gerinnen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "schlank",
+    "english": "slim",
+    "part of speech": "adjective,",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "doof",
+    "english": "stupid (silly)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "dumm",
+    "english": "stupid (unintelligent)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unverheiratet",
+    "english": "unmarried",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Schwester",
+    "english": "sister",
+    "part of speech": "noun",
+    "plural and inflected": "die Schwestern",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Sofa",
+    "english": "sofa",
+    "part of speech": "noun",
+    "plural and inflected": "die Sofas",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Sohn",
+    "english": "son",
+    "part of speech": "noun",
+    "plural and inflected": "die S\u00c3\u00b6hne",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Schwiegersohn",
+    "english": "son-in-law",
+    "part of speech": "noun",
+    "plural and inflected": "die Schwiegers\u00c3\u00b6hne",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Schwiegertochter",
+    "english": "daughter-in-law",
+    "part of speech": "noun",
+    "plural and inflected": "die T\u00c3\u00b6chter",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "Stief-",
+    "english": "step-",
+    "part of speech": "",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "glatt",
+    "english": "straight (hair)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Arbeitszimmer",
+    "english": "study, office",
+    "part of speech": "noun",
+    "plural and inflected": "die Arbeitszimmer",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Familienname",
+    "english": "surname",
+    "part of speech": "noun",
+    "plural and inflected": "die Familiennamen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Umfrage",
+    "english": "survey",
+    "part of speech": "noun",
+    "plural and inflected": "die Umfragen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Telefonnummer",
+    "english": "telephone number",
+    "part of speech": "noun",
+    "plural and inflected": "die Telefonnummern",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Reihenhaus",
+    "english": "terraced house",
+    "part of speech": "noun",
+    "plural and inflected": "die Reihenh\u00c3\u00a4user",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "d\u00c3\u00bcnn",
+    "english": "thin",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ordentlich",
+    "english": "tidy, neat",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "\u00c3\u00a4rgern",
+    "english": "to annoy",
+    "part of speech": "verb",
+    "plural and inflected": "\u00c3\u00a4rgerte; hat ge\u00c3\u00a4rgert",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "(sich) streiten",
+    "english": "to argue",
+    "part of speech": "verb",
+    "plural and inflected": "(sich) stritt; hat (sich) gestritten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "babysitten",
+    "english": "to babysit",
+    "part of speech": "verb",
+    "plural and inflected": "babysittete; hat babygesittet",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "hei\u00c3\u0178en",
+    "english": "to be called",
+    "part of speech": "",
+    "plural and inflected": "hie\u00c3\u0178; hat gehei\u00c3\u0178en",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "guter/schlechter Laune sein",
+    "english": "to be in a good/bad mood",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "auspassen auf",
+    "english": "to look after",
+    "part of speech": "verb",
+    "plural and inflected": "passte auf auf; hat auf aufgepsasst",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "feiern",
+    "english": "to celebrate",
+    "part of speech": "verb",
+    "plural and inflected": "feierte; hat gefeiert",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "plaudern",
+    "english": "to chat",
+    "part of speech": "verb",
+    "plural and inflected": "plauderte; hat geplaudert",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "schwatzen",
+    "english": "to gossip",
+    "part of speech": "verb",
+    "plural and inflected": "schwatzte; hat geschwatzt",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "chatten",
+    "english": "to chat (online)",
+    "part of speech": "verb",
+    "plural and inflected": "chattete; hat gechattet",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sich scheiden (lassen)",
+    "english": "to get divorced",
+    "part of speech": "verb",
+    "plural and inflected": "haben sich geschieden/scheiden lassen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sich verloben",
+    "english": "to get engaged",
+    "part of speech": "verb",
+    "plural and inflected": "verlobte sich; hat sich verlobt",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "auskommen (mit)",
+    "english": "to get along (with)",
+    "part of speech": "verb",
+    "plural and inflected": "kam aus; ist ausgekommen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "einladen",
+    "english": "to invite",
+    "part of speech": "verb",
+    "plural and inflected": "lud ein; hat eingeladen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "aussehen",
+    "english": "to look, to appear",
+    "part of speech": "verb",
+    "plural and inflected": "sah aus; hat ausgesehen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "Respekt haben (vor)",
+    "english": "to respect",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sich trennen",
+    "english": "to separate, to split up",
+    "part of speech": "verb",
+    "plural and inflected": "trennte sich; hat getrennt",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "besuchen",
+    "english": "to visit, to attend",
+    "part of speech": "verb",
+    "plural and inflected": "besuchte; hat besucht",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Schildkr\u00c3\u00b6te",
+    "english": "tortoise",
+    "part of speech": "noun",
+    "plural and inflected": "die Schildkr\u00c3\u00b6ten",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die tropische Fische",
+    "english": "tropical fish (pl)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "Zwillings-",
+    "english": "twin",
+    "part of speech": "",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "Zwillinge",
+    "english": "twins",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "h\u00c3\u00a4sslich",
+    "english": "ugly",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Onkel",
+    "english": "uncle",
+    "part of speech": "noun",
+    "plural and inflected": "die Onkel",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "arbeitslos",
+    "english": "unemployed",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unertr\u00c3\u00a4glich",
+    "english": "unbearable",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unordentlich",
+    "english": "untidy",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Besuch",
+    "english": "visit",
+    "part of speech": "noun",
+    "plural and inflected": "die Besuche",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "artig",
+    "english": "well behaved (1)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "brav",
+    "english": "well behaved (2)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Ehefrau",
+    "english": "wife",
+    "part of speech": "noun",
+    "plural and inflected": "die Ehefrauen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Frau",
+    "english": "woman",
+    "part of speech": "noun",
+    "plural and inflected": "die Frauen",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Jugend",
+    "english": "youth, childhood",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::23_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die Bekannte",
+    "english": "acquaintance",
+    "part of speech": "noun",
+    "plural and inflected": "die Bekannte",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "adoptiert",
+    "english": "adopted",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unternehmungslustig",
+    "english": "adventurous (of a person)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "abenteuerlich",
+    "english": "adventurous (of a situation)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "\u00c3\u00a4rgerlich",
+    "english": "annoying",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Streit",
+    "english": "argument",
+    "part of speech": "noun",
+    "plural and inflected": "die Streite",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "arrogant",
+    "english": "arrogant",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Karriere",
+    "english": "career",
+    "part of speech": "noun",
+    "plural and inflected": "die Karrieren",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Charaktereigenschaft",
+    "english": "character trait",
+    "part of speech": "noun",
+    "plural and inflected": "die Charaktereigenschaften",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "frech",
+    "english": "cheeky",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "bequem",
+    "english": "comfortable (of an object)",
+    "part of speech": "adjective, adverb",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "eingebildet",
+    "english": "conceited",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "verr\u00c3\u00bcckt",
+    "english": "crazy",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die (gute/schlechte) Tat",
+    "english": "(good/bad) deed",
+    "part of speech": "noun",
+    "plural and inflected": "(gute/schlechte) Taten",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "deprimiert",
+    "english": "depressed",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Diskriminierung",
+    "english": "discrimination",
+    "part of speech": "noun",
+    "plural and inflected": "die Diskriminierungen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "neidisch",
+    "english": "envious",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Glaube",
+    "english": "faith, belief",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die Verlobte",
+    "english": "fianc\u00c3\u00a9(e)",
+    "part of speech": "noun",
+    "plural and inflected": "die Verlobten",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Freund",
+    "english": "friend (male)",
+    "part of speech": "noun",
+    "plural and inflected": "die Freunde",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Freundin",
+    "english": "friend (female)",
+    "part of speech": "noun",
+    "plural and inflected": "die Freundinnen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "m\u00c3\u00b6bliert",
+    "english": "furnished",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Bande",
+    "english": "gang (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Banden",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Gruppe",
+    "english": "gang (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Gruppen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Geschlecht",
+    "english": "gender, sex",
+    "part of speech": "noun",
+    "plural and inflected": "die Geschlechter",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "gro\u00c3\u0178z\u00c3\u00bcgig",
+    "english": "generous",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Humor",
+    "english": "humour",
+    "part of speech": "noun",
+    "plural and inflected": "die Humore",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die eineiige Zwillinge",
+    "english": "identical twins",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unabh\u00c3\u00a4ngig",
+    "english": "independent",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "eifers\u00c3\u00bcchtig",
+    "english": "jealous",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Treue",
+    "english": "loyalty",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Treffen",
+    "english": "meeting",
+    "part of speech": "noun",
+    "plural and inflected": "die Treffen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das (hohes) Alter",
+    "english": "old age",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Dritte Alter",
+    "english": "third age",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Altersheim",
+    "english": "old people's home",
+    "part of speech": "noun",
+    "plural and inflected": "die Alterheime",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Seniorenheim",
+    "english": "senior citizens' home",
+    "part of speech": "noun",
+    "plural and inflected": "die Seniorenheime",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Rentner",
+    "english": "pensioner (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Rentner",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Rentnerin",
+    "english": "pensioner (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Rentnerinnen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Senior",
+    "english": "senior citizen (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Senioren",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Seniorin",
+    "english": "senior citizen (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Seniorinnen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "angeberisch",
+    "english": "pretentious",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Priester",
+    "english": "priest (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Priester",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Priesterin",
+    "english": "priest (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Priesterinnen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Pfarrer",
+    "english": "pastor (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Pfarrer",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Pfarrerin",
+    "english": "pastor (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Pfarrerinnen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "rassistisch",
+    "english": "racist",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "die Beziehung",
+    "english": "relationship",
+    "part of speech": "noun",
+    "plural and inflected": "die Beziehungen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die Verwandte",
+    "english": "relative",
+    "part of speech": "noun",
+    "plural and inflected": "die Verwandten",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "entspannt",
+    "english": "relaxed",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "zuverl\u00c3\u00a4ssig",
+    "english": "reliable",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Vorbild",
+    "english": "role model",
+    "part of speech": "noun",
+    "plural and inflected": "die Vorbilder",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "selbstsicher",
+    "english": "self-confident (action)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "selbstbewusst",
+    "english": "self-confident (personality)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "empfindlich",
+    "english": "sensitive (easily offended)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sensibel",
+    "english": "sensitive (sympathy for others)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der Sinn f\u00c3\u00bcr Humor",
+    "english": "sense of humour",
+    "part of speech": "noun",
+    "plural and inflected": "die Sinne f\u00c3\u00bcr Humor",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "sexistisch",
+    "english": "sexist",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "\u00c3\u00a4hnlich",
+    "english": "similar",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die Alleinerziehende",
+    "english": "single parent",
+    "part of speech": "noun",
+    "plural and inflected": "die Alleinerziehenden",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "der/die Alleinstehende",
+    "english": "single person",
+    "part of speech": "noun",
+    "plural and inflected": "die Alleinstehenden",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "verw\u00c3\u00b6hnt",
+    "english": "spoilt",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "dickk\u00c3\u00b6pfig",
+    "english": "stubborn (1)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "stur",
+    "english": "stubborn (2)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "benachteiligen",
+    "english": "to disadvantage",
+    "part of speech": "verb",
+    "plural and inflected": "benachteiligte; hat benachteiligt",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "erleben",
+    "english": "to experience (1)",
+    "part of speech": "verb",
+    "plural and inflected": "erlebte; hat erlebt",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "erfahren",
+    "english": "to experience (2)",
+    "part of speech": "verb",
+    "plural and inflected": "erfuhr; hat erfahren",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "auspassen auf",
+    "english": "to look after",
+    "part of speech": "verb",
+    "plural and inflected": "passte auf auf; hat auf aufgepsasst",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "gleichen",
+    "english": "to look alike",
+    "part of speech": "verb",
+    "plural and inflected": "glich; hat geglichen",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "mobben",
+    "english": "to pick on (bully)",
+    "part of speech": "verb",
+    "plural and inflected": "mobbte; hat gemobbt",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "schikanieren",
+    "english": "to pick on (general term)",
+    "part of speech": "verb",
+    "plural and inflected": "schikanierte; hat schikaniert",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "\u00c3\u00a4hneln",
+    "english": "to resemble",
+    "part of speech": "",
+    "plural and inflected": "\u00c3\u00a4hnelte; hat ge\u00c3\u00a4hnelt",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "leiden",
+    "english": "to suffer",
+    "part of speech": "verb",
+    "plural and inflected": "litt; hat gelitten",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "unterst\u00c3\u00bctzen",
+    "english": "to support",
+    "part of speech": "verb",
+    "plural and inflected": "unterst\u00c3\u00bctzte; hat unterst\u00c3\u00bctzt",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "danken",
+    "english": "to thank",
+    "part of speech": "verb",
+    "plural and inflected": "dankte; hat gedankt",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "minderj\u00c3\u00a4hrig",
+    "english": "underage",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "das Verst\u00c3\u00a4ndnis",
+    "english": "understanding (noun)",
+    "part of speech": "noun",
+    "plural and inflected": "die Verst\u00c3\u00a4ndnisse",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "verst\u00c3\u00a4ndnisvoll",
+    "english": "understanding (adj)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ausgeglichen",
+    "english": "well balanced (person)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  },
+  {
+    "german": "ausgewogen",
+    "english": "well balanced (in harmony)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::24_Relations,_relationships,_personal_and_physical_ch"
+  }
+]

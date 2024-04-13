@@ -1,0 +1,1528 @@
+[
+  {
+    "german": "das Abitur",
+    "english": "A Levels (German equivalent)",
+    "part of speech": "noun",
+    "plural and inflected": "die Abiture",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "abwesend",
+    "english": "absent",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Leistung",
+    "english": "achievement",
+    "part of speech": "noun",
+    "plural and inflected": "die Leistungen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Antwort",
+    "english": "answer",
+    "part of speech": "noun",
+    "plural and inflected": "die Antworten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Kunst",
+    "english": "art",
+    "part of speech": "noun",
+    "plural and inflected": "die K\u00c3\u00bcnste",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Klassenarbeit",
+    "english": "assessment",
+    "part of speech": "noun",
+    "plural and inflected": "die Klassenarbeiten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Biologie",
+    "english": "biology",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Tafel",
+    "english": "board",
+    "part of speech": "noun",
+    "plural and inflected": "die Tafeln",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Buch",
+    "english": "book",
+    "part of speech": "noun",
+    "plural and inflected": "die B\u00c3\u00bccher",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Pause",
+    "english": "pause",
+    "part of speech": "noun",
+    "plural and inflected": "die Pausen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Taschenrechner",
+    "english": "calculator",
+    "part of speech": "noun",
+    "plural and inflected": "die Taschenrechner",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Kantine",
+    "english": "canteen",
+    "part of speech": "noun",
+    "plural and inflected": "die Kantinen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Berufsberater",
+    "english": "careers advisor",
+    "part of speech": "noun",
+    "plural and inflected": "die Berufsberater",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Hausmeister",
+    "english": "caretaker",
+    "part of speech": "noun",
+    "plural and inflected": "die Hausmeister",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Umkleideraum",
+    "english": "changing room",
+    "part of speech": "noun",
+    "plural and inflected": "die Umkleider\u00c3\u00a4ume",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Chemie",
+    "english": "chemistry",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Chor",
+    "english": "choir",
+    "part of speech": "noun",
+    "plural and inflected": "die Ch\u00c3\u00b6re",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Klassenzimmer",
+    "english": "classroom",
+    "part of speech": "noun",
+    "plural and inflected": "die Klassenzimmer",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "klug",
+    "english": "clever",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Gesamtschule",
+    "english": "comprehensive school",
+    "part of speech": "noun",
+    "plural and inflected": "die Gesamtschulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Kopie",
+    "english": "copy (of an exam paper)",
+    "part of speech": "noun",
+    "plural and inflected": "die Kopien",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Gang",
+    "english": "corridor",
+    "part of speech": "noun",
+    "plural and inflected": "die G\u00c3\u00a4nge",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Werken",
+    "english": "design technology",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schreibtisch",
+    "english": "desk",
+    "part of speech": "noun",
+    "plural and inflected": "die Schreibtische",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "nachsitzen",
+    "english": "to be in detention",
+    "part of speech": "verb",
+    "plural and inflected": "sa\u00c3\u0178 nach; hat nachgesessen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das W\u00c3\u00b6rterbuch",
+    "english": "dictionary",
+    "part of speech": "noun",
+    "plural and inflected": "die W\u00c3\u00b6rterb\u00c3\u00bccher",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Theater",
+    "english": "drama, theater",
+    "part of speech": "noun",
+    "plural and inflected": "die Theater",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Theatergruppe",
+    "english": "drama group",
+    "part of speech": "noun",
+    "plural and inflected": "die Theatergruppen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Zeichnen",
+    "english": "drawing",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Bildung",
+    "english": "education",
+    "part of speech": "noun",
+    "plural and inflected": "die Bildungen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Englisch",
+    "english": "English",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Pr\u00c3\u00bcfung",
+    "english": "exam",
+    "part of speech": "noun",
+    "plural and inflected": "die Pr\u00c3\u00bcfungen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Austausch",
+    "english": "exchange",
+    "part of speech": "noun",
+    "plural and inflected": "die Austausche",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die \u00c3\u0153bung",
+    "english": "exercise",
+    "part of speech": "noun",
+    "plural and inflected": "die \u00c3\u0153bungen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Heft",
+    "english": "exercise book",
+    "part of speech": "noun",
+    "plural and inflected": "die Hefte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Experiment",
+    "english": "experiment",
+    "part of speech": "noun",
+    "plural and inflected": "die Experimente",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "gerecht",
+    "english": "fair",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Filzstift",
+    "english": "felt tip",
+    "part of speech": "noun",
+    "plural and inflected": "die Filzstifte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "erster Schultag",
+    "english": "first day of school",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Fremdsprache",
+    "english": "foreign language",
+    "part of speech": "noun",
+    "plural and inflected": "die Fremdsprachen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der F\u00c3\u00bcller",
+    "english": "fountain pen",
+    "part of speech": "noun",
+    "plural and inflected": "die F\u00c3\u00bcller",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Franz\u00c3\u00b6sisch",
+    "english": "French",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Zukunftspl\u00c3\u00a4ne",
+    "english": "future plans",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Mittlere Reife",
+    "english": "GCSE (German equivalent)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Erdkunde",
+    "english": "geography",
+    "part of speech": "noun",
+    "plural and inflected": "no plural",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Deutsch",
+    "english": "German",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Klebstoff",
+    "english": "glue",
+    "part of speech": "noun",
+    "plural and inflected": "die Klebstoffe",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Gymnasium",
+    "english": "grammar school",
+    "part of speech": "noun",
+    "plural and inflected": "die Gymnasien",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Turnhalle",
+    "english": "gym",
+    "part of speech": "noun",
+    "plural and inflected": "die Turnhallen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Gymnastik",
+    "english": "gymnastics (modern term)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Turnen",
+    "english": "gymnastics (old fashioned term for sports in general)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "flei\u00c3\u0178ig",
+    "english": "hardworking",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schulleiter",
+    "english": "headteacher (position)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schulleiter",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Direktor",
+    "english": "headteacher (person)",
+    "part of speech": "noun",
+    "plural and inflected": "die Direktoren",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Geschichte",
+    "english": "history, story",
+    "part of speech": "noun",
+    "plural and inflected": "die Geschichten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Geisteswissenschaften",
+    "english": "humanities",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die (Schul)ferien",
+    "english": "(school) holidays",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Hausaufgabe",
+    "english": "homework",
+    "part of speech": "noun",
+    "plural and inflected": "die Hausaufgaben",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Informatik",
+    "english": "ICT",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Italienisch",
+    "english": "Italian",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Kindergarten",
+    "english": "kindergarten",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Labor",
+    "english": "laboratory",
+    "part of speech": "noun",
+    "plural and inflected": "die Labore",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Sprache",
+    "english": "language",
+    "part of speech": "noun",
+    "plural and inflected": "die Sprachen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Sprachlabor",
+    "english": "language lab",
+    "part of speech": "noun",
+    "plural and inflected": "die Sprachlabore",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Latein",
+    "english": "Latin",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Unterricht",
+    "english": "lesson",
+    "part of speech": "noun",
+    "plural and inflected": "die Unterrichte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Bibliothek",
+    "english": "library",
+    "part of speech": "noun",
+    "plural and inflected": "die Bibliotheken",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Mittagspause",
+    "english": "lunch break",
+    "part of speech": "noun",
+    "plural and inflected": "die Mittagspausen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Note",
+    "english": "mark, grade",
+    "part of speech": "noun",
+    "plural and inflected": "die Noten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Mathematik",
+    "english": "mathematics",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Medienwissenschaft",
+    "english": "media studies",
+    "part of speech": "noun",
+    "plural and inflected": "die Medienwissenschaften",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "gemischt",
+    "english": "mixed",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Musik",
+    "english": "music",
+    "part of speech": "noun",
+    "plural and inflected": "die Musiken",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "m\u00c3\u00bcndlich",
+    "english": "oral",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schreibblock",
+    "english": "pad of paper",
+    "part of speech": "noun",
+    "plural and inflected": "die Schreibbl\u00c3\u00b6cke",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Seite",
+    "english": "page",
+    "part of speech": "noun",
+    "plural and inflected": "die Seiten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Sport",
+    "english": "sport",
+    "part of speech": "noun",
+    "plural and inflected": "die Sporte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Kuli",
+    "english": "pen (ballpoint)",
+    "part of speech": "noun",
+    "plural and inflected": "die Kulis",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Bleistift",
+    "english": "pencil",
+    "part of speech": "noun",
+    "plural and inflected": "die Bleistifte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Etui",
+    "english": "pencil case",
+    "part of speech": "noun",
+    "plural and inflected": "die Etuis",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Stunde",
+    "english": "period (hour)",
+    "part of speech": "noun",
+    "plural and inflected": "die Stunden",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Physik",
+    "english": "physics",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Projekt",
+    "english": "project",
+    "part of speech": "noun",
+    "plural and inflected": "die Projekte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schulhof",
+    "english": "playground",
+    "part of speech": "noun",
+    "plural and inflected": "die Schulh\u00c3\u00b6fe",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "anwesend",
+    "english": "present",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Grundschule",
+    "english": "primary school",
+    "part of speech": "noun",
+    "plural and inflected": "die Grundschulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Privatschule",
+    "english": "private school",
+    "part of speech": "noun",
+    "plural and inflected": "die Privatschulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Fortschritt",
+    "english": "progress",
+    "part of speech": "noun",
+    "plural and inflected": "die Fortschritte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Projektor",
+    "english": "projector",
+    "part of speech": "noun",
+    "plural and inflected": "die Projektoren",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Sch\u00c3\u00bcler",
+    "english": "pupil (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Sch\u00c3\u00bcler",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Sch\u00c3\u00bclerin",
+    "english": "pupil (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Sch\u00c3\u00bclerinnen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Qualifikation",
+    "english": "qualification",
+    "part of speech": "noun",
+    "plural and inflected": "die Qualifikationen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Frage",
+    "english": "question",
+    "part of speech": "noun",
+    "plural and inflected": "die Fragen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Religion",
+    "english": "religion",
+    "part of speech": "noun",
+    "plural and inflected": "die Religionen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Resultat",
+    "english": "result",
+    "part of speech": "noun",
+    "plural and inflected": "die Resultate",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Radiergummi",
+    "english": "rubber",
+    "part of speech": "noun",
+    "plural and inflected": "die Radiergummis",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Regel",
+    "english": "rule",
+    "part of speech": "noun",
+    "plural and inflected": "die Regeln",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Lineal",
+    "english": "ruler",
+    "part of speech": "noun",
+    "plural and inflected": "die Lineale",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Schule",
+    "english": "school",
+    "part of speech": "noun",
+    "plural and inflected": "die Schulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Schultasche",
+    "english": "school bag",
+    "part of speech": "noun",
+    "plural and inflected": "die Schultaschen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Schulbuch",
+    "english": "school book",
+    "part of speech": "noun",
+    "plural and inflected": "die Schulb\u00c3\u00bccher",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schulbus",
+    "english": "school bus",
+    "part of speech": "noun",
+    "plural and inflected": "die Schulbusse",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schultag",
+    "english": "school day",
+    "part of speech": "noun",
+    "plural and inflected": "die Schultage",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Aula",
+    "english": "school hall",
+    "part of speech": "noun",
+    "plural and inflected": "die Aulas",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schulabschluss",
+    "english": "school leaving certificate",
+    "part of speech": "noun",
+    "plural and inflected": "die Schulabschl\u00c3\u00bcsse",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Sch\u00c3\u00bclerzeitung",
+    "english": "school newspaper",
+    "part of speech": "noun",
+    "plural and inflected": "die Sch\u00c3\u00bclerzeitungen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Sekretariat",
+    "english": "school office",
+    "part of speech": "noun",
+    "plural and inflected": "die Sekretariate",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Zeugnis",
+    "english": "school report",
+    "part of speech": "noun",
+    "plural and inflected": "die Zeugnisse",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Klassenfahrt",
+    "english": "school trip",
+    "part of speech": "noun",
+    "plural and inflected": "die Klassenfahrte",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Schuljahr",
+    "english": "school year",
+    "part of speech": "noun",
+    "plural and inflected": "die Schuljahre",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Naturwissenschaften",
+    "english": "sciences",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Schere",
+    "english": "scissors",
+    "part of speech": "noun",
+    "plural and inflected": "die Scheren",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Arbeit",
+    "english": "script (exam paper)",
+    "part of speech": "noun",
+    "plural and inflected": "die Arbeiten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Hauptschule",
+    "english": "secondary school (lower ability)",
+    "part of speech": "noun",
+    "plural and inflected": "die Hauptschulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Realschule",
+    "english": "secondary school (middle ability)",
+    "part of speech": "noun",
+    "plural and inflected": "die Realschulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Semester",
+    "english": "semester",
+    "part of speech": "noun",
+    "plural and inflected": "die Semester",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Spitzer",
+    "english": "sharpener",
+    "part of speech": "noun",
+    "plural and inflected": "die Spitzer",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Oberstufe",
+    "english": "sixth form",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Soziologie",
+    "english": "sociology",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Spanisch",
+    "english": "Spanish",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Sportplatz",
+    "english": "sports ground",
+    "part of speech": "noun",
+    "plural and inflected": "die Sportpl\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Sporthalle",
+    "english": "sports hall",
+    "part of speech": "noun",
+    "plural and inflected": "die Sporthallen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Lehrerzimmer",
+    "english": "staff room",
+    "part of speech": "noun",
+    "plural and inflected": "die Lehrerzimmer",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "staatliche Schule",
+    "english": "state school",
+    "part of speech": "noun",
+    "plural and inflected": "staatliche Schulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "streng",
+    "english": "strict",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "stark",
+    "english": "strong (good at)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Fach",
+    "english": "subject",
+    "part of speech": "noun",
+    "plural and inflected": "die F\u00c3\u00a4cher",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Erfolg",
+    "english": "success",
+    "part of speech": "noun",
+    "plural and inflected": "die Erfolge",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "erfolgreich",
+    "english": "successful",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Sommerferien",
+    "english": "summer holidays",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Mannschaft",
+    "english": "team",
+    "part of speech": "noun",
+    "plural and inflected": "die Mannschaften",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Trimester",
+    "english": "term",
+    "part of speech": "noun",
+    "plural and inflected": "die Trimester",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Krawatte",
+    "english": "tie (1)",
+    "part of speech": "noun",
+    "plural and inflected": "die Krawatten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Schlips",
+    "english": "tie (2)",
+    "part of speech": "noun",
+    "plural and inflected": "die Schlipse",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Tipp-Ex",
+    "english": "tippex",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Stundenplan",
+    "english": "timetable",
+    "part of speech": "noun",
+    "plural and inflected": "die Stundenpl\u00c3\u00a4ne",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "antworten",
+    "english": "to answer (dative)",
+    "part of speech": "verb",
+    "plural and inflected": "antwortete; hat geantwortet",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "beantworten",
+    "english": "to answer (accusative)",
+    "part of speech": "verb",
+    "plural and inflected": "beantwortete; hat beantwortet",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Schule besuchen",
+    "english": "to attend school",
+    "part of speech": "verb",
+    "plural and inflected": "besuchte Schule; hat Schule besucht",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "rechnen",
+    "english": "to count, to calculate",
+    "part of speech": "verb",
+    "plural and inflected": "rechnete; hat gerechnet",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "weitermachen",
+    "english": "to continue",
+    "part of speech": "verb",
+    "plural and inflected": "machte weiter; hat weitergemacht",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "kopieren",
+    "english": "to copy",
+    "part of speech": "verb",
+    "plural and inflected": "kopierte; hat kopiert",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "korrigieren",
+    "english": "to correct",
+    "part of speech": "verb",
+    "plural and inflected": "korrigierte; hat korrigiert",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "diskutieren",
+    "english": "to discuss (talk formally)",
+    "part of speech": "verb",
+    "plural and inflected": "diskutierte; hat diskutiert",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "zeichnen",
+    "english": "to draw",
+    "part of speech": "verb",
+    "plural and inflected": "zeichnete; hat gezeichnet",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "durchfallen",
+    "english": "to fail",
+    "part of speech": "verb",
+    "plural and inflected": "fiel durch; hat durchgefallen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "ausf\u00c3\u00bcllen",
+    "english": "to fill out",
+    "part of speech": "verb",
+    "plural and inflected": "f\u00c3\u00bcllte aus; hat ausgef\u00c3\u00bcllt",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "dauern",
+    "english": "to last",
+    "part of speech": "verb",
+    "plural and inflected": "dauerte; hat gedauert",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "bestehen",
+    "english": "to pass (an exam)",
+    "part of speech": "verb",
+    "plural and inflected": "bestand; hat bestanden",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "aufpassen",
+    "english": "to pay attention",
+    "part of speech": "verb",
+    "plural and inflected": "passte auf; hat aufgepasst",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "\u00c3\u00bcben",
+    "english": "to practise",
+    "part of speech": "verb",
+    "plural and inflected": "\u00c3\u00bcbte; hat ge\u00c3\u00bcbt",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "lesen",
+    "english": "to read",
+    "part of speech": "verb",
+    "plural and inflected": "las; hat gelesen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "wiederholen",
+    "english": "to repeat, to revise",
+    "part of speech": "verb",
+    "plural and inflected": "wiederholte; hat wiederholt",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "sitzen bleiben",
+    "english": "to repeat a year",
+    "part of speech": "verb",
+    "plural and inflected": "blieb sitzen; ist sitzengeblieben",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "singen",
+    "english": "to sing",
+    "part of speech": "verb",
+    "plural and inflected": "sang; hat gesungen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "eine Pr\u00c3\u00bcfung machen",
+    "english": "to sit an exam",
+    "part of speech": "verb",
+    "plural and inflected": "machte eine Pr\u00c3\u00bcfung; hat eine Pr\u00c3\u00bcfung gemacht",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "studieren",
+    "english": "to study",
+    "part of speech": "verb",
+    "plural and inflected": "studierte; hat studiert",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "unterrichten",
+    "english": "to teach",
+    "part of speech": "verb",
+    "plural and inflected": "unterrichtete; hat unterrichtet",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "verstehen",
+    "english": "to understand",
+    "part of speech": "verb",
+    "plural and inflected": "verstand; hat verstanden",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "flei\u00c3\u0178ig arbeiten",
+    "english": "to work hard",
+    "part of speech": "verb",
+    "plural and inflected": "arbeitete flei\u00c3\u0178ig; hat flei\u00c3\u0178ig gearbeitet",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Ausbildung",
+    "english": "training, education",
+    "part of speech": "noun",
+    "plural and inflected": "die Ausbildungen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "ungerecht",
+    "english": "unfair",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Uniform",
+    "english": "uniform",
+    "part of speech": "noun",
+    "plural and inflected": "die Uniformen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Student",
+    "english": "university student (m)",
+    "part of speech": "noun",
+    "plural and inflected": "die Studenten",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Studentin",
+    "english": "university student (f)",
+    "part of speech": "noun",
+    "plural and inflected": "die Studentinnen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "die Berufsschule",
+    "english": "vocational school",
+    "part of speech": "noun",
+    "plural and inflected": "die Berufsschulen",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "schwach",
+    "english": "weak",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "das Arbeitsblatt",
+    "english": "work sheet",
+    "part of speech": "noun",
+    "plural and inflected": "die Arbeitsbl\u00c3\u00a4tter",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Klasse sechs (German schools)",
+    "english": "year 7 (English schools)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Klasse sieben (German schools)",
+    "english": "year 8 (English schools)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Klasse acht (German schools)",
+    "english": "year 9 (English schools)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Klasse neun (German schools)",
+    "english": "year 10 (English schools)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Klasse zehn (German schools)",
+    "english": "year 11 (English schools)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Klasse elf (German schools)",
+    "english": "year 12 (English schools)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "Klasse zw\u00c3\u00b6lf (German schools)",
+    "english": "year 13 (English schools)",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::36_School_(F)"
+  },
+  {
+    "german": "der Abiturient",
+    "english": "student (who has passed the A Level equivalent)",
+    "part of speech": "noun",
+    "plural and inflected": "die Abiturienten",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "das Internat",
+    "english": "boarding school",
+    "part of speech": "noun",
+    "plural and inflected": "die Internate",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Wirtschaftslehre",
+    "english": "business studies",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "das Klassenbuch",
+    "english": "class register",
+    "part of speech": "noun",
+    "plural and inflected": "die Klassenb\u00c3\u00bccher",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "das Pflichtfach",
+    "english": "compulsory subject",
+    "part of speech": "noun",
+    "plural and inflected": "die Pflichtf\u00c3\u00a4cher",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "der Hochschulabschluss",
+    "english": "degree",
+    "part of speech": "noun",
+    "plural and inflected": "die Hochschulabschlusse",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "der Fernunterricht",
+    "english": "distance learning",
+    "part of speech": "noun",
+    "plural and inflected": "die Fernunterrichte",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "der Aufsatz",
+    "english": "essay",
+    "part of speech": "noun",
+    "plural and inflected": "die Aufs\u00c3\u00a4tze",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Abschlusspr\u00c3\u00bcfung",
+    "english": "final exam",
+    "part of speech": "noun",
+    "plural and inflected": "die Abschlusspr\u00c3\u00bcfungen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "der Fremdsprachenassistent",
+    "english": "foreign language assistant",
+    "part of speech": "noun",
+    "plural and inflected": "die Fremdsprachenassistenten",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "begabt",
+    "english": "gifted",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Kopfh\u00c3\u00b6rer",
+    "english": "headphones",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Patrone",
+    "english": "ink cartridge",
+    "part of speech": "noun",
+    "plural and inflected": "die Patronen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Besprechung",
+    "english": "meeting, discussion",
+    "part of speech": "noun",
+    "plural and inflected": "die Besprechungen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "n\u00c3\u00b6tig",
+    "english": "necessary (1)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "notwendig",
+    "english": "necessary (2)",
+    "part of speech": "adjective",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "das Wahlfach",
+    "english": "optional subject",
+    "part of speech": "noun",
+    "plural and inflected": "die Wahlf\u00c3\u00a4cher",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "der Elternsprechabend",
+    "english": "parents' evening",
+    "part of speech": "noun",
+    "plural and inflected": "die Elternsprechabende",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Erlaubnis",
+    "english": "permission",
+    "part of speech": "noun",
+    "plural and inflected": "die Erlaubnisse",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "der Leistungsdruck",
+    "english": "pressure to perform well",
+    "part of speech": "noun",
+    "plural and inflected": "die Leistungsdrucke",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Aussprache",
+    "english": "pronunciation",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "das Studium",
+    "english": "studies",
+    "part of speech": "noun",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "das Tutor",
+    "english": "supervisor",
+    "part of speech": "noun",
+    "plural and inflected": "die Tutoren",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "vereinbaren",
+    "english": "to agree",
+    "part of speech": "verb",
+    "plural and inflected": "vereinbarte; hat vereinbart",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "eine Frage stellen",
+    "english": "to ask a question",
+    "part of speech": "verb",
+    "plural and inflected": "eine Frage stellte; hat eine Frage gestellt",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "ausfallen",
+    "english": "to be cancelled (lesson)",
+    "part of speech": "verb",
+    "plural and inflected": "fiel aus; hat ausgefallen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "mit etwas einverstanden sein",
+    "english": "to be in agreement with something",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "nachsitzen",
+    "english": "to be in detention",
+    "part of speech": "verb",
+    "plural and inflected": "sa\u00c3\u0178 nach; hat nachgesessen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "abw\u00c3\u00a4hlen",
+    "english": "to drop a subject",
+    "part of speech": "verb",
+    "plural and inflected": "w\u00c3\u00a4hlte ab; hat abgew\u00c3\u00a4hlt",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "erweitern",
+    "english": "to expand (one's knowledge)",
+    "part of speech": "verb",
+    "plural and inflected": "erweiterte; hat erweitert",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "erkl\u00c3\u00a4ren",
+    "english": "to explain",
+    "part of speech": "verb",
+    "plural and inflected": "erkl\u00c3\u00a4rte; hat erkl\u00c3\u00a4rte",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "folgen",
+    "english": "to follow",
+    "part of speech": "verb",
+    "plural and inflected": "folgte; ist gefolgt",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "versetzt werden",
+    "english": "to move up (a year)",
+    "part of speech": "expression",
+    "plural and inflected": "",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "aussprechen",
+    "english": "to pronounce",
+    "part of speech": "verb",
+    "plural and inflected": "sprach aus; hat ausgesprochen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "schw\u00c3\u00a4nzen",
+    "english": "to skip school",
+    "part of speech": "verb",
+    "plural and inflected": "schw\u00c3\u00a4nzte; hat geschw\u00c3\u00a4nzt",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "buchstabieren",
+    "english": "to spell",
+    "part of speech": "verb",
+    "plural and inflected": "buchstabierte; hat buchstabiert",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "lehren",
+    "english": "to teach",
+    "part of speech": "verb",
+    "plural and inflected": "lehrte; hat gelehrt",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "\u00c3\u00bcbersetzen",
+    "english": "to translate",
+    "part of speech": "verb",
+    "plural and inflected": "\u00c3\u00bcbersetzte; hat \u00c3\u00bcbersetzt",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "das Ausbildungszentrum",
+    "english": "training centre",
+    "part of speech": "noun",
+    "plural and inflected": "die Ausbildungszentren",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die \u00c3\u0153bersetzung",
+    "english": "translation",
+    "part of speech": "noun",
+    "plural and inflected": "die \u00c3\u0153bersetzungen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Universit\u00c3\u00a4t",
+    "english": "university",
+    "part of speech": "noun",
+    "plural and inflected": "die Universit\u00c3\u00a4ten",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Zeitverschwendung",
+    "english": "waste of time",
+    "part of speech": "noun",
+    "plural and inflected": "die Zeitverschwendungen",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  },
+  {
+    "german": "die Strafarbeit",
+    "english": "written punishment",
+    "part of speech": "noun",
+    "plural and inflected": "die Strafarbeite",
+    "level": "GCSE_German_(Pearson_2022)::37_School_(H)"
+  }
+]

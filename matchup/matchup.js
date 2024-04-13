@@ -8,10 +8,6 @@ let timer;
 let s = 0, m = 0;
 let formattedTime;
 
-let definition_found = false;
-let symbol_found = false;
-let has_symbols;
-
 function startStopwatch() {
     timer = setInterval(function () {
     s++;
@@ -67,9 +63,7 @@ function loadJSON(callback) {
 }
 
 function pickRandomItems(array, correct) {
-    if (array.length <= 10) {
-        return array;
-    }
+    if (array.length <= 10) { return array; }
     
     let randomItems = [];
     let indexes = [];
@@ -96,29 +90,11 @@ function pickRandomItems(array, correct) {
 
 async function processItem(data, current_item) {
   term_element.innerHTML = current_item.term;
-  symbol_found = false;
-  definition_found = false;
+
   data = pickRandomItems(data, current_item);
   let count = 0;
-  const nums = shuffle([9, 18, 27, 36, 45, 54, 63, 72, 81, 90]);
+  const nums = shuffle([13, 21, 29, 37, 45, 53, 61, 69, 77, 85]);
   data.forEach(item => {
-    if (item.symbol != null) {
-      const symbol = document.createElement('button');
-      const symbol_img = document.createElement('img');
-
-      symbol.setAttribute('data-img-path', item.symbol);
-      symbol_img.src = 'imgs/' + item.symbol;
-      symbol_img.style.height = '60px';
-      symbol.appendChild(symbol_img);
-      symbol.classList.add('btn', 'symbol');
-
-      symbol.style.position = 'absolute';
-      symbol.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
-      symbol.style.top = nums[count] + '%';
-
-      document.querySelector('.elements').appendChild(symbol);
-    }
-
     const definition = document.createElement('button');
 
     definition.textContent = item.meaning;
@@ -126,8 +102,8 @@ async function processItem(data, current_item) {
     definition.style.position = 'absolute';
     definition.style.fontSize = '20px';
     definition.style.textShadow = '1px 1px 10px black';
-    definition.style.left = (Math.random() * (window.innerWidth - 500) + 250) + 'px';
-    definition.style.bottom= nums[count] + '%';
+    definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
+    definition.style.top = nums[count] + '%';
 
     document.querySelector('.elements').appendChild(definition);
     count++;
@@ -139,60 +115,22 @@ async function processItem(data, current_item) {
 }
 
 function waitForButton(current_item, callback) {
-  const handleImgClick = (event) => {
-    let symbol_button;
-    if (event.target.classList.contains('btn')) {
-      symbol_button = event.target;
-    } else {
-      symbol_button = event.target.parentElement;
-    }
-    const symbol_text = symbol_button.getAttribute("data-img-path");
-    if (definition_found && symbol_text == current_item.symbol) {
-      while (container.firstChild) { container.removeChild(container.firstChild); }
-      callback(event);
-      cleanup();
-    } else if (symbol_text == current_item.symbol) { 
-      symbol_found = true;
-    }
-  }
-
   const handleTextClick = (event) => {
-    container.childNodes.forEach(function (child) {
-      child.classList.remove("btn-info");
-    });
-    event.target.classList.add("btn-info");
-    if (symbol_found && event.target.innerHTML == current_item.meaning) {
-      while (container.firstChild) { container.removeChild(container.firstChild); }
-      callback(event);
-      cleanup();
-    } else if (event.target.innerHTML == current_item.meaning) {
-      definition_found = true;
-      if (!has_symbols) {
-        while (container.firstChild) { 
-          container.removeChild(container.firstChild); 
-          callback(event);
-          cleanup();
-        }
+    if (event.target.innerHTML == current_item.meaning) {
+      while (container.firstChild) { 
+        container.removeChild(container.firstChild); 
+        callback(event);
+        cleanup();
       }
-    }
+   }
   }
 
   const cleanup = () => {
-    if (has_symbols) {
-      document.querySelectorAll('.symbol').forEach((symbol_element) => {
-        symbol_element.removeEventListener('click', handleImgClick);
-      });
-    }
     document.querySelectorAll('.definition').forEach((definition_element) => {
       definition_element.removeEventListener('click', handleTextClick);
     });
   }
-  
-  if (has_symbols) {
-    document.querySelectorAll('.symbol').forEach((symbol_element) => {
-      symbol_element.addEventListener('click', handleImgClick);
-    });
-  }
+
   document.querySelectorAll('.definition').forEach((definition_element) => {
     definition_element.addEventListener('click', handleTextClick);
   });
@@ -203,8 +141,6 @@ function waitForButton(current_item, callback) {
 async function matchup() {
   loadJSON(async function (response) {
     response = shuffle(response);
-
-    has_symbols = response[0].symbol == null ? false : true;
 
     let count = 1;
     for (const item of response) { 

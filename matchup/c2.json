@@ -1,0 +1,66 @@
+[
+  {
+    "term": "State symbol",
+    "meaning": "The four symbols used in chemical equations to represent state of matter: (aq), (s), (l) and (g)."
+  },
+  {
+    "term": "Aqueous",
+    "meaning": "A solution in which the solvent is water."
+  },
+  {
+    "term": "Alloy",
+    "meaning": "A mixture of two or more metals"
+  },
+  {
+    "term": "Delocalised",
+    "meaning": "Refers to electrons in metallic bonding leaving their shells in order to freely move around."
+  },
+  {
+    "term": "Conductor",
+    "meaning": "A substance containing particles that are free to move around to carry thermal or electrical energy."
+  },
+  {
+    "term": "Electrostatic attraction",
+    "meaning": "Strong forces between oppositely charged ions."
+  },
+  {
+    "term": "Ionic bond",
+    "meaning": "A type of bond where a non metal and a metal form oppositely charged ions, attracted to each other by electrostatic forces."
+  },
+  {
+    "term": "Giant ionic lattice",
+    "meaning": "A structure formed by ionic bonding where all particles form ionic bonds with their neighbouring particles, arranged in a chequerboard pattern."
+  },
+  {
+    "term": "Covalent bond",
+    "meaning": "A type of bond between non-metals, where they share one or more electrons."
+  },
+  {
+    "term": "Intermolecular",
+    "meaning": "The weak forces in between simple covalent molecules."
+  },
+  {
+    "term": "Giant covalent structure",
+    "meaning": "A giant structure where atoms are joined to adjacent atoms with covalent bonds."
+  },
+  {
+    "term": "Diamond",
+    "meaning": "A giant covalent structure made of carbon where each atom forms 4 covalent bonds with adjacent carbon atoms."
+  },
+  {
+    "term": "Graphite",
+    "meaning": "A giant covalent structure made of carbon where each atom forms 3 covalent bonds with adjacent atoms. Divided into layers, which are attracted to each other by intermolecular forces."
+  },
+  {
+    "term": "Graphene",
+    "meaning": "A giant covalent structure made of carbon where each atom forms 3 covalent bonds with adjacent atoms - only one layer, with a hexagonal pattern."
+  },
+  {
+    "term": "Fullerene",
+    "meaning": "A nanoparticle made from carbon atoms, with a hollow shape"
+  },
+  {
+    "term": "Nanoparticle",
+    "meaning": "Incredibly small particles with diameters between 1 and 100 nanometres."
+  }
+]
