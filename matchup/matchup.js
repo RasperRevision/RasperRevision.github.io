@@ -183,7 +183,8 @@ async function matchup() {
     if(response[0].term == null) {
       isGerman = true;
       for (const item of response) { 
-        await processGermanItem(response, item)
+        await processGermanItem(response, item);
+      }
     } else {
       isGerman = false;
       for (const item of response) { 
