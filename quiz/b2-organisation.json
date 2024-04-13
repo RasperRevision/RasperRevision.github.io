@@ -1,0 +1,102 @@
+[
+  {
+    "term": "Cell",
+    "meaning": "The basic building block of all living organisms"
+  },
+  {
+    "term": "Tissue",
+    "meaning": "A group of cells with a similar structure and function"
+  },
+  {
+    "term": "Organ",
+    "meaning": "Tissues grouped together to perform a specific function"
+  },
+  {
+    "term": "Organ systems",
+    "meaning": "A group of organs that work together to form organisms"
+  },
+  {
+    "term": "Digestive system",
+    "meaning": "An organ system where organs work together to digest and absorb food"
+  },
+  {
+    "term": "Enzyme",
+    "meaning": "A biological catalyst that increases the rate of reactions in organisms"
+  },
+  {
+    "term": "Lock and key theory",
+    "meaning": "A model that represents the way that the active site of an enzyme must be the exact shape of a substrate"
+  },
+  {
+    "term": "Amylase",
+    "meaning": "An type of carbohydrase that breaks down carbohydrates into starch. It is produced in salivary glands and the pancreas"
+  },
+  {
+    "term": "Protease",
+    "meaning": "An enzyme that breaks down proteins into amino acids. It is produced in the stomach and pancreas"
+  },
+  {
+    "term": "Lipase",
+    "meaning": "An enzyme that breaks down lipids (fats) into glycerol and fatty acids. It is produced in the pancreas"
+  },
+  {
+    "term": "Carbohydrase",
+    "meaning": "A type of enzyme that breaks down carbohydrates into simple sugars"
+  },
+  {
+    "term": "Bile",
+    "meaning": "An alkaline substance produced in the liver and stored in the gall bladder, which is used to neutralise stomach acid and emulsify fat"
+  },
+  {
+    "term": "Heart",
+    "meaning": "An organ that pumps blood around the body in a double circulatory system"
+  },
+  {
+    "term": "Right Ventricle",
+    "meaning": "A chamber of the heart which pumps blood to the lungs, where gas exchange takes place"
+  },
+  {
+    "term": "Left Ventricle",
+    "meaning": "A chamber of the heart which pumps blood to most of the body"
+  },
+  {
+    "term": "Aorta",
+    "meaning": "An artery transporting oxygenated blood from the heart to the rest of the body"
+  },
+  {
+    "term": "Vena cava",
+    "meaning": "A vein transporting deoxygenated blood from the rest of the body to the heart"
+  },
+  {
+    "term": "Pulmonary artery",
+    "meaning": "An artery transporting deoxygenated blood from the heart to the lungs"
+  },
+  {
+    "term": "Pulmonary vein",
+    "meaning": "A vein transporting oxygenated blood from the lungs to the heart"
+  },
+  {
+    "term": "Artery",
+    "meaning": "A type of blood vessel which carries blood at high pressure away from the heart"
+  },
+  {
+    "term": "Vein",
+    "meaning": "A type of blood vessel which carries blood at low pressure towards the heart"
+  },
+  {
+    "term": "Capillary",
+    "meaning": "A type of blood vessel which is very thin and is used for the exchange of substances"
+  },
+  {
+    "term": "Blood",
+    "meaning": "A tissue made up of plasma, in which platelets and red and white blood cells are suspended."
+  },
+  {
+    "term": "Coronary heart disease",
+    "meaning": "A disease caused by the buildup of fatty acids in coronary arteries, narrowing it and reducing blood flow to the heart"
+  },
+  {
+    "term": "Stent",
+    "meaning": "A metal tube which can be inserted into the body in order to keep coronary arteries open"
+  }
+]
