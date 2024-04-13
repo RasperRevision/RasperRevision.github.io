@@ -50,6 +50,7 @@
 
       <div class="history-topics home_btn_row invis" style="padding: 50px;">
         <button class="topic home_btn danger">Cold War</button>
+        <button class="topic home_btn danger">Germany 1918-1939</button>
       </div>
 
       <div class="compsci-topics flex_col invis" style="padding: 50px;">
@@ -309,6 +310,10 @@
             if (topic_chosen == "Cold War") {
               matchup_game.classList.add('invis');
               topic_chosen = "cold_war";
+            } else if (topic_chosen == "Germany 1918-1939") {
+              matchup_game.classList.add('invis');
+              blank_game.classList.add('invis');
+              topic_chosen = "germany1918-1939";
             }
           } else if (subject_chosen == "Physics") {
             physics_topic_parent.classList.add('invis');
