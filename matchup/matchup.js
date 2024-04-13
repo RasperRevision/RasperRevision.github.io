@@ -8,6 +8,8 @@ let timer;
 let s = 0, m = 0;
 let formattedTime;
 
+let isGerman;
+
 function startStopwatch() {
     timer = setInterval(function () {
     s++;
@@ -114,25 +116,62 @@ async function processItem(data, current_item) {
   });
 }
 
+async function processGermanItem(data, current_item) {
+  term_element.innerHTML = current_item.german;
+
+  data = pickRandomItems(data, current_item);
+  let count = 0;
+  const nums = shuffle([13, 21, 29, 37, 45, 53, 61, 69, 77, 85]);
+  data.forEach(item => {
+    const definition = document.createElement('button');
+
+    definition.textContent = item.english;
+    definition.classList.add('btn', 'definition', 'text-light');
+    definition.style.position = 'absolute';
+    definition.style.fontSize = '20px';
+    definition.style.textShadow = '1px 1px 10px black';
+    definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
+    definition.style.top = nums[count] + '%';
+
+    document.querySelector('.elements').appendChild(definition);
+    count++;
+  });
+
+  return new Promise((resolve) => {
+    waitForButton(current_item, resolve);
+  });
+}
+
 function waitForButton(current_item, callback) {
-  const handleTextClick = (event) => {
-    if (event.target.innerHTML == current_item.meaning) {
-      while (container.firstChild) { 
-        container.removeChild(container.firstChild); 
-        callback(event);
-        cleanup();
+  const handleClick = (event) => {
+    if(isGerman) {
+      if (event.target.innerHTML == current_item.english) {
+        while (container.firstChild) { 
+          container.removeChild(container.firstChild); 
+          callback(event);
+          cleanup();
+        }
       }
-   }
+    } else {
+      if (event.target.innerHTML == current_item.meaning) {
+        while (container.firstChild) { 
+          container.removeChild(container.firstChild); 
+          callback(event);
+          cleanup();
+        }
+      }
+    }
+
   }
 
   const cleanup = () => {
     document.querySelectorAll('.definition').forEach((definition_element) => {
-      definition_element.removeEventListener('click', handleTextClick);
+      definition_element.removeEventListener('click', handleClick);
     });
   }
 
   document.querySelectorAll('.definition').forEach((definition_element) => {
-    definition_element.addEventListener('click', handleTextClick);
+    definition_element.addEventListener('click', handleClick);
   });
 
   return cleanup;
@@ -141,12 +180,15 @@ function waitForButton(current_item, callback) {
 async function matchup() {
   loadJSON(async function (response) {
     response = shuffle(response);
-
-    let count = 1;
-    for (const item of response) { 
-      console.log(count);
-      await processItem(response, item);
-      count++;
+    if(response[0].term == null) {
+      isGerman = true;
+      for (const item of response) { 
+        await processGermanItem(response, item)
+    } else {
+      isGerman = false;
+      for (const item of response) { 
+        await processItem(response, item);
+      }
     }
 
     container.style.display = 'none';
