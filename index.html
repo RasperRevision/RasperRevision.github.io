@@ -190,10 +190,12 @@
       const page2 = document.querySelector('.page2');
 
       scroll_right.addEventListener('click', function () {
-        page1.classList.add('invis');
-        page2.classList.remove('invis');
         scroll_left.classList.remove('invis');
         scroll_right.classList.add('invis');
+        page2.classList.remove('invis');
+        page2.style.transform = 'translateX(0)';
+        page1.style.transform = 'translateX(-100vw)';
+        page1.classList.add('invis');
       });
 
       scroll_left.addEventListener('click', function () {
