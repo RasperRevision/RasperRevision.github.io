@@ -8,7 +8,7 @@ let timer;
 let s = 0, m = 0;
 let formattedTime;
 
-let isGerman;
+let isGerman = false;
 
 function startStopwatch() {
     timer = setInterval(function () {
