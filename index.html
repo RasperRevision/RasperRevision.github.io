@@ -199,10 +199,12 @@
       });
 
       scroll_left.addEventListener('click', function () {
-        page2.classList.add('invis');
-        page1.classList.remove('invis');
-        scroll_left.classList.add('invis');
         scroll_right.classList.remove('invis');
+        scroll_left.classList.add('invis');
+        page1.classList.remove('invis');
+        page1.style.transform = 'translateX(0)';
+        page2.style.transform = 'translateX(100vw)';
+        page2.classList.add('invis');
       });
 
       // Add event listener to each subject button that makes the corresponding topic buttons appear.
