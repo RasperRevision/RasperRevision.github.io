@@ -47,6 +47,14 @@ body {
   filter: brightness(0.9);
 }
 
+.page1, .page2 {
+  transition: transform 150ms ease-in-out;
+}
+
+.page2 {
+  transform: translateX(100vw);
+}
+
 .activity_head {
   height: 120px;
   padding-top: 35px;
