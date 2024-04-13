@@ -1,0 +1,70 @@
+{
+  {
+    "term": "bit",
+    "meaning": "one binary digit"
+  },
+  {
+    "term": "hexadecimal",
+    "meaning": "base 16"
+  },
+  {
+    "term": "binary",
+    "meaning": "base 2"
+  },
+  {
+    "term": "denary",
+    "meaning": "base 10"
+  },
+  {
+    "term": "byte",
+    "meaning": "8 bits"
+  },
+  {
+    "term": "bit depth",
+    "meaning": "bits per sample"
+  },
+  {
+    "term": "bit rate",
+    "meaning": "bits/second"
+  },
+  {
+    "term": "character",
+    "meaning": "a single letter, number or sumbol"
+  },
+  {
+    "term": "string",
+    "meaning": "a group of characters"
+  },
+  {
+    "term": "integer",
+    "meaning": "a whole number"
+  },
+  {
+    "term": "float",
+    "meaning": "a number with a decimal point"
+  },
+  {
+    "term": "character set",
+    "meaning": "a set of characters, like ASCII and UNICODE"
+  },
+  {
+    "term": "compression",
+    "meaning": "shortening the data needed to store it through any method"
+  },
+  {
+    "term": "nibble",
+    "meaning": "4 bits"
+  },
+  {
+    "term": "pixel",
+    "meaning": "a single block on an image"
+  },
+  {
+    "term": "resolution",
+    "meaning": "the number of pixels in an image"
+  },
+  {
+    "term": "colour depth",
+    "meaning": "bits used to represent a single colour"
+  }
+}
