@@ -28,8 +28,8 @@
     "meaning": "The combined number of protons (or electrons) and neutrons in an atom."
   },
   {
-    "term": "relative atomic mass (same with molecular)",
-    "meaning": "the mass of an atom relevant to 1 hydrogen atom",
+    "term": "Relative formula mass",
+    "meaning": "The mass of a compound relative to 1 proton or neutron",
   },
   {
     "term": "Ion",
@@ -112,8 +112,8 @@
     "meaning": "A value calculated by the average combined number of protons and neutrons, weighted by each isotope's abundance."
   },
   {
-    "term": "shells/energy levels",
-    "meaning": "different sections where electrons are, that become their full capacity to bond of become ions",
+    "term": "Electron shells/Energy levels",
+    "meaning": "Different layers where electrons are located in around an atom.",
   },
   {
     "term": "Transition metals",
