@@ -19,31 +19,21 @@ let formattedTime;
 
 let answerFound = false;
 
-home.addEventListener('click', function () {
-  location.reload();
-});
-
 function startStopwatch() {
   timer = setInterval(function () {
     s++;
-
     if (s === 60) {
       s = 0;
       m++;
     }
-  
     formattedTime = pad(m) + ':' + pad(s);
     stopwatch.innerHTML = formattedTime;
   }, 1000);
 }
 
-function stopStopwatch() {
-  clearInterval(timer);
-}
+function stopStopwatch() { clearInterval(timer); }
 
-function pad(value) {
-  return value < 10 ? '0' + value : value;
-}
+function pad(value) { return value < 10 ? '0' + value : value; }
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -272,4 +262,11 @@ if (jsonFileName != null) {
 
   quiz(jsonFileName);
   startStopwatch();
+} else {
+  document.querySelector('.no-json').classList.remove('invis');
+  term_element.classList.add('invis');
+  document.querySelectorAll('.opt').forEach(element => {
+    element.classList.add('invis');
+  });
+
 }
