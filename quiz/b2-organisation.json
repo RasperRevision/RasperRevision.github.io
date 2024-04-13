@@ -98,5 +98,41 @@
   {
     "term": "Stent",
     "meaning": "A metal tube which can be inserted into the body in order to keep coronary arteries open"
+  },
+  {
+    "term": "Statin",
+    "meaning": "A type of drug that reduces blood cholesterol levels"
+  },
+  {
+    "term": "Health",
+    "meaning": "The state of physical and mental wellbeing"
+  },
+  {
+    "term": "Cancer",
+    "meaning": "A non-communicable disease where cells grow and divide uncontrollably"
+  },
+  {
+    "term": "Benign tumor",
+    "meaning": "A cell growth which is contained in one area and does not affect other parts of the body"
+  },
+  {
+    "term": "Malignant tumor",
+    "meaning": "A cancerous cell growth that can spread to other parts of the body through the blood"
+  },
+  {
+    "term": "Palisade mesophyll",
+    "meaning": "A tissue found in plants where cells are specialised to maximise the rate of photosynthesis"
+  },
+  {
+    "term": "Spongy mesophyll",
+    "meaning": "A tissue found in plants that is specialised for the exchange of gases"
+  },
+  {
+    "term": "Xylem",
+    "meaning": "A structure found in plants which is made of dead cells and transports water and dissolved mineral ions from the roots to the leaves"
+  },
+  {
+    "term": "Phloem",
+    "meaning": "A structure found in plants which is made of living cells, and transports sugars from the source to the sink (which can be upwards or downwards)"
   }
 ]
