@@ -149,6 +149,12 @@
   <script src="/sidebar.js"></script>
 
   <script>
+    window.addEventListener('popstate', function(event) {
+      if (window.location.pathname === '/') {
+        location.reload();
+      }
+    });
+    
     function start() {
       const subjects = document.querySelectorAll('.subject');
       const topics = document.querySelectorAll('.topic');
