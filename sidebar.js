@@ -68,7 +68,7 @@ innerListItems.forEach(function (item) {
   innerMenuElement.appendChild(innerLiElement);
 });
 
-collapseDiv.appendChild(inneMenuElement);
+collapseDiv.appendChild(innerMenuElement);
 firstListItem.appendChild(buttonElement);
 firstListItem.appendChild(collapseDiv);
 menuElement.appendChild(firstListItem);
