@@ -32,7 +32,7 @@ var sidebarLogo = document.createElement("img");
 sidebarLogo.classList.add('side-logo');
 sidebarLogo.src = "/assets/regular_logo.png";
 
-var menuElement = document.createElement("menu");
+var menuElement = document.createElement("ul");
 menuElement.classList.add("list-group", "list-group-flush");
 
 var firstListItem = document.createElement("li");
@@ -47,7 +47,7 @@ var collapseDiv = document.createElement("div");
 collapseDiv.classList.add("collapse");
 collapseDiv.id = "activities-collapse";
 
-var innerMenuElement = document.createElement("menu");
+var innerMenuElement = document.createElement("ul");
 innerMenuElement.classList.add("btn-toggle-nav", "list-unstyled", "fw-normal", "pb-1", "small", "ms-4");
 
 var innerListItems = [
