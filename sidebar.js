@@ -32,8 +32,8 @@ var sidebarLogo = document.createElement("img");
 sidebarLogo.classList.add('side-logo');
 sidebarLogo.src = "/assets/regular_logo.png";
 
-var ulElement = document.createElement("ul");
-ulElement.classList.add("list-group", "list-group-flush");
+var menuElement = document.createElement("menu");
+menuElement.classList.add("list-group", "list-group-flush");
 
 var firstListItem = document.createElement("li");
 
@@ -47,8 +47,8 @@ var collapseDiv = document.createElement("div");
 collapseDiv.classList.add("collapse");
 collapseDiv.id = "activities-collapse";
 
-var innerUlElement = document.createElement("ul");
-innerUlElement.classList.add("btn-toggle-nav", "list-unstyled", "fw-normal", "pb-1", "small", "ms-4");
+var innerMenuElement = document.createElement("menu");
+innerMenuElement.classList.add("btn-toggle-nav", "list-unstyled", "fw-normal", "pb-1", "small", "ms-4");
 
 var innerListItems = [
   { text: "Home", href: "/" },
@@ -65,13 +65,13 @@ innerListItems.forEach(function (item) {
   innerAnchorElement.href = item.href;
   innerAnchorElement.classList.add("nav_activity_link", "link-light", "text-decoration-none", "rounded", "p-1", "px-2", "me-5");
   innerLiElement.appendChild(innerAnchorElement);
-  innerUlElement.appendChild(innerLiElement);
+  innerMenuElement.appendChild(innerLiElement);
 });
 
-collapseDiv.appendChild(innerUlElement);
+collapseDiv.appendChild(inneMenuElement);
 firstListItem.appendChild(buttonElement);
 firstListItem.appendChild(collapseDiv);
-ulElement.appendChild(firstListItem);
+menuElement.appendChild(firstListItem);
 
 var listItems = [
   { text: "About", href: "/about" },
@@ -86,12 +86,12 @@ listItems.forEach(function (item) {
   anchorElement.href = item.href;
   anchorElement.classList.add("list-group-item");
   liElement.appendChild(anchorElement);
-  ulElement.appendChild(liElement);
+  menuElement.appendChild(liElement);
 });
 
 sidebarDiv.appendChild(logoWrapper);
 logoWrapper.appendChild(sidebarLogo);
-sidebarDiv.appendChild(ulElement);
+sidebarDiv.appendChild(menuElement);
 
 wrapperDiv.appendChild(sidebarDiv);
 
