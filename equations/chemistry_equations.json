@@ -1,0 +1,41 @@
+[
+  {
+    "equations": [
+      "particle number=moles*6.02*10^23",
+      "moles=particle number/(6.02*10^23)",
+      "6.02*10^23=particle number/moles",
+      "particle number=6.02*10^23*moles"
+    ],
+    "parts": [
+      "moles",
+      "6.02*10^23",
+      "particle number"
+    ]
+  },
+  {
+    "equations": [
+      "moles=mass/Mr",
+      "mass=Mr*moles",
+      "mass=moles*Mr",
+      "Mr=mass/moles"
+    ],
+    "parts": [
+      "moles",
+      "mass",
+      "Mr"
+    ]
+  },
+  {
+    "equations": [
+      "moles=concentration*volume",
+      "moles=volume*concentration",
+      "concentration=moles/volume",
+      "volume=moles/concentration"
+    ],
+    "parts": [
+      "volume (dm^3)",
+      "moles",
+      "concentration"
+    ]
+  }
+]
