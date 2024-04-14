@@ -17,11 +17,11 @@ The following games are available:
 
 | Subject | Matchup | Quiz | Fill in the blank | Equation game |
 | :---        |    :----:   |    :----:   |    :----:   |    :----:   |
-| Computer Science | X | ✓ | X | X |
+| Computer Science | ✓ | ✓ | X | X |
 | English Lit | X | X | ✓ | X |
 | Music | ✓ | ✓ | X | X |
-| German | X | ✓ | X | X |
-| History| X | ✓ | ✓ | X |
+| German | ✓ | ✓ | X | X |
+| History| ✓ | ✓ | ✓ | X |
 | Physics | X | X | X | ✓ |
-| Chemistry | X | ✓ | X | X |
-| Biology | X | ✓ | X | X |
+| Chemistry | ✓ | ✓ | X | X |
+| Biology | ✓ | ✓ | X | X |
