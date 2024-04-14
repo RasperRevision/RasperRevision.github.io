@@ -234,4 +234,7 @@ if (jsonFileName != null) {
 
   matchup();
   startStopwatch();
+} else {
+  document.querySelector('.no-json').classList.remove('invis');
+  term_element.classList.add('invis');
 }
