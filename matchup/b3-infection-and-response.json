@@ -1,0 +1,94 @@
+[
+  {
+    "term": "Communicable disease",
+    "meaning": "A disease that can be transmitted from person to person directly or indirectly"
+  },
+  {
+    "term": "Pathogen",
+    "meaning": "A microorganism that causes infectious disease"
+  },
+  {
+    "term": "Bacteria",
+    "meaning": "A type of pathogenic microorganism that produce toxins, which damage tissues and make us feel ill"
+  },
+  {
+    "term": "Viruses",
+    "meaning": "A type of pathogenic microorganism that lives and reproduces inside cells, causing cell damage"
+  },
+  {
+    "term": "Measles",
+    "meaning": "A serious viral disease with symptoms of a fever and a red skin rash. Spread by inhalation of droplets from sneezes and coughs"
+  },
+  {
+    "term": "Human Immunodeficiency Virus (HIV)",
+    "meaning": "A virus which causes a flu-like illness to begin with, but begins to attack the body's immune cells later on, which can lead to AIDS."
+  },
+  {
+    "term": "Tobacco Mosaic Virus (TMV)",
+    "meaning": "A virus which affects many species of plants such as tomatoes. It gives a 'mosaic' discolouration pattern on the leaves which affects photosynthesis."
+  },
+  {
+    "term": "Salmonella",
+    "meaning": "A food poisoning spread by bacteria found in food that has been prepared in unhygienic conditions"
+  },
+  {
+    "term": "Gonorrhoea",
+    "meaning": "A sexually transmitted disease (STD) caused by a bacterium, with symptoms of a thick yellow/green discharge from the vagina or penis and pain on urinating"
+  },
+  {
+    "term": "Rose black spot",
+    "meaning": "A fungal disease where purple/black spots develop on leaves, causing them to turn yellow and drop early"
+  },
+  {
+    "term": "Malaria",
+    "meaning": "A disease caused by a protist, which has a life cycle including the mosquito, and causes recurrent episodes of fever. It can be fatal"
+  },
+  {
+    "term": "White blood cell",
+    "meaning": "A type of cell that makes up the immune system, defending against pathogenic microorganisms, and producing antibodies and antitoxins"
+  },
+  {
+    "term": "Phagocytosis",
+    "meaning": "A process where phagocytes engulf and destroy pathogens"
+  },
+  {
+    "term": "Antibody",
+    "meaning": "A type of protein produced by lymphocytes, which are complementary to the antigens on a specific type of pathogen"
+  },
+  {
+    "term": "Lymphocyte",
+    "meaning": "A white blood cell which produces antibodies and antitoxins"
+  },
+  {
+    "term": "Antitoxin",
+    "meaning": "A type of antibody which neutralises the effects of toxins produced by bacteria"
+  },
+  {
+    "term": "Vaccination",
+    "meaning": "The process of introducing small quantities of dead or weakened pathogens into the body to stimulate the production of antibodies for that kind of pathogen"
+  },
+  {
+    "term": "Antibiotics",
+    "meaning": "Medicines that kill infective bacteria in the body to help cure bacterial disease. They can not kill viral pathogens"
+  },
+  {
+    "term": "Painkillers",
+    "meaning": "Medicines that treat the symptoms of disease, but do not kill the pathogens causing it."
+  },
+  {
+    "term": "Placebo",
+    "meaning": "A substance designed to be indistinguishable from an actual drug, to be used in double blind trials where neither the researcher nor the patient know whether the patient is taking the real drug or not"
+  },
+  {
+    "term": "Preclinical drug testing",
+    "meaning": "Drug testing done in a laboratory using cells, tissues and animals"
+  },
+  {
+    "term": "Monoclonal antibody (higher tier only)",
+    "meaning": "Antibodies produced by combining mouse lymphocytes with a tumour cell to create a hybridoma, which can both divide and produce the specific antibody."
+  },
+  {
+    "term": "Non-specific defence systems",
+    "meaning": "Barriers in the body that defend it against many types of pathogen"
+  }
+]
