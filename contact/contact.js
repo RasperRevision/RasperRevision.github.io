@@ -7,7 +7,7 @@ function sendFeedback() {
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
 
-  if (name != "" || email != "" || message != ""){
+  if (name != "" && email != "" && message != ""){
 
     var templateParams = {
       from_name: name,
