@@ -7,20 +7,23 @@ function sendFeedback() {
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
 
-  var templateParams = {
-    from_name: name,
-    from_email: email,
-    message: message
-  };
+  if (name != "" || email != "" || message != ""){
 
-  emailjs.send('service_3ff5xym', 'template_jv9m0fn', templateParams)
-    .then(function (response) {
-      document.getElementById('success').classList.remove('d-none');
-      console.log('SUCCESS!', response.status, response.text);
-    }, function (error) {
-      document.getElementById('failure').classList.remove('d-none');
-      console.log('FAILED...', error);
-    });
+    var templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message
+    };
 
-  return false;
+    emailjs.send('service_3ff5xym', 'template_jv9m0fn', templateParams)
+      .then(function (response) {
+        document.getElementById('success').classList.remove('d-none');
+        console.log('SUCCESS!', response.status, response.text);
+      }, function (error) {
+        document.getElementById('failure').classList.remove('d-none');
+        console.log('FAILED...', error);
+      });
+
+    return false;
+  }
 }
