@@ -30,5 +30,7 @@ function sendFeedback() {
     setTimeout(function () {
       document.getElementById('failure').classList.add('d-none');
     }, 2000);
+    
+    return false;
   }
 }
