@@ -25,5 +25,10 @@ function sendFeedback() {
       });
 
     return false;
+  } else {
+    document.getElementById('failure').classList.remove('d-none');
+    setTimeout(function () {
+      document.getElementById('failure').classList.add('d-none');
+    }, 2000);
   }
 }
