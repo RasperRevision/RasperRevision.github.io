@@ -1,50 +1,330 @@
 [
-                {
-                    "quote": "Marley was dead: to begin with",
-                    "themes": ["Supernatural", "Death"]
-                },
-                {
-                    "quote": "secret, and self-contained, and solitary as an oyster",
-                    "themes": ["Loneliness", "Isolation"]
-                },
-                {
-                    "quote": "External heat and cold had little influence on Scrooge.",
-                    "themes": ["Warmth"]
-                },
-                {
-                    "quote": "a squeezing, wrenching, grasping, scraping, clutching, covetous, old sinner!",
-                    "themes": ["Greed", "Materialism"]
-                },
-                {
-                    "quote": "every idiot who goes about with 'Merry Christmas' on his lips, should be boiled with his own pudding, and buried with a stake of holly through his heart.",
-                    "themes": ["Christmas"]
-                },
-                {
-                    "quote": "a kind, forgiving, charitable, pleasant time: the only time I know of, in the long calendar of the year, when men and women seem by one consent to open their shut-up hearts freely",
-                    "themes": ["Christmas", "Charity", "Family"]
-                },
-                {
-                    "quote": "I don't make myself merry at Christmas and I can't afford to make idle people merry.",
-                     "themes": ["Christmas", "Greed"]
-                },
-                {
-                    "quote": "If they would rather die, they had better do it, and decrease the surplus population",
-                    "themes": ["Greed", "Poverty"]
-                },
-                {
-                    "quote": "To say that he was not startled, or that his blood was not conscious of a terrible sensation to which it had been a stranger from infancy, would be untrue.",
-                    "themes": ["Fear"]
-                },
-                {
-                    "quote": "Darkness is cheap, and Scrooge liked it.",
-                    "themes": ["Darkness", "Greed"]
-                },
-                {
-                    "quote": "Mankind was my business. The common welfare was my business: charity, mercy, forbearance, and benevolence, were, all, my business.",
-                    "themes": ["Charity", "Benevolence"]
-                },
-                {
-                    "quote": "The air was filled with phantoms, wandering hither and thither in restless haste, and moaning as they went.",
-                    "themes": ["Supernatural", "Gothic"]
-                }
+  {
+    "quote": "Marley was dead: to begin with",
+    "themes": [
+      "Supernatural",
+      "Death"
+    ]
+  },
+  {
+    "quote": "secret, and self-contained, and solitary as an oyster",
+    "themes": [
+      "Loneliness",
+      "Isolation"
+    ]
+  },
+  {
+    "quote": "External heat and cold had little influence on Scrooge.",
+    "themes": [
+      "Warmth"
+    ]
+  },
+  {
+    "quote": "a squeezing, wrenching, grasping, scraping, clutching, covetous, old sinner!",
+    "themes": [
+      "Greed",
+      "Materialism"
+    ]
+  },
+  {
+    "quote": "every idiot who goes about with 'Merry Christmas' on his lips, should be boiled with his own pudding, and buried with a stake of holly through his heart.",
+    "themes": [
+      "Christmas"
+    ]
+  },
+  {
+    "quote": "a kind, forgiving, charitable, pleasant time: the only time I know of, in the long calendar of the year, when men and women seem by one consent to open their shut-up hearts freely",
+    "themes": [
+      "Christmas",
+      "Charity",
+      "Family"
+    ]
+  },
+  {
+    "quote": "I don't make myself merry at Christmas and I can't afford to make idle people merry.",
+    "themes": [
+      "Christmas",
+      "Greed"
+    ]
+  },
+  {
+    "quote": "If they would rather die, they had better do it, and decrease the surplus population",
+    "themes": [
+      "Greed",
+      "Poverty"
+    ]
+  },
+  {
+    "quote": "To say that he was not startled, or that his blood was not conscious of a terrible sensation to which it had been a stranger from infancy, would be untrue.",
+    "themes": [
+      "Fear"
+    ]
+  },
+  {
+    "quote": "Darkness is cheap, and Scrooge liked it.",
+    "themes": [
+      "Darkness",
+      "Greed"
+    ]
+  },
+  {
+    "quote": "Mankind was my business. The common welfare was my business: charity, mercy, forbearance, and benevolence, were, all, my business.",
+    "themes": [
+      "Charity",
+      "Benevolence"
+    ]
+  },
+  {
+    "quote": "The air was filled with phantoms, wandering hither and thither in restless haste, and moaning as they went.",
+    "themes": [
+      "Supernatural",
+      "Gothic"
+    ]
+  },
+  {
+    "quote": "Found himself face to face with the unearthly visitor",
+    "themes": [
+      "Supernatural",
+      "Gothic"
+    ]
+  },
+  {
+    "quote": "It was a strange figure - like a child: yet not so like a child as like an old man",
+    "themes": [
+      "Paradox",
+      "Supernatural"
+    ]
+  },
+  {
+    "quote": "I am a mortal ... and liable to fall",
+    "themes": [
+      "Supernatural",
+      "Death"
+    ]
+  },
+  {
+    "quote": "Good Heaven! ... I was bred in this place. I was a boy here!",
+    "themes": [
+      "Memory"
+    ]
+  },
+  {
+    "quote": "A solitary child, neglected by his friends, is left there still.",
+    "themes": [
+      "Isolation",
+      "Loneliness",
+      "Memory"
+    ]
+  },
+  {
+    "quote": "There was a boy singing a Christmas Carol at my door last night. I should like to have given him something: that's all",
+    "themes": [
+      "Regret",
+      "Charity",
+      "Christmas"
+    ]
+  },
+  {
+    "quote": "Called out in a comfortable, oily, rich, fat, jovial voice",
+    "themes": [
+      "Benevolence"
+    ]
+  },
+  {
+    "quote": "He has the power to render us happy or unhappy; to make our service light or burdensome; a pleasure or a toil",
+    "themes": [
+      "Benevolence",
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "I should like to be able to say a word or two to my clerk just now! That's all",
+    "themes": [
+      "Regret",
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "Another idol has displaced me; and if it can cheer and comfot you in time to come, as I would have tried to do, I have no just cause to grieve",
+    "themes": [
+      "Materialism",
+      "Loneliness",
+      "Greed"
+    ]
+  },
+  {
+    "quote": "I have seen your nobler aspirations fall off one by one, until the master-passion, Gain, engrosses you.",
+    "themes": [
+      "Greed",
+      "Materialism"
+    ]
+  },
+  {
+    "quote": "In easy state upon this couch, there sat a jolly Giant, glorious to see",
+    "themes": [
+      "Supernatural"
+    ]
+  },
+  {
+    "quote": "Girded round its middle was an antique scabbard; but no sword was in it, and the ancient sheath was eaten up with rust",
+    "themes": [
+      "Benevolence"
+    ]
+  },
+  {
+    "quote": "For they said, it was a shame to quarrel upon Christmas Day. And so it was! God love it, so it was!",
+    "themes": [
+      "Christmas"
+    ]
+  },
+  {
+    "quote": "I wonder you, of all the beings in the many worlds about us, should desire to cramp these people's oppurtunities of innocent enjoyment.",
+    "themes": [
+      "Religion"
+    ]
+  },
+  {
+    "quote": "notwithstanding his gigantic size, he could accommodate himself to any place with ease",
+    "themes": [
+      "Family",
+      "Christmas"
+    ]
+  },
+  {
+    "quote": "Then up rose Mrs. Cratchit, Cratchit's wife, dressed out but poorly in a twice-turned gown, but brave in ribbons",
+    "themes": [
+      "Poverty"
+    ]
+  },
+  {
+    "quote": "We'd a deal of work to finish up last night ... and had to clear away this morning, mother!",
+    "themes": [
+      "Poverty"
+    ]
+  },
+  {
+    "quote": "A place where Miners live, who labour in the bowels of the earth ... But they know me. See!",
+    "themes": [
+      "Christmas"
+    ]
+  },
+  {
+    "quote": "His wealth is of no use to him. He don't do any good with it.",
+    "themes": [
+      "Materialism",
+      "Greed"
+    ]
+  },
+  {
+    "quote": "From the foldings of its robe, it brought two children; wretched, abject, frightful, hideous, miserable.",
+    "themes": [
+      "Poverty",
+      "Supernatural"
+    ]
+  },
+  {
+    "quote": "This boy is Ignorance. This girl is Want. Beware them both",
+    "themes": [
+      "Poverty",
+      "Greed"
+    ]
+  },
+  {
+    "quote": "Have they no refuge or resource?",
+    "themes": [
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "The phantom slowly, gravely, silently, approached.",
+    "themes": [
+      "Supernatural",
+      "Gothic",
+      "Fear"
+    ]
+  },
+  {
+    "quote": "It was shrouded in a deep black garment, which concealed its head, its face, its form, and left nothing of it visible save one outstretched hand.",
+    "themes": [
+      "Death",
+      "Supernatural",
+      "Gothic"
+    ]
+  },
+  {
+    "quote": "I fear you more than any spectre I have seen. But as I know your purpose is to do me good, and as I hope to live to be another man from what I was, I am prepared to bear you company",
+    "themes": [
+      "Fear",
+      "Supernatural",
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "But however and whenever we part from one another, I am sure we shall none of us forget poor Tiny Tim",
+    "themes": [
+      "Death",
+      "Supernatural"
+    ]
+  },
+  {
+    "quote": "Are these the shadows of things that Will be, or are they shadows of things that May be, only?",
+    "themes": [
+      "Fear",
+      "Supernatural",
+      "Regret"
+    ]
+  },
+  {
+    "quote": "I am not the man I was. I will not be the man I must have been but for this intercourse.",
+    "themes": [
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "I will honour Christmas in my heart, and try to keep it all the year.",
+    "themes": [
+      "Christmas",
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "I am as light as a feather, I am as happy as an angel, I am as merry as a schoolboy. I am as giddy as a drunken man.",
+    "themes": [
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "That is my name, and I fear it may not be pleasant to you. Allow me to ask your pardon",
+    "themes": [
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "I am not going to stand this sort of thing any longer. And therefore ... I am about to raise your salary!",
+    "themes": [
+      "Redemption",
+      "Benevolence"
+    ]
+  },
+  {
+    "quote": "Scrooge was better than his word. He did it all and infinitely more; and to Tiny Tim, who did NOT die, he was a second father.",
+    "themes": [
+      "Benevolence",
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "He knew how to keep Christmas well, if any man possessed the knowledge",
+    "themes": [
+      "Christmas",
+      "Redemption"
+    ]
+  },
+  {
+    "quote": "And so, as Tiny Tim observed, God bless Us, Every One!",
+    "themes": [
+      "Benevolence",
+      "Family"
+    ]
+  }
 ]

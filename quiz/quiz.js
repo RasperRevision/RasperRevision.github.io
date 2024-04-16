@@ -268,5 +268,4 @@ if (jsonFileName != null) {
   document.querySelectorAll('.opt').forEach(element => {
     element.classList.add('invis');
   });
-
 }

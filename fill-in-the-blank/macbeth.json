@@ -190,9 +190,23 @@
     ]
   },
   {
-    "quote": "A dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain?",
+    "quote": "Had he not resembled / My father as he slept, I had done't.",
     "themes": [
-      "hallucination"
+      "fear"
+    ]
+  },
+  {
+    "quote": "I could not say 'Amen' / When they did say 'God bless us'.",
+    "themes": [
+      "guilt",
+      "supernatural"
+    ]
+  },
+  {
+    "quote": "Methought I heard a voice cry 'Sleep no more! Macbeth does murder sleep'",
+    "themes": [
+      "sleep",
+      "guilt"
     ]
   },
   {
@@ -203,10 +217,10 @@
     ]
   },
   {
-    "quote": "Methought I heard a voice cry 'Sleep no more! Macbeth does murder sleep'",
+    "quote": "Infirm of purpose! / Give me the daggers. The sleeping and dead / Are but as pictures; 'tis the eye of childhood / That fears a painted devil",
     "themes": [
-      "sleep",
-      "guilt"
+      "appearance v reality",
+      "bravery"
     ]
   },
   {
@@ -236,9 +250,24 @@
     ]
   },
   {
-    "quote": "I fear thou play'dst most foully for't",
+    "quote": "Thou hast it now, King, Cawdor, Glamis, all, / As the weird women promis'd, and I fear / Thou played'st most foully for't",
     "themes": [
-      "suspicion"
+      "suspicion",
+      "supernatural",
+      "prophecy"
+    ]
+  },
+  {
+    "quote": "To be thus is nothing, / But to be safely thus.",
+    "themes": [
+      "fear"
+    ]
+  },
+  {
+    "quote": "Our fears in Banquo / Stick deep, and his royalty of nature / Reigns that which would be fear'd.",
+    "themes": [
+      "fear",
+      "prophecy"
     ]
   },
   {
@@ -246,6 +275,192 @@
     "themes": [
       "prophecy",
       "fear"
+    ]
+  },
+  {
+    "quote": "It is concluded. Banquo, thy soul's flight, / If it find heaven, must find it out tonight",
+    "themes": [
+      "betrayal",
+      "cruelty"
+    ]
+  },
+  {
+    "quote": "Nought's had, all's spent / Where our desire is got without content",
+    "themes": [
+      "ambition",
+      "guilt"
+    ]
+  },
+  {
+    "quote": "Upon my head they plac'd a fruitless crown / And put a barren sceptre in my gripe",
+    "themes": [
+      "kingship",
+      "prophecy"
+    ]
+  },
+  {
+    "quote": "We have scorch'd the snake, not kill'd it",
+    "themes": [
+      "fear",
+      "death"
+    ]
+  },
+  {
+    "quote": "And make our faces vizards to our hearts, / Disguising what they are",
+    "themes": [
+      "appearance v reality"
+    ]
+  },
+  {
+    "quote": "O, full of scorpions is my mind, dear wife!",
+    "themes": [
+      "guilt",
+      "fear"
+    ]
+  },
+  {
+    "quote": "O, treachery! / Fly, good Fleance, fly, fly, fly!",
+    "themes": [
+      "betrayal",
+      "death"
+    ]
+  },
+  {
+    "quote": "A dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain?",
+    "themes": [
+      "hallucination"
+    ]
+  },
+  {
+    "quote": "Thou canst not say I did it; never shake / Thy gory locks at me!",
+    "themes": [
+      "guilt",
+      "hallucination"
+    ]
+  },
+  {
+    "quote": "This is the air-drawn dagger which you said / Led you to Duncan",
+    "themes": [
+      "hallucination"
+    ]
+  },
+  {
+    "quote": "Why so, being gone, / I am a man again.",
+    "themes": [
+      "gender roles",
+      "fear"
+    ]
+  },
+  {
+    "quote": "By the pricking of my thumbs, / Something wicked this way comes",
+    "themes": [
+      "supernatural"
+    ]
+  },
+  {
+    "quote": "Macbeth, Macbeth, Macbeth: beware Macduff, / Beware the Thane of Fife. Dismiss me. Enough",
+    "themes": [
+      "prophecy",
+      "supernatural"
+    ]
+  },
+  {
+    "quote": "Be bloody, bold and resolute; laugh to scorn / The power of man, for none of woman",
+    "themes": [
+      "prophecy",
+      "supernatural",
+      "equivocation"
+    ]
+  },
+  {
+    "quote": "Macbeth shall never vanquish'd be until / Great Birnam Wood to high Dunsinane Hill / Shall come against him.",
+    "themes": [
+      "prophecy",
+      "supernatural",
+      "equivocation"
+    ]
+  },
+  {
+    "quote": "Infected by the air whereon they ride, / And damn'd all those that trust them",
+    "themes": [
+      "guilt",
+      "supernatural"
+    ]
+  },
+  {
+    "quote": "I am in this earthly world where to do harm / Is often laudable, to do good sometime / Accounted dangerous folly.",
+    "themes": [
+      "cruelty",
+      "appearance v reality"
+    ]
+  },
+  {
+    "quote": "Out, damned spot! Out, I say!",
+    "themes": [
+      "guilt",
+      "blood"
+    ]
+  },
+  {
+    "quote": "The Thane of Fife had a wife. Where is she now? What, will these hands ne'er be clean?",
+    "themes": [
+      "blood",
+      "guilt"
+    ]
+  },
+  {
+    "quote": "Here's the smell of blood still; all the perfumes of Arabia will not sweeten this little hand.",
+    "themes": [
+      "blood",
+      "guilt"
+    ]
+  },
+  {
+    "quote": "His secret murders sticking on his hands",
+    "themes": [
+      "guilt",
+      "death"
+    ]
+  },
+  {
+    "quote": "I'll fight till from my bones my flesh be hack'd",
+    "themes": [
+      "bravery",
+      "violence"
+    ]
+  },
+  {
+    "quote": "She should have died hereafter; / There would have been time for such a word.",
+    "themes": [
+      "death"
+    ]
+  },
+  {
+    "quote": "The devil himself could not pronounce a title / More hateful to mine ear.",
+    "themes": [
+      "kingship",
+      "cruelty"
+    ]
+  },
+  {
+    "quote": "Turn, hell-hound, turn.",
+    "themes": [
+      "supernatural"
+    ]
+  },
+  {
+    "quote": "Macduff was from his mother's womb / Untimely ripp'd",
+    "themes": [
+      "equivocation",
+      "supernatural",
+      "prophecy"
+    ]
+  },
+  {
+    "quote": "dead butcher and his fiend-like queen",
+    "themes": [
+      "cruelty",
+      "kingship"
     ]
   }
 ]
