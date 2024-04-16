@@ -44,6 +44,26 @@
                     "themes": ["Charity", "Benevolence", "Stave 1", "marley"]
                 },
                 {
+                    "quote": "God bless everyone!",
+                    "themes": ["tiny tim", "warmth","stave 5","stave 3"]
+                },
+                {
+                    "quote": "a poor excuse for picking a man's pocket every 25th of december",
+                    "themes": ["stave 1", "greed"]
+                },
+                {
+                    "quote": "",
+                    "themes": [""]
+                },
+                {
+                    "quote": "",
+                    "themes": [""]
+                },
+                {
+                    "quote": "",
+                    "themes": [""]
+                },
+                {
                     "quote": "The air was filled with phantoms, wandering hither and thither in restless haste, and moaning as they went.",
                     "themes": ["Supernatural", "Gothic", "Stave 1"]
                 }
