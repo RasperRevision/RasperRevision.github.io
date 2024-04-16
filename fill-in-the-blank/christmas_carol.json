@@ -1,50 +1,50 @@
 [
                 {
                     "quote": "Marley was dead: to begin with",
-                    "themes": ["Supernatural", "Death"]
+                    "themes": ["Supernatural", "Death", "Stave 1"]
                 },
                 {
                     "quote": "secret, and self-contained, and solitary as an oyster",
-                    "themes": ["Loneliness", "Isolation"]
+                    "themes": ["Loneliness", "Isolation", "Stave 1"]
                 },
                 {
                     "quote": "External heat and cold had little influence on Scrooge.",
-                    "themes": ["Warmth"]
+                    "themes": ["Warmth", "Stave 1"]
                 },
                 {
                     "quote": "a squeezing, wrenching, grasping, scraping, clutching, covetous, old sinner!",
-                    "themes": ["Greed", "Materialism"]
+                    "themes": ["Greed", "Materialism", "Meiser", "Stave 1"]
                 },
                 {
                     "quote": "every idiot who goes about with 'Merry Christmas' on his lips, should be boiled with his own pudding, and buried with a stake of holly through his heart.",
-                    "themes": ["Christmas"]
+                    "themes": ["Christmas", "Stave 1"]
                 },
                 {
                     "quote": "a kind, forgiving, charitable, pleasant time: the only time I know of, in the long calendar of the year, when men and women seem by one consent to open their shut-up hearts freely",
-                    "themes": ["Christmas", "Charity", "Family"]
+                    "themes": ["Christmas", "Charity", "Family", "Stave 1", "Fred"]
                 },
                 {
                     "quote": "I don't make myself merry at Christmas and I can't afford to make idle people merry.",
-                     "themes": ["Christmas", "Greed"]
+                     "themes": ["Christmas", "Greed", "Stave 1"]
                 },
                 {
                     "quote": "If they would rather die, they had better do it, and decrease the surplus population",
-                    "themes": ["Greed", "Poverty"]
+                    "themes": ["Greed", "Poverty", "Stave 1", "Malthus"]
                 },
                 {
                     "quote": "To say that he was not startled, or that his blood was not conscious of a terrible sensation to which it had been a stranger from infancy, would be untrue.",
-                    "themes": ["Fear"]
+                    "themes": ["Fear", "Stave 1", "supernatural"]
                 },
                 {
                     "quote": "Darkness is cheap, and Scrooge liked it.",
-                    "themes": ["Darkness", "Greed"]
+                    "themes": ["Darkness", "Greed", "Stave 1", "isolation"]
                 },
                 {
                     "quote": "Mankind was my business. The common welfare was my business: charity, mercy, forbearance, and benevolence, were, all, my business.",
-                    "themes": ["Charity", "Benevolence"]
+                    "themes": ["Charity", "Benevolence", "Stave 1", "marley"]
                 },
                 {
                     "quote": "The air was filled with phantoms, wandering hither and thither in restless haste, and moaning as they went.",
-                    "themes": ["Supernatural", "Gothic"]
+                    "themes": ["Supernatural", "Gothic", "Stave 1"]
                 }
 ]
