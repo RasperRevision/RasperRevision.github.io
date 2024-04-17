@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rasper Revision</title>
-  
+
   <!-- FAVICON -->
   <link rel="icon" type="image/png" href="/assets/favicon.png">
 
@@ -92,7 +92,8 @@
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="/matchup/?json=b1">B1: Cell biology</a></li>
           <li><a class="dropdown-item" href="/matchup/?json=b2-organisation">B2: Organisation</a></li>
-          <li><a class="dropdown-item" href="/matchup/?json=b3-infection-and-response">B3: Infection and Response</a></li>
+          <li><a class="dropdown-item" href="/matchup/?json=b3-infection-and-response">B3: Infection and Response</a>
+          </li>
         </ul>
       </li>
       <li class="nav-item dropdown">
@@ -137,13 +138,15 @@
     <div class="elements"></div>
   </section>
 
-  <div class="invis no-json position-absolute top-50 d-flex justify-content-center w-100" style="transform: translateY(-50%);">
+  <div class="invis no-json position-absolute top-50 d-flex justify-content-center w-100"
+    style="transform: translateY(-50%);">
     <div class="dark p-5 container">
       <h1>Matchup</h1>
       To begin, choose a topic from the menu at the top of the page.<br><br>
     </div>
   </div>
 
+  <div class="d-flex sidebar-wrapper" id="wrapper"></div>
   <script src="matchup.js"></script>
   <script src="/sidebar.js"></script>
 </body>
