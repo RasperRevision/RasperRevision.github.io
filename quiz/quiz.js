@@ -53,7 +53,7 @@ function getParameterByName(name, url) {
 }
 
 async function quiz(file) {
-  current_file = file + '.json';
+  current_file = '/json/' + file + '.json';
   try {
     const response = await fetch(current_file);
     const data = await response.json();
@@ -174,20 +174,21 @@ async function processItem(item) {
 
 function waitForButton(item, callback) {
   const handleClick = (event) => {
-    if (event.target.innerHTML === item.meaning) {
+    const btn = event.target;
+    if (btn.innerHTML === item.meaning) {
       answerFound = true;
-      event.target.style.background = 'green';
+      btn.classList.add('correct-opt');
       setTimeout(function () {
         callback(event);
         cleanup();
-        event.target.style.background = 'rgb(39, 45, 53)';
+        btn.classList.remove('correct-opt');
         answerFound = false;
       }, 1000);
     } else {
       if (!answerFound) {
-        event.target.style.background = 'red';
+        btn.classList.add('incorrect-opt');
         setTimeout(function () {
-          event.target.style.background = 'rgb(39, 45, 53)';
+          btn.classList.remove('incorrect-opt');
           answerFound = false;
         }, 1000);
       }
@@ -211,20 +212,21 @@ function waitForButton(item, callback) {
 
 function waitForGermanButton(item, callback) {
   const handleClick = (event) => {
+    const btn = event.target;
     if (event.target.innerHTML === item.english) {
       answerFound = true;
-      event.target.style.background = 'green';
+      btn.classList.add('correct-opt');
       setTimeout(function () {
         callback(event);
         cleanup();
-        event.target.style.background = 'rgb(39, 45, 53)';
+        btn.classList.remove('correct-opt');
         answerFound = false;
       }, 1000);
     } else {
       if (!answerFound) {
-        event.target.style.background = 'red';
+        btn.classList.add('incorrect-opt');
         setTimeout(function () {
-          event.target.style.background = 'rgb(39, 45, 53)';
+          btn.classList.remove('incorrect-opt');
           answerFound = false;
         }, 1000);
       }

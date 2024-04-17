@@ -11,7 +11,7 @@ let formattedTime;
 let isGerman = false;
 
 function startStopwatch() {
-    timer = setInterval(function () {
+  timer = setInterval(function () {
     s++;
 
     if (s === 60) {
@@ -21,7 +21,7 @@ function startStopwatch() {
 
     formattedTime = pad(m) + ':' + pad(s);
     stopwatch.innerHTML = formattedTime;
-  }, 1000); 
+  }, 1000);
 }
 
 function stopStopwatch() { clearInterval(timer); }
@@ -53,7 +53,7 @@ function loadJSON(callback) {
     return;
   }
 
-  var jsonUrl = jsonFile + '.json';
+  var jsonUrl = '/json/' + jsonFile + '.json';
 
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
@@ -65,29 +65,29 @@ function loadJSON(callback) {
 }
 
 function pickRandomItems(array, correct) {
-    if (array.length <= 10) { return array; }
-    
-    let randomItems = [];
-    let indexes = [];
+  if (array.length <= 10) { return array; }
 
-    while (indexes.length < 10) {
-        let randomIndex = Math.floor(Math.random() * array.length);
-        if (!indexes.includes(randomIndex)) {
-            indexes.push(randomIndex);
-        }
+  let randomItems = [];
+  let indexes = [];
+
+  while (indexes.length < 10) {
+    let randomIndex = Math.floor(Math.random() * array.length);
+    if (!indexes.includes(randomIndex)) {
+      indexes.push(randomIndex);
     }
+  }
 
-    indexes.forEach(index => {
-        randomItems.push(array[index]);
-    });
+  indexes.forEach(index => {
+    randomItems.push(array[index]);
+  });
 
-    if (!randomItems.includes(correct)) {
-        randomItems.pop();
-        randomItems.push(correct);
-    }
-    
-    console.log(array, randomItems);
-    return randomItems;
+  if (!randomItems.includes(correct)) {
+    randomItems.pop();
+    randomItems.push(correct);
+  }
+
+  console.log(array, randomItems);
+  return randomItems;
 }
 
 async function processItem(data, current_item) {
@@ -144,18 +144,18 @@ async function processGermanItem(data, current_item) {
 
 function waitForButton(current_item, callback) {
   const handleClick = (event) => {
-    if(isGerman) {
+    if (isGerman) {
       if (event.target.innerHTML == current_item.english) {
-        while (container.firstChild) { 
-          container.removeChild(container.firstChild); 
+        while (container.firstChild) {
+          container.removeChild(container.firstChild);
           callback(event);
           cleanup();
         }
       }
     } else {
       if (event.target.innerHTML == current_item.meaning) {
-        while (container.firstChild) { 
-          container.removeChild(container.firstChild); 
+        while (container.firstChild) {
+          container.removeChild(container.firstChild);
           callback(event);
           cleanup();
         }
@@ -180,14 +180,14 @@ function waitForButton(current_item, callback) {
 async function matchup() {
   loadJSON(async function (response) {
     response = shuffle(response);
-    if(response[0].term == null) {
+    if (response[0].term == null) {
       isGerman = true;
-      for (const item of response) { 
+      for (const item of response) {
         await processGermanItem(response, item);
       }
     } else {
       isGerman = false;
-      for (const item of response) { 
+      for (const item of response) {
         await processItem(response, item);
       }
     }

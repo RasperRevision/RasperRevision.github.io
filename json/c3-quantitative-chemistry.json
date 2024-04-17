@@ -1,0 +1,50 @@
+[
+  {
+    "term": "Conservation of mass",
+    "meaning": "The law stating that no atoms are lost or made during a chemical reaction"
+  },
+  {
+    "term": "Relative formula mass (Mᵣ)",
+    "meaning": "The mass of a compound relative to a proton or neutron"
+  },
+  {
+    "term": "Relative atomic mass (Aᵣ)",
+    "meaning": "The mass of an element relative to a proton or neutron"
+  },
+  {
+    "term": "Mole (higher tier only)",
+    "meaning": "The unit used for chemical amounts, where one mole of a substance in grams is numerically equal to its relative formula mass"
+  },
+  {
+    "term": "Avogadro's constant (higher tier only)",
+    "meaning": "The number of atoms, ions or molecules in a mole of a substance. It has a value of 6.02 x 10²³ per mole"
+  },
+  {
+    "term": "Limiting reactant",
+    "meaning": "The reactant in a reaction that is completely used up and limits the amount of product formed"
+  },
+  {
+    "term": "Concentration",
+    "meaning": "The mass per unit volume of solution, measured in mol/dm³ or g/dm³."
+  },
+  {
+    "term": "Percentage yield",
+    "meaning": "The percentage of the theoretical product that is actually formed"
+  },
+  {
+    "term": "Atom economy",
+    "meaning": "A measure of the amount of starting material that ends up as the desired product"
+  },
+  {
+    "term": "Actual yield",
+    "meaning": "The amount of product actually produced by a reaction"
+  },
+  {
+    "term": "Theoretical yield",
+    "meaning": "The amount of product that could be produced if the reaction goes perfectly."
+  },
+  {
+    "term": "Uncertainty",
+    "meaning": "The interval in which the true value can be expected to lie."
+  }
+]

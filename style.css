@@ -47,7 +47,8 @@ body {
   filter: brightness(0.9);
 }
 
-.page1, .page2 {
+.page1,
+.page2 {
   transition: transform 200ms ease-in-out;
 }
 
@@ -102,6 +103,14 @@ body {
 .opt:hover {
   background: rgb(47, 54, 63);
   text-shadow: black 2px 2px 10px;
+}
+
+.correct-opt {
+  background: green !important;
+}
+
+.incorrect-opt {
+  background: red !important;
 }
 
 .scroll-right {
