@@ -12,6 +12,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .flex {
@@ -47,15 +53,6 @@ body {
   filter: brightness(0.9);
 }
 
-.page1,
-.page2 {
-  transition: transform 200ms ease-in-out;
-}
-
-.page2 {
-  transform: translateX(100vw);
-}
-
 .activity_head {
   height: 120px;
   padding-top: 35px;
@@ -75,13 +72,14 @@ body {
   color: white;
   font-size: 2.2rem;
   flex-basis: 100%;
-  padding: 0;
   filter: none;
+  padding: 10px;
   transition: all 300ms ease-in-out;
 }
 
 .home_btn:hover {
   margin: 10px;
+  padding: 0;
   filter: brightness(90%);
 }
 

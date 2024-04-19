@@ -1,0 +1,353 @@
+[
+  {
+    "index": 1,
+    "displayName": "Chemistry",
+    "bg": "turquoise",
+    "topicParent": ".chemistry-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "C1: Atomic structure",
+        "bg": "primary",
+        "jsonFile": "c1",
+        "games": 12
+      },
+      {
+        "index": 2,
+        "displayName": "C2: Structure and bonding",
+        "bg": "danger",
+        "jsonFile": "c2",
+        "games": 12
+      },
+      {
+        "index": 3,
+        "displayName": "C3: Quantitative Chemistry",
+        "bg": "warning",
+        "jsonFile": "c3-quantitative-chemistry",
+        "games": 12
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "displayName": "Computer Science",
+    "bg": "success",
+    "topicParent": ".compsci-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Unit 1: Algorithms",
+        "bg": "primary",
+        "jsonFile": "unit1",
+        "games": 12
+      },
+      {
+        "index": 2,
+        "displayName": "Unit 2: Programming",
+        "bg": "success",
+        "jsonFile": "unit2",
+        "games": 12
+      },
+      {
+        "index": 3,
+        "displayName": "Unit 3: Data representation",
+        "bg": "orange",
+        "jsonFile": "unit3",
+        "games": 12
+      },
+      {
+        "index": 4,
+        "displayName": "Unit 4: Computer systems",
+        "bg": "purple",
+        "jsonFile": "unit4",
+        "games": 12
+      },
+      {
+        "index": 5,
+        "displayName": "Unit 5: Computer networks",
+        "bg": "danger",
+        "jsonFile": "unit5",
+        "games": 12
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "displayName": "Biology",
+    "bg": "danger",
+    "topicParent": ".biology-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "B1: Cell biology",
+        "bg": "lime",
+        "jsonFile": "b1",
+        "games": 12
+      },
+      {
+        "index": 2,
+        "displayName": "B2: Organisation",
+        "bg": "turquoise",
+        "jsonFile": "b2-organisation",
+        "games": 12
+      },
+      {
+        "index": 3,
+        "displayName": "B3: Infection and response",
+        "bg": "primary",
+        "jsonFile": "b3-infection-and-response",
+        "games": 12
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "displayName": "History",
+    "bg": "orange",
+    "topicParent": ".history-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Cold War",
+        "jsonFile": "cold_war",
+        "games": 14,
+        "bg": "danger"
+      },
+      {
+        "index": 2,
+        "displayName": "Germany 1918-1939",
+        "jsonFile": "germany1918-1939",
+        "games": 12,
+        "bg": "warning"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "displayName": "English Literature",
+    "bg": "purple",
+    "topicParent": ".english-lit-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Macbeth",
+        "jsonFile": "macbeth",
+        "games": 2,
+        "bg": "info"
+      },
+      {
+        "index": 2,
+        "displayName": "A Christmas Carol",
+        "jsonFile": "christmas_carol",
+        "games": 2,
+        "bg": "success"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "displayName": "Music",
+    "bg": "warning",
+    "topicParent": ".music-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Describing music",
+        "jsonFile": "describing_music",
+        "games": 12,
+        "bg": "success"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "displayName": "Physics",
+    "bg": "lime",
+    "topicParent": ".physics-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Equations",
+        "jsonFile": "physics_equations",
+        "games": 1,
+        "bg": "purple"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "displayName": "German",
+    "bg": "info",
+    "topicParent": ".german-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Acronyms",
+        "jsonFile": "acronyms",
+        "games": 12,
+        "bg": "primary"
+      },
+      {
+        "index": 2,
+        "displayName": "Colours",
+        "jsonFile": "colours",
+        "games": 12,
+        "bg": "info"
+      },
+      {
+        "index": 3,
+        "displayName": "Common adjectives",
+        "jsonFile": "adjectives",
+        "games": 12,
+        "bg": "warning"
+      },
+      {
+        "index": 4,
+        "displayName": "Common adverbs",
+        "jsonFile": "adverbs",
+        "games": 12,
+        "bg": "orange"
+      },
+      {
+        "index": 5,
+        "displayName": "Common prepositions",
+        "jsonFile": "prepositions",
+        "games": 12,
+        "bg": "turquoise"
+      },
+      {
+        "index": 6,
+        "displayName": "Common verbs",
+        "jsonFile": "verbs",
+        "games": 12,
+        "bg": "lime"
+      },
+      {
+        "index": 7,
+        "displayName": "Cultural life",
+        "jsonFile": "cultural-life",
+        "games": 12,
+        "bg": "purple"
+      },
+      {
+        "index": 8,
+        "displayName": "Daily life, food and drink",
+        "jsonFile": "daily-life-food-drink",
+        "games": 12,
+        "bg": "danger"
+      },
+      {
+        "index": 9,
+        "displayName": "Dealing with problems",
+        "jsonFile": "problems",
+        "games": 12,
+        "bg": "success"
+      },
+      {
+        "index": 10,
+        "displayName": "Dialogue, messaging and social media",
+        "jsonFile": "dialogue-and-messaging",
+        "games": 12,
+        "bg": "orange"
+      },
+      {
+        "index": 11,
+        "displayName": "Directions",
+        "jsonFile": "directions",
+        "games": 12,
+        "bg": "warning"
+      },
+      {
+        "index": 12,
+        "displayName": "Dress and style",
+        "jsonFile": "dress-and-style",
+        "games": 12,
+        "bg": "info"
+      },
+      {
+        "index": 13,
+        "displayName": "Geography",
+        "jsonFile": "geography",
+        "games": 12,
+        "bg": "primary"
+      },
+      {
+        "index": 14,
+        "displayName": "International and Global Dimension",
+        "jsonFile": "international-and-global-dimension",
+        "games": 12,
+        "bg": "info"
+      },
+      {
+        "index": 15,
+        "displayName": "Local Area, Holiday and Travel",
+        "jsonFile": "local-area-holiday-travel",
+        "games": 12,
+        "bg": "warning"
+      },
+      {
+        "index": 16,
+        "displayName": "Numbers",
+        "jsonFile": "numbers",
+        "games": 12,
+        "bg": "orange"
+      },
+      {
+        "index": 17,
+        "displayName": "Quantities and Measures",
+        "jsonFile": "quantities-and-measures",
+        "games": 12,
+        "bg": "turquoise"
+      },
+      {
+        "index": 18,
+        "displayName": "Relations, Relationships, Personal and Physical Characteristics",
+        "jsonFile": "relations-relationships-personal-and-physical-characteristics",
+        "games": 12,
+        "bg": "lime"
+      },
+      {
+        "index": 19,
+        "displayName": "School",
+        "jsonFile": "school",
+        "games": 12,
+        "bg": "purple"
+      },
+      {
+        "index": 20,
+        "displayName": "Social conventions",
+        "jsonFile": "social-conventions",
+        "games": 12,
+        "bg": "danger"
+      },
+      {
+        "index": 21,
+        "displayName": "Times, Days, Months and Seasons",
+        "jsonFile": "times-days-months-seasons",
+        "games": 12,
+        "bg": "success"
+      },
+      {
+        "index": 22,
+        "displayName": "Useful words and phrases",
+        "jsonFile": "useful-words-and-expressions",
+        "games": 12,
+        "bg": "orange"
+      },
+      {
+        "index": 23,
+        "displayName": "Weather",
+        "jsonFile": "weather",
+        "games": 12,
+        "bg": "warning"
+      },
+      {
+        "index": 24,
+        "displayName": "Work",
+        "jsonFile": "work",
+        "games": 12,
+        "bg": "info"
+      }
+    ]
+  }
+]

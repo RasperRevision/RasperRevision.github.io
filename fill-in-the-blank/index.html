@@ -42,13 +42,13 @@
 <body class="flex align-items-center justify-content-center">
   <ul class="nav nav-pills position-absolute top-0 p-2 m-3">
     <li class="nav-item">
-      <a class="nav-link text-white" href="/fill-in-the-blank/?json=macbeth.json">Macbeth</a>
+      <a class="nav-link text-white" href="/fill-in-the-blank/?json=macbeth">Macbeth</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-white" href="/fill-in-the-blank/?json=christmas_carol.json">A Christmas Carol</a>
+      <a class="nav-link text-white" href="/fill-in-the-blank/?json=christmas_carol">A Christmas Carol</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-white" href="/fill-in-the-blank/?json=coldwarquotes.json">Cold War</a>
+      <a class="nav-link text-white" href="/fill-in-the-blank/?json=cold_war">Cold War</a>
     </li>
   </ul>
 
@@ -85,7 +85,7 @@
         var jsonFile = getParameterByName('json');
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-        xobj.open('GET', jsonFile, true);
+        xobj.open('GET', jsonFile + '.json', true);
         xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
         };
@@ -172,7 +172,6 @@
       loadJSON(function (response) {
         quotes = response;
         shuffledQuotes = shuffle([...quotes]);
-        console.log(shuffledQuotes);
         displayQuote();
 
         const jsonFileName = getParameterByName('json');

@@ -39,114 +39,28 @@
 
     <div style="flex-grow:1;padding:50px;">
       <div class="games home_btn_row invis">
-        <button class="game home_btn danger game-matchup">Matchup</button>
-        <button class="game home_btn success game-quiz">Quiz</button>
-        <button class="game home_btn info game-blank">Fill in the Blank</button>
+        <button class="game home_btn invis danger game-matchup">Matchup</button>
+        <button class="game home_btn invis success game-quiz">Quiz</button>
+        <button class="game home_btn invis info game-blank">Fill in the Blank</button>
+        <button class="game home_btn invis turquoise game-equations">Equations</button>
       </div>
 
-      <div class="music-topics home_btn_row invis">
-        <button class="topic home_btn danger">Describing Music</button>
-      </div>
+      <div class="music-topics flex_col invis"></div>
 
-      <div class="history-topics home_btn_row invis">
-        <button class="topic home_btn danger">Cold War</button>
-        <button class="topic home_btn info">Germany 1918-1939</button>
-      </div>
+      <div class="history-topics flex_col invis"></div>
 
-      <div class="compsci-topics flex_col invis">
-        <div class="home_btn_row" style="flex-basis: 100%;">
-          <button class="topic home_btn primary">Unit 1: Algorithms</button>
-          <button class="topic home_btn warning">Unit 2: Programming</button>
-          <button class="topic home_btn success">Unit 3: Data representation</button>
-        </div>
-        <div class="home_btn_row" style="flex-basis: 100%;">
-          <button class="topic home_btn info">Unit 4: Computer systems</button>
-          <button class="topic home_btn danger">Unit 5: Computer networks</button>
-        </div>
-      </div>
+      <div class="compsci-topics flex_col invis"></div>
 
-      <div class="english-lit-topics home_btn_row invis">
-        <button class="topic home_btn danger">Macbeth quotes</button>
-        <button class="topic home_btn warning">A Christmas Carol quotes</button>
-      </div>
+      <div class="english-lit-topics flex_col invis"></div>
 
-      <div class="biology-topics home_btn_row invis">
-        <button class="topic home_btn lime">B1: Cell biology</button>
-        <button class="topic home_btn turquoise">B2: Organisation</button>
-        <button class="topic home_btn info">B3: Infection and Response</button>
-      </div>
+      <div class="biology-topics flex_col invis"></div>
 
-      <div class="german-topics invis h-100">
-        <button class="scroll-right"> > </button>
-        <button class="scroll-left invis">
-          < </button>
-            <div class="flex_col page1">
-              <div class="home_btn_row" style="flex-basis: 100%;">
-                <button class="topic home_btn danger">Acronyms</button>
-                <button class="topic home_btn warning">Colours</button>
-                <button class="topic home_btn success">Common Adjectives</button>
-                <button class="topic home_btn info">Common Adverbs</button>
-              </div>
-              <div class="home_btn_row" style="flex-basis: 100%;">
-                <button class="topic home_btn lime">Common Prepositions</button>
-                <button class="topic home_btn turquoise">Common Verbs</button>
-                <button class="topic home_btn orange">Cultural Life</button>
-                <button class="topic home_btn purple">Daily life, food and drink</button>
-              </div>
-              <div class="home_btn_row" style="flex-basis: 100%;">
-                <button class="topic home_btn purple">Dealing with problems</button>
-                <button class="topic home_btn info">Dialogue, Messaging and Social Media</button>
-                <button class="topic home_btn danger">Directions</button>
-                <button class="topic home_btn success">Dress and style</button>
-              </div>
-            </div>
-            <div class="flex_col page2 invis">
-              <div class="home_btn_row" style="flex-basis: 100%;">
-                <button class="topic home_btn purple">Geography</button>
-                <button class="topic home_btn info">International and Global Dimension</button>
-                <button class="topic home_btn danger">Local Area, Holiday and Travel</button>
-                <button class="topic home_btn success">Numbers</button>
-              </div>
-              <div class="home_btn_row" style="flex-basis: 100%;">
-                <button class="topic home_btn danger">Quantities and Measures</button>
-                <button class="topic home_btn warning">Relations, Relationships, Personal and Physical
-                  Characteristics</button>
-                <button class="topic home_btn success">School</button>
-                <button class="topic home_btn info">Social conventions</button>
-              </div>
-              <div class="home_btn_row" style="flex-basis: 100%;">
-                <button class="topic home_btn turquoise">Times, Days, Months and Seasons</button>
-                <button class="topic home_btn orange">Useful words and phrases</button>
-                <button class="topic home_btn purple">Weather</button>
-                <button class="topic home_btn lime">Work</button>
-              </div>
-            </div>
-      </div>
+      <div class="german-topics h-100 invis"></div>
 
-      <div class="chemistry-topics home_btn_row invis">
-        <button class="topic home_btn lime">C1: Atomic structure</button>
-        <button class="topic home_btn danger">C2: Structure and bonding</button>
-        <button class="topic home_btn orange">C3: Quantitative Chemistry</button>
-      </div>
+      <div class="chemistry-topics home_btn_row invis"></div>
+      <div class="physics-topics home_btn_row invis"></div>
 
-      <div class="physics-topics home_btn_row invis">
-        <button class="topic home_btn danger">Equations</button>
-      </div>
-
-      <div class="subjects flex_col h100">
-        <div class="home_btn_row" style="flex-basis: 100%">
-          <button class="subject home_btn turquoise">Computer Science</button>
-          <button class="subject home_btn success">English Literature</button>
-          <button class="subject home_btn danger">History</button>
-          <button class="subject home_btn orange">Chemistry</button>
-        </div>
-        <div class="home_btn_row" style="flex-basis: 100%">
-          <button class="subject home_btn purple">Music</button>
-          <button class="subject home_btn warning">German</button>
-          <button class="subject home_btn lime">Physics</button>
-          <button class="subject home_btn info">Biology</button>
-        </div>
-      </div>
+      <div class="subjects flex_col h100"></div>
     </div>
   </section>
 
@@ -154,236 +68,271 @@
   <div class="d-flex sidebar-wrapper" id="wrapper"></div>
 
   <script>
+    const games = document.querySelectorAll('.game');
+    const game_parent = document.querySelector('.games');
+
+    let title = document.querySelector('.welcome_title');
+    let topic_chosen = "";
+
+    var current_page_num = 1;
+
+    // prevents page from becoming stuck loading
     window.addEventListener('popstate', function (event) {
       if (window.location.pathname === '/') {
         location.reload();
       }
     });
 
-    function start() {
-      const subjects = document.querySelectorAll('.subject');
-      const topics = document.querySelectorAll('.topic');
-      const games = document.querySelectorAll('.game');
+    window.addEventListener('scroll', function (event) {
+      if (this.oldScroll > this.scrollY) {
+        // scroll up
+        if (document.getElementById('page' + (current_page_num - 1)) != null) {
+          current_page_num--;
+          const y = document.getElementById('page' + current_page_num).getBoundingClientRect().top + window.scrollY - 190;
+          window.scroll({
+            top: y,
+            behavior: 'smooth'
+          });
+          console.log(y);
+        }
+      } else {
+        // scroll down
+        if (document.getElementById('page' + (current_page_num + 1)) != null) {
+          current_page_num++;
+          const y = document.getElementById('page' + current_page_num).getBoundingClientRect().top + window.scrollY + 240;
+          window.scroll({
+            top: y,
+            behavior: 'smooth'
+          });
+          console.log(y);
+        }
+      }
 
-      const subject_parent = document.querySelector('.subjects');
+      this.oldScroll = this.scrollY;
+    });
 
-      const music_topic_parent = document.querySelector('.music-topics');
-      const english_lit_topic_parent = document.querySelector('.english-lit-topics');
-      const compsci_topic_parent = document.querySelector('.compsci-topics');
-      const german_topic_parent = document.querySelector('.german-topics');
-      const history_topic_parent = document.querySelector('.history-topics');
-      const physics_topic_parent = document.querySelector('.physics-topics');
-      const chemistry_topic_parent = document.querySelector('.chemistry-topics');
-      const biology_topic_parent = document.querySelector('.biology-topics');
+    async function getJson() {
+      // Matchup, quiz, fill in the blank, equations
 
-      const game_parent = document.querySelector('.games');
+      const data = await (await fetch('/subjects.json')).json();
+      var row1, row2, row3;
 
-      const matchup_game = document.querySelector('.game-matchup');
-      const quiz_game = document.querySelector('.game-quiz');
-      const blank_game = document.querySelector('.game-blank');
+      row1 = document.createElement('div');
+      row1.classList.add('home_btn_row');
+      row1.style.flexBasis = '100%';
+      document.querySelector('.subjects').appendChild(row1);
 
-      let title = document.querySelector('.welcome_title');
+      if (data.length > 4) {
+        row2 = document.createElement('div');
+        row2.classList.add('home_btn_row');
+        row2.style.flexBasis = '100%';
+        document.querySelector('.subjects').appendChild(row2);
+      }
 
-      let subject_chosen = "";
-      let topic_chosen = "";
-      let game_chosen = "";
+      if (data.length > 8) {
+        row3 = document.createElement('div');
+        row3.classList.add('home_btn_row');
+        row3.style.flexBasis = '100%';
+        document.querySelector('.subjects').appendChild(row3);
+      }
 
-      const scroll_right = document.querySelector('.scroll-right');
-      const scroll_left = document.querySelector('.scroll-left');
-
-      const page1 = document.querySelector('.page1');
-      const page2 = document.querySelector('.page2');
-
-      scroll_right.addEventListener('click', function () {
-        scroll_left.classList.remove('invis');
-        scroll_right.classList.add('invis');
-        page2.classList.remove('invis');
-        page2.style.transform = 'translateX(0)';
-        page1.style.transform = 'translateX(-100vw)';
-        page1.classList.add('invis');
-      });
-
-      scroll_left.addEventListener('click', function () {
-        scroll_right.classList.remove('invis');
-        scroll_left.classList.add('invis');
-        page1.classList.remove('invis');
-        page1.style.transform = 'translateX(0)';
-        page2.style.transform = 'translateX(100vw)';
-        page2.classList.add('invis');
-      });
-
-      // Add event listener to each subject button that makes the corresponding topic buttons appear.
-      subjects.forEach(function (subject) {
-        subject.addEventListener('click', function () {
-          subject_chosen = subject.innerHTML;
-          subject_parent.classList.add('invis');
-          title.innerHTML = "Select a topic";
-          if (subject_chosen == "Music") {
-            music_topic_parent.classList.remove('invis');
-          } else if (subject_chosen == "English Literature") {
-            english_lit_topic_parent.classList.remove('invis');
-          } else if (subject_chosen == "Computer Science") {
-            compsci_topic_parent.classList.remove('invis');
-          } else if (subject_chosen == "German") {
-            german_topic_parent.classList.remove('invis');
-          } else if (subject_chosen == "History") {
-            history_topic_parent.classList.remove('invis');
-          } else if (subject_chosen == "Physics") {
-            physics_topic_parent.classList.remove('invis');
-          } else if (subject_chosen == "Chemistry") {
-            chemistry_topic_parent.classList.remove('invis');
-          } else if (subject_chosen == "Biology") {
-            biology_topic_parent.classList.remove('invis');
-          }
+      data.forEach(function (subject) {
+        const subject_btn = document.createElement('button');
+        subject_btn.classList.add('home_btn', subject.bg);
+        subject_btn.innerHTML = subject.displayName;
+        subject_btn.addEventListener('click', function () {
+          document.querySelector('.subjects').classList.add('invis');
+          document.querySelector('.welcome_title').innerHTML = "Select a topic";
+          document.querySelector(subject.topicParent).classList.remove('invis');
         });
-      });
 
-      // Adds event listener to each topic button that makes the corresponding activity buttons appear.
-      topics.forEach(function (topic) {
-        topic.addEventListener('click', function () {
-          topic_chosen = topic.innerHTML;
-          title.innerHTML = "Select an activity";
-          game_parent.classList.remove('invis');
-          if (subject_chosen == "Music") {
-            music_topic_parent.classList.add('invis');
-            blank_game.classList.add('invis');
-            if (topic_chosen == "Describing Music") {
-              topic_chosen = "describing_music"
-            }
-          } else if (subject_chosen == "English Literature") {
-            english_lit_topic_parent.classList.add('invis');
-            if (topic_chosen == "Macbeth quotes") {
-              matchup_game.classList.add('invis');
-              quiz_game.classList.add('invis');
-            } else if (topic_chosen == "A Christmas Carol quotes") {
-              matchup_game.classList.add('invis');
-              quiz_game.classList.add('invis');
-            }
-          } else if (subject_chosen == "Computer Science") {
-            compsci_topic_parent.classList.add('invis');
-            if (topic_chosen == "Unit 1: Algorithms") {
-              blank_game.classList.add('invis');
-              topic_chosen = "unit1";
-            } else if (topic_chosen == "Unit 2: Programming") {
-              blank_game.classList.add('invis');
-              topic_chosen = "unit2";
-            } else if (topic_chosen == "Unit 3: Data representation") {
-              blank_game.classList.add('invis');
-              topic_chosen = "unit3";
-            } else if (topic_chosen == "Unit 4: Computer systems") {
-              blank_game.classList.add('invis');
-              topic_chosen = "unit4";
-            } else if (topic_chosen == "Unit 5: Computer networks") {
-              blank_game.classList.add('invis');
-              topic_chosen = "unit5";
-            }
-          } else if (subject_chosen == "German") {
-            german_topic_parent.classList.add('invis');
-            blank_game.classList.add('invis');
-            if (topic_chosen == "Common Adjectives") {
-              topic_chosen = "adjectives";
-            } else if (topic_chosen == "Common Adverbs") {
-              topic_chosen = "adverbs";
-            } else if (topic_chosen == "Common Prepositions") {
-              topic_chosen = "prepositions";
-            } else if (topic_chosen == "Common Verbs") {
-              topic_chosen = "verbs";
-            } else if (topic_chosen == "Cultural Life") {
-              topic_chosen = "cultural-life";
-            } else if (topic_chosen == "Daily life, food and drink") {
-              topic_chosen = "daily-life-food-drink";
-            } else if (topic_chosen == "Dealing with problems") {
-              topic_chosen = "problems";
-            } else if (topic_chosen == "Dialogue, Messaging and Social Media") {
-              topic_chosen = "dialogue-and-messaging";
-            } else if (topic_chosen == "Dress and style") {
-              topic_chosen = "dress-and-style";
-            } else if (topic_chosen == "International and Global Dimension") {
-              topic_chosen = "international-and-global-dimension";
-            } else if (topic_chosen == "Local Area, Holiday and Travel") {
-              topic_chosen = "local-area-holiday-travel";
-            } else if (topic_chosen == "Quantities and Measures") {
-              topic_chosen = "quantities-and-measures";
-            } else if (topic_chosen == "Relations, Relationships, Personal and Physical Characteristics") {
-              topic_chosen = "relations-relationships-personal-and-physical-characteristics";
-            } else if (topic_chosen == "Social conventions") {
-              topic_chosen = "social-conventions";
-            } else if (topic_chosen == "Times, Days, Months and Seasons") {
-              topic_chosen = "times-days-months-seasons";
-            } else if (topic_chosen == "Useful words and phrases") {
-              topic_chosen = "useful-words-and-expressions";
+        if (subject.index == 4 && (data.length == 5 || data.length == 6 || data.length == 9)) {
+          row2.appendChild(subject_btn);
+        } else if (subject.index == 7 && (data.length == 9 || data.length == 10)) {
+          row3.appendChild(subject_btn);
+        } else if (subject.index == 8 && data.length == 9) {
+          row3.appendChild(subject_btn);
+        } else if (subject.index <= 4) {
+          row1.appendChild(subject_btn);
+        } else if (subject.index <= 8) {
+          row2.appendChild(subject_btn);
+        } else if (subject.index <= 12) {
+          row3.appendChild(subject_btn);
+        }
+
+        if (subject.topics.length > 12) {
+          var page_count = Math.ceil(subject.topics.length / 12);
+
+          var pages = [];
+
+          for (let i = 1; i <= page_count; i++) {
+            var rows = [];
+
+            if (i == page_count) {
+              var modulus = subject.topics.length % 12;
+              var p_row1, p_row2, p_row3;
+
+              p_row1 = document.createElement('div');
+              p_row1.classList.add('home_btn_row');
+              p_row1.style.flexBasis = '100%';
+              rows.push(p_row1);
+
+              if (modulus == 0) {
+                modulus = 12;
+              }
+              if (modulus > 4) {
+                p_row2 = document.createElement('div');
+                p_row2.classList.add('home_btn_row');
+                p_row2.style.flexBasis = '100%';
+                rows.push(p_row2);
+              }
+              if (modulus > 8) {
+                p_row3 = document.createElement('div');
+                p_row3.classList.add('home_btn_row');
+                p_row3.style.flexBasis = '100%';
+                rows.push(p_row3);
+              }
             } else {
-              topic_chosen = topic_chosen.toLowerCase();
-            }
-          } else if (subject_chosen == "History") {
-            history_topic_parent.classList.add('invis');
-            if (topic_chosen == "Cold War") {
-              topic_chosen = "cold_war";
-            } else if (topic_chosen == "Germany 1918-1939") {
-              blank_game.classList.add('invis');
-              topic_chosen = "germany1918-1939";
-            }
-          } else if (subject_chosen == "Physics") {
-            physics_topic_parent.classList.add('invis');
-            if (topic_chosen == "Equations") {
-              title.innerHTML = "Loading...";
-              blank_game.classList.add('invis');
-              matchup_game.classList.add('invis');
-              quiz_game.classList.add('invis');
-              window.location.href = '/equations?json=' + encodeURIComponent("physics_equations.json");
-            }
-          } else if (subject_chosen == "Chemistry") {
-            chemistry_topic_parent.classList.add('invis');
-            if (topic_chosen == "C1: Atomic structure") {
-              blank_game.classList.add('invis');
-              topic_chosen = "c1";
-            } else if (topic_chosen == "C2: Structure and bonding") {
-              blank_game.classList.add('invis');
-              topic_chosen = "c2";
-            } else if (topic_chosen == "C3: Quantitative Chemistry") {
-              blank_game.classList.add('invis');
-              topic_chosen = "c3-quantitative-chemistry";
-            }
-          } else if (subject_chosen == "Biology") {
-            biology_topic_parent.classList.add('invis');
-            if (topic_chosen == "B1: Cell biology") {
-              blank_game.classList.add('invis');
-              topic_chosen = "b1";
-            } else if (topic_chosen = "B2: Organisation") {
-              blank_game.classList.add('invis');
-              topic_chosen = "b2-organisation";
-            } else if (topic_chosen = "B3: Infection and Response") {
-              blank_game.classList.add('invis');
-              topic_chosen = "b3-infection-and-response";
-            }
-          }
-        });
-      });
-      // Adds event listeners to each activity button to start the corresponding game with the corresponding JSON file.
-      games.forEach(function (game) {
-        game.addEventListener('click', function () {
-          game_chosen = game.innerHTML;
-          game_parent.classList.add('invis');
-          title.classList.add('invis');
+              var p_row1, p_row2, p_row3;
 
-          if (game_chosen == "Matchup") {
-            location.href = '/matchup/?json=' + topic_chosen;
-          } else if (game_chosen == "Quiz") {
-            location.href = '/quiz/?json=' + topic_chosen;
-          } else if (game_chosen == "Fill in the Blank") {
-            if (topic_chosen == "Macbeth quotes") {
-              window.location.href = '/fill-in-the-blank?json=macbeth.json'
-            } else if (topic_chosen == "A Christmas Carol quotes") {
-              window.location.href = '/fill-in-the-blank?json=christmas_carol.json'
-            } else if (topic_chosen == "cold_war") {
-              window.location.href = '/fill-in-the-blank?json=coldwarquotes.json'
+              p_row1 = document.createElement('div');
+              p_row1.classList.add('home_btn_row');
+              p_row1.style.flexBasis = '100%';
+              rows.push(p_row1);
+
+              p_row2 = document.createElement('div');
+              p_row2.classList.add('home_btn_row');
+              p_row2.style.flexBasis = '100%';
+              rows.push(p_row2);
+
+              p_row3 = document.createElement('div');
+              p_row3.classList.add('home_btn_row');
+              p_row3.style.flexBasis = '100%';
+              rows.push(p_row3);
+            }
+
+            var page = document.createElement('div');
+            page.classList.add('d-inline-flex', 'flex-column', 'h-100', 'w-100', 'mb-5');
+            page.id = 'page' + i;
+
+            rows.forEach(function (row) { page.appendChild(row); });
+
+            pages.push(page);
+          }
+
+          pages.forEach(function (item) {
+            document.querySelector(subject.topicParent).appendChild(item);
+          })
+
+        } else {
+          var t_row1, t_row2, t_row3;
+
+          t_row1 = document.createElement('div');
+          t_row1.classList.add('home_btn_row');
+          t_row1.style.flexBasis = '100%';
+          document.querySelector(subject.topicParent).appendChild(t_row1);
+
+          if (subject.topics.length > 4) {
+            t_row2 = document.createElement('div');
+            t_row2.classList.add('home_btn_row');
+            t_row2.style.flexBasis = '100%';
+            document.querySelector(subject.topicParent).appendChild(t_row2);
+          }
+          if (subject.topics.length > 8) {
+            t_row3 = document.createElement('div');
+            t_row3.classList.add('home_btn_row');
+            t_row1.style.flexBasis = '33.33333%';
+            t_row2.style.flexBasis = '33.33333%';
+            t_row3.style.flexBasis = '33.33333%';
+            document.querySelector(subject.topicParent).appendChild(t_row3);
+          }
+        }
+
+        subject.topics.forEach(function (topic) {
+          const topic_btn = document.createElement('button');
+          topic_btn.classList.add('home_btn', topic.bg);
+          topic_btn.innerHTML = topic.displayName;
+
+          topic_btn.addEventListener('click', function () {
+            document.querySelector('.welcome_title').innerHTML = "Select an activity";
+            document.querySelector(subject.topicParent).classList.add('invis');
+
+            var binary_games = topic.games.toString(2);
+            document.querySelector('.games').classList.remove('invis');
+
+            while (binary_games.length < 4) { binary_games = '0' + binary_games; }
+
+            if (binary_games[0] == '1') {
+              document.querySelector('.game-matchup').classList.remove('invis');
+            }
+            if (binary_games[1] == '1') {
+              document.querySelector('.game-quiz').classList.remove('invis');
+            }
+            if (binary_games[2] == '1') {
+              document.querySelector('.game-blank').classList.remove('invis');
+            }
+            if (binary_games[3] == '1') {
+              document.querySelector('.game-equations').classList.remove('invis');
+            }
+
+            topic_chosen = topic.jsonFile;
+          });
+
+          if (subject.topics.length <= 12) {
+            if (topic.index == 4 && (subject.topics.length == 5 || subject.topics.length == 6 || subject.topics.length == 9)) {
+              t_row2.appendChild(topic_btn);
+            } else if (topic.index == 7 && (subject.topics.length == 9 || subject.topics.length == 10)) {
+              t_row3.appendChild(topic_btn);
+            } else if (topic.index == 8 && subject.topics.length == 9) {
+              t_row3.appendChild(topic_btn);
+            } else if (topic.index <= 4) {
+              t_row1.appendChild(topic_btn);
+            } else if (topic.index <= 8) {
+              t_row2.appendChild(topic_btn);
+            } else if (topic.index <= 12) {
+              t_row3.appendChild(topic_btn);
+            }
+          } else {
+            if (topic.index % 12 == 0) {
+              pages[Math.ceil(topic.index / 12) - 1].children[2].appendChild(topic_btn);
+            } else if (topic.index % 12 == 4 && (subject.topics.length % 12 == 5 || subject.topics.length % 12 == 6 || subject.topics.length % 12 == 9)) {
+              pages[Math.ceil(topic.index / 12) - 1].children[1].appendChild(topic_btn);
+            } else if (topic.index % 12 == 7 && (subject.topics.length % 12 == 9 || subject.topics.length % 12 == 10)) {
+              pages[Math.ceil(topic.index / 12) - 1].children[2].appendChild(topic_btn);
+            } else if (topic.index % 12 == 8 && subject.topics.length % 12 == 9) {
+              pages[Math.ceil(topic.index / 12) - 1].children[2].appendChild(topic_btn);
+            } else if (topic.index % 12 <= 4) {
+              pages[Math.ceil(topic.index / 12) - 1].children[0].appendChild(topic_btn);
+            } else if (topic.index % 12 <= 8) {
+              pages[Math.ceil(topic.index / 12) - 1].children[1].appendChild(topic_btn);
+            } else if (topic.index % 12 < 12 || topic.index % 12 == 0) {
+              pages[Math.ceil(topic.index / 12) - 1].children[2].appendChild(topic_btn);
             }
           }
-        });
+        })
       });
     }
 
-    start();
+    getJson();
+
+    // Adds event listeners to each activity button to start the corresponding game with the corresponding JSON file.
+    games.forEach(function (game) {
+      game.addEventListener('click', function () {
+        game_parent.classList.add('invis');
+        title.innerHTML = 'Loading...';
+
+        if (game.innerHTML == "Matchup") {
+          location.href = '/matchup/?json=' + topic_chosen;
+        } else if (game.innerHTML == "Quiz") {
+          location.href = '/quiz/?json=' + topic_chosen;
+        } else if (game.innerHTML == "Fill in the Blank") {
+          window.location.href = '/fill-in-the-blank?json=' + topic_chosen;
+        } else if (game.innerHTML == "Equations") {
+          window.location.href = '/equations?json=physics_equations.json'
+        }
+      });
+    });
+
   </script>
 
 </body>
