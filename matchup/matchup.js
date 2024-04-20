@@ -1,14 +1,21 @@
 const container = document.querySelector('.elements');
-const sect = document.querySelector('.match-up');
 const stopwatch = document.querySelector('.stopwatch');
 const pills = document.querySelectorAll('.dropdown-item');
-const term_element = document.querySelector('.term');
+const finished = document.querySelector('.matchup_finished');
+const score = document.querySelector('.score');
 
 let timer;
 let s = 0, m = 0;
 let formattedTime;
 
+let score_value;
+let length;
+
 let isGerman = false;
+
+let json_data;
+
+let definitionChosen = "", termChosen = "";
 
 function startStopwatch() {
   timer = setInterval(function () {
@@ -64,13 +71,13 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
-function pickRandomItems(array, correct) {
-  if (array.length <= 10) { return array; }
+function pickRandomItems(array) {
+  if (array.length <= 5) { return array; }
 
   let randomItems = [];
   let indexes = [];
 
-  while (indexes.length < 10) {
+  while (indexes.length < 5) {
     let randomIndex = Math.floor(Math.random() * array.length);
     if (!indexes.includes(randomIndex)) {
       indexes.push(randomIndex);
@@ -81,122 +88,84 @@ function pickRandomItems(array, correct) {
     randomItems.push(array[index]);
   });
 
-  if (!randomItems.includes(correct)) {
-    randomItems.pop();
-    randomItems.push(correct);
-  }
-
   console.log(array, randomItems);
   return randomItems;
 }
 
-async function processItem(data, current_item) {
-  term_element.innerHTML = current_item.term;
+async function process() {
+  const selection = pickRandomItems(json_data);
 
-  data = pickRandomItems(data, current_item);
   let count = 0;
   const nums = shuffle([13, 21, 29, 37, 45, 53, 61, 69, 77, 85]);
-  data.forEach(item => {
+
+  selection.forEach(item => {
     const definition = document.createElement('button');
 
-    definition.textContent = item.meaning;
-    definition.classList.add('btn', 'definition', 'text-light');
-    definition.style.position = 'absolute';
-    definition.style.fontSize = '20px';
-    definition.style.textShadow = '1px 1px 10px black';
-    definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
-    definition.style.top = nums[count] + '%';
-
-    document.querySelector('.elements').appendChild(definition);
-    count++;
-  });
-
-  return new Promise((resolve) => {
-    waitForButton(current_item, resolve);
-  });
-}
-
-async function processGermanItem(data, current_item) {
-  term_element.innerHTML = current_item.german;
-
-  data = pickRandomItems(data, current_item);
-  let count = 0;
-  const nums = shuffle([13, 21, 29, 37, 45, 53, 61, 69, 77, 85]);
-  data.forEach(item => {
-    const definition = document.createElement('button');
-
-    definition.textContent = item.english;
-    definition.classList.add('btn', 'definition', 'text-light');
-    definition.style.position = 'absolute';
-    definition.style.fontSize = '20px';
-    definition.style.textShadow = '1px 1px 10px black';
-    definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
-    definition.style.top = nums[count] + '%';
-
-    document.querySelector('.elements').appendChild(definition);
-    count++;
-  });
-
-  return new Promise((resolve) => {
-    waitForButton(current_item, resolve);
-  });
-}
-
-function waitForButton(current_item, callback) {
-  const handleClick = (event) => {
-    if (isGerman) {
-      if (event.target.innerHTML == current_item.english) {
-        while (container.firstChild) {
-          container.removeChild(container.firstChild);
-          callback(event);
-          cleanup();
-        }
-      }
+    if (item.meaning != null) {
+      definition.textContent = item.meaning;
     } else {
-      if (event.target.innerHTML == current_item.meaning) {
-        while (container.firstChild) {
-          container.removeChild(container.firstChild);
-          callback(event);
-          cleanup();
-        }
-      }
+      definition.textContent = item.english;
     }
+    definition.classList.add('rbtn', 'definition', 'text-light', 'turquoise');
+    definition.style.position = 'absolute';
+    definition.style.fontSize = '20px';
+    definition.style.textShadow = '1px 1px 10px black';
+    definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
+    definition.style.top = nums[count] + '%';
 
-  }
+    count++;
 
-  const cleanup = () => {
-    document.querySelectorAll('.definition').forEach((definition_element) => {
-      definition_element.removeEventListener('click', handleClick);
-    });
-  }
+    const term = document.createElement('button');
 
-  document.querySelectorAll('.definition').forEach((definition_element) => {
-    definition_element.addEventListener('click', handleClick);
+    if (item.term != null) {
+      term.textContent = item.term;
+    } else {
+      term.textContent = item.german;
+    }
+    term.classList.add('rbtn', 'term', 'primary');
+    term.style.position = 'absolute';
+    term.style.fontSize = '20px';
+    term.style.textShadow = '1px 1px 10px black';
+    term.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
+    term.style.top = nums[count] + '%';
+
+    document.querySelector('.elements').appendChild(definition);
+    document.querySelector('.elements').appendChild(term);
+    count++;
   });
 
-  return cleanup;
+  return new Promise((resolve) => {
+    waitForButton(resolve);
+  });
+}
+
+function updateScore() {
+  score.innerHTML = score_value + '/' + length;
 }
 
 async function matchup() {
+  startStopwatch();
+  score_value = 0;
   loadJSON(async function (response) {
-    response = shuffle(response);
-    if (response[0].term == null) {
-      isGerman = true;
-      for (const item of response) {
-        await processGermanItem(response, item);
-      }
-    } else {
-      isGerman = false;
-      for (const item of response) {
-        await processItem(response, item);
+    json_data = shuffle(response);
+    length = json_data.length;
+    updateScore();
+
+    while (true) {
+      if (json_data.length == 0) { break; }
+      await process();
+      for (let j = 0; j < json_data.length; j++) {
+        if (termChosen == json_data[j].term || termChosen == json_data[j].german) {
+          json_data.splice(j, 1);
+          j--;
+        }
       }
     }
 
+    // end
     container.style.display = 'none';
     stopStopwatch();
-    term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
-    term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
-    stopwatch.classList.add('d-none');
+    finished.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
     const home = document.createElement('button');
     home.innerHTML = 'Home';
     home.classList.add('btn');
@@ -212,10 +181,80 @@ async function matchup() {
     restart.addEventListener('click', function () {
       location.reload();
     });
-    term_element.appendChild(restart);
-    term_element.appendChild(home);
+    finished.appendChild(restart);
+    finished.appendChild(home);
     return;
   });
+}
+
+function waitForButton(callback) {
+  const handleDefClick = (event) => {
+    definitionChosen = event.target.innerHTML;
+    document.querySelectorAll(".definition").forEach((item) => {
+      item.style.outline = '';
+    });
+    event.target.style.outline = '5px solid white';
+    if (termChosen != "") {
+      for (let i = 0; i < json_data.length; i++) {
+        const item = json_data[i];
+        if ((item.term == termChosen && item.meaning == definitionChosen) ||
+          (item.german == termChosen && item.english == definitionChosen)) {
+          while (container.firstChild) {
+            container.removeChild(container.firstChild);
+          }
+          callback(event);
+          cleanup();
+          score_value++;
+          updateScore();
+          break;
+        }
+      }
+    }
+  }
+
+  const handleTermClick = (event) => {
+    termChosen = event.target.innerHTML; document.querySelectorAll(".term").forEach((item) => {
+      item.style.outline = '';
+    });
+    event.target.style.outline = '5px solid white';
+
+    if (definitionChosen != "") {
+      for (let i = 0; i < json_data.length; i++) {
+        const item = json_data[i];
+        if ((item.term == termChosen && item.meaning == definitionChosen) ||
+          (item.german == termChosen && item.english == definitionChosen)) {
+          while (container.firstChild) {
+            container.removeChild(container.firstChild);
+          }
+          callback(event);
+          cleanup();
+          score_value++;
+          updateScore();
+          break;
+        }
+      }
+    }
+  }
+
+  const cleanup = () => {
+    document.querySelectorAll('.definition').forEach((definition_element) => {
+      definition_element.removeEventListener('click', handleDefClick);
+    });
+
+    document.querySelectorAll('.term').forEach((term_element) => {
+      term_element.removeEventListener('click', handleTermClick);
+    });
+  }
+
+  document.querySelectorAll('.definition').forEach((definition_element) => {
+    definition_element.addEventListener('click', handleDefClick);
+  });
+
+  document.querySelectorAll('.term').forEach((term_element) => {
+    term_element.addEventListener('click', handleTermClick);
+  });
+
+  return cleanup;
 }
 
 const jsonFileName = getParameterByName('json');
@@ -233,7 +272,6 @@ if (jsonFileName != null) {
   });
 
   matchup();
-  startStopwatch();
 } else {
   document.querySelector('.no-json').classList.remove('invis');
   term_element.classList.add('invis');
