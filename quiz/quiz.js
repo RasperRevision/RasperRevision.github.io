@@ -8,18 +8,23 @@ const home = document.querySelector('.home');
 const restart = document.querySelector('.restart');
 const term_element = document.querySelector('.key_term');
 const pills = document.querySelectorAll('.dropdown-item');
+const score = document.querySelector('.score');
 
 let current_file;
 
 let timer;
-let stopwatch = document.querySelector('.stopwatch');
-let s = 0;
-let m = 0;
-let formattedTime;
+
+let score_val;
+let length;
 
 let answerFound = false;
+let s = 0;
+let m = 0;
 
 function startStopwatch() {
+  let stopwatch = document.querySelector('.stopwatch');
+  let formattedTime;
+
   timer = setInterval(function () {
     s++;
     if (s === 60) {
@@ -54,13 +59,16 @@ function getParameterByName(name, url) {
 
 async function quiz(file) {
   current_file = '/json/' + file + '.json';
+  score_val = 0;
   try {
     const response = await fetch(current_file);
     const data = await response.json();
+    length = data.length;
+    updateScore();
     let shuffled = shuffle(data);
     for (const item of shuffled) { await processItem(item); }
     // end of quiz
-    stopwatch.classList.add('invis');
+    stopStopwatch();
     option1.classList.add('invis');
     option2.classList.add('invis');
     option3.classList.add('invis');
@@ -99,6 +107,9 @@ async function selectRandomEnglish() {
   }
 }
 
+function updateScore() {
+  score.innerHTML = score_val + '/' + length;
+}
 
 async function processItem(item) {
   if (item.term != null) {
@@ -178,6 +189,8 @@ function waitForButton(item, callback) {
     if (btn.innerHTML === item.meaning) {
       answerFound = true;
       btn.classList.add('correct-opt');
+      score_val++;
+      updateScore();
       setTimeout(function () {
         callback(event);
         cleanup();
@@ -216,6 +229,8 @@ function waitForGermanButton(item, callback) {
     if (event.target.innerHTML === item.english) {
       answerFound = true;
       btn.classList.add('correct-opt');
+      score_val++;
+      updateScore();
       setTimeout(function () {
         callback(event);
         cleanup();

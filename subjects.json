@@ -156,6 +156,13 @@
         "jsonFile": "describing_music",
         "games": 12,
         "bg": "success"
+      },
+      {
+        "index": 2,
+        "displayName": "Samba",
+        "jsonFile": "samba",
+        "games": 12,
+        "bg": "turquoise"
       }
     ]
   },
