@@ -216,7 +216,7 @@ function waitForButton(callback) {
     termChosen = event.target.innerHTML; document.querySelectorAll(".term").forEach((item) => {
       item.style.outline = '';
     });
-    event.target.style.outline = '5px solid white';
+    event.target.style.outline = '3px solid white';
 
     if (definitionChosen != "") {
       for (let i = 0; i < json_data.length; i++) {
@@ -260,6 +260,7 @@ function waitForButton(callback) {
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
+  // adds the active class to the link that links to the current page
   pills.forEach(pill => {
     if (pill.getAttribute('href').includes(jsonFileName)) {
       pill.classList.add('active');
@@ -273,6 +274,7 @@ if (jsonFileName != null) {
 
   matchup();
 } else {
+  // if there is no json parameter, this makes the no-json element appear
   document.querySelector('.no-json').classList.remove('invis');
   term_element.classList.add('invis');
 }
