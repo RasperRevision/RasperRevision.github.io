@@ -163,6 +163,13 @@
         "jsonFile": "samba",
         "games": 12,
         "bg": "turquoise"
+      },
+      {
+        "index": 3,
+        "displayName": "Calypso",
+        "jsonFile": "calypso",
+        "games": 12,
+        "bg": "warning"
       }
     ]
   },

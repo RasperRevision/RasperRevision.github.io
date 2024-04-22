@@ -96,7 +96,7 @@ async function process() {
   const selection = pickRandomItems(json_data);
 
   let count = 0;
-  const nums = shuffle([13, 21, 29, 37, 45, 53, 61, 69, 77, 85]);
+  const nums = shuffle([0, 8, 16, 24, 32, 40, 48, 56, 64, 72]);
 
   selection.forEach(item => {
     const definition = document.createElement('button');
@@ -111,7 +111,7 @@ async function process() {
     definition.style.fontSize = '20px';
     definition.style.textShadow = '1px 1px 10px black';
     definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
-    definition.style.top = nums[count] + '%';
+    definition.style.top = 'calc(' + nums[count] + '%' + ' + 250px)';
 
     count++;
 
@@ -127,7 +127,7 @@ async function process() {
     term.style.fontSize = '20px';
     term.style.textShadow = '1px 1px 10px black';
     term.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
-    term.style.top = nums[count] + '%';
+    term.style.top = 'calc(' + nums[count] + '%' + ' + 250px)';
 
     document.querySelector('.elements').appendChild(definition);
     document.querySelector('.elements').appendChild(term);
