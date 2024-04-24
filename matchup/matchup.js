@@ -53,22 +53,37 @@ function getParameterByName(name, url) {
 }
 
 function loadJSON(callback) {
-  var jsonFile = getParameterByName('json');
+  if (!getParameterByName('json')) {
+    console.log(document.querySelector('.no-json'));
+    document.querySelector('.no-json').classList.add('invis');
+    var jsonFile = document.querySelector('.file_input').files[0];
+    var reader = new FileReader();
 
-  if (!jsonFile) {
-    console.error("JSON file name not provided in URL.");
-    return;
+    reader.onload = function (event) {
+      var jsonString = event.target.result;
+      var jsonArray = JSON.parse(jsonString);
+      jsonArray.forEach(function (obj) {
+        obj.newProperty = 'newValue';
+      });
+      if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) {
+        callback(jsonArray);
+      } else {
+        alert("Incompatible file");
+        location.reload();
+      }
+    };
+    reader.readAsText(jsonFile);
+  } else {
+    var jsonFile = '/json/' + getParameterByName('json') + '.json';
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', jsonFile, true);
+    xobj.onreadystatechange = function () {
+      if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
+    };
+    xobj.send(null);
   }
-
-  var jsonUrl = '/json/' + jsonFile + '.json';
-
-  var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open('GET', jsonUrl, true);
-  xobj.onreadystatechange = function () {
-    if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
-  };
-  xobj.send(null);
 }
 
 function pickRandomItems(array) {

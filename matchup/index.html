@@ -33,7 +33,9 @@
       <span class="d-inline  score">0/0</span>
     </div>
 
-    <h1 class="position-absolute" style="left: 50%;transform: translate(-50%, -95%);">Matchup</h1>
+    <h1 class="position-absolute" style="left: 50%;transform: translate(-50%, -95%);">
+      <a href="/matchup" class="link-light link-underline-opacity-50 link-underline-opacity-100-hover">Matchup</a>
+    </h1>
 
     <ul class="nav nav-pills position-absolute p-2 m-3" style="top: 116px;z-index:200;left:0;right:0;">
       <li class="nav-item dropdown">
@@ -141,7 +143,11 @@
     style="transform: translateY(-50%);">
     <div class="dark p-5 container">
       <h1>Matchup</h1>
-      To begin, choose a topic from the menu at the top of the page.<br>
+      To begin, choose a topic from the menu at the top of the page.<br><br>
+      If you have a JSON file compatible with this game (which can be created <a href="/create"
+        class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">here</a>), you can
+      upload it using the input field below: <br><br>
+      <input type="file" class="form-control file_input" onchange="matchup()">
     </div>
   </div>
 
