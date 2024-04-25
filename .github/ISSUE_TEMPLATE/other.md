@@ -1,6 +1,6 @@
 ---
 name: Other
-description: Report any issues here that do not fit into the above categories.
+about: Report any issues here that do not fit into the above categories.
 title: ''
 labels: ''
 assignees: ''
