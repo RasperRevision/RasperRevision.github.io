@@ -8,8 +8,7 @@ let timer;
 let s = 0, m = 0;
 let formattedTime;
 
-let score_value;
-let length;
+let score_value, length;
 
 let isGerman = false;
 
