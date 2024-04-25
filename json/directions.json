@@ -1,149 +1,149 @@
 [
   {
-    "german": "gehen Sie zu Fu\u00c3\u0178?",
+    "german": "gehen Sie zu Fuß?",
     "english": "are you going on foot?",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "fahren Sie mit dem Auto?",
     "english": "are you going in a car?",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "bis",
     "english": "until, as far as",
     "part of speech": "preposition, conjunction, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "gehen Sie weiter",
     "english": "keep going",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
-    "german": "\u00c3\u00bcberqueren Sie (die Stra\u00c3\u0178e)",
+    "german": "Überqueren Sie (die Straße)",
     "english": "cross (the road)",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "gehen Sie geradeaus",
     "english": "go straight on",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
-    "german": "die Hauptstra\u00c3\u0178e",
+    "german": "die Hauptstraße",
     "english": "main street",
     "part of speech": "noun",
-    "plural and inflected": "die Hauptstra\u00c3\u0178en",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "plural and inflected": "die Hauptstraßen",
+    "level": "Asking_for_directions"
   },
   {
     "german": "wie komme ich zu...?",
     "english": "how do I get to...?",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "es ist hundert Meter entfernt",
     "english": "it is 100 metres away",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
-    "german": "es ist hier in der N\u00c3\u00a4he",
+    "german": "es ist hier in der Nähe",
     "english": "it is nearby",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "links",
     "english": "left",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "nach links",
     "english": "to the left",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "auf der linken Seite",
     "english": "on the left",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "gehen Sie links",
     "english": "go left",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "biegen Sie links ab",
     "english": "turn left",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "rechts",
     "english": "right",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "nach rechts",
     "english": "to the right",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "auf der rechten Seite",
     "english": "on the right",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
-    "german": "nehmen Sie die erste Stra\u00c3\u0178e links",
+    "german": "nehmen Sie die erste Straße links",
     "english": "take the first road on the left",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "gehen Sie rechts",
     "english": "go right",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   },
   {
     "german": "biegen Sie rechts ab",
     "english": "turn right",
     "part of speech": "expression",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::33_Asking_for_directions"
+    "level": "Asking_for_directions"
   }
 ]
