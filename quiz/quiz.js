@@ -2,7 +2,6 @@ const option1 = document.querySelector('.opt1');
 const option2 = document.querySelector('.opt2');
 const option3 = document.querySelector('.opt3');
 const option4 = document.querySelector('.opt4');
-
 const section = document.querySelector('.quiz');
 const home = document.querySelector('.home');
 const restart = document.querySelector('.restart');
@@ -14,12 +13,10 @@ let current_file;
 
 let timer;
 
-let score_val;
-let length;
+let score_val, length;
 
 let answerFound = false;
-let s = 0;
-let m = 0;
+let s = 0, m = 0;
 
 function startStopwatch() {
   let stopwatch = document.querySelector('.stopwatch');
@@ -57,17 +54,56 @@ function getParameterByName(name, url) {
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-async function quiz(file) {
-  current_file = '/json/' + file + '.json';
+function loadJSON(callback) {
+  if (!getParameterByName('json')) {
+    document.querySelector('.no-json').classList.add('invis');
+    term_element.classList.remove('invis');
+    option1.classList.remove('invis');
+    option2.classList.remove('invis');
+    option3.classList.remove('invis');
+    option4.classList.remove('invis');
+    var jsonFile = document.querySelector('.file_input').files[0];
+    var reader = new FileReader();
+
+    reader.onload = function (event) {
+      var jsonString = event.target.result;
+      var jsonArray = JSON.parse(jsonString);
+      jsonArray.forEach(function (obj) {
+        obj.newProperty = 'newValue';
+      });
+      if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) {
+        callback(jsonArray);
+      } else {
+        alert("Incompatible file");
+        location.reload();
+      }
+    };
+    reader.readAsText(jsonFile);
+  } else {
+    var jsonFile = '/json/' + getParameterByName('json') + '.json';
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', jsonFile, true);
+    xobj.onreadystatechange = function () {
+      if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
+    };
+    xobj.send(null);
+  }
+}
+
+async function quiz() {
+  startStopwatch();
   score_val = 0;
-  try {
-    const response = await fetch(current_file);
-    const data = await response.json();
-    length = data.length;
+  loadJSON(async function (response) {
+    json_data = shuffle(response);
+    length = json_data.length;
     updateScore();
-    let shuffled = shuffle(data);
-    for (const item of shuffled) { await processItem(item); }
-    // end of quiz
+
+    for (let i = 0; i < json_data.length; i++) {
+      await processItem(json_data[i]);
+    }
+
     stopStopwatch();
     option1.classList.add('invis');
     option2.classList.add('invis');
@@ -78,47 +114,42 @@ async function quiz(file) {
     term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
     term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
     document.querySelector('.finish').classList.remove('invis');
-  } catch (error) {
-    console.error('Error fetching JSON', error);
-  }
-}
-
-async function selectRandomMeaning() {
-  try {
-    const response = await fetch(current_file);
-    const data = await response.json();
-    let randomIndex = Math.floor(Math.random() * data.length);
-    return data[randomIndex].meaning;
-  } catch (error) {
-    console.error('Error fetching JSON', error);
-    return null;
-  }
-}
-
-async function selectRandomEnglish() {
-  try {
-    const response = await fetch(current_file);
-    const data = await response.json();
-    let randomIndex = Math.floor(Math.random() * data.length);
-    return data[randomIndex].english;
-  } catch (error) {
-    console.error('Error fetching JSON', error);
-    return null;
-  }
+  });
 }
 
 function updateScore() {
   score.innerHTML = score_val + '/' + length;
 }
 
+function pickRandomItems(array) {
+  if (array.length <= 3) { return array; }
+
+  let randomItems = [];
+  let indexes = [];
+
+  while (indexes.length < 5) {
+    let randomIndex = Math.floor(Math.random() * array.length);
+    if (!indexes.includes(randomIndex)) {
+      indexes.push(randomIndex);
+    }
+  }
+
+  indexes.forEach(index => {
+    randomItems.push(array[index]);
+  });
+
+  return randomItems;
+}
+
 async function processItem(item) {
+  const answers = pickRandomItems(json_data);
   if (item.term != null) {
     document.querySelector('.key_term').innerHTML = item.term;
     let random_option = Math.floor(Math.random() * 4);
 
-    let meaning2 = await selectRandomMeaning();
-    let meaning3 = await selectRandomMeaning();
-    let meaning4 = await selectRandomMeaning();
+    let meaning2 = answers[0].meaning;
+    let meaning3 = answers[1].meaning;
+    let meaning4 = answers[2].meaning;
 
     if (random_option == 0) {
       option1.innerHTML = item.meaning;
@@ -149,9 +180,9 @@ async function processItem(item) {
     document.querySelector('.key_term').innerHTML = item.german;
     let random_option = Math.floor(Math.random() * 4);
 
-    let meaning2 = await selectRandomEnglish();
-    let meaning3 = await selectRandomEnglish();
-    let meaning4 = await selectRandomEnglish();
+    let meaning2 = answers[0].english;
+    let meaning3 = answers[1].english;
+    let meaning4 = answers[2].english;
 
     if (random_option == 0) {
       option1.innerHTML = item.english;
@@ -277,8 +308,7 @@ if (jsonFileName != null) {
     }
   });
 
-  quiz(jsonFileName);
-  startStopwatch();
+  quiz();
 } else {
   document.querySelector('.no-json').classList.remove('invis');
   term_element.classList.add('invis');
