@@ -20,6 +20,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+th {
+  color:white;
+}
+
 .flex {
   display: flex;
 }
