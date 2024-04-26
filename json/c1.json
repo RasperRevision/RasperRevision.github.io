@@ -23,7 +23,6 @@
     "term": "Atomic Number",
     "meaning": "The number of protons (or electrons) in an atom."
   },
-  
   {
     "term": "Ion",
     "meaning": "A charged atom; an atom that has lost or gained one or more electrons."
@@ -102,7 +101,7 @@
   },
   {
     "term":"Relative Atomic Mass",
-    "meaning":"The mass of an average atom of that element relative to that of a hydrogen atom. (can be calculated by substituting mass number for the relative mass of each isotope)"
+    "meaning":"The average mass (relative to a proton/neutron) of an element weighted by each isotope's abundance."
   },
   {
     "term": "Mass number",
@@ -113,16 +112,12 @@
     "meaning": "Different layers where electrons are located in around an atom."
   },
   {
-    "term":"Halogens",
-    "meaning":"group 7 on the periodic table."
-  },
-  {
     "term":"Dmitri Mendeleev",
-    "meaning":"The man who invented the modern periodic table, with spaces missing that would later be filled, grouped due to properties"
+    "meaning":"The man who invented the modern periodic table, with spaces missing that would later be filled, grouped based on properties"
   },
   {
-    "term":"JJ Thompson",
-    "meaning":"the discoverer of the electron, and creator of the plum pudding model"
+    "term":"J. J. Thompson",
+    "meaning":"The discoverer of the electron, and creator of the plum pudding model"
   },
   {
     "term":"Ernest Rutherford",
@@ -130,15 +125,15 @@
   },
   {
     "term":"John Newlands",
-    "meaning":"The creator of an early periodic table, organised to groups of 8. However, he forced elements in a way that their properties did not fit"
+    "meaning":"The creator of an early periodic table, organised to groups of 8. However, he placed elements in an arrangement that their properties did not fit"
   },
   {
     "term":"Niels Bohr",
-    "meaning":"the discoverer of electron shells/energy levels"
+    "meaning":"The discoverer of electron shells/energy levels"
   },
   {
     "term":"James Chadwick",
-    "meaning":"discoverer of the neutron"
+    "meaning":"Discoverer of the neutron"
   },
   {
     "term": "Transition metals",
