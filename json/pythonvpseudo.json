@@ -1,0 +1,46 @@
+[
+  {
+    "term":"python input",
+    "meaning":"print()"
+  },
+  {
+    "term":"python getting an input from the user",
+    "meaning":"var=input('this is an output')"
+  },
+  {
+    "term":"python setting a data type (replace int with other data types)",
+    "meaning":"var=int()"
+  },
+  {
+    "term":"python comment",
+    "meaning":"#comment"
+  },
+  {
+    "term":"python subroutine",
+    "meaning":"def subroutine(): (gap) return()"
+  },
+  {
+    "term":"pseudocode output",
+    "meaning":"OUTPUT 'this is an output'"
+  },
+  {
+    "term":"psudeocode getting an input from the user",
+    "meaning":"var<- USERINPUT"
+  },
+  {
+    "term":"pseudocode if (or while)",
+    "meaning":"IF condition THEN (statements indented) ENDIF"
+  },
+  {
+    "term":"pseudocode subroutine",
+    "meaning":"SUBROUTINE subroutine() (statements indented) ENDSUBROUTINE"
+  },
+  { 
+    "term":"pseudocode comment",
+    "meaning":"//comment"
+  },
+  {
+    "term":"pythonif statement (applicable to while as well)",
+    "meaning":"if condition: (then an indent)"
+  }
+]
