@@ -7,21 +7,21 @@
     "topics": [
       {
         "index": 1,
-        "displayName": "C1: Atomic structure",
+        "displayName": "Atomic structure",
         "bg": "primary",
         "jsonFile": "c1",
         "games": 12
       },
       {
         "index": 2,
-        "displayName": "C2: Structure and bonding",
+        "displayName": "Structure and bonding",
         "bg": "danger",
         "jsonFile": "c2",
         "games": 12
       },
       {
         "index": 3,
-        "displayName": "C3: Quantitative Chemistry",
+        "displayName": "Quantitative Chemistry",
         "bg": "warning",
         "jsonFile": "c3-quantitative-chemistry",
         "games": 12
@@ -36,35 +36,35 @@
     "topics": [
       {
         "index": 1,
-        "displayName": "Unit 1: Algorithms",
+        "displayName": "Algorithms",
         "bg": "primary",
         "jsonFile": "unit1",
         "games": 12
       },
       {
         "index": 2,
-        "displayName": "Unit 2: Programming",
+        "displayName": "Programming",
         "bg": "success",
         "jsonFile": "unit2",
         "games": 12
       },
       {
         "index": 3,
-        "displayName": "Unit 3: Data representation",
+        "displayName": "Data representation",
         "bg": "orange",
         "jsonFile": "unit3",
         "games": 12
       },
       {
         "index": 4,
-        "displayName": "Unit 4: Computer systems",
+        "displayName": "Computer systems",
         "bg": "purple",
         "jsonFile": "unit4",
         "games": 12
       },
       {
         "index": 5,
-        "displayName": "Unit 5: Computer networks",
+        "displayName": "Computer networks",
         "bg": "danger",
         "jsonFile": "unit5",
         "games": 12
@@ -79,21 +79,21 @@
     "topics": [
       {
         "index": 1,
-        "displayName": "B1: Cell biology",
+        "displayName": "Cell biology",
         "bg": "lime",
         "jsonFile": "b1",
         "games": 12
       },
       {
         "index": 2,
-        "displayName": "B2: Organisation",
+        "displayName": "Organisation",
         "bg": "turquoise",
         "jsonFile": "b2-organisation",
         "games": 12
       },
       {
         "index": 3,
-        "displayName": "B3: Infection and response",
+        "displayName": "Infection and response",
         "bg": "primary",
         "jsonFile": "b3-infection-and-response",
         "games": 12
