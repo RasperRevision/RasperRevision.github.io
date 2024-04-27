@@ -1,43 +1,34 @@
 {
-  "subject": "Computer Science (AQA)",
-  "title": "Unit 1: Fundamentals of Algorithms",
+  "subject": "Computer Science",
+  "title": "Computational Thinking",
   "pages": [
     {
-      "title": "1.1: Representing algorithms",
+      "title": "Part 1: Computing concepts",
       "content": "<p class='info p-2 m-3'>An algorithm is a set of instructions that can be followed to solve a particular problem or complete a particular task.</p><p>Contrary to popular belief, an algorithm is not the same thing as a computer program. A computer program is an implementation of an algorithm written out in a programming language, and will do something when run. An algorithm is just the set of instructions that the computer program follows to complete the task. Algorithms aren't only found in computer programs though - map directions, furniture assembly instructions and recipes are examples of algorithms that a human follows to complete a task.</p><p class='info p-2 m-3'>Decomposition is the repeated subdivision of a problem into smaller sub-problems.</p><p>When tackling a large project such as a computer game, it can be helpful to think about it divided into lots of small problems, so that each sub-problem can be tackled individually. The decomposition of a multiplayer racing game can be represented with a diagram such as the one below:</p><img src='img/racing_game_decomposition.png' width='100%' class='my-3'><p>As you can see, the diagram above has divided the enormous task of making a racing game into smaller sub-problems that can each be tackled individually.</p><p class='info p-2 m-3'>Abstraction is the process of filtering out unnecessary information from a problem.</p>",
       "objectives": [
         "Understand and explain the term algorithm.",
         "Understand and explain the term decomposition.",
         "Understand and explain the term abstraction.",
-        "Use a systematic approach to problem solving and algorithm creation representing those algorithms using pseudo-code, program code and flowcharts.",
-        "Explain simple algorithms in terms of their inputs, processing and outputs.",
-        "Determine the purpose of simple algorithms."
+        "Understand and explain the term subroutine, and explain the benefits of using subroutines"
       ]
     },
     {
-      "title": "1.2: Efficiency of algorithms",
+      "title": "Part 2: Algorithms",
       "content": "...",
       "objectives": [
-        "Understand that more than one algorithm can be used to solve the same problem.",
-        "Compare the efficiency of algorithms explaining how some algorithms are more efficient than others in solving the same problem."
+        "Understand and explain the term algorithm.",
+        "Understand that different algorithms can be used to solve the same problem",
+        "Represent algorithms using pseudo-code and flowcharts.",
+        "Determine the purpose of simple algorithms and identify the inputs, processes and outputs.",
+        "Compare the efficiency of algorithms.",
       ]
     },
     {
-      "title": "1.3: Searching algorithms",
+      "title": "Part 3: Searching and sorting algorithms",
       "content": "...",
       "objectives": [
-        "Understand and explain how the linear search algorithm works.",
-        "Understand and explain how the binary search algorithm works.",
-        "Compare and contrast linear and binary search algorithms."
-      ]
-    },
-    {
-      "title": "1.4: Sorting algorithms",
-      "content": "...",
-      "objectives": [
-        "Understand and explain how the merge sort algorithm works.",
-        "Understand and explain how the bubble sort algorithm works.",
-        "Compare and contrast merge sort and bubble sort algorithms."
+        "Understand and explain the linear and binary search algorithms, and compare them in terms of efficiency.",
+        "Understand and explain the merge, insertion and bubble sort algorithms, and compare them in terms of efficiency."
       ]
     }
   ]
