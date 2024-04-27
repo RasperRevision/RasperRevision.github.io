@@ -68,13 +68,6 @@
         "bg": "danger",
         "jsonFile": "unit5",
         "games": 12
-      },
-      {
-        "index": 6,
-        "displayName": "syntax",
-        "bg": "primary",
-        "jsonFile": "pythonvpseudo",
-        "games": 12
       }
     ]
   },
