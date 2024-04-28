@@ -7,10 +7,8 @@ updates:
       day: "friday"
       time: "08:00"
       timezone: "Europe/London"
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "07:30"
-      timezone: "Europe/London"
+    ignore:
+      - dependency-name: "bootstrap"
+        versions: ["5.3.3"]
+      - dependency-name: "bootstrap-icons"
+        versions: ["1.11.3"]
