@@ -1,0 +1,50 @@
+[
+  {
+    "term": "System",
+    "meaning": "An object or group of objects"
+  },
+  {
+    "term": "Open system",
+    "meaning": "A system that allows the exchange of energy and matter to and from its surroundings"
+  },
+  {
+    "term": "Closed system",
+    "meaning": "A system that does not let matter in or out from the surroundings, but does allow energy"
+  },
+  {
+    "term": "Kinetic",
+    "meaning": "Moving objects have energy in this store"
+  },
+  {
+    "term": "Gravitational potential",
+    "meaning": "Objects lifted through a gravitational field have energy in this store"
+  },
+  {
+    "term": "Elastic potential",
+    "meaning": "Objects stretched, squeezed or bent have energy in this store"
+  },
+  {
+    "term": "Magnetic",
+    "meaning": "Magnetic objects interacting have energy in this store"
+  },
+  {
+    "term": "Electrostatic",
+    "meaning": "Objects transferring charge have energy in this store"
+  },
+  {
+    "term": "Nuclear",
+    "meaning": "Nuclei undergoing nuclear reactions have energy in this store"
+  },
+  {
+    "term": "Chemical",
+    "meaning": "Objects undergoing chemical reactions have energy in this store"
+  },
+  {
+    "term": "Thermal",
+    "meaning": "The hotter the object, the more energy it has in this store"
+  },
+  {
+    "term": "Power",
+    "meaning": "The rate at which energy is transferred or work is done"
+  }
+]
