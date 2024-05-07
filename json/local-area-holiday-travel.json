@@ -427,8 +427,8 @@
     "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
   },
   {
-    "german": "das Kaufhaus",
-    "english": "department store",
+    "german": "das Kaufhaus", 
+    "english": "department store (must be only run by one group)/a kind of supermarket thing(historic)",
     "part of speech": "noun",
     "plural and inflected": "die Kaufh\u00c3\u00a4user",
     "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
@@ -469,7 +469,7 @@
     "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
   },
   {
-    "german": "das Stadtviertel",
+    "german": "das Stadtviertel (unofficial)/der Bezirk (official)/der Stadtteil (can be either)",
     "english": "district",
     "part of speech": "noun",
     "plural and inflected": "die Stadtviertel",
