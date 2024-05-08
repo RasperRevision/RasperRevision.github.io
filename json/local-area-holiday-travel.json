@@ -469,10 +469,24 @@
     "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
   },
   {
-    "german": "das Stadtviertel (unofficial)/der Bezirk (official)/der Stadtteil (can be either)",
-    "english": "district",
+    "german": "das Stadtviertel",
+    "english": "district (unofficial, part of town)",
     "part of speech": "noun",
     "plural and inflected": "die Stadtviertel",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Bezirk",
+    "english": "district (official)",
+    "part of spech": "noun",
+    "plural and inflected": "die Bezirke",
+    "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
+  },
+  {
+    "german": "der Stadtteil",
+    "english": "district",
+    "part of speech": "noun",
+    "plural and inflected": "die Stadtteile",
     "level": "GCSE_German_(Pearson_2022)::29_Local_area,_holiday_and_travel_(F)"
   },
   {
