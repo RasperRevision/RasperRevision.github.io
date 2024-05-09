@@ -1,0 +1,99 @@
+[
+  {
+    "question": "Figure 1 shows a large wind farm off the coast of the UK. The mean power output of the wind farm is 696 MW, which is enough power for 580,000 homes. ",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Calculate the mean power needed for 1 home. Give your answer in watts.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "The total power output of the wind farm is 696,000,000 W."
+            ],
+            "exact": false
+            "marks": 1
+          },
+          {
+            "type": "s",
+            "answers": [
+              1200
+            ],
+            "exact": true
+            "unit": "W",
+            "unitShown": true,
+            "prompt": "Mean power needed for 1 home = ",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "On one day the demand for electricity in the UK was 34 000 MW. Suggest two reasons why wind power was not able to meet this demand.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "wind is unreliable",
+              "wind turbines don’t turn when the wind is too strong/weak",
+              "there are not enough wind turbines (in the UK)"
+            ],
+            "alternatives": [
+              "it was not windy (on that day)",
+              "some wind turbines may be offline for maintenance",
+              "energy from wind may not be enough (to generate 34 000 MW)"
+            ],
+            "exact": false,
+            "marks": 1,
+            "prompt": "1. "
+          },
+          {
+            "type": "l",
+            "answers": [
+              "wind is unreliable",
+              "wind turbines don’t turn when the wind is too strong/weak",
+              "there are not enough wind turbines (in the UK)"
+            ],
+            "alternatives": [
+              "it was not windy (on that day)",
+              "some wind turbines may be offline for maintenance",
+              "energy from wind may not be enough (to generate 34 000 MW)"
+            ],
+            "exact": false,
+            "marks": 1,
+            "prompt": "2. "
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "question": "Some of the energy from the wind used to rotate a wind turbine is wasted. An engineer oils the mechanical parts of a wind turbine. Explain how oiling would affect the efficiency of the wind turbine.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "the efficiency would increase",
+              "because the percentage / proportion / amount of energy usefully transferred would increase OR because the percentage / proportion / amount of energy wasted would decrease",
+              "(because) less (work is done against) friction"
+            ],
+            "alternatives": [
+              "less energy wasted"
+            ],
+            "exact": false,
+            "marks": 3
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "question": "In most homes in the UK there are many different electrical devices. Explain why people should be encouraged to use energy efficient electrical devices.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": []
+          }
+        ]
+      }
+    ]
+  }
+]
