@@ -1,5 +1,6 @@
 [
   {
+    "index": 1,
     "question": "Figure 1 shows a large wind farm off the coast of the UK. The mean power output of the wind farm is 696 MW, which is enough power for 580,000 homes. ",
     "parts": [
       {
@@ -90,10 +91,27 @@
         "answerBoxes": [
           {
             "type": "l",
-            "answers": []
+            "answers": [
+              "more efficient devices waste less energy OR more efficient devices need a lower energy input (for the same energy output)",
+              "which would minimise the electricity / energy demand OR which would minimise the environmental impact from (fossil fuel) electricity generation"
+            ],
+            "alternatives": [
+              "less electricity needs to be generated",
+              "lower energy / electricity bill",
+              "examples of environmental impact e.g. lower CO2 emissions"
+            ],
+            "exact": false,
+            "marks": 2
           }
         ]
       }
+    ]
+  },
+  {
+    "index": 2,
+    "question": "Figure 2 shows a rock found by a student on a beach. To help identify the type of rock, the student took measurements to determine its density.",
+    "parts": [
+      
     ]
   }
 ]
