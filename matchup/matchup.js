@@ -128,7 +128,7 @@ async function process() {
     definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
     
     const defYPos = (nums[count] / 100) * (viewportHeight - 250);
-    definition.style.top = defYPos + 'px;
+    definition.style.top = defYPos + 'px';
 
     count++;
 
