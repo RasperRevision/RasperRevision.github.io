@@ -111,7 +111,6 @@ async function process() {
 
   let count = 0;
   const nums = shuffle([0, 8, 16, 24, 32, 40, 48, 56, 64, 72]);
-  const viewportHeight = window.innerHeight;
 
   selection.forEach(item => {
     const definition = document.createElement('button');
@@ -126,9 +125,7 @@ async function process() {
     definition.style.fontSize = '20px';
     definition.style.textShadow = '1px 1px 10px black';
     definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
-    
-    const defYPos = (nums[count] / 100) * (viewportHeight - 250);
-    definition.style.top = defYPos + 'px';
+    definition.style.top = 'calc(' + nums[count] + '%' + ' + 250px)';
 
     count++;
 
@@ -144,9 +141,7 @@ async function process() {
     term.style.fontSize = '20px';
     term.style.textShadow = '1px 1px 10px black';
     term.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
-    
-    const termYPos = (nums[count] / 100) * (viewportHeight - 250);
-    term.style.top = termYPos + 'px';
+    term.style.top = 'calc(' + nums[count] + '%' + ' + 250px)';
 
     document.querySelector('.elements').appendChild(definition);
     document.querySelector('.elements').appendChild(term);
