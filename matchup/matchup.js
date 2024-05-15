@@ -146,7 +146,7 @@ async function process() {
     term.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
     
     const termYPos = (nums[count] / 100) * (viewportHeight - 250);
-    term.style.top = termYPos + 'px;
+    term.style.top = termYPos + 'px';
 
     document.querySelector('.elements').appendChild(definition);
     document.querySelector('.elements').appendChild(term);
