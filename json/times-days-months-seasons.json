@@ -4,580 +4,580 @@
     "english": "(at) one o'clock (a.m.)",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "13.00 Uhr/dreizehn Uhr",
     "english": "1 p.m.",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "21.00 Uhr/einundzwanzig Uhr",
     "english": "9 p.m",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "neun Uhr abends",
     "english": "nine o'clock in the evening",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "genau",
     "english": "exact(ly)",
     "part of speech": "adjective, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "gegen",
-    "english": "roughly (1)",
+    "english": "roughly",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "ungef\u00c3\u00a4hr",
-    "english": "roughly (2)",
+    "german": "ungefähr",
+    "english": "roughly",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "genau um vierzehn Uhr",
     "english": "at exactly 2 p.m.",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "es ist drei Uhr f\u00c3\u00bcnf",
+    "german": "es ist drei Uhr fünf",
     "english": "it is five past three",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "f\u00c3\u00bcnf vor drei",
+    "german": "fünf vor drei",
     "english": "five to three",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "halb elf",
     "english": "half past ten",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "halb vierzehn",
     "english": "half past one",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "zehn nach vier",
     "english": "ten past four",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "zehn vor vier",
     "english": "ten to four",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "Viertel vor sechs",
     "english": "quarter to six",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "Viertel nach sieben",
     "english": "quarter past seven",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::10_Times_of_day"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Tag",
     "english": "day",
     "part of speech": "noun",
     "plural and inflected": "die Tage",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Montag",
     "english": "Monday",
     "part of speech": "noun",
     "plural and inflected": "die Montage",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Dienstag",
     "english": "Tuesday",
     "part of speech": "noun",
     "plural and inflected": "die Dienstage",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Mittwoch",
     "english": "Wednesday",
     "part of speech": "noun",
     "plural and inflected": "die Mittwoche",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Donnerstag",
     "english": "Thursday",
     "part of speech": "noun",
     "plural and inflected": "die Donnerstage",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Freitag",
     "english": "Friday",
     "part of speech": "noun",
     "plural and inflected": "die Freitage",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Samstag",
     "english": "Saturday (more common)",
     "part of speech": "noun",
     "plural and inflected": "die Samstage",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Sonnabend",
     "english": "Saturday (Northern Germany)",
     "part of speech": "noun",
     "plural and inflected": "die Sonnabende",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Sonntag",
     "english": "Sunday",
     "part of speech": "noun",
     "plural and inflected": "die Sonntage",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "am Montag",
     "english": "on Monday",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "am Montagvormittag",
     "english": "on Monday morning",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "am Montagabend",
     "english": "on Monday evening",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "montags",
     "english": "on Mondays",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "jeden Montag",
     "english": "every Monday",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Monat",
     "english": "month",
     "part of speech": "noun",
     "plural and inflected": "die Monate",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Januar",
     "english": "January",
     "part of speech": "noun",
     "plural and inflected": "die Januare",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Februar",
     "english": "February",
     "part of speech": "noun",
     "plural and inflected": "die Februare",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "der M\u00c3\u00a4rz",
+    "german": "der März",
     "english": "March",
     "part of speech": "noun",
-    "plural and inflected": "die M\u00c3\u00a4rze",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "plural and inflected": "die Märze",
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der April",
     "english": "April",
     "part of speech": "noun",
     "plural and inflected": "die Aprile",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Mai",
     "english": "May",
     "part of speech": "noun",
     "plural and inflected": "die Maie",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Juni",
     "english": "June",
     "part of speech": "noun",
     "plural and inflected": "die Junis",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Juli",
     "english": "July",
     "part of speech": "noun",
     "plural and inflected": "die Julis",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der August",
     "english": "August",
     "part of speech": "noun",
     "plural and inflected": "die Auguste",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der September",
     "english": "September",
     "part of speech": "noun",
     "plural and inflected": "die September",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Oktober",
     "english": "October",
     "part of speech": "noun",
     "plural and inflected": "die Oktober",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der November",
     "english": "November",
     "part of speech": "noun",
     "plural and inflected": "die November",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Dezember",
     "english": "December",
     "part of speech": "noun",
     "plural and inflected": "die Dezember",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "die Jahreszeit",
     "english": "season",
     "part of speech": "noun",
     "plural and inflected": "die Jahreszeiten",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "(im) Fr\u00cf\u2039hling",
+    "german": "(im) Frühling",
     "english": "(in the) spring",
     "part of speech": "noun",
-    "plural and inflected": "die Fr\u00cf\u2039hlinge",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "plural and inflected": "die Frühlinge",
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "(im) Sommer",
     "english": "(in the) summer",
     "part of speech": "noun",
     "plural and inflected": "die Sommer",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "(im) Herbst",
     "english": "(in the) autumn",
     "part of speech": "noun",
     "plural and inflected": "die Herbste",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "(im) Winter",
     "english": "(in the) winter",
     "part of speech": "noun",
     "plural and inflected": "die Winter",
-    "level": "GCSE_German_(Pearson_2022)::11_Days,_months_and_seasons"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Nachmittag",
     "english": "afternoon",
     "part of speech": "noun",
     "plural and inflected": "die Nachmittage",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "immer",
     "english": "always",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "am Anfang",
     "english": "at the start",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "t\u00c3\u00a4glich",
+    "german": "täglich",
     "english": "daily",
     "part of speech": "adjective, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Tag",
     "english": "day",
     "part of speech": "noun",
     "plural and inflected": "die Tage",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "fr\u00c3\u00bch",
+    "german": "früh",
     "english": "early",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Abend",
     "english": "evening",
     "part of speech": "noun",
     "plural and inflected": "die Abende",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "ab",
     "english": "from",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "ab und zu",
-    "english": "from time to time (1)",
+    "english": "from time to time",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "von Zeit zu Zeit",
-    "english": "from time to time (2)",
+    "english": "from time to time",
     "part of speech": "",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "sofort",
     "english": "immediately",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "sp\u00c3\u00a4t",
+    "german": "spät",
     "english": "late",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "sp\u00c3\u00a4ter",
+    "german": "später",
     "english": "later",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "die Mitternacht",
     "english": "midnight",
     "part of speech": "noun",
-    "plural and inflected": "die Mittern\u00c3\u00a4chte",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "plural and inflected": "die Mitternächte",
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "die Minute",
     "english": "minute",
     "part of speech": "noun",
     "plural and inflected": "die Minuten",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Morgen",
     "english": "morning",
     "part of speech": "noun",
     "plural and inflected": "die Morgen",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "der Vormittag",
     "english": "morning (before noon)",
     "part of speech": "noun",
     "plural and inflected": "die Vormittage",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "meistens-",
     "english": "mostly",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "n\u00c3\u00a4chst-",
+    "german": "nächst-",
     "english": "next",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "die Nacht",
     "english": "night",
     "part of speech": "noun",
-    "plural and inflected": "die N\u00c3\u00a4chte",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "plural and inflected": "die Nächte",
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "jetzt",
     "english": "now",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "heutzutage",
     "english": "nowadays",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "p\u00c3\u00bcnktlich",
+    "german": "pünktlich",
     "english": "on time (1)",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "rechtzeitig",
     "english": "on time (2)",
     "part of speech": "adjective",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "seit",
     "english": "since, for (time)",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "bald",
     "english": "soon",
     "part of speech": "adjective, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "(immer) noch",
     "english": "still",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "\u00c3\u00bcbermorgen",
+    "german": "übermorgen",
     "english": "the day after tomorrow",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "heute",
     "english": "today",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "morgen",
     "english": "tomorrow",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "morgen fr\u00c3\u00bch",
+    "german": "morgen früh",
     "english": "tomorrow morning",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "die Woche",
     "english": "week",
     "part of speech": "noun",
     "plural and inflected": "die Wochen",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "das Wochenende",
     "english": "weekend",
     "part of speech": "noun",
     "plural and inflected": "die Wochenenden",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
-    "german": "w\u00c3\u00b6chentlich",
+    "german": "wöchentlich",
     "english": "weekly",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   },
   {
     "german": "gestern",
     "english": "yesterday",
     "part of speech": "adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::09_Time_expressions"
+    "level": "Times_days_months_seasons"
   }
 ]

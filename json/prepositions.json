@@ -1,212 +1,212 @@
 [
   {
-    "german": "\u00c3\u00bcber",
+    "german": "über",
     "english": "about, above, over",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "nach",
     "english": "after",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "entlang",
     "english": "along",
     "part of speech": "adverb, preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "um",
     "english": "around",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "an",
     "english": "at",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "wegen",
     "english": "because of",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "hinter",
     "english": "behind",
     "part of speech": "preposition, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "unter",
     "english": "beneath, under",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "zwischen",
     "english": "between",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "trotz",
     "english": "despite",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
-    "german": "w\u00c3\u00a4hrend",
+    "german": "während",
     "english": "during",
     "part of speech": "preposition, conjunction",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
-    "german": "au\u00c3\u0178er",
+    "german": "außer",
     "english": "except (for)",
     "part of speech": "preposition, conjunction",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
-    "german": "f\u00c3\u00bcr",
+    "german": "für",
     "english": "for",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "von",
     "english": "from, of",
     "part of speech": "preposition, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "vor",
     "english": "in front of",
     "part of speech": "preposition, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "in",
     "english": "in, into",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "statt",
     "english": "instead of",
     "part of speech": "conjunction",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "neben",
     "english": "next to, beside",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "auf",
     "english": "on",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
-    "german": "gegen\u00c3\u00bcber",
+    "german": "gegenüber",
     "english": "opposite",
     "part of speech": "preposition, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "aus",
     "english": "out",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "seit",
-    "english": "since, for (time)",
+    "english": "since, for",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "durch",
     "english": "through, well done (steak)",
     "part of speech": "adverb, adjective, preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "zu",
     "english": "to, too",
     "part of speech": "preposition, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "gegen",
     "english": "towards, against",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "hin zu",
     "english": "towards",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "bis",
     "english": "until, as far as",
     "part of speech": "preposition, conjunction, adverb",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "mit",
     "english": "with",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "bei",
     "english": "with, next to, at",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   },
   {
     "german": "ohne",
     "english": "without",
     "part of speech": "preposition",
     "plural and inflected": "",
-    "level": "GCSE_German_(Pearson_2022)::04_Prepositions"
+    "level": "Prepositions"
   }
 ]
