@@ -185,7 +185,7 @@
         "jsonFile": "physics_equations",
         "games": 1,
         "bg": "purple"
-      }
+      },
       {
         "index": 2,
         "displayName": "Energy stores",
