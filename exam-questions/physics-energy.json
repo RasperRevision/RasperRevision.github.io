@@ -12,7 +12,7 @@
             "answers": [
               "The total power output of the wind farm is 696,000,000 W."
             ],
-            "exact": false
+            "exact": false,
             "marks": 1
           },
           {
@@ -20,7 +20,7 @@
             "answers": [
               1200
             ],
-            "exact": true
+            "exact": true,
             "unit": "W",
             "unitShown": true,
             "prompt": "Mean power needed for 1 home = ",
@@ -108,8 +108,6 @@
           }
         ]
       }
-        ]
-      }
     ]
   },
   {
@@ -118,9 +116,9 @@
       {
         "index": 1,
         "question": "Describe how energy is lost when driving a traditional car",
-        "marks":2 ,
-        "answerBoxes":[
-        {
+        "marks": 2,
+        "answerBoxes": [
+          {
             "type": "l",
             "answers": [
               "some is transferred to the thermal store of air particles",
@@ -133,16 +131,16 @@
               "noise"
             ],
             "exact": false,
-            "marks":2 
+            "marks": 2
           }
-    ]
-  }
+        ]
+      },
       {
         "index": 2,
-        "question": "Cars traditionaly used fossil fuels. What are 3 main sources of energy in the world?"
-        "marks":2 ,
-        "answerBoxes":[
-        {
+        "question": "Cars traditionaly used fossil fuels. What are 3 main sources of energy in the world?",
+        "marks": 2,
+        "answerBoxes": [
+          {
             "type": "l",
             "answers": [
               "fossil fuels",
@@ -156,27 +154,28 @@
               "hydroelectric"
             ],
             "exact": false,
-            "marks":2 
+            "marks": 2
           }
-    ]
-  }
+        ]
+      },
       {
         "index": 3,
         "question": "The car with john in it weighs 1800kg. when John is moving down the motorway at 30kmph, what is the kinetic energy of the car?",
-        "marks":5 ,
-        "answerBoxes":[
-        {
+        "marks": 5,
+        "answerBoxes": [
+          {
             "type": "l",
             "answers": [
               "225000000J"
             ],
             "alternatives": [
-              "225000KJ",
+              "225000KJ"
             ],
             "exact": false,
-            "marks":5 
+            "marks": 5
           }
+        ]
+      }
     ]
   }
 ]
-  }
