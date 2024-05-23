@@ -16,6 +16,9 @@ body {
   scrollbar-width: none;
   
 }
+body:after{
+  animation:spin 5s infinite;
+}
 .antispin{
   
 }
