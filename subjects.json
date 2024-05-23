@@ -184,7 +184,7 @@
         "displayName": "Equations",
         "jsonFile": "physics_equations",
         "games": 1,
-        "bg": "purple"
+        "bg": "warning"
       },
       {
         "index": 2,
