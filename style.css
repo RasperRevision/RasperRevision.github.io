@@ -23,7 +23,7 @@ body:after{
 }
 @keyframes movegrad {
   from {background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  to {background: linear-gradient(284deg, rgb(10, 22, 26), rgb(35, 53, 64));}
+  to {background: linear-gradient(30deg, rgb(18, 22, 26), rgb(45, 53, 64));}
 }
 
 @keyframes spin {
