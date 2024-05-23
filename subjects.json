@@ -2,7 +2,7 @@
   {
     "index": 1,
     "displayName": "maths",
-    "bg": "green",
+    "bg": "lime",
     "topicParent": ".maths-topics",
     "topics": [
       {
