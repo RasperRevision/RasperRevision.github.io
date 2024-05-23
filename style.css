@@ -14,11 +14,16 @@ body {
   background-position: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  animation:movegrad 2s infinite;
   
 }
 body:after{
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
   animation:spin 5s infinite;
+}
+@keyframes movegrad {
+  from {rotate:0deg}
+  to {rotate:360deg}
 }
 
 @keyframes spin {
