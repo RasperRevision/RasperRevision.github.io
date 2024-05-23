@@ -14,7 +14,7 @@ body {
   background-position: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  animation:movegrad 2s infinite;
+  animation:movegrad 100s infinite;
   
 }
 body:after{
