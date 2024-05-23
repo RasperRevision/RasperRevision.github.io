@@ -1,0 +1,90 @@
+[
+  {
+    "term": "energy store",
+    "meaning": "The ways energy can be stored"
+  },
+  {
+    "term": "kinetic energy",
+    "meaning": "energy held as movement"
+  },
+  {
+    "term": "electromagnetic energy",
+    "meaning": "energy held between charged objects"
+  },
+  {
+    "term": "gravitational potential energy",
+    "meaning": "the energy held from mass being at a distance from a gravitational pull"
+  },
+  {
+    "term": "Elastic potential energy",
+    "meaning": "energy held from the tension in something elastic"
+  },
+  {
+    "term": "internal energy",
+    "meaning": "the total kinetic (thermal) and potential energy in the particles in an object"
+  },
+  {
+    "term": "Nuclear",
+    "meaning": "energy stored in the nucleus of an atom"
+  },
+  {
+    "term": "sankey diagrams",
+    "meaning": "diagrams showing how much energy goes from stores, dividing it"
+  },
+  {
+    "term": "conservation of energy",
+    "meaning": "the concept that energy cannot be created or destroyed"
+  },
+  {
+    "term": "energy dissipation",
+    "meaning": "when energy is used in a way that is not intended by the humans"
+  },
+  {
+    "term": "chemical energy",
+    "meaning": "energy held in chemical bonds"
+  },
+  {
+    "term": "efficiency",
+    "meaning": "how much of a certain energy transfer is what the human wanted"
+  },
+  {
+    "term": "work done",
+    "meaning": "the energy transferred from one store to another"
+  },
+  {
+    "term": "conduction",
+    "meaning": "heat moving in a solid via particles vibrating each other and causing each other to vibrate"
+  },
+  {
+    "term": "convection",
+    "meaning": "heat moving in a fluid via warmer particles rising, pushing cooler ones toward the heat source"
+  },
+  {
+    "term": "(heat) radiation",
+    "meaning": "heat moving through a vacuum via EMR"
+  },
+  {
+    "term": "specific heat capacity",
+    "meaning": "The amount of energy taken to heat a kilogram of substance 1 degree"
+  },
+  {
+    "term": "fossil fuels",
+    "meaning": "compressed decomposed life over millions of years, the most common source of energy today"
+  },
+  {
+    "term": "hydroelectricity",
+    "meaning": "using the flow of water to push turbines and generate electricity"
+  },
+  {
+    "term": "geothermal",
+    "meaning": "using the heat of magma beneath the crust to generate electricity"
+  },
+  {
+    "term": "wind power",
+    "meaning": "turning turbines using the wind to generate electricity"
+  },
+  {
+    "term": "solar",
+    "meaning": "using EMR from the sun to generate electricity"
+  }
+]
