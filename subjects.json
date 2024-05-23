@@ -1,6 +1,22 @@
 [
   {
     "index": 1,
+    "displayName": "maths",
+    "bg": "green",
+    "topicParent": ".maths-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "trig exact values",
+        "bg": "primary",
+        "jsonFile": "sohcahtoa_exact_values",
+        "games": 12
+      },
+      
+    ]
+  },
+  {
+    "index": 1,
     "displayName": "Chemistry",
     "bg": "turquoise",
     "topicParent": ".chemistry-topics",
