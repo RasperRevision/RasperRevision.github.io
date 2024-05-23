@@ -1,0 +1,34 @@
+[
+  {
+    "term": "sin0/cos90+tan0",
+    "meaning": "0"
+  },
+  {
+    "term": "tan30",
+    "meaning": "1/√3"
+  },
+  {
+    "term": "cos0/sin90 +tan45",
+    "meaning": "1"
+  },
+  {
+    "term": "sin30/cos60",
+    "meaning": "1/2"
+  },
+  {
+    "term": "tan60",
+    "meaning": "√3"
+  },
+  {
+    "term": "tan90",
+    "meaning": "undefined"
+  },
+  {
+    "term": "sin45/cos45",
+    "meaning": "1/√2"
+  },
+  {
+    "term": "sin60/cos30",
+    "meaning": "√3/2"
+  }
+]
