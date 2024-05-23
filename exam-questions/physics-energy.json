@@ -1,6 +1,5 @@
 [
   {
-    "index": 1,
     "question": "Figure 1 shows a large wind farm off the coast of the UK. The mean power output of the wind farm is 696 MW, which is enough power for 580,000 homes. ",
     "parts": [
       {
@@ -108,7 +107,6 @@
     ]
   },
   {
-    "index": 2,
     "question": "Figure 2 shows a rock found by a student on a beach. To help identify the type of rock, the student took measurements to determine its density.",
     "parts": [
       
