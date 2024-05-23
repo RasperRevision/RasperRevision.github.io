@@ -31,6 +31,7 @@
       {
         "index": 2,
         "question": "On one day the demand for electricity in the UK was 34 000 MW. Suggest two reasons why wind power was not able to meet this demand.",
+        "marks": 2,
         "answerBoxes": [
           {
             "type": "l",
@@ -69,6 +70,7 @@
       {
         "index": 3,
         "question": "Some of the energy from the wind used to rotate a wind turbine is wasted. An engineer oils the mechanical parts of a wind turbine. Explain how oiling would affect the efficiency of the wind turbine.",
+        "marks": 3,
         "answerBoxes": [
           {
             "type": "l",
@@ -88,6 +90,7 @@
       {
         "index": 4,
         "question": "In most homes in the UK there are many different electrical devices. Explain why people should be encouraged to use energy efficient electrical devices.",
+        "marks": 2,
         "answerBoxes": [
           {
             "type": "l",
@@ -105,12 +108,75 @@
           }
         ]
       }
+        ]
+      }
     ]
   },
   {
-    "question": "Figure 2 shows a rock found by a student on a beach. To help identify the type of rock, the student took measurements to determine its density.",
+    "question": "John drives his parent's old car.",
     "parts": [
-      
+      {
+        "index": 1,
+        "question": "Describe how energy is lost when driving a traditional car",
+        "marks":2 ,
+        "answerBoxes":[
+        {
+            "type": "l",
+            "answers": [
+              "some is transferred to the thermal store of air particles",
+              "some energy is dissipated as sound"
+            ],
+            "alternatives": [
+              "an increase in heat",
+              "air resistance",
+              "friction in the wheel",
+              "noise"
+            ],
+            "exact": false,
+            "marks":2 
+          }
+    ]
+  }
+      {
+        "index": 2,
+        "question": "Cars traditionaly used fossil fuels. What are 3 main sources of energy in the world?"
+        "marks":2 ,
+        "answerBoxes":[
+        {
+            "type": "l",
+            "answers": [
+              "fossil fuels",
+              "wind",
+              "nuclear"
+            ],
+            "alternatives": [
+              "biofuels",
+              "solar",
+              "geothermal",
+              "hydroelectric"
+            ],
+            "exact": false,
+            "marks":2 
+          }
+    ]
+  }
+      {
+        "index": 3,
+        "question": "The car with john in it weighs 1800kg. when John is moving down the motorway at 30kmph, what is the kinetic energy of the car?",
+        "marks":5 ,
+        "answerBoxes":[
+        {
+            "type": "l",
+            "answers": [
+              "225000000J"
+            ],
+            "alternatives": [
+              "225000KJ",
+            ],
+            "exact": false,
+            "marks":5 
+          }
     ]
   }
 ]
+  }
