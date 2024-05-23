@@ -1,0 +1,502 @@
+[
+  {
+    "term": "aberration",
+    "meaning": "a departure from what is normal, usual, or expected, typically one that is unwelcome"
+  },
+  {
+    "term": "acumen",
+    "meaning": "the ability to make good judgments and quick decisions, typically in a particular domain"
+  },
+  {
+    "term": "admonish",
+    "meaning": "to warn or reprimand someone firmly"
+  },
+  {
+    "term": "adroit",
+    "meaning": "clever or skillful in using the hands or mind"
+  },
+  {
+    "term": "affable",
+    "meaning": "friendly, good-natured, or easy to talk to"
+  },
+  {
+    "term": "altruistic",
+    "meaning": "showing a disinterested and selfless concern for the well-being of others; unselfish"
+  },
+  {
+    "term": "ambivalent",
+    "meaning": "having mixed feelings or contradictory ideas about something or someone"
+  },
+  {
+    "term": "anomaly",
+    "meaning": "something that deviates from what is standard, normal, or expected"
+  },
+  {
+    "term": "aplomb",
+    "meaning": "self-confidence or assurance, especially when in a demanding situation"
+  },
+  {
+    "term": "arcane",
+    "meaning": "understood by few; mysterious or secret"
+  },
+  {
+    "term": "avarice",
+    "meaning": "extreme greed for wealth or material gain"
+  },
+  {
+    "term": "bane",
+    "meaning": "a cause of great distress or annoyance"
+  },
+  {
+    "term": "benevolent",
+    "meaning": "well meaning and kindly"
+  },
+  {
+    "term": "brevity",
+    "meaning": "concise and exact use of terms in writing or speech"
+  },
+  {
+    "term": "candor",
+    "meaning": "the quality of being open and honest in expression; frankness"
+  },
+  {
+    "term": "capricious",
+    "meaning": "given to sudden and unaccountable changes of mood or behavior"
+  },
+  {
+    "term": "catalyst",
+    "meaning": "a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change"
+  },
+  {
+    "term": "circumspect",
+    "meaning": "wary and unwilling to take risks"
+  },
+  {
+    "term": "clandestine",
+    "meaning": "kept secret or done secretively, especially because illicit"
+  },
+  {
+    "term": "coalesce",
+    "meaning": "come together and form one mass or whole"
+  },
+  {
+    "term": "complacent",
+    "meaning": "showing smug or uncritical satisfaction with oneself or one's achievements"
+  },
+  {
+    "term": "conundrum",
+    "meaning": "a confusing and difficult problem or question"
+  },
+  {
+    "term": "copious",
+    "meaning": "abundant in supply or quantity"
+  },
+  {
+    "term": "cursory",
+    "meaning": "hasty and therefore not thorough or detailed"
+  },
+  {
+    "term": "dearth",
+    "meaning": "a scarcity or lack of something"
+  },
+  {
+    "term": "debacle",
+    "meaning": "a sudden and ignominious failure; a fiasco"
+  },
+  {
+    "term": "deleterious",
+    "meaning": "causing harm or damage"
+  },
+  {
+    "term": "denigrate",
+    "meaning": "to criticize unfairly; disparage"
+  },
+  {
+    "term": "deride",
+    "meaning": "to express contempt for; ridicule"
+  },
+  {
+    "term": "disparate",
+    "meaning": "essentially different in kind; not allowing comparison"
+  },
+  {
+    "term": "disseminate",
+    "meaning": "to spread widely"
+  },
+  {
+    "term": "ebullient",
+    "meaning": "cheerful and full of energy"
+  },
+  {
+    "term": "eclectic",
+    "meaning": "deriving ideas, style, or taste from a broad and diverse range of sources"
+  },
+  {
+    "term": "egregious",
+    "meaning": "outstandingly bad; shocking"
+  },
+  {
+    "term": "elucidate",
+    "meaning": "to make (something) clear; explain"
+  },
+  {
+    "term": "emulate",
+    "meaning": "to match or surpass (a person or achievement), typically by imitation"
+  },
+  {
+    "term": "enigmatic",
+    "meaning": "difficult to interpret or understand; mysterious"
+  },
+  {
+    "term": "ephemeral",
+    "meaning": "lasting for a very short time"
+  },
+  {
+    "term": "eschew",
+    "meaning": "to deliberately avoid using; abstain from"
+  },
+  {
+    "term": "euphemism",
+    "meaning": "a mild or indirect term or expression substituted for one considered to be too harsh or blunt when referring to something unpleasant or embarrassing"
+  },
+  {
+    "term": "exacerbate",
+    "meaning": "to make (a problem, bad situation, or negative feeling) worse"
+  },
+  {
+    "term": "exonerate",
+    "meaning": "to absolve (someone) from blame for a fault or wrongdoing, especially after due consideration of the case"
+  },
+  {
+    "term": "facetious",
+    "meaning": "treating serious issues with deliberately inappropriate humor"
+  },
+  {
+    "term": "fastidious",
+    "meaning": "very attentive to and concerned about accuracy and detail"
+  },
+  {
+    "term": "fortuitous",
+    "meaning": "happening by accident or chance rather than design"
+  },
+  {
+    "term": "frivolous",
+    "meaning": "not having any serious purpose or value"
+  },
+  {
+    "term": "garrulous",
+    "meaning": "excessively talkative, especially on trivial matters"
+  },
+  {
+    "term": "gregarious",
+    "meaning": "fond of company; sociable"
+  },
+  {
+    "term": "harbinger",
+    "meaning": "a person or thing that announces or signals the approach of another"
+  },
+  {
+    "term": "hierarchy",
+    "meaning": "a system or organization in which people or groups are ranked one above the other according to status or authority"
+  },
+  {
+    "term": "iconoclast",
+    "meaning": "a person who attacks or criticizes cherished beliefs or institutions"
+  },
+  {
+    "term": "idiosyncrasy",
+    "meaning": "a mode of behavior or way of thought peculiar to an individual"
+  },
+  {
+    "term": "immutable",
+    "meaning": "unchanging over time or unable to be changed"
+  },
+  {
+    "term": "impetuous",
+    "meaning": "acting or done quickly and without thought or care"
+  },
+  {
+    "term": "incendiary",
+    "meaning": "tending to stir up conflict"
+  },
+  {
+    "term": "incorrigible",
+    "meaning": "not able to be corrected, improved, or reformed"
+  },
+  {
+    "term": "indolent",
+    "meaning": "wanting to avoid activity or exertion; lazy"
+  },
+  {
+    "term": "ineffable",
+    "meaning": "too great or extreme to be expressed or described in terms"
+  },
+  {
+    "term": "insidious",
+    "meaning": "proceeding in a gradual, subtle way, but with harmful effects"
+  },
+  {
+    "term": "insolent",
+    "meaning": "showing a rude and arrogant lack of respect"
+  },
+  {
+    "term": "intrepid",
+    "meaning": "fearless; adventurous"
+  },
+  {
+    "term": "juxtapose",
+    "meaning": "to place two or more things close together or side by side, especially for comparison or contrast"
+  },
+  {
+    "term": "lament",
+    "meaning": "a passionate expression of grief or sorrow"
+  },
+  {
+    "term": "laudable",
+    "meaning": "deserving praise and commendation"
+  },
+  {
+    "term": "magnanimous",
+    "meaning": "very generous or forgiving, especially toward a rival or someone less powerful than oneself"
+  },
+  {
+    "term": "maverick",
+    "meaning": "an unorthodox or independent-minded person"
+  },
+  {
+    "term": "meticulous",
+    "meaning": "showing great attention to detail; very careful and precise"
+  },
+  {
+    "term": "mitigate",
+    "meaning": "to make less severe, serious, or painful"
+  },
+  {
+    "term": "nefarious",
+    "meaning": "wicked, villainous, or criminal"
+  },
+  {
+    "term": "obfuscate",
+    "meaning": "to render obscure, unclear, or unintelligible"
+  },
+  {
+    "term": "oblique",
+    "meaning": "not explicit or done in a direct way"
+  },
+  {
+    "term": "obsequious",
+    "meaning": "obedient or attentive to an excessive or servile degree"
+  },
+  {
+    "term": "onerous",
+    "meaning": "involving an amount of effort and difficulty that is oppressively burdensome"
+  },
+  {
+    "term": "paradox",
+    "meaning": "a seemingly absurd or self-contradictory statement or proposition that when investigated or explained may prove to be well founded or true"
+  },
+  {
+    "term": "perfidious",
+    "meaning": "deceitful and untrustworthy"
+  },
+  {
+    "term": "perfunctory",
+    "meaning": "carried out with a minimum of effort or reflection"
+  },
+  {
+    "term": "petulant",
+    "meaning": "childishly sulky or bad-tempered"
+  },
+  {
+    "term": "platitude",
+    "meaning": "a remark or statement, especially one with a moral content, that has been used too often to be interesting or thoughtful"
+  },
+  {
+    "term": "preclude",
+    "meaning": "to prevent from happening; make impossible"
+  },
+  {
+    "term": "profound",
+    "meaning": "very great or intense; having or showing great knowledge or insight"
+  },
+  {
+    "term": "prolific",
+    "meaning": "producing much fruit or foliage or many offspring; abundantly productive"
+  },
+  {
+    "term": "pugnacious",
+    "meaning": "eager or quick to argue, quarrel, or fight"
+  },
+  {
+    "term": "quandary",
+    "meaning": "a state of perplexity or uncertainty over what to do in a difficult situation"
+  },
+  {
+    "term": "quixotic",
+    "meaning": "exceedingly idealistic; unrealistic and impractical"
+  },
+  {
+    "term": "rancor",
+    "meaning": "bitterness or resentfulness, especially when long-standing"
+  },
+  {
+    "term": "reclusive",
+    "meaning": "avoiding the company of other people; solitary"
+  },
+  {
+    "term": "relinquish",
+    "meaning": "to voluntarily cease to keep or claim; give up"
+  },
+  {
+    "term": "remorse",
+    "meaning": "deep regret or guilt for a wrong committed"
+  },
+  {
+    "term": "repudiate",
+    "meaning": "to refuse to accept or be associated with"
+  },
+  {
+    "term": "resilient",
+    "meaning": "able to withstand or recover quickly from difficult conditions"
+  },
+  {
+    "term": "reticent",
+    "meaning": "not revealing one's thoughts or feelings readily"
+  },
+  {
+    "term": "rhetoric",
+    "meaning": "the art of effective or persuasive speaking or writing"
+  },
+  {
+    "term": "salient",
+    "meaning": "most noticeable or important"
+  },
+  {
+    "term": "sanguine",
+    "meaning": "optimistic or positive, especially in an apparently bad or difficult situation"
+  },
+  {
+    "term": "sardonic",
+    "meaning": "grimly mocking or cynical"
+  },
+  {
+    "term": "scintillating",
+    "meaning": "sparkling or shining brightly"
+  },
+  {
+    "term": "serendipity",
+    "meaning": "the occurrence and development of events by chance in a happy or beneficial way"
+  },
+  {
+    "term": "solicitous",
+    "meaning": "characterized by or showing interest or concern"
+  },
+  {
+    "term": "stoic",
+    "meaning": "a person who can endure pain or hardship without showing their feelings or complaining"
+  },
+  {
+    "term": "strident",
+    "meaning": "loud andharsh; grating"
+  },
+  {
+    "term": "sublime",
+    "meaning": "of such excellence, grandeur, or beauty as to inspire great admiration or awe"
+  },
+  {
+    "term": "substantiate",
+    "meaning": "to provide evidence to support or prove the truth of"
+  },
+  {
+    "term": "superfluous",
+    "meaning": "unnecessary, especially through being more than enough"
+  },
+  {
+    "term": "surreptitious",
+    "meaning": "kept secret, especially because it would not be approved of"
+  },
+  {
+    "term": "sycophant",
+    "meaning": "a person who acts obsequiously toward someone important in order to gain advantage"
+  },
+  {
+    "term": "taciturn",
+    "meaning": "reserved or uncommunicative in speech; saying little"
+  },
+  {
+    "term": "temerity",
+    "meaning": "excessive confidence or boldness; audacity"
+  },
+  {
+    "term": "trepidation",
+    "meaning": "a feeling of fear or agitation about something that may happen"
+  },
+  {
+    "term": "trite",
+    "meaning": "overused and consequently of little import; lacking originality or freshness"
+  },
+  {
+    "term": "ubiquitous",
+    "meaning": "present, appearing, or found everywhere"
+  },
+  {
+    "term": "unilateral",
+    "meaning": "involving only one part or side"
+  },
+  {
+    "term": "usurp",
+    "meaning": "to take (a position of power or importance) illegally or by force"
+  },
+  {
+    "term": "utilitarian",
+    "meaning": "designed to be useful or practical rather than attractive"
+  },
+  {
+    "term": "vacillate",
+    "meaning": "to waver between different opinions or actions; be indecisive"
+  },
+  {
+    "term": "venerate",
+    "meaning": "regard with great respect; revere"
+  },
+  {
+    "term": "veracity",
+    "meaning": "accuracy or truthfulness"
+  },
+  {
+    "term": "vicarious",
+    "meaning": "experienced in the imagination through the feelings or actions of another person"
+  },
+  {
+    "term": "vindicate",
+    "meaning": "to clear someone of blame or suspicion"
+  },
+  {
+    "term": "vociferous",
+    "meaning": "expressing feelings or opinions in a very loud or forceful way"
+  },
+  {
+    "term": "wane",
+    "meaning": "to decrease in vigor, power, or extent; become weaker"
+  },
+  {
+    "term": "wary",
+    "meaning": "feeling or showing caution about possible dangers or problems"
+  },
+  {
+    "term": "wistful",
+    "meaning": "having or showing a feeling of vague or regretful longing"
+  },
+  {
+    "term": "xenophobia",
+    "meaning": "dislike of or prejudice against people from other countries"
+  },
+  {
+    "term": "zealot",
+    "meaning": "a person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals"
+  },
+  {
+    "term": "zenith",
+    "meaning": "the highest point reached by a celestial or other object"
+  }
+]

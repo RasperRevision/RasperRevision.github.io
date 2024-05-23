@@ -1,21 +1,6 @@
 [
   {
     "index": 1,
-    "displayName": "maths",
-    "bg": "lime",
-    "topicParent": ".maths-topics",
-    "topics": [
-      {
-        "index": 1,
-        "displayName": "trig exact values",
-        "bg": "primary",
-        "jsonFile": "sohcahtoa_exact_values",
-        "games": 12
-      }
-    ]
-  },
-  {
-    "index": 1,
     "displayName": "Chemistry",
     "bg": "turquoise",
     "topicParent": ".chemistry-topics",
@@ -376,6 +361,50 @@
         "jsonFile": "work",
         "games": 12,
         "bg": "info"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "displayName": "Maths",
+    "bg": "danger",
+    "topicParent": ".maths-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Trigonometric Exact Values",
+        "bg": "primary",
+        "jsonFile": "sohcahtoa_exact_values",
+        "games": 12
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "displayName": "English Language",
+    "bg": "turquoise",
+    "topicParent": ".english-lang-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Vocabulary (Easy)",
+        "bg": "primary",
+        "jsonFile": "english-vocab-easy",
+        "games": 12
+      },
+      {
+        "index": 2,
+        "displayName": "Vocabulary (Medium)",
+        "bg": "warning",
+        "jsonFile": "english-vocab-medium",
+        "games": 12
+      },
+      {
+        "index": 3,
+        "displayName": "Vocabulary (Hard)",
+        "bg": "info",
+        "jsonFile": "english-vocab-hard",
+        "games": 12
       }
     ]
   }
