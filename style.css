@@ -15,7 +15,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   animation-timing-function: linear;
-  animation: 3s infinite .1s movegrad;
+  animation: 10s linear .1s movegrad;
   
 }
 body:after{
