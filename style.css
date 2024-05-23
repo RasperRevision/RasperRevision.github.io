@@ -23,16 +23,27 @@ body:after{
 }
 @keyframes movegrad {
   0% {background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  10% {background: linear-gradient(30deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  20% {background: linear-gradient(25deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  30% {background: linear-gradient(20deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  40% {background: linear-gradient(15deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  50% {background: linear-gradient(10deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  60% {background: linear-gradient(5deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  70% {background: linear-gradient(0deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  80% {background: linear-gradient(-5deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  90% {background: linear-gradient(-10deg, rgb(18, 22, 26), rgb(45, 53, 64));}
-  100% {background: linear-gradient(-20deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  5% {background: linear-gradient(30deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  10% {background: linear-gradient(25deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  15% {background: linear-gradient(20deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  20% {background: linear-gradient(15deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  25% {background: linear-gradient(10deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  30% {background: linear-gradient(5deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  35% {background: linear-gradient(0deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  40% {background: linear-gradient(-5deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  45% {background: linear-gradient(-10deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  50% {background: linear-gradient(-15deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  55% {background: linear-gradient(-20deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  55% {background: linear-gradient(-25deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  60% {background: linear-gradient(-30deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  65% {background: linear-gradient(-35deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  70% {background: linear-gradient(-40deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  75% {background: linear-gradient(-45deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  80% {background: linear-gradient(-50deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  85% {background: linear-gradient(-55deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  90% {background: linear-gradient(-60deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  95% {background: linear-gradient(-65deg, rgb(18, 22, 26), rgb(45, 53, 64));}
+  100% {background: linear-gradient(-75deg, rgb(18, 22, 26), rgb(45, 53, 64));}
 }
 
 @keyframes spin {
