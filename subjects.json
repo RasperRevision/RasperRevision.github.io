@@ -186,6 +186,14 @@
         "games": 1,
         "bg": "purple"
       }
+      {
+        "index": 2,
+        "displayName": "Energy stores",
+        "jsonFile": "p1",
+        "games": 12,
+        "bg": "success"
+      }
+      
     ]
   },
   {
