@@ -17,11 +17,10 @@ body {
   
 }
 body:after{
+  background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
   animation:spin 5s infinite;
 }
-.antispin{
-  
-}
+
 @keyframes spin {
   from {rotate:0deg}
   to {rotate:360deg}
