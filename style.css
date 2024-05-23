@@ -14,10 +14,10 @@ body {
   background-position: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  animation: spin 10s infinite;
+  
 }
 .antispin{
-  animation: antispin 10s infinite;
+  
 }
 @keyframes spin {
   from {rotate:0deg}
