@@ -397,7 +397,7 @@
   {
     "index": 9,
     "displayName": "Maths",
-    "bg": "danger",
+    "bg": "orange",
     "topicParent": ".maths-topics",
     "topics": [
       {
