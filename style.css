@@ -4,8 +4,14 @@
   box-sizing: border-box;
   color: white;
 }
-
 body {
+  position: relative;
+  overflow: hidden;
+  transform: rotate(30deg);
+}
+body::before {
+  content: "";
+  position: absolute; 
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
 
   height: 100%;
@@ -16,7 +22,7 @@ body {
   background-position: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  animation:movegrad 3s infinite
+  transform:rotate(-30);
 }
 
 }
