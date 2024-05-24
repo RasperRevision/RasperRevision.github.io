@@ -247,6 +247,10 @@ th {
   background: linear-gradient(35deg, rgb(0, 115, 255), rgb(103, 167, 244));
 }
 
+.pink {
+  background: linear-gradient(35deg, rgb(247, 111, 201), rgb(222, 89, 177));
+}
+
 .danger {
   background: linear-gradient(35deg, rgb(230, 15, 0), rgb(225, 79, 96));
 }
