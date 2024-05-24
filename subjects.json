@@ -124,7 +124,7 @@
   },
   {
     "index": 5,
-    "displayName": "English Literature",
+    "displayName": "English",
     "bg": "purple",
     "topicParent": ".english-lit-topics",
     "topics": [
@@ -141,6 +141,28 @@
         "jsonFile": "christmas_carol",
         "games": 2,
         "bg": "success"
+      },
+      
+      {
+        "index": 3,
+        "displayName": "Vocabulary (Easy)",
+        "bg": "primary",
+        "jsonFile": "english-vocab-easy",
+        "games": 12
+      },
+      {
+        "index": 4,
+        "displayName": "Vocabulary (Medium)",
+        "bg": "warning",
+        "jsonFile": "english-vocab-medium",
+        "games": 12
+      },
+      {
+        "index": 5,
+        "displayName": "Vocabulary (Hard)",
+        "bg": "turquoise",
+        "jsonFile": "english-vocab-hard",
+        "games": 12
       }
     ]
   },
@@ -383,35 +405,6 @@
         "displayName": "Trigonometric Exact Values",
         "bg": "primary",
         "jsonFile": "sohcahtoa_exact_values",
-        "games": 12
-      }
-    ]
-  },
-  {
-    "index": 10,
-    "displayName": "English Language",
-    "bg": "turquoise",
-    "topicParent": ".english-lang-topics",
-    "topics": [
-      {
-        "index": 1,
-        "displayName": "Vocabulary (Easy)",
-        "bg": "primary",
-        "jsonFile": "english-vocab-easy",
-        "games": 12
-      },
-      {
-        "index": 2,
-        "displayName": "Vocabulary (Medium)",
-        "bg": "warning",
-        "jsonFile": "english-vocab-medium",
-        "games": 12
-      },
-      {
-        "index": 3,
-        "displayName": "Vocabulary (Hard)",
-        "bg": "info",
-        "jsonFile": "english-vocab-hard",
         "games": 12
       }
     ]
