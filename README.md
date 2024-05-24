@@ -2,14 +2,14 @@
 ### Free revision resources and games for GCSE students and teachers.
 
 We currently have activities for the following subjects (more to come in the future):
-- Computer Science (AQA)
-- English Literature (AQA)
-- Music (OCR)
-- German (Edexcel)
-- History (Edexcel)
-- Physics (AQA)
-- Chemistry (AQA)
-- Biology (AQA)
+- Computer Science
+- English Literature
+- Music 
+- German
+- History
+- Physics
+- Chemistry
+- Biology
 
 ---
 
