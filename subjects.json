@@ -31,7 +31,7 @@
   {
     "index": 2,
     "displayName": "Computer Science",
-    "bg": "success",
+    "bg": "pink",
     "topicParent": ".compsci-topics",
     "topics": [
       {
