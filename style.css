@@ -18,9 +18,12 @@ body {
   background-position: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  animation:spin 5s infinite;
   
 }
-
+.antispin {
+  height:100%
+  animation:antispin 5s infinite;
 }
 @keyframes movegrad {
   0% {background: linear-gradient(0deg, rgb(18, 22, 26), rgb(45, 53, 64));}
