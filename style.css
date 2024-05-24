@@ -7,14 +7,16 @@
 
 body {
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
+
   height: 100%;
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  animation:spin 3s infinite;
+  animation:movegrad 3s infinite
 }
 
 }
