@@ -14,9 +14,7 @@ body {
   background-position: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  animation-name: movegrad;
-  animation-duration: 3s;
-  animation-timing-function: linear;
+  transform:rotate(360)
   
   
 }
