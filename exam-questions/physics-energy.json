@@ -5,7 +5,7 @@
       {
         "index": 1,
         "question": "Calculate the mean power needed for 1 home. Give your answer in watts.",
-        "marks": 2,
+        
         "answerBoxes": [
           {
             "type": "l",
@@ -31,7 +31,6 @@
       {
         "index": 2,
         "question": "On one day the demand for electricity in the UK was 34 000 MW. Suggest two reasons why wind power was not able to meet this demand.",
-        "marks": 2,
         "answerBoxes": [
           {
             "type": "l",
@@ -70,7 +69,6 @@
       {
         "index": 3,
         "question": "Some of the energy from the wind used to rotate a wind turbine is wasted. An engineer oils the mechanical parts of a wind turbine. Explain how oiling would affect the efficiency of the wind turbine.",
-        "marks": 3,
         "answerBoxes": [
           {
             "type": "l",
@@ -90,7 +88,6 @@
       {
         "index": 4,
         "question": "In most homes in the UK there are many different electrical devices. Explain why people should be encouraged to use energy efficient electrical devices.",
-        "marks": 2,
         "answerBoxes": [
           {
             "type": "l",
@@ -116,7 +113,6 @@
       {
         "index": 1,
         "question": "Describe how energy is lost when driving a traditional car",
-        "marks": 2,
         "answerBoxes": [
           {
             "type": "l",
@@ -138,7 +134,6 @@
       {
         "index": 2,
         "question": "Cars traditionaly used fossil fuels. What are 3 main sources of energy in the world?",
-        "marks": 2,
         "answerBoxes": [
           {
             "type": "l",
@@ -161,7 +156,6 @@
       {
         "index": 3,
         "question": "The car with john in it weighs 1800kg. when John is moving down the motorway at 30kmph, what is the kinetic energy of the car?",
-        "marks": 5,
         "answerBoxes": [
           {
             "type": "l",
