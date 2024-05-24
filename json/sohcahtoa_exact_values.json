@@ -1,19 +1,63 @@
 [
   {
-    "term": "sin0/cos90+tan0",
+    "term": "cos90+tan0",
+    "meaning": "0"
+  },
+  {
+    "term": "cos0 + tan45",
+    "meaning": "1"
+  },
+  {
+    "term": "sin0",
+    "meaning": "0"
+  },
+  {
+    "term": "sin30",
+    "meaning": "0.5"
+  },
+  {
+    "term": "sin45",
+    "meaning": "√2/2"
+  },
+  {
+    "term": "sin60",
+    "meaning": "√3/2"
+  },
+  {
+    "term": "sin90",
+    "meaning": "1"
+  },
+  {
+    "term": "cos0",
+    "meaning": "1"
+  },
+  {
+    "term": "cos30",
+    "meaning": "√3/2"
+  },
+  {
+    "term": "cos45",
+    "meaning": "√2/2"
+  },
+  {
+    "term": "cos60",
+    "meaning": "0.5"
+  },
+  {
+    "term": "cos90",
+    "meaning": "0"
+  },
+  {
+    "term": "tan0",
     "meaning": "0"
   },
   {
     "term": "tan30",
-    "meaning": "1/√3"
+    "meaning": "√3/3"
   },
   {
-    "term": "cos0/sin90 +tan45",
+    "term": "tan45",
     "meaning": "1"
-  },
-  {
-    "term": "sin30/cos60",
-    "meaning": "1/2"
   },
   {
     "term": "tan60",
@@ -22,13 +66,5 @@
   {
     "term": "tan90",
     "meaning": "undefined"
-  },
-  {
-    "term": "sin45/cos45",
-    "meaning": "1/√2"
-  },
-  {
-    "term": "sin60/cos30",
-    "meaning": "√3/2"
   }
 ]
