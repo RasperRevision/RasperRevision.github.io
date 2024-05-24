@@ -110,7 +110,7 @@ async function process() {
   const selection = pickRandomItems(json_data);
 
   let count = 0;
-  const nums = shuffle([0, 8, 16, 24, 32, 40, 48, 56, 64, 72]);
+  const nums = shuffle([0, 7, 14, 21, 28, 35, 42, 49, 56, 63]);
 
   selection.forEach(item => {
     const definition = document.createElement('button');
