@@ -210,7 +210,7 @@
       },
       {
         "index": 2,
-        "displayName": "Energy stores",
+        "displayName": "Energy",
         "jsonFile": "p1",
         "games": 12,
         "bg": "success"
