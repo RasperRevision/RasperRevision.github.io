@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 }
 
 th {
-  color:white;
+  color: white;
 }
 
 .flex {
@@ -78,13 +78,13 @@ th {
   font-size: 2.2rem;
   flex-basis: 100%;
   filter: none;
-  padding: 10px;
-  transition: all 300ms ease-in-out;
+  padding-inline: 10px;
+  transition: all 600ms cubic-bezier(.55, .36, 0, 1);
 }
 
 .home_btn:hover {
   margin: 10px;
-  padding: 0;
+  padding-inline: 0;
   filter: brightness(90%);
 }
 
@@ -101,6 +101,15 @@ th {
   transition: background 150ms ease-in-out;
   font-size: 1.3rem;
   border-radius: 15px;
+}
+
+.german-topics {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.page {
+  scroll-snap-align: center;
 }
 
 .opt:hover {
@@ -128,10 +137,6 @@ th {
   z-index: 60;
   transition: background-color ease-in-out 150ms;
   font-size: 1.8rem;
-}
-
-.scroll-right:hover {
-  background-color: rgb(161, 177, 184);
 }
 
 .scroll-left {
@@ -220,7 +225,7 @@ th {
 }
 
 .orange {
-  background: linear-gradient(35deg, rgb(232, 103, 23), rgb(252, 129, 76));
+  background: linear-gradient(35deg, rgb(210, 82, 2), rgb(250, 144, 98));
 }
 
 .lime {
@@ -248,7 +253,7 @@ th {
 }
 
 .pink {
-  background: linear-gradient(35deg, rgb(214, 41, 187), rgb(255, 107, 188));
+  background: linear-gradient(35deg, rgb(157, 32, 138), rgb(255, 107, 188));
 }
 
 .danger {
@@ -385,5 +390,17 @@ th {
   #sidebar {
     left: -20vw;
     width: 20vw;
+  }
+}
+
+@media screen and (max-height: 1500px) {
+  .home_btn {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-height: 1200px) {
+  .home_btn {
+    font-size: 1.4rem;
   }
 }
