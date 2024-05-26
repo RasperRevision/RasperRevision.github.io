@@ -6,7 +6,6 @@ const section = document.querySelector('.quiz');
 const home = document.querySelector('.home');
 const restart = document.querySelector('.restart');
 const term_element = document.querySelector('.key_term');
-const pills = document.querySelectorAll('.dropdown-item');
 const score = document.querySelector('.score');
 
 let current_file;
@@ -30,7 +29,6 @@ function startStopwatch() {
   }, 1000);
 }
 
-function stopStopwatch() { clearInterval(timer); }
 
 function pad(value) { return value < 10 ? '0' + value : value; }
 
@@ -92,24 +90,16 @@ function loadJSON(callback) {
 function updateScore() { score.innerHTML = score_val + '/' + length; }
 
 function pickRandomItems(array, count) {
-  if (array.length <= count) {
-    return array;
-  }
+  if (array.length <= count) return array;
 
-  let randomItems = [];
   let indexes = new Set();
-
   while (indexes.size < count) {
-    let randomIndex = Math.floor(Math.random() * array.length);
-    indexes.add(randomIndex);
+    indexes.add(Math.floor(Math.random() * array.length));
   }
 
-  indexes.forEach(index => {
-    randomItems.push(array[index]);
-  });
-
-  return randomItems;
+  return [...indexes].map(index => array[index]);
 }
+
 
 async function processItem(item) {
   const answers = pickRandomItems(json_data, 4);
@@ -233,7 +223,6 @@ async function selectGameType(topic, subject) {
     });
 
     modal.hide();
-
     startStopwatch();
     score_val = 0;
 
@@ -252,14 +241,12 @@ async function selectGameType(topic, subject) {
 }
 
 function endGame() {
-  stopStopwatch();
-  option1.classList.add('invis');
-  option2.classList.add('invis');
-  option3.classList.add('invis');
-  option4.classList.add('invis');
+  clearInterval(timer);
+  [option1, option2, option3, option4].forEach((option) => {
+    option.classList.add('invis');
+  });
   home.addEventListener('click', function () { location.href = '/'; });
   restart.addEventListener('click', function () { location.reload(); });
-  term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
   term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
   document.querySelector('.finish').classList.remove('invis');
 }
@@ -269,7 +256,7 @@ const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
   let current_topic, current_subject;
-  pills.forEach(pill => {
+  const pills = document.querySelectorAll('.dropdown-item').forEach(pill => {
     if (pill.getAttribute('href').includes(jsonFileName)) {
       pill.classList.add('active');
       current_topic = pill.textContent;
