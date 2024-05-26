@@ -10,11 +10,8 @@ const pills = document.querySelectorAll('.dropdown-item');
 const score = document.querySelector('.score');
 
 let current_file;
-
 let timer;
-
 let score_val, length;
-
 let answerFound = false;
 let s = 0, m = 0;
 
@@ -92,46 +89,19 @@ function loadJSON(callback) {
   }
 }
 
-async function quiz() {
-  startStopwatch();
-  score_val = 0;
-  loadJSON(async function (response) {
-    json_data = shuffle(response);
-    length = json_data.length;
-    updateScore();
+function updateScore() { score.innerHTML = score_val + '/' + length; }
 
-    for (let i = 0; i < json_data.length; i++) {
-      await processItem(json_data[i]);
-    }
-
-    stopStopwatch();
-    option1.classList.add('invis');
-    option2.classList.add('invis');
-    option3.classList.add('invis');
-    option4.classList.add('invis');
-    home.addEventListener('click', function () { location.href = '/'; });
-    restart.addEventListener('click', function () { location.reload(); });
-    term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
-    term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
-    document.querySelector('.finish').classList.remove('invis');
-  });
-}
-
-function updateScore() {
-  score.innerHTML = score_val + '/' + length;
-}
-
-function pickRandomItems(array) {
-  if (array.length <= 3) { return array; }
+function pickRandomItems(array, count) {
+  if (array.length <= count) {
+    return array;
+  }
 
   let randomItems = [];
-  let indexes = [];
+  let indexes = new Set();
 
-  while (indexes.length < 5) {
+  while (indexes.size < count) {
     let randomIndex = Math.floor(Math.random() * array.length);
-    if (!indexes.includes(randomIndex)) {
-      indexes.push(randomIndex);
-    }
+    indexes.add(randomIndex);
   }
 
   indexes.forEach(index => {
@@ -142,173 +112,178 @@ function pickRandomItems(array) {
 }
 
 async function processItem(item) {
-  const answers = pickRandomItems(json_data);
-  if (item.term != null) {
-    document.querySelector('.key_term').innerHTML = item.term;
-    let random_option = Math.floor(Math.random() * 4);
+  const answers = pickRandomItems(json_data, 4);
+  const termElement = document.querySelector('.key_term');
+  const random_option = Math.floor(Math.random() * 4);
+  const meanings = [
+    item.meaning || item.english,
+    answers[0][item.term ? 'meaning' : 'english'],
+    answers[1][item.term ? 'meaning' : 'english'],
+    answers[2][item.term ? 'meaning' : 'english'],
+  ];
 
-    let meaning2 = answers[0].meaning;
-    let meaning3 = answers[1].meaning;
-    let meaning4 = answers[2].meaning;
+  termElement.innerHTML = item.term || item.german;
+  [option1, option2, option3, option4].forEach((option, i) => {
+    option.innerHTML = meanings[(i + random_option) % 4];
+  });
 
-    if (random_option == 0) {
-      option1.innerHTML = item.meaning;
-      option2.innerHTML = meaning2;
-      option3.innerHTML = meaning3;
-      option4.innerHTML = meaning4;
-    } else if (random_option == 1) {
-      option1.innerHTML = meaning2;
-      option2.innerHTML = item.meaning;
-      option3.innerHTML = meaning3;
-      option4.innerHTML = meaning4;
-    } else if (random_option == 2) {
-      option1.innerHTML = meaning2;
-      option2.innerHTML = meaning3;
-      option3.innerHTML = item.meaning;
-      option4.innerHTML = meaning4;
-    } else {
-      option1.innerHTML = meaning2;
-      option2.innerHTML = meaning3;
-      option3.innerHTML = meaning4;
-      option4.innerHTML = item.meaning;
-    }
-
-    return new Promise((resolve) => {
-      waitForButton(item, resolve);
-    });
-  } else {
-    document.querySelector('.key_term').innerHTML = item.german;
-    let random_option = Math.floor(Math.random() * 4);
-
-    let meaning2 = answers[0].english;
-    let meaning3 = answers[1].english;
-    let meaning4 = answers[2].english;
-
-    if (random_option == 0) {
-      option1.innerHTML = item.english;
-      option2.innerHTML = meaning2;
-      option3.innerHTML = meaning3;
-      option4.innerHTML = meaning4;
-    } else if (random_option == 1) {
-      option1.innerHTML = meaning2;
-      option2.innerHTML = item.english;
-      option3.innerHTML = meaning3;
-      option4.innerHTML = meaning4;
-    } else if (random_option == 2) {
-      option1.innerHTML = meaning2;
-      option2.innerHTML = meaning3;
-      option3.innerHTML = item.english;
-      option4.innerHTML = meaning4;
-    } else {
-      option1.innerHTML = meaning2;
-      option2.innerHTML = meaning3;
-      option3.innerHTML = meaning4;
-      option4.innerHTML = item.english;
-    }
-
-    return new Promise((resolve) => {
-      waitForGermanButton(item, resolve);
-    });
-  }
-
+  return new Promise((resolve) => { waitForButton(item, resolve); });
 }
-
 
 function waitForButton(item, callback) {
   const handleClick = (event) => {
     const btn = event.target;
-    if (btn.innerHTML === item.meaning) {
+    let isCorrect;
+
+    if (item.english) {
+      isCorrect = btn.innerHTML === item.english;
+    } else {
+      isCorrect = btn.innerHTML === item.meaning;
+    }
+
+    btn.classList.add(isCorrect ? 'correct-opt' : 'incorrect-opt');
+    if (isCorrect) {
       answerFound = true;
-      btn.classList.add('correct-opt');
       score_val++;
       updateScore();
-      setTimeout(function () {
+    }
+
+    setTimeout(() => {
+      btn.classList.remove(isCorrect ? 'correct-opt' : 'incorrect-opt');
+      if (isCorrect) {
         callback(event);
         cleanup();
-        btn.classList.remove('correct-opt');
         answerFound = false;
-      }, 1000);
-    } else {
-      if (!answerFound) {
-        btn.classList.add('incorrect-opt');
-        setTimeout(function () {
-          btn.classList.remove('incorrect-opt');
-          answerFound = false;
-        }, 1000);
       }
-    }
+    }, 1000);
   };
 
   const cleanup = () => {
-    option1.removeEventListener('click', handleClick);
-    option2.removeEventListener('click', handleClick);
-    option3.removeEventListener('click', handleClick);
-    option4.removeEventListener('click', handleClick);
+    [option1, option2, option3, option4].forEach(option => {
+      option.removeEventListener('click', handleClick);
+    });
   };
 
-  option1.addEventListener('click', handleClick);
-  option2.addEventListener('click', handleClick);
-  option3.addEventListener('click', handleClick);
-  option4.addEventListener('click', handleClick);
+  [option1, option2, option3, option4].forEach(option => {
+    option.addEventListener('click', handleClick);
+  });
 
   return cleanup;
 }
 
-function waitForGermanButton(item, callback) {
-  const handleClick = (event) => {
-    const btn = event.target;
-    if (event.target.innerHTML === item.english) {
-      answerFound = true;
-      btn.classList.add('correct-opt');
-      score_val++;
-      updateScore();
-      setTimeout(function () {
-        callback(event);
-        cleanup();
-        btn.classList.remove('correct-opt');
-        answerFound = false;
-      }, 1000);
-    } else {
-      if (!answerFound) {
-        btn.classList.add('incorrect-opt');
-        setTimeout(function () {
-          btn.classList.remove('incorrect-opt');
-          answerFound = false;
-        }, 1000);
-      }
+async function selectGameType(topic, subject) {
+  const modalContainer = document.createElement('div');
+  modalContainer.innerHTML = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-black">Quiz</h5>
+      </div>
+      <div class="modal-body">
+        <p class="text-black mb-1">
+          Subject: ${subject}<br>
+          Topic: ${topic}<br><br>
+          Game type:
+        </p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+          <label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+          <label class="form-check-label text-black" for="flexRadioDefault2">
+            Specific number of questions: 
+            <label class="form-label d-inline text-black" for="customRange1" id="rangeLabel">1</label>
+            <div data-mdb-range-init class="range d-inline w-auto">
+              <input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" />
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="location.href='/quiz'">Cancel</button>
+        <button type="button" class="btn btn-primary begin-game">Begin game</button>
+      </div>
+    </div>
+  </div>
+</div>`;
+
+  document.querySelector('.quiz_content').appendChild(modalContainer);
+
+  const rangeInput = document.getElementById('customRange1');
+  const rangeLabel = document.getElementById('rangeLabel');
+
+  rangeInput.addEventListener('input', () => {
+    rangeLabel.textContent = rangeInput.value;
+  });
+
+  loadJSON(async function (response) {
+    json_data = shuffle(response);
+    length = json_data.length;
+
+    rangeInput.max = length - 1;
+
+    document.getElementById("complete").textContent = "Complete quiz (" + length + " terms)"
+
+    const modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
+    modal.show();
+
+    await new Promise((resolve) => {
+      document.querySelector('.begin-game').addEventListener('click', resolve);
+    });
+
+    modal.hide();
+
+    startStopwatch();
+    score_val = 0;
+
+    if (document.querySelectorAll(".form-check-input")[1].checked) {
+      length = rangeInput.value;
     }
-  };
 
-  const cleanup = () => {
-    option1.removeEventListener('click', handleClick);
-    option2.removeEventListener('click', handleClick);
-    option3.removeEventListener('click', handleClick);
-    option4.removeEventListener('click', handleClick);
-  };
+    updateScore();
 
-  option1.addEventListener('click', handleClick);
-  option2.addEventListener('click', handleClick);
-  option3.addEventListener('click', handleClick);
-  option4.addEventListener('click', handleClick);
+    for (let i = 0; i < length; i++) {
+      await processItem(json_data[i]);
+    }
 
-  return cleanup;
+    endGame();
+  });
 }
+
+function endGame() {
+  stopStopwatch();
+  option1.classList.add('invis');
+  option2.classList.add('invis');
+  option3.classList.add('invis');
+  option4.classList.add('invis');
+  home.addEventListener('click', function () { location.href = '/'; });
+  restart.addEventListener('click', function () { location.reload(); });
+  term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
+  term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
+  document.querySelector('.finish').classList.remove('invis');
+}
+
 
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
+  let current_topic, current_subject;
   pills.forEach(pill => {
     if (pill.getAttribute('href').includes(jsonFileName)) {
       pill.classList.add('active');
+      current_topic = pill.textContent;
       const dropdownMenu = pill.closest('.dropdown-menu');
       if (dropdownMenu) {
         const dropdownToggle = dropdownMenu.parentElement.querySelector('.dropdown-toggle');
         dropdownToggle.classList.add('active');
+        current_subject = dropdownToggle.textContent;
       }
     }
   });
 
-  quiz();
+  selectGameType(current_topic, current_subject);
+
 } else {
   document.querySelector('.no-json').classList.remove('invis');
   term_element.classList.add('invis');
