@@ -7,13 +7,9 @@ const score = document.querySelector('.score');
 let timer;
 let s = 0, m = 0;
 let formattedTime;
-
 let score_value, length;
-
 let isGerman = false;
-
 let json_data;
-
 let definitionChosen = "", termChosen = "";
 
 function startStopwatch() {
@@ -85,29 +81,19 @@ function loadJSON(callback) {
   }
 }
 
-function pickRandomItems(array) {
-  if (array.length <= 5) { return array; }
+function pickRandomItems(array, count) {
+  if (array.length <= count) return array;
 
-  let randomItems = [];
-  let indexes = [];
-
-  while (indexes.length < 5) {
-    let randomIndex = Math.floor(Math.random() * array.length);
-    if (!indexes.includes(randomIndex)) {
-      indexes.push(randomIndex);
-    }
+  let indexes = new Set();
+  while (indexes.size < count) {
+    indexes.add(Math.floor(Math.random() * array.length));
   }
 
-  indexes.forEach(index => {
-    randomItems.push(array[index]);
-  });
-
-  console.log(array, randomItems);
-  return randomItems;
+  return [...indexes].map(index => array[index]);
 }
 
 async function process() {
-  const selection = pickRandomItems(json_data);
+  const selection = pickRandomItems(json_data, 5);
 
   let count = 0;
   const nums = shuffle([0, 7, 14, 21, 28, 35, 42, 49, 56, 63]);
@@ -120,8 +106,7 @@ async function process() {
     } else {
       definition.textContent = item.english;
     }
-    definition.classList.add('rbtn', 'definition', 'text-light', 'turquoise');
-    definition.style.position = 'absolute';
+    definition.classList.add('rbtn', 'definition', 'text-light', 'turquoise', 'position-absolute');
     definition.style.fontSize = '20px';
     definition.style.textShadow = '1px 1px 10px black';
     definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
@@ -136,8 +121,8 @@ async function process() {
     } else {
       term.textContent = item.german;
     }
-    term.classList.add('rbtn', 'term', 'primary');
-    term.style.position = 'absolute';
+
+    term.classList.add('rbtn', 'term', 'primary', 'position-absolute');
     term.style.fontSize = '20px';
     term.style.textShadow = '1px 1px 10px black';
     term.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';

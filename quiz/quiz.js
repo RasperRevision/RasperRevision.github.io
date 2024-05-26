@@ -162,73 +162,79 @@ function waitForButton(item, callback) {
 }
 
 async function selectGameType(topic, subject) {
-  const modalContainer = document.createElement('div');
-  modalContainer.innerHTML = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-black">Quiz</h5>
-      </div>
-      <div class="modal-body">
-        <p class="text-black mb-1">
-          Subject: ${subject}<br>
-          Topic: ${topic}<br><br>
-          Game type:
-        </p>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-          <label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label>
+  if (topic != null && subject != null) {
+    const modalContainer = document.createElement('div');
+    modalContainer.innerHTML = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-black">Quiz</h5>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-          <label class="form-check-label text-black" for="flexRadioDefault2">
-            Specific number of questions: 
-            <label class="form-label d-inline text-black" for="customRange1" id="rangeLabel">1</label>
-            <div data-mdb-range-init class="range d-inline w-auto">
-              <input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" />
-            </div>
-          </label>
+        <div class="modal-body">
+          <p class="text-black mb-1">
+            Subject: ${subject}<br>
+            Topic: ${topic}<br><br>
+            Game type:
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+            <label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+            <label class="form-check-label text-black" for="flexRadioDefault2">
+              Specific number of questions: 
+              <label class="form-label d-inline text-black" for="customRange1" id="rangeLabel">1</label>
+              <div data-mdb-range-init class="range d-inline w-auto">
+                <input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" />
+              </div>
+            </label>
+          </div>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" onclick="location.href='/quiz'">Cancel</button>
-        <button type="button" class="btn btn-primary begin-game">Begin game</button>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="location.href='/quiz'">Cancel</button>
+          <button type="button" class="btn btn-primary begin-game">Begin game</button>
+        </div>
       </div>
     </div>
-  </div>
-</div>`;
+  </div>`;
 
-  document.querySelector('.quiz_content').appendChild(modalContainer);
+    document.querySelector('.quiz_content').appendChild(modalContainer);
 
-  const rangeInput = document.getElementById('customRange1');
-  const rangeLabel = document.getElementById('rangeLabel');
+    const rangeInput = document.getElementById('customRange1');
+    const rangeLabel = document.getElementById('rangeLabel');
 
-  rangeInput.addEventListener('input', () => {
-    rangeLabel.textContent = rangeInput.value;
-  });
+    rangeInput.addEventListener('input', () => {
+      rangeLabel.textContent = rangeInput.value;
+    });
+  }
 
   loadJSON(async function (response) {
     json_data = shuffle(response);
     length = json_data.length;
 
-    rangeInput.max = length - 1;
+    if (topic != null && subject != null) {
+      rangeInput.max = length - 1;
 
-    document.getElementById("complete").textContent = "Complete quiz (" + length + " terms)"
+      document.getElementById("complete").textContent = "Complete quiz (" + length + " terms)"
 
-    const modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
-    modal.show();
+      const modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
+      modal.show();
 
-    await new Promise((resolve) => {
-      document.querySelector('.begin-game').addEventListener('click', resolve);
-    });
 
-    modal.hide();
+      await new Promise((resolve) => {
+        document.querySelector('.begin-game').addEventListener('click', resolve);
+      });
+
+      modal.hide();
+
+      if (document.querySelectorAll(".form-check-input")[1].checked) {
+        length = rangeInput.value;
+      }
+    }
+
     startStopwatch();
     score_val = 0;
-
-    if (document.querySelectorAll(".form-check-input")[1].checked) {
-      length = rangeInput.value;
-    }
 
     updateScore();
 
