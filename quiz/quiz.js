@@ -162,6 +162,7 @@ function waitForButton(item, callback) {
 }
 
 async function selectGameType(topic, subject) {
+  let rangeInput, rangeLabel, modal;
   if (topic != null && subject != null) {
     const modalContainer = document.createElement('div');
     modalContainer.innerHTML = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
@@ -201,8 +202,11 @@ async function selectGameType(topic, subject) {
 
     document.querySelector('.quiz_content').appendChild(modalContainer);
 
-    const rangeInput = document.getElementById('customRange1');
-    const rangeLabel = document.getElementById('rangeLabel');
+    rangeInput = document.getElementById('customRange1');
+    rangeLabel = document.getElementById('rangeLabel');
+
+    modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
+    modal.show();
 
     rangeInput.addEventListener('input', () => {
       rangeLabel.textContent = rangeInput.value;
@@ -217,9 +221,6 @@ async function selectGameType(topic, subject) {
       rangeInput.max = length - 1;
 
       document.getElementById("complete").textContent = "Complete quiz (" + length + " terms)"
-
-      const modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
-      modal.show();
 
 
       await new Promise((resolve) => {
