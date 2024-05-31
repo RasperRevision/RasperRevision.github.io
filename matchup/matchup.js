@@ -142,29 +142,79 @@ function updateScore() {
   score.innerHTML = score_value + '/' + length;
 }
 
-async function matchup() {
-  startStopwatch();
-  score_value = 0;
+async function matchup(topic, subject) {
+  let rangeInput, rangeLabel, modal;
+  if (topic != null && subject != null) {
+    const modalContainer = document.createElement('div');
+    modalContainer.innerHTML = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Matchup</h5></div><div class="modal-body"><p class="text-black mb-1">Subject: ${subject}<br>Topic: ${topic}<br><br>Game type:</p><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked><label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label></div><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"><label class="form-check-label text-black" for="flexRadioDefault2">Number of questions to finish: <label class="form-label text-black" for="customRange1" id="rangeLabel">1</label><div data-mdb-range-init class="range d-inline w-auto"><input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" /></div></label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" onclick="location.href='/matchup'">Cancel</button><button type="button" class="btn btn-primary begin-game">Begin game</button></div></div></div></div>`;
+
+    document.body.appendChild(modalContainer);
+
+    rangeInput = document.getElementById('customRange1');
+    rangeLabel = document.getElementById('rangeLabel');
+
+    modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
+    modal.show();
+
+    rangeInput.addEventListener('input', () => {
+      rangeLabel.textContent = rangeInput.value;
+    });
+  }
+
+
   loadJSON(async function (response) {
     json_data = shuffle(response);
     length = json_data.length;
+
+    startStopwatch();
+    score_value = 0;
     updateScore();
 
-    while (true) {
-      if (json_data.length == 0) { break; }
-      await process();
-      for (let j = 0; j < json_data.length; j++) {
-        if (termChosen == json_data[j].term || termChosen == json_data[j].german) {
-          json_data.splice(j, 1);
-          j--;
+
+    if (topic != null && subject != null) {
+      rangeInput.max = length - 1;
+
+      document.getElementById("complete").textContent = `Complete (${length} questions)`
+
+      await new Promise((resolve) => {
+        document.querySelector('.begin-game').addEventListener('click', resolve);
+      });
+
+      modal.hide();
+
+      if (document.querySelectorAll(".form-check-input")[1].checked) {
+        length = rangeInput.value;
+        updateScore();
+        for (let i = 0; i < length; i++) {
+          await process();
+          for (let j = 0; j < length - i; j++) {
+            if (termChosen == json_data[j].term || termChosen == json_data[j].german) {
+              json_data.splice(j, 1);
+              j--;
+            }
+          }
         }
+      } else {
+        while (true) {
+          if (json_data.length == 0) { break; }
+          await process();
+          for (let j = 0; j < json_data.length; j++) {
+            if (termChosen == json_data[j].term || termChosen == json_data[j].german) {
+              json_data.splice(j, 1);
+              j--;
+            }
+          }
+        }
+
       }
     }
+
+
 
     // end
     container.style.display = 'none';
     stopStopwatch();
-    finished.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
+    finished.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
     const home = document.createElement('button');
     home.innerHTML = 'Home';
     home.classList.add('btn');
@@ -259,19 +309,22 @@ function waitForButton(callback) {
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
+  let current_topic, current_subject;
   // adds the active class to the link that links to the current page
   pills.forEach(pill => {
     if (pill.getAttribute('href').includes(jsonFileName)) {
       pill.classList.add('active');
+      current_topic = pill.textContent;
       const dropdownMenu = pill.closest('.dropdown-menu');
       if (dropdownMenu) {
         const dropdownToggle = dropdownMenu.parentElement.querySelector('.dropdown-toggle');
         dropdownToggle.classList.add('active');
+        current_subject = dropdownToggle.textContent;
       }
     }
   });
 
-  matchup();
+  matchup(current_topic, current_subject);
 } else {
   // if there is no json parameter, this makes the no-json element appear
   document.querySelector('.no-json').classList.remove('invis');
