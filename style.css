@@ -101,6 +101,7 @@ th {
   transition: background 150ms ease-in-out;
   font-size: 1.3rem;
   border-radius: 15px;
+  flex-basis: 50% !important;
 }
 
 .german-topics {

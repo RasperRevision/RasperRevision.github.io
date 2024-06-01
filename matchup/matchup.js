@@ -133,14 +133,10 @@ async function process() {
     count++;
   });
 
-  return new Promise((resolve) => {
-    waitForButton(resolve);
-  });
+  return new Promise((resolve) => { waitForButton(resolve); });
 }
 
-function updateScore() {
-  score.innerHTML = score_value + '/' + length;
-}
+function updateScore() { score.textContent = `${score_value}/${length}`; }
 
 async function matchup(topic, subject) {
   let rangeInput, rangeLabel, modal;
@@ -221,7 +217,7 @@ async function matchup(topic, subject) {
     stopStopwatch();
     finished.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
     const home = document.createElement('button');
-    home.innerHTML = 'Home';
+    home.textContent = 'Home';
     home.classList.add('btn');
     home.classList.add('btn-primary');
     home.classList.add('ms-4');
@@ -229,7 +225,7 @@ async function matchup(topic, subject) {
       location.href = '/';
     });
     const restart = document.createElement('button');
-    restart.innerHTML = 'Restart';
+    restart.textContent = 'Restart';
     restart.classList.add('btn');
     restart.classList.add('btn-warning');
     restart.addEventListener('click', function () {
@@ -243,7 +239,7 @@ async function matchup(topic, subject) {
 
 function waitForButton(callback) {
   const handleDefClick = (event) => {
-    definitionChosen = event.target.innerHTML;
+    definitionChosen = event.target.textContent;
     document.querySelectorAll(".definition").forEach((item) => {
       item.style.outline = '';
     });
@@ -267,7 +263,7 @@ function waitForButton(callback) {
   }
 
   const handleTermClick = (event) => {
-    termChosen = event.target.innerHTML; document.querySelectorAll(".term").forEach((item) => {
+    termChosen = event.target.textContent; document.querySelectorAll(".term").forEach((item) => {
       item.style.outline = '';
     });
     event.target.style.outline = '3px solid white';
