@@ -162,10 +162,10 @@ async function quiz(topic, subject) {
 
     modalContainer.innerHTML = modalHtml;
 
+    document.querySelector('.quiz_content').appendChild(modalContainer);
+
     modalContainer.querySelector('#subject').textContent = subject;
     modalContainer.querySelector('#topic').textContent = topic;
-
-    document.querySelector('.quiz_content').appendChild(modalContainer);
 
     rangeInput = document.getElementById('customRange1');
     rangeLabel = document.getElementById('rangeLabel');

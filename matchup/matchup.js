@@ -146,9 +146,14 @@ async function matchup(topic, subject) {
   let rangeInput, rangeLabel, modal;
   if (topic != null && subject != null) {
     const modalContainer = document.createElement('div');
-    modalContainer.innerHTML = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Matchup</h5></div><div class="modal-body"><p class="text-black mb-1">Subject: ${subject}<br>Topic: ${topic}<br><br>Game type:</p><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked><label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label></div><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"><label class="form-check-label text-black" for="flexRadioDefault2">Number of questions to finish: <label class="form-label text-black" for="customRange1" id="rangeLabel">1</label><div data-mdb-range-init class="range d-inline w-auto"><input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" /></div></label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" onclick="location.href='/matchup'">Cancel</button><button type="button" class="btn btn-primary begin-game">Begin game</button></div></div></div></div>`;
+    const modalHtml = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Matchup</h5></div><div class="modal-body"><p class="text-black mb-1">Subject: <span id="subject"></span><br>Topic: <span id="topic"></span><br><br>Game type:</p><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked><label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label></div><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"><label class="form-check-label text-black" for="flexRadioDefault2">Number of questions to finish: <label class="form-label text-black" for="customRange1" id="rangeLabel">1</label><div data-mdb-range-init class="range d-inline w-auto"><input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" /></div></label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" onclick="location.href='/matchup'">Cancel</button><button type="button" class="btn btn-primary begin-game">Begin game</button></div></div></div></div>`;
+
+    modalContainer.innerHTML = modalHtml;
 
     document.body.appendChild(modalContainer);
+
+    modalContainer.querySelector('#subject').textContent = subject;
+    modalContainer.querySelector('#topic').textContent = topic;
 
     rangeInput = document.getElementById('customRange1');
     rangeLabel = document.getElementById('rangeLabel');
