@@ -23,7 +23,7 @@ The following games are available:
 | Music | ✓ | ✓ | X | X |
 | German | ✓ | ✓ | X | X |
 | History| ✓ | ✓ | ✓ | X |
-| Physics | X | X | X | ✓ |
+| Physics | ✓ | ✓ | X | ✓ |
 | Chemistry | ✓ | ✓ | X | X |
 | Biology | ✓ | ✓ | X | X |
 | Maths | ✓ | ✓ | X | X |
