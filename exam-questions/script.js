@@ -10,11 +10,8 @@ const score = document.querySelector('.score');
 const container = document.querySelector('.quiz_content');
 
 let current_file;
-
 let timer;
-
 let score_val, length;
-
 let answerFound = false;
 let s = 0, m = 0;
 
@@ -26,7 +23,6 @@ function getParameterByName(name, url) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-
 
 function updateScore() {
   score.innerHTML = score_val + '/' + length;
@@ -98,106 +94,151 @@ function startStopwatch() {
 function stopStopwatch() { clearInterval(timer); }
 
 async function processItem(item) {
-  console.log(item);
+  container.innerHTML = ''; // Clear previous question and answers
   const main_question = document.createElement('h3');
   main_question.textContent = item.question;
   container.appendChild(main_question);
 
-  item.parts.forEach((part) => {
-    const sub_question = document.createElement('h6');
-    sub_question.textContent = part.question + ' <b>[' + part.marks + ']</b>';
-    container.appendChild(sub_question);
-    part.answerBoxes.forEach((box) => {
-      if (box.type == 'l') {
-        const answer_box = document.createElement('textarea');
-        answer_box.classList.add('form-control', 'w-100', 'my-3');
-        container.appendChild(answer_box);
-      } else {
-        if (box.prompt) {
-          const answer_prompt = document.createElement('p');
-          answer_prompt.classList.add('d-inline');
-          answer_prompt.textContent = box.prompt;
-          container.appendChild(answer_prompt);
-        }
-        const answer_box = document.createElement('input');
-        answer_box.classList.add('form-control', 'w-auto', 'd-inline', 'mx-3');
-        container.appendChild(answer_box);
-        if (box.unitShown) {
-          const answer_unit = document.createElement('p');
-          answer_unit.classList.add('d-inline');
-          answer_unit.textContent = box.unit;
-          container.appendChild(answer_unit);
-        }
-      }
-    });
-    const submit_btn = document.createElement('button');
-    submit_btn.textContent = 'Submit';
-    submit_btn.classList.add('rbtn', 'info');
-    container.appendChild(submit_btn);
-  });
+  for (const part of item.parts) {
+    await processPart(part);
+  }
 
-  return new Promise((resolve) => {
-    waitForButton(item, resolve);
-  });
+  await new Promise(resolve => setTimeout(resolve, 2000));
 }
 
-function waitForButton(item, callback) {
-  const submit_btn = container.querySelector('button.rbtn.info');
+async function processPart(part) {
+  const sub_question = document.createElement('h6');
+  sub_question.innerHTML = part.index + '. ' + part.question + ' <b>[' + part.answerBoxes.reduce((acc, box) => acc + box.marks, 0) + ' marks]</b>';
+  container.appendChild(sub_question);
 
-  submit_btn.addEventListener('click', function () {
-    let correct = true;
+  const answer_boxes = [];
+  const feedback_boxes = [];
+  const mark_scheme_boxes = [];
 
-    item.parts.forEach((part, partIndex) => {
-      part.answerBoxes.forEach((box, boxIndex) => {
-        let userAnswer;
-
-        if (box.type == 'l') {
-          userAnswer = container.querySelectorAll('textarea')[partIndex].value.trim();
-          if (boxIndex == partIndex) {
-            if (box.answers.includes(userAnswer)) {
-              console.log("Correct!");
-            } else {
-              console.log("Incorrect!");
-            }
-          }
-        } else {
-          userAnswer = container.querySelectorAll('input.form-control')[partIndex].value.trim();
-
-          console.log(`partIndex: ${partIndex}, boxIndex: ${boxIndex}, userAnswer: '${userAnswer}', expected answers: '${box.answers}'`);
-
-          if (boxIndex == partIndex) {
-            if (box.answers.includes(userAnswer)) {
-              console.log("Correct!");
-            } else {
-              console.log("Incorrect!");
-            }
-          }
-        }
-
-        if (userAnswer !== box.answer) {
-          correct = false;
-        }
-      });
-    });
-
-    if (correct) {
-      score_val++;
+  for (const box of part.answerBoxes) {
+    if (box.type == 'l') {
+      if (box.prompt) {
+        const prompt = document.createElement('p');
+        prompt.textContent = box.prompt;
+        container.appendChild(prompt);
+      }
+      const answer_box = document.createElement('textarea');
+      answer_box.classList.add('form-control', 'w-100', 'my-3');
+      container.appendChild(answer_box);
+      answer_boxes.push(answer_box);
+    } else {
+      if (box.prompt) {
+        const answer_prompt = document.createElement('p');
+        answer_prompt.classList.add('d-inline');
+        answer_prompt.textContent = box.prompt;
+        container.appendChild(answer_prompt);
+      }
+      const answer_box = document.createElement('input');
+      answer_box.classList.add('form-control', 'w-auto', 'd-inline', 'mx-3');
+      container.appendChild(answer_box);
+      answer_boxes.push(answer_box);
+      if (box.unitShown) {
+        const answer_unit = document.createElement('p');
+        answer_unit.classList.add('d-inline');
+        answer_unit.textContent = box.unit;
+        container.appendChild(answer_unit);
+      }
     }
 
-    updateScore();
-    container.innerHTML = '';
-    callback();
+    const feedback = document.createElement('div');
+    feedback.classList.add('feedback', 'my-2');
+    container.appendChild(feedback);
+    feedback_boxes.push(feedback);
+
+    const mark_scheme = document.createElement('div');
+    mark_scheme.classList.add('mark-scheme', 'my-2', 'invis');
+    mark_scheme.innerHTML = `<b>Mark Scheme:</b><br>Answers: ${box.answers.join(', ')}<br>Alternatives: ${box.alternatives ? box.alternatives.join(', ') : 'None'}`;
+    container.appendChild(mark_scheme);
+    mark_scheme_boxes.push(mark_scheme);
+  }
+
+  const submit_btn = document.createElement('button');
+  submit_btn.textContent = 'Submit';
+  submit_btn.classList.add('rbtn', 'info', 'my-3');
+  container.appendChild(submit_btn);
+
+  return new Promise((resolve) => {
+    submit_btn.addEventListener('click', function () {
+      let correct = true;
+      let allMarked = true;
+
+      part.answerBoxes.forEach((box, boxIndex) => {
+        let userAnswer = answer_boxes[boxIndex].value.trim();
+        let feedback = feedback_boxes[boxIndex];
+        feedback.innerHTML = '';
+
+        if (box.type == 'l') {
+          userAnswer = userAnswer.toLowerCase();
+          const isCorrect = box.answers.includes(userAnswer) || (box.alternatives && box.alternatives.includes(userAnswer));
+
+          if (box.exact) {
+            if (!isCorrect) correct = false;
+            feedback.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
+            feedback.style.color = isCorrect ? 'green' : 'red';
+          } else {
+            const correct_btn = document.createElement('button');
+            correct_btn.textContent = 'Correct';
+            correct_btn.classList.add('btn', 'btn-success', 'mx-1');
+            correct_btn.addEventListener('click', () => {
+              feedback.textContent = 'Correct!';
+              feedback.style.color = 'green';
+              score_val += box.marks;
+              updateScore();
+              correct_btn.remove();
+              incorrect_btn.remove();
+              mark_scheme_boxes[boxIndex].classList.add('invis');
+            });
+
+            const incorrect_btn = document.createElement('button');
+            incorrect_btn.textContent = 'Incorrect';
+            incorrect_btn.classList.add('btn', 'btn-danger', 'mx-1');
+            incorrect_btn.addEventListener('click', () => {
+              feedback.textContent = 'Incorrect!';
+              feedback.style.color = 'red';
+              correct_btn.remove();
+              incorrect_btn.remove();
+              mark_scheme_boxes[boxIndex].classList.add('invis');
+            });
+
+            feedback.appendChild(correct_btn);
+            feedback.appendChild(incorrect_btn);
+            mark_scheme_boxes[boxIndex].classList.remove('invis');
+            allMarked = false; // Wait until user marks all
+          }
+        } else {
+          userAnswer = parseInt(userAnswer);
+          if (box.answers[0] !== userAnswer) {
+            correct = false;
+            feedback.textContent = 'Incorrect!';
+            feedback.style.color = 'red';
+          } else {
+            feedback.textContent = 'Correct!';
+            feedback.style.color = 'green';
+            score_val += box.marks;
+          }
+        }
+      });
+
+      if (correct && allMarked) {
+        updateScore();
+        container.innerHTML = '';
+        resolve();
+      }
+    });
   });
 }
-
-
 
 async function exam() {
   startStopwatch();
   score_val = 0;
   loadJSON(async function (response) {
     json_data = shuffle(response);
-    length = json_data.length;
+    length = json_data.reduce((acc, item) => acc + item.parts.reduce((acc2, part) => acc2 + part.answerBoxes.reduce((acc3, box) => acc3 + box.marks, 0), 0), 0);
     updateScore();
 
     for (let i = 0; i < json_data.length; i++) {

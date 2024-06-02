@@ -3,7 +3,7 @@ fetch('/sidebar.html')
   .then(html => {
     document.querySelector('.sidebar-wrapper').innerHTML = html;
   })
-  .catch(error => console.error('Error fetching sidebar:', error)); 
+  .catch(error => console.error('Error fetching sidebar:', error));
 
 var icon = document.createElement('div');
 
@@ -32,6 +32,6 @@ icon.addEventListener('click', function () {
   icon2.classList.toggle('c');
   icon3.classList.toggle('b');
   setTimeout(function () {
-    buttonElement.click();
+    document.querySelector('.buttonElement').click();
   }, 500);
 });

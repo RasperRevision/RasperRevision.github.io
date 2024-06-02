@@ -5,7 +5,6 @@
       {
         "index": 1,
         "question": "Calculate the mean power needed for 1 home. Give your answer in watts.",
-        
         "answerBoxes": [
           {
             "type": "l",
@@ -108,7 +107,7 @@
     ]
   },
   {
-    "question": "John drives his parent's old car.",
+    "question": "John drives his parents' old car.",
     "parts": [
       {
         "index": 1,
