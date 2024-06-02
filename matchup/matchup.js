@@ -22,11 +22,9 @@ function startStopwatch() {
     }
 
     formattedTime = pad(m) + ':' + pad(s);
-    stopwatch.innerHTML = formattedTime;
+    stopwatch.textContent = formattedTime;
   }, 1000);
 }
-
-function stopStopwatch() { clearInterval(timer); }
 
 function pad(value) { return value < 10 ? '0' + value : value; }
 
@@ -41,7 +39,7 @@ function shuffle(array) {
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
-  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
+  var regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`), results = regex.exec(url);
   if (!results) return null;
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
@@ -57,9 +55,7 @@ function loadJSON(callback) {
     reader.onload = function (event) {
       var jsonString = event.target.result;
       var jsonArray = JSON.parse(jsonString);
-      jsonArray.forEach(function (obj) {
-        obj.newProperty = 'newValue';
-      });
+      jsonArray.forEach(function (obj) { obj.newProperty = 'newValue'; });
       if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) {
         callback(jsonArray);
       } else {
@@ -69,7 +65,7 @@ function loadJSON(callback) {
     };
     reader.readAsText(jsonFile);
   } else {
-    var jsonFile = '/json/' + getParameterByName('json') + '.json';
+    var jsonFile = `/json/${getParameterByName('json')}.json`;
 
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -101,11 +97,8 @@ async function process() {
   selection.forEach(item => {
     const definition = document.createElement('button');
 
-    if (item.meaning != null) {
-      definition.textContent = item.meaning;
-    } else {
-      definition.textContent = item.english;
-    }
+    definition.textContent = item.meaning != null ? item.meaning : item.english;
+
     definition.classList.add('rbtn', 'definition', 'text-light', 'turquoise', 'position-absolute');
     definition.style.fontSize = '20px';
     definition.style.textShadow = '1px 1px 10px black';
@@ -116,11 +109,7 @@ async function process() {
 
     const term = document.createElement('button');
 
-    if (item.term != null) {
-      term.textContent = item.term;
-    } else {
-      term.textContent = item.german;
-    }
+    term.textContent = item.term != null ? item.term : item.german;
 
     term.classList.add('rbtn', 'term', 'primary', 'position-absolute');
     term.style.fontSize = '20px';
@@ -171,7 +160,6 @@ async function matchup(topic, subject) {
     score_value = 0;
     updateScore();
 
-
     if (topic != null && subject != null) {
       rangeInput.max = length - 1;
 
@@ -206,31 +194,24 @@ async function matchup(topic, subject) {
             }
           }
         }
-
       }
     }
 
-
-
     // end
     container.style.display = 'none';
-    stopStopwatch();
+    clearInterval(timer);
     finished.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
     const home = document.createElement('button');
     home.textContent = 'Home';
     home.classList.add('btn');
     home.classList.add('btn-primary');
     home.classList.add('ms-4');
-    home.addEventListener('click', function () {
-      location.href = '/';
-    });
+    home.addEventListener('click', function () { location.href = '/'; });
     const restart = document.createElement('button');
     restart.textContent = 'Restart';
     restart.classList.add('btn');
     restart.classList.add('btn-warning');
-    restart.addEventListener('click', function () {
-      location.reload();
-    });
+    restart.addEventListener('click', function () { location.reload(); });
     finished.appendChild(restart);
     finished.appendChild(home);
     return;
@@ -249,9 +230,7 @@ function waitForButton(callback) {
         const item = json_data[i];
         if ((item.term == termChosen && item.meaning == definitionChosen) ||
           (item.german == termChosen && item.english == definitionChosen)) {
-          while (container.firstChild) {
-            container.removeChild(container.firstChild);
-          }
+          while (container.firstChild) { container.removeChild(container.firstChild); }
           callback(event);
           cleanup();
           score_value++;
@@ -263,19 +242,18 @@ function waitForButton(callback) {
   }
 
   const handleTermClick = (event) => {
-    termChosen = event.target.textContent; document.querySelectorAll(".term").forEach((item) => {
+    termChosen = event.target.textContent;
+    document.querySelectorAll(".term").forEach((item) => {
       item.style.outline = '';
     });
-    event.target.style.outline = '3px solid white';
+    event.target.style.outline = '5px solid white';
 
     if (definitionChosen != "") {
       for (let i = 0; i < json_data.length; i++) {
         const item = json_data[i];
         if ((item.term == termChosen && item.meaning == definitionChosen) ||
           (item.german == termChosen && item.english == definitionChosen)) {
-          while (container.firstChild) {
-            container.removeChild(container.firstChild);
-          }
+          while (container.firstChild) { container.removeChild(container.firstChild); }
           callback(event);
           cleanup();
           score_value++;

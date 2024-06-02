@@ -15,20 +15,15 @@ let answerFound = false;
 let s = 0, m = 0;
 
 function startStopwatch() {
-  let stopwatch = document.querySelector('.stopwatch');
-  let formattedTime;
-
   timer = setInterval(function () {
     s++;
     if (s === 60) {
       s = 0;
       m++;
     }
-    formattedTime = pad(m) + ':' + pad(s);
-    stopwatch.textContent = formattedTime;
+    document.querySelector('.stopwatch').textContent = `${pad(m)}:${pad(s)}`;
   }, 1000);
 }
-
 
 function pad(value) { return value < 10 ? '0' + value : value; }
 
@@ -63,9 +58,7 @@ function loadJSON(callback) {
     reader.onload = function (event) {
       var jsonString = event.target.result;
       var jsonArray = JSON.parse(jsonString);
-      jsonArray.forEach(function (obj) {
-        obj.newProperty = 'newValue';
-      });
+      jsonArray.forEach(function (obj) { obj.newProperty = 'newValue'; });
       if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) {
         callback(jsonArray);
       } else {
@@ -187,7 +180,6 @@ async function quiz(topic, subject) {
 
       document.getElementById("complete").textContent = `Complete (${length} questions)`
 
-
       await new Promise((resolve) => {
         document.querySelector('.begin-game').addEventListener('click', resolve);
       });
@@ -201,12 +193,9 @@ async function quiz(topic, subject) {
 
     startStopwatch();
     score_val = 0;
-
     updateScore();
 
-    for (let i = 0; i < length; i++) {
-      await processItem(json_data[i]);
-    }
+    for (let i = 0; i < length; i++) { await processItem(json_data[i]); }
 
     endGame();
   });
@@ -228,7 +217,7 @@ const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
   let current_topic, current_subject;
-  const pills = document.querySelectorAll('.dropdown-item').forEach(pill => {
+  document.querySelectorAll('.dropdown-item').forEach(pill => {
     if (pill.getAttribute('href').includes(jsonFileName)) {
       pill.classList.add('active');
       current_topic = pill.textContent;
