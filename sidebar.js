@@ -33,5 +33,5 @@ icon.addEventListener('click', function () {
   icon3.classList.toggle('b');
   setTimeout(function () {
     document.querySelector('.buttonElement').click();
-  }, 500);
+  }, 150);
 });
