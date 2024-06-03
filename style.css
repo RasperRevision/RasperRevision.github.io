@@ -101,7 +101,7 @@ th {
   padding: 25px;
   background: rgb(39, 45, 53);
   transition: background 150ms ease-in-out;
-  font-size: 3.6vm;
+  font-size:calc(5px + 1.5vw);
   border-radius: 15px;
   flex-basis: 50% !important;
 }
