@@ -434,9 +434,16 @@ th {
   }
 }
 
+
 @media screen and (max-height: 1500px) {
   .home_btn {
     font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-height: 1300px) {
+  .home_btn {
+    font-size: 1.55rem;
   }
 }
 
