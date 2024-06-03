@@ -203,6 +203,7 @@ th {
   width: 30vw;
   background-color: rgba(0, 0, 0, 0.5) !important;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   padding-top: 3.5rem;
   transition: all 0.3s;
 }
