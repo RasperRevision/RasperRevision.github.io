@@ -33,6 +33,7 @@ th {
   display: flex;
   flex-direction: column;
   height: 100% !important;
+  font-size: 1.2vm;
 }
 
 .invis {
@@ -100,7 +101,7 @@ th {
   padding: 25px;
   background: rgb(39, 45, 53);
   transition: background 150ms ease-in-out;
-  font-size: 1.3rem;
+  font-size: 1.2vm;
   border-radius: 15px;
   flex-basis: 50% !important;
 }
