@@ -48,7 +48,7 @@ th {
   padding-block: 8px;
   padding-inline: 11px;
   border: none;
-  font-size: 1vm;
+  font-size: 1.2vm;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 8px;
   transition: filter 150ms ease-in-out;
@@ -177,7 +177,7 @@ th {
 
 .quiz_content {
   margin-top: 25vh;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 .nav_activity_link {
