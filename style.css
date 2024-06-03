@@ -435,19 +435,19 @@ th {
 }
 
 
-@media screen and (max-height: 1500px) {
+@media screen and (max-height: 1400px) {
   .home_btn {
     font-size: 1.6rem;
   }
 }
 
-@media screen and (max-height: 1300px) {
+@media screen and (max-height: 1200px) {
   .home_btn {
     font-size: 1.55rem;
   }
 }
 
-@media screen and (max-height: 1200px) {
+@media screen and (max-height: 1100px) {
   .home_btn {
     font-size: 1.4rem;
   }
