@@ -25,7 +25,9 @@ function startStopwatch() {
   }, 1000);
 }
 
-function pad(value) { return value < 10 ? '0' + value : value; }
+function pad(value) {
+  return value < 10 ? '0' + value : value;
+}
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -56,13 +58,20 @@ function loadJSON(callback) {
     var reader = new FileReader();
 
     reader.onload = function (event) {
-      var jsonString = event.target.result;
-      var jsonArray = JSON.parse(jsonString);
-      jsonArray.forEach(function (obj) { obj.newProperty = 'newValue'; });
-      if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) {
-        callback(jsonArray);
-      } else {
-        alert("Incompatible file");
+      try {
+        var jsonString = event.target.result;
+        var jsonArray = JSON.parse(jsonString);
+        jsonArray.forEach(function (obj) {
+          obj.newProperty = 'newValue';
+        });
+
+        if (isValidJsonStructure(jsonArray)) {
+          callback(jsonArray);
+        } else {
+          throw new Error("Invalid file structure");
+        }
+      } catch (error) {
+        alert(`Incompatible file: ${error.message}. The file should contain objects with either 'term' and 'meaning' or 'german' and 'english' properties.`);
         location.reload();
       }
     };
@@ -73,13 +82,38 @@ function loadJSON(callback) {
     xobj.overrideMimeType("application/json");
     xobj.open('GET', jsonFile, true);
     xobj.onreadystatechange = function () {
-      if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
+      if (xobj.readyState == 4 && xobj.status == 200) {
+        try {
+          var response = JSON.parse(xobj.responseText);
+          if (isValidJsonStructure(response)) {
+            callback(response);
+          } else {
+            throw new Error("Invalid file structure");
+          }
+        } catch (error) {
+          alert(`Incompatible file: ${error.message}. The file should contain objects with either 'term' and 'meaning' or 'german' and 'english' properties.`);
+          location.reload();
+        }
+      }
     };
     xobj.send(null);
   }
 }
 
-function updateScore() { score.textContent = score_val + '/' + length; }
+function isValidJsonStructure(jsonArray) {
+  if (!Array.isArray(jsonArray) || jsonArray.length === 0) {
+    return false;
+  }
+
+  const validKeys = [['term', 'meaning'], ['german', 'english']];
+  return jsonArray.every(obj =>
+    validKeys.some(keys => keys.every(key => obj.hasOwnProperty(key)))
+  );
+}
+
+function updateScore() {
+  score.textContent = score_val + '/' + length;
+}
 
 function pickRandomItems(array, count) {
   if (array.length <= count) return array;
@@ -91,7 +125,6 @@ function pickRandomItems(array, count) {
 
   return [...indexes].map(index => array[index]);
 }
-
 
 async function processItem(item) {
   const answers = pickRandomItems(json_data, 4);
@@ -109,7 +142,9 @@ async function processItem(item) {
     option.textContent = meanings[(i + random_option) % 4];
   });
 
-  return new Promise((resolve) => { waitForButton(item, resolve); });
+  return new Promise((resolve) => {
+    waitForButton(item, resolve);
+  });
 }
 
 function waitForButton(item, callback) {
@@ -195,7 +230,9 @@ async function quiz(topic, subject) {
     score_val = 0;
     updateScore();
 
-    for (let i = 0; i < length; i++) { await processItem(json_data[i]); }
+    for (let i = 0; i < length; i++) {
+      await processItem(json_data[i]);
+    }
 
     endGame();
   });
@@ -206,12 +243,15 @@ function endGame() {
   [option1, option2, option3, option4].forEach((option) => {
     option.classList.add('invis');
   });
-  home.addEventListener('click', function () { location.href = '/'; });
-  restart.addEventListener('click', function () { location.reload(); });
+  home.addEventListener('click', function () {
+    location.href = '/';
+  });
+  restart.addEventListener('click', function () {
+    location.reload();
+  });
   term_element.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
   document.querySelector('.finish').classList.remove('invis');
 }
-
 
 const jsonFileName = getParameterByName('json');
 
