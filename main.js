@@ -13,34 +13,6 @@ window.addEventListener('popstate', function (event) {
   }
 });
 
-/*window.addEventListener('scroll', function (event) {
-  if (this.oldScroll > this.scrollY) {
-    // scroll up
-    if (document.getElementById('page' + (current_page_num - 1)) != null) {
-      current_page_num--;
-      const y = document.getElementById('page' + current_page_num).getBoundingClientRect().top + window.scrollY - 190;
-      window.scroll({
-        top: y,
-        behavior: 'smooth'
-      });
-      console.log(y);
-    }
-  } else {
-    // scroll down
-    if (document.getElementById('page' + (current_page_num + 1)) != null) {
-      current_page_num++;
-      const y = document.getElementById('page' + current_page_num).getBoundingClientRect().top + window.scrollY + 240;
-      window.scroll({
-        top: y,
-        behavior: 'smooth'
-      });
-      console.log(y);
-    }
-  }
-
-  this.oldScroll = this.scrollY;
-});
-*/
 async function getJson() {
   // Matchup, quiz, fill in the blank, equations
 
@@ -92,24 +64,21 @@ async function getJson() {
 
     if (subject.topics.length > 12) {
       var page_count = Math.ceil(subject.topics.length / 12);
-
       var pages = [];
 
       for (let i = 1; i <= page_count; i++) {
         var rows = [];
 
         if (i == page_count) {
-          var modulus = subject.topics.length % 12;
-          var p_row1, p_row2, p_row3;
+          var p_row1, p_row2, p_row3, modulus = subject.topics.length % 12;
 
           p_row1 = document.createElement('div');
           p_row1.classList.add('home_btn_row');
           p_row1.style.flexBasis = '100%';
           rows.push(p_row1);
 
-          if (modulus == 0) {
-            modulus = 12;
-          }
+          if (modulus == 0) modulus = 12;
+
           if (modulus > 4) {
             p_row2 = document.createElement('div');
             p_row2.classList.add('home_btn_row');
@@ -190,7 +159,7 @@ async function getJson() {
         var binary_games = topic.games.toString(2);
         document.querySelector('.games').classList.remove('invis');
 
-        while (binary_games.length < 4) { binary_games = '0' + binary_games; }
+        while (binary_games.length < 4) binary_games = '0' + binary_games;
 
         if (binary_games[0] == '1') {
           document.querySelector('.game-matchup').classList.remove('invis');
