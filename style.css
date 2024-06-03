@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  font-size: 1vw;
+  font-size: 1.7vw;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -50,7 +50,7 @@ th {
   padding-inline: 11px;
   border: none;
   color: white;
-  font-size: 3vw;
+  font-size: 1.8vw;
   text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 8px;
   transition: filter 150ms ease-in-out;
   border-radius: 5px;
