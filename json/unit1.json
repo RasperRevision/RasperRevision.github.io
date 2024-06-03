@@ -58,5 +58,9 @@
     {
         "term": "Merge sort",
         "meaning": "A sorting algorithm that splits a list of items into two halves and then sorts each one separately, then merges the two sorted lists back together"
+    },
+    {
+        "term": "Insertion sort",
+        "meaning": "A sorting algorithm which compares each value to the value to its left. If the value to the left is greater than the value being compared, the value being compared is moved left until the value to its left is less than it."
     }
 ]
