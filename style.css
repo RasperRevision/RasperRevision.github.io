@@ -370,6 +370,10 @@ th {
   .home_btn_row {
     flex-direction: column;
   }
+
+  .welcome_title {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 576px) {
