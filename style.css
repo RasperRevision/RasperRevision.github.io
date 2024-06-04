@@ -159,7 +159,9 @@ body::-webkit-scrollbar {
   height: 100% !important;
   margin-right: 10px;
 }
-
+.mx-1 {
+  font-size:1px;
+}
 #sidebar {
   position: fixed;
   top: 0;
