@@ -5,7 +5,7 @@
   color: white;
 }
 .d-inline {
-  font-size:calc(6.8px+1vw)
+  font-size:calc(1px+1vw)
 }
 body {
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
