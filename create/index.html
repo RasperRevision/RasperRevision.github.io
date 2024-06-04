@@ -35,7 +35,7 @@
 </head>
 
 <body>
-  <main class="container mt-5">
+  <main class="container mt-5 main_section">
     <h1>Create</h1>
     <p>Create a JSON file which can be uploaded to
       <a href="/quiz" class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Quiz</a>
@@ -207,24 +207,14 @@
       }
     });
 
-    function removeEmptyBorder() {
-      inputs.forEach(function (item) {
-        if (item.value.trim() !== "") { item.classList.remove('empty'); }
-      });
-    }
-
     title.addEventListener('input', function () {
       download.textContent = "Download " + this.value + ".json";
     });
 
     download.addEventListener('click', function () {
-      let firstEmptyInput = null;
-
-      removeEmptyBorder();
-
-      if (title.value.trim() === "") { title.classList.add('empty'); }
-        
-      else {
+      if (title.value.trim() !== "") { 
+        title.classList.remove('empty');
+                                     
         const jsonData = generateJSONData();
         const blob = new Blob([jsonData], { type: "application/json" });
         const url = URL.createObjectURL(blob);
@@ -236,7 +226,13 @@
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
+        const complete = document.createElement('div');
+        const complete_content = "Your download should have started. If not, please <a href='/contact'>contact us</a> and we will do our best to fix the issue. Once you have your JSON file, you can upload it to play it with either <a href='/matchup'>Matchup</a> or <a href='/quiz'>Quiz</a>. This file can be shared with anyone, and they can also upload it to play.";
+        complete.innerHTML = complete_content;
+        complete.classList.add('text-black');
+        document.querySelector('.main_section').appendChild(complete);
       }
+      else { title.classList.add('empty'); }
     });
 
     function generateJSONData() {
