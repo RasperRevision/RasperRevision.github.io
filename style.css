@@ -314,7 +314,7 @@ body::-webkit-scrollbar {
   border-radius: 10px;
   background-color: rgb(38, 40, 44);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  font-size:0.9rem
+  font-size:(0.7rem+0.53vw)
 }
 
 .link-offset-1 {
