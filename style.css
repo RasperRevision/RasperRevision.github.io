@@ -4,7 +4,9 @@
   box-sizing: border-box;
   color: white;
 }
-
+.d-inline {
+  font-size:calc(10px+1vw)
+}
 body {
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
   height: 100%;
