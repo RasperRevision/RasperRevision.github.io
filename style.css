@@ -21,10 +21,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-th {
-  color: white;
-}
-
 .flex {
   display: flex;
 }
@@ -128,38 +124,6 @@ th {
   background: red !important;
 }
 
-.scroll-right {
-  position: absolute;
-  border: none;
-  right: 10px;
-  top: 50%;
-  border-radius: 100%;
-  height: 60px;
-  width: 60px;
-  color: black;
-  z-index: 60;
-  transition: background-color ease-in-out 150ms;
-  font-size: 1.8rem;
-}
-
-.scroll-left {
-  position: absolute;
-  border: none;
-  left: 10px;
-  top: 50%;
-  border-radius: 100%;
-  height: 60px;
-  width: 60px;
-  color: black;
-  z-index: 60;
-  transition: background-color ease-in-out 150ms;
-  font-size: 1.8rem;
-}
-
-.scroll-left:hover {
-  background-color: rgb(161, 177, 184);
-}
-
 .key_term {
   font-size: 2rem;
   margin-bottom: 30px;
@@ -178,7 +142,7 @@ th {
 
 .quiz_content {
   margin-top: 25vh;
-  font-size: 1.5vw;
+  font-size: 1rem;
 }
 
 .nav_activity_link {
