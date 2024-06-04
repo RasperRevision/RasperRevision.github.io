@@ -145,12 +145,12 @@ body::-webkit-scrollbar {
   font-size: 1rem;
 }
 
-.nav_activity_link {
+._activity_link {
   display: block;
   color: #efefef !important;
 }
 
-.nav_activity_link:hover {
+._activity_link:hover {
   background-color: rgba(255, 255, 255, 0.051) !important;
 }
 
@@ -314,7 +314,7 @@ body::-webkit-scrollbar {
   border-radius: 10px;
   background-color: rgb(38, 40, 44);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  font-size:1vw
+  font-size:(1vw+4px)
 }
 
 .link-offset-1 {
