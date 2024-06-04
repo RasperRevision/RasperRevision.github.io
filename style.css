@@ -161,7 +161,7 @@ body::-webkit-scrollbar {
 }
 .mx-1 {
   font-size:1px;
-  width:5px;
+  width:1.3px;
 }
 #sidebar {
   position: fixed;
