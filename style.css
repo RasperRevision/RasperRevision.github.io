@@ -342,6 +342,10 @@ body::-webkit-scrollbar {
   .welcome_title {
     display: none;
   }
+
+  .opt_row {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -361,6 +365,10 @@ body::-webkit-scrollbar {
   .welcome_title {
     display: none;
   }
+
+  .opt_row {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -375,11 +383,19 @@ body::-webkit-scrollbar {
   .welcome_title {
     display: block;
   }
+
+  .opt_row {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .side-logo {
     width: 175px;
+  }
+
+  .opt_row {
+    flex-direction: row;
   }
 }
 
