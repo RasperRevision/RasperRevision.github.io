@@ -222,18 +222,8 @@
 
       removeEmptyBorder();
 
-      inputs.forEach(function (item) {
-        if (item.value.trim() === "") { item.classList.add('empty'); }
-      });
-
-      inputs.forEach(function (item) {
-        if (item.value === "" || item.value === null) {
-          item.classList.add('empty');
-          if (!firstEmptyInput) { firstEmptyInput = item; }
-        } else { item.classList.remove('empty'); }
-      });
-
-      if (firstEmptyInput) { firstEmptyInput.focus(); }
+      if (title.value.trim() === "") { title.classList.add('empty'); }
+        
       else {
         const jsonData = generateJSONData();
         const blob = new Blob([jsonData], { type: "application/json" });
