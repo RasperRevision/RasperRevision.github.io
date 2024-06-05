@@ -253,6 +253,53 @@ function endGame() {
   document.querySelector('.finish').classList.remove('invis');
 }
 
+async function getSubjectJSON() {
+  const data = await (await fetch('/subjects.json')).json();
+  var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
+  data.forEach((item) => {
+    const subject = item.displayName.replace(/\s/g, "");
+    var topics = "";
+    item.topics.forEach((topic) => {
+      if (topic.games.toString(2)[1] == 1) {
+        topics += `<a href="?json=${topic.jsonFile}" class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+      }
+    });
+    dropdownHTML +=
+      `<div class="accordion-item" style="background: none !important; border: none;">
+        <h2 class="accordion-header" id="${subject}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">
+            ${item.displayName}
+          </button>
+        </h2>
+        <div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion">
+          <div class="accordion-body">
+            <ul class="list-group" id="${subject}ListGroup">
+              ${topics}
+            </ul>
+          </div>
+        </div>
+      </div>`;
+  });
+  dropdownHTML += '</div>';
+  return dropdownHTML;
+}
+
+
+document.querySelector(".mobile_nav").style.minHeight = "45px";
+
+document.querySelector(".mobile_nav_btn").addEventListener('click', function () {
+  document.querySelector('.bi-caret-down-fill').classList.toggle('rotated');
+  if (document.querySelector(".mobile_nav").style.minHeight != '45px') {
+    document.querySelector(".mobile_nav").style.minHeight = '45px';
+    document.querySelector(".accordion_content").innerHTML = '';
+  } else {
+    document.querySelector(".mobile_nav").style.minHeight = 'calc(100vh - 121px)';
+    getSubjectJSON().then((s) => {
+      document.querySelector(".accordion_content").innerHTML = s;
+    });
+  }
+});
+
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {

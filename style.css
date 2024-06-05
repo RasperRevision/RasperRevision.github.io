@@ -20,11 +20,13 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
 .qtitle {
   @media only screen and (max-width: 600px) {
-      display:none;
+    display: none;
   }
 }
+
 .flex {
   display: flex;
 }
@@ -101,7 +103,7 @@ body::-webkit-scrollbar {
   padding: 25px;
   background: rgb(39, 45, 53);
   transition: background 150ms ease-in-out;
-  font-size:calc(8.8px + 1vw);
+  font-size: calc(8.8px + 1vw);
   border-radius: 15px;
   flex-basis: 50% !important;
 }
@@ -163,10 +165,37 @@ body::-webkit-scrollbar {
   height: 100% !important;
   margin-right: 10px;
 }
-.mx-1 {
-  font-size:1px;
-  width:1.3px;
+
+.bi-caret-down-fill::before {
+  rotate: 0deg;
+  transition: rotate 250ms ease-in-out;
 }
+
+.bi-caret-down-fill.rotated::before {
+  rotate: 180deg;
+}
+
+.mobile_nav {
+  top: 121px;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+  background: rgb(140, 146, 154);
+  padding-block: 10px;
+  padding-inline: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+  z-index: 800;
+  transition: min-height 300ms ease-in-out;
+}
+
+.mobile_nav_btn {
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: start;
+}
+
 #sidebar {
   position: fixed;
   top: 0;
@@ -175,7 +204,7 @@ body::-webkit-scrollbar {
   width: 30vw;
   background-color: rgba(0, 0, 0, 0.5) !important;
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur();
   padding-top: 3.5rem;
   transition: all 0.3s;
 }
@@ -321,7 +350,7 @@ body::-webkit-scrollbar {
   border-radius: 10px;
   background-color: rgb(38, 40, 44);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  font-size:calc(5px + 0.5vw);
+  font-size: calc(5px + 0.5vw);
 }
 
 .link-offset-1 {
