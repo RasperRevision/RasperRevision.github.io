@@ -417,9 +417,6 @@ body::-webkit-scrollbar {
   .side-logo {
     width: 250px;
   }
-  .d-flex{
-    height:250px;
-  }
 }
 
 @media screen and (min-width: 1728px) {
@@ -452,6 +449,4 @@ body::-webkit-scrollbar {
   .home_btn {
     font-size: 1.3rem;
   }
-}
-
 }
