@@ -4,9 +4,7 @@
   box-sizing: border-box;
   color: white;
 }
-.d-inline {
-  font-size:3vw
-}
+
 body {
   background: linear-gradient(35deg, rgb(18, 22, 26), rgb(45, 53, 64));
   height: 100%;
@@ -35,7 +33,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   height: 100% !important;
-  font-size: 1.2vm;
+  font-size: 1.2vw;
 }
 
 .invis {
