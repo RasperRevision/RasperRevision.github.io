@@ -22,7 +22,11 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-
+.qtitle {
+  @media only screen and (max-width: 600px) {
+      display:none;
+  }
+}
 .flex {
   display: flex;
 }
