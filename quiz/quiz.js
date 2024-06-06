@@ -307,12 +307,14 @@ document.querySelector(".mobile_nav_btn").addEventListener('click', function () 
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
+  let current_subject, current_topic;
   getJSON().then((data) => {
     data.forEach((item) => {
       item.forEach((topic) => {
         if (topic.jsonFile == jsonFileName) {
           current_topic = topic.displayName;
           current_subject = item.displayName;
+          break;
         }
       });
     });
