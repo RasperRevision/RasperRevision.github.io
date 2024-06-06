@@ -261,7 +261,7 @@ async function getSubjectJSON() {
     var topics = "";
     item.topics.forEach((topic) => {
       if (topic.games.toString(2)[1] == 1) {
-        topics += `<a href="?json=${topic.jsonFile}" class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+        topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
       }
     });
     dropdownHTML +=
@@ -304,15 +304,12 @@ const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
   let current_topic, current_subject;
-  document.querySelectorAll('.dropdown-item').forEach(pill => {
-    if (pill.getAttribute('href').includes(jsonFileName)) {
-      pill.classList.add('active');
-      current_topic = pill.textContent;
-      const dropdownMenu = pill.closest('.dropdown-menu');
-      if (dropdownMenu) {
-        const dropdownToggle = dropdownMenu.parentElement.querySelector('.dropdown-toggle');
-        dropdownToggle.classList.add('active');
-        current_subject = dropdownToggle.textContent;
+  document.querySelectorAll('.subject_link').forEach(l => {
+    if (l.getAttribute('href').includes(jsonFileName)) {
+      current_topic = l.textContent;
+      const i = l.closest('.accordion-item');
+      if (i) {
+        current_subject = i.querySelector(".accordion-button").textContent;
       }
     }
   });
