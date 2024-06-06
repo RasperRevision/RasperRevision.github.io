@@ -253,6 +253,10 @@ function endGame() {
   document.querySelector('.finish').classList.remove('invis');
 }
 
+async function getJSON() {
+  return await (await fetch('/subjects.json')).json();
+}
+
 async function getSubjectJSON() {
   const data = await (await fetch('/subjects.json')).json();
   var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
@@ -303,15 +307,15 @@ document.querySelector(".mobile_nav_btn").addEventListener('click', function () 
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
-  let current_topic, current_subject;
-  document.querySelectorAll('.subject_link').forEach(l => {
-    if (l.getAttribute('href').includes(jsonFileName)) {
-      current_topic = l.textContent;
-      const i = l.closest('.accordion-item');
-      if (i) {
-        current_subject = i.querySelector(".accordion-button").textContent;
-      }
-    }
+  getJSON().then((data) => {
+    data.forEach((item) => {
+      item.forEach((topic) => {
+        if (topic.jsonFile == jsonFileName) {
+          current_topic = topic.displayName;
+          current_subject = item.displayName;
+        }
+      });
+    });
   });
 
   quiz(current_topic, current_subject);
