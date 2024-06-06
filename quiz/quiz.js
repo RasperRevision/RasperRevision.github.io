@@ -310,17 +310,15 @@ if (jsonFileName != null) {
   let current_subject, current_topic;
   getJSON().then((data) => {
     data.forEach((item) => {
-      item.forEach((topic) => {
+      item.topics.forEach((topic) => {
         if (topic.jsonFile == jsonFileName) {
           current_topic = topic.displayName;
           current_subject = item.displayName;
-          break;
+          quiz(current_topic, current_subject)
         }
       });
     });
   });
-
-  quiz(current_topic, current_subject);
 
 } else {
   document.querySelector('.no-json').classList.remove('invis');
