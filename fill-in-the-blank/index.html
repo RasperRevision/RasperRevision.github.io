@@ -39,20 +39,28 @@
   </style>
 </head>
 
-<body class="flex align-items-center justify-content-center">
-  <ul class="nav nav-pills position-absolute top-0 p-2 m-3">
-    <li class="nav-item">
-      <a class="nav-link text-white" href="/fill-in-the-blank/?json=macbeth">Macbeth</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="/fill-in-the-blank/?json=christmas_carol">A Christmas Carol</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="/fill-in-the-blank/?json=cold_war">Cold War</a>
-    </li>
-  </ul>
+<body>
+  <header style="height:120px;padding-top:35px;background-color: rgb(25, 25, 25);">
+    <div class="fs-2 ms-4 bg-dark d-inline px-4 py-3" style="border-radius: 10px;">
+      <div class="stopwatch d-inline">00:00</div>
+      <span class="mx-1">•</span>
+      <span class="d-inline  score">0/0</span>
+    </div>
 
-  <div class="container w-100 bg-light p-4">
+    <h1 class="position-absolute qtitle" style="left: 50%;transform: translate(-50%, -95%);">
+      <a href="/quiz" class="link-light link-underline-opacity-50 link-underline-opacity-100-hover">Fill in the
+        blank</a>
+    </h1>
+
+    <div class="position-absolute mobile_nav d-flex">
+      <button class="mobile_nav_btn">
+        <div><i class="bi bi-caret-down-fill me-2"></i>Select a topic</div>
+      </button>
+      <div class="accordion_content w-100"></div>
+    </div>
+  </header>
+
+  <div class="container bg-light p-4 position-absolute top-50" style="left:50%;transform: translate(-50%, -40%);">
     <div class="yes-json">
       <h3 class="mb-4" style="color: black">Complete the quotation</h3>
       <div class="fw-bold" id="themes" style="color: black"></div>
@@ -72,6 +80,7 @@
       <p class="text-black">To begin, select an option from the menu at the top of the screen.</p>
     </div>
   </div>
+
 
 
   <script src="/sidebar.js"></script>

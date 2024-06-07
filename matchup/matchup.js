@@ -51,7 +51,7 @@ async function getSubjectJSON() {
     const subject = item.displayName.replace(/\s/g, "");
     var topics = "";
     item.topics.forEach((topic) => {
-      if (topic.games.toString(2)[1] == 1) {
+      if (topic.games.toString(2)[0] == 1) {
         topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
       }
     });
@@ -339,7 +339,7 @@ async function getJSON() {
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
- let current_subject, current_topic;
+  let current_subject, current_topic;
   getJSON().then((data) => {
     data.forEach((item) => {
       item.topics.forEach((topic) => {
