@@ -45,36 +45,76 @@ function getParameterByName(name, url) {
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function loadJSON(callback) {
-  if (!getParameterByName('json')) {
-    console.log(document.querySelector('.no-json'));
-    document.querySelector('.no-json').classList.add('invis');
-    var jsonFile = document.querySelector('.file_input').files[0];
-    var reader = new FileReader();
-
-    reader.onload = function (event) {
-      var jsonString = event.target.result;
-      var jsonArray = JSON.parse(jsonString);
-      jsonArray.forEach(function (obj) { obj.newProperty = 'newValue'; });
-      if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) {
-        callback(jsonArray);
-      } else {
-        alert("Incompatible file");
-        location.reload();
+async function getSubjectJSON() {
+  const data = await (await fetch('/subjects.json')).json();
+  var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
+  data.forEach((item) => {
+    const subject = item.displayName.replace(/\s/g, "");
+    var topics = "";
+    item.topics.forEach((topic) => {
+      if (topic.games.toString(2)[1] == 1) {
+        topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
       }
-    };
-    reader.readAsText(jsonFile);
-  } else {
-    var jsonFile = `/json/${getParameterByName('json')}.json`;
+    });
+    dropdownHTML +=
+      `<div class="accordion-item" style="background: none !important; border: none;">
+        <h2 class="accordion-header" id="${subject}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">
+            ${item.displayName}
+          </button>
+        </h2>
+        <div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion">
+          <div class="accordion-body">
+            <ul class="list-group" id="${subject}ListGroup">
+              ${topics}
+            </ul>
+          </div>
+        </div>
+      </div>`;
+  });
+  dropdownHTML += '</div>';
+  return dropdownHTML;
+}
 
-    var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType("application/json");
-    xobj.open('GET', jsonFile, true);
-    xobj.onreadystatechange = function () {
-      if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
-    };
-    xobj.send(null);
+
+document.querySelector(".mobile_nav").style.minHeight = "45px";
+
+document.querySelector(".mobile_nav_btn").addEventListener('click', function () {
+  document.querySelector('.bi-caret-down-fill').classList.toggle('rotated');
+  if (document.querySelector(".mobile_nav").style.minHeight != '45px') {
+    document.querySelector(".mobile_nav").style.minHeight = '45px';
+    document.querySelector(".accordion_content").innerHTML = '';
+  } else {
+    document.querySelector(".mobile_nav").style.minHeight = 'calc(100vh - 121px)';
+    getSubjectJSON().then((s) => {
+      document.querySelector(".accordion_content").innerHTML = s;
+    });
   }
+});
+
+const jsonFileName = getParameterByName('json');
+
+if (jsonFileName != null) {
+  let current_subject, current_topic;
+  getJSON().then((data) => {
+    data.forEach((item) => {
+      item.topics.forEach((topic) => {
+        if (topic.jsonFile == jsonFileName) {
+          current_topic = topic.displayName;
+          current_subject = item.displayName;
+          quiz(current_topic, current_subject)
+        }
+      });
+    });
+  });
+
+} else {
+  document.querySelector('.no-json').classList.remove('invis');
+  term_element.classList.add('invis');
+  document.querySelectorAll('.opt').forEach(element => {
+    element.classList.add('invis');
+  });
+}
 }
 
 function pickRandomItems(array, count) {
