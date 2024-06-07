@@ -324,6 +324,10 @@ function waitForButton(callback) {
   return cleanup;
 }
 
+async function getJSON() {
+  return await ((await fetch('/subjects.json')).json());
+}
+
 const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
