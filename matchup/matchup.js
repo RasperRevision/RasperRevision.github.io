@@ -91,30 +91,6 @@ document.querySelector(".mobile_nav_btn").addEventListener('click', function () 
   }
 });
 
-const jsonFileName = getParameterByName('json');
-
-if (jsonFileName != null) {
-  let current_subject, current_topic;
-  getJSON().then((data) => {
-    data.forEach((item) => {
-      item.topics.forEach((topic) => {
-        if (topic.jsonFile == jsonFileName) {
-          current_topic = topic.displayName;
-          current_subject = item.displayName;
-          quiz(current_topic, current_subject)
-        }
-      });
-    });
-  });
-
-} else {
-  document.querySelector('.no-json').classList.remove('invis');
-  term_element.classList.add('invis');
-  document.querySelectorAll('.opt').forEach(element => {
-    element.classList.add('invis');
-  });
-}
-
 
 function pickRandomItems(array, count) {
   if (array.length <= count) return array;
