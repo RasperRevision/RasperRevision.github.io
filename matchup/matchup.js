@@ -324,7 +324,7 @@ function waitForButton(callback) {
   return cleanup;
 }
 
-const jsonFileName = getParameterByName('json');
+jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
   let current_topic, current_subject;
