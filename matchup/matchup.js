@@ -324,25 +324,21 @@ function waitForButton(callback) {
   return cleanup;
 }
 
-jsonFileName = getParameterByName('json');
+const jsonFileName = getParameterByName('json');
 
 if (jsonFileName != null) {
-  let current_topic, current_subject;
-  // adds the active class to the link that links to the current page
-  pills.forEach(pill => {
-    if (pill.getAttribute('href').includes(jsonFileName)) {
-      pill.classList.add('active');
-      current_topic = pill.textContent;
-      const dropdownMenu = pill.closest('.dropdown-menu');
-      if (dropdownMenu) {
-        const dropdownToggle = dropdownMenu.parentElement.querySelector('.dropdown-toggle');
-        dropdownToggle.classList.add('active');
-        current_subject = dropdownToggle.textContent;
-      }
-    }
+ let current_subject, current_topic;
+  getJSON().then((data) => {
+    data.forEach((item) => {
+      item.topics.forEach((topic) => {
+        if (topic.jsonFile == jsonFileName) {
+          current_topic = topic.displayName;
+          current_subject = item.displayName;
+          matchup(current_topic, current_subject);
+        }
+      });
+    });
   });
-
-  matchup(current_topic, current_subject);
 } else {
   // if there is no json parameter, this makes the no-json element appear
   document.querySelector('.no-json').classList.remove('invis');
