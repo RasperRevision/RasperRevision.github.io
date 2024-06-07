@@ -178,7 +178,7 @@ async function matchup(topic, subject) {
     if (topic != null && subject != null) {
       rangeInput.max = length - 1;
 
-      document.getElementById("complete").textContent = `Complete (${length} questions)`
+      document.getElementById("complete").textContent = `Complete (${length} questions)`;
 
       await new Promise((resolve) => {
         document.querySelector('.begin-game').addEventListener('click', resolve);
