@@ -171,7 +171,6 @@ async function matchup(topic, subject) {
     json_data = shuffle(response);
     length = json_data.length;
 
-    startStopwatch();
     score_value = 0;
     updateScore();
 
@@ -185,6 +184,7 @@ async function matchup(topic, subject) {
       });
 
       modal.hide();
+      startStopwatch();
 
       if (document.querySelectorAll(".form-check-input")[1].checked) {
         length = rangeInput.value;
