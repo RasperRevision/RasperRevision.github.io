@@ -15,7 +15,6 @@ let definitionChosen = "", termChosen = "";
 function startStopwatch() {
   timer = setInterval(function () {
     s++;
-
     if (s === 60) {
       s = 0;
       m++;
@@ -115,7 +114,7 @@ if (jsonFileName != null) {
     element.classList.add('invis');
   });
 }
-}
+
 
 function pickRandomItems(array, count) {
   if (array.length <= count) return array;
