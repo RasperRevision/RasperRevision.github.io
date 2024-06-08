@@ -42,8 +42,15 @@
   </style>
 </head>
 
-<body class="bg-dark d-flex align-items-center justify-content-center p-0 m-0">
-  <div class="container bg-light p-4">
+<body class="bg-dark">
+  <header style="height:120px;padding-top:35px;background-color: rgb(25, 25, 25);">
+
+    <h1 class="position-absolute qtitle" style="left: 50%;transform: translate(-50%);">
+      <a href="/equations/?json=physics_equations.json"
+        class="link-light link-underline-opacity-50 link-underline-opacity-100-hover">Equations</a>
+    </h1>
+  </header>
+  <div class="container bg-light p-4 position-absolute top-50" style="left:50%;transform:translate(-50%, -40%);">
     <div class="alert invis alert-success p-2" style="color: black">🗸 Correct!</div>
     <div class="alert invis alert-danger p-2" style="color: black">☓ Incorrect. Try again</div>
     <div class="equation_question" style="color: black"></div>
