@@ -142,7 +142,6 @@
         "games": 2,
         "bg": "success"
       },
-      
       {
         "index": 3,
         "displayName": "Vocabulary (Easy)",
@@ -211,11 +210,10 @@
       {
         "index": 2,
         "displayName": "Energy",
-        "jsonFile": "p1",
+        "jsonFile": "physics-energy",
         "games": 12,
         "bg": "success"
       }
-      
     ]
   },
   {
