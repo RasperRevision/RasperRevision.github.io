@@ -480,7 +480,7 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
   }
   .side-logo {
-    width: 250px;
+    width: 100px;
     image: url(/assets/regular_logo_notext);
   }
 }
