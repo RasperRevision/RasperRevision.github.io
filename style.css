@@ -473,6 +473,9 @@ body::-webkit-scrollbar {
   .home_btn {
     font-size: 1.4rem;
   }
+  .side-logo {
+    src: url(/assets/regular_logo_notext);
+  }
 }
 
 @media screen and (max-height: 1000px) {
