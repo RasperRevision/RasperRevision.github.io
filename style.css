@@ -479,8 +479,4 @@ body::-webkit-scrollbar {
   .home_btn {
     font-size: 1.3rem;
   }
-  .side-logo {
-    width: 100px;
-    image: url(/assets/regular_logo_notext);
-  }
 }
