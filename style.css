@@ -466,6 +466,7 @@ body::-webkit-scrollbar {
 @media screen and (max-height: 1200px) {
   .home_btn {
     font-size: 1.55rem;
+    background-image: url(/assets/regular_logo_notext);
   }
 }
 
