@@ -384,6 +384,11 @@ body::-webkit-scrollbar {
     flex-direction: column;
   }
 }
+@media screen and (max-height: 576px) {
+  .side-logo {
+    height: 40vw;
+    background:url(/assets/dark_square_logo.png)
+  }
 
 @media screen and (min-width: 576px) {
   .side-logo {
