@@ -15,7 +15,9 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
+.side-logo {
+  background-image: url("/assets/regular_logo.png");
+}
 
 body::-webkit-scrollbar {
   display: none;
