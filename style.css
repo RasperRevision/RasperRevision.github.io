@@ -15,11 +15,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.side-logo {
-  background-image: url("/assets/regular_logo.png");
-  width:200;
-  height:200;
-}
+
 
 body::-webkit-scrollbar {
   display: none;
