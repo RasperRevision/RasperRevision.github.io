@@ -31,8 +31,8 @@ body::-webkit-scrollbar {
   display: flex;
 }
 .side-logo{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   margin-right: 10px;
   margin-left: 10px;
 }
