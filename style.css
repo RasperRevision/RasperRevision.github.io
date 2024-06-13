@@ -17,6 +17,8 @@ body {
 }
 .side-logo {
   background-image: url("/assets/regular_logo.png");
+  width:200;
+  height:200;
 }
 
 body::-webkit-scrollbar {
