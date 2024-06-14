@@ -16,8 +16,8 @@ body {
   scrollbar-width: none;
 }
 .side-logo: {
-  width: 10vw;
-  height: 10vw;
+  width: 10vh;
+  height: 10vh;
 }
 
 body::-webkit-scrollbar {
