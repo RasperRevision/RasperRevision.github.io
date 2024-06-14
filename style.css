@@ -15,12 +15,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.side-logo: {
-  width: 10vh;
-  height: 10vh;
-  margin-bottom:1px;
-  margin-top:1px;
-}
+
 
 body::-webkit-scrollbar {
   display: none;
