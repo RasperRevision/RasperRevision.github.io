@@ -18,6 +18,8 @@ body {
 .side-logo: {
   width: 10vh;
   height: 10vh;
+  margin-bottom:1px;
+  margin-top:1px;
 }
 
 body::-webkit-scrollbar {
