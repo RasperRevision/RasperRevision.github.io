@@ -15,7 +15,10 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
+.side-logo: {
+  width: 100px;
+  height: 100px;
+}
 
 body::-webkit-scrollbar {
   display: none;
@@ -487,8 +490,5 @@ body::-webkit-scrollbar {
 @media screen and (max-height: 1000px) {
   .home_btn {
     font-size: 1.3rem;
-  }
-  .side-logo {
-    visibility: hidden;
   }
 }
