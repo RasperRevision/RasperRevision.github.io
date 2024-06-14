@@ -488,4 +488,7 @@ body::-webkit-scrollbar {
   .home_btn {
     font-size: 1.3rem;
   }
+  .side-logo {
+    visibility: hidden;
+  }
 }
