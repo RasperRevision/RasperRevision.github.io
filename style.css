@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
   display: flex;
 }
 
-.side-logo{
+.side-logo {
   margin-top: 0.1px;
   margin-bottom: 0.01px;
   margin-right: 0.01px;
@@ -480,9 +480,6 @@ body::-webkit-scrollbar {
 @media screen and (max-height: 1100px) {
   .home_btn {
     font-size: 1.4rem;
-  }
-  .side-logo {
-    src: url(/assets/regular_logo_notext);
   }
 }
 
