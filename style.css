@@ -30,11 +30,13 @@ body::-webkit-scrollbar {
 .flex {
   display: flex;
 }
+
 .side-logo{
   margin-top: 0.1px;
   margin-bottom: 0.01px;
   margin-right: 0.01px;
   margin-left: 0.01px;
+  transition: width 50ms ease;
 }
 
 .flex_col {
