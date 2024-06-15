@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
   margin-bottom: 0.01px;
   margin-right: 0.01px;
   margin-left: 0.01px;
-  transition: width 50ms ease;
+  transition: width 100ms ease;
 }
 
 .flex_col {
