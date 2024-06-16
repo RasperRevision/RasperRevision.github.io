@@ -5,7 +5,7 @@ const option4 = document.querySelector('.opt4');
 const section = document.querySelector('.quiz');
 const home = document.querySelector('.home');
 const restart = document.querySelector('.restart');
-const term_element = document.querySelector('.key_term');
+const finished = document.querySelector('.finished-text');
 const score = document.querySelector('.score');
 const container = document.querySelector('.quiz_content');
 
@@ -94,139 +94,154 @@ function startStopwatch() {
 function stopStopwatch() { clearInterval(timer); }
 
 async function processItem(item) {
-  container.innerHTML = ''; // Clear previous question and answers
+  container.innerHTML = '';
   const main_question = document.createElement('h3');
   main_question.textContent = item.question;
   container.appendChild(main_question);
 
+  let partCount = 0;
   for (const part of item.parts) {
-    await processPart(part);
+    partCount++;
+    await processPart(part, partCount);
   }
-
-  await new Promise(resolve => setTimeout(resolve, 2000));
+  main_question.textContent = '';
 }
 
-async function processPart(part) {
+async function processPart(part, partCount) {
+  // creates a container div for the current question part
+  const part_container = document.createElement('div');
+  part_container.classList.add(`part${partCount}`);
+  container.appendChild(part_container);
+
+  // title for sub question
   const sub_question = document.createElement('h6');
-  sub_question.innerHTML = part.index + '. ' + part.question + ' <b>[' + part.answerBoxes.reduce((acc, box) => acc + box.marks, 0) + ' marks]</b>';
-  container.appendChild(sub_question);
+  sub_question.innerHTML = `${part.index}. ${part.question}<b> [${part.answerBoxes.reduce((acc, box) => acc + box.marks, 0)} marks]</b>`;
+  part_container.appendChild(sub_question);
 
   const answer_boxes = [];
-  const feedback_boxes = [];
   const mark_scheme_boxes = [];
+  const feedback_boxes = [];
 
+  var count = 0;
   for (const box of part.answerBoxes) {
+    // creates answer boxes
     if (box.type == 'l') {
-      if (box.prompt) {
-        const prompt = document.createElement('p');
-        prompt.textContent = box.prompt;
-        container.appendChild(prompt);
-      }
       const answer_box = document.createElement('textarea');
       answer_box.classList.add('form-control', 'w-100', 'my-3');
-      container.appendChild(answer_box);
+      part_container.appendChild(answer_box);
       answer_boxes.push(answer_box);
     } else {
-      if (box.prompt) {
-        const answer_prompt = document.createElement('p');
-        answer_prompt.classList.add('d-inline');
-        answer_prompt.textContent = box.prompt;
-        container.appendChild(answer_prompt);
-      }
       const answer_box = document.createElement('input');
       answer_box.classList.add('form-control', 'w-auto', 'd-inline', 'mx-3');
-      container.appendChild(answer_box);
+      part_container.appendChild(answer_box);
       answer_boxes.push(answer_box);
-      if (box.unitShown) {
-        const answer_unit = document.createElement('p');
-        answer_unit.classList.add('d-inline');
-        answer_unit.textContent = box.unit;
-        container.appendChild(answer_unit);
-      }
     }
 
     const feedback = document.createElement('div');
-    feedback.classList.add('feedback', 'my-2');
-    container.appendChild(feedback);
+    feedback.classList.add(`feedback${count}`, 'my-2');
+    part_container.appendChild(feedback);
     feedback_boxes.push(feedback);
 
     const mark_scheme = document.createElement('div');
-    mark_scheme.classList.add('mark-scheme', 'my-2', 'invis');
-    mark_scheme.innerHTML = `<b>Mark Scheme:</b><br>Answers: ${box.answers.join(', ')}<br>Alternatives: ${box.alternatives ? box.alternatives.join(', ') : 'None'}`;
-    container.appendChild(mark_scheme);
+    mark_scheme.classList.add(`mark_scheme${count}`, 'my-2');
+    part_container.appendChild(mark_scheme);
     mark_scheme_boxes.push(mark_scheme);
   }
 
+  // creates submit button
   const submit_btn = document.createElement('button');
   submit_btn.textContent = 'Submit';
   submit_btn.classList.add('rbtn', 'info', 'my-3');
-  container.appendChild(submit_btn);
+  part_container.appendChild(submit_btn);
 
+  // defines what will happen if the submit button is pressed
   return new Promise((resolve) => {
     submit_btn.addEventListener('click', function () {
-      let correct = true;
-      let allMarked = true;
+      let answer_box_values = [];
+      answer_boxes.forEach(() => {
+        answer_box_values.push(false);
+      });
 
+      // goes through each answer box to check if it's correct
       part.answerBoxes.forEach((box, boxIndex) => {
         let userAnswer = answer_boxes[boxIndex].value.trim();
-        let feedback = feedback_boxes[boxIndex];
-        feedback.innerHTML = '';
+        let current_feedback = feedback_boxes[boxIndex];
+        current_feedback.innerHTML = '';
 
-        if (box.type == 'l') {
-          userAnswer = userAnswer.toLowerCase();
-          const isCorrect = box.answers.includes(userAnswer) || (box.alternatives && box.alternatives.includes(userAnswer));
+        if (box.exact) {
+          // converts userAnswer to appropriate format, whether it is an int or string.
+          try {
+            userAnswer = parseInt(userAnswer);
+          } catch (e) {
+            userAnswer = userAnswer.toLowerCase();
+          }
 
-          if (box.exact) {
-            if (!isCorrect) correct = false;
-            feedback.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
-            feedback.style.color = isCorrect ? 'green' : 'red';
+          // checks if it is correct
+          if (box.answers[0] !== userAnswer) {
+            current_feedback.textContent = 'Incorrect!';
+            current_feedback.style.color = 'red';
           } else {
-            const correct_btn = document.createElement('button');
-            correct_btn.textContent = 'Correct';
-            correct_btn.classList.add('btn', 'btn-success', 'mx-1');
-            correct_btn.addEventListener('click', () => {
-              feedback.textContent = 'Correct!';
-              feedback.style.color = 'green';
-              score_val += box.marks;
-              updateScore();
-              correct_btn.remove();
-              incorrect_btn.remove();
-              mark_scheme_boxes[boxIndex].classList.add('invis');
-            });
-
-            const incorrect_btn = document.createElement('button');
-            incorrect_btn.textContent = 'Incorrect';
-            incorrect_btn.classList.add('btn', 'btn-danger', 'mx-1');
-            incorrect_btn.addEventListener('click', () => {
-              feedback.textContent = 'Incorrect!';
-              feedback.style.color = 'red';
-              correct_btn.remove();
-              incorrect_btn.remove();
-              mark_scheme_boxes[boxIndex].classList.add('invis');
-            });
-
-            feedback.appendChild(correct_btn);
-            feedback.appendChild(incorrect_btn);
-            mark_scheme_boxes[boxIndex].classList.remove('invis');
-            allMarked = false; // Wait until user marks all
+            current_feedback.textContent = 'Correct!';
+            current_feedback.style.color = 'green';
+            score_val += box.marks;
+            updateScore();
+            answer_box_values[boxIndex] = true;
           }
         } else {
-          userAnswer = parseInt(userAnswer);
-          if (box.answers[0] !== userAnswer) {
-            correct = false;
-            feedback.textContent = 'Incorrect!';
-            feedback.style.color = 'red';
-          } else {
-            feedback.textContent = 'Correct!';
-            feedback.style.color = 'green';
-            score_val += box.marks;
+          // non-exact answers are always strings
+          userAnswer = userAnswer.toLowerCase();
+
+          // creates mark scheme text
+          let current_mark_scheme = mark_scheme_boxes[boxIndex];
+          const ms_text = `<h6>Self-marked-question. Select the number of marks you think you deserve based on the mark scheme.</h6><div class="dropdown d-inline me-2"><button class="btn btn-secondary dropdown-toggle dropdownButton${boxIndex}" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select</button><ul class="dropdown-menu dropdown${boxIndex}"></ul></div>mark(s)<br><h6 class=mt-3>Mark scheme</h6><ul class=markScheme${boxIndex}></ul><h6 class=allow></h6><ul class=altMarkScheme${boxIndex}>`;
+          current_mark_scheme.innerHTML = ms_text;
+
+          // sets up mark dropdown properly
+          for (let i = 0; i <= box.marks; i++) {
+            const temp_element = document.createElement('li');
+            const temp_text = `<a class="dropdown-item" style="cursor: pointer">${i}</a>`
+            temp_element.innerHTML = temp_text;
+            document.querySelector(`.dropdown${boxIndex}`).appendChild(temp_element);
+          }
+
+          document.querySelector(`.dropdown${boxIndex}`).querySelectorAll('.dropdown-item').forEach((item) => {
+            item.addEventListener('click', function () {
+              document.querySelector(`.dropdownButton${boxIndex}`).textContent = item.textContent;
+              if (parseInt(item.textContent) == box.marks) {
+                current_feedback.textContent = 'Correct!';
+                current_feedback.style.color = 'green';
+                answer_box_values[boxIndex] = true;
+                score_val += box.marks;
+                updateScore();
+                if (!answer_box_values.includes(false)) {
+                  document.querySelector(`.part${partCount}`).remove();
+                  resolve();
+                }
+              } else {
+                current_feedback.textContent = 'Incorrect!';
+                current_feedback.style.color = 'red';
+              }
+            });
+          });
+          box.answers.forEach((answer) => {
+            const answer_text = document.createElement('li');
+            answer_text.textContent = answer;
+            document.querySelector(`.markScheme${boxIndex}`).appendChild(answer_text);
+          });
+          if (box.alternatives != null) {
+            document.querySelector('.allow').textContent = 'Allow:'
+            box.alternatives.forEach((alt) => {
+              const alt_element = document.createElement('li');
+              alt_element.textContent = alt;
+              document.querySelector(`.altMarkScheme${boxIndex}`).appendChild(alt_element);
+            });
           }
         }
       });
 
-      if (correct && allMarked) {
-        updateScore();
-        container.innerHTML = '';
+      // moves on if everything is correct  
+      if (!answer_box_values.includes(false)) {
+        document.querySelector(`.part${partCount}`).remove();
         resolve();
       }
     });
@@ -236,6 +251,7 @@ async function processPart(part) {
 async function exam() {
   startStopwatch();
   score_val = 0;
+
   loadJSON(async function (response) {
     json_data = shuffle(response);
     length = json_data.reduce((acc, item) => acc + item.parts.reduce((acc2, part) => acc2 + part.answerBoxes.reduce((acc3, box) => acc3 + box.marks, 0), 0), 0);
@@ -245,14 +261,13 @@ async function exam() {
       await processItem(json_data[i]);
     }
 
-    stopStopwatch();
-
     // end of game
+    stopStopwatch();
     home.addEventListener('click', function () { location.href = '/'; });
     restart.addEventListener('click', function () { location.reload(); });
-    term_element.style.cssText = 'text-align: center !important; border:none !important; background: none;';
-    term_element.innerHTML = "Complete <div style=\"font-size:100px;\">" + pad(m) + ':' + pad(s) + "</div>";
-    document.querySelector('.finish').classList.remove('invis');
+    finished.style.cssText = 'text-align: center !important; border:none !important; background: none;';
+    finished.innerHTML = `Complete <div style="font-size:100px;">${pad(m)}:${pad(s)}</div>`;
+    document.getElementById('finish-wrapper').classList.remove('invis');
   });
 }
 
