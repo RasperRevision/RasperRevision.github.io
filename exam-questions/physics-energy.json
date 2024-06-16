@@ -35,7 +35,7 @@
             "type": "l",
             "answers": [
               "wind is unreliable",
-              "wind turbines don’t turn when the wind is too strong/weak",
+              "wind turbines don't turn when the wind is too strong/weak",
               "there are not enough wind turbines (in the UK)"
             ],
             "alternatives": [
@@ -51,7 +51,7 @@
             "type": "l",
             "answers": [
               "wind is unreliable",
-              "wind turbines don’t turn when the wind is too strong/weak",
+              "wind turbines don't turn when the wind is too strong/weak",
               "there are not enough wind turbines (in the UK)"
             ],
             "alternatives": [
@@ -157,14 +157,13 @@
         "question": "The car with john in it weighs 1800kg. when John is moving down the motorway at 30kmph, what is the kinetic energy of the car?",
         "answerBoxes": [
           {
-            "type": "l",
+            "type": "s",
             "answers": [
-              "225000000J"
+              "225000000"
             ],
-            "alternatives": [
-              "225000KJ"
-            ],
-            "exact": false,
+            "unit": "J",
+            "unitShown": true,
+            "exact": true,
             "marks": 5
           }
         ]

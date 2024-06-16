@@ -204,15 +204,18 @@ async function processPart(part, partCount) {
             document.querySelector(`.dropdown${boxIndex}`).appendChild(temp_element);
           }
 
+          // allows the user to select number of marks
           document.querySelector(`.dropdown${boxIndex}`).querySelectorAll('.dropdown-item').forEach((item) => {
             item.addEventListener('click', function () {
               document.querySelector(`.dropdownButton${boxIndex}`).textContent = item.textContent;
               if (parseInt(item.textContent) == box.marks) {
                 current_feedback.textContent = 'Correct!';
                 current_feedback.style.color = 'green';
-                answer_box_values[boxIndex] = true;
-                score_val += box.marks;
-                updateScore();
+                if (!answer_box_values[boxIndex]) {
+                  answer_box_values[boxIndex] = true;
+                  score_val += box.marks;
+                  updateScore();
+                }
                 if (!answer_box_values.includes(false)) {
                   document.querySelector(`.part${partCount}`).remove();
                   resolve();
@@ -223,11 +226,14 @@ async function processPart(part, partCount) {
               }
             });
           });
+
+          // shows the mark scheme
           box.answers.forEach((answer) => {
             const answer_text = document.createElement('li');
             answer_text.textContent = answer;
             document.querySelector(`.markScheme${boxIndex}`).appendChild(answer_text);
           });
+
           if (box.alternatives != null) {
             document.querySelector('.allow').textContent = 'Allow:'
             box.alternatives.forEach((alt) => {
