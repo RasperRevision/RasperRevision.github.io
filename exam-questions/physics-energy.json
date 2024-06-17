@@ -159,7 +159,7 @@
           {
             "type": "s",
             "answers": [
-              "225000000"
+              225000000
             ],
             "unit": "J",
             "unitShown": true,
