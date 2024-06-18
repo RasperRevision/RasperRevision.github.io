@@ -488,7 +488,7 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
   }
 }
-@media screen and (max-height:  550px) {
+@media screen and (max-height:  570px) {
   
   .side-logo {
     width:0.001px;
