@@ -498,7 +498,6 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
   }
   .side-logo {
-    opacity: 0%;
-    filter: opacity(0%);
+    display: none;
   }
 }
