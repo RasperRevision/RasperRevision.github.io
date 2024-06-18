@@ -135,26 +135,27 @@ inputElement.addEventListener("keypress", function (event) {
 });
 
 function getSubjectJSON() {
-  const data = getJSON();
-  var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
-  data.forEach((item) => {
-    const subject = item.displayName.replace(/\s/g, "");
-    var topics = "";
-    item.topics.forEach((topic) => {
-      var binary_games = topic.games.toString(2);
-      while (binary_games.length < 4) {
-        binary_games = "0" + binary_games;
-      }
-      if (binary_games[2] == "1") {
-        topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+  getJSON().then((data) => {
+    var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
+    data.forEach((item) => {
+      const subject = item.displayName.replace(/\s/g, "");
+      var topics = "";
+      item.topics.forEach((topic) => {
+        var binary_games = topic.games.toString(2);
+        while (binary_games.length < 4) {
+          binary_games = "0" + binary_games;
+        }
+        if (binary_games[2] == "1") {
+          topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+        }
+      });
+      if (topics != "") {
+        dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse{subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}"data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
       }
     });
-    if (topics != "") {
-      dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse{subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}"data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
-    }
+    dropdownHTML += '</div>';
+    return dropdownHTML;
   });
-  dropdownHTML += '</div>';
-  return dropdownHTML;
 }
 
 async function getJSON() {
