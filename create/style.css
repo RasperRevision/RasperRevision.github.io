@@ -1,0 +1,4 @@
+.form-control.empty {
+      border-color: red !important;
+      border-width: 2px;
+    }
