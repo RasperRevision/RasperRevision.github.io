@@ -493,11 +493,4 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (min-width:  200px) {
-  .home_btn {
-    font-size: 1.3rem;
-  }
-  .side-logo {
-    width:1px;
-  }
-}
+
