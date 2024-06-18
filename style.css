@@ -493,6 +493,9 @@ body::-webkit-scrollbar {
   .side-logo {
     width:0.001px;
   }
+  .list-group{
+    font-size:0.95rem;
+  }
   .mb-5 {
   margin-top: 0.1px;
   margin-bottom: 0.01px;
