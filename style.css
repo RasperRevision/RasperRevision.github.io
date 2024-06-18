@@ -481,6 +481,10 @@ body::-webkit-scrollbar {
   .home_btn {
     font-size: 1.4rem;
   }
+  .side-logo {
+    opacity: 0%;
+    filter: opacity(0%);
+  }
 }
 
 @media screen and (max-height: 1000px) {
