@@ -488,5 +488,8 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
   }
 }
-
+@media screen and (max-height:  200px) {
+  .home_btn {
+    font-size: 1.3rem;
+  }
 
