@@ -12,6 +12,3 @@ updates:
         versions: ["5.3.3"]
       - dependency-name: "bootstrap-icons"
         versions: ["1.11.3"]
-              - name: Docker Layer Caching
-                uses: satackey/action-docker-layer-caching@v0.0.11
-            
