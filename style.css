@@ -493,11 +493,11 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (max-height:  100px) {
+@media screen and (min-height:  100px) {
   .home_btn {
     font-size: 1.3rem;
   }
   .side-logo {
-    display: none;
+    width:1px;
   }
 }
