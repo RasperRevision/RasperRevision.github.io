@@ -145,7 +145,7 @@ function getSubjectJSON() {
       while (binary_games.length < 4) {
         binary_games = "0" + binary_games;
       }
-      if (binary_games[2] == 1) {
+      if (binary_games[2] == "1") {
         topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
       }
     });
