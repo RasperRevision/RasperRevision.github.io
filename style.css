@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 }
 
 .qtitle {
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 610px) {
     display: none;
   }
 }
