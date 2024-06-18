@@ -147,7 +147,7 @@ async function process() {
     definition.textContent = item.meaning != null ? item.meaning : item.english;
 
     definition.classList.add('rbtn', 'definition', 'text-light', 'turquoise', 'position-absolute');
-    definition.style.fontSize = '20px';
+    definition.style.fontSize = '1.2vw';
     definition.style.textShadow = '1px 1px 10px black';
     definition.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
     definition.style.top = 'calc(' + nums[count] + '%' + ' + 250px)';
