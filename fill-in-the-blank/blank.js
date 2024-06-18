@@ -14,7 +14,7 @@ let s = 0, m = 0;
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
-  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
+  var regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`), results = regex.exec(url);
   if (!results) return null;
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
@@ -66,7 +66,7 @@ function checkInput() {
   const userGuess = removePunctuation(inputElement.value.trim());
   const actualQuote = shuffledQuotes[score_value].quote;
   let correct = userGuess.toLowerCase() === removePunctuation(actualQuote.toLowerCase());
-  resultElement.textContent = correct ? "Correct!" : "Incorrect. The correct quote is: " + actualQuote;
+  resultElement.textContent = correct ? "Correct!" : `Incorrect. The correct quote is: ${actualQuote}`;
   resultElement.classList.add(correct ? 'alert-success' : 'alert-danger');
   if (correct) {
     submitButton.classList.add('invis');
