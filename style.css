@@ -492,3 +492,13 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
   }
 }
+
+@media screen and (max-height: 600px) {
+  .home_btn {
+    font-size: 1.3rem;
+  }
+  .side-logo {
+    opacity: 0%;
+    filter: opacity(0%);
+  }
+}
