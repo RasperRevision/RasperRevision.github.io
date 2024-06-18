@@ -159,7 +159,7 @@ async function process() {
     term.textContent = item.term != null ? item.term : item.german;
 
     term.classList.add('rbtn', 'term', 'primary', 'position-absolute');
-    term.style.fontSize = '20px';
+    term.style.fontSize = '1.6vw';
     term.style.textShadow = '1px 1px 10px black';
     term.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
     term.style.top = 'calc(' + nums[count] + '%' + ' + 250px)';
