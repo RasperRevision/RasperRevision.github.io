@@ -496,6 +496,9 @@ body::-webkit-scrollbar {
   .list-group{
     font-size:0.95rem;
   }
+  .hamburger-icon{
+    width:75px;
+  }
   .mb-5 {
   margin-top: 0.1px;
   margin-bottom: 0.01px;
