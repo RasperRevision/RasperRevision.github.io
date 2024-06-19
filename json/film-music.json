@@ -7,7 +7,6 @@
     "term": "Click track",
     "meaning": "A metronome track that musicians listening to while playing, to fit the music with the film/game"
   },
-  "
   {
     "term": "Diegetic",
     "meaning": "Music that the characters can hear"
@@ -43,5 +42,77 @@
   {
     "term": "Hans Zimmer",
     "meaning": "One of the most famous film composers. Composed the music for Gladiator, Piraates of the Carribean, the Lion King, etc."
+  },
+  {
+    "term": "James Horner",
+    "meaning": "A composer who wrote the music for Titanic, Avatar etc"
+  },
+  {
+    "term": "Michael Giacchino",
+    "meaning": "A composer who wrote the music for Up, Cars, the Incredibles etc"
+  },
+  {
+    "term": "Tremolo strings",
+    "meaning": "A technique where the bow is repeatedly dragged across the string very quickly to create a dramatic trembling effect"
+  },
+  {
+    "term": "Woodwinds",
+    "meaning": "The section of the orchestra including flutes and clarinets. Often used to represent nature."
+  },
+  {
+    "term": "Bassoon",
+    "meaning": "A woodwind instrument often used for comedic effect."
+  },
+  {
+    "term": "Brass",
+    "meaning": "The section of the orchestra including horns and tubas. Often used to represent royalty, war and power" 
+  },
+  {
+    "term": "Tuba",
+    "meaning": "A low brass intrument often used to represent large things."
+  },
+  {
+    "term": "Harp",
+    "meaning": "A plucked string instrument often used to represent romance."
+  },
+  {
+    "term": "Glockenspiel",
+    "meaning": "A pitched percussion instrument often used to represent magic."
+  },
+  {
+    "term": "Timpani",
+    "meaning": "A large pitched percussion instrument often used to represent conflict."
+  },
+  {
+    "term": "Strings",
+    "meaning": "The section of the orchestra including violins and violas. Often used to represent strong emotions."
+  },
+  {
+    "term": "Popular music",
+    "meaning": "Music often used in film to boost publicity, as many people will recognise it and associate it with the film"
+  },
+  {
+    "term": "Sforzati/accents",
+    "meaning": "Emphasis placed on a note to add surprise and represent chaos."
+  },
+  {
+    "term": "Major",
+    "meaning": "A tonality which is often used to represent optimism or success."
+  },
+  {
+    "term": "Minor",
+    "meaning": "A tonality which is often used to represent sorrow or sadness"
+  },
+  {
+    "term": "Atonality",
+    "meaning": "A lack of tonality. Often used to represent chaos and fear. Common in horror films"
+  },
+  {
+    "term": "Dissonance",
+    "meaning": "Where notes 'clash' - opposite of consonance."
+  },
+  {
+    "term": "Ostinato",
+    "meaning": "A rhythmic or melodic device where a certain section (usually a bar or less) is repeated, often to build tension."
   }
 ]
