@@ -58,5 +58,13 @@
     {
       "term": "Leitmotif",
       "meaning": "A short melody or motif that represents a character, idea, location or object."
+    },
+    {
+        "term": "Ground theme",
+        "meaning": "A theme which is usually heard over a game's main menu."
+    },
+    {
+        "term": "Orchestration",
+        "meaning": "Where music is arranged for a full orchestra, usually to be recorded and digitally converted. Often used in more modern computer games."
     }
 ]

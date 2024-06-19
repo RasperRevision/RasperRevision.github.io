@@ -112,7 +112,27 @@
     "meaning": "Where notes 'clash' - opposite of consonance."
   },
   {
+    "term": "Consonance",
+    "meaning": "Where notes sound pleasant together - opposite of dissonance"
+  },
+  {
     "term": "Ostinato",
     "meaning": "A rhythmic or melodic device where a certain section (usually a bar or less) is repeated, often to build tension."
+  },
+  {
+    "term": "Scalic",
+    "meaning": "A melody which follows the notes of a scale"
+  },
+  {
+    "term": "Drum roll",
+    "meaning": "Where a drum is repeatedly struck very quickly. Often used in timpani, snare drum and bass drum parts."
+  },
+  {
+    "term": "Theme",
+    "meaning": "A tune or melody"
+  },
+  {
+      "term": "Polyphonic",
+      "meaning": "A texture with lots of melodies overlapping. Often used to represent chaos."
   }
 ]
