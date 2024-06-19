@@ -191,6 +191,20 @@
         "jsonFile": "calypso",
         "games": 12,
         "bg": "warning"
+      },
+      {
+        "index": 4,
+        "displayName": "Film music",
+        "jsonFile": "film-music",
+        "games": 12,
+        "bg": "orange"
+      },
+      {
+        "index": 5,
+        "displayName": "Computer game music",
+        "jsonFile": "video-game-music",
+        "games": 12,
+        "bg": "danger"
       }
     ]
   },
