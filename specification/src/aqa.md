@@ -1,10 +1,9 @@
 ---
 theme: dashboard
 title: AQA
-toc: false
 ---
 
-# Rocket launches 🚀
+# AQA
 
 <!-- Load and transform the data -->
 

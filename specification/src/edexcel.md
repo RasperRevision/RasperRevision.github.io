@@ -1,5 +1,6 @@
 ---
 title: Edexcel
+toc: false
 ---
 
 # A brief history of space exploration
