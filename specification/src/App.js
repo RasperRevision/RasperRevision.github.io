@@ -3,8 +3,7 @@ import SpiderDiagram from "./components/SpiderDiagram";
 
 const App = () => {
   return (
-    <div>
-      <h1>Specification</h1>
+    <div style={{ overflow: 'hidden' }}>
       <SpiderDiagram />
     </div>
   );

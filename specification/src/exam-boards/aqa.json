@@ -1,0 +1,86 @@
+{
+  "name": "AQA",
+  "children": [
+    {
+      "name": "Physics",
+      "children": [
+        {
+          "name": "P1: Energy",
+          "children": [
+            {
+              "name": "P1.1 Energy stores"
+            },
+            {
+              "name": "P1.2 Energy resources"
+            }
+          ]
+        },
+        {
+          "name": "P2: Electricity",
+          "children": [
+            {
+              "name": "P2.1 Energy stores"
+            },
+            {
+              "name": "P2.2 Energy resources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biology",
+      "children": [
+        {
+          "name": "B1: Energy",
+          "children": [
+            {
+              "name": "B1.1 Energy stores"
+            },
+            {
+              "name": "B1.2 Energy resources"
+            }
+          ]
+        },
+        {
+          "name": "B2: Electricity",
+          "children": [
+            {
+              "name": "B2.1Energy stores"
+            },
+            {
+              "name": "B2.2Energy resources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "children": [
+        {
+          "name": "C1: Energy",
+          "children": [
+            {
+              "name": "C1.1 Energy stores"
+            },
+            {
+              "name": "C1.2 Energy resources"
+            }
+          ]
+        },
+        {
+          "name": "C2: Electricity",
+          "children": [
+            {
+              "name": "C2.1 Energy stores"
+            },
+            {
+              "name": "C2.2 Energy resources"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
