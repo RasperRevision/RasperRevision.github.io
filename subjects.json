@@ -421,4 +421,125 @@
       }
     ]
   }
+  {
+    "index": 10,
+    "displayName": "economics",
+    "bg": "turquoise",
+    "topicParent": ".economics-topics",
+    "topics": [
+      {
+        "index": 1,
+        "displayName": "Economic activity",
+        "bg": "primary",
+        "jsonFile": "3.1.1.1 Economic Activity (1)",
+        "games": 12
+      },
+      {
+        "index": 2,
+        "displayName": "Factors of production",
+        "bg": "danger",
+        "jsonFile": "3.1.1.2 Factors of Production (1)",
+        "games": 12
+      },
+      {
+        "index": 3,
+        "displayName": "Making choices",
+        "bg": "warning",
+        "jsonFile": "3.1.1.3 Making choices",
+        "games": 12
+      },
+      {
+        "index": 4,
+        "displayName": "Markets and allocation of resources",
+        "bg": "success",
+        "jsonFile": "3.1.2.1 Markets & Allocation of resources",
+        "games": 12
+      },
+      {
+        "index": 5,
+        "displayName": "Economic Sectors",
+        "bg": "warning",
+        "jsonFile": "3.1.2.2 Economic sectors",
+        "games": 12
+      },
+      {
+        "index": 6,
+        "displayName": "Specialisation, division of labour and exchange",
+        "bg": "info",
+        "jsonFile": "3.1.2.3 Specialisation, Division of Labour, & Exchange",
+        "games": 12
+      },
+      {
+        "index": 7,
+        "displayName": "supply",
+        "bg": "primary",
+        "jsonFile": "3.1.3.2 Supply",
+        "games": 12
+      },
+      {
+        "index": 8,
+        "displayName": "Demand",
+        "bg": "secondary",
+        "jsonFile": "3.1.3.1 Demand",
+        "games": 12
+      },
+      {
+        "index": 9,
+        "displayName": "Equilibrium price",
+        "bg": "warning",
+        "jsonFile": "3.1.3.3 Equilibrium Price",
+        "games": 12
+      },
+      
+      {
+        "index": 10,
+        "displayName": "Intermarket Relationships",
+        "bg": "success",
+        "jsonFile": "3.1.3.4 Intermarket Relationships",
+        "games": 12
+      },
+      {
+        "index": 11,
+        "displayName": "PED",
+        "bg": "info",
+        "jsonFile": "3.1.3.5 PED",
+        "games": 12
+      },
+      {
+        "index": 12,
+        "displayName": "PES",
+        "bg": "orange",
+        "jsonFile": "3.1.3.6 PES",
+        "games": 12
+      },
+      {
+        "index": 13,
+        "displayName": "Cost, revenue and profit",
+        "bg": "purple",
+        "jsonFile": "3.1.4.1 Cost, Revenue & Profit",
+        "games": 12
+      },
+      {
+        "index": 14,
+        "displayName": "Production and productivity",
+        "bg": "warning",
+        "jsonFile": "3.1.4.2 Production & Productivity",
+        "games": 12
+      },
+      {
+        "index": 15,
+        "displayName": "Economies of scale",
+        "bg": "info",
+        "jsonFile": "3.1.4.3 Economies of Scale",
+        "games": 12
+      },
+      {
+        "index": 16,
+        "displayName": "National economy",
+        "bg": "success",
+        "jsonFile": "3.2 The National Economy ",
+        "games": 12
+      }
+    ]
+  },
 ]
