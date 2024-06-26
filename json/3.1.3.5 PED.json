@@ -1,0 +1,22 @@
+[
+  {
+    "term": "Elasticity",
+    "meaning": "The responsiveness of quantity supplied or demanded in relation to changes in price/income/other products."
+  },
+  {
+    "term": "Perfect",
+    "meaning": "Where one variable (Price or quantity) is fixed and the other variable cannot change it."
+  },
+  {
+    "term": "Price Elastic Demand",
+    "meaning": "When PED is greater than 1 and A % change in price results in greater % change in quantity demanded."
+  },
+  {
+    "term": "Price elasticity of demand (PED)",
+    "meaning": "The responsiveness in quantity demanded to a change in price. \nFormula: % change in QD / % Change in P"
+  },
+  {
+    "term": "Price Inelastic Demand",
+    "meaning": "When PED is less than 1 and quantity demanded is not very responsive to a change in price.\nFormula: % change in Qs / % change in P"
+  }
+]

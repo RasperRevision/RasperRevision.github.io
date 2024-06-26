@@ -1,0 +1,62 @@
+[
+  {
+    "term": "Average Costs (AC)",
+    "meaning": "The cost of producing one thing. Total cost divided by quantity. \nFormula: TC / Q"
+  },
+  {
+    "term": "Average Fixed Costs (AFC)",
+    "meaning": "The fall significantly when output increase. Formula: FC / Q"
+  },
+  {
+    "term": "Average Revenue (AR)",
+    "meaning": "Total revenue/number of product/services sold. \nFormula: TR / Q"
+  },
+  {
+    "term": "Average Variable Costs (AVC)",
+    "meaning": "Initially downward sloping as increasing returns to labour and economies of scale are achieved with increased output & then they rise with output. Formula: TVC / Q"
+  },
+  {
+    "term": "Break-even Point",
+    "meaning": "Total revenue = total cost (no profit or loss made)."
+  },
+  {
+    "term": "Total revenue = total cost (no profit or loss made).",
+    "meaning": "Specific and measurable targets set in order to meet the aims of the business."
+  },
+  {
+    "term": "Cash",
+    "meaning": "Notes, coins and debit cards."
+  },
+  {
+    "term": "Costs",
+    "meaning": "The costs (fixed, variable, direct, indirect) experienced in running a business."
+  },
+  {
+    "term": "Fixed Costs",
+    "meaning": "Costs that have to be paid regardless of level production (rent, loan repayments)."
+  },
+  {
+    "term": "Marginal Cost (MC)",
+    "meaning": "The additional cost of producing an extra unit."
+  },
+  {
+    "term": "Marginal revenue (MR)",
+    "meaning": "The additional revenue gained from selling an extra unit."
+  },
+  {
+    "term": "Profit",
+    "meaning": "Revenue - costs (the money you are left over with after costs are deducted). \nFormula: TR - TC"
+  },
+  {
+    "term": "Revenue",
+    "meaning": "Amount of income received by the business over a given time period. Formula: P / Q"
+  },
+  {
+    "term": "Total costs",
+    "meaning": "Fixed costs + Total variable costs. \nFormula: FC + TVC"
+  },
+  {
+    "term": "Variable costs",
+    "meaning": "Costs that are dependent on the level of production (raw materials, labour in some cases). \nFormula: VC / Q"
+  }
+]
