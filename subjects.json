@@ -423,7 +423,7 @@
   },
   {
     "index": 10,
-    "displayName": "economics",
+    "displayName": "Economics",
     "bg": "turquoise",
     "topicParent": ".economics-topics",
     "topics": [
@@ -471,7 +471,7 @@
       },
       {
         "index": 7,
-        "displayName": "supply",
+        "displayName": "Supply",
         "bg": "primary",
         "jsonFile": "3132",
         "games": 12
@@ -479,7 +479,7 @@
       {
         "index": 8,
         "displayName": "Demand",
-        "bg": "secondary",
+        "bg": "danger",
         "jsonFile": "3131",
         "games": 12
       },
