@@ -6,5 +6,15 @@
   {
     "term": "Charge",
     "meaning": "The number of electrons passing through a circuit, measured in Coulombs - a unit approximately equal to 6 sextillion electrons."
-  }
+  },
+  {
+    "term": "Resistance",
+    "meaning": "Opposition to the flow of current, measured in Ohms."
+  },
+  {
+    "term": "Potential difference",
+    "meaning": "The energy between two points in a circuit per charge, measured in volts."
+  },
+  {
+    "term": "
 ]
