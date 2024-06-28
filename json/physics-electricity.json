@@ -16,5 +16,15 @@
     "meaning": "The energy between two points in a circuit per charge, measured in volts."
   },
   {
-    "term": "
+    "term": "Diode",
+    "meaning":"An electrical component that only allows electricity to flow one direction."
+  },
+  {
+    "term": "Variable resistor",
+    "meaning":"A component that changes resistance depending on various factors"
+  },
+  {
+    "term": "Earth wire",
+    "meaning":"A safety feature in mains electricity that grounds the electricity in case of a break."
+  }
 ]
