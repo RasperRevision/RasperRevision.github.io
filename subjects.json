@@ -458,7 +458,7 @@
       {
         "index": 5,
         "displayName": "How the economy works",
-        "bg": "warning",
+        "bg": "info",
         "jsonFile": "how-the-economy-works",
         "games": 12
       }
