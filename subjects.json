@@ -429,115 +429,37 @@
     "topics": [
       {
         "index": 1,
-        "displayName": "Economic activity",
+        "displayName": "Economic foundations",
         "bg": "primary",
-        "jsonFile": "3111",
+        "jsonFile": "economic-foundations",
         "games": 12
       },
       {
         "index": 2,
-        "displayName": "Factors of production",
+        "displayName": "Resource allocation",
         "bg": "danger",
-        "jsonFile": "3112",
+        "jsonFile": "resource-allocation",
         "games": 12
       },
       {
         "index": 3,
-        "displayName": "Making choices",
+        "displayName": "How prices are determined",
         "bg": "warning",
-        "jsonFile": "3113",
+        "jsonFile": "how-prices-are-determined",
         "games": 12
       },
       {
         "index": 4,
-        "displayName": "Markets and allocation of resources",
+        "displayName": "Production, costs, revenue and profit",
         "bg": "success",
-        "jsonFile": "3121",
+        "jsonFile": "production-costs-revenue-profit",
         "games": 12
       },
       {
         "index": 5,
-        "displayName": "Economic Sectors",
+        "displayName": "How the economy works",
         "bg": "warning",
-        "jsonFile": "3122",
-        "games": 12
-      },
-      {
-        "index": 6,
-        "displayName": "Specialisation, division of labour and exchange",
-        "bg": "info",
-        "jsonFile": "3123",
-        "games": 12
-      },
-      {
-        "index": 7,
-        "displayName": "Supply",
-        "bg": "primary",
-        "jsonFile": "3132",
-        "games": 12
-      },
-      {
-        "index": 8,
-        "displayName": "Demand",
-        "bg": "danger",
-        "jsonFile": "3131",
-        "games": 12
-      },
-      {
-        "index": 9,
-        "displayName": "Equilibrium price",
-        "bg": "warning",
-        "jsonFile": "3133",
-        "games": 12
-      },
-      
-      {
-        "index": 10,
-        "displayName": "Intermarket Relationships",
-        "bg": "success",
-        "jsonFile": "3134",
-        "games": 12
-      },
-      {
-        "index": 11,
-        "displayName": "PED",
-        "bg": "info",
-        "jsonFile": "3135",
-        "games": 12
-      },
-      {
-        "index": 12,
-        "displayName": "PES",
-        "bg": "orange",
-        "jsonFile": "3136",
-        "games": 12
-      },
-      {
-        "index": 13,
-        "displayName": "Cost, revenue and profit",
-        "bg": "purple",
-        "jsonFile": "3141",
-        "games": 12
-      },
-      {
-        "index": 14,
-        "displayName": "Production and productivity",
-        "bg": "lime",
-        "jsonFile": "3142",
-        "games": 12
-      },
-      {
-        "index": 15,
-        "displayName": "Economies of scale",
-        "bg": "info",
-        "jsonFile": "3143",
-        "games": 12
-      },
-      {
-        "index": 16,
-        "displayName": "National economy",
-        "bg": "success",
-        "jsonFile": "32",
+        "jsonFile": "how-the-economy-works",
         "games": 12
       }
     ]
