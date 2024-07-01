@@ -16,5 +16,6 @@ We currently have the following subjects available. The topics listed are based 
 - Chemistry
 - Biology
 - Maths
+- Economics
 
 ---
