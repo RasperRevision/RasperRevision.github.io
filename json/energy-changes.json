@@ -1,0 +1,26 @@
+[
+  {
+    "term": "Conservation of energy",
+    "meaning": "The idea that energy cannot be created or destroyed. If a reaction transfers energy to the surroundings the product molecules must have less energy than the reactants, by the amount transferred."
+  },
+  {
+    "term": "Exothermic reaction",
+    "meaning": "A reaction that transfers energy to the surroundings so the temperature of the surroundings increases."
+  },
+  {
+    "term": "Endothermic reaction",
+    "meaning": "A reaction that takes in energy from the surroundings so the temperature of the surroundings decreases."
+  },
+  {
+    "term": "Activation energy",
+    "meaning": "The minimum amount of energy that particles must have to react."
+  },
+  {
+    "term": "Bond energy",
+    "meaning": "The amount of energy required to break or form a particular type of covalent bond. Measured in kJ/mol."
+  },
+  {
+    "term": "Chemical cell",
+    "meaning": "A type of cell containing chemicals which react to produce electricity"
+  }
+]
