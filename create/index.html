@@ -217,7 +217,7 @@ title.addEventListener('input', function () {
 });
 
 download.addEventListener('click', function () {
-  if (title.value.trim() !== "") {
+  if (title.value.trim() !== "" && !title.value.includes(" ")) {
     title.classList.remove('empty');
 
     const jsonData = generateJSONData();
