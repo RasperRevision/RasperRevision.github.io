@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AQA Specification</title>
-  <link rel="stylesheet" src="/style.css">
+  <link rel="stylesheet" href="/style.css">
 
   <!-- FAVICON -->
   <link rel="icon" type="image/png" href="/assets/favicon.png">
@@ -91,7 +91,7 @@
           .attr('x2', d => project(d.target.x, d.target.y)[0])
           .attr('y2', d => project(d.target.x, d.target.y)[1])
           .attr('stroke', '#ddd')
-          .attr('stroke-width', 0.5);
+          .attr('stroke-width', 1.5);
 
         const node = svg.selectAll('g.node')
           .data(nodes)
@@ -130,7 +130,6 @@
           .attr('width', d => d.bbox.width + padding)
           .attr('rx', 5)
           .attr('ry', 5)
-          .attr('fill', 'white')
           .style('visibility', d => (visibleNodes.has(d.data.name) || d.depth === 0) ? 'visible' : 'hidden');
 
         function project(x, y) {
