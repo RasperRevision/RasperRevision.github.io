@@ -101,6 +101,7 @@
           .attr('transform', d => `translate(${project(d.x, d.y)})`)
           .attr('cursor', 'pointer')
           .style('fill', 'rgba(0, 0, 0, 0.5)')
+          .style('backdrop-filter', 'blur(5px)')
           .on('click', (event, d) => {
             setFocusedNode(d);
             updateVisibleNodes(d);
