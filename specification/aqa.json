@@ -2,221 +2,332 @@
   "name": "AQA",
   "children": [
     {
-      "name": "Art and Design",
-      "children": []
-    },
-    {
-      "name": "Bengali",
-      "children": []
-    },
-    {
-      "name": "Biology",
+      "name": "Foreign Languages",
       "children": [
         {
-          "name": "B1: Energy",
-          "children": [
-            {
-              "name": "B1.1 Energy stores"
-            },
-            {
-              "name": "B1.2 Energy resources"
-            }
-          ]
+          "name": "Bengali",
+          "children": []
         },
         {
-          "name": "B2: Electricity",
-          "children": [
-            {
-              "name": "B2.1Energy stores"
-            },
-            {
-              "name": "B2.2Energy resources"
-            }
-          ]
+          "name": "Chinese (Mandarin)",
+          "children": []
+        },
+        {
+          "name": "French",
+          "children": []
+        },
+        {
+          "name": "German",
+          "children": []
+        },
+        {
+          "name": "Hebrew (Biblical)",
+          "children": []
+        },
+        {
+          "name": "Hebrew (Modern)",
+          "children": []
+        },
+        {
+          "name": "Italian",
+          "children": []
+        },
+        {
+          "name": "Panjabi",
+          "children": []
+        },
+        {
+          "name": "Polish",
+          "children": []
+        },
+        {
+          "name": "Spanish",
+          "children": []
+        },
+        {
+          "name": "Urdu",
+          "children": []
         }
       ]
     },
     {
-      "name": "Business",
-      "children": []
-    },
-    {
-      "name": "Chemistry",
+      "name": "Core",
       "children": [
         {
-          "name": "C1: Energy",
+          "name": "Biology",
           "children": [
             {
-              "name": "C1.1 Energy stores"
+              "name": "B1: Cell biology",
+              "children": [
+                {
+                  "name": "B1.1 Cell structure",
+                  "content": "4.1.1.1 Eukaryotes and prokaryotes\nPlant and animal cells (eukaryotic cells) have a cell membrane,\ncytoplasm and genetic material enclosed in a nucleus.\nBacterial cells (prokaryotic cells) are much smaller in comparison. They\nhave cytoplasm and a cell membrane surrounded by a cell wall. The\ngenetic material is not enclosed in a nucleus. It is a single DNA loop and\nthere may be one or more small rings of DNA called plasmids.\nStudents should be able to demonstrate an understanding of the scale\nand size of cells and be able to make order of magnitude calculations,\nincluding the use of standard form.\nMS 1b,\n                  2a,\n                  2h\nWS 4.4\nUse prefixes centi, milli,\nmicro and nano.\n4.1.1.2 Animal and plant cells\nContent Key opportunities for\nskills development\nStudents should be able to explain how the main sub-cellular structures,\nincluding the nucleus, cell membranes, mitochondria, chloroplasts in\nplant cells and plasmids in bacterial cells are related to their functions.\nMost animal cells have the following parts:\n• a nucleus\n• cytoplasm\n• a cell membrane\n• mitochondria\n• ribosomes.\nIn addition to the parts found in animal cells, plant cells often have:\n• chloroplasts\n• a permanent vacuole filled with cell sap.\nPlant and algal cells also have a cell wall made of cellulose, which\nstrengthens the cell.\nWS 1.2\nRecognise, draw and\ninterpret images of cells.\n17\nGCSE Biology (8461). For exams 2018 onwards. Version 1.0\nVisit aqa.org.uk/8461 for the most up-to-date specification, resources, support and administration\nContent Key opportunities for\nskills development\nStudents should be able to use estimations and explain when they\nshould be used to judge the relative size or area of sub-cellular\nstructures.\nMS 1d,\n                  3a\nAT 7\nImages of cells in videos,\nbioviewers, photographs\nand micrographs can be\nused as comparison for\nstudents own drawings.\nRequired practical activity 1: use a light microscope to observe, draw and label a selection of plant\nand animal cells. A magnification scale must be included.\nAT skills covered by this practical activity: AT 1 and 7.\nThis practical activity also provides opportunities to develop WS and MS. Details of all skills are given in\nKey opportunities for skills development.\n4.1.1.3 Cell specialisation\nContent Key opportunities for\nskills development\nStudents should be able to, when provided with appropriate information,\nexplain how the structure of different types of cell relate to their function\nin a tissue, an organ or organ system, or the whole organism.\nCells may be specialised to carry out a particular function:\n• sperm cells, nerve cells and muscle cells in animals\n• root hair cells, xylem and phloem cells in plants.\n4.1.1.4 Cell differentiation\nContent Key opportunities for\nskills development\nStudents should be able to explain the importance of cell differentiation.\nAs an organism develops, cells differentiate to form different types of\ncells.\n• Most types of animal cell differentiate at an early stage.\n• Many types of plant cells retain the ability to differentiate throughout\nlife.\nIn mature animals, cell division is mainly restricted to repair and\nreplacement. As a cell differentiates it acquires different sub-cellular\nstructures to enable it to carry out a certain function. It has become a\nspecialised cell.\n18 Visit aqa.org.uk/8461 for the most up-to-date specification, resources, support and administration\n4.1.1.5 Microscopy\nContent Key opportunities for\nskills development\nStudents should be able to:\n• understand how microscopy techniques have developed over time\n• explain how electron microscopy has increased understanding of\nsub-cellular structures.\nLimited to the differences in magnification and resolution.\nAn electron microscope has much higher magnification and resolving\npower than a light microscope. This means that it can be used to\nstudy cells in much finer detail. This has enabled biologists to see and\nunderstand many more sub-cellular structures.\nWS 1.1\nStudents should be able to carry out calculations involving\nmagnification, real size and image size using the formula:\nmagnification = size of image\nsize of real object\nStudents should be able to express answers in standard form if\nappropriate.\nMS 1a,\n                  1b,\n                  2h,\n                  3b\nWS 4.4\nUse prefixes centi, milli,\nmicro and nano.\n19\nGCSE Biology (8461). For exams 2018 onwards. Version 1.0\nVisit aqa.org.uk/8461 for the most up-to-date specification, resources, support and administration\n4.1.1.6 Culturing microorganisms (biology only)\nContent Key opportunities for\nskills development\nBacteria multiply by simple cell division (binary fission) as often as\nonce every 20 minutes if they have enough nutrients and a suitable\ntemperature.\nBacteria can be grown in a nutrient broth solution or as colonies on an\nagar gel plate.\nUncontaminated cultures of microorganisms are required for\ninvestigating the action of disinfectants and antibiotics.\nMS 1a,\n                  1b,\n                  1d,\n                  2a,\n                  2h\nCalculate the number of\nbacteria in a population\nafter a certain time if given\nthe mean division time.\nMS 5c\nCalculate cross-sectional\nareas of colonies or clear\nareas around colonies\nusing πr².\nStudents should be able to describe how to prepare an uncontaminated\nculture using aseptic technique.\nThey should be able to explain why:\n• Petri dishes and culture media must be sterilised before use\n• inoculating loops used to transfer microorganisms to the media must\nbe sterilised by passing them through a flame\n• the lid of the Petri dish should be secured with adhesive tape and\nstored upside down\n• in school laboratories, cultures should generally be incubated at\n25°C.\nWS 2.2,\n                  2.4\nStudents should be able to calculate cross-sectional areas of colonies or\nclear areas around colonies using πr².\nMS 5c\nStudents should be able to calculate the number of bacteria in a\npopulation after a certain time if given the mean division time.\nMS 1a,\n                  2a,\n                  2h\n(HT only) Students should be able to express the answer in standard\nform.\nMS 1b\nRequired practical activity 2: investigate the effect of antiseptics or antibiotics on bacterial growth\nusing agar plates and measuring zones of inhibition.\nAT skills covered by this practical activity: AT 1,\n                  3,\n                  4 and 8.\nThis practical activity also provides opportunities to develop WS and MS. Details of all skills are given in\nKey opportunities for skills development.\nThere are links with this practical to Antibiotics and painkillers."
+                },
+                {
+                  "name": "B1.2 Cell division"
+                },
+                {
+                  "name": "B1.3 Transport in cells"
+                }
+              ]
             },
             {
-              "name": "C1.2 Energy resources"
+              "name": "B2: Organisation",
+              "children": [
+                {
+                  "name": "B2.1 Principles of organisation"
+                },
+                {
+                  "name": "B2.2 Animal tissues, organs and organ systems"
+                },
+                {
+                  "name": "B2.3 Plant tissues, organs and systems"
+                }
+              ]
+            },
+            {
+              "name": "B3: Infection and response",
+              "children": [
+                {
+                  "name": "B3.1 Communicable diseases"
+                },
+                {
+                  "name": "B3.2 Monoclonal antibodies (HT only)"
+                },
+                {
+                  "name": "B3.3 Plant disease"
+                }
+              ]
+            },
+            {
+              "name": "B4: Bioenergetics",
+              "children": [
+                {
+                  "name": "B4.1 Photosynthesis"
+                },
+                {
+                  "name": "B4.2 Respiration"
+                }
+              ]
+            },
+            {
+              "name": "B5: Homeostasis and response",
+              "children": [
+                {
+                  "name": "B5.1 Homeostasis"
+                },
+                {
+                  "name": "B5.2 The human nervous system"
+                },
+                {
+                  "name": "B5.3 Hormonal coordination in humans"
+                },
+                {
+                  "name": "B5.4 Plant hormones"
+                }
+              ]
+            },
+            {
+              "name": "B6: Inheritance, variation and evolution",
+              "children": [
+                {
+                  "name": "B6.1 Reproduction"
+                },
+                {
+                  "name": "B6.2 Variation and evolution"
+                },
+                {
+                  "name": "B6.3 The development of understanding of genetics and evolution"
+                },
+                {
+                  "name": "B6.4 Classification of living organisms"
+                }
+              ]
+            },
+            {
+              "name": "B7: Ecology",
+              "children": [
+                {
+                  "name": "B7.1 Adaptations, interdependence and competition"
+                },
+                {
+                  "name": "B7.2 Organisation of an ecosystem"
+                },
+                {
+                  "name": "B7.3 Biodiversity and the effect of human interaction on ecosystems"
+                },
+                {
+                  "name": "B7.4 Trophic levels in an ecosystem"
+                },
+                {
+                  "name": "B7.5 Food production"
+                }
+              ]
+            },
+            {
+              "name": "Key ideas",
+              "content": "Hello"
             }
           ]
         },
         {
-          "name": "C2: Electricity",
+          "name": "Chemistry",
           "children": [
             {
-              "name": "C2.1 Energy stores"
+              "name": "C1: Energy",
+              "children": [
+                {
+                  "name": "C1.1 Energy stores"
+                },
+                {
+                  "name": "C1.2 Energy resources"
+                }
+              ]
             },
             {
-              "name": "C2.2 Energy resources"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Chinese (Mandarin)",
-      "children": []
-    },
-    {
-      "name": "Citizenship Studies",
-      "children": []
-    },
-    {
-      "name": "Computer Science",
-      "children": []
-    },
-    {
-      "name": "Dance",
-      "children": []
-    },
-    {
-      "name": "Design and Technology",
-      "children": []
-    },
-    {
-      "name": "Drama",
-      "children": []
-    },
-    {
-      "name": "Economics",
-      "children": []
-    },
-    {
-      "name": "Engineering",
-      "children": []
-    },
-    {
-      "name": "English",
-      "children": []
-    },
-    {
-      "name": "Environmental Science",
-      "children": []
-    },
-    {
-      "name": "Food",
-      "children": []
-    },
-    {
-      "name": "French",
-      "children": []
-    },
-    {
-      "name": "Geography",
-      "children": []
-    },
-    {
-      "name": "German",
-      "children": []
-    },
-    {
-      "name": "Hebrew (Biblical)",
-      "children": []
-    },
-    {
-      "name": "Hebrew (Modern)",
-      "children": []
-    },
-    {
-      "name": "History",
-      "children": []
-    },
-    {
-      "name": "Italian",
-      "children": []
-    },
-    {
-      "name": "Mathematics",
-      "children": []
-    },
-    {
-      "name": "Media Studies",
-      "children": []
-    },
-    {
-      "name": "Music",
-      "children": []
-    },
-    {
-      "name": "Panjabi",
-      "children": []
-    },
-    {
-      "name": "Physical Education",
-      "children": []
-    },
-    {
-      "name": "Physics",
-      "children": [
-        {
-          "name": "P1: Energy",
-          "children": [
-            {
-              "name": "P1.1 Energy stores"
-            },
-            {
-              "name": "P1.2 Energy resources"
+              "name": "C2: Electricity",
+              "children": [
+                {
+                  "name": "C2.1 Energy stores"
+                },
+                {
+                  "name": "C2.2 Energy resources"
+                }
+              ]
             }
           ]
         },
         {
-          "name": "P2: Electricity",
+          "name": "Physics",
           "children": [
             {
-              "name": "P2.1 Energy stores"
+              "name": "P1: Energy",
+              "children": [
+                {
+                  "name": "P1.1 Energy stores"
+                },
+                {
+                  "name": "P1.2 Energy resources"
+                }
+              ]
             },
             {
-              "name": "P2.2 Energy resources"
+              "name": "P2: Electricity",
+              "children": [
+                {
+                  "name": "P2.1 Energy stores"
+                },
+                {
+                  "name": "P2.2 Energy resources"
+                }
+              ]
             }
           ]
+        },
+        {
+          "name": "Combined Science",
+          "children": []
+        },
+        {
+          "name": "English",
+          "children": []
+        },
+        {
+          "name": "Mathematics",
+          "children": []
         }
       ]
     },
     {
-      "name": "Polish",
-      "children": []
+      "name": "Arts",
+      "children": [
+        {
+          "name": "Art and Design",
+          "children": []
+        },
+        {
+          "name": "Dance",
+          "children": []
+        },
+        {
+          "name": "Drama",
+          "children": []
+        },
+        {
+          "name": "Media Studies",
+          "children": []
+        },
+        {
+          "name": "Music",
+          "children": []
+        }
+      ]
     },
     {
-      "name": "Psychology",
-      "children": []
+      "name": "Humanities",
+      "children": [
+        {
+          "name": "Citizenship Studies",
+          "children": []
+        },
+        {
+          "name": "Economics",
+          "children": []
+        },
+        {
+          "name": "History",
+          "children": []
+        },
+        {
+          "name": "Geography",
+          "children": []
+        },
+        {
+          "name": "Religious Studies",
+          "children": []
+        },
+        {
+          "name": "Psychology",
+          "children": []
+        },
+        {
+          "name": "Sociology",
+          "children": []
+        }
+      ]
     },
     {
-      "name": "Religious Studies",
-      "children": []
-    },
-    {
-      "name": "Science",
-      "children": []
-    },
-    {
-      "name": "Sociology",
-      "children": []
-    },
-    {
-      "name": "Spanish",
-      "children": []
-    },
-    {
-      "name": "Statistics",
-      "children": []
-    },
-    {
-      "name": "Urdu",
-      "children": []
+      "name": "Technical",
+      "children": [
+        {
+          "name": "Business",
+          "children": []
+        },
+        {
+          "name": "Computer Science",
+          "children": []
+        },
+        {
+          "name": "Design and Technology",
+          "children": []
+        },
+        {
+          "name": "Engineering",
+          "children": []
+        },
+        {
+          "name": "Food",
+          "children": []
+        },
+        {
+          "name": "Physical Education",
+          "children": []
+        },
+        {
+          "name": "Statistics",
+          "children": []
+        }
+      ]
     }
   ]
 }

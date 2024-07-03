@@ -45,11 +45,24 @@
   </div>
   <div class="d-flex sidebar-wrapper" id="wrapper"></div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="contentModal" tabindex="-1" aria-labelledby="contentModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contentModalLabel">Content</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modalBodyContent">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="/sidebar.js"></script>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script>
-
     async function fetchJSON() {
       return await (await fetch('aqa.json')).json();
     }
@@ -102,12 +115,17 @@
           .attr('cursor', 'pointer')
           .style('fill', 'rgba(0, 0, 0, 0.5)')
           .on('click', (event, d) => {
+            if (d.data.content) {
+              document.getElementById('modalBodyContent').innerText = d.data.content;
+              const contentModal = new bootstrap.Modal(document.getElementById('contentModal'));
+              contentModal.show();
+            }
             setFocusedNode(d);
             updateVisibleNodes(d);
             const [x, y] = project(d.x, d.y);
             svg.transition()
               .duration(750)
-              .attr('transform', `translate(${width / 2 - x},${height / 2 - y})`);
+              .attr('transform', `translate(${width / 2},${height / 2}) scale(1) translate(${-x},${-y})`);
           });
 
         const text = node.append('text')
@@ -169,7 +187,7 @@
           node.selectAll('rect')
             .style('visibility', d => (visibleNodes.has(d.data.name) || d.depth === 0) ? 'visible' : 'hidden');
         }
-      })
+      });
     });
 
   </script>
