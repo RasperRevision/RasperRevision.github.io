@@ -2,31 +2,20 @@
   "name": "AQA",
   "children": [
     {
-      "name": "Physics",
-      "children": [
-        {
-          "name": "P1: Energy",
-          "children": [
-            {
-              "name": "P1.1 Energy stores"
-            },
-            {
-              "name": "P1.2 Energy resources"
-            }
-          ]
-        },
-        {
-          "name": "P2: Electricity",
-          "children": [
-            {
-              "name": "P2.1 Energy stores"
-            },
-            {
-              "name": "P2.2 Energy resources"
-            }
-          ]
-        }
-      ]
+      "name": "Accounting",
+      "children": []
+    },
+    {
+      "name": "Applied General",
+      "children": []
+    },
+    {
+      "name": "Art and Design",
+      "children": []
+    },
+    {
+      "name": "Bengali",
+      "children": []
     },
     {
       "name": "Biology",
@@ -56,6 +45,10 @@
       ]
     },
     {
+      "name": "Business",
+      "children": []
+    },
+    {
       "name": "Chemistry",
       "children": [
         {
@@ -77,6 +70,57 @@
             },
             {
               "name": "C2.2 Energy resources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chinese (Mandarin)",
+      "children": []
+    },
+    {
+      "name": "Citizenship Studies",
+      "children": []
+    },
+    {
+      "name": "Computer Science and IT",
+      "children": []
+    },
+    {
+      "name": "Dance",
+      "children": []
+    },
+    {
+      "name": "Design and Technology",
+      "children": []
+    },
+    {
+      "name": "Drama",
+      "children": []
+    },
+    {
+      "name": "Physics",
+      "children": [
+        {
+          "name": "P1: Energy",
+          "children": [
+            {
+              "name": "P1.1 Energy stores"
+            },
+            {
+              "name": "P1.2 Energy resources"
+            }
+          ]
+        },
+        {
+          "name": "P2: Electricity",
+          "children": [
+            {
+              "name": "P2.1 Energy stores"
+            },
+            {
+              "name": "P2.2 Energy resources"
             }
           ]
         }
