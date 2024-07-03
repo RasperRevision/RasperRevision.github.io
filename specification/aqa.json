@@ -2,14 +2,6 @@
   "name": "AQA",
   "children": [
     {
-      "name": "Accounting",
-      "children": []
-    },
-    {
-      "name": "Applied General",
-      "children": []
-    },
-    {
       "name": "Art and Design",
       "children": []
     },
@@ -84,7 +76,7 @@
       "children": []
     },
     {
-      "name": "Computer Science and IT",
+      "name": "Computer Science",
       "children": []
     },
     {
@@ -97,6 +89,74 @@
     },
     {
       "name": "Drama",
+      "children": []
+    },
+    {
+      "name": "Economics",
+      "children": []
+    },
+    {
+      "name": "Engineering",
+      "children": []
+    },
+    {
+      "name": "English",
+      "children": []
+    },
+    {
+      "name": "Environmental Science",
+      "children": []
+    },
+    {
+      "name": "Food",
+      "children": []
+    },
+    {
+      "name": "French",
+      "children": []
+    },
+    {
+      "name": "Geography",
+      "children": []
+    },
+    {
+      "name": "German",
+      "children": []
+    },
+    {
+      "name": "Hebrew (Biblical)",
+      "children": []
+    },
+    {
+      "name": "Hebrew (Modern)",
+      "children": []
+    },
+    {
+      "name": "History",
+      "children": []
+    },
+    {
+      "name": "Italian",
+      "children": []
+    },
+    {
+      "name": "Mathematics",
+      "children": []
+    },
+    {
+      "name": "Media Studies",
+      "children": []
+    },
+    {
+      "name": "Music",
+      "children": []
+    },
+    {
+      "name": "Panjabi",
+      "children": []
+    },
+    {
+      "name": "Physical Education",
       "children": []
     },
     {
@@ -125,6 +185,38 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Polish",
+      "children": []
+    },
+    {
+      "name": "Psychology",
+      "children": []
+    },
+    {
+      "name": "Religious Studies",
+      "children": []
+    },
+    {
+      "name": "Science",
+      "children": []
+    },
+    {
+      "name": "Sociology",
+      "children": []
+    },
+    {
+      "name": "Spanish",
+      "children": []
+    },
+    {
+      "name": "Statistics",
+      "children": []
+    },
+    {
+      "name": "Urdu",
+      "children": []
     }
   ]
 }
