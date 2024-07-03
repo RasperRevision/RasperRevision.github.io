@@ -71,14 +71,6 @@
           .append('g')
           .attr('transform', `translate(${width / 2},${height / 2})`);
 
-        // Define blur filter
-        svg.append('defs')
-          .append('filter')
-          .attr('id', 'blur-filter')
-          .append('feGaussianBlur')
-          .attr('in', 'SourceGraphic')
-          .attr('stdDeviation', 5);
-
         const root = d3.hierarchy(data);
 
         const tree = d3.tree()
@@ -139,7 +131,7 @@
           .attr('rx', 5)
           .attr('ry', 5)
           .style('visibility', d => (visibleNodes.has(d.data.name) || d.depth === 0) ? 'visible' : 'hidden')
-          .style('filter', 'url(#blur-filter)'); // Apply blur filter
+          .style('backdrop-filter', 'blur(5px)');
 
         function project(x, y) {
           const angle = x - Math.PI / 2;
