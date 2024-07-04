@@ -174,26 +174,154 @@
           "name": "Chemistry",
           "children": [
             {
-              "name": "C1: Energy",
+              "name": "C1: Atomic structure and the periodic table",
               "children": [
                 {
-                  "name": "C1.1 Energy stores"
+                  "name": "C1.1 A simple model of the atom, symbols, relative atomic mass, electronic charge and isotopes"
                 },
                 {
-                  "name": "C1.2 Energy resources"
+                  "name": "C1.2 The periodic table"
+                },
+                {
+                  "name": "C1.3 Properties of transition metals"
                 }
               ]
             },
             {
-              "name": "C2: Electricity",
+              "name": "C2: Bonding, structure, and the properties of matter",
               "children": [
                 {
-                  "name": "C2.1 Energy stores"
+                  "name": "C2.1 Chemical bonds, ionic, covalent and metallic"
                 },
                 {
-                  "name": "C2.2 Energy resources"
+                  "name": "C2.2 How bonding and structure are related to the properties of substances"
+                },
+                {
+                  "name": "C2.3 Structure and bonding of carbon"
+                },
+                {
+                  "name": "C2.4 Bulk and surface properties of matter including nanoparticles"
                 }
               ]
+            },
+            {
+              "name": "C3: Quantitative chemistry",
+              "children": [
+                {
+                  "name": "C3.1: Chemical measurements, conservation of mass and the quantitative interpretation of chemical equations"
+                },
+                {
+                  "name": "C3.2: Use of amount of substance in relation to masses of pure substances"
+                },
+                {
+                  "name": "C3.3: Yield and atom economy of chemical reactions"
+                },
+                {
+                  "name": "C3.4: Using concentrations of solutions in mol/dm3 (HT only)"
+                },
+                {
+                  "name": "C3.5: Use of amount of substance in relation to volumes of gases (HT only)"
+                }
+              ]
+            },
+            {
+              "name": "C4: Chemical changes",
+              "children": [
+                {
+                  "name": "C4.1: Reactivity of metals"
+                },
+                {
+                  "name": "C4.2: Reactions of acids"
+                },
+                {
+                  "name": "C4.3: Electrolysis"
+                }
+              ]
+            },
+            {
+              "name": "C5: Energy changes",
+              "children": [
+                {
+                  "name": "C5.1: Exothermic and endothermic reactions"
+                },
+                {
+                  "name": "C5.2: Chemical cells and fuel cells"
+                }
+              ]
+            },
+            {
+              "name": "C6: The rate and extent of chemical change",
+              "children": [
+                {
+                  "name": "C6.1: Rate of reactions"
+                },
+                {
+                  "name": "C6.2: Reversible reactions and dynamic equilibrium"
+                }
+              ]
+            },
+            {
+              "name": "C7: Organic chemistry",
+              "children": [
+                {
+                  "name": "C7.1: Carbon compounds as fuels and feedstock"
+                },
+                {
+                  "name": "C7.2: Reactions of alkenes and alcohols"
+                },
+                {
+                  "name": "C7.3: Synthetics and naturally occurring polymers"
+                }
+              ]
+            },
+            {
+              "name": "C8: Chemical analysis",
+              "children": [
+                {
+                  "name": "C8.1: Purity, formulations and chromatography"
+                },
+                {
+                  "name": "C8.2: Identification of common gases"
+                },
+                {
+                  "name": "C8.3: Identification of ions by chemical and spectroscopic means"
+                }
+              ]
+            },
+            {
+              "name": "C9: Chemistry of the atmosphere",
+              "children": [
+                {
+                  "name": "C9.1: The composition of evolutions of the Earth's atmosphere"
+                },
+                {
+                  "name": "C9.2: Carbon dioxide and methane as greenhouse gases"
+                },
+                {
+                  "name": "C9.3: Common atmospheric pollutants and their sources"
+                }
+              ]
+            },
+            {
+              "name": "C10: Using resources",
+              "children": [
+                {
+                  "name": "C10.1: Using the Earth's resources and obtaining potable water"
+                },
+                {
+                  "name": "C10.2: Life cycle assessment and recycling"
+                },
+                {
+                  "name": "C10.3: Using materials"
+                },
+                {
+                  "name": "C10.4: The Haber process and the use of NPK fertilisers"
+                }
+              ]
+            },
+            {
+              "name": "Key ideas",
+              "content": ""
             }
           ]
         },
