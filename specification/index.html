@@ -116,7 +116,7 @@
           .style('fill', 'rgba(0, 0, 0, 0.5)')
           .on('click', (event, d) => {
             if (d.data.content) {
-              document.getElementById('modalBodyContent').innerText = d.data.content;
+              document.getElementById('modalBodyContent').innerHTML = d.data.content;
               const contentModal = new bootstrap.Modal(document.getElementById('contentModal'));
               contentModal.show();
             }
