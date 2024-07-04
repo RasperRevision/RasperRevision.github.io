@@ -488,19 +488,22 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
   }
 }
-@media screen and (max-height:  570px) {
-  
+
+@media screen and (max-height: 570px) {
+
   .side-logo {
-    width:0.001px;
-  }
-  .list-group{
-    font-size:0.95rem;
-  }
-  
-  .mb-5 {
-  margin-top: 0.1px;
-  margin-bottom: 0.01px;
-  margin-right: 0.01px;
-  margin-left: 0.01px;
+    width: 0.001px;
   }
 
+  .list-group {
+    font-size: 0.95rem;
+  }
+
+  .mb-5 {
+    margin-top: 0.1px;
+    margin-bottom: 0.01px;
+    margin-right: 0.01px;
+    margin-left: 0.01px;
+  }
+
+}
