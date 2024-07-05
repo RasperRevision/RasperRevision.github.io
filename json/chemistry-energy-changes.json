@@ -22,5 +22,29 @@
   {
     "term": "Chemical cell",
     "meaning": "A type of cell containing chemicals which react to produce electricity"
+  },
+  {
+    "term": "Reaction profile",
+    "meaning": "A graph used to show the relative energies of reactants and products, the activation energy and the overall energy change of a reaction"
+  },
+  {
+    "term": "Alkaline batteries",
+    "meaning": "A type of non-rechargeable battery."
+  },
+  {
+    "term": "Non-rechargeable cell/battery",
+    "meaning": "A cell/battery where the reaction stops if one of the reactants is used up."
+  },
+  {
+    "term": "Rechargeable cell/battery",
+    "meaning": "A cell/battery using a reaction that can be reversed when an external electrical current is supplied."
+  },
+  {
+    "term": "Fuel cells",
+    "meaning": "A type of cell supplied with an external source of fuel, which is oxidised electrochemically to produce a potential difference."
+  },
+  {
+    "term": "Hydrogen fuel cell",
+    "meaning": "A type of fuel cell using hydrogen as fuel, which produces water as the only waste product."
   }
 ]
