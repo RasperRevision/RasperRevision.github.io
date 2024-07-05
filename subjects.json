@@ -25,6 +25,13 @@
         "bg": "warning",
         "jsonFile": "c3-quantitative-chemistry",
         "games": 12
+      },
+      {
+        "index": 4,
+        "displayName": "Electrolysis",
+        "bg": "orange",
+        "jsonFile": "chemistry-electrolysis",
+        "games": 12
       }
     ]
   },
