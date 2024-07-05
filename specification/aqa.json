@@ -6,7 +6,104 @@
       "children": [
         {
           "name": "Bengali",
-          "children": []
+          "children": [
+            {
+              "name": "1: Themes",
+              "children": [
+                {
+                  "name": "1.1: Identity and culture",
+                  "content": "."
+                },
+                {
+                  "name": "1.2: Local, national, international and global areas of interest",
+                  "content": "."
+                },
+                {
+                  "name": "1.3: Current and future study and employment",
+                  "content": "."
+                }
+              ]
+            },
+            {
+              "name": "2: Scope of study",
+              "children": [
+                {
+                  "name": "2.1: Listening",
+                  "content": "."
+                },
+                {
+                  "name": "2.2: Speaking",
+                  "content": "."
+                },
+                {
+                  "name": "2.3: Reading",
+                  "content": "."
+                },
+                {
+                  "name": "2.4: Writing",
+                  "content": "."
+                }
+              ]
+            },
+            {
+              "name": "3: Grammar",
+              "children": [
+                {
+                  "name": "3.1: Foundation",
+                  "content": "."
+                },
+                {
+                  "name": "3.2: Higher",
+                  "content": "."
+                }
+              ]
+            },
+            {
+              "name": "4: Communication strategies",
+              "children": [
+                {
+                  "name": "4.1: Ignoring words which are not needed",
+                  "content": "."
+                },
+                {
+                  "name": "4.2: Using the visual and verbal context",
+                  "content": "."
+                },
+                {
+                  "name": "4.3: Making use of grammatical markers and categories",
+                  "content": "."
+                },
+                {
+                  "name": "4.4: Making use of the social and cultural context",
+                  "content": "."
+                },
+                {
+                  "name": "4.5: Using common patterns with Bengali",
+                  "content": "."
+                },
+                {
+                  "name": "4.6: Strategies specifically for reading and understanding",
+                  "content": "."
+                },
+                {
+                  "name": "4.7: Strategies specifically for listening and understanding",
+                  "content": "."
+                },
+                {
+                  "name": "4.8: Strategies for production",
+                  "content": "."
+                },
+                {
+                  "name": "4.9: Non-verbal strategies",
+                  "content": "."
+                },
+                {
+                  "name": "4.10: Verbal strategies",
+                  "content": "."
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Chinese (Mandarin)",
