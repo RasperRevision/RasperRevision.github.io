@@ -1,0 +1,34 @@
+[
+  {
+    "term": "Electrolyte",
+    "meaning": "A liquid or solution capable of conducting electricity due to an ionic compound being melted or dissolved."
+  },
+  {
+    "term": "Electrode",
+    "meaning": "A conductor at either the positive or negative terminal of a power supply."
+  },
+  {
+    "term": "Electrolysis",
+    "meaning": "The decomposition of an ionic compound using electricity."
+  },
+  {
+    "term": "Positive electrode",
+    "meaning": "Also called the anode - the electrode which negative ions move towards"
+  },
+  {
+    "term": "Negative electrode",
+    "meaning": "Also called the cathode - the electrode which positive ions move towards."
+  },
+  {
+    "term": "Molten electrolysis",
+    "meaning": "A simple ionic compound electrolysed in molten state using inert electrodes. The metal is produced at the negative electrode and the non-metal at the positive"
+  },
+  {
+    "term": "Aqueous electrolysis",
+    "meaning": "The electrolysis of an aqueous solution, where either hydrogen or the metal is produced at the negative electrode, and either oxygen or a halogen is produced at the positive."
+  },
+  {
+    "term": "Electrolysis of aluminium",
+    "meaning": "The extraction of aluminium from bauxite by electrolysis using a molten mixture of aluminium oxide and cryolite where carbon is the positive electrode."
+  }
+]
