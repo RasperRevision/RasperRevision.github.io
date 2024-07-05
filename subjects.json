@@ -22,15 +22,22 @@
       {
         "index": 3,
         "displayName": "Quantitative Chemistry",
-        "bg": "warning",
+        "bg": "orange",
         "jsonFile": "c3-quantitative-chemistry",
         "games": 12
       },
       {
         "index": 4,
         "displayName": "Electrolysis",
-        "bg": "orange",
+        "bg": "warning",
         "jsonFile": "chemistry-electrolysis",
+        "games": 12
+      },
+      {
+        "index": 5,
+        "displayName": "Energy changes",
+        "bg": "lime",
+        "jsonFile": "chemistry-energy-changes",
         "games": 12
       }
     ]
