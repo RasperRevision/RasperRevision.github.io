@@ -39,53 +39,51 @@
   </style>
 </head>
 
-<body>
-  <header style="height:120px;padding-top:35px;background-color: rgb(25, 25, 25);">
-    <div class="fs-2 ms-4 bg-dark d-inline px-4 py-3" style="border-radius: 10px;">
-      <div class="stopwatch d-inline">00:00</div>
-      <span class="mx-1">•</span>
-      <span class="d-inline  score">0/0</span>
-    </div>
+<body class="overflow-hidden">
+  <div class="flex_col main_wrapper">
 
-    <h1 class="position-absolute qtitle" style="left: 50%;transform: translate(-50%, -95%);">
-      <a href="/fill-in-the-blank/" class="link-light link-underline-opacity-50 link-underline-opacity-100-hover">Fill
-        in the
-        blank</a>
-    </h1>
+    <header class="position-absolute w-100 mobile_nav">
+      <div class="d-flex justify-content-between px-5 align-items-center " style="height:120px;">
+        <h4>
+          <a class="link-light link-underline-opacity-50 link-underline-opacity-100-hover mobile_nav_btn"
+            role="button"><i class="bi bi-caret-down-fill me-2"></i>Select a
+            topic</a>
+        </h4>
 
-    <div class="position-absolute mobile_nav d-flex">
-      <button class="mobile_nav_btn">
-        <div><i class="bi bi-caret-down-fill me-2"></i>Select a topic</div>
-      </button>
+        <div class="fs-2">
+          <div class="stopwatch d-inline">00:00</div>
+          <span class="mx-1">•</span>
+          <span class="d-inline score">0/0</span>
+        </div>
+      </div>
       <div class="accordion_content w-100"></div>
+    </header>
+
+    <div class="container bg-light p-4 position-absolute top-50" style="left:50%;transform: translate(-50%, -40%);">
+      <div class="yes-json">
+        <h3 class="mb-4" style="color: black">Complete the quotation</h3>
+        <div class="fw-bold" id="themes" style="color: black"></div>
+        <div class="fs-5 mb-4" id="quote" style="color: black"></div>
+
+        <input class="form-control p-2 mb-3" type="text" id="input" placeholder="Enter your guess" autocomplete="off"
+          style="color: black">
+
+        <button class="rbtn primary" id="submit-btn">Submit</button>
+        <button class="rbtn warning invis" id="next-btn">Next</button>
+
+        <div class="my-2" id="result" style="color: black"></div>
+      </div>
+
+      <div class="no-json invis ps-2">
+        <h1 class="text-black mt-3">Fill in the blank</h1>
+        <p class="text-black">To begin, choose a topic from the menu at the bottom of the page.</p>
+      </div>
     </div>
-  </header>
 
-  <div class="container bg-light p-4 position-absolute top-50" style="left:50%;transform: translate(-50%, -40%);">
-    <div class="yes-json">
-      <h3 class="mb-4" style="color: black">Complete the quotation</h3>
-      <div class="fw-bold" id="themes" style="color: black"></div>
-      <div class="fs-5 mb-4" id="quote" style="color: black"></div>
 
-      <input class="form-control p-2 mb-3" type="text" id="input" placeholder="Enter your guess" autocomplete="off"
-        style="color: black">
-
-      <button class="rbtn primary" id="submit-btn">Submit</button>
-      <button class="rbtn warning invis" id="next-btn">Next</button>
-
-      <div class="my-2" id="result" style="color: black"></div>
-    </div>
-
-    <div class="no-json invis ps-2">
-      <h1 class="text-black mt-3">Fill in the blank</h1>
-      <p class="text-black">To begin, select an option from the menu at the top of the screen.</p>
-    </div>
   </div>
 
-
-
   <script src="/sidebar.js"></script>
-  <div class="d-flex sidebar-wrapper" id="wrapper"></div>
 
   <script>
     const themesElement = document.getElementById("themes");
@@ -280,37 +278,32 @@
       });
     }
 
-    document.querySelector(".mobile_nav").style.minHeight = "45px";
+    getJSON().then((data) => {
+      var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
+      data.forEach((item) => {
+        const subject = item.displayName.replace(/\s/g, "");
+        var topics = "";
+        item.topics.forEach((topic) => {
+          var binary_games = topic.games.toString(2);
+          while (binary_games.length < 4) {
+            binary_games = "0" + binary_games;
+          }
+          if (binary_games[2] == "1") {
+            topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+          }
+        });
+        if (topics != "") {
+          dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse{subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}"data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
+        }
+      });
+      dropdownHTML += '</div>';
+      document.querySelector(".accordion_content").innerHTML = dropdownHTML;
+    });
+
+
     document.querySelector(".mobile_nav_btn").addEventListener('click', function () {
       document.querySelector('.bi-caret-down-fill').classList.toggle('rotated');
-      if (document.querySelector(".mobile_nav").style.minHeight != '45px') {
-        document.querySelector(".mobile_nav").style.minHeight = '45px';
-        document.querySelector(".accordion_content").innerHTML = '';
-      } else {
-        document.querySelector(".mobile_nav").style.minHeight = 'calc(100vh - 121px)';
-
-        getJSON().then((data) => {
-          var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
-          data.forEach((item) => {
-            const subject = item.displayName.replace(/\s/g, "");
-            var topics = "";
-            item.topics.forEach((topic) => {
-              var binary_games = topic.games.toString(2);
-              while (binary_games.length < 4) {
-                binary_games = "0" + binary_games;
-              }
-              if (binary_games[2] == "1") {
-                topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
-              }
-            });
-            if (topics != "") {
-              dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse{subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}"data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
-            }
-          });
-          dropdownHTML += '</div>';
-          document.querySelector(".accordion_content").innerHTML = dropdownHTML;
-        });
-      }
+      document.querySelector(".mobile_nav").classList.toggle('active');
     });
 
     const jsonFileName = getParameterByName('json');

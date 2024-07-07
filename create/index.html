@@ -31,153 +31,153 @@
       border-width: 2px;
     }
   </style>
-  
+
 </head>
 
 <body>
-  <main class="container mt-5 main_section">
-    <h1>Create</h1>
-    <p>Create a JSON file which can be uploaded to
-      <a href="/quiz"
-        class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Quiz</a>
-      and <a href="/matchup"
-        class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Matchup</a>. The
-      file can be shared with anyone you like and they will also be able to upload it.
-    </p>
+  <div class="main_wrapper">
+    <main class="container mt-5 main_section">
+      <h1>Create</h1>
+      <p>Create a JSON file which can be uploaded to
+        <a href="/quiz"
+          class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Quiz</a>
+        and <a href="/matchup"
+          class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Matchup</a>. The
+        file can be shared with anyone you like and they will also be able to upload it.
+      </p>
 
-    <div class="list-group">
-      <div class="list-group-item" style="background-color: rgb(224, 224, 224);">
-        <div class="input-group my-1">
-          <input type="text" class="form-control" placeholder="Title" id="title" style="color: black !important;">
+      <div class="list-group">
+        <div class="list-group-item" style="background-color: rgb(224, 224, 224);">
+          <div class="input-group my-1">
+            <input type="text" class="form-control" placeholder="Title" id="title" style="color: black !important;">
+          </div>
         </div>
-      </div>
-      <div class="list-group-item bg-light">
-        <div class="input-group mb-2">
-          <span class="input-group-text">Term</span>
-          <input type="text" class="form-control">
+        <div class="list-group-item bg-light">
+          <div class="input-group mb-2">
+            <span class="input-group-text">Term</span>
+            <input type="text" class="form-control">
+          </div>
+          <div class="input-group my-3">
+            <span class="input-group-text">Definition</span>
+            <textarea class="form-control"></textarea>
+          </div>
+          <button class="btn btn-danger delete-item">
+            <i class="bi bi-trash3-fill"></i> Delete
+          </button>
         </div>
-        <div class="input-group my-3">
-          <span class="input-group-text">Definition</span>
-          <textarea class="form-control"></textarea>
+        <div class="list-group-item bg-light">
+          <div class="input-group mb-2">
+            <span class="input-group-text">Term</span>
+            <input type="text" class="form-control">
+          </div>
+          <div class="input-group my-3">
+            <span class="input-group-text">Definition</span>
+            <textarea class="form-control"></textarea>
+          </div>
+          <button class="btn btn-danger delete-item">
+            <i class="bi bi-trash3-fill"></i> Delete
+          </button>
         </div>
-        <button class="btn btn-danger delete-item">
-          <i class="bi bi-trash3-fill"></i> Delete
-        </button>
-      </div>
-      <div class="list-group-item bg-light">
-        <div class="input-group mb-2">
-          <span class="input-group-text">Term</span>
-          <input type="text" class="form-control">
-        </div>
-        <div class="input-group my-3">
-          <span class="input-group-text">Definition</span>
-          <textarea class="form-control"></textarea>
-        </div>
-        <button class="btn btn-danger delete-item">
-          <i class="bi bi-trash3-fill"></i> Delete
-        </button>
-      </div>
 
-      <div class="list-group-item bg-light">
-        <div class="input-group mb-2">
-          <span class="input-group-text">Term</span>
-          <input type="text" class="form-control">
+        <div class="list-group-item bg-light">
+          <div class="input-group mb-2">
+            <span class="input-group-text">Term</span>
+            <input type="text" class="form-control">
+          </div>
+          <div class="input-group my-3">
+            <span class="input-group-text">Definition</span>
+            <textarea class="form-control"></textarea>
+          </div>
+          <button class="btn btn-danger delete-item">
+            <i class="bi bi-trash3-fill"></i> Delete
+          </button>
         </div>
-        <div class="input-group my-3">
-          <span class="input-group-text">Definition</span>
-          <textarea class="form-control"></textarea>
+        <div class="list-group-item p-3" style="background-color: rgb(224, 224, 224);">
+          <button class="btn btn-success download">Download</button>
+          <button class="btn btn-primary add-item">Add Item</button>
         </div>
-        <button class="btn btn-danger delete-item">
-          <i class="bi bi-trash3-fill"></i> Delete
-        </button>
       </div>
-      <div class="list-group-item p-3" style="background-color: rgb(224, 224, 224);">
-        <button class="btn btn-success download">Download</button>
-        <button class="btn btn-primary add-item">Add Item</button>
-      </div>
+    </main>
+
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <h4>Rasper Revision</h4>
+          <p>Copyright © 2024</p>
+          <a href="https://github.com/RasperRevision/RasperRevision.github.io" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="col mb-3"></div>
+        <div class="col mb-3"></div>
+
+        <div class="col mb-3">
+          <h5>Activities</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="/"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Home</a>
+            </li>
+            <li class="nav-item mb-2"><a href="/matchup/"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Matchup</a>
+            </li>
+            <li class="nav-item mb-2"><a href="/quiz/"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Quiz</a>
+            </li>
+            <li class="nav-item mb-2"><a href="/fill-in-the-blank"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Fill in the
+                blank</a>
+            </li>
+            <li class="nav-item mb-2"><a href="/equations/?json=physics_equations.json"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Equations</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Useful links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="/contact"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Contact
+                us</a></li>
+            <li class="nav-item mb-2"><a href="/create"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Create</a>
+            </li>
+            <li class="nav-item mb-2"><a
+                href="https://github.com/RasperRevision/RasperRevision.github.io/blob/main/LICENSE"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover"
+                target="_blank">License</a>
+            </li>
+            <li class="nav-item mb-2"><a href="/privacy-policy"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Privacy
+                policy</a>
+            </li>
+            <li class="nav-item mb-2"><a href="/about"
+                class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">About</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
-  </main>
-
-  <div class="container">
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-      <div class="col mb-3">
-        <h4>Rasper Revision</h4>
-        <p>Copyright © 2024</p>
-        <a href="https://github.com/RasperRevision/RasperRevision.github.io" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github"
-            viewBox="0 0 16 16">
-            <path
-              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-          </svg>
-        </a>
-      </div>
-
-      <div class="col mb-3"></div>
-      <div class="col mb-3"></div>
-
-      <div class="col mb-3">
-        <h5>Activities</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="/"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Home</a>
-          </li>
-          <li class="nav-item mb-2"><a href="/matchup/"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Matchup</a>
-          </li>
-          <li class="nav-item mb-2"><a href="/quiz/"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Quiz</a>
-          </li>
-          <li class="nav-item mb-2"><a href="/fill-in-the-blank"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Fill in the
-              blank</a>
-          </li>
-          <li class="nav-item mb-2"><a href="/equations/?json=physics_equations.json"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Equations</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col mb-3">
-        <h5>Useful links</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="/contact"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Contact
-              us</a></li>
-          <li class="nav-item mb-2"><a href="/create"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Create</a>
-          </li>
-          <li class="nav-item mb-2"><a
-              href="https://github.com/RasperRevision/RasperRevision.github.io/blob/main/LICENSE"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover"
-              target="_blank">License</a>
-          </li>
-          <li class="nav-item mb-2"><a href="/privacy-policy"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Privacy
-              policy</a>
-          </li>
-          <li class="nav-item mb-2"><a href="/about"
-              class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">About</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
   </div>
 
-
-  <div class="d-flex sidebar-wrapper" id="wrapper"></div>
 
   <script src="/sidebar.js"></script>
   <script>
     const download = document.querySelector('.download');
-const title = document.getElementById('title');
-const addButton = document.querySelector('.add-item');
-let itemIndex = 0;
-let inputs = document.querySelectorAll('.form-control');
+    const title = document.getElementById('title');
+    const addButton = document.querySelector('.add-item');
+    let itemIndex = 0;
+    let inputs = document.querySelectorAll('.form-control');
 
-addButton.addEventListener('click', function () {
-  const listItem = document.createElement('div');
-  listItem.classList.add('list-group-item', 'bg-light');
-  listItem.innerHTML = `
+    addButton.addEventListener('click', function () {
+      const listItem = document.createElement('div');
+      listItem.classList.add('list-group-item', 'bg-light');
+      listItem.innerHTML = `
         <div class="input-group mb-2">
           <span class="input-group-text">Term</span>
           <input type="text" class="form-control">
@@ -190,79 +190,79 @@ addButton.addEventListener('click', function () {
           <i class="bi bi-trash3-fill"></i> Delete
         </button>
       `;
-  const listGroup = document.querySelector('.list-group');
-  listGroup.insertBefore(listItem, listGroup.lastElementChild);
-  const deleteButtons = document.querySelectorAll('.delete-item');
-  deleteButtons.forEach(function (button) {
-    button.disabled = deleteButtons.length <= 1;
-  });
-  inputs = document.querySelectorAll('.form-control');
-  inputs.forEach(function (input) {
-    input.addEventListener('input', removeEmptyBorder);
-  });
-});
-
-document.addEventListener('click', function (event) {
-  if (event.target && event.target.classList.contains('delete-item')) {
-    event.target.closest('.list-group-item').remove();
-    const deleteButtons = document.querySelectorAll('.delete-item');
-    deleteButtons.forEach(function (button) {
-      button.disabled = deleteButtons.length <= 1;
+      const listGroup = document.querySelector('.list-group');
+      listGroup.insertBefore(listItem, listGroup.lastElementChild);
+      const deleteButtons = document.querySelectorAll('.delete-item');
+      deleteButtons.forEach(function (button) {
+        button.disabled = deleteButtons.length <= 1;
+      });
+      inputs = document.querySelectorAll('.form-control');
+      inputs.forEach(function (input) {
+        input.addEventListener('input', removeEmptyBorder);
+      });
     });
-  }
-});
 
-title.addEventListener('input', function () {
-  download.textContent = "Download " + this.value + ".json";
-});
-
-download.addEventListener('click', function () {
-  if (title.value.trim() !== "" && !title.value.includes(" ")) {
-    title.classList.remove('empty');
-
-    const jsonData = generateJSONData();
-    const blob = new Blob([jsonData], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = title.value + ".json";
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-    const complete = document.createElement('div');
-    const complete_content = "Your download should have started. If not, please <a href='/contact'>contact us</a> and we will do our best to fix the issue. Once you have your JSON file, you can upload it to play it with either <a href='/matchup'>Matchup</a> or <a href='/quiz'>Quiz</a>. This file can be shared with anyone, and they can also upload it to play.";
-    complete.innerHTML = complete_content;
-    complete.classList.add('p-3');
-    document.querySelector('.main_section').appendChild(complete);
-  }
-  else { title.classList.add('empty'); }
-});
-
-function generateJSONData() {
-  const jsonData = [];
-
-  document.querySelectorAll('.list-group-item.bg-light').forEach(function (item) {
-    const termInput = item.querySelector('.input-group.mb-2 input');
-    const definitionInput = item.querySelector('.input-group.my-3 textarea');
-
-    if (termInput && definitionInput) {
-      const termValue = termInput.value.trim();
-      const definitionValue = definitionInput.value.trim();
-
-      if (termValue !== "" && definitionValue !== "") {
-        const newItem = {
-          "term": termValue,
-          "meaning": definitionValue
-        };
-        jsonData.push(newItem);
+    document.addEventListener('click', function (event) {
+      if (event.target && event.target.classList.contains('delete-item')) {
+        event.target.closest('.list-group-item').remove();
+        const deleteButtons = document.querySelectorAll('.delete-item');
+        deleteButtons.forEach(function (button) {
+          button.disabled = deleteButtons.length <= 1;
+        });
       }
-    }
-  });
+    });
 
-  return JSON.stringify(jsonData, null, 2);
-}
+    title.addEventListener('input', function () {
+      download.textContent = "Download " + this.value + ".json";
+    });
+
+    download.addEventListener('click', function () {
+      if (title.value.trim() !== "" && !title.value.includes(" ")) {
+        title.classList.remove('empty');
+
+        const jsonData = generateJSONData();
+        const blob = new Blob([jsonData], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = title.value + ".json";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        const complete = document.createElement('div');
+        const complete_content = "Your download should have started. If not, please <a href='/contact'>contact us</a> and we will do our best to fix the issue. Once you have your JSON file, you can upload it to play it with either <a href='/matchup'>Matchup</a> or <a href='/quiz'>Quiz</a>. This file can be shared with anyone, and they can also upload it to play.";
+        complete.innerHTML = complete_content;
+        complete.classList.add('p-3');
+        document.querySelector('.main_section').appendChild(complete);
+      }
+      else { title.classList.add('empty'); }
+    });
+
+    function generateJSONData() {
+      const jsonData = [];
+
+      document.querySelectorAll('.list-group-item.bg-light').forEach(function (item) {
+        const termInput = item.querySelector('.input-group.mb-2 input');
+        const definitionInput = item.querySelector('.input-group.my-3 textarea');
+
+        if (termInput && definitionInput) {
+          const termValue = termInput.value.trim();
+          const definitionValue = definitionInput.value.trim();
+
+          if (termValue !== "" && definitionValue !== "") {
+            const newItem = {
+              "term": termValue,
+              "meaning": definitionValue
+            };
+            jsonData.push(newItem);
+          }
+        }
+      });
+
+      return JSON.stringify(jsonData, null, 2);
+    }
   </script>
 
 </body>

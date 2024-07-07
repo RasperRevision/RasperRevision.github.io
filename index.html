@@ -29,38 +29,34 @@
 </head>
 
 <body>
+  <div class="flex_col main_wrapper">
+    <section class="flex_col">
+      <div style="flex-grow:1;margin:50px;">
+        <div class="games home_btn_row invis">
+          <button class="game home_btn invis danger game-matchup">Matchup</button>
+          <button class="game home_btn invis success game-quiz">Quiz</button>
+          <button class="game home_btn invis info game-blank">Fill in the Blank</button>
+          <button class="game home_btn invis turquoise game-equations">Equations</button>
+        </div>
 
-  <section class="flex_col">
-    <div style="margin-left: 50px;margin-top:50px;" class="p-0">
-      <a href="/"><img height="90" src="/assets/wide_logo.png"></a>
-    </div>
+        <div class="music-topics flex_col invis"></div>
+        <div class="maths-topics flex_col invis"></div>
+        <div class="english-lang-topics flex_col invis"></div>
+        <div class="history-topics flex_col invis"></div>
+        <div class="compsci-topics flex_col invis"></div>
+        <div class="english-lit-topics flex_col invis"></div>
+        <div class="biology-topics flex_col invis"></div>
+        <div class="german-topics h-100 invis"></div>
+        <div class="chemistry-topics flex_col invis"></div>
+        <div class="physics-topics flex_col invis"></div>
+        <div class="economics-topics flex_col invis"></div>
 
-    <div style="flex-grow:1;padding:50px;">
-      <div class="games home_btn_row invis">
-        <button class="game home_btn invis danger game-matchup">Matchup</button>
-        <button class="game home_btn invis success game-quiz">Quiz</button>
-        <button class="game home_btn invis info game-blank">Fill in the Blank</button>
-        <button class="game home_btn invis turquoise game-equations">Equations</button>
+        <div class="subjects flex_col h100"></div>
       </div>
-
-      <div class="music-topics flex_col invis"></div>
-      <div class="maths-topics flex_col invis"></div>
-      <div class="english-lang-topics flex_col invis"></div>
-      <div class="history-topics flex_col invis"></div>
-      <div class="compsci-topics flex_col invis"></div>
-      <div class="english-lit-topics flex_col invis"></div>
-      <div class="biology-topics flex_col invis"></div>
-      <div class="german-topics h-100 invis"></div>
-      <div class="chemistry-topics flex_col invis"></div>
-      <div class="physics-topics flex_col invis"></div>
-      <div class="economics-topics flex_col invis"></div>
-
-      <div class="subjects flex_col h100"></div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <script src="/sidebar.js"></script>
-  <div class="d-flex sidebar-wrapper" id="wrapper"></div>
 
   <script>
     const games = document.querySelectorAll('.game');
@@ -75,6 +71,25 @@
       if (window.location.pathname === '/') {
         location.reload();
       }
+    });
+
+    getJson();
+
+    // Adds event listeners to each activity button to start the corresponding game with the corresponding JSON file.
+    games.forEach(function (game) {
+      game.addEventListener('click', function () {
+        game_parent.classList.add('invis');
+
+        if (game.innerHTML == "Matchup") {
+          location.href = '/matchup/?json=' + topic_chosen;
+        } else if (game.innerHTML == "Quiz") {
+          location.href = '/quiz/?json=' + topic_chosen;
+        } else if (game.innerHTML == "Fill in the Blank") {
+          window.location.href = '/fill-in-the-blank?json=' + topic_chosen;
+        } else if (game.innerHTML == "Equations") {
+          window.location.href = '/equations?json=physics_equations.json'
+        }
+      });
     });
 
     async function getJson() {
@@ -265,24 +280,6 @@
       });
     }
 
-    getJson();
-
-    // Adds event listeners to each activity button to start the corresponding game with the corresponding JSON file.
-    games.forEach(function (game) {
-      game.addEventListener('click', function () {
-        game_parent.classList.add('invis');
-
-        if (game.innerHTML == "Matchup") {
-          location.href = '/matchup/?json=' + topic_chosen;
-        } else if (game.innerHTML == "Quiz") {
-          location.href = '/quiz/?json=' + topic_chosen;
-        } else if (game.innerHTML == "Fill in the Blank") {
-          window.location.href = '/fill-in-the-blank?json=' + topic_chosen;
-        } else if (game.innerHTML == "Equations") {
-          window.location.href = '/equations?json=physics_equations.json'
-        }
-      });
-    });
 
   </script>
 

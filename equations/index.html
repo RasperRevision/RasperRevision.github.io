@@ -43,201 +43,197 @@
 </head>
 
 <body class="bg-dark">
-  <header style="height:120px;padding-top:35px;background-color: rgb(25, 25, 25);">
+  <div class="main_wrapper">
 
-    <h1 class="position-absolute qtitle" style="left: 50%;transform: translate(-50%);">
-      <a href="/equations/?json=physics_equations.json"
-        class="link-light link-underline-opacity-50 link-underline-opacity-100-hover">Equations</a>
-    </h1>
-  </header>
-  <div class="container bg-light p-4 position-absolute top-50" style="left:50%;transform:translate(-50%, -40%);">
-    <div class="alert invis alert-success p-2" style="color: black">🗸 Correct!</div>
-    <div class="alert invis alert-danger p-2" style="color: black">☓ Incorrect. Try again</div>
-    <div class="equation_question" style="color: black"></div>
-    <div class="symbol-menu mt-3">
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Mass">m</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Work done">W</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Gravitational field strength">g</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Distance">d</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Density">ρ</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Pressure/Power">P</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Area">A</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Resistance">R</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Energy">E</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Moment">M</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Potential Difference">V</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Height">h</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Current">Q</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Gravitational potential energy">Eₚ</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Force">F</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Displacement">s</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Acceleration">a</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Wavelength">λ</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Spring constant">k</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Weight">w</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Extension">e</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Momentum">p</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Current">I</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Time">t</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Frequency">f</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Velocity/Speed/Volume">v</button>
-      <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
-        data-bs-title="Kinetic energy">Eₖ</button>
+    <div class="container bg-light p-4 position-absolute top-50" style="left:50%;transform:translate(-50%, -40%);">
+      <div class="alert invis alert-success p-2" style="color: black">🗸 Correct!</div>
+      <div class="alert invis alert-danger p-2" style="color: black">☓ Incorrect. Try again</div>
+      <div class="equation_question" style="color: black"></div>
+      <div class="symbol-menu mt-3">
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Mass">m</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Work done">W</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Gravitational field strength">g</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Distance">d</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Density">ρ</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Pressure/Power">P</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Area">A</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Resistance">R</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Energy">E</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Moment">M</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Potential Difference">V</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Height">h</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Current">Q</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Gravitational potential energy">Eₚ</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Force">F</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Displacement">s</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Acceleration">a</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Wavelength">λ</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Spring constant">k</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Weight">w</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Extension">e</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Momentum">p</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Current">I</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Time">t</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Frequency">f</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Velocity/Speed/Volume">v</button>
+        <button class="btn btn-info symbol-button my-1 text-white" data-bs-toggle="tooltip"
+          data-bs-title="Kinetic energy">Eₖ</button>
+      </div>
+      <div class="maths-menu mt-3">
+        <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
+          data-bs-title="Squared">²</button>
+        <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
+          data-bs-title="Divided by">÷</button>
+        <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
+          data-bs-title="Equals">=</button>
+        <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
+          data-bs-title="Delta">∆</button>
+        <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
+          data-bs-title="Half">½</button>
+      </div>
+      <div class="form-control my-3"></div>
+      <input type="submit" class="rbtn warning submit_btn">
+      <button class="rbtn warning next_btn invis">Next</button>
+      <button class="rbtn danger" onclick="clear_form();">Reset</button>
     </div>
-    <div class="maths-menu mt-3">
-      <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
-        data-bs-title="Squared">²</button>
-      <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
-        data-bs-title="Divided by">÷</button>
-      <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
-        data-bs-title="Equals">=</button>
-      <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip"
-        data-bs-title="Delta">∆</button>
-      <button class="btn btn-info text-white maths-button my-1" data-bs-toggle="tooltip" data-bs-title="Half">½</button>
-    </div>
-    <div class="form-control my-3"></div>
-    <input type="submit" class="rbtn warning submit_btn">
-    <button class="rbtn warning next_btn invis">Next</button>
-    <button class="rbtn danger" onclick="clear_form();">Reset</button>
   </div>
-  <div class="d-flex sidebar-wrapper" id="wrapper"></div>
 
   <script src="/sidebar.js"></script>
   <script>
     function clear_form() {
-  document.querySelector('.form-control').textContent = "";
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
-  function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-  }
-
-  function loadJSON(callback) {
-    var jsonFile = getParameterByName('json');
-    var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType("application/json");
-    xobj.open('GET', jsonFile, true);
-    xobj.onreadystatechange = function () {
-      if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
-    };
-    xobj.send(null);
-  }
-
-  function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+      document.querySelector('.form-control').textContent = "";
     }
-    return array;
-  }
 
-  const form = document.querySelector('.form-control');
-  const question = document.querySelector('.equation_question');
-  const symbol_buttons = document.querySelectorAll('.symbol-button');
-  const maths_buttons = document.querySelectorAll('.maths-button');
-  const submit = document.querySelector('.submit_btn');
-  const next = document.querySelector('.next_btn');
-  const success = document.querySelector('.alert-success');
-  const danger = document.querySelector('.alert-danger');
+    document.addEventListener("DOMContentLoaded", function () {
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-  let equations;
-  let shuffled;
-  let currentEquationIndex = 0;
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
 
-  function displayEquation() {
-    const equationObj = shuffled[currentEquationIndex];
-    const parts = shuffle(equationObj.parts);
-    question.textContent = 'State the equation linking ' + parts.join(', ');
-  }
+      function loadJSON(callback) {
+        var jsonFile = getParameterByName('json');
+        var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', jsonFile, true);
+        xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
+        };
+        xobj.send(null);
+      }
 
-  symbol_buttons.forEach(function (symbol_button) {
-    symbol_button.addEventListener('click', function () {
-      form.textContent += symbol_button.textContent;
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      const form = document.querySelector('.form-control');
+      const question = document.querySelector('.equation_question');
+      const symbol_buttons = document.querySelectorAll('.symbol-button');
+      const maths_buttons = document.querySelectorAll('.maths-button');
+      const submit = document.querySelector('.submit_btn');
+      const next = document.querySelector('.next_btn');
+      const success = document.querySelector('.alert-success');
+      const danger = document.querySelector('.alert-danger');
+
+      let equations;
+      let shuffled;
+      let currentEquationIndex = 0;
+
+      function displayEquation() {
+        const equationObj = shuffled[currentEquationIndex];
+        const parts = shuffle(equationObj.parts);
+        question.textContent = 'State the equation linking ' + parts.join(', ');
+      }
+
+      symbol_buttons.forEach(function (symbol_button) {
+        symbol_button.addEventListener('click', function () {
+          form.textContent += symbol_button.textContent;
+        });
+      });
+
+      maths_buttons.forEach(function (maths_button) {
+        maths_button.addEventListener('click', function () {
+          form.textContent += maths_button.textContent;
+        });
+      });
+
+      function nextEquation() {
+        currentEquationIndex++;
+        if (currentEquationIndex >= shuffled.length) {
+          currentEquationIndex = 0;
+          shuffled = shuffle([...equations]);
+        }
+        form.textContent = "";
+        displayEquation();
+      }
+
+
+      submit.addEventListener('click', function () {
+        const correctAnswers = shuffled[currentEquationIndex].equations;
+
+        if (correctAnswers.includes(form.textContent.trim())) {
+          next.classList.remove('invis');
+          submit.classList.add('invis');
+          success.classList.remove('invis');
+        } else {
+          danger.classList.remove('invis');
+          form.textContent = "";
+          setTimeout(function () {
+            danger.classList.add('invis');
+          }, 5000);
+        }
+      });
+
+
+      next.addEventListener('click', function () {
+        submit.classList.remove('invis');
+        next.classList.add('invis');
+        success.classList.add('invis');
+        nextEquation();
+      })
+
+      loadJSON(function (response) {
+        equations = response;
+        shuffled = shuffle([...equations]);
+        displayEquation();
+      });
     });
-  });
-
-  maths_buttons.forEach(function (maths_button) {
-    maths_button.addEventListener('click', function () {
-      form.textContent += maths_button.textContent;
-    });
-  });
-
-  function nextEquation() {
-    currentEquationIndex++;
-    if (currentEquationIndex >= shuffled.length) {
-      currentEquationIndex = 0;
-      shuffled = shuffle([...equations]);
-    }
-    form.textContent = "";
-    displayEquation();
-  }
-
-
-  submit.addEventListener('click', function () {
-    const correctAnswers = shuffled[currentEquationIndex].equations;
-
-    if (correctAnswers.includes(form.textContent.trim())) {
-      next.classList.remove('invis');
-      submit.classList.add('invis');
-      success.classList.remove('invis');
-    } else {
-      danger.classList.remove('invis');
-      form.textContent = "";
-      setTimeout(function () {
-        danger.classList.add('invis');
-      }, 5000);
-    }
-  });
-
-
-  next.addEventListener('click', function () {
-    submit.classList.remove('invis');
-    next.classList.add('invis');
-    success.classList.add('invis');
-    nextEquation();
-  })
-
-  loadJSON(function (response) {
-    equations = response;
-    shuffled = shuffle([...equations]);
-    displayEquation();
-  });
-});
   </script>
 </body>
 

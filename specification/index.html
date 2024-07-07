@@ -40,25 +40,27 @@
 </head>
 
 <body class="bg-darker">
-  <div id="diagramWrapper">
-    <svg id="diagram"></svg>
-  </div>
-  <div class="d-flex sidebar-wrapper" id="wrapper"></div>
+  <div class="main_wrapper">
 
-  <!-- Modal -->
-  <div class="modal fade" id="contentModal" tabindex="-1" aria-labelledby="contentModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title text-black" id="contentModalLabel"></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-black" id="modalBodyContent">
+    <div id="diagramWrapper">
+      <svg id="diagram"></svg>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contentModal" tabindex="-1" aria-labelledby="contentModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-black" id="contentModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-black" id="modalBodyContent">
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
+  </div>
   <script src="/sidebar.js"></script>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>

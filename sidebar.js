@@ -1,12 +1,10 @@
-fetch('/sidebar.html')
+fetch('/sidebar_header.html')
   .then(response => response.text())
   .then(html => {
-    document.querySelector('.sidebar-wrapper').innerHTML = html;
-  })
-  .catch(error => console.error('Error fetching sidebar:', error));
+    document.querySelector('.main_wrapper').innerHTML = html + document.querySelector('.main_wrapper').innerHTML;
+  }).catch(error => console.error('Error fetching sidebar:', error));
 
 var icon = document.createElement('div');
-
 var icon1 = document.createElement('div');
 var icon2 = document.createElement('div');
 var icon3 = document.createElement('div');
@@ -25,13 +23,9 @@ icon.appendChild(icon2);
 icon.appendChild(icon3);
 document.body.appendChild(icon);
 
-
 icon.addEventListener('click', function () {
   document.getElementById('sidebar').classList.toggle('active');
   icon1.classList.toggle('a');
   icon2.classList.toggle('c');
   icon3.classList.toggle('b');
-  setTimeout(function () {
-    document.querySelector('.buttonElement').click();
-  }, 150);
 });
