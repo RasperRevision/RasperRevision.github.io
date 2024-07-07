@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
   fetch('/sidebar_header.html')
     .then(response => response.text())
     .then(html => {
-      document.querySelector('.main_wrapper').innerHTML = html + document.querySelector('.main_wrapper').innerHTML;
+      const sidebar_header_wrapper = document.createElement('div');
+      sidebar_header_wrapper.innerHTML = html;
+      document.querySelector('.main_wrapper').insertBefore(sidebar_header_wrapper, document.querySelector('.main_wrapper').children[0])
     }).catch(error => console.error('Error fetching sidebar:', error));
 
   var icon = document.createElement('div');
