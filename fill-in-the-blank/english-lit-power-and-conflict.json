@@ -2,7 +2,7 @@
   {
     "quote": "Slowly our ghosts drag home",
     "themes": [
-      "Conflict",
+      "War",
       "Death",
       "Despair"
     ],
@@ -11,16 +11,103 @@
   {
     "quote": "Love of God seems dying",
     "themes": [
-      "Conflict",
+      "War",
       "Religion",
       "Despair"
     ],
     "part": "Exposure by Wilfred Owen"
   },
   {
+    "quote": "King of kings/ look on my works ye mighty and despair",
+    "themes": [
+      "Irony",
+      "Class"
+    ],
+    "part": "Ozymandias"
+  },
+  {
+    "quote": "I met a traveller who said ",
+    "themes": [
+      "Time",
+      "False power"
+    ],
+    "part": "Ozymandias"
+  },
+  {
+    "quote": "Wrinkled lip and sneer of cold command",
+    "themes": [
+      "Class"
+    ],
+    "part": "Ozymandias"
+  },
+  {
+    "quote": "A shattered visage lies",
+    "themes": [
+      
+      "Time"
+    ],
+    "part": "Ozymandias"
+  },
+  {
+    "quote": "How the youthful harlot’s curse/Blasts the newborn infant’s tear",
+    "themes": [
+      "Class",
+      "Loss of innocence"
+    ],
+    "part": "London"
+  },
+  {
+    "quote": "Mind forged manacles i hear:",
+    "themes": [
+      "Class",
+      "False power"
+    ],
+    "part": "London"
+  },
+  {
+    "quote": "The hapless soldier’s sigh/Runs in blood down palace walls",
+    "themes": [
+      "Class",
+      "War"
+    ],
+    "part": "London"
+  },
+  {
+    "quote": "Strode after me. With trembling oars i turned",
+    "themes": [
+      "Fear",
+      "power of nature"
+    ],
+    "part": "Prelude"
+  },
+  {
+    "quote": "",
+    "themes": [
+      "",
+      ""
+    ],
+    "part": ""
+  },
+  {
+    "quote": "",
+    "themes": [
+      "",
+      ""
+    ],
+    "part": ""
+  },
+  {
+    "quote": "",
+    "themes": [
+      "",
+      ""
+    ],
+    "part": ""
+  },
+  {
     "quote": "Sudden successive flights of bullets streak the silence",
     "themes": [
-      "Conflict",
+      "War",
       "Death"
     ],
     "part": "Exposure by Wilfred Owen"
