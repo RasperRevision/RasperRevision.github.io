@@ -2,8 +2,8 @@
 Thank you for considering contributing to Rasper Revision. We eagerly appreciate all contributions due to our small team - but please take a moment to review this document first. 
 
 ## Important links
-- Any contributors to this project are expected to uphold our [code of conduct](rasperrevision.github.io/CODE_OF_CONDUCT.md). Any unacceptable behaviour should be reported to either one of our email addresses (rafael.m.amelines@gmail.com and jasper.wr.stocks@gmail.com) or submitted on the [Contact]{rasperrevision.github.io/contact) page.
-- If you have a question, please don't create an issue. Contact us [here](rasperrevision.github.io/contact) or create a [discussion](https://github.com/RasperRevision/RasperRevision.github.io/discussions).
+- Any contributors to this project are expected to uphold our [code of conduct](CODE_OF_CONDUCT.md). Any unacceptable behaviour should be reported to either one of our email addresses (rafael.m.amelines@gmail.com and jasper.wr.stocks@gmail.com) or submitted on the [Contact](https://rasperrevision.github.io/contact) page.
+- If you have a question, please don't create an issue. Contact us [here](https://rasperrevision.github.io/contact) or create a [discussion](https://github.com/RasperRevision/RasperRevision.github.io/discussions).
 - Security vulnerabilities must be reported privately [here](https://github.com/RasperRevision/RasperRevision.github.io/security). DO NOT CREATE A PUBLIC ISSUE!
 
 ## Bug reports
