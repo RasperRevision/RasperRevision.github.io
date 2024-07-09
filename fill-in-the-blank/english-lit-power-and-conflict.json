@@ -18,51 +18,50 @@
     "part": "Exposure by Wilfred Owen"
   },
   {
-    "quote": "King of kings/ look on my works ye mighty and despair",
+    "quote": "king of kings: Look on my works, ye Mighty and despair!",
     "themes": [
       "Irony",
       "Class"
     ],
-    "part": "Ozymandias"
+    "part": "Ozymandias by Percy Bysshe Shelley"
   },
   {
-    "quote": "I met a traveller who said ",
+    "quote": "I met a traveller from an antique land",
     "themes": [
       "Time",
       "False power"
     ],
-    "part": "Ozymandias"
+    "part": "Ozymandias by Percy Bysshe Shelley"
   },
   {
     "quote": "Wrinkled lip and sneer of cold command",
     "themes": [
       "Class"
     ],
-    "part": "Ozymandias"
+    "part": "Ozymandias by Percy Bysshe Shelley"
   },
   {
     "quote": "A shattered visage lies",
     "themes": [
-      
       "Time"
     ],
-    "part": "Ozymandias"
+    "part": "Ozymandias by Percy Bysshe Shelley"
   },
   {
-    "quote": "How the youthful harlot’s curse/Blasts the newborn infant’s tear",
+    "quote": "How the youthful harlot’s curse / Blasts the newborn infant’s tear",
     "themes": [
       "Class",
       "Loss of innocence"
     ],
-    "part": "London"
+    "part": "London by William Blake"
   },
   {
-    "quote": "Mind forged manacles i hear:",
+    "quote": "Mind forged manacles I hear:",
     "themes": [
       "Class",
       "False power"
     ],
-    "part": "London"
+    "part": "London by William Blake"
   },
   {
     "quote": "The hapless soldier’s sigh/Runs in blood down palace walls",
@@ -70,7 +69,7 @@
       "Class",
       "War"
     ],
-    "part": "London"
+    "part": "London by William Blake"
   },
   {
     "quote": "Strode after me. With trembling oars i turned",
@@ -78,7 +77,7 @@
       "Fear",
       "power of nature"
     ],
-    "part": "Prelude"
+    "part": "The Prelude by William Wordsworth"
   },
   {
     "quote": "No familiar shapes/ Remained, no pleasant images of trees",
@@ -86,7 +85,7 @@
       
       "Power of nature"
     ],
-    "part": "Prelude"
+    "part": "The Prelude by William Wordsworth"
   },
   {
     "quote": "It was an act of stealth; and troubled pleasure",
@@ -94,10 +93,10 @@
       "Desire",
       "New experience"
     ],
-    "part": "Prelude"
+    "part": "The Prelude by William Wordsworth"
   },
   {
-    "quote": "I gave commands;/ Then all smiles stopped together.",
+    "quote": "I gave commands; / Then all smiles stopped together.",
     "themes": [
       "Patriarchy",
       "Ownership",
@@ -112,5 +111,29 @@
       "Death"
     ],
     "part": "Exposure by Wilfred Owen"
+  },
+  {
+    "quote": "Charging an army, while / All the world wonder'd",
+    "themes": [
+      "War",
+      "Courage"
+    ],
+    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+  },
+  {
+    "quote": "Theirs not to make reply, / Theirs not to reason why, / Theirs but to do and die",
+    "themes": [
+      "War",
+      "Power"
+    ],
+    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+  },
+  {
+    "quote": "Into the jaws of Death, / Into the mouth of Hell",
+    "themes": [
+      "Biblical allusion",
+      "Bravery"
+    ],
+    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
   }
 ]
