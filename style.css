@@ -198,19 +198,17 @@ body::-webkit-scrollbar {
 
 .header-link {
   position: relative;
-  z-index: 900 !important;
 }
 
 .header-link::before {
   content: '';
   position: absolute;
   background: var(--rasper-green);
-  top: 0;
   left: 0;
   bottom: 0;
   right: 100%;
+  height: 10px;
   transition: right 100ms ease-in-out;
-  z-index: 850 !important;
 }
 
 .header-link:hover::before {
