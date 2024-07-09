@@ -196,6 +196,24 @@ body::-webkit-scrollbar {
   text-align: start;
 }
 
+.header-link {
+  position: relative;
+}
+
+.header-link::before {
+  content: '';
+  position: absolute;
+  background: var(--rasper-green);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: right 100ms ease-in-out;
+}
+
+.header-link:hover::before {
+  right: 0;
+}
+
 #sidebar {
   position: fixed;
   top: 0;
