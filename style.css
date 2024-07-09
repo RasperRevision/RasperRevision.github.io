@@ -198,6 +198,7 @@ body::-webkit-scrollbar {
 
 .header-link {
   position: relative;
+  z-index: 900;
 }
 
 .header-link::before {
@@ -207,7 +208,9 @@ body::-webkit-scrollbar {
   top: 0;
   left: 0;
   bottom: 0;
+  right: 100%;
   transition: right 100ms ease-in-out;
+  z-index: 901;
 }
 
 .header-link:hover::before {
