@@ -210,7 +210,7 @@ body::-webkit-scrollbar {
   bottom: 0;
   right: 100%;
   transition: right 100ms ease-in-out;
-  z-index: 901;
+  z-index: 899;
 }
 
 .header-link:hover::before {
