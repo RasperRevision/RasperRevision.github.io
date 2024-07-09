@@ -1,3 +1,7 @@
+:root {
+  --rasper-green: #00e78f;
+}
+
 *,
 ::after,
 ::before {
@@ -154,15 +158,6 @@ body::-webkit-scrollbar {
 
 .quiz_content {
   font-size: 1rem;
-}
-
-._activity_link {
-  display: block;
-  color: #efefef !important;
-}
-
-._activity_link:hover {
-  background-color: rgba(255, 255, 255, 0.051) !important;
 }
 
 .carousel-cell {
