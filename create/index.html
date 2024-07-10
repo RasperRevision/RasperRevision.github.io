@@ -48,7 +48,7 @@
       <br>
       <form method="post" enctype=".csv" accept=".csv">
         <label for="file">Upload a csv</label>
-        <input id="file" name="file" type="file" />
+        <input id="file" class = "form-control file_input" name="file" type="file" onchange="loadup(null, null)">
         <button>Upload</button>
       </form>
 
@@ -229,7 +229,7 @@
         const jsonData = generateJSONData();
         const blob = new Blob([jsonData], { type: "application/json" });
         const url = URL.createObjectURL(blob);
-
+        
         const a = document.createElement('a');
         a.href = url;
         a.download = title.value + ".json";
@@ -245,7 +245,9 @@
       }
       else { title.classList.add('empty'); }
     });
-
+    function loadup(){
+      
+    });
     function generateJSONData() {
       const jsonData = [];
 
