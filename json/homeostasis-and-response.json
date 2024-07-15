@@ -1,0 +1,114 @@
+[
+  {
+    "term": "Homeostasis",
+    "meaning": "The regulation of the internal conditions of a cell or organism to maintain optimum conditions for function in response to internal and external changes."
+  },
+  {
+    "term": "Receptor",
+    "meaning": "A type of cell that detects stimuli"
+  },
+  {
+    "term": "Stimulus",
+    "meaning": "A change in the external or internal environment"
+  },
+  {
+    "term": "Coordination centre",
+    "meaning": "Receives and processes information from the receptors"
+  },
+  {
+    "term": "Effector",
+    "meaning": "A muscle or a gland that brings about responses which restore optimum levels"
+  },
+  {
+    "term": "Nervous system",
+    "meaning": "A system that enables humans to react to their surroundings and coordinate their behaviour"
+  },
+  {
+    "term": "Central nervous system (CNS)",
+    "meaning": "The part of the nervous system made up of the brain and the spinal cord which coordinates the response of effectors"
+  },
+  {
+    "term": "Neurone (nerve cell)",
+    "meaning": "Cells which transmit information between one another as electrical impulses"
+  },
+  {
+    "term": "Reflex arc",
+    "meaning": "The nerve pathway that follows a reflex action. Includes structures such as sensory/relay/motor neurones and synapses."
+  },
+  {
+    "term": "Reflex action",
+    "meaning": "An automatic and rapid action that doesn't involve the conscious part of the brain."
+  },
+  {
+    "term": "Brain",
+    "meaning": "An organ made up of billions of interconnected neurones, with several regions that carry out different functions."
+  },
+  {
+    "term": "Medulla oblongata",
+    "meaning": "The part of the brain responsible for involuntary functions such as breathing."
+  },
+  {
+    "term": "Cerebellum",
+    "meaning": "The part of the brain responsible for posture and coordination"
+  },
+  {
+    "term": "Cerebral cortex",
+    "meaning": "The part of the brain responsible for high-level functions including emotions, thoughts, personality etc"
+  },
+  {
+    "term": "Eye",
+    "meaning": "A sensory organ containing light and colour sensitive receptors"
+  },
+  {
+    "term": "Accommodation",
+    "meaning": "The process by which the eye adjusts to focus on near or far objects"
+  },
+  {
+    "term": "Pupil dilation/constriction",
+    "meaning": "The processes by which the eye adjusts to dim or bright light"
+  },
+  {
+    "term": "Myopia",
+    "meaning": "Also known as short-sightedness - a condition where light is focused in front of the retina. Treated with a concave lens."
+  },
+  {
+    "term": "Hyperopia",
+    "meaning": "Also known as long-sightedness - a condition where light is focused behind the retina. Treated with a convex lens."
+  },
+  {
+    "term": "Thermoregulatory centre",
+    "meaning": "The area of the brain containing receptors sensitive to blood temperature and triggers mechanisms accordingly."
+  },
+  {
+    "term": "Vasodilation",
+    "meaning": "The process where blood vessels expand to allow heat to escape through the epidermis"
+  },
+  {
+    "term": "Vasoconstriction",
+    "meaning": "The process where blood vessels shrink to prevent heat from escaping through the epidermis"
+  },
+  {
+    "term": "Sweat",
+    "meaning": "A fluid produced at the sweat glands, which evaporates, taking thermal energy with it. This lowers body temperature."
+  },
+  {
+    "term": "Shivering",
+    "meaning": "Where skeletal muscles contract and relax very quickly, to release energy as heat."
+  },
+  {
+    "term": "Endocrine system",
+    "meaning": "The system made up of glands that secrete hormones into the bloodstream. It is slower than the nervous system but its effects last longer."
+  },
+  {
+    "term": "Hormone",
+    "meaning": "A chemical secreted by a gland with a target organ where it produces an effect."
+  },
+  {
+    "term": "Pituitary gland",
+    "meaning": "The master gland, found in the brain, which secretes hormones into the blood that trigger the release of other hormones."
+  },
+  {
+    "term": "Insulin",
+    "meaning": "A hormone produced by the pancreas causing glucose to leave the blood"
+  }
+]
