@@ -110,5 +110,29 @@
   {
     "term": "Insulin",
     "meaning": "A hormone produced by the pancreas causing glucose to leave the blood"
+  },
+  {
+    "term": "Glycogen",
+    "meaning": "A substance made of lots of connected glucose molecules stored in the liver and muscles."
+  },
+  {
+    "term": "Type 1 Diabetes",
+    "meaning": "A disorder in which the pancreas fails to produce sufficient insulin"
+  },
+  {
+    "term": "Type 2 Diabetes",
+    "meaning": "A disorder in which the body cells no longer respond to insulin produced by the pancreas"
+  },
+  {
+    "term": "Urea (HT only)",
+    "meaning": "A waste product converted from ammonia for safe excretion"
+  },
+  {
+    "term": "ADH (HT only)",
+    "meaning": "A hormone responsible for controlling water levels, released when blood becomes too concentrated"
+  },
+  {
+    "term": "Dialysis",
+    "meaning": "A treatment for kidney disease where blood is removed, filtered, and returned to the body"
   }
 ]
