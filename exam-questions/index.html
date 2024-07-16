@@ -24,8 +24,24 @@
   <link href="/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow-hidden">
   <div class="main_wrapper">
+    <div class="position-absolute w-100 mobile_nav">
+      <div class="d-flex justify-content-between px-5 align-items-center " style="height:120px;">
+        <h4>
+          <a class="link-light link-underline-opacity-50 link-underline-opacity-100-hover mobile_nav_btn"
+            role="button"><i class="bi bi-caret-down-fill me-2"></i>Select a
+            topic</a>
+        </h4>
+
+        <div class="fs-2">
+          <div class="stopwatch d-inline">00:00</div>
+          <span class="mx-1">•</span>
+          <span class="d-inline score">0/0</span>
+        </div>
+      </div>
+      <div class="accordion_content w-100"></div>
+    </div>
     <div class="quiz_content container"></div>
 
     <div id="finish-wrapper" class="position-absolute invis" style="left: 50%; transform: translateX(-50%);">
@@ -45,10 +61,6 @@
   </div>
 
   <script>
-    const option1 = document.querySelector('.opt1');
-    const option2 = document.querySelector('.opt2');
-    const option3 = document.querySelector('.opt3');
-    const option4 = document.querySelector('.opt4');
     const section = document.querySelector('.quiz');
     const home = document.querySelector('.home');
     const restart = document.querySelector('.restart');
@@ -57,10 +69,9 @@
     const container = document.querySelector('.quiz_content');
 
     let current_file;
-    let timer;
+    let timer, s = 0, m = 0;
     let score_val, length;
     let answerFound = false;
-    let s = 0, m = 0;
 
     function getParameterByName(name, url) {
       if (!url) url = window.location.href;
@@ -71,18 +82,11 @@
       return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
 
-    function updateScore() {
-      score.innerHTML = score_val + '/' + length;
-    }
+    function updateScore() { score.innerHTML = `${score_val}/${length}`; }
 
     function loadJSON(callback) {
       if (!getParameterByName('json')) {
         document.querySelector('.no-json').classList.add('invis');
-        term_element.classList.remove('invis');
-        option1.classList.remove('invis');
-        option2.classList.remove('invis');
-        option3.classList.remove('invis');
-        option4.classList.remove('invis');
         var jsonFile = document.querySelector('.file_input').files[0];
         var reader = new FileReader();
 
@@ -165,11 +169,9 @@
       sub_question.innerHTML = `${part.index}. ${part.question}<b> [${part.answerBoxes.reduce((acc, box) => acc + box.marks, 0)} marks]</b>`;
       part_container.appendChild(sub_question);
 
-      const answer_boxes = [];
-      const mark_scheme_boxes = [];
-      const feedback_boxes = [];
-
+      var answer_boxes = [], mark_scheme_boxes = [], feedback_boxes = [];
       var count = 0;
+
       for (const box of part.answerBoxes) {
         // creates answer boxes
         if (box.type == 'l') {
@@ -263,10 +265,7 @@
                       score_val += box.marks;
                       updateScore();
                     }
-                    if (!answer_box_values.includes(false)) {
-                      document.querySelector(`.part${partCount}`).remove();
-                      resolve();
-                    }
+                    if (!answer_box_values.includes(false)) { addNextButton(partCount, resolve); }
                   } else {
                     current_feedback.textContent = 'Incorrect!';
                     current_feedback.style.color = 'red';
@@ -293,15 +292,24 @@
           });
 
           // moves on if everything is correct  
-          if (!answer_box_values.includes(false)) {
-            document.querySelector(`.part${partCount}`).remove();
-            resolve();
-          }
+          if (!answer_box_values.includes(false)) { addNextButton(partCount, resolve); }
         });
       });
     }
 
-    async function exam() {
+    function addNextButton(count, resolve) {
+      const next = document.createElement('button');
+      next.textContent = 'Next';
+      next.classList.add('rbtn', 'warning');
+      next.addEventListener('click', () => {
+        document.querySelector(`.part${count}`).remove();
+        next.remove();
+        resolve();
+      })
+      container.appendChild(next);
+    }
+
+    function exam() {
       startStopwatch();
       score_val = 0;
 
@@ -332,9 +340,7 @@
       document.querySelectorAll('.opt').forEach(element => {
         element.classList.add('invis');
       });
-    } else {
-      exam();
-    }
+    } else { exam(); }
   </script>
   <script src="/sidebar.js"></script>
 

@@ -117,6 +117,10 @@ body::-webkit-scrollbar {
   font-size: calc(8.8px + 1vw);
   border-radius: 15px;
   flex-basis: 50% !important;
+
+  @media screen and (max-width: 800px) {
+    padding: 15px;
+  }
 }
 
 .german-topics {

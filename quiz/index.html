@@ -73,6 +73,7 @@
     </div>
 
   </div>
+  <script src="/center.js"></script>
   <script>
     const option1 = document.querySelector('.opt1');
     const option2 = document.querySelector('.opt2');
@@ -83,12 +84,20 @@
     const restart = document.querySelector('.restart');
     const term_element = document.querySelector('.key_term');
     const score = document.querySelector('.score');
+    const container = document.querySelector('.quiz_content');
 
     let current_file;
     let timer;
     let score_val, length;
     let answerFound = false;
     let s = 0, m = 0;
+
+    function adjustMargin() {
+      var margin = (window.innerHeight - container.getBoundingClientRect()['height']) / 2 - 120;
+      container.style.marginTop = `${margin}px`;
+    }
+
+    window.addEventListener('resize', () => { adjustMargin(); });
 
     function startStopwatch() {
       timer = setInterval(function () {
@@ -217,6 +226,7 @@
       [option1, option2, option3, option4].forEach((option, i) => {
         option.textContent = meanings[(i + random_option) % 4];
       });
+      adjustMargin();
 
       return new Promise((resolve) => {
         waitForButton(item, resolve);
@@ -266,7 +276,7 @@
 
         modalContainer.innerHTML = modalHtml;
 
-        document.querySelector('.quiz_content').appendChild(modalContainer);
+        container.appendChild(modalContainer);
 
         modalContainer.querySelector('#subject').textContent = subject;
         modalContainer.querySelector('#topic').textContent = topic;
@@ -286,13 +296,14 @@
         json_data = shuffle(response);
         length = json_data.length;
 
+
         if (topic != null && subject != null) {
           rangeInput.max = length - 1;
 
           document.getElementById("complete").textContent = `Complete (${length} questions)`
 
           await new Promise((resolve) => {
-            document.querySelector('.begin-game').addEventListener('click', resolve);
+            document.querySelector('.begin-game').addEventListener('click', resolve)
           });
 
           modal.hide();
@@ -316,6 +327,7 @@
 
     function endGame() {
       clearInterval(timer);
+      adjustMargin();
       [option1, option2, option3, option4].forEach((option) => {
         option.classList.add('invis');
       });
