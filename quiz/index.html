@@ -95,6 +95,7 @@
     function adjustMargin() {
       var margin = (window.innerHeight - container.getBoundingClientRect()['height']) / 2 - 120;
       container.style.marginTop = `${margin}px`;
+      container.style.maxHeight = `${window.innerHeight - 250}px`
     }
 
     window.addEventListener('resize', () => { adjustMargin(); });
