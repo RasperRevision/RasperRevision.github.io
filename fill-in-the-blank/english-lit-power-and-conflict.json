@@ -135,5 +135,29 @@
       "Bravery"
     ],
     "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+  },
+  {
+    "quote": "Probably armed, possibly not",
+    "themes": [
+      "Uncertainty",
+      "Reality of War"
+    ],
+    "part": "Remains by Simon Armitage"
+  },
+  {
+    "quote": "I see every round as it rips through his life - I see broad daylight on the other side",
+    "themes": [
+      "Violence",
+      "War"
+    ],
+    "part": "Remains by Simon Armitage"
+  },
+  {
+    "quote": "His bloody life in my bloody hands",
+    "themes": [
+      "Violence",
+      "Guilt"
+    ],
+    "part": "Remains by Simon Armitage"
   }
 ]
