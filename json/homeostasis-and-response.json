@@ -134,5 +134,77 @@
   {
     "term": "Dialysis",
     "meaning": "A treatment for kidney disease where blood is removed, filtered, and returned to the body"
+  },
+  {
+    "term": "Kidney Transplant",
+    "meaning": "A treatment for kidney disease where a kidney is implanted into the patient's body from an organ donor."
+  },
+  {
+    "term": "Oestrogen",
+    "meaning": "The main female reproductive hormone, produced in the ovary."
+  },
+  {
+    "term": "Ovulation",
+    "meaning": "The release of eggs every 28 days."
+  },
+  {
+    "term": "Testosterone",
+    "meaning": "The main male reproductive hormone, produced by the testes."
+  },
+  {
+    "term": "Follicle stimulating hormone (FSH)",
+    "meaning": "A hormone causing the maturation of an egg in the ovary"
+  },
+  {
+    "term": "Luteinising hormone",
+    "meaning": "A hormone that stimulates the release of the egg"
+  },
+  {
+    "term": "Progesteerone",
+    "meaning": "A hormone involved in maintaining the uterus lining, as well as oestrogen."
+  },
+  {
+    "term": "Contraception",
+    "meaning": "The prevention of pregnanacy - can be done by hormonal or non-hormonal methods."
+  },
+  {
+    "term": "Oral contraceptives",
+    "meaning": "A hormonal method of contraception containing hormones that inhibit FSH production."
+  },
+  {
+    "term": "Hormonal methods of contraception",
+    "meaning": "Injection, implant, skin patch and oral contraceptives are examples of this."
+  },
+  {
+    "term": "Non-hormonal methods of contraception",
+    "meaning": "IUDs, spermicide, abstinence, sterilisation and barrier methods are examples of this."
+  },
+  {
+    "term": "Barrier methods",
+    "meaning": "Methods that prevent sperm from reaching the egg, such as condoms and diaphragms."
+  },
+  {
+    "term": "In Vitro Fertilisation (IVF) (HT only)",
+    "meaning": "A procedure involving giving a mother FSH and LH to stimulate the maturation of several eggs, which are fertilised in a laboratory."
+  },
+  {
+    "term": "Thyroxine (HT only)",
+    "meaning": "A hormone that stimulates the basal metabolic rate, playing an important role in growth and development."
+  },
+  {
+    "term": "Adrenaline (HT only)",
+    "meaning": "A hormone produced in times of fear or stress which prepares the body for 'fight or flight'."
+  },
+  {
+    "term": "Phototropism (biology only)",
+    "meaning": "A response to the stimulus of light in plants, causing them to grow towards it."
+  },
+  {
+    "term": "Auxins (biology only)",
+    "meaning": "A family of plant hormones that control cell elongation"
+  },
+  {
+    "term": "Geotropism (biology only)",
+    "meaning": "A response in plants to the stimulus of gravity"
   }
 ]
