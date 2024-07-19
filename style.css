@@ -98,7 +98,6 @@ body::-webkit-scrollbar {
 
 .home_btn:hover {
   margin: 10px;
-  padding-inline: 0;
   filter: brightness(90%);
   background-color: var(--rasper-green);
 }
