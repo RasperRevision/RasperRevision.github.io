@@ -26,6 +26,7 @@
   {
     "term": "Light-emitting diode (LED)",
     "meaning": "A type of diode which emits light when a current travels through it."
+  },
   {
     "term": "Resistor",
     "meaning": "A component that opposes the flow of current. Its resistance cannot change."
