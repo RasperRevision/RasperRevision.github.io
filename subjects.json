@@ -255,6 +255,13 @@
         "jsonFile": "physics-electricity",
         "games": 12,
         "bg": "turquoise"
+      },
+      {
+        "index": 4,
+        "displayName": "Particle model of matter",
+        "jsonFile": "physics-particle-model",
+        "games": 12,
+        "bg": "info"
       }
     ]
   },
