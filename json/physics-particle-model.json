@@ -1,0 +1,66 @@
+[
+  {
+    "term": "Density",
+    "meaning": "The mass per unit volume of a material, usually in kg/m^3."
+  },
+  {
+    "term": "Particle model",
+    "meaning": "The model of matter that represents the arrangement and movement of particles in a substance."
+  },
+  {
+    "term": "Solid",
+    "meaning": "A dense state in which particles are uniformly arranged and vibrate around fixed positions."
+  },
+  {
+    "term": "Liquid",
+    "meaning": "A fairly dense state in which particles are free to move around, and fit the shape of their container."
+  },
+  {
+    "term": "Gas",
+    "meaning": "A sparse state in which particles move freely in constant random motion. Can be compressed or expanded."
+  },
+  {
+    "term": "Internal energy",
+    "meaning": "Energy stored inside a system by the particles that make up the system; the total kinetic energy and potential energy of all particles in the system."
+  },
+  {
+    "term": "Specific heat capacity",
+    "meaning": "The amount of energy required to raise the temperature of one kilogram of a substance by one degree Celsius."
+  },
+  {
+    "term": "Specific latent heat",
+    "meaning": "The amount of energy required to change the state of one kilogram of the substance without a change in temperature."
+  },
+  {
+    "term": "Latent heat of fusion",
+    "meaning": "The amount of energy required for a change of state from solid to liquid."
+  },
+  {
+    "term": "Latent heat of vaporisation",
+    "meaning": "The amount of energy required for a chnage of state from liquid to vapour."
+  },
+  {
+    "term": "Work",
+    "meaning": "THe transfer of energy by a force"
+  },
+  {
+    "term": "Melting",
+    "meaning": "A change of state from solid to liquid."
+  },
+  {
+    "term": "Freezing",
+    "meaning": "A change of state from liquid to solid."
+  },
+  {
+    "term": "Evaporating",
+    "meaning": "A change of state from liquid to gas"
+  },
+  {
+    "term": "Condensing",
+    "meaning": "A change of state from gas to liquid."
+  },
+  {
+    "term": "Sublimation",
+    "meaning": "A change of state between gas and solid, without passing through the liquid phase."
+  }
+]
