@@ -73,6 +73,15 @@
     let score_val, length;
     let answerFound = false;
 
+
+    function adjustMargin() {
+      var margin = Math.max((window.innerHeight - container.getBoundingClientRect()['height']) / 2 - 120, 0);
+      container.style.marginTop = `${margin}px`;
+      container.style.maxHeight = `${window.innerHeight - 250}px`;
+    }
+
+    window.addEventListener('resize', adjustMargin);
+
     function getParameterByName(name, url) {
       if (!url) url = window.location.href;
       name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
@@ -200,8 +209,10 @@
       // creates submit button
       const submit_btn = document.createElement('button');
       submit_btn.textContent = 'Submit';
-      submit_btn.classList.add('rbtn', 'info', 'my-3');
+      submit_btn.classList.add('rbtn', 'info', 'my-3', 'submit-btn');
       part_container.appendChild(submit_btn);
+
+      adjustMargin();
 
       // defines what will happen if the submit button is pressed
       return new Promise((resolve) => {
@@ -253,6 +264,8 @@
                 document.querySelector(`.dropdown${boxIndex}`).appendChild(temp_element);
               }
 
+              adjustMargin();
+
               // allows the user to select number of marks
               document.querySelector(`.dropdown${boxIndex}`).querySelectorAll('.dropdown-item').forEach((item) => {
                 item.addEventListener('click', function () {
@@ -267,9 +280,10 @@
                     }
                     if (!answer_box_values.includes(false)) { addNextButton(partCount, resolve); }
                   } else {
-                    current_feedback.textContent = 'Incorrect!';
+                    current_feedback.textContent = 'Incorrect! Have another go and resubmit.';
                     current_feedback.style.color = 'red';
                   }
+                  adjustMargin();
                 });
               });
 
@@ -307,6 +321,7 @@
         resolve();
       })
       container.appendChild(next);
+      document.querySelector('.submit-btn').remove();
     }
 
     function exam() {
