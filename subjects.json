@@ -111,7 +111,14 @@
         "bg": "primary",
         "jsonFile": "b3-infection-and-response",
         "games": 12
-      }
+      },
+        {
+          "index": 4,
+          "displayName": "Homeostasis and response",
+          "bg": "purple",
+          "jsonFile": "homeostasis-and-response",
+          "games": 12
+        }
     ]
   },
   {
