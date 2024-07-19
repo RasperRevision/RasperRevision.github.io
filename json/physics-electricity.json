@@ -16,15 +16,106 @@
     "meaning": "The energy between two points in a circuit per charge, measured in volts."
   },
   {
+    "term": "Cell/battery",
+    "meaning": "A component that provides the circuit with a source of potential difference."
+  },
+  {
     "term": "Diode",
-    "meaning":"An electrical component that only allows electricity to flow one direction."
+    "meaning":"A non-ohmic electrical component that only allows electricity to flow one direction."
+  },
+  {
+    "term": "Light-emitting diode (LED)",
+    "meaning": "A type of diode which emits light when a current travels through it."
+  {
+    "term": "Resistor",
+    "meaning": "A component that opposes the flow of current. Its resistance cannot change."
+  },
+  {
+    "term": "Light-dependent resistor (LDR)",
+    "meaning": "A type of resistor whose resistance is based on light intensity"
   },
   {
     "term": "Variable resistor",
-    "meaning":"A component that changes resistance depending on various factors"
+    "meaning":"A type of resistor whose resistance can be controlled with a slider."
+  },
+  {
+    "term": "Thermistor",
+    "meaning": "A type of resistor that changes its resistance based on temperature"
+  },
+  {
+    "term": "Switch",
+    "meaning": "A component that can stop the flow of electricity of a circuit when it is open."
+  },
+  {
+    "term": "Ammeter",
+    "meaning": "Measures the current in a circuit when connected in series."
+  },
+  {
+    "term": "Voltmeter",
+    "meaning": "Measures the potential difference when connected in parallel with a component."
+  },
+  {
+    "term": "Fuse",
+    "meaning": "A component that breaks the circuit if the current exceeds a certain limit."
+  },
+  {
+    "term": "Ohmic conductor",
+    "meaning": "A conductor that follows Ohm's law, where current is directly proportional to the potential difference."
+  },
+  {
+    "term": "Filament lamp",
+    "meaning": "A non-ohmic conductor, whose resistance increases as the temperature increases."
+  },
+  {
+    "term": "Series circuit",
+    "meaning": "A circuit where the same current flows through each component and the total potential difference is shared between the components."
+  },
+  {
+    "term": "Parallel circuit",
+    "meaning": "A circuit where the total current is the sum of the currents through each component, and potential differnece is the same everywhere."
+  },
+  {
+    "term": "Alternating current (ac)",
+    "meaning": "A current which regularly changes direction and size. Mains electricity is an example of this."
+  },
+  {
+    "term": "Direct current (dc)",
+    "meaning": "An electric current that flows in one direction only."
   },
   {
     "term": "Earth wire",
-    "meaning":"A safety feature in mains electricity that grounds the electricity in case of a break."
+    "meaning":"A safety feature in mains electricity that grounds the electricity in case of a fault."
+  },
+  {
+    "term": "Live wire",
+    "meaning": "The brown wire which carries the alternating voltage from the supply."
+  },
+  {
+    "term": "Neutral wire",
+    "meaning": "The blue wire which completes the circuit."
+  },
+  {
+    "term": "Power",
+    "meaning": "The amount of energy transferred in a second"
+  },
+  {
+    "term": "National grid",
+    "meaning": "A system of cables and transformers linking power stations to consumers"
+  },
+  {
+    "term": "Step-up transformers",
+    "meaning": "Used to increase the potential difference from the power station to the transmission cables."
+  },
+  {
+    "term": "Step-down transformers",
+    "meaning": "Used to decrease the potential difference for domestic use."
+  },
+  {
+    "term": "Static charge",
+    "meaning": "Electric charge that accumulates on an insulating material due to electrons being rubbed off one material and on to the other."
+  },
+  {
+    "term": "Electric field",
+    "meaning": "The area surrounding a charged object where other charged objects will experience a force."
   }
 ]
