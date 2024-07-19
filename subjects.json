@@ -248,6 +248,13 @@
         "jsonFile": "physics-energy",
         "games": 12,
         "bg": "success"
+      },
+      {
+        "index": 3,
+        "displayName": "Electricity",
+        "jsonFile": "physics-electricity",
+        "games": 12,
+        "bg": "turquoise"
       }
     ]
   },
