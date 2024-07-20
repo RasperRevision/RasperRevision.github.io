@@ -46,15 +46,19 @@
 
     <div id="finish-wrapper" class="position-absolute invis" style="left: 50%; transform: translateX(-50%);">
       <div class="finished-text"></div>
-      <button class="rbtn warning restart">Restart</button>
-      <button class="rbtn primary home">Home</button>
+      <div class="d-flex justify-content-center">
+        <div>
+          <button class="rbtn warning restart">Restart</button>
+          <button class="rbtn primary home">Home</button>
+        </div>
+      </div>
     </div>
 
     <div class="invis no-json position-absolute top-50 d-flex justify-content-center w-100"
       style="transform: translateY(-50%);">
       <div class="dark p-5 container">
         <h1>Exam Style Questions</h1>
-        To begin, choose a topic from the menu at the top of the page.
+        To begin, choose a topic from the menu at the bottom of the page.
       </div>
     </div>
 
@@ -62,8 +66,6 @@
 
   <script>
     const section = document.querySelector('.quiz');
-    const home = document.querySelector('.home');
-    const restart = document.querySelector('.restart');
     const finished = document.querySelector('.finished-text');
     const score = document.querySelector('.score');
     const container = document.querySelector('.quiz_content');
@@ -182,6 +184,13 @@
       var count = 0;
 
       for (const box of part.answerBoxes) {
+        if (box.prompt) {
+          const prompt = document.createElement('p');
+          prompt.classList.add('d-inline')
+          prompt.textContent = box.prompt;
+          part_container.appendChild(prompt);
+        }
+
         // creates answer boxes
         if (box.type == 'l') {
           const answer_box = document.createElement('textarea');
@@ -193,6 +202,13 @@
           answer_box.classList.add('form-control', 'w-auto', 'd-inline', 'mx-3');
           part_container.appendChild(answer_box);
           answer_boxes.push(answer_box);
+
+          if (box.unitShown) {
+            const unit = document.createElement('p');
+            unit.classList.add('d-inline');
+            unit.textContent = box.unit;
+            part_container.appendChild(unit);
+          }
         }
 
         const feedback = document.createElement('div');
@@ -339,22 +355,67 @@
 
         // end of game
         stopStopwatch();
-        home.addEventListener('click', function () { location.href = '/'; });
-        restart.addEventListener('click', function () { location.reload(); });
+        document.querySelector('.home').addEventListener('click', () => location.href = '/');
+        document.querySelector('.restart').addEventListener('click', () => location.reload());
         finished.style.cssText = 'text-align: center !important; border:none !important; background: none;';
         finished.innerHTML = `Complete <div style="font-size:100px;">${pad(m)}:${pad(s)}</div>`;
         document.getElementById('finish-wrapper').classList.remove('invis');
       });
     }
 
+
+    async function getSubjectJSON() {
+      const data = await (await fetch('/subjects.json')).json();
+      var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
+      data.forEach((item) => {
+        const subject = item.displayName.replace(/\s/g, "");
+        var topics = "";
+        item.topics.forEach((topic) => {
+          var binary_games = topic.games.toString(2);
+          while (binary_games.length < 5) {
+            binary_games = `0${binary_games}`;
+          }
+
+          if (binary_games[0] == 1) {
+            topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+          }
+        });
+        if (topics != "") {
+          dropdownHTML +=
+            `<div class="accordion-item" style="background: none !important; border: none;">
+        <h2 class="accordion-header" id="${subject}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">
+            ${item.displayName}
+          </button>
+        </h2>
+        <div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion">
+          <div class="accordion-body">
+            <ul class="list-group" id="${subject}ListGroup">
+              ${topics}
+            </ul>
+          </div>
+        </div>
+      </div>`;
+        }
+      });
+      dropdownHTML += '</div>';
+      return dropdownHTML;
+    }
+
+    getSubjectJSON().then((s) => {
+      document.querySelector(".accordion_content").innerHTML = s;
+    });
+
+    document.querySelector(".mobile_nav_btn").addEventListener('click', function () {
+      document.querySelector('.bi-caret-down-fill').classList.toggle('rotated');
+      document.querySelector(".mobile_nav").classList.toggle('active');
+    });
+
     const jsonFileName = getParameterByName('json');
 
     if (jsonFileName == null) {
       document.querySelector('.no-json').classList.remove('invis');
       term_element.classList.add('invis');
-      document.querySelectorAll('.opt').forEach(element => {
-        element.classList.add('invis');
-      });
     } else { exam(); }
   </script>
   <script src="/sidebar.js"></script>

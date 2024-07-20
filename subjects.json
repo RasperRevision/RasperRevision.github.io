@@ -112,13 +112,13 @@
         "jsonFile": "b3-infection-and-response",
         "games": 12
       },
-        {
-          "index": 4,
-          "displayName": "Homeostasis and response",
-          "bg": "purple",
-          "jsonFile": "homeostasis-and-response",
-          "games": 12
-        }
+      {
+        "index": 4,
+        "displayName": "Homeostasis and response",
+        "bg": "purple",
+        "jsonFile": "homeostasis-and-response",
+        "games": 12
+      }
     ]
   },
   {
@@ -246,7 +246,7 @@
         "index": 2,
         "displayName": "Energy",
         "jsonFile": "physics-energy",
-        "games": 12,
+        "games": 28,
         "bg": "success"
       },
       {

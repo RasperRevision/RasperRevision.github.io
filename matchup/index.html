@@ -26,8 +26,8 @@
 
   <!--MATHJAX-->
   <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
 </head>
 
 <body class="overflow-hidden">
@@ -121,11 +121,11 @@
           var topics = "";
           item.topics.forEach((topic) => {
             var binary_games = topic.games.toString(2);
-            while (binary_games.length < 4) {
+            while (binary_games.length < 5) {
               binary_games = `0${binary_games}`;
             }
 
-            if (binary_games[0] == 1) {
+            if (binary_games[1] == 1) {
               topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
             }
           });
