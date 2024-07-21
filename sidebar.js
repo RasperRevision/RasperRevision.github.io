@@ -40,13 +40,9 @@ var icon1 = document.createElement('div');
 var icon2 = document.createElement('div');
 var icon3 = document.createElement('div');
 
-icon.id = "icon";
 icon.classList.add('hamburger-icon');
-icon1.id = "a";
 icon1.classList.add('icon-1');
-icon2.id = "b";
 icon2.classList.add('icon-2');
-icon3.id = "c";
 icon3.classList.add('icon-3');
 
 icon.appendChild(icon1);
