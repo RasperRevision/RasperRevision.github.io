@@ -1,0 +1,116 @@
+[
+  {
+    "question": "Figure 1 shows how the National Grid connects a power station to consumers.",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Complete the sentences.",
+        "answerBoxes": [
+          {
+            "type": "s",
+            "prompt": "Transformer X causes the potential difference to",
+            "answers": [
+              "increase"
+            ],
+            "exact": false,
+            "marks": 1
+          },
+          {
+            "type": "s",
+            "prompt": "Transformer X causes the current to",
+            "answers": [
+              "decrease"
+            ],
+            "exact": false,
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "Which equation links current (I), power (P), and resistance (R)?",
+        "answerBoxes": [
+          {
+            "type": "r",
+            "options": [
+              "P = I/R",
+              "P = I/R^2",
+              "P = IR"
+            ],
+            "answers": [
+              "P = I^2R"
+            ],
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "question": "A transmission cable has a power loss of 1.60 × 10^9 W. The current in the cable is 2000 A. Calculate the resistance of the cable.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "1.60 × 10^9 = 2000^2 × R",
+              "R = 1.60 × 10^9 / 2000^2"
+            ],
+            "exact": false,
+            "marks": 2
+          },
+          {
+            "type": "s",
+            "prompt": "Resistance = ",
+            "answers": [
+              400
+            ],
+            "exact": true,
+            "marks": 1,
+            "unit": "Ω",
+            "unitShown": true
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "question": "Write down the equation which links efficiency, total energy input and useful energy output.",
+        "answerBoxes": [
+          {
+            "type": "s",
+            "answers": [
+              "Either of the following:",
+              "efficiency = useful energy output / total energy input",
+              "efficiency = useful output energy transfer / total input energy transfer"
+            ],
+            "exact": false,
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "question": "The total energy input to the National Grid from one power station is 34.2 GJ. The National Grid has an efficiency of 0.992. Calculate the usefu energy output from this power station to consumers in GJ.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "0.992 = useful energy output / 34.2",
+              "useful energy output = 0.992 × 34.2"
+            ],
+            "exact": false,
+            "marks": 2
+          },
+          {
+            "type": "s",
+            "answers": [
+              33.9
+            ],
+            "exact": true,
+            "marks": 1,
+            "unit": "GJ",
+            "unitShown": true
+          }
+        ]
+      }
+    ]
+  }
+]
