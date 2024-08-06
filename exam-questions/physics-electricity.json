@@ -40,7 +40,8 @@
             "answers": [
               "P = I^2R"
             ],
-            "marks": 1
+            "marks": 1,
+            "exact": true
           }
         ]
       },

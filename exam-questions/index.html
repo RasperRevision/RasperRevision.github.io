@@ -169,6 +169,11 @@
       main_question.textContent = '';
     }
 
+    function isInt(value) {
+      var x;
+      return isNaN(value) ? !1 : (x = parseFloat(value), (0 | x) === x);
+    }
+
     async function processPart(part, partCount) {
       // creates a container div for the current question part
       const part_container = document.createElement('div');
@@ -197,7 +202,7 @@
           answer_box.classList.add('form-control', 'w-100', 'my-3');
           part_container.appendChild(answer_box);
           answer_boxes.push(answer_box);
-        } else {
+        } else if (box.type == 's') {
           const answer_box = document.createElement('input');
           answer_box.classList.add('form-control', 'w-auto', 'd-inline', 'mx-3');
           part_container.appendChild(answer_box);
@@ -209,6 +214,25 @@
             unit.textContent = box.unit;
             part_container.appendChild(unit);
           }
+        } else if (box.type == 'r') {
+          const radio_parent = document.createElement('div');
+          let html = ``;
+          let answers = box.options;
+          answers.push(box.answers);
+          answers = shuffle(answers);
+          answers.forEach((answer) => {
+            html += `
+            <div class="form-check">
+              <input class="form-check-input" name="radio" type="radio" id="radio${answer}">
+              <label class="form-check-label" for="radio${answer}">
+                ${answer}
+              </label>
+            </div>
+            `;
+          })
+          radio_parent.innerHTML = html;
+          part_container.appendChild(radio_parent);
+          answer_boxes.push(radio_parent);
         }
 
         const feedback = document.createElement('div');
@@ -234,26 +258,38 @@
       return new Promise((resolve) => {
         submit_btn.addEventListener('click', function () {
           let answer_box_values = [];
-          answer_boxes.forEach(() => {
-            answer_box_values.push(false);
-          });
+          answer_boxes.forEach(() => answer_box_values.push(false));
 
           // goes through each answer box to check if it's correct
           part.answerBoxes.forEach((box, boxIndex) => {
-            let userAnswer = answer_boxes[boxIndex].value.trim();
-            let current_feedback = feedback_boxes[boxIndex];
-            current_feedback.innerHTML = '';
+            var userAnswer;
+            var current_feedback;
+
+            let current_box = answer_boxes[boxIndex];
+
+            if (current_box.value != null) {
+              userAnswer = current_box.value.trim();
+              current_feedback = feedback_boxes[boxIndex];
+              current_feedback.innerHTML = '';
+            } else {
+              const radio_buttons = current_box.querySelectorAll('.form-check-input');
+              radio_buttons.forEach((button, btnIndex) => {
+                if (button.checked) userAnswer = current_box.querySelectorAll('.form-check-label')[btnIndex].textContent;
+              });
+              current_feedback = feedback_boxes[boxIndex];
+              current_feedback.innerHTML = '';
+            }
 
             if (box.exact) {
               // converts userAnswer to appropriate format, whether it is an int or string.
-              try {
-                userAnswer = parseInt(userAnswer);
-              } catch (e) {
-                userAnswer = userAnswer.toLowerCase();
-              }
+              if (isInt(userAnswer)) userAnswer = parseInt(userAnswer);
+              else userAnswer = userAnswer.toLowerCase().trim();
+
+              try { box.answers[0] = box.answers[0].toLowerCase(); }
+              catch (e) { };
 
               // checks if it is correct
-              if (box.answers[0] !== userAnswer) {
+              if (box.answers[0] != userAnswer) {
                 current_feedback.textContent = 'Incorrect!';
                 current_feedback.style.color = 'red';
               } else {
