@@ -283,21 +283,35 @@
             if (box.exact) {
               // converts userAnswer to appropriate format, whether it is an int or string.
               if (isInt(userAnswer)) userAnswer = parseInt(userAnswer);
+              else if (!isNaN(userAnswer) && userAnswer.indexOf('.') != -1) userAnswer = parseFloat(userAnswer);
               else userAnswer = userAnswer.toLowerCase().trim();
 
               try { box.answers[0] = box.answers[0].toLowerCase(); }
               catch (e) { };
 
               // checks if it is correct
-              if (box.answers[0] != userAnswer) {
-                current_feedback.textContent = 'Incorrect!';
-                current_feedback.style.color = 'red';
+              if (box.alternatives) {
+                if (!box.answers.includes(userAnswer) && !box.alternatives.includes(userAnswer)) {
+                  current_feedback.textContent = 'Incorrect!';
+                  current_feedback.style.color = 'red';
+                } else {
+                  current_feedback.textContent = 'Correct!';
+                  current_feedback.style.color = 'green';
+                  score_val += box.marks;
+                  updateScore();
+                  answer_box_values[boxIndex] = true;
+                }
               } else {
-                current_feedback.textContent = 'Correct!';
-                current_feedback.style.color = 'green';
-                score_val += box.marks;
-                updateScore();
-                answer_box_values[boxIndex] = true;
+                if (!box.answers.includes(userAnswer)) {
+                  current_feedback.textContent = 'Incorrect!';
+                  current_feedback.style.color = 'red';
+                } else {
+                  current_feedback.textContent = 'Correct!';
+                  current_feedback.style.color = 'green';
+                  score_val += box.marks;
+                  updateScore();
+                  answer_box_values[boxIndex] = true;
+                }
               }
             } else {
               // non-exact answers are always strings
@@ -305,7 +319,7 @@
 
               // creates mark scheme text
               let current_mark_scheme = mark_scheme_boxes[boxIndex];
-              const ms_text = `<h6>Self-marked-question. Select the number of marks you think you deserve based on the mark scheme.</h6><div class="dropdown d-inline me-2"><button class="btn btn-secondary dropdown-toggle dropdownButton${boxIndex}" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select</button><ul class="dropdown-menu dropdown${boxIndex}"></ul></div>mark(s)<br><h6 class=mt-3>Mark scheme</h6><ul class=markScheme${boxIndex}></ul><h6 class=allow></h6><ul class=altMarkScheme${boxIndex}>`;
+              const ms_text = `<h6>Self-marked-question. Select the number of marks you think you deserve based on the mark scheme.</h6><div class="dropdown d-inline me-2"><button class="btn btn-secondary dropdown-toggle dropdownButton${boxIndex}" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select</button><ul class="dropdown-menu dropdown${boxIndex}"></ul></div>mark(s)<br><h6 class=mt-3>Mark scheme</h6><ul class=markScheme${boxIndex}></ul><h6 class=allow></h6><ul class=altMarkScheme${boxIndex}></ul><h6 class=indicative></h6><ul class=indicativeMarkScheme${boxIndex}></ul>`;
               current_mark_scheme.innerHTML = ms_text;
 
               // sets up mark dropdown properly
@@ -346,12 +360,21 @@
                 document.querySelector(`.markScheme${boxIndex}`).appendChild(answer_text);
               });
 
-              if (box.alternatives != null) {
+              if (box.alternatives) {
                 document.querySelector('.allow').textContent = 'Allow:'
                 box.alternatives.forEach((alt) => {
                   const alt_element = document.createElement('li');
                   alt_element.textContent = alt;
                   document.querySelector(`.altMarkScheme${boxIndex}`).appendChild(alt_element);
+                });
+              }
+
+              if (box.indicative) {
+                document.querySelector('.indicative').textContent = 'Indicative content:'
+                box.indicative.forEach((item) => {
+                  const indicative_element = document.createElement('li');
+                  indicative_element.textContent = item;
+                  document.querySelector(`.indicativeMarkScheme${boxIndex}`).appendChild(indicative_element);
                 });
               }
             }

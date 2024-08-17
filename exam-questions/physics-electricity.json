@@ -113,5 +113,128 @@
         ]
       }
     ]
+  },
+  {
+    "question": "FIGURE 4 shows an electrical circuit used to heat the windscreen of a car. Each resistor in the circuit represents a heating element.",
+    "parts": [
+      {
+        "index": 1,
+        "question": "The 12 V battery supplies direct potential difference. What is meant by 'direct potential difference'?",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "polarity of the potential difference doesn't change"
+            ],
+            "alternatives": [
+              "direction of the potential difference doesn't change"
+            ],
+            "marks": 1,
+            "exact": false
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "Which equation links charge flow (Q), energy (E) and potential difference (V)?",
+        "answerBoxes": [
+          {
+            "type": "r",
+            "answers": [
+              "E = QV"
+            ],
+            "options": [
+              "E = V/Q",
+              "E = Q/V",
+              "E = V^2/Q"
+            ],
+            "marks": 1,
+            "exact": true
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "question": "Calculate the charge flow through the 12 V battery when the battery transfers 5010 J of energy.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "5010 = Q × 12",
+              "Q = 5010 / 12"
+            ],
+            "marks": 2,
+            "exact": false
+          },
+          {
+            "type": "s",
+            "answers": [
+              417.5
+            ],
+            "alternatives": [
+              418
+            ],
+            "exact": true,
+            "marks": 1,
+            "unit": "C",
+            "unitShown": true,
+            "prompt": "Charge flow = "
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "question": "Ice forms on the windscreen at a temperature of 0 °C. The electrical circuit transfers 5010 J of energy to the ice. A mass of 0.015 kg of ice melts. Calculate the specific latent heat of fusion of water.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "5010 = 0.015 × L",
+              "L = 5010 / 0.015"
+            ],
+            "marks": 2,
+            "exact": false
+          },
+          {
+            "type": "s",
+            "answers": [
+              334000
+            ],
+            "exact": true,
+            "marks": 1,
+            "unit": "J/kg",
+            "unitShown": true,
+            "prompt": "Specific latent heat of fusion of water = "
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "question": "The electrical circuit was left switched on while the ice changed from a solid to a liquid and increased in temperature to 5 °C. Explain the changes in the arrangement AND movement of the particles as the ice melted and the temperature increased to 5 °C.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "Level 3: Relevant points (reasons / causes) are identified, given in detail and logically linked to form a clear account. (5-6 marks)",
+              "Level 2: Relevant points (reasons / causes) are identified, and there are attempts at logical linking. The resulting account is not fully clear. (3-4 marks)",
+              "Level 1: Points are identified and stated simply, but their relevance is not clear and there is no attempt at logical linking. (1-2 marks)",
+              "No relevant content (0 marks)"
+            ],
+            "indicative": [
+              "particles in a solid are in a regular pattern",
+              "particles in a liquid are in a random arrangement",
+              "particles in a solid are vibrating about fixed positions",
+              "particles in a liquid are moving freely",
+              "as the ice changes to water the temperature remains constant",
+              "because as the ice changes to water the potential energy of the particles increases",
+              "as the water warms the particles move faster",
+              "so the kinetic energy of the particles increases",
+              "internal energy is the total kinetic and potential energy of all the particles"
+            ],
+            "marks": 6
+          }
+        ]
+      }
+    ]
   }
 ]
