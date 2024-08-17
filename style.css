@@ -302,6 +302,10 @@ body::-webkit-scrollbar {
   background: linear-gradient(35deg, rgba(41, 49, 58, 0.508), rgba(44, 50, 63, 0.338));
 }
 
+.rasper-green {
+  background: var(--rasper-green);
+}
+
 .icon-1,
 .icon-2,
 .icon-3 {
