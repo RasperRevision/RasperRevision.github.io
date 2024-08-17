@@ -304,6 +304,7 @@ body::-webkit-scrollbar {
 
 .rasper-green {
   background: var(--rasper-green);
+  text-shadow: 1px 1px 8px black;
 }
 
 .icon-1,
