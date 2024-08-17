@@ -159,12 +159,7 @@
       if (correct) {
         submitButton.classList.add('invis');
         nextButton.classList.remove('invis');
-      } else {
-        setTimeout(function () {
-          resultElement.textContent = "";
-          inputElement.value = "";
-        }, 2000)
-      }
+      } else { setTimeout(function () { resultElement.textContent = "" }, 2000)}
     }
 
     function nextQuote() {
