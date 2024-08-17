@@ -157,9 +157,25 @@
 
     async function processItem(item) {
       container.innerHTML = '';
+
+      if (item.img) {
+        const question_img = document.createElement('img');
+        question_img.src = `imgs/${item.img}.png`;
+        question_img.style.maxWidth = '100%';
+        question_img.style.maxHeight = '250px';
+        question_img.style.padding = '15px';
+        question_img.onload = adjustMargin;
+
+        const img_wrapper = document.createElement('div');
+        img_wrapper.classList.add('d-flex', 'justify-content-center', 'w-100');
+        img_wrapper.appendChild(question_img);
+        container.append(img_wrapper);
+      }
+
       const main_question = document.createElement('h3');
       main_question.textContent = item.question;
-      container.appendChild(main_question);
+
+      container.append(main_question);
 
       let partCount = 0;
       for (const part of item.parts) {

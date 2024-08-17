@@ -1,6 +1,7 @@
 [
   {
-    "question": "Figure 1 shows how the National Grid connects a power station to consumers.",
+    "question": "The image shows how the National Grid connects a power station to consumers.",
+    "img": "physics-electricity-q1",
     "parts": [
       {
         "index": 1,
@@ -115,7 +116,8 @@
     ]
   },
   {
-    "question": "FIGURE 4 shows an electrical circuit used to heat the windscreen of a car. Each resistor in the circuit represents a heating element.",
+    "question": "The image shows an electrical circuit used to heat the windscreen of a car. Each resistor in the circuit represents a heating element.",
+    "img": "physics-electricity-q2",
     "parts": [
       {
         "index": 1,

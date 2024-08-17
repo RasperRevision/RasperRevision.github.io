@@ -1,6 +1,7 @@
 [
   {
-    "question": "Figure 1 shows a large wind farm off the coast of the UK. The mean power output of the wind farm is 696 MW, which is enough power for 580,000 homes. ",
+    "question": "The image shows a large wind farm off the coast of the UK. The mean power output of the wind farm is 696 MW, which is enough power for 580,000 homes.",
+    "img": "physics-energy-q1",
     "parts": [
       {
         "index": 1,
