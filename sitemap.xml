@@ -12,7 +12,7 @@
 <loc>https://rasperrevision.github.io/fill-in-the-blank</loc>
 </url>
 <url>
-<loc>https://rasperrevision.github.io/equations</loc>
+<loc>https://rasperrevision.github.io/equations?json=physics_equations.json</loc>
 </url>
 <url>
 <loc>https://rasperrevision.github.io/about</loc>
@@ -25,5 +25,8 @@
 </url>
 <url>
 <loc>https://rasperrevision.github.io/contact</loc>
+</url>
+<url>
+<loc>https://rasperrevision.github.io/exam-questions</loc>
 </url>
 </urlset>
