@@ -354,6 +354,15 @@
   <loc>https://rasperrevision.github.io/fill-in-the-blank</loc>
 </url>
 <url>
+  <loc>https://rasperrevision.github.io/fill-in-the-blank?json=macbeth</loc>
+</url>
+<url>
+  <loc>https://rasperrevision.github.io/fill-in-the-blank?json=christmas_carol</loc>
+</url>
+<url>
+  <loc>https://rasperrevision.github.io/fill-in-the-blank?json=cold_war</loc>
+</url>
+<url>
   <loc>https://rasperrevision.github.io/equations?json=physics_equations.json</loc>
 </url>
 <url>
@@ -370,5 +379,11 @@
 </url>
 <url>
   <loc>https://rasperrevision.github.io/exam-questions</loc>
+</url>
+<url>
+  <loc>https://rasperrevision.github.io/exam-questions?json=physics-energy</loc>
+</url>
+<url>
+  <loc>https://rasperrevision.github.io/exam-questions?json=physics-electricity</loc>
 </url>
 </urlset>
