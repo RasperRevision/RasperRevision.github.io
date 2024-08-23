@@ -401,7 +401,7 @@
             if (topic.jsonFile == jsonFileName) {
               current_topic = topic.displayName;
               current_subject = item.displayName;
-              window.title = `${topic.displayName} - Quiz`;
+              document.title = `${topic.displayName} - Quiz`;
               quiz(current_topic, current_subject)
             }
           });
@@ -411,9 +411,7 @@
     } else {
       document.querySelector('.no-json').classList.remove('invis');
       term_element.classList.add('invis');
-      document.querySelectorAll('.opt').forEach(element => {
-        element.classList.add('invis');
-      });
+      document.querySelectorAll('.opt').forEach(element => element.classList.add('invis'));
     }
   </script>
   <script src="/sidebar.js"></script>
