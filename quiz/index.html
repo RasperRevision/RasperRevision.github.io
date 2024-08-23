@@ -466,7 +466,7 @@
               current_topic = topic.displayName;
               current_subject = item.displayName;
               document.title = `${topic.displayName} - Quiz`;
-              generateStructuredData(current_topic);
+              generateStructuredData(`/json/${getParameterByName('json')}.json`, current_topic);
               quiz(current_topic, current_subject);
             }
           });
