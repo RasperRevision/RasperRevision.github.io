@@ -1,6 +1,6 @@
 const html = `<header class="d-flex justify-content-between main_header align-items-center">
   <div class="p-0 ms-5">
-    <a href="/" aria-label="Home"><img height="70" src="/assets/wide_logo.png" aria-label="Rasper Revision Logo"></a>
+    <a href="/" aria-label="Home"><img height="70" src="/assets/wide_logo.png" aria-label="Rasper Revision Logo" alt="Rasper Revision Logo"></a>
   </div>
   <ul class="nav h-100 d-none d-md-flex align-items-center">
     <li class="nav-item fs-5"><a style="display: inline !important" href="/create"
@@ -19,7 +19,7 @@ const html = `<header class="d-flex justify-content-between main_header align-it
 <div class="d-flex sidebar-wrapper" id="wrapper">
   <div id="sidebar" style="z-index: 1000;">
     <a class="d-flex justify-content-center mb-5" href="/">
-      <img class="side-logo" src="/assets/regular_logo_notext.png">
+      <img class="side-logo" src="/assets/regular_logo_notext.png" aria-label="Rasper Revision Logo" alt="Rasper Revision Logo">
     </a>
     <ul class="list-group list-group-flush">
       <li><a href="/create" class="list-group-item">Create</a></li>
