@@ -383,7 +383,7 @@
       return dropdownHTML;
     }
 
-    function generateStructuredData(path, topic) {
+    function generateStructuredData(path, subject, topic) {
       fetch(path)
       .then(response => response.json())
       .then(data => {
@@ -391,45 +391,68 @@
         const structuredData = {
           "@context": "https://schema.org",
           "@type": "Quiz",
-          "name": `${topic}`,
-          "description": `Practice questions for ${topic}`,
+          "typicalAgeRange": "14-16",
+          "educationalAlignment": [
+            {
+              "@type": "AlignmentObject",
+              "alignmentType": "educationalSubject",
+              "targetName": subject
+            }
+          ],
+          "about": {
+            "@type": "Thing",
+            "name": topic
+          },
+          "name": `Practice questions for ${topic}`,
           "hasPart": data.map((item, index) => {
             const incorrectAnswers = shuffle(correctAnswers.filter((_, i) => i !== index)).slice(0, 3);
+            const positions = shuffle([0, 1, 2, 3]);
             if (item.term) {
               return {
                 "@type": "Question",
-                "text": `Define ${item.term}`,
+                "eduQuestionType": "Multiple choice",
+                "learningResourceType": "Practice problem",
+                "name": "Key term definition",
+                "text": item.term,
+                "encodingFormat": "text/html",
                 "answerCount": 4,
-                "suggestedAnswer": shuffle([
-                  {
-                    "@type": "Answer",
-                    "text": item.meaning,
-                    "isCorrect": true
-                  },
-                  ...incorrectAnswers.map(answer => ({
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": item.meaning,
+                  "position": positions[0],
+                  "encodingFormat": "text/html"
+                },
+                "suggestedAnswer": [
+                  ...incorrectAnswers.map((answer, i) => ({
                     "@type": "Answer",
                     "text": answer,
-                    "isCorrect": false
+                    "position": positions[i+1],
+                    "encodingFormat": "text/html"
                   }))
-                ])
+                ]
               };
             } else {
               return {
                 "@type": "Question",
-                "text": `Define ${item.german}`,
+                "eduQuestionType": "Multiple choice",
+                "learningResourceType": "Practice problem",
+                "name": "Translation",
+                "text": `Translate ${item.german} to English`,
                 "answerCount": 4,
-                "suggestedAnswer": shuffle([
-                  {
-                    "@type": "Answer",
-                    "text": item.english,
-                    "isCorrect": true
-                  },
-                  ...incorrectAnswers.map(answer => ({
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": item.english,
+                  "encodingFormat": "text/html",
+                  "position": positions[0]
+                },
+                "suggestedAnswer": [
+                  ...incorrectAnswers.map((answer, i) => ({
                     "@type": "Answer",
                     "text": answer,
-                    "isCorrect": false
+                    "encodingFormat": "text/html", 
+                    "position": positions[i+1]
                   }))
-                ])
+                ]
               };
             }
           })
@@ -463,7 +486,7 @@
               current_topic = topic.displayName;
               current_subject = item.displayName;
               document.title = `${topic.displayName} - Quiz`;
-              generateStructuredData(`/json/${getParameterByName('json')}.json`, current_topic);
+              generateStructuredData(`/json/${getParameterByName('json')}.json`, current_subject, current_topic);
               quiz(current_topic, current_subject);
             }
           });
