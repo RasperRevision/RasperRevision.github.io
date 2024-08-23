@@ -393,7 +393,7 @@
           "@type": "Quiz",
           "name": `${topic}`,
           "description": `Practice questions for ${topic}`,
-          "mainEntity": data.map((item, index) => {
+          "hasPart": data.map((item, index) => {
             const incorrectAnswers = shuffle(correctAnswers.filter((_, i) => i !== index)).slice(0, 3);
             if (item.term) {
               return {
