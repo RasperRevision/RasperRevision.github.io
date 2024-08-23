@@ -282,8 +282,6 @@
         modalContainer.querySelector('#subject').textContent = subject;
         modalContainer.querySelector('#topic').textContent = topic;
 
-        window.title = `${title} - Quiz`;
-
         rangeInput = document.getElementById('customRange1');
         rangeLabel = document.getElementById('rangeLabel');
 
@@ -403,6 +401,7 @@
             if (topic.jsonFile == jsonFileName) {
               current_topic = topic.displayName;
               current_subject = item.displayName;
+              window.title = `${topic.displayName} - Quiz`;
               quiz(current_topic, current_subject)
             }
           });
