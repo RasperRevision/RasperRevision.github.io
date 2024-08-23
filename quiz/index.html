@@ -23,6 +23,9 @@
 
   <!-- STYLES -->
   <link href="/style.css" rel="stylesheet">
+
+  <!-- PRACTICE PROBLEM STRUCTURED DATA -->
+  <script id="struct-data-script" type="application/ld+json"></script>
 </head>
 
 <body class="overflow-hidden">
@@ -383,6 +386,66 @@
       return dropdownHTML;
     }
 
+    function generateStructuredData(path, topic) {
+      fetch(path)
+      .then(response => response.json())
+      .then(data => {
+        const correctAnswers = data.map(item => item.meaning);
+        const structuredData = {
+          "@context": "https://schema.org",
+          "@type": "Quiz",
+          "name": `${topic}`,
+          "description": `Practice questions for ${topic}`,
+          "mainEntity": data.map((item, index) => {
+            const incorrectAnswers = shuffle(correctAnswers.filter((_, i) => i !== index)).slice(0, 3);
+            if (item.term) {
+              return {
+                "@type": "Question",
+                "text": `Define ${item.term}`,
+                "answerCount": 4,
+                "suggestedAnswer": shuffle([
+                  {
+                    "@type": "Answer",
+                    "text": item.meaning,
+                    "isCorrect": true
+                  },
+                  ...incorrectAnswers.map(answer => ({
+                    "@type": "Answer",
+                    "text": answer,
+                    "isCorrect": false
+                  }))
+                ])
+              };
+            } else {
+              return {
+                "@type": "Question",
+                "text": `Define ${item.german}`,
+                "answerCount": 4,
+                "suggestedAnswer": shuffle([
+                  {
+                    "@type": "Answer",
+                    "text": item.english,
+                    "isCorrect": true
+                  },
+                  ...incorrectAnswers.map(answer => ({
+                    "@type": "Answer",
+                    "text": answer,
+                    "isCorrect": false
+                  }))
+                ])
+              };
+            }
+          })
+        };
+        
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.innerHTML = JSON.stringify(structuredData, null, 2);
+        document.head.appendChild(script);
+      })
+      .catch(error => console.error(error));
+    }
+
     getSubjectJSON().then((s) => {
       document.querySelector(".accordion_content").innerHTML = s;
     });
@@ -403,12 +466,12 @@
               current_topic = topic.displayName;
               current_subject = item.displayName;
               document.title = `${topic.displayName} - Quiz`;
-              quiz(current_topic, current_subject)
+              generateStructuredData(current_topic);
+              quiz(current_topic, current_subject);
             }
           });
         });
       });
-
     } else {
       document.querySelector('.no-json').classList.remove('invis');
       term_element.classList.add('invis');
