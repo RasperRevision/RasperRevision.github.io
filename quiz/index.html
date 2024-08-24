@@ -488,14 +488,13 @@
     const jsonFileName = getParameterByName('json');
 
     if (jsonFileName != null) {
-      let current_subject, current_topic;
       getJSON().then((data) => {
         data.forEach((item) => {
           item.topics.forEach((topic) => {
             if (topic.jsonFile == jsonFileName) {
-              current_topic = topic.displayName;
-              current_subject = item.displayName;
-              document.title = `${topic.displayName} - Quiz`;
+              let current_topic = topic.displayName;
+              let current_subject = item.displayName;
+              document.title = `${current_topic} (${current_subject}) - Rasper Revision`;
               generateStructuredData(`/json/${getParameterByName('json')}.json`, current_subject, current_topic);
               quiz(current_topic, current_subject);
             }
