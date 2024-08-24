@@ -76,9 +76,6 @@
 
     <script>
       const container = document.querySelector('.elements');
-      const stopwatch = document.querySelector('.stopwatch');
-      const pills = document.querySelectorAll('.dropdown-item');
-      const finished = document.querySelector('.matchup_finished');
       const score = document.querySelector('.score');
 
       let timer;
@@ -90,7 +87,7 @@
       let definitionChosen = "", termChosen = "";
 
       function startStopwatch() {
-        timer = setInterval(function () {
+        timer = setInterval(() => {
           s++;
           if (s === 60) {
             s = 0;
@@ -98,7 +95,7 @@
           }
 
           formattedTime = pad(m) + ':' + pad(s);
-          stopwatch.textContent = formattedTime;
+          document.querySelector('.stopwatch').textContent = formattedTime;
         }, 1000);
       }
 
@@ -122,44 +119,24 @@
       }
 
       async function getSubjectJSON() {
-        const data = await (await fetch('/subjects.json')).json();
+        const data = (await fetch('/subjects.json')).json();
         var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
-        data.forEach((item) => {
+        data.forEach(item => {
           const subject = item.displayName.replace(/\s/g, "");
           var topics = "";
-          item.topics.forEach((topic) => {
+          item.topics.forEach(topic => {
             var binary_games = topic.games.toString(2);
-            while (binary_games.length < 5) {
-              binary_games = `0${binary_games}`;
-            }
+            while (binary_games.length < 5) binary_games = `0${binary_games}`;
 
-            if (binary_games[1] == 1) {
-              topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
-            }
+            if (binary_games[1] == 1) topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
           });
-          dropdownHTML +=
-            `<div class="accordion-item" style="background: none !important; border: none;">
-        <h2 class="accordion-header" id="${subject}">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">
-            ${item.displayName}
-          </button>
-        </h2>
-        <div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion">
-          <div class="accordion-body">
-            <ul class="list-group" id="${subject}ListGroup">
-              ${topics}
-            </ul>
-          </div>
-        </div>
-      </div>`;
+          dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
         });
         dropdownHTML += '</div>';
         return dropdownHTML;
       }
 
-      getSubjectJSON().then((s) => {
-        document.querySelector(".accordion_content").innerHTML = s;
-      });
+      getSubjectJSON().then(s => document.querySelector(".accordion_content").innerHTML = s);
 
       document.querySelector(".mobile_nav_btn").addEventListener('click', function () {
         document.querySelector('.bi-caret-down-fill').classList.toggle('rotated');
@@ -171,9 +148,7 @@
         if (array.length <= count) return array;
 
         let indexes = new Set();
-        while (indexes.size < count) {
-          indexes.add(Math.floor(Math.random() * array.length));
-        }
+        while (indexes.size < count) indexes.add(Math.floor(Math.random() * array.length));
 
         return [...indexes].map(index => array[index]);
       }
@@ -189,9 +164,8 @@
             var jsonString = event.target.result;
             var jsonArray = JSON.parse(jsonString);
             jsonArray.forEach(function (obj) { obj.newProperty = 'newValue'; });
-            if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) {
-              callback(jsonArray);
-            } else {
+            if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) callback(jsonArray);
+            else {
               alert("Incompatible file");
               location.reload();
             }
@@ -203,9 +177,9 @@
           var xobj = new XMLHttpRequest();
           xobj.overrideMimeType("application/json");
           xobj.open('GET', jsonFile, true);
-          xobj.onreadystatechange = function () {
-            if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
-          };
+          xobj.onreadystatechange = () => {
+            if (xobj.readyState == 4 && xobj.status == 200) callback(JSON.parse(xobj.responseText));
+          }
           xobj.send(null);
         }
       }
@@ -239,12 +213,11 @@
           term.style.left = (Math.random() * (window.innerWidth - 500)) + 'px';
           term.style.top = 'calc(' + nums[count] + '%' + ' + 250px)';
 
-          document.querySelector('.elements').appendChild(definition);
-          document.querySelector('.elements').appendChild(term);
+          document.querySelector('.elements').append(definition, term);
           count++;
         });
 
-        return new Promise((resolve) => { waitForButton(resolve); });
+        return new Promise(resolve => waitForButton(resolve));
       }
 
       function updateScore() { score.textContent = `${score_value}/${length}`; }
@@ -259,8 +232,8 @@
 
           document.body.appendChild(modalContainer);
 
-          modalContainer.querySelector('#subject').textContent = subject;
-          modalContainer.querySelector('#topic').textContent = topic;
+          modalContainer.getElementById('subject').textContent = subject;
+          modalContainer.getElementById('topic').textContent = topic;
 
           rangeInput = document.getElementById('customRange1');
           rangeLabel = document.getElementById('rangeLabel');
@@ -268,13 +241,11 @@
           modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
           modal.show();
 
-          rangeInput.addEventListener('input', () => {
-            rangeLabel.textContent = rangeInput.value;
-          });
+          rangeInput.addEventListener('input', () => rangeLabel.textContent = rangeInput.value);
         }
 
 
-        loadJSON(async function (response) {
+        loadJSON(async response => {
           json_data = shuffle(response);
           length = json_data.length;
 
@@ -286,9 +257,7 @@
 
             document.getElementById("complete").textContent = `Complete (${length} questions)`;
 
-            await new Promise((resolve) => {
-              document.querySelector('.begin-game').addEventListener('click', resolve);
-            });
+            await new Promise(resolve => document.querySelector('.begin-game').addEventListener('click', resolve));
 
             modal.hide();
             startStopwatch();
@@ -307,7 +276,7 @@
               }
             } else {
               while (true) {
-                if (json_data.length == 0) { break; }
+                if (json_data.length == 0) break;
                 await process();
                 for (let j = 0; j < json_data.length; j++) {
                   if (termChosen == json_data[j].term || termChosen == json_data[j].german) {
@@ -322,18 +291,21 @@
           // end
           container.style.display = 'none';
           clearInterval(timer);
+
+          const finished = document.querySelector('.matchup_finished');
+
           finished.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
+
           const home = document.createElement('button');
           home.textContent = 'Home';
-          home.classList.add('btn');
-          home.classList.add('btn-primary');
-          home.classList.add('ms-4');
-          home.addEventListener('click', function () { location.href = '/'; });
+          home.classList.add('btn', 'btn-primary', 'ms-4');
+          home.addEventListener('click', () => location.href = '/');
+
           const restart = document.createElement('button');
           restart.textContent = 'Restart';
-          restart.classList.add('btn');
-          restart.classList.add('btn-warning');
-          restart.addEventListener('click', function () { location.reload(); });
+          restart.classList.add('btn', 'btn-warning');
+          restart.addEventListener('click', () => location.reload());
+
           finished.appendChild(restart);
           finished.appendChild(home);
           return;
@@ -343,16 +315,14 @@
       function waitForButton(callback) {
         const handleDefClick = (event) => {
           definitionChosen = event.target.textContent;
-          document.querySelectorAll(".definition").forEach((item) => {
-            item.style.outline = '';
-          });
+          document.querySelectorAll(".definition").forEach(item => item.style.outline = '');
           event.target.style.outline = '5px solid white';
           if (termChosen != "") {
             for (let i = 0; i < json_data.length; i++) {
               const item = json_data[i];
               if ((item.term == termChosen && item.meaning == definitionChosen) ||
                 (item.german == termChosen && item.english == definitionChosen)) {
-                while (container.firstChild) { container.removeChild(container.firstChild); }
+                while (container.firstChild) container.removeChild(container.firstChild);
                 callback(event);
                 cleanup();
                 score_value++;
@@ -365,9 +335,7 @@
 
         const handleTermClick = (event) => {
           termChosen = event.target.textContent;
-          document.querySelectorAll(".term").forEach((item) => {
-            item.style.outline = '';
-          });
+          document.querySelectorAll(".term").forEach(item => item.style.outline = '');
           event.target.style.outline = '5px solid white';
 
           if (definitionChosen != "") {
@@ -375,7 +343,7 @@
               const item = json_data[i];
               if ((item.term == termChosen && item.meaning == definitionChosen) ||
                 (item.german == termChosen && item.english == definitionChosen)) {
-                while (container.firstChild) { container.removeChild(container.firstChild); }
+                while (container.firstChild) container.removeChild(container.firstChild);
                 callback(event);
                 cleanup();
                 score_value++;
@@ -387,37 +355,27 @@
         }
 
         const cleanup = () => {
-          document.querySelectorAll('.definition').forEach((definition_element) => {
-            definition_element.removeEventListener('click', handleDefClick);
-          });
-
-          document.querySelectorAll('.term').forEach((term_element) => {
-            term_element.removeEventListener('click', handleTermClick);
-          });
+          document.querySelectorAll('.definition').forEach(elem => elem.removeEventListener('click', handleDefClick));
+          document.querySelectorAll('.term').forEach(elem => elem.removeEventListener('click', handleTermClick));
         }
 
-        document.querySelectorAll('.definition').forEach((definition_element) => {
-          definition_element.addEventListener('click', handleDefClick);
-        });
-
-        document.querySelectorAll('.term').forEach((term_element) => {
-          term_element.addEventListener('click', handleTermClick);
-        });
+        document.querySelectorAll('.definition').forEach(elem => elem.addEventListener('click', handleDefClick));
+        document.querySelectorAll('.term').forEach(elem => elem.addEventListener('click', handleTermClick));
 
         return cleanup;
       }
 
       async function getJSON() {
-        return await ((await fetch('/subjects.json')).json());
+        return ((await fetch('/subjects.json')).json());
       }
 
       const jsonFileName = getParameterByName('json');
 
       if (jsonFileName != null) {
         let current_subject, current_topic;
-        getJSON().then((data) => {
-          data.forEach((item) => {
-            item.topics.forEach((topic) => {
+        getJSON().then(data => {
+          data.forEach(item => {
+            item.topics.forEach(topic => {
               if (topic.jsonFile == jsonFileName) {
                 current_topic = topic.displayName;
                 current_subject = item.displayName;

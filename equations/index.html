@@ -128,14 +128,14 @@
       <div class="form-control my-3"></div>
       <input type="submit" class="rbtn warning submit_btn">
       <button class="rbtn warning next_btn invis">Next</button>
-      <button class="rbtn danger" onclick="clear_form();">Reset</button>
+      <button class="rbtn danger" onclick="clearForm();">Clear</button>
     </div>
   </div>
 
   <script src="/sidebar.js"></script>
   <script>
-    function clear_form() {
-      document.querySelector('.form-control').textContent = "";
+    function clearForm() {
+      document.querySelector('.form-control').textContent = '';
     }
 
     document.addEventListener("DOMContentLoaded", function () {
@@ -156,8 +156,8 @@
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
         xobj.open('GET', jsonFile, true);
-        xobj.onreadystatechange = function () {
-          if (xobj.readyState == 4 && xobj.status == 200) { callback(JSON.parse(xobj.responseText)); }
+        xobj.onreadystatechange = () => {
+          if (xobj.readyState == 4 && xobj.status == 200) callback(JSON.parse(xobj.responseText));
         };
         xobj.send(null);
       }
@@ -170,10 +170,23 @@
         return array;
       }
 
+      function displayEquation() {
+        const equationObj = shuffled[currentEquationIndex];
+        const parts = shuffle(equationObj.parts);
+        document.querySelector('.equation_question').textContent = 'State the equation linking ' + parts.join(', ');
+      }
+
+      function nextEquation() {
+        currentEquationIndex++;
+        if (currentEquationIndex >= shuffled.length) {
+          currentEquationIndex = 0;
+          shuffled = shuffle([...equations]);
+        }
+        clearForm();
+        displayEquation();
+      }
+
       const form = document.querySelector('.form-control');
-      const question = document.querySelector('.equation_question');
-      const symbol_buttons = document.querySelectorAll('.symbol-button');
-      const maths_buttons = document.querySelectorAll('.maths-button');
       const submit = document.querySelector('.submit_btn');
       const next = document.querySelector('.next_btn');
       const success = document.querySelector('.alert-success');
@@ -183,36 +196,15 @@
       let shuffled;
       let currentEquationIndex = 0;
 
-      function displayEquation() {
-        const equationObj = shuffled[currentEquationIndex];
-        const parts = shuffle(equationObj.parts);
-        question.textContent = 'State the equation linking ' + parts.join(', ');
-      }
+      document.querySelectorAll('.symbol-button').forEach(sbtn =>
+        sbtn.addEventListener('click', () => form.textContent += sbtn.textContent)
+      );
 
-      symbol_buttons.forEach(function (symbol_button) {
-        symbol_button.addEventListener('click', function () {
-          form.textContent += symbol_button.textContent;
-        });
-      });
+      document.querySelectorAll('.maths-button').forEach(mbtn =>
+        mbtn.addEventListener('click', () => form.textContent += mbtn.textContent)
+      );
 
-      maths_buttons.forEach(function (maths_button) {
-        maths_button.addEventListener('click', function () {
-          form.textContent += maths_button.textContent;
-        });
-      });
-
-      function nextEquation() {
-        currentEquationIndex++;
-        if (currentEquationIndex >= shuffled.length) {
-          currentEquationIndex = 0;
-          shuffled = shuffle([...equations]);
-        }
-        form.textContent = "";
-        displayEquation();
-      }
-
-
-      submit.addEventListener('click', function () {
+      submit.addEventListener('click', () => {
         const correctAnswers = shuffled[currentEquationIndex].equations;
 
         if (correctAnswers.includes(form.textContent.trim())) {
@@ -221,22 +213,20 @@
           success.classList.remove('invis');
         } else {
           danger.classList.remove('invis');
-          form.textContent = "";
-          setTimeout(function () {
-            danger.classList.add('invis');
-          }, 5000);
+          clearForm();
+          setTimeout(() => danger.classList.add('invis'), 5000);
         }
       });
 
 
-      next.addEventListener('click', function () {
+      next.addEventListener('click', () => {
         submit.classList.remove('invis');
         next.classList.add('invis');
         success.classList.add('invis');
         nextEquation();
-      })
+      });
 
-      loadJSON(function (response) {
+      loadJSON(response => {
         equations = response;
         shuffled = shuffle([...equations]);
         displayEquation();

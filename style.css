@@ -144,6 +144,11 @@ body::-webkit-scrollbar {
   background: red !important;
 }
 
+.complete-time {
+  color: black;
+  font-size: 100px;
+}
+
 .key_term {
   font-size: 2rem;
   margin-bottom: 30px;
