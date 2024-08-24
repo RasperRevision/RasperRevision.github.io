@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Multiple choice revision quiz where you select the correct answer from 4 options. This quiz is intended for GCSE students.">
+  <meta name="description"
+    content="Multiple choice revision quiz where you select the correct answer from 4 options. This quiz is intended for GCSE students.">
   <title>Rasper Revision</title>
-  
+
   <!-- SITE NAME -->
   <script type="application/ld+json">
     {
@@ -27,9 +28,6 @@
   <!-- BOOTSTRAP SCRIPTS-->
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- BOOTSTRAP ICONS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <!-- STYLES -->
   <link href="/style.css" rel="stylesheet">
@@ -77,7 +75,8 @@
         <h1>Quiz</h1>
         To begin, choose a topic from the menu at the bottom of the page.<br><br>
         If you have a JSON file compatible with this game (which can be done on our <a href="/create"
-          class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Create</a> page), you can
+          class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Create</a> page),
+        you can
         upload it using the input field below: <br><br>
         <input type="file" class="form-control file_input" onchange="quiz(null, null)" accept=".json">
       </div>
@@ -395,85 +394,85 @@
 
     function generateStructuredData(path, subject, topic) {
       fetch(path)
-      .then(response => response.json())
-      .then(data => {
-        const correctAnswers = data.map(item => item.meaning);
-        const structuredData = {
-          "@context": "https://schema.org",
-          "@type": "Quiz",
-          "typicalAgeRange": "14-16",
-          "educationalAlignment": [
-            {
-              "@type": "AlignmentObject",
-              "alignmentType": "educationalSubject",
-              "targetName": subject
-            }
-          ],
-          "about": {
-            "@type": "Thing",
-            "name": topic
-          },
-          "name": `Practice questions for ${topic}`,
-          "hasPart": data.map((item, index) => {
-            const incorrectAnswers = shuffle(correctAnswers.filter((_, i) => i !== index)).slice(0, 3);
-            const positions = shuffle([0, 1, 2, 3]);
-            if (item.term) {
-              return {
-                "@type": "Question",
-                "eduQuestionType": "Multiple choice",
-                "learningResourceType": "Practice problem",
-                "name": "Key term definition",
-                "text": item.term,
-                "encodingFormat": "text/html",
-                "answerCount": 4,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": item.meaning,
-                  "position": positions[0],
-                  "encodingFormat": "text/html"
-                },
-                "suggestedAnswer": [
-                  ...incorrectAnswers.map((answer, i) => ({
-                    "@type": "Answer",
-                    "text": answer,
-                    "position": positions[i+1],
-                    "encodingFormat": "text/html"
-                  }))
-                ]
-              };
-            } else {
-              return {
-                "@type": "Question",
-                "eduQuestionType": "Multiple choice",
-                "learningResourceType": "Practice problem",
-                "name": "Translation",
-                "text": `Translate ${item.german} to English`,
-                "answerCount": 4,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": item.english,
+        .then(response => response.json())
+        .then(data => {
+          const correctAnswers = data.map(item => item.meaning);
+          const structuredData = {
+            "@context": "https://schema.org",
+            "@type": "Quiz",
+            "typicalAgeRange": "14-16",
+            "educationalAlignment": [
+              {
+                "@type": "AlignmentObject",
+                "alignmentType": "educationalSubject",
+                "targetName": subject
+              }
+            ],
+            "about": {
+              "@type": "Thing",
+              "name": topic
+            },
+            "name": `Practice questions for ${topic}`,
+            "hasPart": data.map((item, index) => {
+              const incorrectAnswers = shuffle(correctAnswers.filter((_, i) => i !== index)).slice(0, 3);
+              const positions = shuffle([0, 1, 2, 3]);
+              if (item.term) {
+                return {
+                  "@type": "Question",
+                  "eduQuestionType": "Multiple choice",
+                  "learningResourceType": "Practice problem",
+                  "name": "Key term definition",
+                  "text": item.term,
                   "encodingFormat": "text/html",
-                  "position": positions[0]
-                },
-                "suggestedAnswer": [
-                  ...incorrectAnswers.map((answer, i) => ({
+                  "answerCount": 4,
+                  "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": answer,
-                    "encodingFormat": "text/html", 
-                    "position": positions[i+1]
-                  }))
-                ]
-              };
-            }
-          })
-        };
-        
-        const script = document.createElement('script');
-        script.type = 'application/ld+json';
-        script.innerHTML = JSON.stringify(structuredData, null, 2);
-        document.head.appendChild(script);
-      })
-      .catch(error => console.error(error));
+                    "text": item.meaning,
+                    "position": positions[0],
+                    "encodingFormat": "text/html"
+                  },
+                  "suggestedAnswer": [
+                    ...incorrectAnswers.map((answer, i) => ({
+                      "@type": "Answer",
+                      "text": answer,
+                      "position": positions[i + 1],
+                      "encodingFormat": "text/html"
+                    }))
+                  ]
+                };
+              } else {
+                return {
+                  "@type": "Question",
+                  "eduQuestionType": "Multiple choice",
+                  "learningResourceType": "Practice problem",
+                  "name": "Translation",
+                  "text": `Translate ${item.german} to English`,
+                  "answerCount": 4,
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": item.english,
+                    "encodingFormat": "text/html",
+                    "position": positions[0]
+                  },
+                  "suggestedAnswer": [
+                    ...incorrectAnswers.map((answer, i) => ({
+                      "@type": "Answer",
+                      "text": answer,
+                      "encodingFormat": "text/html",
+                      "position": positions[i + 1]
+                    }))
+                  ]
+                };
+              }
+            })
+          };
+
+          const script = document.createElement('script');
+          script.type = 'application/ld+json';
+          script.innerHTML = JSON.stringify(structuredData, null, 2);
+          document.head.appendChild(script);
+        })
+        .catch(error => console.error(error));
     }
 
     getSubjectJSON().then((s) => {
