@@ -119,7 +119,7 @@
       }
 
       async function getSubjectJSON() {
-        const data = (await fetch('/subjects.json')).json();
+        const data = await (await fetch('/subjects.json')).json();
         var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
         data.forEach(item => {
           const subject = item.displayName.replace(/\s/g, "");
@@ -232,8 +232,8 @@
 
           document.body.appendChild(modalContainer);
 
-          modalContainer.getElementById('subject').textContent = subject;
-          modalContainer.getElementById('topic').textContent = topic;
+          modalContainer.querySelector('#subject').textContent = subject;
+          modalContainer.querySelector('#topic').textContent = topic;
 
           rangeInput = document.getElementById('customRange1');
           rangeLabel = document.getElementById('rangeLabel');
@@ -366,7 +366,7 @@
       }
 
       async function getJSON() {
-        return ((await fetch('/subjects.json')).json());
+        return await ((await fetch('/subjects.json')).json());
       }
 
       const jsonFileName = getParameterByName('json');

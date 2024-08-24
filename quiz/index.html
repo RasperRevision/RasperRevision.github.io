@@ -313,11 +313,11 @@
     }
 
     async function getJSON() {
-      return (await fetch('/subjects.json')).json();
+      return await (await fetch('/subjects.json')).json();
     }
 
     async function getSubjectJSON() {
-      data = (await fetch('/subjects.json')).json();
+      data = await (await fetch('/subjects.json')).json();
       var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
       data.forEach(item => {
         const subject = item.displayName.replace(/\s/g, "");

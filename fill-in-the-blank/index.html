@@ -212,7 +212,7 @@
     function pad(value) { return value < 10 ? '0' + value : value; }
 
     async function getJSON() {
-      return (await fetch('/subjects.json')).json();
+      return await (await fetch('/subjects.json')).json();
     }
 
     function updateScore() {
