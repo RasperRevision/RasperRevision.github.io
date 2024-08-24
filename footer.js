@@ -1,6 +1,6 @@
 const footer = `<footer class="row py-5 my-5 border-top">
           <div class="col mb-3">
-            <a href="/"><img src="/assets/wide_logo.png" height=75 class="mb-2"></a>
+            <a href="/"><img src="/assets/logo/wide_logo_dark.svg" height=75 class="mb-3"></a>
             <div>
               <p>Copyright © 2024</p>
               <a class="text-white" href="https://github.com/RasperRevision/RasperRevision.github.io" target="_blank">
