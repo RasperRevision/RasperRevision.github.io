@@ -47,12 +47,10 @@ icon1.classList.add('icon-1');
 icon2.classList.add('icon-2');
 icon3.classList.add('icon-3');
 
-icon.appendChild(icon1);
-icon.appendChild(icon2);
-icon.appendChild(icon3);
+icon.append(icon1, icon2, icon3);
 document.body.appendChild(icon);
 
-icon.addEventListener('click', function () {
+icon.addEventListener('click', () => {
   document.getElementById('sidebar').classList.toggle('active');
   icon1.classList.toggle('a');
   icon2.classList.toggle('c');
