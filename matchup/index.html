@@ -424,6 +424,7 @@
               if (topic.jsonFile == jsonFileName) {
                 current_topic = topic.displayName;
                 current_subject = item.displayName;
+                document.title = `${current_topic} (${current_subject}) - Rasper Revision`;
                 matchup(current_topic, current_subject);
               }
             });
