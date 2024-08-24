@@ -55,4 +55,6 @@ icon.addEventListener('click', () => {
   icon1.classList.toggle('a');
   icon2.classList.toggle('c');
   icon3.classList.toggle('b');
+  if (sidebar.classList.contains('active')) sidebar.setAttribute('aria-hidden', 'true');
+  else sidebar.setAttribute('aria-hidden', 'false');
 });
