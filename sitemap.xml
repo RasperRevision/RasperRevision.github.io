@@ -1,12 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://rasperrevision.github.io/</loc>
-  <image:image>
-    <image:loc>https://rasperrevision.github.io/assets/wide_logo.png</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://rasperrevision.github.io/assets/regular_logo.png</image:loc>
-  </image:image>
 </url>
 <url>
   <loc>https://rasperrevision.github.io/quiz</loc>
