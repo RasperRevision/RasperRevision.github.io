@@ -17,6 +17,22 @@
     }
   </script>
 
+  <!-- BREADCRUMB LIST -->
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Exam Questions"
+      }
+    ]
+  }
+  </script>
+
   <!-- FAVICON -->
   <link rel="icon" type="image/png" href="/assets/favicon.png">
 
@@ -65,7 +81,7 @@
     <div class="invis no-json position-absolute top-50 d-flex justify-content-center w-100"
       style="transform: translateY(-50%);">
       <div class="dark p-5 container">
-        <h1>Exam Style Questions</h1>
+        <h1>Exam Questions</h1>
         To begin, choose a topic from the menu at the bottom of the page.
       </div>
     </div>
@@ -100,23 +116,7 @@
     function updateScore() { document.querySelector('.score').innerHTML = `${score_val}/${length}`; }
 
     function loadJSON(callback) {
-      if (!getParameterByName('json')) {
-        document.querySelector('.no-json').classList.add('invis');
-        var jsonFile = document.querySelector('.file_input').files[0];
-        var reader = new FileReader();
-
-        reader.onload = function (event) {
-          var jsonString = event.target.result;
-          var jsonArray = JSON.parse(jsonString);
-          jsonArray.forEach(obj => obj.newProperty = 'newValue');
-          if ((jsonArray[0].term != null && jsonArray[0].meaning != null) || (jsonArray[0].german != null && jsonArray[0].english != null)) callback(jsonArray);
-          else {
-            alert("Incompatible file");
-            location.reload();
-          }
-        };
-        reader.readAsText(jsonFile);
-      } else {
+      if (getParameterByName('json')) { {
         var jsonFile = getParameterByName('json') + '.json';
 
         var xobj = new XMLHttpRequest();
