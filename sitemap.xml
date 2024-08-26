@@ -1,389 +1,131 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>https://rasperrevision.github.io/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=c1</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=c2</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=c3-quantitative-chemistry</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=chemistry-electrolysis</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=chemistry-energy-changes</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=unit1</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=unit2</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=unit3</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=unit4</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=unit5</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=b1</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=b2-organisation</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=b3-infection-and-response</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=homeostasis-and-response</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=cold_war</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=germany1918-1939</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=english-vocab-easy</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=english-vocab-medium</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=english-vocab-hard</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=describing_music</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=samba</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=calypso</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=film-music</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=video-game-music</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=physics-energy</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=physics-electricity</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=physics-particle-model</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=acronyms</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=colours</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=adjectives</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=adverbs</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=prepositions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=verbs</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=cultural-life</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=daily-life-food-drink</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=problems</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=dialogue-and-messaging</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=directions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=dress-and-style</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=geography</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=international-and-global-dimension</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=local-area-holiday-travel</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=numbers</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=quantities-and-measures</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=relations-relationships-personal-and-physical-characteristics</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=school</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=social-conventions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=times-days-months-seasons</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=useful-words-and-expressions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=weather</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=work</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=sohcahtoa_exact_values</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=economic-foundations</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=resource-allocation</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=how-prices-are-determined</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=production-costs-revenue-profit</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/quiz/?json=how-the-economy-works</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=c1</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=c2</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=c3-quantitative-chemistry</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=chemistry-electrolysis</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=chemistry-energy-changes</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=unit1</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=unit2</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=unit3</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=unit4</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=unit5</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=b1</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=b2-organisation</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=b3-infection-and-response</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=homeostasis-and-response</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=cold_war</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=germany1918-1939</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=english-vocab-easy</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=english-vocab-medium</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=english-vocab-hard</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=describing_music</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=samba</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=calypso</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=film-music</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=video-game-music</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=physics-energy</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=physics-electricity</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=physics-particle-model</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=acronyms</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=colours</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=adjectives</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=adverbs</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=prepositions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=verbs</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=cultural-life</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=daily-life-food-drink</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=problems</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=dialogue-and-messaging</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=directions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=dress-and-style</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=geography</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=international-and-global-dimension</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=local-area-holiday-travel</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=numbers</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=quantities-and-measures</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=relations-relationships-personal-and-physical-characteristics</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=school</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=social-conventions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=times-days-months-seasons</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=useful-words-and-expressions</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=weather</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=work</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=sohcahtoa_exact_values</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=economic-foundations</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup?/json=resource-allocation</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=how-prices-are-determined</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=production-costs-revenue-profit</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/?json=how-the-economy-works</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/matchup/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/fill-in-the-blank/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/fill-in-the-blank/?json=macbeth</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/fill-in-the-blank/?json=christmas_carol</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/fill-in-the-blank/?json=cold_war</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/equations/?json=physics_equations.json</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/about/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/privacy-policy/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/create/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/contact/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/exam-questions/</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/exam-questions/?json=physics-energy</loc>
-</url>
-<url>
-  <loc>https://rasperrevision.github.io/exam-questions/?json=physics-electricity</loc>
-</url>
+<url><loc>https://rasperrevision.github.io/</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=c1</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=c2</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=c3-quantitative-chemistry</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=chemistry-electrolysis</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=chemistry-energy-changes</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=unit1</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=unit2</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=unit3</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=unit4</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=unit5</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=b1</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=b2-organisation</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=b3-infection-and-response</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=homeostasis-and-response</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=cold_war</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=germany1918-1939</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=english-vocab-easy</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=english-vocab-medium</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=english-vocab-hard</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=describing_music</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=samba</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=calypso</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=film-music</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=video-game-music</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=physics-energy</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=physics-electricity</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=physics-particle-model</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=acronyms</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=colours</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=adjectives</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=adverbs</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=prepositions</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=verbs</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=cultural-life</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=daily-life-food-drink</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=problems</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=dialogue-and-messaging</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=directions</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=dress-and-style</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=geography</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=international-and-global-dimension</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=local-area-holiday-travel</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=numbers</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=quantities-and-measures</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=relations-relationships-personal-and-physical-characteristics</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=school</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=social-conventions</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=times-days-months-seasons</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=useful-words-and-expressions</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=weather</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=work</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=sohcahtoa_exact_values</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=economic-foundations</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=resource-allocation</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=how-prices-are-determined</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=production-costs-revenue-profit</loc></url>
+<url><loc>https://rasperrevision.github.io/quiz/?json=how-the-economy-works</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=c1</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=c2</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=c3-quantitative-chemistry</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=chemistry-electrolysis</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=chemistry-energy-changes</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=unit1</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=unit2</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=unit3</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=unit4</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=unit5</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=b1</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=b2-organisation</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=b3-infection-and-response</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=homeostasis-and-response</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=cold_war</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=germany1918-1939</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=english-vocab-easy</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=english-vocab-medium</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=english-vocab-hard</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=describing_music</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=samba</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=calypso</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=film-music</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=video-game-music</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=physics-energy</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=physics-electricity</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=physics-particle-model</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=acronyms</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=colours</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=adjectives</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=adverbs</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=prepositions</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=verbs</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=cultural-life</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=daily-life-food-drink</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=problems</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=dialogue-and-messaging</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=directions</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=dress-and-style</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=geography</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=international-and-global-dimension</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=local-area-holiday-travel</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=numbers</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=quantities-and-measures</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=relations-relationships-personal-and-physical-characteristics</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=school</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=social-conventions</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=times-days-months-seasons</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=useful-words-and-expressions</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=weather</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=work</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=sohcahtoa_exact_values</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=economic-foundations</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup?/json=resource-allocation</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=how-prices-are-determined</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=production-costs-revenue-profit</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/?json=how-the-economy-works</loc></url>
+<url><loc>https://rasperrevision.github.io/matchup/</loc></url>
+<url><loc>https://rasperrevision.github.io/fill-in-the-blank/</loc></url>
+<url><loc>https://rasperrevision.github.io/fill-in-the-blank/?json=macbeth</loc></url>
+<url><loc>https://rasperrevision.github.io/fill-in-the-blank/?json=christmas_carol</loc></url>
+<url><loc>https://rasperrevision.github.io/fill-in-the-blank/?json=cold_war</loc></url>
+<url><loc>https://rasperrevision.github.io/equations/?json=physics_equations.json</loc></url>
+<url><loc>https://rasperrevision.github.io/about/</loc></url>
+<url><loc>https://rasperrevision.github.io/privacy-policy/</loc></url>
+<url><loc>https://rasperrevision.github.io/create/</loc></url>
+<url><loc>https://rasperrevision.github.io/contact/</loc></url>
+<url><loc>https://rasperrevision.github.io/exam-questions/</loc></url>
+<url><loc>https://rasperrevision.github.io/exam-questions/?json=physics-energy</loc></url>
+<url><loc>https://rasperrevision.github.io/exam-questions/?json=physics-electricity</loc></url>
 </urlset>
