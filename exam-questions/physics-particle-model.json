@@ -1,0 +1,76 @@
+[
+  {
+    "question": "The diagram shows the equipment a student used to determine the specific heat capacity of iron. The iron block the student used has two holes, one for the heater and one for the thermometer.",
+    "img": "physics-particle-model-q1-1",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Before the power supply was switched on, the thermometer was used to measure the temperature of the iron block. The student left the thermometer in the iron block for a few minutes before recording the initial temperature. Suggest why.",
+        "answerBoxes": [
+          {
+            "type": "s",
+            "marks": 1,
+            "answers": [
+              "so the thermometer temperature was the same as the temperature of the iron block"
+            ],
+            "exact": false
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "The graph shows how the temperature changed after the power supply was switched on. The energy transferred to the iron block between 5 and 10 minutes was 26 000 J. The mass of the iron block was 2.0 kg. Calculate the specific heat capacity of iron.",
+        "img": "physics-particle-model-q1-2",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 3,
+            "answers": [
+              "Δθ = (54 – 28) = 26 (°C)",
+              "26 000 = 2.0 × c × 26",
+              "c = 26 000 / (2.0 × 26)"
+            ],
+            "alternatives": [
+              "a correct substitution using an incorrect value of Δθ obtained from the graph",
+              "a correct rearrangement using an incorrect value of Δθ obtained from the graph"
+            ],
+            "exact": false
+          },
+          {
+            "type": "s",
+            "marks": 1,
+            "answers": [
+              500
+            ],
+            "alternatives": [
+              "an answer consistent with their value of Δθ obtained from the graph"
+            ],
+            "prompt": "Specific heat capacity = ",
+            "unit": "J/kg°C",
+            "unitShown": true
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "question": "The student repeated the investigation but wrapped insulation around the iron block. What effect will adding insulation have had on the investigation? Select two boxes",
+        "answerBoxes": [
+          {
+            "type": "m",
+            "marks": "2,
+            "answers": [
+              "the calculated specific heat capacity will be more accurate",
+              "the iron block will transfer thermal energy to the surroundings at a lower rate"
+            ],
+            "options": [
+              "The power output of the heater will be lower than expected.",
+              "The temperature of the iron block will increase more slowly than expected.",
+              "The uncertainty in the temperature measurement will be greater."
+            ],
+            "exact": true
+          }
+        ]
+      }
+    ]
+  }
+]
