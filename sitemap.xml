@@ -108,10 +108,10 @@
   <loc>https://rasperrevision.github.io/quiz?json=cultural-life</loc>
 </url>
 <url>
-  <loc>https://rasperrevision.github.io/quiz?json=daily-life-food-and-drink</loc>
+  <loc>https://rasperrevision.github.io/quiz?json=daily-life-food-drink</loc>
 </url>
 <url>
-  <loc>https://rasperrevision.github.io/quiz?json=dealing-with-problems</loc>
+  <loc>https://rasperrevision.github.io/quiz?json=problems</loc>
 </url>
 <url>
   <loc>https://rasperrevision.github.io/quiz?json=dialogue-and-messaging</loc>
@@ -279,10 +279,10 @@
   <loc>https://rasperrevision.github.io/matchup?json=cultural-life</loc>
 </url>
 <url>
-  <loc>https://rasperrevision.github.io/matchup?json=daily-life-food-and-drink</loc>
+  <loc>https://rasperrevision.github.io/matchup?json=daily-life-food-drink</loc>
 </url>
 <url>
-  <loc>https://rasperrevision.github.io/matchup?json=dealing-with-problems</loc>
+  <loc>https://rasperrevision.github.io/matchup?json=problems</loc>
 </url>
 <url>
   <loc>https://rasperrevision.github.io/matchup?json=dialogue-and-messaging</loc>
