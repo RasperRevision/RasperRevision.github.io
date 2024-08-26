@@ -92,6 +92,17 @@
       container.style.maxHeight = `${window.innerHeight - 250}px`;
     }
 
+    const ignoreOrderCompare = (a, b) => {
+      if (a.length !== b.length) return false;
+      const elements = new Set([...a, ...b]);
+      for (const x of elements) {
+        const count1 = a.filter(e => e === x).length;
+        const count2 = b.filter(e => e === x).length;
+        if (count1 !== count2) return false;
+      }
+      return true;
+    }
+
     window.addEventListener('resize', adjustMargin);
 
     function getParameterByName(name, url) {
@@ -239,13 +250,24 @@
           const radio_parent = document.createElement('div');
           let html = ``;
           let answers = box.options;
-          answers.push(box.answers);
+          answers.push(box.answers[0]);
           shuffle(answers).forEach(answer =>
             html += `<div class="form-check"><input class="form-check-input" name="radio" type="radio" id="radio${answer}"><label class="form-check-label" for="radio${answer}">  ${answer}</label></div>`
           );
           radio_parent.innerHTML = html;
           part_container.appendChild(radio_parent);
           answer_boxes.push(radio_parent);
+        } else if (box.type == 'c') {
+          const checkbox_parent = document.createElement('div');
+          let html = '';
+          let answers = box.options;
+          box.answers.forEach(answer => answers.push(answer));
+          shuffle(answers).forEach(answer =>
+            html += `<div class="form-check"><input class="form-check-input" name="radio" type="checkbox" id="check${answer}"><label class="form-check-label" for="check${answer}">${answer}</label></div>`
+          );
+          checkbox_parent.innerHTML = html;
+          part_container.appendChild(checkbox_parent);
+          answer_boxes.push(checkbox_parent);
         }
 
         const feedback = document.createElement('div');
@@ -286,9 +308,16 @@
               current_feedback.innerHTML = '';
             } else {
               const radio_buttons = current_box.querySelectorAll('.form-check-input');
-              radio_buttons.forEach((button, btnIndex) => {
-                if (button.checked) userAnswer = current_box.querySelectorAll('.form-check-label')[btnIndex].textContent;
-              });
+              if (box.type == 'c') {
+                userAnswer = []
+                radio_buttons.forEach((button, btnIndex) => {
+                  if (button.checked) userAnswer.push(current_box.querySelectorAll('.form-check-label')[btnIndex].textContent);
+                });
+              } else {
+                radio_buttons.forEach((button, btnIndex) => {
+                  if (button.checked) userAnswer = current_box.querySelectorAll('.form-check-label')[btnIndex].textContent;
+                });
+              }
               current_feedback = feedback_boxes[boxIndex];
               current_feedback.innerHTML = '';
             }
@@ -297,34 +326,49 @@
               // converts userAnswer to appropriate format, whether it is an int or string.
               if (isInt(userAnswer)) userAnswer = parseInt(userAnswer);
               else if (!isNaN(userAnswer) && userAnswer.indexOf('.') != -1) userAnswer = parseFloat(userAnswer);
+              else if (Array.isArray(userAnswer)) userAnswer = userAnswer.map(a => a.toLowerCase());
               else userAnswer = userAnswer.toLowerCase().trim();
 
               try { box.answers[0] = box.answers[0].toLowerCase(); }
               catch (e) { };
 
               // checks if it is correct
-              if (box.alternatives) {
-                if (!box.answers.includes(userAnswer) && !box.alternatives.includes(userAnswer)) {
-                  current_feedback.textContent = 'Incorrect!';
-                  current_feedback.style.color = 'red';
+              if (box.type != 'c') {
+                if (box.alternatives) {
+                  if (!box.answers.includes(userAnswer) && !box.alternatives.includes(userAnswer)) {
+                    current_feedback.textContent = 'Incorrect!';
+                    current_feedback.style.color = 'red';
+                  } else {
+                    current_feedback.textContent = 'Correct!';
+                    current_feedback.style.color = 'green';
+                    score_val += box.marks;
+                    updateScore();
+                    answer_box_values[boxIndex] = true;
+                  }
                 } else {
-                  current_feedback.textContent = 'Correct!';
-                  current_feedback.style.color = 'green';
-                  score_val += box.marks;
-                  updateScore();
-                  answer_box_values[boxIndex] = true;
+                  if (!box.answers.includes(userAnswer)) {
+                    current_feedback.textContent = 'Incorrect!';
+                    current_feedback.style.color = 'red';
+                  } else {
+                    current_feedback.textContent = 'Correct!';
+                    current_feedback.style.color = 'green';
+                    score_val += box.marks;
+                    updateScore();
+                    answer_box_values[boxIndex] = true;
+                  }
                 }
               } else {
-                if (!box.answers.includes(userAnswer)) {
-                  current_feedback.textContent = 'Incorrect!';
-                  current_feedback.style.color = 'red';
-                } else {
+                if (ignoreOrderCompare(userAnswer, box.answers.map(a => a.toLowerCase()))) {
                   current_feedback.textContent = 'Correct!';
                   current_feedback.style.color = 'green';
-                  score_val += box.marks;
+                  score_val += box.answers.length;
                   updateScore();
                   answer_box_values[boxIndex] = true;
+                } else {
+                  current_feedback.textContent = 'One or more of your answers is incorrect. Try again.';
+                  current_feedback.style.color = 'red';
                 }
+                updateScore();
               }
             } else {
               // non-exact answers are always strings

@@ -8,7 +8,7 @@
         "question": "Before the power supply was switched on, the thermometer was used to measure the temperature of the iron block. The student left the thermometer in the iron block for a few minutes before recording the initial temperature. Suggest why.",
         "answerBoxes": [
           {
-            "type": "s",
+            "type": "l",
             "marks": 1,
             "answers": [
               "so the thermometer temperature was the same as the temperature of the iron block"
@@ -47,7 +47,8 @@
             ],
             "prompt": "Specific heat capacity = ",
             "unit": "J/kg°C",
-            "unitShown": true
+            "unitShown": true,
+            "exact": false
           }
         ]
       },
@@ -56,11 +57,11 @@
         "question": "The student repeated the investigation but wrapped insulation around the iron block. What effect will adding insulation have had on the investigation? Select two boxes",
         "answerBoxes": [
           {
-            "type": "m",
-            "marks": "2,
+            "type": "c",
+            "marks": 2,
             "answers": [
-              "the calculated specific heat capacity will be more accurate",
-              "the iron block will transfer thermal energy to the surroundings at a lower rate"
+              "The calculated specific heat capacity will be more accurate",
+              "The iron block will transfer thermal energy to the surroundings at a lower rate"
             ],
             "options": [
               "The power output of the heater will be lower than expected.",

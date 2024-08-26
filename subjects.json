@@ -260,7 +260,7 @@
         "index": 4,
         "displayName": "Particle model of matter",
         "jsonFile": "physics-particle-model",
-        "games": 12,
+        "games": 28,
         "bg": "info"
       }
     ]
