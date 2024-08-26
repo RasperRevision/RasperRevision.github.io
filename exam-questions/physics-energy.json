@@ -170,5 +170,95 @@
         ]
       }
     ]
+  },
+  {
+    "question": "A remote village in the UK uses a hydroelectric generator to provide electricity.",
+    "parts": [
+      {
+        "index": 1,
+        "question": "In one day, 2 500 000 kg of water passes through the hydroelectric generator. The change in gravitational potential energy of the water is 367.5 MJ. Gravitational field strength = 9.8 N/kg Calculate the mean change in vertical height of the water as it moves through the hydroelectric generator.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "Eₚ = 367,500,000 (J)",
+              "367,500,000 = 2,500,000 × 9.8 × h",
+              "h = 367,500,000 / (2,500,000 × 9.8)"
+            ],
+            "alternatives": [
+              "a correct substitution using an incorrectly/not converted value of Eₚ",
+              "a correct rearrangement using an incorrectly/not converted value of Eₚ"
+            ],
+            "marks": 3,
+            "exact": false
+          },
+          {
+            "type": "s",
+            "answers": [
+              15
+            ],
+            "alternatives": [
+              "an answer consistent with their value of Eₚ"
+            ],
+            "marks": 1,
+            "unit": "m",
+            "unitShown": true,
+            "prompt": "Mean change in vertical height = "
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "The generator transfers 3.0 kW of electrical power. Calculate the time taken for the generator to transfer 2.16 × 107 J of energy. Use the Physics Equations Sheet. Give your answer in standard form (can be typed in the format x * 10^y)",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "3 kW = 3000 W",
+              "3000 = 2.16 × 10⁷ / t",
+              "(all subsequent marks can score using an incorrectly / not converted value of P)",
+              "t = 2.16 × 10⁷ / 3000",
+              "t = 7200 (s)"
+            ],
+            "marks": 4
+          },
+          {
+            "type": "s",
+            "answers": [
+              "7.2 × 10³"
+            ],
+            "alternatives": [
+              "an answer given in standard form from a calculation using data given in the question"
+            ],
+            "marks": 1,
+            "exact": false,
+            "unit": "s",
+            "unitShown": true,
+            "prompt": "Time taken (in standard form) = "
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "img": "physics-energy-q3",
+        "question": "The graph shows how the power output of the generator varied during one year. A solar power system is installed in the remote village in addition to the hydroelectric generator. Explain why this improves the reliability of the electricity supply to the village. Use information from the graph.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "in the summer the power output from the hydroelectric generator is lower but the solar power output would be greater",
+              "so less variation in total power output (which improves the reliability of the supply)"
+            ],
+            "alternatives": [
+              "reference to specific months eg April to September",
+              "power output of hydroelectric generator depends on rainfall and power output of solar power system depends on light intensity",
+              "electricity supply for total power output"
+            ],
+            "marks": 2,
+            "exact": false
+          }
+        ]
+      }
+    ]
   }
 ]
