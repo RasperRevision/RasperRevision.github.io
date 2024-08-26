@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Exam questions from past papers by the major exam boards">
   <title>Exam Questions</title>
-  
+
   <!-- BREADCRUMB LIST -->
-  
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -106,7 +106,7 @@
     function updateScore() { document.querySelector('.score').innerHTML = `${score_val}/${length}`; }
 
     function loadJSON(callback) {
-      if (getParameterByName('json')) { {
+      if (getParameterByName('json')) {
         var jsonFile = getParameterByName('json') + '.json';
 
         var xobj = new XMLHttpRequest();
@@ -186,6 +186,20 @@
       const part_container = document.createElement('div');
       part_container.classList.add(`part${partCount}`);
       container.appendChild(part_container);
+
+      if (part.img) {
+        const subquestion_img = document.createElement('img');
+        subquestion_img.src = `imgs/${part.img}.png`;
+        subquestion_img.style.maxWidth = '100%';
+        subquestion_img.style.maxHeight = '250px';
+        subquestion_img.style.padding = '15px';
+        subquestion_img.onload = adjustMargin;
+
+        const subquestion_img_wrapper = document.createElement('div');
+        subquestion_img_wrapper.classList.add('d-flex', 'justify-content-center', 'w-100');
+        subquestion_img_wrapper.appendChild(subquestion_img);
+        part_container.appendChild(subquestion_img_wrapper);
+      }
 
       // title for sub question
       const sub_question = document.createElement('h6');
