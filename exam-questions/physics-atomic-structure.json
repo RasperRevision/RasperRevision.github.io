@@ -1,0 +1,180 @@
+[
+  {
+    "question": "Some isotopes emit nuclear radiation.",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Carbon-14 and carbon-12 are isotopes of carbon. Compare the structure of an atom of carbon-14 with the structure of an atom of carbon-12.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 3,
+            "answers": [
+              "Similarities:",
+              "same number of protons/same atomic number",
+              "same number of electrons",
+              "Difference:",
+              "different number of neutrons/different mass number"
+            ],
+            "alternatives": [
+              "both atoms / nuclei contain 6 protons",
+              "carbon-12 has 6 neutrons and carbon-14 has 8 neutrons"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "Carbon-14 is a radioactive isotope. Carbon-14 has a half-life of 5700 years. What does ‘a half-life of 5700 years’ mean?",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 1,
+            "answers": [
+              "the time it takes for the number of nuclei (in a radioactive sample) to halve (is 5700 years)",
+              "OR the time it takes for the activity (of a radioactive sample) to halve (is 5700 years)",
+              "OR the time it takes for the radiation emitted (by a radioactive sample) to halve (is 5700 years)",
+              "OR the time it takes for the count rate (of a radioactive sample) to halve (is 5700 years)",
+              "OR the time it takes for the mass of carbon-14 (in a sample) to halve (is 5700 years)",
+              "ignore radioacctivity"
+            ],
+            "alternatives": [
+              "atoms for nuclei"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "question": "The table gives the half-life of some other radioactive isotopes. A sample of fluorine-17 has an activity that is one quarter of its original activity. Calculate the age of the sample of fluorine-17. ",
+        "img": "physics-atomic-structure-q1",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 1,
+            "answers": [
+              "2 half-lives"
+            ]
+          },
+          {
+            "type": "s",
+            "marks": 1,
+            "prompt": "Age = ",
+            "unit": "s",
+            "unitShown": true,
+            "answers": [ 
+              128.74
+            ],
+            "alternatives": [
+              129
+            ]
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "question": "All of the isotopes in Table 1 emit beta radiation. Explain which isotope would cause the biggest risk to a person’s health based only on the half-life of each isotope.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 3,
+            "answers": [
+              "nitrogen-18",
+              "greatest activity",
+              "(so) greatest dose of radiation absorbed (per second)",
+              "ignore shortest half-life"
+            ],
+            "alternatives": [
+              "emits most radiation per second",
+              "emits most radiation in a given time period"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "question": "People who work in the nuclear power industry need to be aware of irradiation and contamination. Describe the difference between irradiation and contamination.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 2,
+            "answers": [
+              "irradiation is the exposure of an object / person to radiation",
+              "(while) contamination is the (unwanted) presence of radioactive material / atoms on an object / person"
+            ],
+            "alternatives": [
+              "‘absorption of radiation’ for‘exposure’",
+              "specific examples of ionising radiation",
+              "‘inside a person’ for ‘on an object / person’"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "question": "Give one health risk to a person working close to a source of nuclear radiation.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 1,
+            "answers": [
+              "any one from:",
+              "cancer / tumours",
+              "DNA / genetic mutation",
+              "damages / kills cells",
+              "radiation poisoning / sickness / burns",
+              "ignore mutates cells",
+              "ignore death"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "question": "Workers in nuclear power stations are monitored to check the radiation they emit. A worker stands 1 cm away from a radiation detector. The amount of radiation the worker emits is recorded. Explain why the worker needs to stand close to the radiation detector.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 2,
+            "answers": [
+              "some radioactive materials emit alpha radiation",
+              "which has a (very) short range (in air)"
+            ],
+            "alternatives": [
+              "weakly penetrating for short range (in air)"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "question": "Workers in the nuclear power industry are exposed to nuclear radiation. Pilots on aircraft are exposed to cosmic radiation from space. daily dose caused by working in a nuclear power station = 0.00050 mSv hourly dose from cosmic rays to a pilot while flying = 0.0030 mSv Calculate the number of days it takes for a nuclear power station worker to receive the same dose as a pilot flying for 24 hours.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 2,
+            "answers": [
+              "pilot's dose in 24 hours = 0.072 (mSv)",
+              "number of days = 0.072 / 0.00050",
+              "OR",
+              "nuclear power worker hourly dose = 0.0000208… (mSv)",
+              "number of days = 0.0030 / 0.0000208",
+              "OR",
+              "hourly dose / daily dose = 0.0030 / 0.00050 = 6",
+              "number of days = 6 × 24"
+            ]
+          },
+          {
+            "type": "s",
+            "prompt": "Number of days = ",
+            "marks": 1,
+            "answers": [
+              144
+            ],
+            "exact": true
+          }
+        ]
+      }
+    ]
+  }
+]
