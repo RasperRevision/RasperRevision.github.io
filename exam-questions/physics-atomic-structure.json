@@ -11,10 +11,9 @@
             "marks": 3,
             "answers": [
               "Similarities:",
-              "same number of protons/same atomic number",
-              "same number of electrons",
+              "<ul><li>same number of protons/same atomic number</li><li>same number of electrons</li></ul",
               "Difference:",
-              "different number of neutrons/different mass number"
+              "<ul><li>different number of neutrons/different mass number</li></ul>"
             ],
             "alternatives": [
               "both atoms / nuclei contain 6 protons",
@@ -36,7 +35,7 @@
               "OR the time it takes for the radiation emitted (by a radioactive sample) to halve (is 5700 years)",
               "OR the time it takes for the count rate (of a radioactive sample) to halve (is 5700 years)",
               "OR the time it takes for the mass of carbon-14 (in a sample) to halve (is 5700 years)",
-              "ignore radioacctivity"
+              "<i>ignore radioactivity</i>"
             ],
             "alternatives": [
               "atoms for nuclei"
@@ -62,6 +61,7 @@
             "prompt": "Age = ",
             "unit": "s",
             "unitShown": true,
+            "exact": true,
             "answers": [ 
               128.74
             ],
@@ -73,6 +73,7 @@
       },
       {
         "index": 4,
+        "img": "physics-atomic-structure-q1",
         "question": "All of the isotopes in Table 1 emit beta radiation. Explain which isotope would cause the biggest risk to a person’s health based only on the half-life of each isotope.",
         "answerBoxes": [
           {
@@ -82,7 +83,7 @@
               "nitrogen-18",
               "greatest activity",
               "(so) greatest dose of radiation absorbed (per second)",
-              "ignore shortest half-life"
+              "<i>ignore shortest half-life</i>"
             ],
             "alternatives": [
               "emits most radiation per second",
@@ -119,10 +120,7 @@
             "marks": 1,
             "answers": [
               "any one from:",
-              "cancer / tumours",
-              "DNA / genetic mutation",
-              "damages / kills cells",
-              "radiation poisoning / sickness / burns",
+              "<ul><li>cancer / tumours</li><li>DNA / genetic mutation</li><li>damages / kills cells</li><li>radiation poisoning / sickness / burns</li></ul>",
               "ignore mutates cells",
               "ignore death"
             ]
