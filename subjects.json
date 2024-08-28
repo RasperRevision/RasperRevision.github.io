@@ -246,29 +246,22 @@
         "index": 2,
         "displayName": "Energy",
         "jsonFile": "physics-energy",
-        "games": 28,
+        "games": 12,
         "bg": "success"
       },
       {
         "index": 3,
         "displayName": "Electricity",
         "jsonFile": "physics-electricity",
-        "games": 28,
+        "games": 12,
         "bg": "turquoise"
       },
       {
         "index": 4,
         "displayName": "Particle model of matter",
         "jsonFile": "physics-particle-model",
-        "games": 28,
+        "games": 12,
         "bg": "info"
-      },
-      {
-        "index": 5,
-        "displayName": "Atomic structure",
-        "jsonFile": "physics-atomic-structure",
-        "games": 16,
-        "bg": "danger"
       }
     ]
   },
