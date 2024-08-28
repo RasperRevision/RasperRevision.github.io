@@ -1,70 +1,87 @@
 [
   {
-    "term": "cos90+tan0",
-    "meaning": "0"
+    "term": "\\cos(90)+\\tan(0)",
+    "meaning": "0",
+    "maths": [true, true]
   },
   {
-    "term": "cos0 + tan45",
-    "meaning": "1"
+    "term": "\\cos 0 + \\tan 45",
+    "meaning": "1",
+    "maths": [true, true]
   },
   {
-    "term": "sin0",
-    "meaning": "0"
+    "term": "\\sin 0",
+    "meaning": "0",
+    "maths": [true, true]
   },
   {
-    "term": "sin30",
-    "meaning": "0.5"
+    "term": "\\sin 30",
+    "meaning": "0.5",
+    "maths": [true, true]
   },
   {
-    "term": "sin45",
-    "meaning": "√2/2"
+    "term": "\\sin 45",
+    "meaning": "\\sqrt{2} \\over 2",
+    "maths": [true, true]
   },
   {
-    "term": "sin60",
-    "meaning": "√3/2"
+    "term": "\\sin 60",
+    "meaning": "\\sqrt{3} \\over 2",
+    "maths": [true, true]
   },
   {
-    "term": "sin90",
-    "meaning": "1"
+    "term": "\\sin 90",
+    "meaning": "1",
+    "maths": [true, true]
   },
   {
-    "term": "cos0",
-    "meaning": "1"
+    "term": "\\cos 0",
+    "meaning": "1",
+    "maths": [true, true]
   },
   {
-    "term": "cos30",
-    "meaning": "√3/2"
+    "term": "\\cos 30",
+    "meaning": "\\sqrt{3} \\over 2",
+    "maths": [true, true]
   },
   {
-    "term": "cos45",
-    "meaning": "√2/2"
+    "term": "\\cos 45",
+    "meaning": "\\sqrt{2} \\over 2",
+    "maths": [true, true]
   },
   {
-    "term": "cos60",
-    "meaning": "0.5"
+    "term": "\\cos 60",
+    "meaning": "0.5",
+    "maths": [true, true]
   },
   {
-    "term": "cos90",
-    "meaning": "0"
+    "term": "\\cos 90",
+    "meaning": "0",
+    "maths": [true, true]
   },
   {
-    "term": "tan0",
-    "meaning": "0"
+    "term": "\\tan 0",
+    "meaning": "0",
+    "maths": [true, true]
   },
   {
-    "term": "tan30",
-    "meaning": "√3/3"
+    "term": "\\tan 30",
+    "meaning": "\\sqrt{3} \\over 3",
+    "maths": [true, true]
   },
   {
-    "term": "tan45",
-    "meaning": "1"
+    "term": "\\tan 45",
+    "meaning": "1",
+    "maths": [true, true]
   },
   {
-    "term": "tan60",
-    "meaning": "√3"
+    "term": "\\tan 60",
+    "meaning": "\\sqrt{3}",
+    "maths": [true, true]
   },
   {
-    "term": "tan90",
-    "meaning": "undefined"
+    "term": "\\tan 90",
+    "meaning": "undefined",
+    "maths": [true, false]
   }
 ]
