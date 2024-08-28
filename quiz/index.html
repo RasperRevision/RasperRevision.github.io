@@ -1,459 +1,517 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Multiple choice revision quiz where you select the correct answer from 4 options. This quiz is intended for GCSE students."
+    />
+    <title>Rasper Revision</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Multiple choice revision quiz where you select the correct answer from 4 options. This quiz is intended for GCSE students.">
-  <title>Rasper Revision</title>
+    <!-- BREADCRUMB LIST -->
 
-  <!-- BREADCRUMB LIST -->
-  
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    <script type="application/ld+json">
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Quiz"
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Quiz"
+          }
+        ]
       }
-    ]
-  }
-  </script>
+    </script>
 
-  <!-- FAVICON -->
-  <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
 
-  <!-- BOOTSTRAP STYLES -->
-  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- BOOTSTRAP STYLES -->
+    <link
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- BOOTSTRAP SCRIPTS-->
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- BOOTSTRAP SCRIPTS-->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- STYLES -->
-  <link href="/style.css" rel="stylesheet">
-</head>
+    <!-- STYLES -->
+    <link href="/style.css" rel="stylesheet" />
 
-<body class="overflow-hidden">
-  <div class="main_wrapper">
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    ></script>
+  </head>
 
-    <header class="position-absolute w-100 mobile_nav">
-      <div class="d-flex justify-content-between px-5 align-items-center " style="height:120px;">
-        <h4>
-          <a class="link-light link-underline-opacity-50 link-underline-opacity-100-hover mobile_nav_btn"
-            role="button"><i class="bi bi-caret-down-fill me-2"></i>Select a
-            topic</a>
-        </h4>
+  <body class="overflow-hidden">
+    <div class="main_wrapper">
+      <header class="position-absolute w-100 mobile_nav">
+        <div
+          class="d-flex justify-content-between px-5 align-items-center"
+          style="height: 120px"
+        >
+          <h4>
+            <a
+              class="link-light link-underline-opacity-50 link-underline-opacity-100-hover mobile_nav_btn"
+              role="button"
+              ><i class="bi bi-caret-down-fill me-2"></i>Select a topic</a
+            >
+          </h4>
 
-        <div class="fs-2">
-          <div class="stopwatch d-inline">00:00</div>
-          <span class="mx-1">•</span>
-          <span class="d-inline score">0/0</span>
+          <div class="fs-2">
+            <div class="stopwatch d-inline">00:00</div>
+            <span class="mx-1">•</span>
+            <span class="d-inline score">0/0</span>
+          </div>
+        </div>
+        <div class="accordion_content w-100"></div>
+      </header>
+
+      <div class="quiz_content container">
+        <div class="key_term"></div>
+        <div
+          class="position-absolute finish invis"
+          style="left: 50%; transform: translateX(-50%)"
+        >
+          <button class="rbtn warning restart">Restart</button>
+          <button class="rbtn primary home">Home</button>
+        </div>
+        <div class="flex opt_row">
+          <button class="opt opt1"></button>
+          <button class="opt opt2"></button>
+        </div>
+        <div class="flex opt_row">
+          <button class="opt opt3"></button>
+          <button class="opt opt4"></button>
         </div>
       </div>
-      <div class="accordion_content w-100"></div>
-    </header>
 
-    <div class="quiz_content container">
-      <div class="key_term"></div>
-      <div class="position-absolute finish invis" style="left: 50%; transform: translateX(-50%);">
-        <button class="rbtn warning restart">Restart</button>
-        <button class="rbtn primary home">Home</button>
-      </div>
-      <div class="flex opt_row">
-        <button class="opt opt1"></button>
-        <button class="opt opt2"></button>
-      </div>
-      <div class="flex opt_row">
-        <button class="opt opt3"></button>
-        <button class="opt opt4"></button>
-      </div>
-    </div>
-
-    <div class="invis no-json position-absolute top-50 d-flex justify-content-center w-100"
-      style="transform: translateY(-50%);">
-      <div class="dark p-5 container">
-        <h1>Quiz</h1>
-        To begin, choose a topic from the menu at the bottom of the page.<br><br>
-        If you have a JSON file compatible with this game (which can be done on our <a href="/create"
-          class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Create</a> page),
-        you can
-        upload it using the input field below: <br><br>
-        <input type="file" class="form-control file_input" onchange="quiz(null, null)" accept=".json">
+      <div
+        class="invis no-json position-absolute top-50 d-flex justify-content-center w-100"
+        style="transform: translateY(-50%)"
+      >
+        <div class="dark p-5 container">
+          <h1>Quiz</h1>
+          To begin, choose a topic from the menu at the bottom of the page.<br /><br />
+          If you have a JSON file compatible with this game (which can be done
+          on our
+          <a
+            href="/create"
+            class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover"
+            >Create</a
+          >
+          page), you can upload it using the input field below: <br /><br />
+          <input
+            type="file"
+            class="form-control file_input"
+            onchange="quiz(null, null)"
+            accept=".json"
+          />
+        </div>
       </div>
     </div>
-
-  </div>
-  <script src="/center.js"></script>
-  <script>
-    const options = [
-      document.querySelector('.opt1'),
-      document.querySelector('.opt2'),
-      document.querySelector('.opt3'),
-      document.querySelector('.opt4')
-    ];
-
-    const term_element = document.querySelector('.key_term');
-    const container = document.querySelector('.quiz_content');
-
-    let current_file;
-    let timer;
-    let score_val, length;
-    let answerFound = false;
-    let s = 0, m = 0;
-
-    function adjustMargin() {
-      var margin = Math.max((window.innerHeight - container.getBoundingClientRect()['height']) / 2 - 120, 0);
-      container.style.marginTop = `${margin}px`;
-      container.style.maxHeight = `${window.innerHeight - 250}px`;
-    }
-
-    window.addEventListener('resize', adjustMargin);
-
-    function startStopwatch() {
-      timer = setInterval(() => {
-        s++;
-        if (s === 60) {
-          s = 0;
-          m++;
-        }
-        document.querySelector('.stopwatch').textContent = `${pad(m)}:${pad(s)}`;
-      }, 1000);
-    }
-
-    function pad(value) {
-      return value < 10 ? '0' + value : value;
-    }
-
-    function shuffle(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
-      return array;
-    }
-
-    function getParameterByName(name, url) {
-      if (!url) url = window.location.href;
-      name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
-      var regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`), results = regex.exec(url);
-      if (!results) return null;
-      if (!results[2]) return '';
-      return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-
-    function loadJSON(callback) {
-      if (!getParameterByName('json')) {
-        document.querySelector('.no-json').classList.add('invis');
-        term_element.classList.remove('invis');
-        options.forEach(opt => opt.classList.remove('invis'));
-        var jsonFile = document.querySelector('.file_input').files[0];
-        var reader = new FileReader();
-
-        reader.onload = (event) => {
-          try {
-            var jsonString = event.target.result;
-            var jsonArray = JSON.parse(jsonString);
-            jsonArray.forEach((obj) => obj.newProperty = 'newValue');
-
-            if (isValidJsonStructure(jsonArray)) callback(jsonArray);
-            else throw new Error("Invalid file structure");
-          } catch (error) {
-            alert(`Incompatible file: ${error.message}. The file should contain objects with either 'term' and 'meaning' or 'german' and 'english' properties.`);
-            location.href = '/quiz';
-          }
-        };
-        reader.readAsText(jsonFile);
-      } else {
-        var jsonFile = `/json/${getParameterByName('json')}.json`;
-        var xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
-        xobj.open('GET', jsonFile, true);
-        xobj.onreadystatechange = () => {
-          if (xobj.readyState == 4 && xobj.status == 200) {
-            try {
-              var response = JSON.parse(xobj.responseText);
-              if (isValidJsonStructure(response)) callback(response);
-              else throw new Error("Invalid file structure");
-            } catch (error) {
-              alert(`Incompatible file: ${error.message}. The file should contain objects with either 'term' and 'meaning' or 'german' and 'english' properties.`);
-              location.href = '/quiz';
-            }
-          }
-        };
-        xobj.send(null);
-      }
-    }
-
-    function isValidJsonStructure(jsonArray) {
-      if (!Array.isArray(jsonArray) || jsonArray.length === 0) return false;
-
-      const validKeys = [['term', 'meaning'], ['german', 'english']];
-      return jsonArray.every(obj => validKeys.some(keys => keys.every(key => obj.hasOwnProperty(key))));
-    }
-
-    function updateScore() {
-      document.querySelector('.score').textContent = score_val + '/' + length;
-    }
-
-    function pickRandomItems(array, count) {
-      if (array.length <= count) return array;
-
-      let indexes = new Set();
-      while (indexes.size < count) indexes.add(Math.floor(Math.random() * array.length));
-
-      return [...indexes].map(index => array[index]);
-    }
-
-    async function processItem(item) {
-      const answers = pickRandomItems(json_data, 4);
-      const termElement = document.querySelector('.key_term');
-      const random_option = Math.floor(Math.random() * 4);
-      const meanings = [
-        item.meaning || item.english,
-        answers[0][item.term ? 'meaning' : 'english'],
-        answers[1][item.term ? 'meaning' : 'english'],
-        answers[2][item.term ? 'meaning' : 'english'],
+    <script>
+      const options = [
+        document.querySelector(".opt1"),
+        document.querySelector(".opt2"),
+        document.querySelector(".opt3"),
+        document.querySelector(".opt4"),
       ];
 
-      termElement.textContent = item.term || item.german;
-      options.forEach((option, i) => option.textContent = meanings[(i + random_option) % 4]);
-      adjustMargin();
+      const term_element = document.querySelector(".key_term");
+      const container = document.querySelector(".quiz_content");
 
-      return new Promise(resolve => waitForButton(item, resolve));
-    }
+      let current_file;
+      let timer;
+      let score_val, length;
+      let s = 0, m = 0;
 
-    function waitForButton(item, callback) {
-      const handleClick = event => {
-        const btn = event.target;
-        const isCorrect = item.english ? btn.textContent === item.english : btn.textContent === item.meaning;
-
-        btn.classList.add(isCorrect ? 'correct-opt' : 'incorrect-opt');
-        if (isCorrect) {
-          answerFound = true;
-          score_val++;
-          updateScore();
-        }
-
-        setTimeout(() => {
-          btn.classList.remove(isCorrect ? 'correct-opt' : 'incorrect-opt');
-          if (isCorrect) {
-            callback(event);
-            cleanup();
-            answerFound = false;
-          }
-        }, 1000);
-      };
-
-      const cleanup = () => {
-        options.forEach(option => option.removeEventListener('click', handleClick));
-      };
-
-      options.forEach(option => option.addEventListener('click', handleClick));
-
-      return cleanup;
-    }
-
-    async function quiz(topic, subject) {
-      let rangeInput, rangeLabel, modal;
-      if (topic != null && subject != null) {
-        const modalContainer = document.createElement('div');
-        const modalHtml = '<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Quiz</h5></div><div class="modal-body"><p class="text-black mb-1">Subject: <span id="subject" class=text-black></span><br>Topic: <span id="topic" class=text-black></span><br><br>Game type:</p><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked><label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label></div><div class="form-check">  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"><label class="form-check-label text-black" for="flexRadioDefault2">Number of questions to finish: <label class="form-label text-black" for="customRange1" id="rangeLabel">1</label><div data-mdb-range-init class="range  w-auto"><input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" /></div></label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" onclick="location.href=\'/quiz\'">Cancel</button><button type="button" class="btn btn-primary begin-game">Begin game</button></div></div></div></div>';
-
-        modalContainer.innerHTML = modalHtml;
-
-        container.appendChild(modalContainer);
-
-        modalContainer.querySelector('#subject').textContent = subject;
-        modalContainer.querySelector('#topic').textContent = topic;
-
-        rangeInput = document.getElementById('customRange1');
-        rangeLabel = document.getElementById('rangeLabel');
-
-        modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
-        modal.show();
-
-        rangeInput.addEventListener('input', () => rangeLabel.textContent = rangeInput.value);
+      function adjustMargin() {
+        var margin = Math.max((window.innerHeight - container.getBoundingClientRect()["height"]) / 2 - 120, 0);
+        container.style.marginTop = `${margin}px`;
+        container.style.maxHeight = `${window.innerHeight - 250}px`;
       }
 
-      loadJSON(async function (response) {
-        json_data = shuffle(response);
-        length = json_data.length;
+      window.addEventListener("resize", adjustMargin);
 
+      function startStopwatch() {
+        timer = setInterval(() => {
+          s++;
+          if (s === 60) {
+            s = 0;
+            m++;
+          }
+          document.querySelector(".stopwatch").textContent = `${pad(m)}:${pad(s)}`;
+        }, 1000);
+      }
 
+      function pad(value) {
+        return value < 10 ? "0" + value : value;
+      }
+
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      function mathsConvert(input, output) {
+        MathJax.texReset();
+
+        var options = MathJax.getMetricsFor(output);
+        options.display = false;
+
+        MathJax.tex2chtmlPromise(input, options)
+          .then(node => {
+            output.appendChild(node);
+            MathJax.startup.document.clear();
+            MathJax.startup.document.updateDocument();
+            adjustMargin();
+          })
+          .catch(err => output.appendChild(document.createElement("pre")).appendChild(document.createTextNode(err.message)));
+      }
+
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
+        var regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
+      function loadJSON(callback) {
+        if (!getParameterByName("json")) {
+          document.querySelector(".no-json").classList.add("invis");
+          term_element.classList.remove("invis");
+          options.forEach(opt => opt.classList.remove("invis"));
+          var jsonFile = document.querySelector(".file_input").files[0];
+          var reader = new FileReader();
+
+          reader.onload = e => {
+            try {
+              var jsonString = e.target.result;
+              var jsonArray = JSON.parse(jsonString);
+              jsonArray.forEach(obj => (obj.newProperty = "newValue"));
+
+              if (isValidJsonStructure(jsonArray)) callback(jsonArray);
+              else throw new Error("Invalid file structure");
+            } catch (e) {
+              alert(`Incompatible file: ${e.message}. The file should contain objects with either 'term' and 'meaning' or 'german' and 'english' properties.`);
+              location.href = "/quiz";
+            }
+          };
+          reader.readAsText(jsonFile);
+        } else {
+          var jsonFile = `/json/${getParameterByName("json")}.json`;
+          var xobj = new XMLHttpRequest();
+          xobj.overrideMimeType("application/json");
+          xobj.open("GET", jsonFile, true);
+          xobj.onreadystatechange = () => {
+            if (xobj.readyState == 4 && xobj.status == 200) {
+              try {
+                var response = JSON.parse(xobj.responseText);
+                if (isValidJsonStructure(response)) callback(response);
+                else throw new Error("Invalid file structure");
+              } catch (error) {
+                alert(`Incompatible file: ${error.message}. The file should contain objects with either 'term' and 'meaning' or 'german' and 'english' properties.`);
+                location.href = "/quiz";
+              }
+            }
+          };
+          xobj.send(null);
+        }
+      }
+
+      function isValidJsonStructure(jsonArray) {
+        if (!Array.isArray(jsonArray) || jsonArray.length === 0) return false;
+
+        const validKeys = [
+          ["term", "meaning"],
+          ["german", "english"],
+        ];
+        return jsonArray.every(obj => validKeys.some((keys) => keys.every((key) => obj.hasOwnProperty(key))));
+      }
+
+      function updateScore() {
+        document.querySelector(".score").textContent = score_val + "/" + length;
+      }
+
+      function pickRandomItems(array, count, omit) {
+        if (array.length <= count) return array;
+
+        let indexes = new Set();
+        while (indexes.size < count) indexes.add(Math.floor(Math.random() * array.length));
+
+        let output = [...indexes].map((index) => array[index]);
+
+        if (output.includes(omit)) pickRandomItems(array, count, omit);
+        else return output;
+      }
+
+      async function processItem(item) {
+        const answers = pickRandomItems(json_data, 4, item);
+        const meanings = shuffle([
+          [item.meaning || item.english, 0],
+          [answers[0][item.term ? "meaning" : "english"], 1],
+          [answers[1][item.term ? "meaning" : "english"], 2],
+          [answers[2][item.term ? "meaning" : "english"], 3],
+        ]);
+
+        const indexReferences = [];
+        meanings.forEach(meaning => indexReferences.push(meaning[1]));
+
+        // list that identifies if mathjax will be required to render each of the options
+        const mathJaxRequired = [false, false, false, false];
+        if (item.maths) if (item.maths[1]) mathJaxRequired[indexReferences.indexOf(0)] = true;
+        for (let i = 0; i < 3; i++) if (answers[i].maths) if (answers[i].maths[1]) mathJaxRequired[indexReferences.indexOf(i + 1)] = true;
+
+        term_element.childNodes.forEach(child => child.remove());
+
+        if (item.maths) {
+          if (item.maths[0]) mathsConvert(item.term, term_element);
+          else term_element.textContent = item.term || item.german;
+        } else term_element.textContent = item.term || item.german;
+
+        options.forEach((option, i) => {
+          option.childNodes.forEach(child => child.remove());
+          if (mathJaxRequired[i]) mathsConvert(meanings[i][0], option);
+          else option.textContent = meanings[i][0];
+        });
+
+        adjustMargin();
+
+        return new Promise(resolve => waitForButton(item, indexReferences.indexOf(0), resolve));
+      }
+
+      function waitForButton(item, ansIndex, callback) {
+        const handleClick = event => {
+          const btn = event.target;
+          const isCorrect = options.indexOf(btn) == ansIndex;
+
+          btn.classList.add(isCorrect ? "correct-opt" : "incorrect-opt");
+          if (isCorrect) {
+            score_val++;
+            updateScore();
+          }
+
+          setTimeout(() => {
+            btn.classList.remove(isCorrect ? "correct-opt" : "incorrect-opt");
+            if (isCorrect) {
+              callback(event);
+              cleanup();
+            }
+          }, 1000);
+        };
+
+        const cleanup = () => options.forEach(option => option.removeEventListener("click", handleClick));
+        options.forEach(option => option.addEventListener("click", handleClick));
+
+        return cleanup;
+      }
+
+      function quiz(topic, subject) {
+        let rangeInput, rangeLabel, modal;
         if (topic != null && subject != null) {
-          rangeInput.max = length - 1;
+          const modalContainer = document.createElement("div");
+          const modalHtml = '<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Quiz</h5></div><div class="modal-body"><p class="text-black mb-1">Subject: <span id="subject" class=text-black></span><br>Topic: <span id="topic" class=text-black></span><br><br>Game type:</p><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked><label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label></div><div class="form-check">  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"><label class="form-check-label text-black" for="flexRadioDefault2">Number of questions to finish: <label class="form-label text-black" for="customRange1" id="rangeLabel">1</label><div data-mdb-range-init class="range  w-auto"><input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" /></div></label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" onclick="location.href=\'/quiz\'">Cancel</button><button type="button" class="btn btn-primary begin-game">Begin game</button></div></div></div></div>';
 
-          document.getElementById("complete").textContent = `Complete (${length} questions)`
+          modalContainer.innerHTML = modalHtml;
 
-          await new Promise(resolve => document.querySelector('.begin-game').addEventListener('click', resolve));
+          container.appendChild(modalContainer);
 
-          modal.hide();
+          modalContainer.querySelector("#subject").textContent = subject;
+          modalContainer.querySelector("#topic").textContent = topic;
 
-          if (document.querySelectorAll(".form-check-input")[1].checked) length = rangeInput.value;
+          rangeInput = document.getElementById("customRange1");
+          rangeLabel = document.getElementById("rangeLabel");
+
+          modal = new bootstrap.Modal(modalContainer.querySelector(".modal"));
+          modal.show();
+
+          rangeInput.addEventListener("input", () => rangeLabel.textContent = rangeInput.value);
         }
 
-        startStopwatch();
-        score_val = 0;
-        updateScore();
+        loadJSON(async function (response) {
+          json_data = shuffle(response);
+          length = json_data.length;
 
-        for (let i = 0; i < length; i++) await processItem(json_data[i]);
+          if (topic != null && subject != null) {
+            rangeInput.max = length - 1;
+            document.getElementById("complete").textContent = `Complete (${length} questions)`;
+            await new Promise(resolve => document.querySelector(".begin-game").addEventListener("click", resolve));
+            modal.hide();
+            if (document.querySelectorAll(".form-check-input")[1].checked) length = rangeInput.value;
+          }
 
-        endGame();
-      });
-    }
+          startStopwatch();
+          score_val = 0;
+          updateScore();
 
-    function endGame() {
-      clearInterval(timer);
-      adjustMargin();
-      options.forEach(option => option.classList.add('invis'));
-      document.querySelector('.home').addEventListener('click', () => location.href = '/');
-      document.querySelector('.restart').addEventListener('click', location.reload);
-      term_element.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
-      document.querySelector('.finish').classList.remove('invis');
-    }
+          for (const item of json_data) await processItem(item);
 
-    async function getJSON() {
-      return await (await fetch('/subjects.json')).json();
-    }
-
-    async function getSubjectJSON() {
-      data = await (await fetch('/subjects.json')).json();
-      var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
-      data.forEach(item => {
-        const subject = item.displayName.replace(/\s/g, "");
-        var topics = "";
-        item.topics.forEach(topic => {
-          var binary_games = topic.games.toString(2);
-          while (binary_games.length < 5) binary_games = `0${binary_games}`;
-
-          if (binary_games[2] == 1) topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+          endGame();
         });
-        dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
-      });
-      dropdownHTML += '</div>';
-      return dropdownHTML;
-    }
+      }
 
-    function generateStructuredData(path, subject, topic) {
-      fetch(path)
-        .then(response => response.json())
-        .then(data => {
-          const correctAnswers = data.map(item => item.meaning);
-          const structuredData = {
-            "@context": "https://schema.org",
-            "@type": "Quiz",
-            "typicalAgeRange": "14-16",
-            "educationalAlignment": [
-              {
-                "@type": "AlignmentObject",
-                "alignmentType": "educationalSubject",
-                "targetName": subject
-              }
-            ],
-            "about": {
-              "@type": "Thing",
-              "name": topic
-            },
-            "name": `Practice questions for ${topic}`,
-            "hasPart": data.map((item, index) => {
-              const incorrectAnswers = shuffle(correctAnswers.filter((_, i) => i !== index)).slice(0, 3);
-              const positions = shuffle([0, 1, 2, 3]);
-              if (item.term) {
-                return {
-                  "@type": "Question",
-                  "eduQuestionType": "Multiple choice",
-                  "learningResourceType": "Practice problem",
-                  "name": "Key term definition",
-                  "text": item.term,
-                  "encodingFormat": "text/html",
-                  "answerCount": 4,
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": item.meaning,
-                    "position": positions[0],
-                    "encodingFormat": "text/html"
-                  },
-                  "suggestedAnswer": [
-                    ...incorrectAnswers.map((answer, i) => ({
-                      "@type": "Answer",
-                      "text": answer,
-                      "position": positions[i + 1],
-                      "encodingFormat": "text/html"
-                    }))
-                  ]
-                };
-              } else {
-                return {
-                  "@type": "Question",
-                  "eduQuestionType": "Multiple choice",
-                  "learningResourceType": "Practice problem",
-                  "name": "Translation",
-                  "text": `Translate ${item.german} to English`,
-                  "answerCount": 4,
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": item.english,
-                    "encodingFormat": "text/html",
-                    "position": positions[0]
-                  },
-                  "suggestedAnswer": [
-                    ...incorrectAnswers.map((answer, i) => ({
-                      "@type": "Answer",
-                      "text": answer,
-                      "encodingFormat": "text/html",
-                      "position": positions[i + 1]
-                    }))
-                  ]
-                };
-              }
-            })
-          };
+      function endGame() {
+        clearInterval(timer);
+        adjustMargin();
+        options.forEach((option) => option.classList.add("invis"));
+        document.querySelector(".home").addEventListener("click", () => (location.href = "/"));
+        document.querySelector(".restart").addEventListener("click", location.reload);
+        term_element.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
+        document.querySelector(".finish").classList.remove("invis");
+      }
 
-          const script = document.createElement('script');
-          script.type = 'application/ld+json';
-          script.innerHTML = JSON.stringify(structuredData, null, 2);
-          document.head.appendChild(script);
-        })
-        .catch(error => console.error(error));
-    }
+      async function getJSON() {
+        return await (await fetch("/subjects.json")).json();
+      }
 
-    getSubjectJSON().then(s => document.querySelector(".accordion_content").innerHTML = s);
-
-    document.querySelector(".mobile_nav_btn").addEventListener('click', () => {
-      document.querySelector('.bi-caret-down-fill').classList.toggle('rotated');
-      document.querySelector(".mobile_nav").classList.toggle('active');
-    });
-
-    const jsonFileName = getParameterByName('json');
-
-    if (jsonFileName != null) {
-      getJSON().then(data => {
+      async function getSubjectJSON() {
+        data = await (await fetch("/subjects.json")).json();
+        var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
         data.forEach(item => {
+          const subject = item.displayName.replace(/\s/g, "");
+          var topics = "";
           item.topics.forEach((topic) => {
-            if (topic.jsonFile == jsonFileName) {
-              let current_topic = topic.displayName;
-              let current_subject = item.displayName;
-              document.title = `${current_topic} (${current_subject}) - Rasper Revision`;
-              generateStructuredData(`/json/${getParameterByName('json')}.json`, current_subject, current_topic);
-              quiz(current_topic, current_subject);
-            }
+            var binary_games = topic.games.toString(2);
+            while (binary_games.length < 5) binary_games = `0${binary_games}`;
+            if (binary_games[2] == 1) topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+          });
+          dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
+        });
+        dropdownHTML += "</div>";
+        return dropdownHTML;
+      }
+
+      function generateStructuredData(path, subject, topic) {
+        fetch(path)
+          .then(response => response.json())
+          .then(data => {
+            const correctAnswers = data.map(item => item.meaning);
+            const structuredData = {
+              "@context": "https://schema.org",
+              "@type": "Quiz",
+              typicalAgeRange: "14-16",
+              educationalAlignment: [
+                {
+                  "@type": "AlignmentObject",
+                  alignmentType: "educationalSubject",
+                  targetName: subject,
+                },
+              ],
+              about: {
+                "@type": "Thing",
+                name: topic,
+              },
+              name: `Practice questions for ${topic}`,
+              hasPart: data.map((item, index) => {
+                const incorrectAnswers = shuffle(
+                  correctAnswers.filter((_, i) => i !== index)
+                ).slice(0, 3);
+                const positions = shuffle([0, 1, 2, 3]);
+                if (item.term) {
+                  return {
+                    "@type": "Question",
+                    eduQuestionType: "Multiple choice",
+                    learningResourceType: "Practice problem",
+                    name: "Key term definition",
+                    text: item.term,
+                    encodingFormat: "text/html",
+                    answerCount: 4,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: item.meaning,
+                      position: positions[0],
+                      encodingFormat: "text/html",
+                    },
+                    suggestedAnswer: [
+                      ...incorrectAnswers.map((answer, i) => ({
+                        "@type": "Answer",
+                        text: answer,
+                        position: positions[i + 1],
+                        encodingFormat: "text/html",
+                      })),
+                    ],
+                  };
+                } else {
+                  return {
+                    "@type": "Question",
+                    eduQuestionType: "Multiple choice",
+                    learningResourceType: "Practice problem",
+                    name: "Translation",
+                    text: `Translate ${item.german} to English`,
+                    answerCount: 4,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: item.english,
+                      encodingFormat: "text/html",
+                      position: positions[0],
+                    },
+                    suggestedAnswer: [
+                      ...incorrectAnswers.map((answer, i) => ({
+                        "@type": "Answer",
+                        text: answer,
+                        encodingFormat: "text/html",
+                        position: positions[i + 1],
+                      })),
+                    ],
+                  };
+                }
+              }),
+            };
+
+            const script = document.createElement("script");
+            script.type = "application/ld+json";
+            script.innerHTML = JSON.stringify(structuredData, null, 2);
+            document.head.appendChild(script);
+          })
+          .catch(error => console.error(error));
+      }
+
+      getSubjectJSON().then(s => (document.querySelector(".accordion_content").innerHTML = s));
+
+      document.querySelector(".mobile_nav_btn").addEventListener("click", () => {
+        document.querySelector(".bi-caret-down-fill").classList.toggle("rotated");
+        document.querySelector(".mobile_nav").classList.toggle("active");
+      });
+
+      const jsonFileName = getParameterByName("json");
+
+      if (jsonFileName != null) {
+        getJSON().then(data => {
+          data.forEach(item => {
+            item.topics.forEach(topic => {
+              if (topic.jsonFile == jsonFileName) {
+                let current_topic = topic.displayName;
+                let current_subject = item.displayName;
+                document.title = `${current_topic} (${current_subject}) - Rasper Revision`;
+                generateStructuredData(`/json/${getParameterByName("json")}.json`, current_subject, current_topic);
+                quiz(current_topic, current_subject);
+              }
+            });
           });
         });
-      });
-    } else {
-      document.querySelector('.no-json').classList.remove('invis');
-      term_element.classList.add('invis');
-      document.querySelectorAll('.opt').forEach(element => element.classList.add('invis'));
-    }
-  </script>
-  <script src="/sidebar.js"></script>
-
-</body>
-
+      } else {
+        document.querySelector(".no-json").classList.remove("invis");
+        term_element.classList.add("invis");
+        options.forEach(opt => opt.classList.add("invis"));
+      }
+    </script>
+    <script src="/sidebar.js"></script>
+  </body>
 </html>
