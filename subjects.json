@@ -262,6 +262,13 @@
         "jsonFile": "physics-particle-model",
         "games": 28,
         "bg": "info"
+      },
+      {
+        "index": 5,
+        "displayName": "Atomic structure",
+        "jsonFile": "physics-atomic-structure",
+        "games": 16,
+        "bg": "danger"
       }
     ]
   },
