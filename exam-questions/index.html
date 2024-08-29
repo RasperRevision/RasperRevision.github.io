@@ -371,9 +371,6 @@
                 updateScore();
               }
             } else {
-              // non-exact answers are always strings
-              userAnswer = userAnswer.toLowerCase();
-
               // creates mark scheme text
               let current_mark_scheme = mark_scheme_boxes[boxIndex];
               const ms_text = `<h6>Self-marked-question. Select the number of marks you think you deserve based on the mark scheme.</h6><div class="dropdown d-inline me-2"><button class="btn btn-secondary dropdown-toggle dropdownButton${boxIndex}" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select</button><ul class="dropdown-menu dropdown${boxIndex}"></ul></div>mark(s)<br><h6 class=mt-3>Mark scheme</h6><ul class=markScheme${boxIndex}></ul><h6 class=allow></h6><ul class=altMarkScheme${boxIndex}></ul><h6 class=indicative></h6><ul class=indicativeMarkScheme${boxIndex}></ul>`;
