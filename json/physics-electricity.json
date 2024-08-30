@@ -5,7 +5,7 @@
   },
   {
     "term": "Charge",
-    "meaning": "The number of electrons passing through a circuit, measured in Coulombs - a unit approximately equal to 6 sextillion electrons."
+    "meaning": "The number of electrons passing through a circuit, measured in Coulombs - a unit representing a large number of electrons."
   },
   {
     "term": "Resistance",
@@ -65,7 +65,7 @@
   },
   {
     "term": "Filament lamp",
-    "meaning": "A non-ohmic conductor, whose resistance increases as the temperature increases."
+    "meaning": "A non-ohmic light-emitting conductor, whose resistance increases as the temperature increases."
   },
   {
     "term": "Series circuit",
