@@ -1,12 +1,12 @@
 [
   {
-    "term": "\\cos(90)+\\tan(0)",
+    "term": "\\cos 90 +\\tan 0",
     "meaning": "0",
     "maths": [true, true]
   },
   {
     "term": "\\cos 0 + \\tan 45",
-    "meaning": "1",
+    "meaning": "2",
     "maths": [true, true]
   },
   {
