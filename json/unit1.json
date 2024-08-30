@@ -5,7 +5,7 @@
     },
     {
         "term": "Decomposition",
-        "meaning": "The process of dividing a problem into smaller, more manageable sub-problems - these sub-problems are then divided further and so on."
+        "meaning": "The process of dividing a problem into more manageable sub-problems, which are then divided further and so on."
     },
     {
         "term": "Abstraction",
@@ -25,11 +25,11 @@
     },
     {
         "term": "Processing",
-        "meaning": "The process of taking the input, applying an algorithm to it, and then outputting the result"
+        "meaning": "The application of an algorithm to inputted data."
     },
     {
         "term": "Output",
-        "meaning": "Anything that is sent out of a program"
+        "meaning": "The data that is sent out of a program to be shown to the user."
     },
     {
         "term": "Efficiency",
@@ -37,30 +37,30 @@
     },
     {
         "term": "Searching Algorithm",
-        "meaning": "An algorithm that locates a specific item in a list of items"
+        "meaning": "An algorithm that locates a specific item in a dataset"
     },
     {
         "term": "Sorting Algorithm",
-        "meaning": "An algorithm that sorts a list of items into a specific order"
+        "meaning": "An algorithm that sorts a dataset into a specific order"
     },
     {
         "term": "Linear search",
-        "meaning": "A searching algorithm that searches through a list of items one at a time, until the item is found"
+        "meaning": "A searching algorithm that searches through a dataset one at a time, until the item is found"
     },
     {
         "term": "Binary search",
-        "meaning": "A searching algorithm that searches through a list of items by splitting the list in half and comparing the item to be found to the item in the middle of the list"
+        "meaning": "A searching algorithm that recursively splits the dataset in half and compares the item to be found to the item halfway through the dataset."
     },
     {
         "term": "Bubble sort",
-        "meaning": "A sorting algorithm that compares two items at a time and swaps them if they are in the wrong order"
+        "meaning": "A sorting algorithm that compares two items at a time, swapping them if they are in the wrong order, until the entire dataset is sorted."
     },
     {
         "term": "Merge sort",
-        "meaning": "A sorting algorithm that splits a list of items into two halves and then sorts each one separately, then merges the two sorted lists back together"
+        "meaning": "A sorting algorithm that recursively splits a dataset into two halves, sorts each one separately and merges the two sorted lists back together."
     },
     {
         "term": "Insertion sort",
-        "meaning": "A sorting algorithm which compares each value to the value to its left. If the value to the left is greater than the value being compared, the value being compared is moved left until the value to its left is less than it."
+        "meaning": "A sorting algorithm which moves each item left until the item to its left is less than it."
     }
 ]
