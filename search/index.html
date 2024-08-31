@@ -78,15 +78,10 @@
         (async () => {
             const urls = await fetchSitemap(); 
             const urlTitlePairs = await fetchPageTitles(urls);
-
-            try {
+            
             urlTitlePairs.forEach(({ url, title }) => {
                 document.querySelector('.search_results').innerHTML += `<a href="${url}">${title}</a>`; 
             });
-            } catch (error) {
-                console.error(error);
-                document.querySelector('.search_results').innerHTML += error;
-            }
         })();
 
         
