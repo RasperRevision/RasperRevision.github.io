@@ -79,7 +79,7 @@
             const urls = await fetchSitemap(); 
             const urlTitlePairs = await fetchPageTitles(urls);
         
-            urlTitlePairs.forEach({ url, title } => {
+            urlTitlePairs.forEach(({ url, title }) => {
                 document.querySelector('.search_results').innerHTML += `<a href="${url}">${title}</a>`; 
             });
         })();
