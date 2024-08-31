@@ -1,5 +1,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url><loc>https://rasperrevision.github.io/</loc></url>
+<url>
+  <loc>https://rasperrevision.github.io/</loc>
+  <title>Rasper Revision</title>
+</url>
 <url><loc>https://rasperrevision.github.io/quiz/</loc></url>
 <url><loc>https://rasperrevision.github.io/quiz/?json=c1</loc></url>
 <url><loc>https://rasperrevision.github.io/quiz/?json=c2</loc></url>
