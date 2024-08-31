@@ -40,8 +40,22 @@
     <div class="main_wrapper">
         <main class="container">
             <input class="w-100 search_field">
+            <div class="search_results">
         </main>
     </div>
+    <script>
+        async function fetchSitemap () {
+            const sitemap = await fetch('/sitemap.xml');
+            const doc = new DOMParser().parseFromString(sitemap, "text/xml");
+
+            const urls = doc.querySelectorAll("loc").forEach(child => child.textContent);
+
+            return urls;
+        }
+
+        document.querySelector('.search_results').textContent = fetchSitemap();
+        
+    </script>
     <script src="/sidebar.js"></script>
 </body>
 </html>
