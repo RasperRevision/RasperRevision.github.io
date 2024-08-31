@@ -45,18 +45,45 @@
     </div>
     <script>
         async function fetchSitemap() {
-            const response = await fetch('/sitemap.xml'); 
+            const response = await fetch('/sitemap.xml');
             const sitemap = await response.text();
             const doc = new DOMParser().parseFromString(sitemap, "text/xml");
-            
+        
             const urls = Array.from(doc.querySelectorAll("loc")).map(child => child.textContent);
             
-            return urls; 
+            return urls;
         }
+        
+        async function fetchPageTitles(urls) {
+            const urlTitlePairs = [];
+        
+            for (const url of urls) {
+                try {
+                    const response = await fetch(url);  
+                    const html = await response.text();
+        
+                    const doc = new DOMParser().parseFromString(html, "text/html");
+                    const title = doc.querySelector("title") ? doc.querySelector("title").textContent : 'No title found';
+        
+                    urlTitlePairs.push({ url, title }); 
+                } catch (error) {
+                    console.error(`Failed to fetch ${url}: ${error}`);
+                    urlTitlePairs.push({ url, title: 'Error fetching title' });
+                }
+            }
+        
+            return urlTitlePairs; 
+        }
+        
+        (async () => {
+            const urls = await fetchSitemap(); 
+            const urlTitlePairs = await fetchPageTitles(urls);
+        
+            urlTitlePairs.forEach({ url, title } => {
+                document.querySelector('.search_results').innerHTML += `<a href="${url}">${title}</a>`; 
+            });
+        })();
 
-        fetchSitemap().then(urls => {
-            document.querySelector('.search_results').textContent = urls;
-        });
         
     </script>
     <script src="/sidebar.js"></script>
