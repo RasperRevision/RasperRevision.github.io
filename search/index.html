@@ -44,47 +44,52 @@
         </main>
     </div>
     <script>
+        const puppeteer = require('puppeteer');
+        
         async function fetchSitemap() {
             const response = await fetch('/sitemap.xml');
             const sitemap = await response.text();
             const doc = new DOMParser().parseFromString(sitemap, "text/xml");
         
             const urls = Array.from(doc.querySelectorAll("loc")).map(child => child.textContent);
-            
+        
             return urls;
         }
         
         async function fetchPageTitles(urls) {
             const urlTitlePairs = [];
+            const browser = await puppeteer.launch();
         
             for (const url of urls) {
                 try {
-                    const response = await fetch(url);  
-                    const html = await response.text();
+                    const page = await browser.newPage();
+                    await page.goto(url, { waitUntil: 'networkidle0' });
         
-                    const doc = new DOMParser().parseFromString(html, "text/html");
-                    const title = doc.querySelector("title") ? doc.querySelector("title").textContent : 'No title found';
+                    const title = await page.title();
         
-                    urlTitlePairs.push({ url, title }); 
+                    urlTitlePairs.push({ url, title });
+                    await page.close(); 
+        
                 } catch (error) {
                     console.error(`Failed to fetch ${url}: ${error}`);
                     urlTitlePairs.push({ url, title: 'Error fetching title' });
                 }
             }
         
-            return urlTitlePairs; 
+            await browser.close();
+        
+            return urlTitlePairs;
         }
         
         (async () => {
-            const urls = await fetchSitemap(); 
+            const urls = await fetchSitemap();
             const urlTitlePairs = await fetchPageTitles(urls);
-            
+        
             urlTitlePairs.forEach(({ url, title }) => {
-                document.querySelector('.search_results').innerHTML += `<a href="${url}">${title}</a>`; 
+                document.querySelector('.search_results').innerHTML += `<a href="${url}">${title}</a>`;
             });
         })();
 
-        
     </script>
     <script src="/sidebar.js"></script>
 </body>
