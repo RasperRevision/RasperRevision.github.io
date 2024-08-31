@@ -44,16 +44,19 @@
         </main>
     </div>
     <script>
-        async function fetchSitemap () {
-            const sitemap = await fetch('/sitemap.xml');
+        async function fetchSitemap() {
+            const response = await fetch('/sitemap.xml'); 
+            const sitemap = await response.text();
             const doc = new DOMParser().parseFromString(sitemap, "text/xml");
-
-            const urls = doc.querySelectorAll("loc").forEach(child => child.textContent);
-
-            return urls;
+            
+            const urls = Array.from(doc.querySelectorAll("loc")).map(child => child.textContent);
+            
+            return urls; 
         }
 
-        document.querySelector('.search_results').textContent = fetchSitemap();
+        fetchSitemap().then(urls => {
+            document.querySelector('.search_results').textContent = urls;
+        });
         
     </script>
     <script src="/sidebar.js"></script>
