@@ -54,10 +54,20 @@
         (async () => {
             await fetchSitemap().then(urls => {
                 urls.forEach(item => {
-                    document.querySelector('.search_results').innerHTML += `<a href="${item.url}">${item.title}</a>`;
+                    document.querySelector('.search_results').innerHTML += `<a class="search-link" href="${item.url}">${item.title}</a>`;
                 });
             });
         })();
+
+        const search_field = document.querySeletor('.search_field');
+
+        search_field.addEventListener('input', () => {
+            const filterValue = search_field.value.toLowerCase();
+            document.querySelectorAll('.search-link').forEach(link => {
+                if (!link.textContent.includes(filterValue) link.classList.add('d-none');
+                else link.classList.remove('d-none');
+            });
+        });
     </script>
     <script src="/sidebar.js"></script>
 </body>
