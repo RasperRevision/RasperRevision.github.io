@@ -50,7 +50,8 @@
             
             return sitemap;
         }
-    
+
+        try {
         (async () => {
             await fetchSitemap().then(urls => {
                 urls.forEach(item => {
@@ -68,6 +69,9 @@
                 else link.classList.remove('d-none');
             });
         });
+        } catch (error) {
+            document.querySelector('.search_field').value = error;
+        }
     </script>
     <script src="/sidebar.js"></script>
 </body>
