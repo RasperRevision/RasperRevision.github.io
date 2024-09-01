@@ -51,27 +51,25 @@
             return sitemap;
         }
 
-        try {
         (async () => {
-            await fetchSitemap().then(urls => {
+            const urls = await fetchSitemap().then(urls => {
                 urls.forEach(item => {
                     document.querySelector('.search_results').innerHTML += `<a class="search-link" href="${item.url}">${item.title}</a>`;
                 });
             });
+            
+            const search_field = document.querySelector('.search_field');
+            const url_elements = document.querySelectorAll('.search-link');
+    
+            search_field.addEventListener('input', () => {
+                const filterValue = search_field.value.toLowerCase();
+                urls.forEach(link => {
+                    if (!link.textContent.includes(filterValue) link.classList.add('d-none');
+                    else link.classList.remove('d-none');
+                });
+            });
         })();
 
-        const search_field = document.querySelector('.search_field');
-
-        search_field.addEventListener('input', () => {
-            const filterValue = search_field.value.toLowerCase();
-            document.querySelectorAll('.search-link').forEach(link => {
-                if (!link.textContent.includes(filterValue) link.classList.add('d-none');
-                else link.classList.remove('d-none');
-            });
-        });
-        } catch (error) {
-            document.querySelector('.search_results').value = error;
-        }
     </script>
     <script src="/sidebar.js"></script>
 </body>
