@@ -242,8 +242,8 @@
       return selectedItems;
     }
 
-    async function processItem(item) {
-      const answers = pickRandomItems(json_data, 3, item);
+    async function processItem(item, data) {
+      const answers = pickRandomItems(data, 3, item);
       const meanings = shuffle([
         [item.meaning || item.english, 0],
         [answers[0][item.term ? "meaning" : "english"], 1],
@@ -343,7 +343,7 @@
           updateScore();
   
           // do not change this - this is a for loop and not a foreach loop for a reason.
-          for (let i = 0; i < length; i++) await processItem(json_data[i]);
+          for (let i = 0; i < length; i++) await processItem(json_data[i], json_data);
   
           endGame();
         } catch (error) {
