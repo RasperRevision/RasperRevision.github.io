@@ -341,7 +341,7 @@
         score_val = 0;
         updateScore();
 
-        for (const item of json_data) await processItem(item);
+        for (let i = 0; i < length; i++) await processItem(json_data[i]);
 
         endGame();
       });
