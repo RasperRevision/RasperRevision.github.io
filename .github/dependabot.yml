@@ -10,5 +10,3 @@ updates:
     ignore:
       - dependency-name: "bootstrap"
         versions: ["5.3.3"]
-      - dependency-name: "bootstrap-icons"
-        versions: ["1.11.3"]
