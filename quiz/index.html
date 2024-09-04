@@ -326,25 +326,29 @@
       }
 
       loadJSON(async function (response) {
-        json_data = shuffle(response);
-        length = json_data.length;
-
-        if (topic != null && subject != null) {
-          rangeInput.max = length - 1;
-          document.getElementById("complete").textContent = `Complete (${length} questions)`;
-          await new Promise(resolve => document.querySelector(".begin-game").addEventListener("click", resolve));
-          modal.hide();
-          if (document.querySelectorAll(".form-check-input")[1].checked) length = rangeInput.value;
+        try {
+          json_data = shuffle(response);
+          length = json_data.length;
+  
+          if (topic != null && subject != null) {
+            rangeInput.max = length - 1;
+            document.getElementById("complete").textContent = `Complete (${length} questions)`;
+            await new Promise(resolve => document.querySelector(".begin-game").addEventListener("click", resolve));
+            modal.hide();
+            if (document.querySelectorAll(".form-check-input")[1].checked) length = rangeInput.value;
+          }
+  
+          startStopwatch();
+          score_val = 0;
+          updateScore();
+  
+          // do not change this - this is a for loop and not a foreach loop for a reason.
+          for (let i = 0; i < length; i++) await processItem(json_data[i]);
+  
+          endGame();
+        } catch (error) {
+          term_element.textContent = error;
         }
-
-        startStopwatch();
-        score_val = 0;
-        updateScore();
-
-        // do not change this - this is a for loop and not a foreach loop for a reason.
-        for (let i = 0; i < length; i++) await processItem(json_data[i]);
-
-        endGame();
       });
     }
 
