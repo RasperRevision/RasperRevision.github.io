@@ -4,7 +4,11 @@
       "w=mg",
       "w=gm",
       "g=w÷m",
-      "m=w÷g"
+      "m=w÷g",
+      "mg=w",
+      "gm=w",
+      "w÷m=g",
+      "w÷g=m"
     ],
     "parts": [
       "weight",
@@ -17,7 +21,11 @@
       "W=Fs",
       "W=sF",
       "s=W÷F",
-      "F=W÷s"
+      "F=W÷s",
+      "Fs=W",
+      "sF=W",
+      "W÷F=s",
+      "W÷s=F"
     ],
     "parts": [
       "work done",
@@ -30,7 +38,11 @@
       "F=ke",
       "F=ek",
       "e=F÷k",
-      "k=F÷e"
+      "k=F÷e",
+      "ke=F",
+      "ek=F",
+      "F÷k=e",
+      "F÷e=k"
     ],
     "parts": [
       "force applied to a spring",
@@ -43,10 +55,14 @@
       "M=Fd",
       "M=dF",
       "d=M÷F",
-      "F=M÷d"
+      "F=M÷d",
+      "Fd=M",
+      "dF=M",
+      "M÷F=d",
+      "M÷d=F"
     ],
     "parts": [
-      "moment of the force",
+      "moment",
       "force",
       "distance"
     ]
@@ -56,7 +72,11 @@
       "P=F÷A",
       "F=PA",
       "F=AP",
-      "A=F÷P"
+      "A=F÷P",
+      "F÷A=P",
+      "PA=F",
+      "AP=F",
+      "F÷P=A"
     ],
     "parts": [
       "pressure",
@@ -69,7 +89,11 @@
       "s=vt",
       "s=tv",
       "t=s÷v",
-      "v=s÷t"
+      "v=s÷t",
+      "vt=s",
+      "tv=s",
+      "s÷v=t",
+      "s÷t=v"
     ],
     "parts": [
       "displacement",
@@ -82,7 +106,11 @@
       "a=∆v÷t",
       "∆v=ta",
       "∆v=at",
-      "t=∆v÷a"
+      "t=∆v÷a",
+      "∆v÷t=a",
+      "ta=∆v",
+      "at=∆v",
+      "∆v÷a=t"
     ],
     "parts": [
       "acceleration",
@@ -95,7 +123,11 @@
       "F=ma",
       "F=am",
       "a=F÷m",
-      "m=F÷a"
+      "m=F÷a",
+      "ma=F",
+      "am=F",
+      "F÷m=a",
+      "F÷a=m"
     ],
     "parts": [
       "resultant force",
@@ -108,7 +140,11 @@
       "p=mv",
       "p=vm",
       "m=p÷v",
-      "v=p÷m"
+      "v=p÷m",
+      "mv=p",
+      "vm=p",
+      "p÷v=m",
+      "p÷m=v"
     ],
     "parts": [
       "momentum",
@@ -123,7 +159,13 @@
       "Eₖ=m½v²",
       "Eₖ=mv²½",
       "Eₖ=v²m½",
-      "Eₖ=v²½m"
+      "Eₖ=v²½m",
+      "½mv²=Eₖ",
+      "½v²m=Eₖ",
+      "m½v²=Eₖ",
+      "mv²½=Eₖ",
+      "v²m½=Eₖ",
+      "v²½m=Eₖ"
     ],
     "parts": [
       "kinetic energy",
@@ -138,7 +180,13 @@
       "Eₚ=hgm",
       "Eₚ=hmg",
       "Eₚ=ghm",
-      "Eₚ=gmh"
+      "Eₚ=gmh",
+      "mgh=Eₚ",
+      "mhg=Eₚ",
+      "hgm=Eₚ",
+      "hmg=Eₚ",
+      "ghm=Eₚ",
+      "gmh=Eₚ"
     ],
     "parts": [
       "gravitational potential energy",
@@ -152,7 +200,11 @@
       "P=E÷t",
       "E=Pt",
       "E=tP",
-      "t=E÷P"
+      "t=E÷P",
+      "E÷t=P",
+      "Pt=E",
+      "tP=E",
+      "E÷P=t"
     ],
     "parts": [
       "power",
@@ -165,7 +217,11 @@
       "P=W÷t",
       "W=Pt",
       "W=tP",
-      "t=W÷P"
+      "t=W÷P",
+      "W÷t=P",
+      "Pt=W",
+      "tP=W",
+      "W÷P=t"
     ],
     "parts": [
       "power",
@@ -178,7 +234,11 @@
       "v=fλ",
       "v=λf",
       "λ=v÷f",
-      "f=v÷λ"
+      "f=v÷λ",
+      "fλ=v",
+      "λf=v",
+      "v÷f=λ",
+      "v÷λ=f"
     ],
     "parts": [
       "wave speed",
@@ -191,7 +251,11 @@
       "Q=It",
       "I=Q÷t",
       "t=Q÷I",
-      "Q=tI"
+      "Q=tI",
+      "It=Q",
+      "Q÷t=I",
+      "Q÷I=t",
+      "tI=Q"
     ],
     "parts": [
       "charge flow",
@@ -204,7 +268,11 @@
       "V=IR",
       "V=RI",
       "R=V÷I",
-      "I=V÷R"
+      "I=V÷R",
+      "IR=V",
+      "RI=V",
+      "V÷I=R",
+      "V÷R=I"
     ],
     "parts": [
       "potential difference",
@@ -217,7 +285,11 @@
       "P=IV",
       "P=VI",
       "V=P÷I",
-      "I=P÷V"
+      "I=P÷V",
+      "IV=P",
+      "VI=P",
+      "P÷I=V",
+      "P÷V=I"
     ],
     "parts": [
       "power",
@@ -229,7 +301,10 @@
     "equations": [
       "P=I²R",
       "P=RI²",
-      "R=P÷I²"
+      "R=P÷I²",
+      "I²R=P",
+      "RI²=P",
+      "P÷I²=R"
     ],
     "parts": [
       "power",
@@ -242,7 +317,11 @@
       "E=QV",
       "E=VQ",
       "Q=E÷V",
-      "V=E÷Q"
+      "V=E÷Q",
+      "QV=E",
+      "VQ=E",
+      "E÷V=Q",
+      "E÷Q=V"
     ],
     "parts": [
       "energy",
@@ -255,7 +334,11 @@
       "ρ=m÷v",
       "m=vρ",
       "m=ρv",
-      "v=m÷ρ"
+      "v=m÷ρ",
+      "m÷v=ρ",
+      "vρ=m",
+      "ρv=m",
+      "m÷ρ=v"
     ],
     "parts": [
       "density",
