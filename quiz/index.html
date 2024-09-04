@@ -171,9 +171,9 @@
         var jsonFile = document.querySelector(".file_input").files[0];
         var reader = new FileReader();
 
-        reader.onload = e => {
+        reader.onload = event => {
           try {
-            var jsonString = e.target.result;
+            var jsonString = event.target.result;
             var jsonArray = JSON.parse(jsonString);
             jsonArray.forEach(obj => (obj.newProperty = "newValue"));
 
