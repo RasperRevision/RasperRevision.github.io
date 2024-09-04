@@ -341,6 +341,7 @@
         score_val = 0;
         updateScore();
 
+        // do not change this - this is a for loop and not a foreach loop for a reason.
         for (let i = 0; i < length; i++) await processItem(json_data[i]);
 
         endGame();
