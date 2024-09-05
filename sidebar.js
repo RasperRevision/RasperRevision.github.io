@@ -21,7 +21,7 @@ const html = `<header class="d-flex justify-content-between main_header align-it
 <div class="d-flex sidebar-wrapper" id="wrapper">
   <div id="sidebar" style="z-index: 1000;">
     <a class="d-flex justify-content-center mb-5" href="/">
-      <img class="side-logo" src="/assets/logo/regular_logo_dark_no_text.svg" aria-label="Rasper Revision Logo" alt="Rasper Revision Logo">
+      <img class="side-logo" src="/assets/logo/regular_logo_dark_no_text.svg" aria-label="Rasper Revision Logo" alt="Rasper Revision Logo" width="200" height="200">
     </a>
     <ul class="list-group list-group-flush">
       <li><a href="/create" class="list-group-item">Create</a></li>
