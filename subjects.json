@@ -10,35 +10,35 @@
         "displayName": "Atomic structure",
         "bg": "primary",
         "jsonFile": "c1",
-        "games": 8
+        "games": 4
       },
       {
         "index": 2,
         "displayName": "Structure and bonding",
         "bg": "danger",
         "jsonFile": "c2",
-        "games": 12
+        "games": 4
       },
       {
         "index": 3,
         "displayName": "Quantitative Chemistry",
         "bg": "orange",
         "jsonFile": "c3-quantitative-chemistry",
-        "games": 12
+        "games": 4
       },
       {
         "index": 4,
         "displayName": "Electrolysis",
         "bg": "warning",
         "jsonFile": "chemistry-electrolysis",
-        "games": 12
+        "games": 4
       },
       {
         "index": 5,
         "displayName": "Energy changes",
         "bg": "lime",
         "jsonFile": "chemistry-energy-changes",
-        "games": 12
+        "games": 4
       }
     ]
   },
