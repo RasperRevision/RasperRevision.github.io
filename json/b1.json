@@ -1,11 +1,11 @@
 [
   {
     "term": "Eukaryotic cell",
-    "meaning": "Any cell that contains a nucleus storing genetic information. Found in plants and animals, and much larger than prokaryotic cells. Usually between 10 and 100 µm in diameter"
+    "meaning": "A larger type of cell that contains a nucleus storing genetic information. Found in plants and animals."
   },
   {
     "term": "Prokaryotic cell",
-    "meaning": "A small type of cell without a nucleus - genetic material is a DNA loop, which may have one or two rings of DNA known as plasmids. Usually between 0.1 and 5.0 µm in diameter"
+    "meaning": "A smaller type of cell storing genetic material as a DNA loop, which may have one or two rings of DNA known as plasmids."
   },
   {
     "term": "Nucleus",
@@ -13,7 +13,7 @@
   },
   {
     "term": "Cytoplasm",
-    "meaning": "A fluid-like substance found in cells"
+    "meaning": "The fluid that fills cells, consisting of water and solutes."
   },
   {
     "term": "Cell membrane",
@@ -37,7 +37,7 @@
   },
   {
     "term": "Cell wall",
-    "meaning": "The outer layer of plant and algal cells responsible for strengthening the cell. Made of cellulose"
+    "meaning": "The outer cellulose layer of plant and algal cells responsible for strengthening the cell."
   },
   {
     "term": "Specialised cell",
@@ -45,7 +45,7 @@
   },
   {
     "term": "Organelle",
-    "meaning": "A sub-cellular structure specialised to carry out a particular function"
+    "meaning": "A sub-cellular structure specialised for a particular function"
   },
   {
     "term": "Differentiation",
@@ -53,23 +53,23 @@
   },
   {
     "term": "Chromosome",
-    "meaning": "A type of DNA structure found in the nucleus of a cell. Usually found in pairs"
+    "meaning": "A type of DNA structure found in the nucleus of a cell, usually in pairs"
   },
   {
     "term": "Gene",
-    "meaning": "A section of a chromosome containing the code for the production of a particular protein"
+    "meaning": "A section of a chromosome."
   },
   {
     "term": "Stem cell",
-    "meaning": "An undifferentiated cell capable of creating specialised cells of the same type."
+    "meaning": "An undifferentiated cell capable of creating specialised cells of a certain type."
   },
   {
     "term": "Embryonic stem cell",
-    "meaning": "A type of stem cell found in embryos which is capable of differentiating into almost all kinds of cell found in the human body"
+    "meaning": "A type of stem cell found in embryos, capable of differentiating into almost all kinds of cell found in the human body"
   },
   {
     "term": "Adult stem cell",
-    "meaning": "A type of stem cell found in adults which is capable of differentiating into many kinds of cell found in the human body"
+    "meaning": "A type of stem cell found in adults, capable of differentiating into many kinds of cell found in the human body"
   },
   {
     "term": "Meristem",
@@ -77,7 +77,7 @@
   },
   {
     "term": "Mitosis",
-    "meaning": "The process of cell divison where a single cell produces two genetically identical 'daughter' cells"
+    "meaning": "The process where a single cell divides to produce two genetically identical 'daughter' cells"
   },
   {
     "term": "Therapeutic cloning",
@@ -85,11 +85,11 @@
   },
   {
     "term": "Cell cycle",
-    "meaning": "The series of stages which a cell goes through as it grows and divides"
+    "meaning": "The series of stages which a cell goes through as it grows and divides, including mitosis."
   },
   {
     "term": "Diffusion",
-    "meaning": "The process by which particles of a substance in solution, or of a gas, spread out in a way which results in a net movement from high concentration to low concentration"
+    "meaning": "The process by which particles spread out, resulting in a net movement from high concentration to low concentration"
   },
   {
     "term": "Osmosis",
@@ -97,6 +97,6 @@
   },
   {
     "term": "Active transport",
-    "meaning": "The process by which substances move through a partially permeable membrane against the concentration gradient, using energy from respiration"
+    "meaning": "The process by which substances move through a partially permeable membrane, using energy from respiration to move against the concentration gradient."
   }
 ]
