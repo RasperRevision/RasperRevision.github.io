@@ -81,7 +81,11 @@
   },
   {
     "term": "Placebo",
-    "meaning": "A substance designed to be indistinguishable from an actual drug, to be used in double blind trials where neither the researcher nor the patient know whether the patient is taking the real drug or not"
+    "meaning": "A substance designed to be indistinguishable from an actual drug, to be used in double blind trials"
+  },
+  {
+    "term": "Double blind trial",
+    "meaning": "A type of clinical trial where neither the researchers nor the patients know if they have the real drug or not"
   },
   {
     "term": "Preclinical drug testing",
