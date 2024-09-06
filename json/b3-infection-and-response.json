@@ -98,5 +98,17 @@
   {
     "term": "Non-specific defence systems",
     "meaning": "Barriers in the body that defend it against many types of pathogen"
+  },
+  {
+    "term": "Aspirin",
+    "meaning": "A painkiller originating from willow."
+  },
+  {
+    "term": "Digitalis",
+    "meaning": "A painkiller originating from foxgloves."
+  },
+  {
+    "term": "Penicillin",
+    "meaning": "An antibiotic discovered by Alexander Fleming from the Penicillium mould."
   }
 ]
