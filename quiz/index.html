@@ -219,8 +219,7 @@
     }
 
     function pickRandomItems(array, count, omit) {
-      // Filter out items with the same 'meaning' as the omit item
-      const filteredArray = array.filter(item => (item.meaning || item.english) !== (omit.meaning || omit.english));
+      const filteredArray = array.filter(i => (i.meaning || i.english) !== (omit.meaning || omit.english));
 
       const selectedMeanings = new Set();
       const selectedItems = [];
@@ -242,6 +241,7 @@
 
     async function processItem(item, data) {
       const answers = pickRandomItems(data, 3, item);
+      while (answers.length < 3) answers.push("");
       const meanings = shuffle([
         [item.meaning || item.english, 0],
         [answers[0][item.term ? "meaning" : "english"], 1],
@@ -324,29 +324,25 @@
       }
 
       loadJSON(async function (response) {
-        try {
-          json_data = shuffle(response);
-          length = json_data.length;
-  
-          if (topic != null && subject != null) {
-            rangeInput.max = length - 1;
-            document.getElementById("complete").textContent = `Complete (${length} questions)`;
-            await new Promise(resolve => document.querySelector(".begin-game").addEventListener("click", resolve));
-            modal.hide();
-            if (document.querySelectorAll(".form-check-input")[1].checked) length = rangeInput.value;
-          }
-  
-          startStopwatch();
-          score_val = 0;
-          updateScore();
-  
-          // do not change this - this is a for loop and not a foreach loop for a reason.
-          for (let i = 0; i < length; i++) await processItem(json_data[i], json_data);
-  
-          endGame();
-        } catch (error) {
-          term_element.textContent = error;
+        json_data = shuffle(response);
+        length = json_data.length;
+
+        if (topic != null && subject != null) {
+          rangeInput.max = length - 1;
+          document.getElementById("complete").textContent = `Complete (${length} questions)`;
+          await new Promise(resolve => document.querySelector(".begin-game").addEventListener("click", resolve));
+          modal.hide();
+          if (document.querySelectorAll(".form-check-input")[1].checked) length = rangeInput.value;
         }
+
+        startStopwatch();
+        score_val = 0;
+        updateScore();
+
+        // do not change this - this is a for loop and not a foreach loop for a reason.
+        for (let i = 0; i < length; i++) await processItem(json_data[i], json_data);
+
+        endGame();
       });
     }
 
