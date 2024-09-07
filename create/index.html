@@ -8,7 +8,7 @@
   <title>Create - Rasper Revision</title>
 
   <!-- BREADCRUMB LIST -->
-  
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -54,7 +54,7 @@
           class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Matchup</a>. The
         file can be shared with anyone you like and they will also be able to upload it.
       </p>
-      <div class="list-group">
+      <div class="list-group create_main_content">
         <div class="list-group-item" style="background-color: rgb(224, 224, 224);">
           <div class="input-group my-1">
             <input type="text" class="form-control" placeholder="Title" id="title" style="color: black !important;">
@@ -127,55 +127,31 @@
   <script>
     const download = document.querySelector('.download');
     const title = document.getElementById('title');
-    const addButton = document.querySelector('.add-item');
+
     let itemIndex = 0;
     let inputs = document.querySelectorAll('.form-control');
 
-    addButton.addEventListener('click', function () {
+    document.querySelector('.add-item').addEventListener('click', function () {
       const listItem = document.createElement('div');
       listItem.classList.add('list-group-item', 'bg-light');
-      listItem.innerHTML = `
-        <div class="input-group mb-2">
-          <span class="input-group-text">Term</span>
-          <input type="text" class="form-control">
-        </div>
-        <div class="input-group my-3">
-          <span class="input-group-text">Definition</span>
-          <textarea class="form-control"></textarea>
-        </div>
-        <button class="btn btn-danger delete-item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
-  <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
-</svg> Delete
-        </button>
-      `;
-      const listGroup = document.querySelector('.list-group');
+      listItem.innerHTML = `<div class="input-group mb-2"><span class="input-group-text">Term</span><input type="text" class="form-control"></div><div class="input-group my-3"><span class="input-group-text">Definition</span><textarea class="form-control"></textarea></div><button class="btn btn-danger delete-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16"><path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/></svg> Delete</button>`;
+      const listGroup = document.querySelector('.create_main_content');
       listGroup.insertBefore(listItem, listGroup.lastElementChild);
-      const deleteButtons = document.querySelectorAll('.delete-item');
-      deleteButtons.forEach(function (button) {
-        button.disabled = deleteButtons.length <= 1;
-      });
+      document.querySelectorAll('.delete-item').forEach(btn => btn.disabled = deleteButtons.length <= 1);
       inputs = document.querySelectorAll('.form-control');
-      inputs.forEach(function (input) {
-        input.addEventListener('input', removeEmptyBorder);
-      });
     });
 
-    document.addEventListener('click', function (event) {
+    document.addEventListener('click', event => {
       if (event.target && event.target.classList.contains('delete-item')) {
         event.target.closest('.list-group-item').remove();
         const deleteButtons = document.querySelectorAll('.delete-item');
-        deleteButtons.forEach(function (button) {
-          button.disabled = deleteButtons.length <= 1;
-        });
+        deleteButtons.forEach(button => button.disabled = deleteButtons.length <= 1);
       }
     });
 
-    title.addEventListener('input', function () {
-      download.textContent = "Download " + this.value + ".json";
-    });
+    title.addEventListener('input', () => download.textContent = "Download " + this.value + ".json");
 
-    download.addEventListener('click', function () {
+    download.addEventListener('click', () => {
       if (title.value.trim() !== "" && !title.value.includes(" ")) {
         title.classList.remove('empty');
 
@@ -202,7 +178,7 @@
     function generateJSONData() {
       const jsonData = [];
 
-      document.querySelectorAll('.list-group-item.bg-light').forEach(function (item) {
+      document.querySelectorAll('.list-group-item.bg-light').forEach(item => {
         const termInput = item.querySelector('.input-group.mb-2 input');
         const definitionInput = item.querySelector('.input-group.my-3 textarea');
 
