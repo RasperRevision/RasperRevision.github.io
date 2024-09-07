@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Search the Rasper Revision site." />
-    <title>Search - Rasper Revision</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Search the Rasper Revision site." />
+  <title>Search - Rasper Revision</title>
 
-    <!-- BREADCRUMB LIST -->
+  <!-- BREADCRUMB LIST -->
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
@@ -22,53 +23,55 @@
         }
     </script>
 
-    <!-- FAVICON -->
-    <link rel="icon" type="image/png" href="/assets/logo/icon_dark.svg" />
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="/assets/logo/icon_dark.svg" />
 
-    <!-- BOOTSTRAP STYLES -->
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- BOOTSTRAP STYLES -->
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- BOOTSTRAP SCRIPTS-->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- BOOTSTRAP SCRIPTS-->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- STYLES -->
-    <link href="/style.css" rel="stylesheet" />
+  <!-- STYLES -->
+  <link href="/style.css" rel="stylesheet" />
 </head>
+
 <body>
-    <div class="main_wrapper">
-        <main class="container">
-            <input class="w-100 search_field" style="color: black">
-            <div class="search_results"></div>
-        </main>
-    </div>
-    <script>
-        async function fetchSitemap() {
-            const response = await fetch('sitemap.json');
-            const sitemap = await response.json();
-            
-            return sitemap;
-        }
+  <div class="main_wrapper">
+    <main class="container">
+      <input class="w-100 search_field" style="color: black">
+      <div class="search_results"></div>
+    </main>
+  </div>
+  <script>
+    async function fetchSitemap() {
+      const response = await fetch('sitemap.json');
+      const sitemap = await response.json();
 
-        (async () => {
-            const urls = await fetchSitemap().then(urls => {
-                urls.forEach(item => {
-                    document.querySelector('.search_results').innerHTML += `<a class="search-link" href="${item.url}">${item.title}</a>`;
-                });
-            });
-            
-            const search_field = document.querySelector('.search_field');
-            const url_elements = document.querySelectorAll('.search-link');
-    
-            search_field.addEventListener('input', () => {
-                const filterValue = search_field.value.toLowerCase();
-                url_elements.forEach(link => {
-                    if (!link.textContent.includes(filterValue) link.classList.add('d-none');
-                    else link.classList.remove('d-none');
-                });
-            });
-        })();
+      return sitemap;
+    }
 
-    </script>
-    <script src="/sidebar.js"></script>
+    (async () => {
+      const urls = await fetchSitemap().then(urls => {
+        urls.forEach(item => {
+          document.querySelector('.search_results').innerHTML += `<a class="search-link" href="${item.url}">${item.title}</a>`;
+        });
+      });
+
+      const search_field = document.querySelector('.search_field');
+      const url_elements = document.querySelectorAll('.search-link');
+
+      search_field.addEventListener('input', () => {
+        const filterValue = search_field.value.toLowerCase();
+        url_elements.forEach(link => {
+          if (!link.textContent.includes(filterValue)) link.classList.add('d-none');
+          else link.classList.remove('d-none');
+        });
+      });
+    })();
+
+  </script>
+  <script src="/sidebar.js"></script>
 </body>
+
 </html>
