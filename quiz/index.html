@@ -194,8 +194,8 @@
               var response = JSON.parse(xobj.responseText);
               if (isValidJsonStructure(response)) callback(response);
               else throw new Error("Invalid file structure");
-            } catch (error) {
-              alert(`Incompatible file: ${error.message}. The file should contain objects with either 'term' and 'meaning' or 'german' and 'english' properties.`);
+            } catch (e) {
+              alert(e.message);
               location.href = "/quiz";
             }
           }
@@ -207,11 +207,8 @@
     function isValidJsonStructure(jsonArray) {
       if (!Array.isArray(jsonArray) || jsonArray.length === 0) return false;
 
-      const validKeys = [
-        ["term", "meaning"],
-        ["german", "english"],
-      ];
-      return jsonArray.every(obj => validKeys.some((keys) => keys.every((key) => obj.hasOwnProperty(key))));
+      const validKeys = [["term", "meaning"], ["german", "english"]];
+      return jsonArray.every(obj => validKeys.some(keys => keys.every(key => obj.hasOwnProperty(key))));
     }
 
     function updateScore() {

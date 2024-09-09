@@ -48,11 +48,6 @@ const footer = `<footer class="row py-5 my-5 border-top">
               <li class="nav-item mb-2"><a href="/create"
                   class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Create</a>
               </li>
-              <li class="nav-item mb-2"><a
-                  href="https://github.com/RasperRevision/RasperRevision.github.io/blob/main/LICENSE"
-                  class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover"
-                  target="_blank">License</a>
-              </li>
               <li class="nav-item mb-2"><a href="/privacy-policy"
                   class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">Privacy
                   policy</a>
