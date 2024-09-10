@@ -347,8 +347,8 @@
       clearInterval(timer);
       adjustMargin();
       options.forEach((option) => option.classList.add("invis"));
-      document.querySelector(".home").addEventListener("click", () => (location.href = "/"));
-      document.querySelector(".restart").addEventListener("click", location.reload);
+      document.querySelector(".home").addEventListener("click", () => location.href = "/");
+      document.querySelector(".restart").addEventListener("click", () => location.reload());
       term_element.innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
       document.querySelector(".finish").classList.remove("invis");
     }
