@@ -64,7 +64,8 @@
       search_field.addEventListener('input', () => {
         const filterValue = search_field.value.toLowerCase();
         url_elements.forEach(link => {
-          if (!link.textContent.includes(filterValue)) link.classList.add('d-none');
+          var textContent = link.textContent.toLowerCase();
+          if (textContent.includes(filterValue)) link.classList.add('d-none');
           else link.classList.remove('d-none');
         });
       });
