@@ -38,9 +38,12 @@
 
 <body>
   <div class="main_wrapper">
-    <main class="container">
+    <main class="container mt-5">
+      <h1>Search</h1>
       <input class="w-100 search_field form-control p-3" style="color: black">
-      <ul class="search_results list-group list-group-flush"></ul>
+      <ul class="search_results list-group list-group-flush">
+        <p class="my-4 no_results d-none">No results.</p>
+      </ul>
     </main>
   </div>
   <script>
@@ -54,7 +57,7 @@
     (async () => {
       const urls = await fetchSitemap().then(urls => {
         urls.forEach(item => {
-          document.querySelector('.search_results').innerHTML += `<li class="list-group-item bg-dark search-link"><a href="${item.url}" class=link-white>${item.title}</a></li>`;
+          document.querySelector('.search_results').innerHTML += `<li class="list-group-item search-link d-none" style="background: transparent;border-color: #666666;"><a href="${item.url}" class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover d-block">${item.title}</a></li>`;
         });
       });
 
@@ -62,12 +65,22 @@
       const url_elements = document.querySelectorAll('.search-link');
 
       search_field.addEventListener('input', () => {
+        document.querySelector('.no_results').classList.add('d-none');
+
         const filterValue = search_field.value.toLowerCase();
+        var linkCount = 0;
+
         url_elements.forEach(link => {
           var textContent = link.textContent.toLowerCase();
-          if (textContent.includes(filterValue)) link.classList.remove('d-none');
+          if (filterValue != "" && textContent.includes(filterValue)) {
+            linkCount++;
+            link.classList.remove('d-none');
+          }
           else link.classList.add('d-none');
         });
+        if (linkCount == 0 && filterValue != "") {
+          document.querySelector('.no_results').classList.remove('d-none');
+        }
       });
     })();
 
