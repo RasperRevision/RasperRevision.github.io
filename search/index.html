@@ -65,8 +65,8 @@
         const filterValue = search_field.value.toLowerCase();
         url_elements.forEach(link => {
           var textContent = link.textContent.toLowerCase();
-          if (textContent.includes(filterValue)) link.classList.add('d-none');
-          else link.classList.remove('d-none');
+          if (textContent.includes(filterValue)) link.classList.remove('d-none');
+          else link.classList.add('d-none');
         });
       });
     })();
