@@ -54,7 +54,7 @@
     (async () => {
       const urls = await fetchSitemap().then(urls => {
         urls.forEach(item => {
-          document.querySelector('.search_results').innerHTML += `<li class="list-group-item"><a class="search-link" href="${item.url}">${item.title}</a></li>`;
+          document.querySelector('.search_results').innerHTML += `<li class="list-group-item search_link"><a href="${item.url}">${item.title}</a></li>`;
         });
       });
 
