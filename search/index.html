@@ -50,8 +50,6 @@
     </main>
   </div>
   <script type="module">
-    import Fuse from 'fuse.js';
-
     async function fetchSitemap() {
       const response = await fetch('sitemap.json');
       const sitemap = await response.json();
