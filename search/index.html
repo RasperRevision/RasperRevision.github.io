@@ -32,6 +32,9 @@
   <!-- BOOTSTRAP SCRIPTS-->
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+  <!-- FUSE.JS -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
   <!-- STYLES -->
   <link href="/style.css" rel="stylesheet" />
 </head>
@@ -47,6 +50,8 @@
     </main>
   </div>
   <script>
+    import Fuse from 'fuse.js';
+
     async function fetchSitemap() {
       const response = await fetch('sitemap.json');
       const sitemap = await response.json();
@@ -55,32 +60,18 @@
     }
 
     (async () => {
-      const urls = await fetchSitemap().then(urls => {
-        urls.forEach(item => {
-          document.querySelector('.search_results').innerHTML += `<li class="list-group-item search-link d-none" style="background: transparent;border-color: #666666;"><a href="${item.url}" class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover d-block">${item.title}</a></li>`;
-        });
+      const fuse = new Fuse(await fetchSitemap(), {
+        keys: ['url', 'title']
       });
 
       const search_field = document.querySelector('.search_field');
-      const url_elements = document.querySelectorAll('.search-link');
 
       search_field.addEventListener('input', () => {
-        document.querySelector('.no_results').classList.add('d-none');
-
-        const filterValue = search_field.value.toLowerCase();
-        var linkCount = 0;
-
-        url_elements.forEach(link => {
-          var textContent = link.textContent.toLowerCase();
-          if (filterValue != "" && textContent.includes(filterValue)) {
-            linkCount++;
-            link.classList.remove('d-none');
-          }
-          else link.classList.add('d-none');
+        const urls = fuse.search(search_field.value);
+        
+        urls.forEach(item => {
+          document.querySelector('.search_results').innerHTML += `<li class="list-group-item search-link" style="background: transparent;border-color: #666666;"><a href="${item.url}" class="link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover d-block">${item.title}</a></li>`;
         });
-        if (linkCount == 0 && filterValue != "") {
-          document.querySelector('.no_results').classList.remove('d-none');
-        }
       });
     })();
 
