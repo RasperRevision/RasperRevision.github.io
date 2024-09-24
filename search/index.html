@@ -67,7 +67,7 @@
       search_field.addEventListener('input', () => {
         const urls = fuse.search(search_field.value);
 
-        console.log(urls);
+        urls.forEach(url => search_field.appendChild(document.createTextNode(url)));
       });
     })();
 
