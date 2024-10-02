@@ -2,7 +2,6 @@
   {
     "quote": "Slowly our ghosts drag home",
     "themes": [
-      "War",
       "Death",
       "Despair"
     ],
@@ -11,9 +10,18 @@
   {
     "quote": "Love of God seems dying",
     "themes": [
-      "War",
       "Religion",
       "Despair"
+    ],
+    "part": "Exposure by Wilfred Owen"
+  },
+  {
+    "quote": "Merciless iced east winds that knive us...",
+    "themes": [
+      "Nature"
+    ],
+    "techniques": [
+      "Personification"
     ],
     "part": "Exposure by Wilfred Owen"
   },
@@ -23,7 +31,7 @@
       "Irony",
       "Class"
     ],
-    "part": "Ozymandias by Percy Bysshe Shelley"
+    "part": "Ozymandias by Percy Shelley"
   },
   {
     "quote": "I met a traveller from an antique land",
@@ -31,21 +39,21 @@
       "Time",
       "False power"
     ],
-    "part": "Ozymandias by Percy Bysshe Shelley"
+    "part": "Ozymandias by Percy Shelley"
   },
   {
     "quote": "Wrinkled lip and sneer of cold command",
     "themes": [
       "Class"
     ],
-    "part": "Ozymandias by Percy Bysshe Shelley"
+    "part": "Ozymandias by Percy Shelley"
   },
   {
     "quote": "A shattered visage lies",
     "themes": [
       "Time"
     ],
-    "part": "Ozymandias by Percy Bysshe Shelley"
+    "part": "Ozymandias by Percy Shelley"
   },
   {
     "quote": "How the youthful harlot’s curse / Blasts the newborn infant’s tear",
@@ -102,7 +110,7 @@
       "Ownership",
       "Marital conflict"
     ],
-    "part": "My last duchess"
+    "part": "My Last Duchess by Robert Browning"
   },
   {
     "quote": "Sudden successive flights of bullets streak the silence",
@@ -185,6 +193,16 @@
     "part": "Poppies by Jane Weir"
   },
   {
+    "quote": "Gelled blackthorns of your hair",
+    "themes": [
+      "Sacrifice"
+    ],
+    "techniques": [
+      "Religious imagery"
+    ],
+    "part": "Poppies by Jane Weir"
+  },
+  {
     "quote": "As though this were a church and he a priest preparing to intone a Mass",
     "themes": [
       "Religious imagery"
@@ -197,6 +215,9 @@
       "PTSD",
       "Internal conflict"
     ],
+    "techniques": [
+      "Sibilance"
+    ],
     "part": "War Photographer by Carol Ann Duffy"
   },
   {
@@ -204,6 +225,53 @@
     "themes": [
       "Suffering"
     ],
+    "techniques": [
+      "Sibilance",
+      "Juxtaposition"
+    ],
     "part": "War Photographer by Carol Ann Duffy"
+  },
+  {
+    "quote": "All flesh is grass",
+    "themes": [
+      "Biblical imagery"
+    ],
+    "techniques": [
+      "Metaphor"
+    ],
+    "part": "War Photographer by Carol Ann Duffy"
+  },
+  {
+    "quote": "Enough fuel for a one-way journey into history",
+    "themes": [
+      "Honour",
+      "Suicide",
+      "Power of society"
+    ],
+    "part": "Kamikaze by Beatrice Garland"
+  },
+  {
+    "quote": "And sometimes, she said, he must have wondered which had been the better way to die.",
+    "themes": [
+      "Regret",
+      "Honour",
+      "Shame"
+    ],
+    "techniques": [
+      "Paradox"
+    ],
+    "part": "Kamikaze by Beatrice Garland"
+  },
+  {
+    "quote": "And though he came back my mother never spoke again in his presence",
+    "themes": [
+      "Shame",
+      "Honour"
+    ],
+    "techniques": [
+      "Aside",
+      "Pronoun"
+    ],
+    "part": "Kamikaze by Beatrice Garland"
   }
 ]
