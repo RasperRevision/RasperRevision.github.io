@@ -1,0 +1,57 @@
+[
+  {
+    "term": "Database",
+    "meaning": "A structured collection of data that can easily be accessed, searched and modified." 
+  },
+  {
+    "term": "Flat file database",
+    "meaning": "A database where all data is stored in a single table, usually in a format such as CSV."
+  },
+  {
+    "term": "Relational database",
+    "meaning": "A database where data is split up into multiple tables, using keys to link related data."
+  },
+  {
+    "term": "Table",
+    "meaning": "A system of organising data using fields and records."
+  },
+  {
+    "term": "Record",
+    "meaning": "A row of a table"
+  },
+  {
+    "term": "Field",
+    "meaning": "A single element of a table"
+  },
+  {
+    "term": "Data type",
+    "meaning": "A category of data, including varchar, int and datetime in SQL."
+  },
+  {
+    "term": "Primary key",
+    "meaning": "A unique identifier for each record in a table."
+  },
+  {
+    "term": "Foreign key",
+    "meaning": "A reference to the primary key of another table in a relational database."
+  },
+  {
+    "term": "Data redundancy",
+    "meaning": "Where the same information is stored in multiple places. Can be avoided using a relational database"
+  },
+  {
+    "term": "Data inconsistency",
+    "meaning": "Where the same information is stored differently in multiple places; may include typos and spelling mistakes. Can be avoided using a relational database"
+  },
+  {
+    "term": "Varchar",
+    "meaning": "A variable length string in SQL."
+  },
+  {
+    "term": "Char",
+    "meaning": "A fixed length string in SQL."
+  },
+  {
+    "term": "Text",
+    "meaning": "888997
+]
