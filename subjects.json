@@ -82,6 +82,13 @@
         "bg": "danger",
         "jsonFile": "unit5",
         "games": 12
+      },
+      {
+        "index": 6,
+        "displayName": "Relational databases and SQL",
+        "bg": "lime",
+        "jsonFile": "computer-science-databases",
+        "games": 12
       }
     ]
   },
