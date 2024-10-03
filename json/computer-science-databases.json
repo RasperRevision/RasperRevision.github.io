@@ -45,13 +45,38 @@
   },
   {
     "term": "Varchar",
-    "meaning": "A variable length string in SQL."
+    "meaning": "A variable length string in SQL that can store up to 8000 characters."
   },
   {
     "term": "Char",
-    "meaning": "A fixed length string in SQL."
+    "meaning": "A fixed length string in SQL that can store up to 8000 characters."
   },
   {
     "term": "Text",
-    "meaning": "888997
+    "meaning": "A variable length string in SQL that can store up to 2GB of data"
+  },
+  {
+    "term": "Int (Integer)",
+    "meaning": "A data type in SQL storing whole numbers."
+  },
+  {
+    "term": "Float",
+    "meaning": "A data type in SQL storing floating point numbers."
+  },
+  {
+    "term": "Decimal",
+    "meaning": "A data type in SQL storing exact fixed point numbers."
+  },
+  {
+    "term": "Date",
+    "meaning": "A data type in SQL storing dates, in the format YYYY-MM-DD"
+  },
+  {
+    "term": "Time",
+    "meaning": "A data type in SQL storing times, in the format hh:mm:ss"
+  },
+  {
+    "term": "Datetime",
+    "meaning": "A data type in SQL storing both dates and times, in the format YYYY-MM-DD hh:mm:ss"
+  }
 ]
