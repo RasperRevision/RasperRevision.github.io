@@ -179,20 +179,27 @@
       },
       {
         "index": 3,
+        "displayName": "Power and Conflict Anthology",
+        "jsonFile": "english-lit-power-and-conflict",
+        "games": 2,
+        "bg": "purple"
+      },
+      {
+        "index": 4,
         "displayName": "Vocabulary (Easy)",
         "bg": "primary",
         "jsonFile": "english-vocab-easy",
         "games": 12
       },
       {
-        "index": 4,
+        "index": 5,
         "displayName": "Vocabulary (Medium)",
         "bg": "warning",
         "jsonFile": "english-vocab-medium",
         "games": 12
       },
       {
-        "index": 5,
+        "index": 6,
         "displayName": "Vocabulary (Hard)",
         "bg": "turquoise",
         "jsonFile": "english-vocab-hard",
