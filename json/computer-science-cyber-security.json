@@ -1,0 +1,34 @@
+[
+  {
+    "term": "Cyber security",
+    "meaning": "Consists of practices and technologies designed to protect networks, computers and data from attack or unauthorised access."
+  },
+  {
+    "term": "Social engineering",
+    "meaning": "Manipulation with the goal of obtaining personal or sensitive information."
+  },
+  {
+    "term": "Malware",
+    "meaning": "Software with malicious intent."
+  },
+  {
+    "term": "Pharming",
+    "meaning": "A cyber attack intended to redirect website traffic to a fake website."
+  },
+  {
+    "term": "Default passwords",
+    "meaning": "The password that comes with a device. Usually 1234, 0000, 1111 or something similar. Easily guessable by hackers"
+  },
+  {
+    "term": "Misconfigured access rights",
+    "meaning": "Where users are given access to data that they should not be able to access."
+  },
+  {
+    "term": "Removeable media",
+    "meaning": "Storage devices that can be connected to a computer. They can be used to put malware on a computer or to steal data from a computer."
+  },
+  {
+    "term": "Outdated software",
+    "meaning": "Software that does not have the latest security updates, leaving it vulnerable to exploits that were available on older versions."
+  }
+]
