@@ -1,0 +1,24 @@
+{
+  {
+    "question": "Tom's Cheese is a cheesemaking group with 5 employees that focuses on holding patents for cheesemaking techniques. It uses basic authentication",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Name 1 way social engineering could loose Tom's Cheese money?",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 2,
+            "answers": [
+              "Pharming", "employees could be sent to a false website stealing their information"
+              
+            ],
+            "alternatives": [
+              "Phishing",
+              "fake emails could be used to gather vital information about the employees or the group that could be used to log in"
+            ]
+          }
+        ]
+      },
+      }
+}
