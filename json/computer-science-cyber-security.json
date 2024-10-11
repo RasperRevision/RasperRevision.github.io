@@ -9,7 +9,7 @@
   },
   {
     "term": "Malware",
-    "meaning": "Software with malicious intent."
+    "meaning": "An umbrella term referring to various forms of software with malicious intent."
   },
   {
     "term": "Pharming",
@@ -30,5 +30,57 @@
   {
     "term": "Outdated software",
     "meaning": "Software that does not have the latest security updates, leaving it vulnerable to exploits that were available on older versions."
+  },
+  {
+    "term": "Penetration testing",
+    "meaning": "Attempting to gain access to resources without knowledge of usernames, passwords and other normal means of access."
+  },
+  {
+    "term": "White box penetration testing",
+    "meaning": "When the person testing the system has knowledge and possibly basic credentials, simulating an attack from inside the system (a malicious insider)"
+  },
+  {
+    "term": "Black box penetration testing",
+    "meaning": "When the person testing the system has no knowledge of any credentials, simulating an attack from outside the system (an external attack)."
+  },
+  {
+    "term": "Blagging (pretexting)",
+    "meaning": "Creating an invented scenario to engage a targeted victim, increasing the chance the victim will divulge information or perform actions that would be unlikely in ordinary circumstances."
+  },
+  {
+    "term": "Phishing",
+    "meaning": "A technique of fraudulently obtaining private information, often using email or SMS, pretending to be another person or organisation."
+  },
+  {
+    "term": "Shouldering",
+    "meaning": "Observing a person's private information over their shoulder. For instance cashpoint machine PIN numbers."
+  },
+  {
+    "term": "Computer virus",
+    "meaning": "A form of malware that replicates itself onto other computer systems, usually with the intention of causing damage."
+  },
+  {
+    "term": "Trojan",
+    "meaning": "A form of malware that seems like legitimate software, but in fact contains malicious code."
+  },
+  {
+    "term": "Spyware",
+    "meaning": "A form of malware secretly installed on a computer that collects information about the user."
+  },
+  {
+    "term": "Biometrics",
+    "meaning": "Using unique physical characteristics to identify a user."
+  },
+  {
+    "term": "CAPTCHA",
+    "meaning": "Used to tell humans from robots, often asking them to identify image features."
+  },
+  {
+    "term": "Email confirmation",
+    "meaning": "Sending a confirmation email to the user's address with a link that allows the site to verify that the user does own that email."
+  },
+  {
+    "term": "Automatic software updates",
+    "meaning": "Prevents human error from leaving software outdated by updating software as soon as a new version is released."
   }
 ]
