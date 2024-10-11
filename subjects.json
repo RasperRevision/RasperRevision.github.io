@@ -85,6 +85,13 @@
       },
       {
         "index": 6,
+        "displayName": "Cyber security",
+        "bg": "warning",
+        "jsonFile": "computer-science-cyber-security",
+        "games": 12
+      },
+      {
+        "index": 7,
         "displayName": "Relational databases and SQL",
         "bg": "lime",
         "jsonFile": "computer-science-databases",
