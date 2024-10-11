@@ -138,6 +138,7 @@
       const themesTitleCase = quoteObj.themes.map(theme => toTitleCase(theme));
       document.getElementById("themes").textContent = themesTitleCase.join(", ");
       document.getElementById("quote").textContent = maskQuote(quoteObj.quote);
+      document.getElementById("parts").textContent=quoteObj.part;
     }
 
     function toTitleCase(str) {
