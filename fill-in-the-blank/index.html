@@ -183,7 +183,7 @@
         const restart = document.createElement('button');
         restart.textContent = 'Restart';
         restart.classList.add('btn', 'btn-warning');
-        restart.addEventListener('click', location.reload);
+        restart.addEventListener('click', () => location.reload());
 
         const completeHTML = 'Complete <div class=complete-time>' + formattedTime + '</div>';
         document.querySelector('.container').innerHTML = completeHTML;
