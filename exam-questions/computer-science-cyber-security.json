@@ -1,6 +1,6 @@
 [
   {
-    "question": "Tom's Cheese is a cheesemaking group with 5 employees that focuses on holding patents for cheesemaking techniques. It uses basic authentication",
+    "question": "Tom's Cheese is a cheesemaking group with 5 employees that focuses on holding patents for cheesemaking techniques. It uses basic authentication.",
     "parts": [
       {
         "index": 1,
@@ -30,6 +30,22 @@
               "Phishing (1): fake emails could be used to gather vital information about the employees or the group that could be used to log in (1)",
               "Blagging (1): an invented scenario could be used to engage an employee and try to get them to divulge confidential information (1)",
               "Shouldering (1): an employee's login details could be observed over their shoulder (1)"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "question": "Suggest two ways Tom's Cheese could protect themselves against social engineering attacks.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "prompt": "1.",
+            "marks": 2,
+            "answers": [
+              "Any one of the following:",
+              "Education/training (1): A training course could be run for employees to better understand the threats of social engineering (1).",
+              "Using a trusted internet provider (1): Some internet service provides block pharmed websites (1)."
             ]
           }
         ]
