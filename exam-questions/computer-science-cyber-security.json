@@ -45,7 +45,36 @@
             "answers": [
               "Any one of the following:",
               "Education/training (1): A training course could be run for employees to better understand the threats of social engineering (1).",
-              "Using a trusted internet provider (1): Some internet service provides block pharmed websites (1)."
+              "Using a trusted internet provider (1): Some internet service provides block pharmed websites (1).",
+              "Security policy (1): Enforcing a strong security policy will help to prevent employees from being manipulated (1)."
+            ]
+          },
+          {
+            "type": "l",
+            "prompt": "2.",
+            "marks": 2,
+            "answers": [
+              "Any other answer from the mark scheme above."
+            ]
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "question": "The CEO of Tom's Cheese is concerned about whether their authentication system is secure or not to protect their company from cyber attacks and malicious software. Explain why this is not the case, giving examples of threats to the company and how each of them can be protected against.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 9,
+            "answers": [
+              "Level 3: Answer discusses multiple security risks, such as unpatched/outdated software, misconfigured access rights or weak/default passwords, showing a clear understanding of how each of the risks could affect the company and how they can be protected against, along with examples of cyber attacks and forms of malicious software that could affect the company.",
+              "Level 2: Answer discusses some security risks, such as unpatched/outdated software, misconfigured access rights or weak/default passwords, showing some understanding of how they could affect the company and a basic explanation of how some or all of them can be prevented. There may be some examples of cyber attacks and forms of malware that could affect them.",
+              "Level 1: Answer discusses one or more security risks, such as unpatched/outdated software, misconfigured access rights or weak/default passwords, showing a limited understanding of how they could affect the company (some answers at this level may discuss individuals instead). There may be some explanation of how the threats can be protected against."
+            ],
+            "indicative": [
+              "Unpatched/outdated software could allow hackers to exploit a known vulnerability in the software, allowing them to install malware etc",
+              "Misconfigured access rights could allow some employees to access areas they are not supposed to, allowing them to reconfigure the network etc.",
+              "Weak/default passwords allow hackers to guess login details easily, using brute force methods that require little effort. They could be published online."
             ]
           }
         ]
