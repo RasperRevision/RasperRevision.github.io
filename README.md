@@ -1,2 +1,2 @@
 # Rasper Revision
-see about page on website
+[About](https://rasperrevision.github.io/about)
