@@ -90,7 +90,7 @@
       container.style.maxHeight = `${window.innerHeight - 250}px`;
     }
 
-    const ignoreOrderCompare = (a, b) => {
+    function ignoreOrderCompare(a, b) {
       if (a.length !== b.length) return false;
       const elements = new Set([...a, ...b]);
       for (const x of elements) {
@@ -306,15 +306,12 @@
               current_feedback.innerHTML = '';
             } else {
               const radio_buttons = current_box.querySelectorAll('.form-check-input');
+              const formCheckLabels = current_box.querySelectorAll('.form-check-label');
               if (box.type == 'c') {
                 userAnswer = []
-                radio_buttons.forEach((button, btnIndex) => {
-                  if (button.checked) userAnswer.push(current_box.querySelectorAll('.form-check-label')[btnIndex].textContent);
-                });
+                radio_buttons.forEach((button, btnIndex) => {  if (button.checked) userAnswer.push(formCheckLabels[btnIndex].textContent); });
               } else {
-                radio_buttons.forEach((button, btnIndex) => {
-                  if (button.checked) userAnswer = current_box.querySelectorAll('.form-check-label')[btnIndex].textContent;
-                });
+                radio_buttons.forEach((button, btnIndex) => { if (button.checked) userAnswer = formCheckLabels[btnIndex].textContent; });
               }
               current_feedback = feedback_boxes[boxIndex];
               current_feedback.innerHTML = '';
@@ -408,7 +405,7 @@
               // shows the mark scheme
               box.answers.forEach(answer => {
                 const answer_text = document.createElement('li');
-                answer_text.textContent = answer;
+                answer_text.innerHTML = answer;
                 document.querySelector(`.markScheme${boxIndex}`).appendChild(answer_text);
               });
 
@@ -416,7 +413,7 @@
                 document.querySelector('.allow').textContent = 'Allow:'
                 box.alternatives.forEach(alt => {
                   const alt_element = document.createElement('li');
-                  alt_element.textContent = alt;
+                  alt_element.innerHTML = alt;
                   document.querySelector(`.altMarkScheme${boxIndex}`).appendChild(alt_element);
                 });
               }
@@ -425,7 +422,7 @@
                 document.querySelector('.indicative').textContent = 'Indicative content:'
                 box.indicative.forEach(item => {
                   const indicative_element = document.createElement('li');
-                  indicative_element.textContent = item;
+                  indicative_element.innerHTML = item;
                   document.querySelector(`.indicativeMarkScheme${boxIndex}`).appendChild(indicative_element);
                 });
               }
@@ -485,15 +482,10 @@
         item.topics.forEach(topic => {
           var binary_games = topic.games.toString(2);
           while (binary_games.length < 5) { binary_games = `0${binary_games}`; }
-
-          if (binary_games[0] == 1) {
-            topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
-          }
+          if (binary_games[0] == 1) topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
         });
-        if (topics != "") {
-          dropdownHTML +=
-            `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
-        }
+        if (topics != "") dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
+
       });
       dropdownHTML += '</div>';
       return dropdownHTML;
