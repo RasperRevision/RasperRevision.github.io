@@ -1,24 +1,39 @@
-{
+[
   {
     "question": "Tom's Cheese is a cheesemaking group with 5 employees that focuses on holding patents for cheesemaking techniques. It uses basic authentication",
     "parts": [
       {
         "index": 1,
-        "question": "Name 1 way social engineering could loose Tom's Cheese money?",
+        "question": "Describe what is meant by authentication, and give an example of a way to implement it that Tom's Cheese could have used.",
         "answerBoxes": [
           {
             "type": "l",
             "marks": 2,
             "answers": [
-              "Pharming", "employees could be sent to a false website stealing their information"
-              
-            ],
-            "alternatives": [
-              "Phishing",
-              "fake emails could be used to gather vital information about the employees or the group that could be used to log in"
+              "Authentication is a way of verifying a user's identity to check if they should be allowed to access something. (1)",
+              "Any of the following (1):",
+              "<ul><li>Username and password system</li><li>Biometrics</li><li>Email confirmation</li><li>PIN</li><li>Security questions</li></ul>"
             ]
           }
         ]
       },
+      {
+        "index": 2,
+        "question": "Name and describe a way social engineering could lose Tom's Cheese money?",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 2,
+            "answers": [
+              "Any one of the following:",
+              "Pharming (1): employees could be sent to a false website stealing their information (1)",
+              "Phishing (1): fake emails could be used to gather vital information about the employees or the group that could be used to log in (1)",
+              "Blagging (1): an invented scenario could be used to engage an employee and try to get them to divulge confidential information (1)",
+              "Shouldering (1): an employee's login details could be observed over their shoulder (1)"
+            ]
+          }
+        ]
       }
-}
+    ]
+  }
+]
