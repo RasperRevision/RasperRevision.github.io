@@ -97,7 +97,16 @@
       },
       {
         "index": 2,
-        "question": "Give the definition of malware."
+        "question": "Give the definition of malware.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 1,
+            "answers": [
+              "Malware refers to a variety of malicious forms of software, that may be either hostile or intrusive. (1)"
+            ]
+          }
+        ]
       },
       {
         "index": 3,
