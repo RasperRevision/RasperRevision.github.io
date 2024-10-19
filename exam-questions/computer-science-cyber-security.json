@@ -19,7 +19,7 @@
       },
       {
         "index": 2,
-        "question": "Name and describe a way social engineering could lose Tom's Cheese money?",
+        "question": "Name and describe a type of social engineering that could impact Tom's Cheese.",
         "answerBoxes": [
           {
             "type": "l",
@@ -36,7 +36,7 @@
       },
       {
         "index": 3,
-        "question": "Suggest two ways Tom's Cheese could protect themselves against social engineering attacks.",
+        "question": "Suggest one way Tom's Cheese could protect themselves against social engineering attacks.",
         "answerBoxes": [
           {
             "type": "l",
@@ -45,23 +45,15 @@
             "answers": [
               "Any one of the following:",
               "Education/training (1): A training course could be run for employees to better understand the threats of social engineering (1).",
-              "Using a trusted internet provider (1): Some internet service provides block pharmed websites (1).",
-              "Security policy (1): Enforcing a strong security policy will help to prevent employees from being manipulated (1)."
-            ]
-          },
-          {
-            "type": "l",
-            "prompt": "2.",
-            "marks": 2,
-            "answers": [
-              "Any other answer from the mark scheme above."
+              "Security policy (1): Enforcing a strong security policy will help to prevent employees from being manipulated (1).",
+              "Using a trusted internet provider (1): Some internet service provides block pharmed websites (1)."
             ]
           }
         ]
       },
       {
         "index": 4,
-        "question": "The CEO of Tom's Cheese is concerned about whether their authentication system is secure or not to protect their company from cyber attacks and malicious software. Explain why this is not the case, giving examples of threats to the company and how each of them can be protected against.",
+        "question": "The CEO of Tom's Cheese is concerned about whether authentication alone is enough to protect their company from cyber attacks and malicious software. Explain why this is not the case, giving examples of threats to the company and how each of them can be protected against.",
         "answerBoxes": [
           {
             "type": "l",
@@ -75,6 +67,80 @@
               "Unpatched/outdated software could allow hackers to exploit a known vulnerability in the software, allowing them to install malware etc",
               "Misconfigured access rights could allow some employees to access areas they are not supposed to, allowing them to reconfigure the network etc.",
               "Weak/default passwords allow hackers to guess login details easily, using brute force methods that require little effort. They could be published online."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Cyber security refers to the practices used to protect computers, networks and data from unauthorised access, attacks or damage.",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Tick two boxes to show which statements are purposes of cyber security",
+        "answerBoxes": [
+          {
+            "type": "c",
+            "marks": 2,
+            "answers": [
+              "To ensure that data is kept confidential.",
+              "To protect against both external and internal threats to network secutiy."
+            ],
+            "options": [
+              "To prevent all forms of digital threat to data and systems.",
+              "To eliminate the need for strong passwords, as systems are secure enough."
+            ],
+            "exact": true
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "Give the definition of malware."
+      },
+      {
+        "index": 3,
+        "question": "A company wants to write a security policy to improve their cyber security. Explain each of the following threats and a way the company could protect themselves against each one.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 2,
+            "prompt": "Outdated software",
+            "answers": [
+              "Oudated software does not have the latest security fixes (so will still be vulnerable to attacks making use of the vulnerabilities that these fixes patched). (1)",
+              "Automatic software updates (1)"
+            ],
+            "alternatives": [
+              "Require employees to download software updates as soon as possible (1)"
+            ]
+          },
+          {
+            "type": "l",
+            "marks": 2,
+            "prompt": "Default passwords",
+            "answers": [
+              "Default passwords are the passwords that are automatically set when a device is purchased. (1)",
+              "Require employees to change default passwords immediately. (1)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Penetration testing is a way of testing the security of a system or network by simulating a hacker breaking in.",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Explain the difference between the two types of penetration testing.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 4,
+            "answers": [
+              "White box penetration testing (1) is where the person/people breaking into the system already have information about how the system is set up (simulating an inside attack). (1)",
+              "Black box penetration testing (1) is where the person/people breaking into the system have no information about the system (simulating an outside attack) (1)"
             ]
           }
         ]
