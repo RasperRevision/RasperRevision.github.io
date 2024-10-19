@@ -137,14 +137,14 @@
       },
       {
         "index": 4,
-        "question": "what are the two main ways that removeable media could be a cyber threat?",
+        "question": "What are the two main ways that removable media could be a cyber threat?",
         "answerBoxes": [
           {
             "type": "l",
             "marks": 2,
             "answers": [
-              "Removeable media may contain viruses, which can infect the systems and networks it is plugged into. (1)",
-              "Removeable media can be used to steal sensitive data from a system. (1)"
+              "Removable media may contain viruses, which can infect the systems and networks it is plugged into. (1)",
+              "Removable media can be used to steal sensitive data from a system. (1)"
             ]
           }
         ]
@@ -162,8 +162,10 @@
             "type": "l",
             "marks": 4,
             "answers": [
-              "White box penetration testing (1) is where the person/people breaking into the system already have information about how the system is set up (simulating an inside attack). (1)",
-              "Black box penetration testing (1) is where the person/people breaking into the system have no information about the system (simulating an outside attack) (1)"
+              "White box penetration testing (1)",
+              "is where the person/people breaking into the system already have information about how the system is set up (simulating an inside attack). (1)",
+              "Black box penetration testing (1)",
+              "is where the person/people breaking into the system have no information about the system (simulating an outside attack) (1)"
             ]
           }
         ]
