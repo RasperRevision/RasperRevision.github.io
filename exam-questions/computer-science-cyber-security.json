@@ -125,6 +125,20 @@
             ]
           }
         ]
+      },
+      {
+        "index": 4,
+        "question": "what are the two main ways that removeable media could be a cyber threat?",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "marks": 2,
+            "answers": [
+              "Removeable media may contain viruses, which can infect the systems and networks it is plugged into. (1)",
+              "Removeable media can be used to steal sensitive data from a system. (1)"
+            ]
+          }
+        ]
       }
     ]
   },
