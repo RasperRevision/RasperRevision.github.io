@@ -33,11 +33,11 @@
   },
   {
     "term": "Boris Yeltsin",
-    "meaning": "The man who made communism illegal in Russia"
+    "meaning": "The 1st president who made communism illegal in Russia"
   },
   {
-    "term": "Tsar",
-    "meaning": "The Russian emperor"
+    "term": "Tsar Nicolas Romanov II",
+    "meaning": "The Russian emperor before the revolution"
   },
   {
     "term": "Nikita Kruschev",
@@ -69,7 +69,7 @@
   },
   {
     "term": "Fulgencio Batista",
-    "meaning": "Dictator of Cuba, of whom was very unpopular, but pro-USA"
+    "meaning": "Dictator of Cuba pre-revolution, of whom was very unpopular, but pro-USA"
   },
   {
     "term": "Truman Doctrine",
@@ -112,7 +112,7 @@
     "meaning": "what became of trizonia post airlift"
   },
   {
-    "term": "prague spring",
+    "term": "Prague spring",
     "meaning": "a series of reforms introduced in czechoslovakia in 1968"
   },
   {
@@ -136,11 +136,11 @@
     "meaning": "a period of relaxed tensions"
   },
   {
-    "term": "mujahideen",
+    "term": "Mujahideen",
     "meaning": "a united group of guerilla fundamentalist fighters in afganistan"
   },
   {
-    "term": "hazifulla amin",
+    "term": "Hazifulla amin",
     "meaning": "the leader of a coup in afganistan against the pro-soviet government, later executed by the soviets"
   },
   {
@@ -156,15 +156,15 @@
     "meaning": "the US would use military force to keep it's interests in the persian gulf"
   },
   {
-    "term": "ho chi minh",
+    "term": "Ho Chi Minh",
     "meaning": "1st leader of the viet minh (literally means 'he who enlightens')"
   },
   {
-    "term": "viet cong",
+    "term": "Viet Cong",
     "meaning": "communist revolutionaries in south vietnam"
   },
   {
-    "term": "viet minh",
+    "term": "Viet Minh",
     "meaning": "the military group of north vietnam"
   },
   {
@@ -238,6 +238,14 @@
   {
     "term": "comintern",
     "meaning": "the prewar alliance of communist parties to spread communism across the world"
+  },
+  {
+    "term": "Helsinki accords",
+    "meaning": "A 1970s treaty saying sides of the cold war should recognise each other's borders and work together on science and human rights"
+  },
+  {
+    "term": "Quarantine",
+    "meaning": "What kennedy called the blockade on cuba during the cuban missile crisis."
   },
   {
     "term": "trizonia",
