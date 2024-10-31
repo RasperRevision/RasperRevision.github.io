@@ -470,10 +470,10 @@
       {
         "index": 25,
         "displayName": "German reading practice",
-        "bg": "warning",
         "jsonFile": "german-reading",
-        "games": 28
-      },
+        "games": 28,
+        "bg": "purple"
+      }
     ]
   },
   {
