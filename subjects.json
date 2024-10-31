@@ -466,7 +466,14 @@
         "jsonFile": "work",
         "games": 12,
         "bg": "info"
-      }
+      },
+      {
+        "index": 25,
+        "displayName": "German reading practice",
+        "bg": "warning",
+        "jsonFile": "german-reading",
+        "games": 28
+      },
     ]
   },
   {
