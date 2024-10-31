@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Read the interview about school:\n Hallo Johann.\n Hallo. Haben sie eine Frage?\n Was ist dein Lieblingsfach?\n Obwol ich immer sportlich gewesen bin, ich  denke, dass Englisch sehr entspannend ist, weil mann nach Amerika fahren kann. Meinen Sportlehrer nervt mich auch oft aber andere Schüler mag er.\n Erzählen sie mir deine nächste Klassenfahrt.\n Nächstes Jahr, werde ich nach England fahren, um meine Englishkenntnisse zu verbessern. Wir werden auch viel Kultur erleben. Meine Meinung nach, wird es sehr entspannend sein. Die Grund dafür sollt klar sein.",
+    "parts": [
+      {
+        "index": 1,
+        "question": "Why does Johann love english? Give one detail.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "He can go on trips"
+            ],
+            "exact": false,
+            "marks": 1
+          },
+          {
+        "index": 2,
+        "question": "Why doesn't Johann love sport? Give one detail.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "His teacher is annoying to him"
+            ],
+            "exact": false,
+            "marks": 1
+          },
+          {
+        "index": 3,
+        "question": "What will Johann do on his trip to england? Give 2 details.",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "Experience the  culture",
+              "Improve his english skills"
+            ],
+            "exact": false,
+            "marks": 2
+          },
+          {
+        "index": 4,
+        "question": "What reason does Johann give about why he is exited for the trip?",
+        "answerBoxes": [
+          {
+            "type": "l",
+            "answers": [
+              "He says the reason is clear"
+            ],
+            "alternatives":[
+              "He thinks it will be exciting",
+              "Everything about it",
+              "References to things Johann says about the trip",
+              "DO NOT ACCEPT 'There is no reason'"
+            ]
+            "exact": false,
+            "marks": 1
+          }
+        ]
+      }
+    ]
