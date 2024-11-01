@@ -1,6 +1,6 @@
 [
   {
-    "question": "Read the interview about school:\n Hallo Johann.\n Hallo. Haben sie eine Frage?\n Was ist dein Lieblingsfach?\n Obwol ich immer sportlich gewesen bin, ich  denke, dass Englisch sehr entspannend ist, weil mann nach Amerika fahren kann. Meinen Sportlehrer nervt mich auch oft aber andere Schüler mag er.\n Erzählen sie mir deine nächste Klassenfahrt.\n Nächstes Jahr, werde ich nach England fahren, um meine Englishkenntnisse zu verbessern. Wir werden auch viel Kultur erleben. Meine Meinung nach, wird es sehr entspannend sein. Die Grund dafür sollt klar sein.",
+    "question": "Read the interview about school:\n Hallo Johann.\n Hallo. Haben sie eine Frage?\n Was ist dein Lieblingsfach?\n Obwohl ich immer sportlich gewesen bin, denke ich, dass Englisch sehr entspannend ist, weil man nach Amerika fahren kann. Mein Sportlehrer nervt mich auch oft aber andere Schüler mögen ihn.\n Erzähl mir über deine nächste Klassenfahrt.\n Nächstes Jahr werde ich nach England fahren, um meine Englischkenntnisse zu verbessern. Wir werden auch viel Kultur erleben. Meine Meinung nach wird es sehr entspannend sein. Der Grund dafür sollt klar sein.",
     "parts": [
       {
         "index": 1,
@@ -13,8 +13,10 @@
             ],
             "exact": false,
             "marks": 1
-          },
-          {
+          }
+        ]
+      },
+      {
         "index": 2,
         "question": "Why doesn't Johann love sport? Give one detail.",
         "answerBoxes": [
@@ -25,8 +27,10 @@
             ],
             "exact": false,
             "marks": 1
-          },
-          {
+          }
+        ]
+      },
+      {
         "index": 3,
         "question": "What will Johann do on his trip to england? Give 2 details.",
         "answerBoxes": [
@@ -38,8 +42,10 @@
             ],
             "exact": false,
             "marks": 2
-          },
-          {
+          }
+        ]
+      },
+      {
         "index": 4,
         "question": "What reason does Johann give about why he is exited for the trip?",
         "answerBoxes": [
@@ -48,15 +54,17 @@
             "answers": [
               "He says the reason is clear"
             ],
-            "alternatives":[
+            "alternatives": [
               "He thinks it will be exciting",
               "Everything about it",
               "References to things Johann says about the trip",
               "DO NOT ACCEPT 'There is no reason'"
-            ]
+            ],
             "exact": false,
             "marks": 1
           }
         ]
       }
     ]
+  }
+]
