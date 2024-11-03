@@ -307,9 +307,13 @@
         });
 
         document.querySelector('.close-quotation-modal').addEventListener('click', () => {
-          quotationModal.hide();
-          quotationCheckBoxes.forEach((e, i) => { if (!e.checked) shuffledQuotes[i].disabled = true; });
+          quotationCheckBoxes.forEach((e, i) => {
+            if (!e.checked) shuffledQuotes[i].disabled = true;
+            else shuffledQuotes[i].disabled = false;
+          });
           document.getElementById('radioQuotations').checked = true;
+          if (shuffledQuotes.filter(q => { return q.disabled == true }).length != shuffledQuotes.length) quotationModal.hide();
+          else alert("Please select one or more quotations.");
         });
 
         await new Promise(resolve =>
