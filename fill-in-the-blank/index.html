@@ -44,6 +44,7 @@
       max-width: 600px;
       border-radius: 10px;
       box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+      background-color: rgba(49, 52, 61, 0.9);
     }
   </style>
 </head>
@@ -52,7 +53,7 @@
   <div class="flex_col main_wrapper">
 
     <header class="position-absolute w-100 mobile_nav">
-      <div class="d-flex justify-content-between px-5 align-items-center " style="height:120px;">
+      <div class="d-flex justify-content-between px-5 align-items-center" style="height:120px;">
         <h4>
           <a class="link-light link-underline-opacity-50 link-underline-opacity-100-hover mobile_nav_btn"
             role="button"><i class="bi bi-caret-down-fill me-2"></i>Select a
@@ -68,25 +69,27 @@
       <div class="accordion_content w-100"></div>
     </header>
 
-    <div class="container bg-light p-4 position-absolute top-50" style="left:50%;transform: translate(-50%, -40%);">
+    <div class="container p-4 position-absolute top-50" style="left:50%;transform: translate(-50%, -40%);">
       <div class="yes-json">
-        <h3 class="mb-4" style="color: black">Complete the quotation</h3>
-        <div class="fw-bold" id="themes" style="color: black"></div>
-        <div class="fs-5 mb-4" id="quote" style="color: black"></div>
-        <div class="fw-bold" id="part" style="color: black"></div>
+        <h3 class="mb-4">Complete the quotation</h3>
+        <div class="fs-5" id="quote"></div>
+        <small style="color: rgb(118, 130, 144)">
+          <div id="part" class="d-inline" style="color: inherit"></div> • <div class="d-inline" id="themes"
+            style="color: inherit"></div>
+        </small>
 
-        <input class="form-control p-2 mb-3" type="text" id="input" placeholder="Enter your guess" autocomplete="off"
-          style="color: black">
+        <input class="form-control p-2 mb-3 mt-4" type="text" id="input" placeholder="Enter your guess"
+          autocomplete="off">
 
         <button class="rbtn primary" id="submit-btn">Submit</button>
         <button class="rbtn warning invis" id="next-btn">Next</button>
 
-        <div class="my-2" id="result" style="color: black"></div>
+        <div class="my-2" id="result"></div>
       </div>
 
       <div class="no-json invis ps-2">
-        <h1 class="text-black mt-3">Fill in the blank</h1>
-        <p class="text-black">To begin, choose a topic from the menu at the bottom of the page.</p>
+        <h1 class="mt-3">Fill in the blank</h1>
+        <p>To begin, choose a topic from the menu at the bottom of the page.</p>
       </div>
     </div>
 
@@ -138,7 +141,7 @@
       const themesTitleCase = quoteObj.themes.map(theme => toTitleCase(theme));
       document.getElementById("themes").textContent = themesTitleCase.join(", ");
       document.getElementById("quote").textContent = maskQuote(quoteObj.quote);
-      document.getElementById("part").textContent=(quoteObj.part);
+      document.getElementById("part").textContent = (quoteObj.part);
     }
 
     function toTitleCase(str) {
@@ -228,7 +231,7 @@
       let rangeInput, rangeLabel, modal;
       if (topic != null && subject != null) {
         const modalContainer = document.createElement('div');
-        const modalHtml = '<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Fill in the blank</h5></div><div class="modal-body"><p class="text-black mb-1">Subject: <span id="subject" class=text-black></span><br>Topic: <span id="topic" class=text-black></span><br><br>Game type:</p><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked><label class="form-check-label text-black" for="flexRadioDefault1" id="complete"></label></div><div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"><label class="form-check-label text-black" for="flexRadioDefault2">Number of questions to finish: <label class="form-label text-black" for="customRange1" id="rangeLabel">1</label><div data-mdb-range-init class="range d-inline w-auto"><input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" /></div></label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" onclick="location.href=\'/fill-in-the-blank\'">Cancel</button><button type="button" class="btn btn-primary begin-game">Begin game</button></div></div></div></div>';
+        const modalHtml = `<div class="modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Fill in the blank</h5></div><div class="modal-body"><p class="text-black mb-1">Subject: <span id="subject" class=text-black></span><br>Topic: <span id="topic" class=text-black></span><br><br>Game type:</p><div class="form-check"><input class="form-check-input" type="radio" name="radio" id="radioComplete" checked><label class="form-check-label text-black" for="radioComplete" id="complete"></label></div><div class="form-check"><input class="form-check-input" type="radio" name="radio" id="radioNumber"><label class="form-check-label text-black" for="radioNumber">Number of questions to finish: <label class="form-label text-black" for="customRange1" id="rangeLabel">1</label><div data-mdb-range-init class="range d-inline w-auto"><input type="range" class="form-range" id="customRange1" min="1" max="100" value="1" /></div></label></div><div class="form-check d-flex align-items-center"><input class="form-check-input" type="radio" name="radio" id="radioQuotations"><label class="form-check-label text-black ms-1" for="radioQuotations"> Select quotations: <button type="button" class="rbtn primary select-quotations">Select</button></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" onclick="location.href='/fill-in-the-blank'">Cancel</button><button type="button" class="btn btn-primary begin-game">Begin game</button></div></div></div></div>`;
 
         modalContainer.innerHTML = modalHtml;
 
@@ -239,11 +242,25 @@
 
         rangeInput = document.getElementById('customRange1');
         rangeLabel = document.getElementById('rangeLabel');
+        rangeRadio = document.getElementById('radioNumber');
+
+        rangeInput.addEventListener('input', () => {
+          rangeRadio.checked = true;
+          rangeLabel.textContent = rangeInput.value
+        });
 
         modal = new bootstrap.Modal(modalContainer.querySelector('.modal'));
         modal.show();
 
-        rangeInput.addEventListener('input', () => rangeLabel.textContent = rangeInput.value);
+        const quotationModalContainer = document.createElement('div');
+        const quotationModalHTML = `<div class="modal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title text-black">Select quotations</h5></div><div class="modal-body"><div class="quotation-list"></div></div><div class="modal-footer d-flex justify-content-between"><div><button type="button" class="btn btn-outline-primary select-all">Select all</button>  <button type="button" class="btn btn-outline-primary deselect-all">Deselect all</button></div><button type="button" class="btn btn-primary close-quotation-modal">Done</button></div></div></div></div>`;
+
+        quotationModalContainer.innerHTML = quotationModalHTML;
+        document.body.appendChild(quotationModalContainer);
+        quotationModal = new bootstrap.Modal(quotationModalContainer.querySelector('.modal'));
+
+        selectBtn = document.querySelector('.select-quotations');
+        selectBtn.addEventListener('click', () => quotationModal.show());
       }
 
       loadJSON(async function (response) {
@@ -256,14 +273,59 @@
 
         document.getElementById('complete').textContent = `Complete (${length} questions)`;
 
+        const quotationList = document.querySelector('.quotation-list');
+        quotationList.style.maxHeight = '60vh';
+        quotationList.style.overflowY = 'auto';
+
+        shuffledQuotes.forEach((quote, qIndex) => {
+          const quoteInputParent = document.createElement('div');
+          quoteInputParent.classList.add('form-check');
+
+          const quoteInput = document.createElement('input');
+          quoteInput.classList.add('form-check-input', 'quotation-select-input');
+          quoteInput.type = 'checkbox';
+          quoteInput.checked = true;
+          quoteInput.id = `flexCheck${qIndex}`;
+
+          const quoteLabel = document.createElement('label');
+          quoteLabel.classList.add('form-check-label', 'text-black');
+          quoteLabel.for = `flexCheck${qIndex}`;
+          quoteLabel.innerHTML = `"${quote.quote}"<br><small class="text-secondary">${quote.part} • ${quote.themes}</small>`;
+
+          quoteInputParent.append(quoteInput, quoteLabel);
+          quotationList.append(quoteInputParent);
+        });
+
+        const quotationCheckBoxes = document.querySelectorAll('.quotation-select-input');
+
+        document.querySelector('.select-all').addEventListener('click', () => {
+          quotationCheckBoxes.forEach(e => e.checked = true);
+        });
+
+        document.querySelector('.deselect-all').addEventListener('click', () => {
+          quotationCheckBoxes.forEach(e => e.checked = false);
+        });
+
+        document.querySelector('.close-quotation-modal').addEventListener('click', () => {
+          quotationModal.hide();
+          quotationCheckBoxes.forEach((e, i) => { if (!e.checked) shuffledQuotes[i].disabled = true; });
+          document.getElementById('radioQuotations').checked = true;
+        });
+
         await new Promise(resolve =>
           document.querySelector('.begin-game').addEventListener('click', resolve)
         );
 
         modal.hide();
 
-        if (document.querySelectorAll(".form-check-input")[1].checked) {
+        if (document.getElementById("radioNumber").checked) {
           length = rangeInput.value;
+          updateScore();
+        }
+
+        if (document.getElementById("radioQuotations").checked) {
+          shuffledQuotes = shuffledQuotes.filter(v => { return !v.disabled });
+          length = shuffledQuotes.length;
           updateScore();
         }
 
@@ -294,7 +356,7 @@
           while (binary_games.length < 5) binary_games = "0" + binary_games;
           if (binary_games[3] == '1') topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
         });
-        if (topics != '') dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
+        if (topics != '') dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
       });
       dropdownHTML += '</div>';
       document.querySelector('.accordion_content').innerHTML = dropdownHTML;
