@@ -39,6 +39,13 @@
         "bg": "lime",
         "jsonFile": "chemistry-energy-changes",
         "games": 4
+      },
+      {
+        "index": 6,
+        "displayName": "Reactivity series",
+        "bg": "success",
+        "jsonFile": "chemistry-reactivity-series",
+        "games": 32
       }
     ]
   },

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Unjumble - Rasper Revision</title>
+
+	<!-- BREADCRUMB LIST -->
+
+	<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Unjumble"
+					}
+				]
+			}
+		</script>
+
+	<!-- FAVICON -->
+	<link rel="icon" type="image/png" href="/assets/logo/icon_dark.svg" />
+
+	<!-- BOOTSTRAP STYLES -->
+	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- BOOTSTRAP SCRIPTS-->
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+	<!-- STYLES -->
+	<link href="/style.css" rel="stylesheet" />
+
+	<style>
+		.draggable {
+			margin: 1rem 0 0 1rem;
+			background-color: rgb(51, 62, 70);
+			padding: 4px;
+			touch-action: none;
+			user-select: none;
+			text-align: center;
+		}
+
+		.dropzone {
+			height: 20px;
+			background-color: white;
+			margin: 1rem 0 0 1rem;
+		}
+
+		.correct {
+			background-color:  green;
+		}
+	</style>
+</head>
+
+<body class="overflow-hidden">
+	<div class="main_wrapper">
+		<header class="position-absolute w-100 mobile_nav">
+			<div class="d-flex justify-content-between px-5 align-items-center" style="height: 120px">
+				<h4>
+					<a class="link-light link-underline-opacity-50 link-underline-opacity-100-hover mobile_nav_btn"
+						role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+								<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+							</svg>Select a topic</a>
+				</h4>
+				<div class="fs-2">
+					<div class="stopwatch d-inline">00:00</div>
+				</div>
+			</div>
+			<div class="accordion_content w-100"></div>
+		</header>
+
+		<div class="container">
+			<div class="quiz-content  d-flex">
+				<div class="d-flex flex-column w-100 justify-content-center" style="flex-basis: 50%"></div>
+				<div class="d-flex flex-column w-100 justify-content-center" style="flex-basis: 50%"></div>
+			</div>
+			<button class="check-answers rbtn rasper-green invis">Check</button>
+			<div class="position-absolute finish invis" style="left: 50%; transform: translateX(-50%)">
+				<div class="result text-center"></div>
+			  <button class="rbtn warning restart">Restart</button>
+			  <button class="rbtn primary home">Home</button>
+			</div>
+		</div>
+
+		<div class="invis no-json position-absolute top-50 d-flex justify-content-center w-100"
+			style="transform: translateY(-50%)">
+			<div class="dark p-5 container">
+				<h1>Unjumble</h1>
+				To begin, choose a topic from the menu at the bottom of the page.
+			</div>
+		</div>
+	</div>
+
+	<!-- INTERACT JS -->
+	<script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+	<script async>
+		const container = document.querySelector(".quiz-content");
+
+		let current_file;
+		let timer;
+		let score_val, length;
+		let s = 0, m = 0;
+
+		function startStopwatch() {
+			timer = setInterval(() => {
+				s++;
+				if (s === 60) {
+					s = 0;
+					m++;
+				}
+				document.querySelector(".stopwatch").textContent = `${pad(m)}:${pad(s)}`;
+			}, 1000);
+		}
+
+		function pad(value) {
+			return value < 10 ? "0" + value : value;
+		}
+
+		function shuffle(array) {
+			for (let i = array.length - 1; i > 0; i--) {
+				const j = Math.floor(Math.random() * (i + 1));
+				[array[i], array[j]] = [array[j], array[i]];
+			}
+			return array;
+		}
+
+		function getParameterByName(name, url) {
+			if (!url) url = window.location.href;
+			name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
+			var regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`),
+				results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return "";
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
+
+		function loadJSON(callback) {
+			if (!getParameterByName("json")) {
+				document.querySelector(".no-json").classList.add("invis");
+				term_element.classList.remove("invis");
+				options.forEach(opt => opt.classList.remove("invis"));
+				var jsonFile = document.querySelector(".file_input").files[0];
+				var reader = new FileReader();
+
+				reader.onload = event => {
+					try {
+						var jsonString = event.target.result;
+						var jsonArray = JSON.parse(jsonString);
+						jsonArray.forEach(obj => (obj.newProperty = "newValue"));
+
+						callback(jsonArray);
+					} catch (e) {
+						alert(`Incompatible file: ${e.message}.`);
+						location.href = "/unjumble";
+					}
+				};
+				reader.readAsText(jsonFile);
+			} else {
+				var jsonFile = `${getParameterByName("json")}.json`;
+				var xobj = new XMLHttpRequest();
+				xobj.overrideMimeType("application/json");
+				xobj.open("GET", jsonFile, true);
+				xobj.onreadystatechange = () => {
+					if (xobj.readyState == 4 && xobj.status == 200) {
+						try {
+							var response = JSON.parse(xobj.responseText);
+							callback(response);
+						} catch (e) {
+							alert(e.message);
+							location.href = "/unjumble";
+						}
+					}
+				};
+				xobj.send(null);
+			}
+		}
+
+		async function unjumble() {
+			document.querySelector('.check-answers').classList.remove('invis');
+			loadJSON(response => {
+				const unshuffled = [...response]; // shallow copy
+				json_data = shuffle(response);
+				length = json_data.length;
+
+				startStopwatch();
+
+				const draggableElements = [];
+				const dropzoneElements = [];
+
+				const positions = []
+
+				for (let i = 0; i < length; i++) {
+					draggableElements.push(document.createElement('div'));
+					draggableElements[i].classList.add('draggable', `draggable${i}`, `order${unshuffled.indexOf(json_data[i])}`);
+					draggableElements[i].textContent = json_data[i];
+
+					positions.push({ x: 0, y: 0 });
+
+					interact(`.draggable${i}`).draggable({
+						listeners: {
+							start (event) {
+								console.log(event.type, event.target)
+							},
+							move (event) {
+								positions[i].x += event.dx;
+								positions[i].y += event.dy;
+
+								event.target.style.transform = `translate(${positions[i].x}px, ${positions[i].y}px)`;
+							},
+						}
+					});
+
+					container.children[0].append(draggableElements[i]);
+
+					dropzoneElements.push(document.createElement('div'));
+					dropzoneElements[i].classList.add('dropzone', `dropzone${i}`);
+
+					interact(`.dropzone${i}`).dropzone({
+						overlap: 0.5,
+						ondrop: event => {
+							const currentDraggable = event.relatedTarget;
+							var relatedTargetIndex;
+							event.relatedTarget.classList.forEach(c => {
+								if (c.indexOf('draggable') !== -1 && c !== 'draggable') relatedTargetIndex = c.replace('draggable', '');
+							})
+							relatedTargetIndex = parseInt(relatedTargetIndex);
+							const { xDist, yDist } = getDistanceBetweenElements(event.target, currentDraggable);
+
+							positions[relatedTargetIndex].x += xDist;
+							positions[relatedTargetIndex].y += yDist;
+
+							currentDraggable.style.transform = `translate(${positions[relatedTargetIndex].x}px, ${positions[relatedTargetIndex].y}px)`;
+							currentDraggable.classList.forEach(c => {
+								if (c.indexOf('in-dropzone') !== -1) currentDraggable.classList.remove(c);
+							});
+							currentDraggable.classList.add(`in-dropzone${i}`);
+						}
+					})
+					.on('dropactivate', event => event.target.classList.add('drop-activated'))
+
+					container.children[1].append(dropzoneElements[i]);
+				}
+			});
+
+			await new Promise(resolve => document.querySelector('.check-answers').addEventListener('click', resolve));
+
+			document.querySelectorAll('.draggable').forEach(e => {
+				if (getID(e, 'order') == getID(e, 'in-dropzone')) e.classList.add('correct');
+			});
+
+			endGame();
+		}
+
+		function getID(element, string) {
+			var elementID = '-1'; 
+			element.classList.forEach(c => {
+				if (c.indexOf(string) !== -1 && c !== string) elementID = c.replace(string, '');
+			});
+			return elementID;
+		}
+
+		function getDistanceBetweenElements(a, b) {
+			function getPositionAtCenter(element) {
+				const {top, left, width, height} = element.getBoundingClientRect();
+				return {
+					x: left + width / 2,
+					y: top + height / 2
+				};
+			}
+			const aPosition = getPositionAtCenter(a);
+			const bPosition = getPositionAtCenter(b);
+
+			return {xDist: aPosition.x - bPosition.x, yDist: aPosition.y - bPosition.y};  
+		}
+
+		function endGame() {
+			clearInterval(timer);
+			document.querySelector(".home").addEventListener("click", () => location.href = "/");
+			document.querySelector(".restart").addEventListener("click", () => location.reload());
+			document.querySelector(".result").innerHTML = `Complete <div style="font-size:100px;"> ${pad(m)}:${pad(s)}</div>`;
+			document.querySelector(".finish").classList.remove("invis");
+		}
+
+		async function getJSON() {
+			return await (await fetch("/subjects.json")).json();
+		}
+
+		async function getSubjectJSON() {
+			data = await (await fetch("/subjects.json")).json();
+			var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
+			data.forEach(item => {
+				const subject = item.displayName.replace(/\s/g, "");
+				var topics = "";
+				item.topics.forEach((topic) => {
+					var binary_games = topic.games.toString(2);
+					while (binary_games.length < 6) binary_games = `0${binary_games}`;
+					if (binary_games[0] == '1') topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+				});
+				if (topics != '') dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
+			});
+			dropdownHTML += "</div>";
+			return dropdownHTML;
+		}
+
+		getSubjectJSON().then(s => (document.querySelector(".accordion_content").innerHTML = s));
+
+		document.querySelector(".mobile_nav_btn").addEventListener("click", () => {
+			document.querySelector(".bi-caret-down-fill").classList.toggle("rotated");
+			document.querySelector(".mobile_nav").classList.toggle("active");
+		});
+
+		const jsonFileName = getParameterByName("json");
+
+		if (jsonFileName != null) {
+			getJSON().then(data => {
+				data.forEach(item => {
+					item.topics.forEach(topic => {
+						if (topic.jsonFile == jsonFileName) {
+							let current_topic = topic.displayName;
+							let current_subject = item.displayName;
+							document.title = `${current_topic} (${current_subject}) - Rasper Revision`;
+							unjumble();
+						}
+					});
+				});
+			});
+		} else {
+			document.querySelector(".no-json").classList.remove("invis");
+			term_element.classList.add("invis");
+			options.forEach(opt => opt.classList.add("invis"));
+		}
+	</script>
+	<script src="/sidebar.js"></script>
+</body>
+
+</html>

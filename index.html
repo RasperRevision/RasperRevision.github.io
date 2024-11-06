@@ -42,6 +42,7 @@
           <button class="game home_btn invis success game-quiz">Quiz</button>
           <button class="game home_btn invis info game-blank">Fill in the Blank</button>
           <button class="game home_btn invis turquoise game-equations">Equations</button>
+          <button class="game home_btn invis turquoise game-unjumble">Unjumble</button>
         </div>
 
         <div class="music-topics flex_col invis"></div>
@@ -84,11 +85,13 @@
           } else if (game.innerHTML == "Quiz") {
             location.href = `/quiz/?json=${topic_chosen}`;
           } else if (game.innerHTML == "Fill in the Blank") {
-            window.location.href = `/fill-in-the-blank?json=${topic_chosen}`;
+            window.location.href = `/fill-in-the-blank/?json=${topic_chosen}`;
           } else if (game.innerHTML == "Equations") {
-            window.location.href = '/equations?json=physics_equations.json'
+            window.location.href = '/equations/?json=physics_equations.json';
           } else if (game.innerHTML == "Exam Questions") {
-            window.location.href = `/exam-questions?json=${topic_chosen}`
+            window.location.href = `/exam-questions/?json=${topic_chosen}`;
+          } else if (game.innerHTML == "Unjumble") {
+            window.location.href = `/unjumble/?json=${topic_chosen}`;
           }
         });
       });
@@ -231,18 +234,21 @@
               while (binary_games.length < 5) binary_games = '0' + binary_games;
 
               if (binary_games[0] == '1') {
-                document.querySelector('.game-exam').classList.remove('invis');
+                document.querySelector('.game-unjumble').classList.remove('invis');
               }
               if (binary_games[1] == '1') {
-                document.querySelector('.game-matchup').classList.remove('invis');
+                document.querySelector('.game-exam').classList.remove('invis');
               }
               if (binary_games[2] == '1') {
-                document.querySelector('.game-quiz').classList.remove('invis');
+                document.querySelector('.game-matchup').classList.remove('invis');
               }
               if (binary_games[3] == '1') {
-                document.querySelector('.game-blank').classList.remove('invis');
+                document.querySelector('.game-quiz').classList.remove('invis');
               }
               if (binary_games[4] == '1') {
+                document.querySelector('.game-blank').classList.remove('invis');
+              }
+              if (binary_games[5] == '1') {
                 document.querySelector('.game-equations').classList.remove('invis');
               }
 
