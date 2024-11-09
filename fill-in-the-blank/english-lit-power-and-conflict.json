@@ -146,8 +146,7 @@
       "Power of nature"
     ],
     "techniques": [
-      "volta",
-      "caesura"
+      "volta"
     ],
     "part": "The Prelude by William Wordsworth"
   },
@@ -352,7 +351,8 @@
     "quote": "Suddenly, he awoke and was running",
     "themes": [
       "Fear",
-      "Reality of conflict"
+      "Reality of conflict",
+      "Bravery"
     ],
     "techniques": [
       "in media res",
@@ -361,10 +361,46 @@
     "part": "Bayonet Charge by Ted Hughes"
   },
   {
-    "quote": "Probably armed, possibly not",
+    "quote": "King, honour, human dignity, etcetera / Dropped like luxuries in a yelling alarm",
+    "themes": [
+      "Reality of conflict"
+    ],
+    "techniques": [
+      "simile"
+    ],
+    "part": "Bayonet Charge by Ted Hughes"
+  },
+  {
+    "quote": "Bullets smacking the belly out of the air",
+    "themes": [
+      "Violence"
+    ],
+    "techniques": [
+      "metaphor",
+      "personification"
+    ],
+    "part": "Bayonet Charge by Ted Hughes"
+  },
+  {
+    "quote": "the shot-slashed furrows",
+    "themes": [
+      "Reality of conflict",
+      "Violence"
+    ],
+    "techniques": [
+      "sibilance",
+      "juxtaposition"
+    ]
+  },
+  {
+    "quote": "one of them legs it up the road, probably armed, possibly not",
     "themes": [
       "Uncertainty",
       "Reality of War"
+    ],
+    "techniques": [
+      "conversational tone",
+      "colloquial language"
     ],
     "part": "Remains by Simon Armitage"
   },
@@ -374,6 +410,10 @@
       "Violence",
       "War"
     ],
+    "techniques": [
+      "anaphora",
+      "imagery"
+    ],
     "part": "Remains by Simon Armitage"
   },
   {
@@ -381,6 +421,22 @@
     "themes": [
       "Violence",
       "Guilt"
+    ],
+    "techniques": [
+      "symbolism"
+    ],
+    "part": "Remains by Simon Armitage"
+  },
+  {
+    "quote": "His blood-shadow stays on the street",
+    "themes": [
+      "Reality of conflict",
+      "Guilt",
+      "Power of memory"
+    ],
+    "techniques": [
+      "symbolism",
+      "sibilance"
     ],
     "part": "Remains by Simon Armitage"
   },
@@ -390,13 +446,18 @@
       "Luck",
       "Emotional vulnerability"
     ],
+    "techniques": [
+      "simile"
+    ],
     "part": "Poppies by Jane Weir"
   },
   {
     "quote": "Sellotape bandaged around my hand",
     "themes": [
-      "Domestic imagery",
       "Power of memory"
+    ],
+    "techniques": [
+      "domestic imagery"
     ],
     "part": "Poppies by Jane Weir"
   },
@@ -406,22 +467,30 @@
       "Bravery",
       "Emotional vulnerability"
     ],
+    "techniques": [
+      "symbolism"
+    ],
     "part": "Poppies by Jane Weir"
   },
   {
-    "quote": "Gelled blackthorns of your hair",
+    "quote": "gelled blackthorns of your hair",
     "themes": [
       "Sacrifice"
     ],
     "techniques": [
-      "Religious imagery"
+      "religious imagery"
     ],
     "part": "Poppies by Jane Weir"
   },
   {
-    "quote": "As though this were a church and he a priest preparing to intone a Mass",
+    "quote": "as though this were a church and he a priest preparing to intone a Mass",
     "themes": [
-      "Religious imagery"
+      "Futility of conflict",
+      "Suffering"
+    ],
+    "techniques": [
+      "religious imagery",
+      "simile"
     ],
     "part": "War Photographer by Carol Ann Duffy"
   },
@@ -432,7 +501,7 @@
       "Internal conflict"
     ],
     "techniques": [
-      "Sibilance"
+      "sibilance"
     ],
     "part": "War Photographer by Carol Ann Duffy"
   },
@@ -450,12 +519,122 @@
   {
     "quote": "All flesh is grass",
     "themes": [
-      "Biblical imagery"
+      "Insignificance",
+      "Futility of conflict"
     ],
     "techniques": [
-      "Metaphor"
+      "Metaphor",
+      "biblical allusion"
     ],
     "part": "War Photographer by Carol Ann Duffy"
+  },
+  {
+    "quote": "The kind you find in well-used books, the back of the Koran",
+    "themes": [
+      "Time"
+    ],
+    "techniques": [
+      "religious imagery"
+    ],
+    "part": "Tissue by Imtiaz Dharker"
+  },
+  {
+    "quote": "with living tissue, raise a structure never meant to last",
+    "themes": [
+      "Fragility of human power",
+      "Time"
+    ],
+    "techniques": [
+      "double meaning"
+    ],
+    "part": "Tissue by Imtiaz Dharker"
+  },
+  {
+    "quote": "let the daylight break through capitals and monoliths,",
+    "themes": [
+      "Power of nature"
+    ],
+    "techniques": [
+      "symbolism",
+      "metaphor"
+    ],
+    "part": "Tissue by Imtiaz Dharker"
+  },
+  {
+    "quote": "That child's vocabulary I carried here like a hollow doll, opens and spills a grammar",
+    "themes": [
+      "Power of identity",
+      "Power of memory"
+    ],
+    "techniques": [
+      "metaphor"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "I have no passport, there's no way back at all but my city comes to me in its own white plane",
+    "themes": [
+      "Power of society"
+    ],
+    "techniques": [
+      "extended metaphor",
+      "symbolism"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "They accuse me of absence, they circle me. They accuse me of being dark in their free city.",
+    "themes": [
+      "Power of society"
+    ],
+    "techniques": [
+      "anaphora"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "My city takes me dancing through the city of walls.",
+    "themes": [
+      "Power of memory",
+      "Freedom"
+    ],
+    "techniques": [
+      "extended metaphor",
+      "juxtaposition",
+      "personification"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "I am branded by an impression of sunlight",
+    "themes": [
+      "Power of memory"
+    ],
+    "techniques": [
+      "symbolism",
+      "metaphor"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "carving out me identity",
+    "themes": [
+      "Power of identity"
+    ],
+    "techniques": [
+      "metaphor"
+    ],
+    "part": "Checking Out Me History by John Agard"
+  },
+  {
+    "quote": "Dem tell me wha dem want to tell me",
+    "themes": [
+      "Power of society"
+    ],
+    "techniques": [
+      "juxtaposition"
+    ],
+    "part": "Checking Out Me History by John Agard"
   },
   {
     "quote": "Enough fuel for a one-way journey into history",
@@ -463,6 +642,9 @@
       "Honour",
       "Suicide",
       "Power of society"
+    ],
+    "techniques": [
+      "metaphor"
     ],
     "part": "Kamikaze by Beatrice Garland"
   },
@@ -474,7 +656,7 @@
       "Shame"
     ],
     "techniques": [
-      "Paradox"
+      "paradox"
     ],
     "part": "Kamikaze by Beatrice Garland"
   },
@@ -485,8 +667,8 @@
       "Honour"
     ],
     "techniques": [
-      "Aside",
-      "Pronoun"
+      "aside",
+      "pronoun"
     ],
     "part": "Kamikaze by Beatrice Garland"
   }
