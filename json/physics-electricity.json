@@ -1,11 +1,19 @@
 [
   {
     "term": "Current",
-    "meaning": "The flow of electric charge, measured in amperes, where one ampere is one Coulomb flowing through a point in a circuit in one second."
+    "meaning": "The rate of flow of electric charge, measured in amperes."
+  },
+  {
+    "term": "Ampere",
+    "meaning": "The number of Coulombs of electric charge that flow through a point in a circuit in one second"
   },
   {
     "term": "Charge",
-    "meaning": "The number of electrons passing through a circuit, measured in Coulombs - a unit representing a large number of electrons."
+    "meaning": "The number of electrons passing through a circuit, measured in Coulombs."
+  },
+  {
+    "term": "Coulomb",
+    "meaning": "A unit representing a large number of electrons"
   },
   {
     "term": "Resistance",
@@ -61,11 +69,11 @@
   },
   {
     "term": "Ohmic conductor",
-    "meaning": "A conductor that follows Ohm's law, where current is directly proportional to the potential difference."
+    "meaning": "A conductor that follows Ohm's law, where current is directly proportional to the potential difference (at constant temp.)"
   },
   {
     "term": "Filament lamp",
-    "meaning": "A non-ohmic light-emitting conductor, whose resistance increases as the temperature increases."
+    "meaning": "A non-Ohmic light-emitting conductor, whose resistance increases as the temperature increases."
   },
   {
     "term": "Series circuit",
