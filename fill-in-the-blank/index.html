@@ -142,7 +142,7 @@
       document.getElementById("themes").textContent = themesTitleCase.join(", ");
       document.getElementById("quote").textContent = maskQuote(quoteObj.quote);
       document.getElementById("part").textContent = quoteObj.part ? quoteObj.part : "Undefined";
-      document.getElementById("techniques").textContent = quoteObj.techniques.map(technique => toTitleCase(techniques)).join(", ");
+      document.getElementById("techniques").textContent = quoteObj.techniques.map(technique => toTitleCase(technique)).join(", ");
     }
 
     function toTitleCase(str) {
