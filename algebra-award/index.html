@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Exam questions from past papers by the major exam boards">
+  <title>Algebra Award</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="/assets/logo/icon_dark.svg">
+
+  <!-- BOOTSTRAP STYLES -->
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- BOOTSTRAP SCRIPTS-->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- STYLES -->
+  <link href="/style.css" rel="stylesheet">
+</head>
+
+<body class="overflow-hidden">
+  <div class="main_wrapper">
+    <div class="position-absolute w-100 mobile_nav">
+      <div class="container d-flex justify-content-between px-5 align-items-center " style="height:120px;">
+        <h4>
+          <a class="link-light link-underline-opacity-50 link-underline-opacity-100-hover mobile_nav_btn"
+            role="button"><i class="bi bi-caret-down-fill me-2"></i>Select a
+            level</a>
+        </h4>
+
+        <div class="fs-2">
+          <div class="stopwatch d-inline">00:00</div>
+          <span class="mx-1">•</span>
+          <span class="d-inline score">0/0</span>
+        </div>
+      </div>
+      <div class="accordion_content container"></div>
+    </div>
+    <div class="quiz_content container"></div>
+
+    <div id="finish-wrapper" class="position-absolute invis" style="left: 50%; transform: translateX(-50%);">
+      <div class="finished-text"></div>
+      <div class="d-flex justify-content-center">
+        <div>
+          <button class="rbtn warning restart">Restart</button>
+          <button class="rbtn primary home">Home</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="invis no-json position-absolute top-50 d-flex justify-content-center w-100"
+      style="transform: translateY(-50%);">
+      <div class="dark p-5 container">
+        <h1>Algebra Award</h1>
+        To begin, select a level from the menu below.
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const container = document.querySelector('.quiz_content');
+
+    let current_file;
+    let timer, s = 0, m = 0;
+    let score_val, length;
+    let answerFound = false;
+
+    function adjustMargin() {
+      var margin = Math.max((window.innerHeight - container.getBoundingClientRect()['height']) / 2 - 120, 0);
+      container.style.marginTop = `${margin}px`;
+      container.style.maxHeight = `${window.innerHeight - 250}px`;
+    }
+
+    function ignoreOrderCompare(a, b) {
+      if (a.length !== b.length) return false;
+      const elements = new Set([...a, ...b]);
+      for (const x of elements) {
+        const count1 = a.filter(e => e === x).length;
+        const count2 = b.filter(e => e === x).length;
+        if (count1 !== count2) return false;
+      }
+      return true;
+    }
+
+    window.addEventListener('resize', adjustMargin);
+
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]o]()-=+.$@#%^&*/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    function updateScore() { document.querySelector('.score').innerHTML = `${score_val}/${length}`; }
+
+    function loadJSON(callback) {
+      if (getParameterByName('json')) {
+        var jsonFile = getParameterByName('json') + '.json';
+
+        var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', jsonFile, true);
+        xobj.onreadystatechange = () => {
+          if (xobj.readyState == 4 && xobj.status == 200) callback(JSON.parse(xobj.responseText));
+        };
+        xobj.send(null);
+      }
+    }
+
+    function pad(value) { return value < 10 ? '0' + value : value; }
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function startStopwatch() {
+      let stopwatch = document.querySelector('.stopwatch');
+      let formattedTime;
+
+      timer = setInterval(() => {
+        s++;
+        if (s === 60) {
+          s = 0;
+          m++;
+        }
+        formattedTime = pad(m) + ':' + pad(s);
+        stopwatch.innerHTML = formattedTime;
+      }, 1000);
+    }
+
+    function stopStopwatch() { clearInterval(timer); }
+
+    async function processItem(item) {
+      container.innerHTML = '';
+
+      if (item.img) {
+        const question_img = document.createElement('img');
+        question_img.src = `imgs/${item.img}.png`;
+        question_img.style.maxWidth = '100%';
+        question_img.style.maxHeight = '250px';
+        question_img.style.padding = '15px';
+        question_img.onload = adjustMargin;
+
+        const img_wrapper = document.createElement('div');
+        img_wrapper.classList.add('d-flex', 'justify-content-center', 'w-100');
+        img_wrapper.appendChild(question_img);
+        container.appendChild(img_wrapper);
+      }
+
+      const main_question = document.createElement('h3');
+      main_question.textContent = item.question;
+
+      container.append(main_question);
+
+      let partCount = 0;
+      for (const part of item.parts) {
+        partCount++;
+        await processPart(part, partCount);
+      }
+      main_question.textContent = '';
+    }
+
+    function isInt(value) {
+      var x;
+      return isNaN(value) ? !1 : (x = parseFloat(value), (0 | x) === x);
+    }
+
+    async function processPart(part, partCount) {
+      var currentPart = part ? (!part.random) : part.random[Math.floor(Math.random()*part.random.length)];
+
+      // creates a container div for the current question part
+      const part_container = document.createElement('div');
+      part_container.classList.add(`part${partCount}`);
+      container.appendChild(part_container);
+
+      if (part.img) {
+        const subquestion_img = document.createElement('img');
+        subquestion_img.src = `imgs/${part.img}.png`;
+        subquestion_img.style.maxWidth = '100%';
+        subquestion_img.style.maxHeight = '250px';
+        subquestion_img.style.padding = '15px';
+        subquestion_img.onload = adjustMargin;
+
+        const subquestion_img_wrapper = document.createElement('div');
+        subquestion_img_wrapper.classList.add('d-flex', 'justify-content-center', 'w-100');
+        subquestion_img_wrapper.appendChild(subquestion_img);
+        part_container.appendChild(subquestion_img_wrapper);
+      }
+
+      // title for sub question
+      const sub_question = document.createElement('h6');
+      sub_question.innerHTML = `${part.index}. ${currentPart.question}<b> [${currentPart.answerBoxes.reduce((acc, box) => acc + box.marks, 0)} marks]</b>`;
+      part_container.appendChild(sub_question);
+
+      var answer_boxes = [], mark_scheme_boxes = [], feedback_boxes = [];
+      var count = 0;
+
+      for (const box of currentPart.answerBoxes) {
+        if (box.prompt) {
+          const prompt = document.createElement('p');
+          prompt.classList.add('d-inline')
+          prompt.textContent = box.prompt;
+          part_container.appendChild(prompt);
+        }
+
+        // creates answer boxes
+        if (box.type == 'l') {
+          const answer_box = document.createElement('textarea');
+          answer_box.classList.add('form-control', 'w-100', 'my-3');
+          part_container.appendChild(answer_box);
+          answer_boxes.push(answer_box);
+        } else if (box.type == 's') {
+          const answer_box = document.createElement('input');
+          answer_box.classList.add('form-control', 'w-auto', 'd-inline', 'mx-3');
+          part_container.appendChild(answer_box);
+          answer_boxes.push(answer_box);
+
+          if (box.unitShown) {
+            const unit = document.createElement('p');
+            unit.classList.add('d-inline');
+            unit.textContent = box.unit;
+            part_container.appendChild(unit);
+          }
+        } else if (box.type == 'r') {
+          const radio_parent = document.createElement('div');
+          let html = ``;
+          let answers = box.options;
+          answers.push(box.answers[0]);
+          shuffle(answers).forEach(answer =>
+            html += `<div class="form-check"><input class="form-check-input" name="radio" type="radio" id="radio${answer}"><label class="form-check-label" for="radio${answer}">  ${answer}</label></div>`
+          );
+          radio_parent.innerHTML = html;
+          part_container.appendChild(radio_parent);
+          answer_boxes.push(radio_parent);
+        } else if (box.type == 'c') {
+          const checkbox_parent = document.createElement('div');
+          let html = '';
+          let answers = box.options;
+          box.answers.forEach(answer => answers.push(answer));
+          shuffle(answers).forEach(answer =>
+            html += `<div class="form-check"><input class="form-check-input" name="radio" type="checkbox" id="check${answer}"><label class="form-check-label" for="check${answer}">${answer}</label></div>`
+          );
+          checkbox_parent.innerHTML = html;
+          part_container.appendChild(checkbox_parent);
+          answer_boxes.push(checkbox_parent);
+        }
+
+        const feedback = document.createElement('div');
+        feedback.classList.add(`feedback${count}`, 'my-2');
+        part_container.appendChild(feedback);
+        feedback_boxes.push(feedback);
+
+        const mark_scheme = document.createElement('div');
+        mark_scheme.classList.add(`mark_scheme${count}`, 'my-2');
+        part_container.appendChild(mark_scheme);
+        mark_scheme_boxes.push(mark_scheme);
+      }
+
+      // creates submit button
+      const submit_btn = document.createElement('button');
+      submit_btn.textContent = 'Submit';
+      submit_btn.classList.add('rbtn', 'info', 'my-3', 'submit-btn');
+      part_container.appendChild(submit_btn);
+
+      adjustMargin();
+
+      // defines what will happen if the submit button is pressed
+      return new Promise(resolve => {
+        submit_btn.addEventListener('click', function () {
+          let answer_box_values = [];
+          answer_boxes.forEach(() => answer_box_values.push(false));
+
+          // goes through each answer box to check if it's correct
+          part.answerBoxes.forEach((box, boxIndex) => {
+            var userAnswer;
+            var current_feedback;
+
+            let current_box = answer_boxes[boxIndex];
+
+            if (current_box.value != null) {
+              userAnswer = current_box.value.trim();
+              current_feedback = feedback_boxes[boxIndex];
+              current_feedback.innerHTML = '';
+            } else {
+              const radio_buttons = current_box.querySelectorAll('.form-check-input');
+              const formCheckLabels = current_box.querySelectorAll('.form-check-label');
+              if (box.type == 'c') {
+                userAnswer = []
+                radio_buttons.forEach((button, btnIndex) => {  if (button.checked) userAnswer.push(formCheckLabels[btnIndex].textContent); });
+              } else {
+                radio_buttons.forEach((button, btnIndex) => { if (button.checked) userAnswer = formCheckLabels[btnIndex].textContent; });
+              }
+              current_feedback = feedback_boxes[boxIndex];
+              current_feedback.innerHTML = '';
+            }
+
+            if (box.exact) {
+              // converts userAnswer to appropriate format, whether it is an int or string.
+              if (isInt(userAnswer)) userAnswer = parseInt(userAnswer);
+              else if (!isNaN(userAnswer) && userAnswer.indexOf('.') != -1) userAnswer = parseFloat(userAnswer);
+              else if (Array.isArray(userAnswer)) userAnswer = userAnswer.map(a => a.toLowerCase());
+              else userAnswer = userAnswer.toLowerCase().trim();
+
+              try { box.answers[0] = box.answers[0].toLowerCase(); }
+              catch (e) { };
+
+              // checks if it is correct
+              if (box.type != 'c') {
+                if (box.alternatives) {
+                  if (!box.answers.includes(userAnswer) && !box.alternatives.includes(userAnswer)) {
+                    current_feedback.textContent = 'Incorrect!';
+                    current_feedback.style.color = 'red';
+                  } else {
+                    current_feedback.textContent = 'Correct!';
+                    current_feedback.style.color = 'green';
+                    score_val += box.marks;
+                    updateScore();
+                    answer_box_values[boxIndex] = true;
+                  }
+                } else {
+                  if (!box.answers.includes(userAnswer)) {
+                    current_feedback.textContent = 'Incorrect!';
+                    current_feedback.style.color = 'red';
+                  } else {
+                    current_feedback.textContent = 'Correct!';
+                    current_feedback.style.color = 'green';
+                    score_val += box.marks;
+                    updateScore();
+                    answer_box_values[boxIndex] = true;
+                  }
+                }
+              } else {
+                if (ignoreOrderCompare(userAnswer, box.answers.map(a => a.toLowerCase()))) {
+                  current_feedback.textContent = 'Correct!';
+                  current_feedback.style.color = 'green';
+                  score_val += box.answers.length;
+                  updateScore();
+                  answer_box_values[boxIndex] = true;
+                } else {
+                  current_feedback.textContent = 'One or more of your answers is incorrect. Try again.';
+                  current_feedback.style.color = 'red';
+                }
+                updateScore();
+              }
+            } else {
+              // creates mark scheme text
+              let current_mark_scheme = mark_scheme_boxes[boxIndex];
+              const ms_text = `<h6>Self-marked-question. Select the number of marks you think you deserve based on the mark scheme.</h6><div class="dropdown d-inline me-2"><button class="btn btn-secondary dropdown-toggle dropdownButton${boxIndex}" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select</button><ul class="dropdown-menu dropdown${boxIndex}"></ul></div>mark(s)<br><h6 class=mt-3>Mark scheme</h6><ul class=markScheme${boxIndex}></ul><h6 class=allow></h6><ul class=altMarkScheme${boxIndex}></ul><h6 class=indicative></h6><ul class=indicativeMarkScheme${boxIndex}></ul>`;
+              current_mark_scheme.innerHTML = ms_text;
+
+              // sets up mark dropdown properly
+              for (let i = 0; i <= box.marks; i++) {
+                const temp_element = document.createElement('li');
+                const temp_text = `<a class="dropdown-item" style="cursor: pointer">${i}</a>`
+                temp_element.innerHTML = temp_text;
+                document.querySelector(`.dropdown${boxIndex}`).appendChild(temp_element);
+              }
+
+              adjustMargin();
+
+              // allows the user to select number of marks
+              document.querySelector(`.dropdown${boxIndex}`).querySelectorAll('.dropdown-item').forEach(item => {
+                item.addEventListener('click', () => {
+                  document.querySelector(`.dropdownButton${boxIndex}`).textContent = item.textContent;
+                  if (parseInt(item.textContent) == box.marks) {
+                    current_feedback.textContent = 'Correct!';
+                    current_feedback.style.color = 'green';
+                    if (!answer_box_values[boxIndex]) {
+                      answer_box_values[boxIndex] = true;
+                      score_val += box.marks;
+                      updateScore();
+                    }
+                    if (!answer_box_values.includes(false)) addNextButton(partCount, resolve);
+                  } else {
+                    current_feedback.textContent = 'Incorrect! Have another go and resubmit.';
+                    current_feedback.style.color = 'red';
+                  }
+                  adjustMargin();
+                });
+              });
+
+              // shows the mark scheme
+              box.answers.forEach(answer => {
+                const answer_text = document.createElement('li');
+                answer_text.innerHTML = answer;
+                document.querySelector(`.markScheme${boxIndex}`).appendChild(answer_text);
+              });
+
+              if (box.alternatives) {
+                document.querySelector('.allow').textContent = 'Allow:'
+                box.alternatives.forEach(alt => {
+                  const alt_element = document.createElement('li');
+                  alt_element.innerHTML = alt;
+                  document.querySelector(`.altMarkScheme${boxIndex}`).appendChild(alt_element);
+                });
+              }
+
+              if (box.indicative) {
+                document.querySelector('.indicative').textContent = 'Indicative content:'
+                box.indicative.forEach(item => {
+                  const indicative_element = document.createElement('li');
+                  indicative_element.innerHTML = item;
+                  document.querySelector(`.indicativeMarkScheme${boxIndex}`).appendChild(indicative_element);
+                });
+              }
+            }
+          });
+
+          // moves on if everything is correct  
+          if (!answer_box_values.includes(false)) addNextButton(partCount, resolve);
+        });
+      });
+    }
+
+    function addNextButton(count, resolve) {
+      const next = document.createElement('button');
+      next.textContent = 'Next';
+      next.classList.add('rbtn', 'warning');
+      next.addEventListener('click', () => {
+        document.querySelector(`.part${count}`).remove();
+        next.remove();
+        resolve();
+      });
+      container.appendChild(next);
+      document.querySelector('.submit-btn').remove();
+    }
+
+    function exam() {
+      startStopwatch();
+      score_val = 0;
+
+      loadJSON(async function (response) {
+        json_data = shuffle(response);
+        length = json_data.reduce((acc, item) => acc + item.parts.reduce((acc2, part) => acc2 + part.answerBoxes.reduce((acc3, box) => acc3 + box.marks, 0), 0), 0);
+        updateScore();
+
+        for (let i = 0; i < json_data.length; i++) await processItem(json_data[i]);
+
+        // end of game
+        stopStopwatch();
+        document.querySelector('.home').addEventListener('click', () => location.href = '/');
+        document.querySelector('.restart').addEventListener('click', () => location.reload());
+
+        const finished = document.querySelector('.finished-text');
+
+        finished.style.cssText = 'text-align: center !important; border:none !important; background: none;';
+        finished.innerHTML = `Complete <div style="font-size:100px;">${pad(m)}:${pad(s)}</div>`;
+        document.getElementById('finish-wrapper').classList.remove('invis');
+      });
+    }
+
+
+    async function getSubjectJSON() {
+      const data = await (await fetch('/subjects.json')).json();
+      var dropdownHTML = '<div class="accordion mt-3" id="subjectAccordion">';
+      data.forEach(item => {
+        const subject = item.displayName.replace(/\s/g, "");
+        var topics = "";
+        item.topics.forEach(topic => {
+          var binary_games = topic.games.toString(2);
+          while (binary_games.length < 5) { binary_games = `0${binary_games}`; }
+          if (binary_games[6] == 1) topics += `<a href="?json=${topic.jsonFile}" class="subject_link link-offset-1 link-light link-underline-opacity-50 link-underline-opacity-100-hover">${topic.displayName}</a>`;
+        });
+        if (topics != "") dropdownHTML += `<div class="accordion-item" style="background: none !important; border: none;"><h2 class="accordion-header" id="${subject}"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${subject}" aria-expanded="false" aria-controls="collapse${subject}">${item.displayName}</button></h2><div id="collapse${subject}" class="accordion-collapse collapse" aria-labelledby="${subject}" data-bs-parent="#subjectAccordion"><div class="accordion-body"><ul class="list-group" id="${subject}ListGroup">${topics}</ul></div></div></div>`;
+
+      });
+      dropdownHTML += '</div>';
+      return dropdownHTML;
+    }
+
+    getSubjectJSON().then(s => document.querySelector(".accordion_content").innerHTML = s);
+
+    document.querySelector(".mobile_nav_btn").addEventListener('click', () => {
+      document.querySelector('.bi-caret-down-fill').classList.toggle('rotated');
+      document.querySelector(".mobile_nav").classList.toggle('active');
+    });
+
+    const jsonFileName = getParameterByName('json');
+
+    if (jsonFileName == null) {
+      document.querySelector('.no-json').classList.remove('invis');
+      term_element.classList.add('invis');
+    } else exam();
+
+  </script>
+  <script src="/sidebar.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+[
+  {
+    "question": " ",
+    "parts": [
+      {
+        "index": 1,
+        "random": [
+          {
+            "question": "Simplify",
+            "answerBoxes": [
+              {
+                "type": "s",
+                "marks": 1
+              }
+            ]
+          },
+          {
+            "question": "Expand and simplify",
+            "answerBoxes": [
+              {
+                "type": "s",
+                "marks": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "question": "Simplify",
+        "answerBoxes": [
+          {
+            "type": "s",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "question": "Simplify",
+        "answerBoxes": [
+          {
+            "type": "s",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "question": "Simplify",
+        "answerBoxes": [
+          {
+            "type": "s",
+            "marks": 1
+          }
+        ]
+      }
+    ]
+  }
+]
