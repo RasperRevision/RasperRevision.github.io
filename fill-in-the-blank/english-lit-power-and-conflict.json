@@ -1,9 +1,273 @@
 [
   {
+    "quote": "king of kings: Look on my works, ye Mighty and despair!",
+    "themes": [
+      "Fragility of human power",
+      "Class",
+      "Power of time"
+    ],
+    "techniques": [
+      "imperative verb",
+      "irony",
+      "biblical allusion"
+    ],
+    "part": "Ozymandias by Percy Shelley"
+  },
+  {
+    "quote": "I met a traveller from an antique land",
+    "themes": [
+      "Time",
+      "False power"
+    ],
+    "techniques": [
+      "framed narrative"
+    ],
+    "part": "Ozymandias by Percy Shelley"
+  },
+  {
+    "quote": "Wrinkled lip and sneer of cold command",
+    "themes": [
+      "Class",
+      "Pride"
+    ],
+    "techniques": [
+      "alliteration"
+    ],
+    "part": "Ozymandias by Percy Shelley"
+  },
+  {
+    "quote": "A shattered visage lies",
+    "themes": [
+      "Fragility of human power",
+      "Power of time",
+      "Power of nature"
+    ],
+    "techniques": [
+      "symbolism",
+      "imagery"
+    ],
+    "part": "Ozymandias by Percy Shelley"
+  },
+  {
+    "quote": "boundless and bare, / The lone and level sands stretch far away.",
+    "themes": [
+      "Power of nature",
+      "Fragility of human power",
+      "Power of time"
+    ],
+    "techniques": [
+      "alliteration",
+      "imagery"
+    ],
+    "part": "Ozymandias by Percy Shelley"
+  },
+  {
+    "quote": "How the youthful harlot's curse / Blasts the newborn infant's tear",
+    "themes": [
+      "Class",
+      "Loss of innocence"
+    ],
+    "techniques": [
+      "juxtaposition"
+    ],
+    "part": "London by William Blake"
+  },
+  {
+    "quote": "Mind forged manacles I hear:",
+    "themes": [
+      "Class",
+      "False power"
+    ],
+    "techniques": [
+      "metaphor",
+      "sensory language"
+    ],
+    "part": "London by William Blake"
+  },
+  {
+    "quote": "The hapless soldier's sigh / Runs in blood down palace walls",
+    "themes": [
+      "Class",
+      "War",
+      "Powerlessness"
+    ],
+    "techniques": [
+      "metaphor",
+      "imagery"
+    ],
+    "part": "London by William Blake"
+  },
+  {
+    "quote": "Every black'ning church appalls",
+    "themes": [
+      "Corruption",
+      "Class"
+    ],
+    "techniques": [
+      "colour symbolism",
+      "irony"
+    ],
+    "part": "London by William Blake"
+  },
+  {
+    "quote": "And measured motion like a living thing, / Strode after me. With trembling oars I turned",
+    "themes": [
+      "Fear",
+      "Power of nature",
+      "Vulnerability"
+    ],
+    "techniques": [
+      "juxtaposition",
+      "personification"
+    ],
+    "part": "The Prelude by William Wordsworth"
+  },
+  {
+    "quote": "No familiar shapes / Remained, no pleasant images of trees",
+    "themes": [
+      "Power of nature"
+    ],
+    "techniques": [
+      "imagery"
+    ],
+    "part": "The Prelude by William Wordsworth"
+  },
+  {
+    "quote": "It was an act of stealth; and troubled pleasure",
+    "themes": [
+      "Desire",
+      "New experience"
+    ],
+    "part": "The Prelude by William Wordsworth"
+  },
+  {
+    "quote": "When, from behind that craggy steep",
+    "themes": [
+      "Power of nature"
+    ],
+    "techniques": [
+      "volta"
+    ],
+    "part": "The Prelude by William Wordsworth"
+  },
+  {
+    "quote": "a huge peak, black and huge",
+    "themes": [
+      "Fear",
+      "Power of nature"
+    ],
+    "techniques": [
+      "repetition",
+      "imagery"
+    ],
+    "part": "The Prelude by William Wordsworth"
+  },
+  {
+    "quote": "I gave commands; / Then all smiles stopped together.",
+    "themes": [
+      "Patriarchy",
+      "Ownership",
+      "Marital conflict"
+    ],
+    "techniques": [
+      
+    ],
+    "part": "My Last Duchess by Robert Browning"
+  },
+  {
+    "quote": "My gift of a nine-hundred-years-old name",
+    "themes": [
+      "Status",
+      "Pride"
+    ],
+    "techniques": [
+      
+    ],
+    "part": "My Last Duchess by Robert Browning"
+  },
+  {
+    "quote": "That's my last Duchess painted on the wall",
+    "themes": [
+      "Patriarchy",
+      "Ownership",
+      "Marital conflict"
+    ],
+    "techniques": [
+      "possessive pronoun"
+    ],
+    "part": "My Last Duchess by Robert Browning"
+  },
+  {
+    "quote": "Charging an army, while / All the world wonder'd",
+    "themes": [
+      "War",
+      "Courage"
+    ],
+    "techniques": [
+      "double meaning"
+    ],
+    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+  },
+  {
+    "quote": "Theirs not to make reply, / Theirs not to reason why, / Theirs but to do and die",
+    "themes": [
+      "War",
+      "Power of humans"
+    ],
+    "techniques": [
+      "anaphora"
+    ],
+    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+  },
+  {
+    "quote": "Into the jaws of Death, / Into the mouth of Hell",
+    "themes": [
+      "Bravery",
+      "Patriotism",
+      "Reality of war"
+    ],
+    "techniques": [
+      "metaphor",
+      "religious imagery",
+      "personification"
+    ],
+    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+  },
+  {
+    "quote": "All in the valley of Death / Rode the six hundred",
+    "themes": [
+      "Bravery",
+      "Patriotism",
+      "Reality of war"
+    ],
+    "techniques": [
+      "metaphor",
+      "biblical allusion"
+    ],
+    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+  },
+  {
+    "quote": "Sudden successive flights of bullets streak the silence",
+    "themes": [
+      "War",
+      "Death",
+      "Reality of war"
+    ],
+    "techniques": [
+      "sibilance",
+      "fricatives"
+    ],
+    "part": "Exposure by Wilfred Owen"
+  },
+  {
     "quote": "Slowly our ghosts drag home",
     "themes": [
       "Death",
       "Despair"
+    ],
+    "techniques": [
+      "powerful verb",
+      "metaphor"
     ],
     "part": "Exposure by Wilfred Owen"
   },
@@ -18,7 +282,8 @@
   {
     "quote": "Merciless iced east winds that knive us...",
     "themes": [
-      "Nature"
+      "Power of Nature",
+      "Reality of war"
     ],
     "techniques": [
       "Personification"
@@ -26,129 +291,117 @@
     "part": "Exposure by Wilfred Owen"
   },
   {
-    "quote": "king of kings: Look on my works, ye Mighty and despair!",
+    "quote": "We only know war lasts, rain soaks, and clouds sag stormy.",
     "themes": [
-      "Irony",
-      "Class"
+      "Power of Nature",
+      "Reality of war"
     ],
-    "part": "Ozymandias by Percy Shelley"
-  },
-  {
-    "quote": "I met a traveller from an antique land",
-    "themes": [
-      "Time",
-      "False power"
-    ],
-    "part": "Ozymandias by Percy Shelley"
-  },
-  {
-    "quote": "Wrinkled lip and sneer of cold command",
-    "themes": [
-      "Class"
-    ],
-    "part": "Ozymandias by Percy Shelley"
-  },
-  {
-    "quote": "A shattered visage lies",
-    "themes": [
-      "Time"
-    ],
-    "part": "Ozymandias by Percy Shelley"
-  },
-  {
-    "quote": "How the youthful harlot’s curse / Blasts the newborn infant’s tear",
-    "themes": [
-      "Class",
-      "Loss of innocence"
-    ],
-    "part": "London by William Blake"
-  },
-  {
-    "quote": "Mind forged manacles I hear:",
-    "themes": [
-      "Class",
-      "False power"
-    ],
-    "part": "London by William Blake"
-  },
-  {
-    "quote": "The hapless soldier’s sigh/Runs in blood down palace walls",
-    "themes": [
-      "Class",
-      "War"
-    ],
-    "part": "London by William Blake"
-  },
-  {
-    "quote": "Strode after me. With trembling oars i turned",
-    "themes": [
-      "Fear",
-      "power of nature"
-    ],
-    "part": "The Prelude by William Wordsworth"
-  },
-  {
-    "quote": "No familiar shapes/ Remained, no pleasant images of trees",
-    "themes": [
-      
-      "Power of nature"
-    ],
-    "part": "The Prelude by William Wordsworth"
-  },
-  {
-    "quote": "It was an act of stealth; and troubled pleasure",
-    "themes": [
-      "Desire",
-      "New experience"
-    ],
-    "part": "The Prelude by William Wordsworth"
-  },
-  {
-    "quote": "I gave commands; / Then all smiles stopped together.",
-    "themes": [
-      "Patriarchy",
-      "Ownership",
-      "Marital conflict"
-    ],
-    "part": "My Last Duchess by Robert Browning"
-  },
-  {
-    "quote": "Sudden successive flights of bullets streak the silence",
-    "themes": [
-      "War",
-      "Death"
+    "techniques": [
+      "Pathetic fallacy",
+      "Sibilance"
     ],
     "part": "Exposure by Wilfred Owen"
   },
   {
-    "quote": "Charging an army, while / All the world wonder'd",
+    "quote": "Space is a salvo, we are bombarded by the empty air.",
     "themes": [
-      "War",
-      "Courage"
+      "Futility of conflict",
+      "Power of nature"
     ],
-    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+    "techniques": [
+      "semantic field",
+      "sibilance"
+    ],
+    "part": "Storm on the Island by Seamus Heaney"
   },
   {
-    "quote": "Theirs not to make reply, / Theirs not to reason why, / Theirs but to do and die",
+    "quote": "This wizened earth has never troubled us with hay",
     "themes": [
-      "War",
-      "Power"
+      "Power of nature"
     ],
-    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+    "techniques": [
+      "personification"
+    ],
+    "part": "Storm on the Island by Seamus Heaney"
   },
   {
-    "quote": "Into the jaws of Death, / Into the mouth of Hell",
+    "quote": "you know what I mean - leaves and branches / Can raise a tragic chorus in a gale",
     "themes": [
-      "Biblical allusion",
+      "Power of nature"
+    ],
+    "techniques": [
+      "personification",
+      "conversational tone"
+    ],
+    "part": "Storm on the Island by Seamus Heaney"
+  },
+  {
+    "quote": "Strange, it is a huge nothing that we fear",
+    "themes": [
+      "Fear",
+      "Power of nature"
+    ],
+    "techniques": [
+      "oxymoron",
+      "double meaning"
+    ],
+    "part": "Storm on the Island by Seamus Heaney"
+  },
+  {
+    "quote": "Suddenly, he awoke and was running",
+    "themes": [
+      "Fear",
+      "Reality of conflict",
       "Bravery"
     ],
-    "part": "The Charge of the Light Brigade by Alfred Lord Tennyson"
+    "techniques": [
+      "in media res",
+      "double meaning"
+    ],
+    "part": "Bayonet Charge by Ted Hughes"
   },
   {
-    "quote": "Probably armed, possibly not",
+    "quote": "King, honour, human dignity, etcetera / Dropped like luxuries in a yelling alarm",
+    "themes": [
+      "Reality of conflict"
+    ],
+    "techniques": [
+      "simile"
+    ],
+    "part": "Bayonet Charge by Ted Hughes"
+  },
+  {
+    "quote": "Bullets smacking the belly out of the air",
+    "themes": [
+      "Violence"
+    ],
+    "techniques": [
+      "metaphor",
+      "personification"
+    ],
+    "part": "Bayonet Charge by Ted Hughes"
+  },
+  {
+    "quote": "the shot-slashed furrows",
+    "themes": [
+      "Reality of conflict",
+      "Violence"
+    ],
+    "techniques": [
+      "sibilance",
+      "juxtaposition"
+    ],
+    "part": "Bayonet Charge by Ted Hughes"
+  },
+  {
+    "quote": "one of them legs it up the road, probably armed, possibly not",
     "themes": [
       "Uncertainty",
       "Reality of War"
+    ],
+    "techniques": [
+      "conversational tone",
+      "colloquial language"
     ],
     "part": "Remains by Simon Armitage"
   },
@@ -158,6 +411,10 @@
       "Violence",
       "War"
     ],
+    "techniques": [
+      "anaphora",
+      "imagery"
+    ],
     "part": "Remains by Simon Armitage"
   },
   {
@@ -165,6 +422,22 @@
     "themes": [
       "Violence",
       "Guilt"
+    ],
+    "techniques": [
+      "symbolism"
+    ],
+    "part": "Remains by Simon Armitage"
+  },
+  {
+    "quote": "His blood-shadow stays on the street",
+    "themes": [
+      "Reality of conflict",
+      "Guilt",
+      "Power of memory"
+    ],
+    "techniques": [
+      "symbolism",
+      "sibilance"
     ],
     "part": "Remains by Simon Armitage"
   },
@@ -174,13 +447,18 @@
       "Luck",
       "Emotional vulnerability"
     ],
+    "techniques": [
+      "simile"
+    ],
     "part": "Poppies by Jane Weir"
   },
   {
     "quote": "Sellotape bandaged around my hand",
     "themes": [
-      "Domestic imagery",
       "Power of memory"
+    ],
+    "techniques": [
+      "domestic imagery"
     ],
     "part": "Poppies by Jane Weir"
   },
@@ -190,22 +468,30 @@
       "Bravery",
       "Emotional vulnerability"
     ],
+    "techniques": [
+      "symbolism"
+    ],
     "part": "Poppies by Jane Weir"
   },
   {
-    "quote": "Gelled blackthorns of your hair",
+    "quote": "gelled blackthorns of your hair",
     "themes": [
       "Sacrifice"
     ],
     "techniques": [
-      "Religious imagery"
+      "religious imagery"
     ],
     "part": "Poppies by Jane Weir"
   },
   {
-    "quote": "As though this were a church and he a priest preparing to intone a Mass",
+    "quote": "as though this were a church and he a priest preparing to intone a Mass",
     "themes": [
-      "Religious imagery"
+      "Futility of conflict",
+      "Suffering"
+    ],
+    "techniques": [
+      "religious imagery",
+      "simile"
     ],
     "part": "War Photographer by Carol Ann Duffy"
   },
@@ -216,7 +502,7 @@
       "Internal conflict"
     ],
     "techniques": [
-      "Sibilance"
+      "sibilance"
     ],
     "part": "War Photographer by Carol Ann Duffy"
   },
@@ -234,12 +520,122 @@
   {
     "quote": "All flesh is grass",
     "themes": [
-      "Biblical imagery"
+      "Insignificance",
+      "Futility of conflict"
     ],
     "techniques": [
-      "Metaphor"
+      "Metaphor",
+      "biblical allusion"
     ],
     "part": "War Photographer by Carol Ann Duffy"
+  },
+  {
+    "quote": "The kind you find in well-used books, the back of the Koran",
+    "themes": [
+      "Time"
+    ],
+    "techniques": [
+      "religious imagery"
+    ],
+    "part": "Tissue by Imtiaz Dharker"
+  },
+  {
+    "quote": "with living tissue, raise a structure never meant to last",
+    "themes": [
+      "Fragility of human power",
+      "Time"
+    ],
+    "techniques": [
+      "double meaning"
+    ],
+    "part": "Tissue by Imtiaz Dharker"
+  },
+  {
+    "quote": "let the daylight break through capitals and monoliths,",
+    "themes": [
+      "Power of nature"
+    ],
+    "techniques": [
+      "symbolism",
+      "metaphor"
+    ],
+    "part": "Tissue by Imtiaz Dharker"
+  },
+  {
+    "quote": "That child's vocabulary I carried here like a hollow doll, opens and spills a grammar",
+    "themes": [
+      "Power of identity",
+      "Power of memory"
+    ],
+    "techniques": [
+      "metaphor"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "I have no passport, there's no way back at all but my city comes to me in its own white plane",
+    "themes": [
+      "Power of society"
+    ],
+    "techniques": [
+      "extended metaphor",
+      "symbolism"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "They accuse me of absence, they circle me. They accuse me of being dark in their free city.",
+    "themes": [
+      "Power of society"
+    ],
+    "techniques": [
+      "anaphora"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "My city takes me dancing through the city of walls.",
+    "themes": [
+      "Power of memory",
+      "Freedom"
+    ],
+    "techniques": [
+      "extended metaphor",
+      "juxtaposition",
+      "personification"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "I am branded by an impression of sunlight",
+    "themes": [
+      "Power of memory"
+    ],
+    "techniques": [
+      "symbolism",
+      "metaphor"
+    ],
+    "part": "The Emigrée by Carol Rumens"
+  },
+  {
+    "quote": "carving out me identity",
+    "themes": [
+      "Power of identity"
+    ],
+    "techniques": [
+      "metaphor"
+    ],
+    "part": "Checking Out Me History by John Agard"
+  },
+  {
+    "quote": "Dem tell me wha dem want to tell me",
+    "themes": [
+      "Power of society"
+    ],
+    "techniques": [
+      "juxtaposition"
+    ],
+    "part": "Checking Out Me History by John Agard"
   },
   {
     "quote": "Enough fuel for a one-way journey into history",
@@ -247,6 +643,9 @@
       "Honour",
       "Suicide",
       "Power of society"
+    ],
+    "techniques": [
+      "metaphor"
     ],
     "part": "Kamikaze by Beatrice Garland"
   },
@@ -258,7 +657,7 @@
       "Shame"
     ],
     "techniques": [
-      "Paradox"
+      "paradox"
     ],
     "part": "Kamikaze by Beatrice Garland"
   },
@@ -269,8 +668,8 @@
       "Honour"
     ],
     "techniques": [
-      "Aside",
-      "Pronoun"
+      "aside",
+      "pronoun"
     ],
     "part": "Kamikaze by Beatrice Garland"
   }

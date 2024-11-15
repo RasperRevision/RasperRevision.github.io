@@ -1,0 +1,39 @@
+{
+  "subject": "Physics",
+  "title": "Electricity",
+  "pages": [
+    {
+      "title": "Part 1: Current, potential difference and resistance",
+      "content": "",
+      "objectives": [
+        "Draw and identify standard circuit symbols",
+        "Draw and interpret circuit diagrams using standard circuit symbols",
+        "Understand and explain the terms: current, potential difference, resistance, charge"
+      ]
+    },
+    {
+      "title": "Part 2: ",
+      "content": "",
+      "objectives": [
+      ]
+    },
+    {
+      "title": "Part 3: ",
+      "content": "",
+      "objectives": [
+      ]
+    },
+    {
+      "title": "Part 4: ",
+      "content": "",
+      "objectives": [
+      ]
+    },
+    {
+      "title": "Part 5: ",
+      "content": "",
+      "objectives": [
+      ]
+    }
+  ]
+}

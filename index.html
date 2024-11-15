@@ -231,7 +231,7 @@
               var binary_games = topic.games.toString(2);
               document.querySelector('.games').classList.remove('invis');
 
-              while (binary_games.length < 5) binary_games = '0' + binary_games;
+              while (binary_games.length < 6) binary_games = '0' + binary_games;
 
               if (binary_games[0] == '1') {
                 document.querySelector('.game-unjumble').classList.remove('invis');
