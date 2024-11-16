@@ -280,7 +280,7 @@
           answer_boxes.forEach(() => answer_box_values.push(false));
 
           // goes through each answer box to check if it's correct
-          part.answerBoxes.forEach((box, boxIndex) => {
+          currentPart.answerBoxes.forEach((box, boxIndex) => {
             var userAnswer;
             var current_feedback;
 
@@ -439,8 +439,8 @@
       score_val = 0;
 
       loadJSON(async function (response) {
-        json_data = shuffle(response);
-        length = json_data.reduce((acc, item) => acc + item.parts.reduce((acc2, part) => acc2 + part.answerBoxes.reduce((acc3, box) => acc3 + box.marks, 0), 0), 0);
+        json_data = response;
+        length = json_data.length;
         updateScore();
 
         for (let i = 0; i < json_data.length; i++) await processItem(json_data[i]);
