@@ -198,7 +198,7 @@
 
       // title for sub question
       const sub_question = document.createElement('h6');
-      sub_question.innerHTML = `${part.index}. ${currentPart.question}<b> [${currentPart.answerBoxes.reduce((acc, box) => acc + box.marks, 0)} marks]</b>`;
+      sub_question.innerHTML = `${part.index}. ${currentPart.question}<b> [${currentPart.marks} marks]</b>`;
       part_container.appendChild(sub_question);
 
       var answer_boxes = [], mark_scheme_boxes = [], feedback_boxes = [];

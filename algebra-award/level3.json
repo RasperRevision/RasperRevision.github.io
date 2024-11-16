@@ -7,6 +7,7 @@
         "random": [
           {
             "question": "Simplify",
+            "marks": 1,
             "answerBoxes": [
               {
                 "type": "s",
@@ -16,6 +17,7 @@
           },
           {
             "question": "Expand and simplify",
+            "marks": 1,
             "answerBoxes": [
               {
                 "type": "s",
