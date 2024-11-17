@@ -60,6 +60,9 @@
 
   </div>
 
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
   <script>
     const container = document.querySelector('.quiz_content');
 
@@ -67,6 +70,22 @@
     let timer, s = 0, m = 0;
     let score_val, length;
     let answerFound = false;
+
+    function mathsConvert(input, output) {
+      MathJax.texReset();
+
+      var options = MathJax.getMetricsFor(output);
+      options.display = false;
+
+      MathJax.tex2chtmlPromise(input, options)
+        .then(node => {
+          output.appendChild(node);
+          MathJax.startup.document.clear();
+          MathJax.startup.document.updateDocument();
+          adjustMargin();
+        })
+        .catch(err => output.appendChild(document.createElement("pre")).appendChild(document.createTextNode(err.message)));
+    }
 
     function adjustMargin() {
       var margin = Math.max((window.innerHeight - container.getBoundingClientRect()['height']) / 2 - 120, 0);
@@ -174,8 +193,24 @@
       return isNaN(value) ? !1 : (x = parseFloat(value), (0 | x) === x);
     }
 
+    function randomLetter(start, end) {
+      const charCodeStart = start.charCodeAt(0);
+      const charCodeEnd = end.charCodeAt(0);
+
+      var randomLetter = String.fromCharCode(randomInt(charCodeStart, charCodeEnd));
+      while (randomLetter == 'o') randomLetter = String.fromCharCode(randomInt(charCodeStart, charCodeEnd));
+
+      return randomLetter;
+    }
+
+    function randomInt(min, max) {
+      return Math.floor(Math.random() * (max-min +1)) + min;
+    }
+
     async function processPart(part, partCount) {
-      var currentPart = part ? (!part.random) : part.random[Math.floor(Math.random()*part.random.length)];
+      var currentPart;
+      if (part.selectRandomFrom) currentPart = part.selectRandomFrom[Math.floor(Math.random()*part.selectRandomFrom.length)];
+      else currentPart = part;
 
       // creates a container div for the current question part
       const part_container = document.createElement('div');
@@ -196,15 +231,62 @@
         part_container.appendChild(subquestion_img_wrapper);
       }
 
+      // convert any RMML to LaTeX and display correctly.
+      if (currentPart.question.indexOf('{') !== -1) {
+        var rmmlExp = currentPart.question.match(/\{(.*?)\}/)[1];
+
+        currentPart.question = currentPart.question.replace(rmmlExp, '');
+        currentPart.question = currentPart.question.replace('{}', '');
+
+        const letRegex = /let\((\w),(\w)\)(?::=const\((\w+)\))?/g;
+        const intRegex = /int\((-?\d+),(-?\d+)\)(?::const\((\w+)\))?/g;
+        const constRegex = /\b(\w+)\b/g;
+
+        let constants = {};
+
+        rmmlExp = rmmlExp.replace(letRegex, (_, start, end, constName) => {
+          const letter = randomLetter(start, end);
+          if (constName) {
+            constants[constName] = letter;
+          }
+          return letter;
+        });
+
+        rmmlExp = rmmlExp.replace(intRegex, (_, min, max, constName) => {
+          const number = randomInt(Number(min), Number(max));
+          if (constName) {
+            constants[constName] = number;
+          }
+          return number;
+        });
+
+        rmmlExp = rmmlExp.replace(constRegex, match => {
+          return constants[match] !== undefined ? constants[match] : match;
+        })
+
+        rmmlExp = rmmlExp
+          .replace('*', ' \\times ');
+      }
+
       // title for sub question
       const sub_question = document.createElement('h6');
-      sub_question.innerHTML = `${part.index}. ${currentPart.question}<b> [${currentPart.marks} marks]</b>`;
+      sub_question.innerHTML = `${part.index}. ${currentPart.question}`;
       part_container.appendChild(sub_question);
+
+      if (rmmlExp != null) {
+        mathsConvert(rmmlExp, sub_question);
+      }
+
+      const markNum = document.createElement('b');
+      markNum.textContent = ` [${currentPart.marks} marks]`;
+
+      await new Promise(resolve => {if (document.querySelector('mjx-container') !== undefined) resolve()})
+      sub_question.append(markNum);
 
       var answer_boxes = [], mark_scheme_boxes = [], feedback_boxes = [];
       var count = 0;
 
-      for (const box of currentPart.answerBoxes) {
+      currentPart.answerBoxes.forEach(box => {
         if (box.prompt) {
           const prompt = document.createElement('p');
           prompt.classList.add('d-inline')
@@ -263,7 +345,7 @@
         mark_scheme.classList.add(`mark_scheme${count}`, 'my-2');
         part_container.appendChild(mark_scheme);
         mark_scheme_boxes.push(mark_scheme);
-      }
+      });
 
       // creates submit button
       const submit_btn = document.createElement('button');
