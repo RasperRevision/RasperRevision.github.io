@@ -265,7 +265,7 @@
         })
 
         rmmlExp = rmmlExp
-          .replace('*', ' \\times ');
+          .replace(/\*/g, ' \\times ');
       }
 
       // title for sub question
