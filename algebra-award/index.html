@@ -198,13 +198,13 @@
       const charCodeEnd = end.charCodeAt(0);
 
       var randomLetter = String.fromCharCode(randomInt(charCodeStart, charCodeEnd));
-      while (randomLetter == 'o') randomLetter = String.fromCharCode(randomInt(charCodeStart, charCodeEnd));
+      while (randomLetter == 'o' || randomLetter == 'i' || randomLetter == 'e') randomLetter = String.fromCharCode(randomInt(charCodeStart, charCodeEnd));
 
       return randomLetter;
     }
 
     function randomInt(min, max) {
-      return Math.floor(Math.random() * (max-min +1)) + min;
+      return Math.floor(Math.random() * (max-min + 1)) + min;
     }
 
     async function processPart(part, partCount) {
