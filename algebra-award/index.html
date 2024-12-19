@@ -60,7 +60,7 @@
 
   </div>
 
-  <script type="text/javascript" id="MathJax-script" async
+  <script async type="text/javascript" id="MathJax-script"
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
   <script>
@@ -274,6 +274,9 @@
       part_container.appendChild(sub_question);
 
       if (rmmlExp != null) {
+        await new Promise(resolve => {
+          document.getElementById('MathJax-script').addEventListener('load', resolve);
+        });
         mathsConvert(rmmlExp, sub_question);
       }
 
