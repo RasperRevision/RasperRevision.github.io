@@ -197,6 +197,13 @@
         "jsonFile": "english-lit-power-and-conflict",
         "games": 2,
         "bg": "purple"
+      },
+      {
+        "index": 4,
+        "displayName": "An Inspector Calls",
+        "jsonFile": "aic",
+        "games": 2,
+        "bg": warning"
       }
     ]
   },
