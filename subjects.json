@@ -203,7 +203,7 @@
         "displayName": "An Inspector Calls",
         "jsonFile": "aic",
         "games": 2,
-        "bg": warning"
+        "bg": "warning"
       }
     ]
   },
