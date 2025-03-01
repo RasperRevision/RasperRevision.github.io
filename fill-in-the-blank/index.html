@@ -74,18 +74,17 @@
         <h3 class="mb-4">Complete the quotation</h3>
         <div class="fs-5" id="quote"></div>
         <small style="color: rgb(118, 130, 144)">
-          <div id="part" class="d-inline" style="color: inherit"></div> • <div class="d-inline" id="themes"
-            style="color: inherit"></div> • <div id="techniques" class="d-inline" style="color: inherit"></div>
+          <div id="part" class="d-inline" style="color: inherit"></div> • <div id="character" class="d-inline" style="color:inerhit"></div>
         </small>
 
         <div class="input-group mb-3 mt-4">
-          <input class="form-control p-2" type="text" id="input" placeholder="Enter your guess"
-            autocomplete="off">
+          <input class="form-control p-2" type="text" id="input" placeholder="Enter your guess" autocomplete="off">
 
           <button class="rbtn primary" id="submit-btn">Submit</button>
           <button class="rbtn warning invis" id="next-btn">Next</button>
         </div>
         <div class="my-2" id="result"></div>
+        <div class="d-inline" id="themes" style="color: inherit"></div> • <div id="techniques" class="d-inline" style="color: inherit"></div>
       </div>
 
       <div class="no-json invis ps-2">
@@ -142,6 +141,7 @@
       const themesTitleCase = quoteObj.themes.map(theme => toTitleCase(theme));
       document.getElementById("themes").textContent = themesTitleCase.join(", ");
       document.getElementById("quote").textContent = maskQuote(quoteObj.quote);
+      document.getElementById("character").textContent = quoteObj.character ? quoteObj.character : "Undefined";
       document.getElementById("part").textContent = quoteObj.part ? quoteObj.part : "Undefined";
       document.getElementById("techniques").textContent = quoteObj.techniques.map(technique => toTitleCase(technique)).join(", ");
     }
