@@ -1,0 +1,456 @@
+[
+    {
+        "quote": "A man has to make his own way - has to look after himself - and his family too, of course.",
+        "themes": [
+            "Individualism",
+            "Responsibility",
+            "Gender"
+        ],
+        "techniques": [
+            "Gendered pronoun"
+        ],
+        "part": "Act One",
+        "character": "Mr Birling"
+    },
+    {
+        "quote": "Unsinkable, absolutely unsinkable.",
+        "themes": [
+            "Capitalism"
+        ],
+        "techniques": [
+            "Dramatic irony"
+        ],
+        "part": "Act One",
+        "character": "Mr Birling"
+    },
+    {
+        "quote": "There'll be a public scandal.",
+        "themes": [
+            "Individualism"
+        ],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Mr Birling"
+    },
+    {
+        "quote": "The famous younger generation who know it all. And they can't even take a joke.",
+        "themes": [
+            "Age"
+        ],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Mr Birling"
+    },
+    {
+        "quote": "I can't accept any responsibility.",
+        "themes": [
+            "Individualism",
+            "Responsibility"
+        ],
+        "techniques": [],
+        "part": "Act One",
+        "character": "Mr Birling"
+    },
+    {
+        "quote": "I accept no blame for it at all.",
+        "themes": [
+            "Individualism",
+            "Responsibility",
+            "Age"
+        ],
+        "techniques": [],
+        "part": "Act Two",
+        "character": "Mrs Birling"
+    },
+    {
+        "quote": "She only had herself to blame.",
+        "themes": [
+            "Individualism"
+        ],
+        "techniques": [],
+        "part": "Act Two",
+        "character": "Mrs Birling"
+    },
+    {
+        "quote": "Girls of that class",
+        "themes": [
+            "Class"
+        ],
+        "techniques": [],
+        "part": "Act Two",
+        "character": "Mrs Birling"
+    },
+    {
+        "quote": "I was the only one who didn't give in to him.",
+        "themes": [],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Mrs Birling"
+    },
+    {
+        "quote": "Go and look for the father of that child. It's his responsibility.",
+        "themes": [
+            "Individualism",
+            "Responsibility"
+        ],
+        "techniques": [],
+        "part": "Act Two",
+        "character": "Mrs Birling"
+    },
+    {
+        "quote": "But these girls aren't cheap labour - they're people.",
+        "themes": [
+            "Class"
+        ],
+        "techniques": [],
+        "part": "Act One",
+        "character": "Sheila"
+    },
+    {
+        "quote": "It was my own fault.",
+        "themes": [
+            "Responsibility",
+            "Age"
+        ],
+        "techniques": [],
+        "part": "Act One",
+        "character": "Sheila"
+    },
+    {
+        "quote": "Between us, we drove that girl to commit suicide.",
+        "themes": [
+            "Collectivism",
+            "Responsibility"
+        ],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Sheila"
+    },
+    {
+        "quote": "You don't seem to have learnt anything.",
+        "themes": [
+            "Age",
+            "Responsibility"
+        ],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Sheila"
+    },
+    {
+        "quote": "I suppose we're all nice people now.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act Three",
+        "character": "Sheila"
+    },
+    {
+        "quote": "You're not the kind of father a chap could go to when he's in trouble",
+        "themes": [],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Eric"
+    },
+    {
+        "quote": "I was in that state when a chap easily turns nasty.",
+        "themes": [],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Eric"
+    },
+    {
+        "quote": "You lot may be letting yourselves out nicely, but I can't.",
+        "themes": [
+            "Responsibility",
+            "Age"
+        ],
+        "techniques": [],
+        "part": "Act Three",
+        "character": "Eric"
+    },
+    {
+        "quote": "The girl's dead and we all helped to kill her - and that's what matters.",
+        "themes": [
+            "Responsibility"
+        ],
+        "techniques": [],
+        "part":"Act Three",
+        "character":"Eric"
+    },
+    {
+        "quote": "It's what happened to the girl and what we all did to her that matters.",
+        "themes": [
+            "Responsibility"
+        ],
+        "techniques":[],
+        "part":"Act Three",
+        "character":"Eric"
+    },
+    {
+        "quote": "I didn't feel about her as she felt about me.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act Two",
+        "character": "Gerald"
+    },
+    {
+        "quote": "I suppose it was inevitable",
+        "themes": [],
+        "techniques": [],
+        "part":"Act Two",
+        "character":"Gerald"
+    },
+    {
+        "quote": "We're respectable citizens and not criminals",
+        "themes": [],
+        "techniques": [
+            "Foreshadowing"
+        ],
+        "part":"Act One",
+        "character":"Gerald"
+    },
+    {
+        "quote": "Everything's all right now, Sheila. What about this ring?",
+        "themes": [
+            "Gender"
+        ],
+        "techniques": [],
+        "part":"Act Three",
+        "character":"Gerald"
+    },
+    {
+        "quote": "There isn't any such inspector. We've been had.",
+        "themes": [
+            "Responsibility"
+        ],
+        "techniques": [],
+        "part":"Act Three",
+        "character":"Gerald"
+    },
+    {
+        "quote": "We are members of one body. We are responsible for each other.",
+        "themes": [
+            "Responsibility",
+            "Collectivism"
+        ],
+        "techniques": [
+            "Plural first person pronoun"
+        ],
+        "part":"Act Three",
+        "character":"Inspector"
+    },
+    {
+        "quote": "Each of you helped kill her. Remember that. Never forget it.",
+        "themes": [
+            "Responsibility"
+        ],
+        "techniques": [
+            "Direct address",
+            "Imperative verbs"
+        ],
+        "part":"Act Three",
+        "character":"Inspector"
+    },
+    {
+        "quote": "It's better to ask for the Earth than to take it.",
+        "themes": [
+            "Capitalism"
+        ],
+        "techniques": [],
+        "part":"Act One",
+        "character":"Inspector"
+    },
+    {
+        "quote": "There are millions and millions and millions of Eva Smiths and John Smiths still left with us.",
+        "themes": [],
+        "techniques": [
+            "Repetition"
+        ],
+        "part":"Act Three",
+        "character":"Inspector"
+    },
+    {
+        "quote": "If men will not learn that lesson, then they will be taught it in fire and blood and anguish.",
+        "themes": [
+            "Responsibility"
+        ],
+        "techniques": [
+            "Religious imagery",
+            "Dramatic irony"
+        ],
+        "part": "Act Three",
+        "character": "Inspector"
+    },
+    {
+        "quote": "She'd had a lot to say - far too much - so she had to go.",
+        "themes": [
+            "Class",
+            "Capitalism"
+        ],
+        "techniques": [],
+        "part":"Act One",
+        "character":"Mr Birling"
+    },
+    {
+        "quote": "She was desperately hard up and at that moment was actually hungry",
+        "themes": [
+            "Class"
+        ],
+        "techniques": [],
+        "part":"Act Two",
+        "character":"Inspector"
+    },
+    {
+        "quote": "She died in misery and agony - hating life.",
+        "themes": [],
+        "techniques": [
+            "Imagery"
+        ],
+        "part": "Act One",
+        "character":"Inspector"
+    },
+    {
+        "quote": "We are members of one body. We are responsible for each other",
+        "themes": [
+            "Collectivism",
+            "Responsibility"
+        ],
+        "techniques": [],
+        "part":"Act Three",
+        "character":"Inspector"
+    },
+    {
+        "quote": "She was very pretty - soft brown hair and big dark eyes.",
+        "themes": [
+            "Gender"
+        ],
+        "techniques": [],
+        "part":"Act Two",
+        "character":"Gerald"
+    },
+    {
+        "quote": "She was young and pretty and warm-hearted - and intensely grateful.",
+        "themes": [
+            "Gender"
+        ],
+        "techniques": [],
+        "part":"Act Two",
+        "character":"Gerald"
+    },
+    {
+        "quote": "You think young women ought to be protected against unpleasant and disturbing things?",
+        "themes": [
+            "Gender"
+        ],
+        "techniques": [],
+        "part":"Act Two",
+        "character":"Gerald"
+    },
+    {
+        "quote": "I hate those hard-eyed, dough-faced women",
+        "themes": [
+            "Gender"
+        ],
+        "techniques": [],
+        "part":"Act Two",
+        "character":"Gerald"
+    },
+    {
+        "quote": "She was pretty and a good sport.",
+        "themes": [
+            "Class"
+        ],
+        "techniques": [],
+        "part":"Act Three",
+        "character":"Eric"
+    },
+    {
+        "quote": "The dining room of a fairly large suburban house, belonging to a prosperous manufacturer.",
+        "themes": [
+            "Class"
+        ],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "The lighting should be pink and intimate until the Inspector arrives, and then it should be brighter and harder.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "Heavy-looking, rather portentous man in his middle fifties with fairly easy manners but rather provincial in his speech.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "A rather cold woman and her husband's social superior.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "A pretty girl in her early twenties, very pleased with life and rather excited.",
+        "themes": [
+            "Age"
+        ],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "Not quite at ease, half shy, half assertive.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "An attractive chap about thirty, rather too manly to be a dandy but very much the easy well-bred young man-about-town.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "The Inspector need not be a big man but he creates at once an impression of massiveness, solidity and purposefulness.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "He speaks carefully, weightily, and has a disconcerting habit of looking hard at the person he addresses before actually speaking.",
+        "themes": [],
+        "techniques": [],
+        "part":"Act One (Stage Directions)"
+    },
+    {
+        "quote": "(Sheila stares at him wonderingly and dubiously.)",
+        "themes": [
+            "Age"
+        ],
+        "techniques": [],
+        "part": "Act One"
+    },
+    {
+        "quote": "(Mrs Birling does not reply. She looks disturbed.)",
+        "themes": [],
+        "techniques": [],
+        "part":"Act Two"
+    },
+    {
+        "quote": "(Eric enters, looking extremely pale and distressed.)",
+        "themes": [],
+        "techniques": [],
+        "part":"Act Two"
+    },
+    {
+        "quote": "(They stare guiltily and dumbfounded.)",
+        "themes": [],
+        "techniques": [],
+        "part": "Act Three"
+    },
+    {
+        "quote": "(The telephone rings sharply.)",
+        "themes": [],
+        "techniques": [],
+        "part":"Act Three"
+    }
+]
