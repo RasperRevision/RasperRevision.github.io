@@ -283,7 +283,13 @@
         "jsonFile": "physics-particle-model",
         "games": 12,
         "bg": "info"
-      }
+      },
+      {
+        "index": 5,
+        "displayName": "Electromagnetic Spectrum",
+        "jsonFile": "electromagneticspectrum",
+        "games": 3,
+        "bg": "danger"
     ]
   },
   {
