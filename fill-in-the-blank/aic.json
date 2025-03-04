@@ -45,7 +45,8 @@
         "quote": "I can't accept any responsibility.",
         "themes": [
             "Individualism",
-            "Responsibility"
+            "Responsibility",
+            "Age"
         ],
         "techniques": [],
         "part": "Act One",
@@ -138,7 +139,9 @@
     },
     {
         "quote": "I suppose we're all nice people now.",
-        "themes": [],
+        "themes": [
+            "Responsibility"
+        ],
         "techniques": [],
         "part":"Act Three",
         "character": "Sheila"
@@ -201,7 +204,9 @@
     },
     {
         "quote": "We're respectable citizens and not criminals",
-        "themes": [],
+        "themes": [
+            "Class"
+        ],
         "techniques": [
             "Foreshadowing"
         ],
@@ -213,7 +218,9 @@
         "themes": [
             "Gender"
         ],
-        "techniques": [],
+        "techniques": [
+            "Symbolism"
+        ],
         "part":"Act Three",
         "character":"Gerald"
     },
@@ -297,7 +304,7 @@
         ],
         "techniques": [],
         "part":"Act Two",
-        "character":"Inspector"
+        "character":"Gerald"
     },
     {
         "quote": "She died in misery and agony - hating life.",
@@ -369,25 +376,29 @@
             "Class"
         ],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "The lighting should be pink and intimate until the Inspector arrives, and then it should be brighter and harder.",
         "themes": [],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "Heavy-looking, rather portentous man in his middle fifties with fairly easy manners but rather provincial in his speech.",
         "themes": [],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "A rather cold woman and her husband's social superior.",
         "themes": [],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "A pretty girl in her early twenties, very pleased with life and rather excited.",
@@ -395,31 +406,36 @@
             "Age"
         ],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "Not quite at ease, half shy, half assertive.",
         "themes": [],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "An attractive chap about thirty, rather too manly to be a dandy but very much the easy well-bred young man-about-town.",
         "themes": [],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "The Inspector need not be a big man but he creates at once an impression of massiveness, solidity and purposefulness.",
         "themes": [],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "He speaks carefully, weightily, and has a disconcerting habit of looking hard at the person he addresses before actually speaking.",
         "themes": [],
         "techniques": [],
-        "part":"Act One (Stage Directions)"
+        "part":"Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "(Sheila stares at him wonderingly and dubiously.)",
@@ -427,30 +443,35 @@
             "Age"
         ],
         "techniques": [],
-        "part": "Act One"
+        "part": "Act One",
+        "character": "Stage Directions"
     },
     {
         "quote": "(Mrs Birling does not reply. She looks disturbed.)",
         "themes": [],
         "techniques": [],
-        "part":"Act Two"
+        "part":"Act Two",
+        "character": "Stage Directions"
     },
     {
         "quote": "(Eric enters, looking extremely pale and distressed.)",
         "themes": [],
         "techniques": [],
-        "part":"Act Two"
+        "part":"Act Two",
+        "character": "Stage Directions"
     },
     {
         "quote": "(They stare guiltily and dumbfounded.)",
         "themes": [],
         "techniques": [],
-        "part": "Act Three"
+        "part": "Act Three",
+        "character": "Stage Directions"
     },
     {
         "quote": "(The telephone rings sharply.)",
         "themes": [],
         "techniques": [],
-        "part":"Act Three"
+        "part":"Act Three",
+        "character": "Stage Directions"
     }
 ]
