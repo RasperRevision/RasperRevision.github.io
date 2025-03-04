@@ -13,6 +13,41 @@
         "character": "Mr Birling"
     },
     {
+        "quote": "Good hard school of experience",
+        "themes": [
+            "Age"
+        ],
+        "techniques": [
+            "Metaphor",
+            "Irony"
+        ],
+        "part": "Act One",
+        "character":"Mr Birling"
+    },
+    {
+        "quote": "We don't guess - we've had experience - and we know.",
+        "themes": [
+            "Age"
+        ],
+        "techniques": [
+            "Hubris",
+            "Irony"
+        ],
+        "part": "Act One",
+        "character":"Mr Birling"
+    },
+    {
+        "quote": "You youngsters just remember what I said",
+        "themes": [
+            "Age"
+        ],
+        "techniques": [
+            "Patronising tone"
+        ],
+        "part": "Act One",
+        "character":"Mr Birling"
+    },
+    {
         "quote": "Unsinkable, absolutely unsinkable.",
         "themes": [
             "Capitalism"
@@ -87,6 +122,15 @@
         "techniques": [],
         "part": "Act Three",
         "character": "Mrs Birling"
+    },
+    {
+        "quote": "Naturally that was one of the things that prejudiced me against her case.",
+        "themes": [
+            "Class"
+        ],
+        "techniques": [],
+        "part":"Act Two",
+        "character":"Mrs Birling"
     },
     {
         "quote": "Go and look for the father of that child. It's his responsibility.",
