@@ -6,14 +6,16 @@
       "paradox",
       "appearance v reality"
     ],
-    "part": "1:1"
+    "part": "1:1",
+    "character": "Witches"
   },
   {
     "quote": "but all's too weak: For / brave Macbeth - well he deserves that name",
     "themes": [
       "bravery"
     ],
-    "part": "1:2"
+    "part": "1:2",
+    "character": "Captain"
   },
   {
     "quote": "unseam'd him from the nave to the chaps",
@@ -21,7 +23,8 @@
       "bravery",
       "violence"
     ],
-    "part": "1:2"
+    "part": "1:2",
+    "character": "Captain (about Macbeth)"
   },
   {
     "quote": "What he hath lost noble Macbeth hath won.",
@@ -29,75 +32,91 @@
       "ambition",
       "virtue"
     ],
-    "part": "1:2"
+    "part": "1:2",
+    "character": "Duncan"
   },
   {
     "quote": "A drum, a drum! / Macbeth doth come.",
     "themes": [
       "supernatural"
     ],
-    "part": "1:3"
+    "part": "1:3",
+    "character": "Third Witch"
   },
   {
     "quote": "So foul and fair a day I have not seen",
     "themes": [
       "supernatural",
-      "paradox",
       "appearance v reality"
+    ],
+    "techniques": [
+      "Paradox"
     ]
+    "character": "Macbeth"
   },
   {
     "quote": "you should be women / And yet your beards forbid me to interpret / That you are so.",
-    "thenes": [
+    "themes": [
       "supernatural"
-    ]
+    ],
+    "character": "Banquo"
   },
   {
     "quote": "All hail Macbeth, that shalt be king hereafter!",
     "themes": [
       "ambition",
       "kingship"
-    ]
+    ],
+    "character": "Third Witch"
   },
   {
     "quote": "Lesser than Macbeth, and greater. Not so happy, yet much happier.",
     "themes": [
-      "paradox"
+      "Equivocation"
+    ],
+    "techniques": [
+      "Paradox"
     ]
+    "character": "First Witch"
   },
   {
     "quote": "Thou shalt get kings, though thou be none.",
     "themes": [
       "ambition",
       "kingship"
-    ]
+    ],
+    "character": "Third Witch"
   },
   {
     "quote": "What, can the devil speak true?",
     "themes": [
       "prophecy",
       "supernatural"
-    ]
+    ],
+    "character": "Banquo"
   },
   {
     "quote": "Two truths are told, / As happy prologues to the swelling act / Of the imperial theme.",
     "themes": [
       "metatheatrical"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "This supernatural soliciting / Cannot be ill, cannot be good.",
     "themes": [
       "ambition",
       "supernatural"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "Look how our partner's rapt.",
     "themes": [
       "supernatural",
       "ambition"
-    ]
+    ],
+    "character": "Banquo"
   },
   {
     "quote": "If chance will have my king, why chance may crown me / Without my stir.",
@@ -105,7 +124,8 @@
       "prophecy",
       "kingship",
       "ambition"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "There's no art / To find the mind's construction in the face.",
@@ -113,14 +133,16 @@
       "appearance v reality",
       "trust",
       "betrayal"
-    ]
+    ],
+    "character": "Duncan"
   },
   {
     "quote": "I have begun to plant thee and will labour / To make thee full of growing",
     "themes": [
       "ambition",
       "growth"
-    ]
+    ],
+    "character": "Duncan"
   },
   {
     "quote": "Stars, hide your fires / Let not light see my black and deep desires",
@@ -128,14 +150,16 @@
       "ambition",
       "betrayal",
       "darkness"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "yet do I fear thy nature, / It is too full o'th'milk of human kindness / To catch the nearest way",
     "themes": [
       "gender roles",
       "ambition"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Come, you spirits / That tend on mortal thoughts, unsex me here / And fill me from the crown to the toe topfull / Of direst cruelty",
@@ -143,7 +167,8 @@
       "gender roles",
       "power",
       "cruelty"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Come, thick night, / And pall thee in the dunnest smoke of hell",
@@ -151,110 +176,141 @@
       "darkness",
       "supernatural",
       "ambition"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "To beguile the time / Look like the time, bear welcome in your eye, / Your hand, your tongue",
     "themes": [
       "appearance v reality"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Look like the innocent flower, but be the serpent under't.",
     "themes": [
       "appearance v reality"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "If it were done when 'tis done, then 'twere well / It were done quickly",
     "themes": [
       "ambition"
-    ]
+    ],
+    "techniques": [
+      "Euphemism"
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "I have no spur / To prick the sides of my intent, but only / Vaulting ambition, which o'erleaps itself / And falls on th'other",
     "themes": [
       "ambition"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "When you durst do it, then you were a man. / And to be more than what you were, you would / Be so much more the man.",
     "themes": [
       "gender roles"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "But screw your courage to the sticking-place, / And we'll not fail.",
     "themes": [
       "bravery"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Is this a dagger which I see before me, / The handle toward my hand?",
     "themes": [
       "supernatural"
-    ]
+    ],
+    "character": "Macbeth"
+  },
+  {
+    "quote": "A dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain?",
+    "themes": [
+      "Hallucination",
+      "Guilt"
+    ],
+    "techniques": [
+      "Symbolism"
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "Had he not resembled / My father as he slept, I had done't.",
     "themes": [
       "fear"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "I could not say 'Amen' / When they did say 'God bless us'.",
     "themes": [
       "guilt",
       "supernatural"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "But wherefore could not I pronounce 'Amen'? / I had most need of blessing and 'Amen' / Stuck in my throat.",
     "themes": [
       "supernatural",
       "guilt"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "Methought I heard a voice cry 'Sleep no more! Macbeth does murder sleep'",
     "themes": [
       "sleep",
       "guilt"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "I am afraid to think what I have done; look on't again I dare not.",
     "themes": [
       "guilt",
       "fear"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "Infirm of purpose! / Give me the daggers. The sleeping and dead / Are but as pictures; 'tis the eye of childhood / That fears a painted devil",
     "themes": [
       "appearance v reality",
       "bravery"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Will all great Neptune's ocean wash this blood clean from my hand?",
     "themes": [
       "blood",
       "guilt"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "My hands are of your colour; but I shame / To wear a heart so white",
     "themes": [
       "fear",
       "guilt"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Had I but died an hour before this chance, I had lived a blessed time; for from this instant there's nothing serious in mortality.",
     "themes": [
       "death"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "There's daggers in men's smiles",
@@ -268,114 +324,124 @@
       "suspicion",
       "supernatural",
       "prophecy"
-    ]
+    ],
+    "character": "Banquo"
   },
   {
     "quote": "To be thus is nothing, / But to be safely thus.",
     "themes": [
       "fear"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "Our fears in Banquo / Stick deep, and his royalty of nature / Reigns that which would be fear'd.",
     "themes": [
       "fear",
       "prophecy"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "There is none but he / Whose being I do fear",
     "themes": [
       "prophecy",
       "fear"
-    ]
+    ],
+    "character": "Macbeth (about Banquo)"
   },
   {
     "quote": "It is concluded. Banquo, thy soul's flight, / If it find heaven, must find it out tonight",
     "themes": [
       "betrayal",
       "cruelty"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "Nought's had, all's spent / Where our desire is got without content",
     "themes": [
       "ambition",
       "guilt"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Upon my head they plac'd a fruitless crown / And put a barren sceptre in my gripe",
     "themes": [
       "kingship",
       "prophecy"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "We have scorch'd the snake, not kill'd it",
     "themes": [
       "fear",
       "death"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "And make our faces vizards to our hearts, / Disguising what they are",
     "themes": [
       "appearance v reality"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "O, full of scorpions is my mind, dear wife!",
     "themes": [
       "guilt",
       "fear"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "O, treachery! / Fly, good Fleance, fly, fly, fly!",
     "themes": [
       "betrayal",
       "death"
-    ]
-  },
-  {
-    "quote": "A dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain?",
-    "themes": [
-      "hallucination"
-    ]
+    ],
+    "character": "Banquo"
   },
   {
     "quote": "Thou canst not say I did it; never shake / Thy gory locks at me!",
     "themes": [
       "guilt",
       "hallucination"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "This is the air-drawn dagger which you said / Led you to Duncan",
     "themes": [
       "hallucination"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Why so, being gone, / I am a man again.",
     "themes": [
       "gender roles",
       "fear"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "By the pricking of my thumbs, / Something wicked this way comes",
     "themes": [
       "supernatural"
-    ]
+    ],
+    "character": "Second Witch"
   },
   {
     "quote": "Macbeth, Macbeth, Macbeth: beware Macduff, / Beware the Thane of Fife. Dismiss me. Enough",
     "themes": [
       "prophecy",
       "supernatural"
-    ]
+    ],
+    "character": "First Apparition"
   },
   {
     "quote": "Be bloody, bold and resolute; laugh to scorn / The power of man, for none of woman born / Shall harm Macbeth",
@@ -383,7 +449,8 @@
       "prophecy",
       "supernatural",
       "equivocation"
-    ]
+    ],
+    "character": "Second Apparition"
   },
   {
     "quote": "Macbeth shall never vanquish'd be until / Great Birnam Wood to high Dunsinane Hill / Shall come against him.",
@@ -391,75 +458,103 @@
       "prophecy",
       "supernatural",
       "equivocation"
-    ]
+    ],
+    "character": "Third Apparition"
   },
   {
     "quote": "Infected by the air whereon they ride, / And damn'd all those that trust them",
     "themes": [
       "guilt",
       "supernatural"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "I am in this earthly world where to do harm / Is often laudable, to do good sometime / Accounted dangerous folly.",
     "themes": [
       "cruelty",
       "appearance v reality"
-    ]
+    ],
+    "character": "Lady Macduff"
+  },
+  {
+    "quote": "He has no children.",
+    "themes": [
+      "Grief",
+      "Death"
+    ],
+    "character": "Macduff (about Macbeth, or possibly Malcolm)"
+  },
+  {
+    "quote": "'Dispute it like a man.' 'I shall do so; But I must also feel it as a man'",
+    "themes": [
+      "Grief",
+      "Death",
+      "Gender roles"
+    ],
+    "character": "Malcolm, Macduff"
   },
   {
     "quote": "Out, damned spot! Out, I say!",
     "themes": [
       "guilt",
       "blood"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "The Thane of Fife had a wife. Where is she now? What, will these hands ne'er be clean?",
     "themes": [
       "blood",
       "guilt"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "Here's the smell of blood still; all the perfumes of Arabia will not sweeten this little hand.",
     "themes": [
       "blood",
       "guilt"
-    ]
+    ],
+    "character": "Lady Macbeth"
   },
   {
     "quote": "His secret murders sticking on his hands",
     "themes": [
       "guilt",
       "death"
-    ]
+    ],
+    "character": "Angus"
   },
   {
     "quote": "I'll fight till from my bones my flesh be hack'd",
     "themes": [
       "bravery",
       "violence"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "She should have died hereafter; / There would have been time for such a word.",
     "themes": [
       "death"
-    ]
+    ],
+    "character": "Macbeth"
   },
   {
     "quote": "The devil himself could not pronounce a title / More hateful to mine ear.",
     "themes": [
       "kingship",
       "cruelty"
-    ]
+    ],
+    "character": "Young Siward"
   },
   {
     "quote": "Turn, hell-hound, turn.",
     "themes": [
       "supernatural"
-    ]
+    ],
+    "character": "Macduff (to Macbeth)"
   },
   {
     "quote": "Macduff was from his mother's womb / Untimely ripp'd",
@@ -467,13 +562,15 @@
       "equivocation",
       "supernatural",
       "prophecy"
-    ]
+    ],
+    "character": "Macduff"
   },
   {
     "quote": "dead butcher and his fiend-like queen",
     "themes": [
       "cruelty",
       "kingship"
-    ]
+    ],
+    "character": "Malcolm"
   }
 ]
