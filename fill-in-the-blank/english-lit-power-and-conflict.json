@@ -1,15 +1,25 @@
 [
   {
-    "quote": "king of kings: Look on my works, ye Mighty and despair!",
+    "quote": "My name is Ozymandias, king of kings",
+    "themes": [
+      "Class",
+      "Arrogance"
+    ],
+    "techniques": [
+      "biblical allusion"
+    ],
+    "part": "Ozymandias",
+    "character": "Percy Shelley"
+  },
+  {
+    "quote": "Look on my works, ye Mighty and despair!",
     "themes": [
       "Fragility of human power",
-      "Class",
       "Power of time"
     ],
     "techniques": [
       "imperative verb",
-      "irony",
-      "biblical allusion"
+      "irony"
     ],
     "part": "Ozymandias",
     "character": "Percy Shelley"
@@ -53,7 +63,7 @@
     "character": "Percy Shelley"
   },
   {
-    "quote": "boundless and bare, / The lone and level sands stretch far away.",
+    "quote": "boundless and bare, the lone and level sands stretch far away.",
     "themes": [
       "Power of nature",
       "Fragility of human power",
@@ -67,7 +77,7 @@
     "character": "Percy Shelley"
   },
   {
-    "quote": "How the youthful harlot's curse / Blasts the newborn infant's tear",
+    "quote": "How the youthful harlot's curse blasts the newborn infant's tear",
     "themes": [
       "Class",
       "Loss of innocence"
@@ -92,7 +102,7 @@
     "character": "William Blake"
   },
   {
-    "quote": "The hapless soldier's sigh / Runs in blood down palace walls",
+    "quote": "The hapless soldier's sigh runs in blood down palace walls",
     "themes": [
       "Class",
       "War",
@@ -119,7 +129,7 @@
     "character": "William Blake"
   },
   {
-    "quote": "And measured motion like a living thing, / Strode after me. With trembling oars I turned",
+    "quote": "And measured motion like a living thing, strode after me. With trembling oars I turned",
     "themes": [
       "Fear",
       "Power of nature",
@@ -133,7 +143,7 @@
     "character": "William Wordsworth"
   },
   {
-    "quote": "No familiar shapes / Remained, no pleasant images of trees",
+    "quote": "No familiar shapes remained, no pleasant images of trees",
     "themes": [
       "Power of nature"
     ],
