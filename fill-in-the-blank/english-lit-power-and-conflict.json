@@ -129,6 +129,18 @@
     "character": "William Blake"
   },
   {
+    "quote": "blights with plagues the marriage hearse.",
+    "themes": [
+      "Class"
+    ],
+    "techniques": [
+      "oxymoron",
+      "symbolism"
+    ],
+    "part": "London",
+    "character": "William Blake"
+  },
+  {
     "quote": "And measured motion like a living thing, strode after me. With trembling oars I turned",
     "themes": [
       "Fear",
@@ -154,21 +166,10 @@
     "character": "William Wordsworth"
   },
   {
-    "quote": "It was an act of stealth; and troubled pleasure",
+    "quote": "It was an act of stealth and troubled pleasure",
     "themes": [
       "Desire",
       "New experience"
-    ],
-    "part": "The Prelude",
-    "character": "William Wordsworth"
-  },
-  {
-    "quote": "When, from behind that craggy steep",
-    "themes": [
-      "Power of nature"
-    ],
-    "techniques": [
-      "volta"
     ],
     "part": "The Prelude",
     "character": "William Wordsworth"
@@ -225,7 +226,20 @@
     "character": "Robert Browning"
   },
   {
-    "quote": "Charging an army, while / All the world wonder'd",
+    "quote": "Notice Neptune, though, taming a sea-horse, thought a rarity, which Claus of Innsbruck cast in bronze for me!",
+    "themes": [
+      "Status",
+      "Pride"
+    ],
+    "techniques": [
+      "symbolism",
+      "first person pronoun"
+    ],
+    "part": "My Last Duchess",
+    "character": "Robert Browning"
+  },
+  {
+    "quote": "Charging an army, while all the world wonder'd",
     "themes": [
       "War",
       "Courage"
@@ -237,7 +251,7 @@
     "character": "Alfred Lord Tennyson"
   },
   {
-    "quote": "Theirs not to make reply, / Theirs not to reason why, / Theirs but to do and die",
+    "quote": "Theirs not to make reply, theirs not to reason why, theirs but to do and die",
     "themes": [
       "War",
       "Power of humans"
@@ -249,7 +263,7 @@
     "character": "Alfred Lord Tennyson"
   },
   {
-    "quote": "Into the jaws of Death, / Into the mouth of Hell",
+    "quote": "Into the jaws of Death, into the mouth of Hell",
     "themes": [
       "Bravery",
       "Patriotism",
@@ -278,6 +292,15 @@
     "character": "Alfred Lord Tennyson"
   },
   {
+    "quote": "Some one had blunder'd",
+    "themes": [
+      "War",
+      "Reality of war"
+    ],
+    "part": "The Charge of the Light Brigade",
+    "character": "Alfred Lord Tennyson"
+  },
+  {
     "quote": "Sudden successive flights of bullets streak the silence",
     "themes": [
       "War",
@@ -285,8 +308,19 @@
       "Reality of war"
     ],
     "techniques": [
-      "sibilance",
-      "fricatives"
+      "sibilance"
+    ],
+    "part": "Exposure",
+    "character": "Wilfred Owen"
+  },
+  {
+    "quote": "But nothing happens.",
+    "themes": [
+      "Futility of conflict",
+      "Reality of war"
+    ],
+    "techniques": [
+      "repetition"
     ],
     "part": "Exposure",
     "character": "Wilfred Owen"
@@ -388,6 +422,26 @@
     "character": "Seamus Heaney"
   },
   {
+    "quote": "We are prepared: we build our houses squat",
+    "themes": [
+      "Power of nature"
+    ],
+    "techniques": [
+        "collective pronoun"
+    ],
+    "part": "Storm on the Island",
+    "character": "Seamus Heaney"
+  },
+  {
+    "quote": "spits like a tame cat turned savage",
+    "themes": [
+      "Power of nature"
+    ],
+    "techniques": [
+        "simile"
+    ]
+  },
+  {
     "quote": "Suddenly, he awoke and was running",
     "themes": [
       "Fear",
@@ -402,11 +456,12 @@
     "character": "Ted Hughes"
   },
   {
-    "quote": "King, honour, human dignity, etcetera / Dropped like luxuries in a yelling alarm",
+    "quote": "King, honour, human dignity, etcetera dropped like luxuries in a yelling alarm",
     "themes": [
       "Reality of conflict"
     ],
     "techniques": [
+      "asyndetic listing",
       "simile"
     ],
     "part": "Bayonet Charge",
@@ -440,12 +495,12 @@
   {
     "quote": "one of them legs it up the road, probably armed, possibly not",
     "themes": [
-      "Uncertainty",
       "Reality of War"
     ],
     "techniques": [
       "conversational tone",
-      "colloquial language"
+      "colloquial language",
+      "doubtful adverbs"
     ],
     "part": "Remains",
     "character": "Simon Armitage"
@@ -536,6 +591,19 @@
     "character": "Jane Weir"
   },
   {
+    "quote": "released a song bird from its cage",
+    "themes": [
+      "Freedom",
+      "Power of memory"
+    ],
+    "techniques": [
+      "symbolism",
+      "metaphor"
+    ],
+    "part": "Poppies",
+    "character": "Jane Weir"
+  },
+  {
     "quote": "as though this were a church and he a priest preparing to intone a Mass",
     "themes": [
       "Futility of conflict",
@@ -586,6 +654,16 @@
     "character": "Carol Ann Duffy"
   },
   {
+    "quote": "he sought approval without words to do what someone must",
+    "themes": [
+        "Guilt",
+        "Regret",
+        "Bystander effect"
+    ],
+    "part": "War Photographer",
+    "character": "Carol Ann Duffy"
+  },
+  {
     "quote": "The kind you find in well-used books, the back of the Koran",
     "themes": [
       "Time"
@@ -615,6 +693,31 @@
     ],
     "techniques": [
       "symbolism",
+      "metaphor"
+    ],
+    "part": "Tissue",
+    "character": "Imtiaz Dharker"
+  },
+  {
+    "quote": "Paper that lets the light shine through",
+    "themes": [
+      "Power of nature",
+      "Fragility of human power"
+    ],
+    "techniques": [
+      "symbolism",
+      "imagery"
+    ],
+    "part": "Tissue",
+    "character": "Imtiaz Dharker"
+  },
+  {
+    "quote": "turned into your skin",
+    "themes": [
+        "Fragility of human power",
+        "Significance of human life"
+    ],
+    "techniques": [
       "metaphor"
     ],
     "part": "Tissue",
@@ -699,6 +802,18 @@
     ],
     "techniques": [
       "juxtaposition"
+    ],
+    "part": "Checking Out Me History",
+    "character": "John Agard"
+  },
+  {
+    "quote": "Blind me to me own identity",
+    "themes": [
+      "Power of society",
+      "Power of identity"
+    ],
+    "techniques": [
+      "metaphor"
     ],
     "part": "Checking Out Me History",
     "character": "John Agard"
