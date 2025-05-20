@@ -112,7 +112,9 @@
         "themes": [
             "Class"
         ],
-        "techniques": [],
+        "techniques": [
+            "Demonstrative"
+        ],
         "part": "Act Two",
         "character": "Mrs Birling"
     },
